@@ -1,0 +1,4 @@
+https://bbc.com,//h3[@class='media__title']
+https://foxnews.com,//article//h3/a
+https://newsmax.com,//div[@id='nmCanvas1Headline']//h1 | //div[@id='nmLeadStoryContent']/div[@id='nmleadStoryHead']/h2/a | //div[@class='nmNewsfrontT ' or @class='nmleadStoryHead']//h2/a
+https://washingtontimes.com,//div[@class='homeholding']//article/h2/a
