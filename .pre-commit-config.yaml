@@ -26,3 +26,4 @@ repos:
     hooks:
       - id: mypy
         additional_dependencies: [types-requests, lxml-stubs]
+exclude: 'tests/snapshots/'

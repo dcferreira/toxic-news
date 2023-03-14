@@ -1,7 +1,9 @@
 import json
 import re
+from datetime import datetime
 
 import pytest
+from fastapi.encoders import jsonable_encoder
 
 from toxic_news.fetchers import Fetcher, newspapers
 
@@ -14,14 +16,60 @@ def clean_url(url: str) -> str:
     return out
 
 
-@pytest.mark.parametrize("newspaper", newspapers)
-def test_parse(assets, snapshot, monkeypatch, newspaper):
-    def mockfetch() -> str:
-        with open(assets / "html" / f"{clean_url(newspaper.url)}.html", "r") as fd:
-            return fd.read()
+def make_mock_fetcher(monkeypatch, url, assets):
+    # mock content to use the HTML in the assets
+    with open(assets / "html" / f"{clean_url(url)}.html", "r") as fd:
+        monkeypatch.setattr(Fetcher, "content", fd.read())
 
-    monkeypatch.setattr(Fetcher, "content", mockfetch())
+    # set request time to a fixed value
+    monkeypatch.setattr(Fetcher, "request_time", datetime(2000, 1, 1))
+
+
+@pytest.mark.parametrize("fetcher", newspapers)
+def test_parse(assets, snapshot, monkeypatch, fetcher):
+    make_mock_fetcher(monkeypatch, fetcher.newspaper.url, assets)
+
     snapshot.snapshot_dir = assets / "../snapshots/test_parse"
     snapshot.assert_match(
-        json.dumps(newspaper.fetch(), indent=2), f"{clean_url(newspaper.url)}.txt"
+        json.dumps(fetcher.fetch(), indent=2), f"{clean_url(fetcher.newspaper.url)}.txt"
+    )
+
+
+@pytest.mark.parametrize("fetcher", newspapers)
+def test_mock_classify(assets, snapshot, monkeypatch, fetcher):
+    make_mock_fetcher(monkeypatch, fetcher.newspaper.url, assets)
+
+    class MockModel:
+        def predict(self, texts):
+            return {
+                k: [0.5] * len(texts)
+                for k in [
+                    "toxicity",
+                    "severe_toxicity",
+                    "obscene",
+                    "identity_attack",
+                    "insult",
+                    "threat",
+                    "sexual_explicit",
+                ]
+            }
+
+    monkeypatch.setattr(Fetcher, "model", MockModel())
+
+    snapshot.snapshot_dir = assets / "../snapshots/test_mock_classify"
+    snapshot.assert_match(
+        json.dumps(jsonable_encoder(fetcher.classify()), indent=2),
+        f"{clean_url(fetcher.newspaper.url)}.txt",
+    )
+
+
+@pytest.mark.slow
+@pytest.mark.parametrize("fetcher", newspapers)
+def test_classify(assets, snapshot, monkeypatch, fetcher):
+    make_mock_fetcher(monkeypatch, fetcher.newspaper.url, assets)
+
+    snapshot.snapshot_dir = assets / "../snapshots/test_classify"
+    snapshot.assert_match(
+        json.dumps(jsonable_encoder(fetcher.classify()), indent=2),
+        f"{clean_url(fetcher.newspaper.url)}.txt",
     )

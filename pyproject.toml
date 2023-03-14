@@ -31,7 +31,9 @@ dependencies = [
     "pydantic==1.10.6",
     "Jinja2==3.1.2",
     "pymongo==4.3.3",
-    "python-dotenv==1.0.0"
+    "python-dotenv==1.0.0",
+    "fastapi==0.94.1",
+    "uvicorn==0.21.0",
 ]
 dynamic = ["version"]
 
@@ -48,6 +50,7 @@ dependencies = [
     "pytest",
     "pytest-cov",
     "pytest-snapshot",
+    "pytest-xprocess",
     "black",
     "isort",
     "ruff",
@@ -59,10 +62,14 @@ dependencies = [
 [tool.hatch.envs.default.scripts]
 cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=toxic_news --cov=tests {args}"
 no-cov = "cov --no-cov {args}"
+integration = "no-cov -m integration"
+slow = "no-cov -m slow"
 lint = ["ruff .", "black . --check -q", "isort . --check -q"]
 format = ["black .", "isort ."]
 types = "mypy ."
-build = "python toxic_news/build.py"
+generate = "python toxic_news/generate.py"
+build = "docker buildx build . -t toxic-news:local"
+serve-docker = "docker compose up"
 
 [tool.hatch.envs.explore]
 dependencies = [
@@ -102,3 +109,10 @@ module = [
     "detoxify",
 ]
 ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers -m \"not integration\" -m \"not slow\""
+markers = [
+    "slow: slow and heavy tests, not sure if these can run in the CI pipeline",
+    "integration: slow tests, shouldn't be run so often"
+]

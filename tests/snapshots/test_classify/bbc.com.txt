@@ -1,0 +1,378 @@
+[
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "US government approves Alaska Willow oil project",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.00029158321558497846,
+    "url": "https://bbc.com/news/world-us-canada-64943603"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Biden pledges 'whatever is needed' amid bank fears",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0005505764274857938,
+    "url": "https://www.bbc.com/news/world-us-canada-64935170"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "TikTok users shrug at China fears: 'It's hard to care'",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0012966371141374111,
+    "url": "https://www.bbc.com/news/business-64827885"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "'A slap in the face for Hollywood'",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.6437028646469116,
+    "url": "https://www.bbc.com/culture/article/20230313-oscars-2023-a-slap-in-the-face-for-hollywood"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Why burnout may never end",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0006276661879383028,
+    "url": "https://www.bbc.com/worklife/article/20230309-is-it-impossible-to-end-burnout"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Heavy losses reported as battle for Bakhmut rages",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0008240866591222584,
+    "url": "https://bbc.com/news/world-europe-64935449"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Michelle Yeoh's mum in tears after Oscars win",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.011868578381836414,
+    "url": "https://bbc.com/news/entertainment-arts-64942684"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Biden seeks to reassure US after two banks collapse",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0006192611763253808,
+    "url": "https://bbc.com/news/live/business-64940883"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "New Zealand beat Sri Lanka in final-ball thriller",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0002744774392340332,
+    "url": "https://bbc.com/sport/cricket/64937730"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "What has gone wrong for England - and what next?",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0005975503008812666,
+    "url": "https://bbc.com/sport/rugby-union/64938583"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Gary Lineker to return as BBC denies climbdown",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0008369782590307295,
+    "url": "https://bbc.com/news/uk-64936917"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "7 best moments from this year's Oscars",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0003732171899173409,
+    "url": "https://www.bbc.com/news/entertainment-arts-64935925"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "The best fashion looks at the Oscars",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0003910793166141957,
+    "url": "https://www.bbc.com/news/entertainment-arts-64935067"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Five quotes from backstage at the 95th Oscars",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0006489527877420187,
+    "url": "https://www.bbc.com/news/entertainment-arts-64936405"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "The 'sleeping giant' of sea level rise",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0017606146866455674,
+    "url": "https://www.bbc.com/future/article/20230309-climate-change-the-sea-level-rise-locked-in-east-antarctica"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "The Last of Us finale is darkly knotty",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.009690321050584316,
+    "url": "https://www.bbc.com/culture/article/20230309-the-last-of-us-finale-review-a-knotty-violent-ending"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "The young workers in a post-Me Too era",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.00033676173188723624,
+    "url": "https://www.bbc.com/worklife/article/20230307-did-me-too-change-the-workplace-for-gen-z"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "How to survive in the wilderness",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0005343140801414847,
+    "url": "https://www.bbc.com/travel/article/20230312-why-bushcraft-is-booming-again"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "How a dictator's daughter built \u00a3200m property empire",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.008791707456111908,
+    "url": "https://www.bbc.com/news/world-64915348"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Scientists track iceberg the size of London",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0005913035711273551,
+    "url": "https://www.bbc.com/news/science-environment-64919341"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "'You can rebuild Mariupol - you can't bring back the dead'",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.001749021583236754,
+    "url": "https://www.bbc.com/news/world-europe-64887890"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "The tech helping women manage the menopause",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.007945898920297623,
+    "url": "https://www.bbc.com/news/business-64899189"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Is there a better way to insulate our draughty homes?",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0008417262579314411,
+    "url": "https://www.bbc.com/news/business-64636384"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "'Not affected by one party or other' - BBC boss denies Tory pressure",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.000390420900657773,
+    "url": "https://bbc.com/news/uk-64937660"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "'Not affected by one party or other' - BBC...",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.00028044803184457123,
+    "url": "https://bbc.com/news/uk-64937660"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Lineker: The BBC director general's interview...",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.00047017072211019695,
+    "url": "https://bbc.com/news/uk-64937658"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Chancellor on HSBC buying UK arm of Silicon...",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.00035911984741687775,
+    "url": "https://bbc.com/news/business-64937654"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Best Oscars acceptance speeches... in 61...",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.000386362022254616,
+    "url": "https://bbc.com/news/entertainment-arts-64935382"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "I can't say anything at the moment, I'm sorry...",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.00040629954310134053,
+    "url": "https://bbc.com/news/uk-64932702"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "A weekend of BBC football show chaos... in 90...",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0007001787307672203,
+    "url": "https://bbc.com/news/uk-64929759"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Looks like Lineker broke rules on a...",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0008700991747900844,
+    "url": "https://bbc.com/news/uk-64931367"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Watch: Murder suspect flees US courtroom",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.006268235854804516,
+    "url": "https://bbc.com/news/world-us-canada-64929190"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "How a tummy-tuck kidnap ended in cartel...",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.029517898336052895,
+    "url": "https://bbc.com/news/world-us-canada-64753595"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "'I rarely saw people who looked like me'",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.000831448589451611,
+    "url": "https://bbc.com/news/uk-england-merseyside-64881091"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Lineker 'delighted' to return as BBC reviews social media rules",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0003688070282805711,
+    "url": "https://bbc.com/news/live/entertainment-arts-64938252"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Vasectomies even safer than reported, doctors say",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.015217477455735207,
+    "url": "https://bbc.com/news/health-64899943"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Li Qiang takes centre stage as China's new premier",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0003876091504935175,
+    "url": "https://bbc.com/news/world-asia-china-64936125"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Still time to save Our Wild Isles, say campaigners",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0005347930127754807,
+    "url": "https://bbc.com/news/science-environment-64903069"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Lessons learned from failed 'tech bank' SVB",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0008828170248307288,
+    "url": "https://bbc.com/news/technology-64939556"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "New Attenborough series: Three must-watch moments",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0003359344264026731,
+    "url": "https://bbc.com/news/science-environment-64867517"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "UK microchip firms call for millions in investment",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0003799841506406665,
+    "url": "https://www.bbc.com/news/business-64872465"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "'We cut our website's carbon emissions by 520kg in a year'",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0005455698119476438,
+    "url": "https://www.bbc.co.uk/news/business-64623955"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Tributes paid to acclaimed documentary photographer",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.00034283686545677483,
+    "url": "https://bbc.com/news/uk-england-tyne-64918073"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Africa's top shots: Cool frames and gold nuggets",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0017178711714223027,
+    "url": "https://bbc.com/news/world-africa-64902352"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Robert Blake: From Hollywood to murder accused",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.00543572660535574,
+    "url": "https://bbc.com/news/world-us-canada-64911059"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Photographers capture March's 'worm moon'",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.0005118930712342262,
+    "url": "https://bbc.com/news/uk-england-york-north-yorkshire-64887992"
+  },
+  {
+    "newspaper": "BBC",
+    "language": "en",
+    "text": "Turkish women defy protest ban to march in Istanbul",
+    "date": "2000-01-01T00:00:00",
+    "toxicity": 0.029058121144771576,
+    "url": "https://bbc.com/news/world-europe-64897655"
+  }
+]

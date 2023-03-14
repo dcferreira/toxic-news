@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+
+  backend:
+    image: toxic-news:local
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017
+      - DATABASE_NAME=test_database
+    ports:
+      - "5000:8080"

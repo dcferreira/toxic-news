@@ -1,127 +1,502 @@
 [
-  "Parents sue over 'high crime area' after football player star son brutally gunned down in parking lot",
-  "CBP staffer questioned if rancher was 'crazy' when calling about alleged traffickers",
-  "VP Harris reportedly won't speak to Elizabeth Warren after 'pretty insulting' snub",
-  "Video of student goes viral after being 'deprogrammed' about White privilege",
-  "Biden tries softening banking system blow after historic SVB collapse",
-  "Angela Bassett accused of being 'sore loser' after Jamie Lee Curtis wins Oscar",
-  "'Wheel of Fortune' host apologizes to contestant after mocking phobia on game show",
-  "LIVE UPDATES: Stocks volatile as Silicon Valley Bank collapse rattles Wall Street",
-  "Woman finds dead husband in their home months after his disappearance",
-  "Man reportedly shot over 70 times while on porch of home",
-  "Emily Ratajkowski shows off mostly naked body at Vanity Fair Oscars party",
-  "Gov. Whitmer blasted for 'gaslighting' residents on COVID-19 restrictions",
-  "Ex-UFC star gives fans a look at her steamy content on social media",
-  "House committee subpoenas bank for records related to Hunter Biden dealings",
-  "Virgin Islands officials mum on US swim champ autopsy results as spring break vacations begin",
-  "Manhunt underway after two officers are shot, one of them killed",
-  "Nursery school under fire for advising parents to not call daughters 'pretty'",
-  "Researchers identify this mammal as latest potential cause of climate change",
-  "NYC ICE office reportedly backed up until 2032 amid massive migrant influx",
-  "Florida Democrat forgets the Pledge of Allegiance at first public meeting",
-  "XFL accidentally shows half-naked player on broadcast",
-  "Mayorkas under fire after 1,000 migrants rush El Paso border: 'Resign immediately'",
-  "Don Lemon seemingly roasted at Oscars by lead actress winner",
-  "Xi Jinping to reportedly speak with Zelenskyy after meeting Putin in Moscow",
-  "\u2018White Lotus\u2019 actor claims agent dropped him for refusing to reveal sexuality",
-  "Suspect killed in shooting was \u2018waiting\u2019 for deputies before opening fire",
-  "Chiefs\u2019 Chris Jones vows he \u2018will not play for another franchise\u2019 ahead free agency",
-  "Man catches fish with bare hands in flooded street",
-  "Doctor warns against 'dangerous' DEI agenda exposed at medical school",
-  "Faith and science take center stage on space shuttle flight in new book",
-  "iPhone owners outraged over forced clean energy usage setting",
-  "Large alligator gets stuck in metal fence in Florida",
-  "On this day in history, US Army K-9 Corps begins training dogs to fight in WWII",
-  "PLAY HERE: Check out the latest edition of the Fox News Daily Crossword Puzzle",
-  "Political cartoons of the day",
-  "Scientist says nature's 'skeleton key' could be solution to toxic chemical spills and save East Palestine",
-  "International Church of Cannabis spars with liberal city \u2014 but it's not because of drugs",
-  "Why Jimmy Kimmel will flop as host of the Oscars: Jimmy Failla",
-  "Treasury rejects complaint that it 'excluded' Senate GOP from Silicon Valley Bank briefing",
-  "Thousands of junior doctors go on strike across England to demand better pay",
-  "Biden says Americans should 'feel confident' in banking system after federal response to SVB collapse",
-  "Biden admin's response to Silicon Valley Bank collapse is the 'greatest form of corporate cronyism': Tim Scott",
-  "SVB collapse only 'the tip of the iceberg' under Biden spending policies, economist warns",
-  "First-year medical school students exposed to woke 'sex and gender primer' lesson",
-  "Video of White college student goes viral after being 'deprogrammed' about White privilege",
-  "Trump makes first stop in Iowa this cycle just days after DeSantis, expands 2024 campaign ground game",
-  "Hunter Biden: Subpoenaed Bank of America records opened 'new avenues' of investigation, House Oversight says",
-  "GOP midterm candidate sounds off on 'criminal' request of his private military records by Dem-aligned group",
-  "Dave McCormick\u2019s new book could serve as a \u2018battle plan\u2019 for a 2024 GOP Senate run in Pennsylvania",
-  "China's quiet land grab threatens our most valuable resource",
-  "Patriot remembered: Military mom memorializes son who died in National Guard helicopter crash with new book",
-  "US Merchant Marine Academy rescinds vaccine mandate days after accusations of 'iIlegal attack'",
-  "Mayor Eric Adams' church and state remarks 'surprising' but 'encouraging,' says religious liberty group",
-  "UN commission claims international community, Syrian government didn't react to earthquake quickly enough",
-  "Former Haiti mayor accused of torturing, killing his political opponents heads to court in Boston",
-  "Xi Jinping to speak with Zelenskyy after meeting Putin in Moscow: report",
-  "Nursery school under fire for advising parents to not call daughters 'pretty' or 'princess': 'Daft advice'",
-  "What became of 20 babies Paris Hilton left behind?",
-  "5 ways Biden is still coming for your gas stove",
-  "Elizabeth Warren's shocking Spirit folly will hurt all air travelers",
-  "China's thought police may already be at work in America",
-  "Be well: Why it's wise to ditch the elevator and take the stairs",
-  "Mediterranean, MIND diets shown to reduce signs of Alzheimer\u2019s in the brain, study finds",
-  "Most men diagnosed with prostate cancer don't need to rush to surgery, radiation treatments: study",
-  "Prince Harry says psychedelic drugs helped him \u2014 but what about the risks and dangers?",
-  "Border Patrol staffer questioned whether Ariz. rancher was \u2018crazy\u2019 when calling about alleged drug traffickers",
-  "Florida suspect killed in shooting was \u2018waiting\u2019 for deputies before opening fire, wounding officer: police",
-  "Ohio judge to determine validity of insanity defense submitted by man who killed 2 children",
-  "Black history through the years: Rosa Parks, Sojourner Truth, MLK Jr. and other famous figures in the US",
-  "How to send Valentines to kids in hospitals, nursing home residents and more",
-  "In memory of World War II veteran Lester Tanner: 'We are all Jewish'",
-  "Why does so much of Gen-Z hate America? Here's why we can't give up on them",
-  "China flexes muscles in Latin America in latest security challenge to US",
-  "On this day in history, March 13, 1942, US Army K-9 Corps begins training dogs to fight in World War II",
-  "David Blaine dislocates shoulder, continues Las Vegas performance: \u2018Wow that hurt\u2019",
-  "Angela Bassett accused of being 'sore loser' in viral Oscar moment after Jamie Lee Curtis' win",
-  "'Wheel of Fortune' host Pat Sajak apologizes to contestant after mocking phobia",
-  "Bruce Springsteen postpones 3 shows due to illness a month into first major tour in 6 years",
-  "Jason Kelce announces plans to return to Eagles in 2023: 'I ain\u2019t f---ing done yet!'",
-  "Chargers star Austin Ekeler requests permission to seek trade after stellar year: reports",
-  "Patriots start offseason wheeling and dealing with Jonathan Jones deal, Jonnu Smith trade: reports",
-  "Rehabilitated bald eagle released in Mississippi after getting struck by car",
-  "10 safety tips to remember if you're traveling out of the country for spring break",
-  "Prince Harry, Meghan Markle's children have yet to be invited to King Charles' coronation: report",
-  "Husky dog who was called 'ugly' for crooked smile finds family who drives 2.6K miles to adopt him",
-  "Personal loan interest rates tumble below 15% for 5-year fixed-rate loans",
-  "Savings window opens: Today's 30-year mortgage rates fall to lowest levels in 26 days | March 13, 2023",
-  "Inflation, recession fears dampen financial health outlook for many: survey",
-  "How to file your 2023 taxes and get the most out of your return",
-  "Beware of rise in short-term vacation rental scams",
-  "Stop! This mistake is loading your device with adware and trackers!",
-  "Now you can add ChatGPT to your browser",
-  "Woody Harrelson's \u2018Champions\u2019 turns spotlight on actors with disabilities: It's our 'superpower'",
-  "Don Lemon seemingly roasted at Oscars by Michelle Yeoh: 'Don't let anybody tell you you're past your prime'",
-  "Ke Huy Quan embraced onstage by presenter Harrison Ford as 'Everything Everywhere All At Once' wins Oscar",
-  "Rent growth had smallest gain in two years: Redfin",
-  "Charles Schwab shares head for worst day ever, CFO defends firm",
-  "First Republic shares plunge on SVB contagion fears",
-  "'Jesus in Space': Faith and science take center stage on space shuttle flight in new book",
-  "Biblical drama centering around 'controversial' passage in Scripture enjoys crowdfunding success",
-  "Russell Brand shares faith's role in overcoming addiction: 'I need God, or I cannot cope in this world'",
-  "Drowsy drivers just won't stop soon enough, AAA study finds",
-  "William Byron wins second consecutive race, holds off Ryan Blaney in Phoenix",
-  "Sammy Smith, 18-year-old high schooler, picks up first Xfinity Series win",
-  "Amelia Earhart's once-lost 1937 Cord added to National Historic Vehicle Register",
-  "Coconuts being incorporated into shoreline protection projects across the world",
-  "Shakira says she 'put up with so much crap' as she talks 'rough year' after split with Gerard Piqu\u00e9",
-  "Paulina Porizkova, 57, reveals she\u2019s dating again despite \u2018trust issues\u2019",
-  "Cher, 76, and Alexander Edwards, 37, share passionate kiss as they make their red carpet debut",
-  "The popular cereal that debuted the decade you were born",
-  "Celebrate National Margarita Day with these sweet and savory cocktail recipes",
-  "American Heart Month: Add these heart-healthy foods recommended by experts to your grocery list",
-  "5 homemade Valentine\u2019s Day dinner recipe ideas",
-  "Nor'easter to rapidly intensify as it blasts East Coast with heavy snow, rain, high winds, coastal flooding",
-  "California again besieged by atmospheric river's flooding rains, triggering 'roofalanche' concerns",
-  "Remember all that snow? Here are the most memorable nor'easters over the years",
-  "Yosemite National Park extends park closure as another atmospheric river storm slams California",
-  "Arkansas student dresses as her 2nd-grade teacher for school 'Superhero Day': 'Melted my heart'",
-  "Short questions with Dana Perino",
-  "Tampa woman who fought attacker inside apartment gym honored by sheriff's office: 'Strength and Courage'",
-  "The Salvation Army offers emotional, spiritual support after Ohio train derailment: 'Providing hope'",
-  "The Next Revolution w/ Steve Hilton - Sunday, March 12",
-  "Life, Liberty & Levin - Sunday, March 12",
-  "Sunday Night in America with Trey Gowdy - Sunday, March 12",
-  "The Big Sunday Show - Sunday, March 12"
+  [
+    "Parents sue over 'high crime area' after football player star son brutally gunned down in parking lot",
+    "https://www.foxnews.com/us/georgia-high-school-football-stars-alleged-killer-pleads-not-guilty-family-sues-high-crime-area"
+  ],
+  [
+    "CBP staffer questioned if rancher was 'crazy' when calling about alleged traffickers",
+    "https://www.foxnews.com/us/border-patrol-questioned-arizona-rancher-crazy-calling-alleged-drug-traffickers"
+  ],
+  [
+    "VP Harris reportedly won't speak to Elizabeth Warren after 'pretty insulting' snub",
+    "https://www.foxnews.com/media/kamala-harris-wont-speak-elizabeth-warren-after-pretty-insulting-2024-snub-report"
+  ],
+  [
+    "Video of student goes viral after being 'deprogrammed' about White privilege",
+    "https://www.foxnews.com/media/video-white-college-student-goes-viral-deprogrammed-about-white-privilege"
+  ],
+  [
+    "Biden tries softening banking system blow after historic SVB collapse",
+    "https://www.foxnews.com/politics/biden-americans-confidence-banking-system-federal-response-svb-collapse"
+  ],
+  [
+    "Angela Bassett accused of being 'sore loser' after Jamie Lee Curtis wins Oscar",
+    "https://www.foxnews.com/entertainment/angela-bassett-accused-being-sore-loser-viral-oscar-moment-jamie-lee-curtis-win"
+  ],
+  [
+    "'Wheel of Fortune' host apologizes to contestant after mocking phobia on game show",
+    "https://www.foxnews.com/entertainment/wheel-of-fortune-host-pat-sajak-apologizes-contestant-after-mocking-phobia"
+  ],
+  [
+    "LIVE UPDATES: Stocks volatile as Silicon Valley Bank collapse rattles Wall Street",
+    "https://www.foxbusiness.com/live-news/stock-market-news-today-march-13-2023"
+  ],
+  [
+    "Woman finds dead husband in their home months after his disappearance",
+    "https://www.foxnews.com/us/illinois-woman-discovers-dead-husband-closet-months-disappearance"
+  ],
+  [
+    "Man reportedly shot over 70 times while on porch of home",
+    "https://www.foxnews.com/us/philadelphia-man-shot-70-times-porch-home-report"
+  ],
+  [
+    "Emily Ratajkowski shows off mostly naked body at Vanity Fair Oscars party",
+    "https://www.foxnews.com/entertainment/emily-ratajkowski-shows-off-mostly-naked-body-vanity-fair-oscars-party-nsfw-pictures"
+  ],
+  [
+    "Gov. Whitmer blasted for 'gaslighting' residents on COVID-19 restrictions",
+    "https://www.foxnews.com/politics/gov-whitmer-blasted-gaslighting-residents-covid-19-restrictions-admitting-didnt-make-sense"
+  ],
+  [
+    "Ex-UFC star gives fans a look at her steamy content on social media",
+    "https://www.foxnews.com/sports/ex-ufc-star-paige-vanzant-gives-fans-behind-scenes-look-her-steamy-content-social-media"
+  ],
+  [
+    "House committee subpoenas bank for records related to Hunter Biden dealings",
+    "https://www.foxnews.com/politics/hunter-biden-subpoenaed-bank-america-records-opened-new-avenues-investigation-house-oversight"
+  ],
+  [
+    "Virgin Islands officials mum on US swim champ autopsy results as spring break vacations begin",
+    "https://www.foxnews.com/us/virgin-islands-officials-mum-us-swim-champ-autopsy-results-spring-break-vacations-begin"
+  ],
+  [
+    "Manhunt underway after two officers are shot, one of them killed",
+    "https://www.foxnews.com/us/manhunt-unfolds-missouri-2-officers-shot-1-killed"
+  ],
+  [
+    "Nursery school under fire for advising parents to not call daughters 'pretty'",
+    "https://www.foxnews.com/world/nursery-school-under-fire-advising-parents-not-call-daughters-pretty-princess-daft-advice"
+  ],
+  [
+    "Researchers identify this mammal as latest potential cause of climate change",
+    "https://www.foxnews.com/politics/researchers-identify-mammal-latest-potential-cause-climate-change-suggest-balancing-species"
+  ],
+  [
+    "NYC ICE office reportedly backed up until 2032 amid massive migrant influx",
+    "https://www.foxnews.com/us/new-york-city-ice-office-reportedly-backed-2032-massive-migrant-influx-border"
+  ],
+  [
+    "Florida Democrat forgets the Pledge of Allegiance at first public meeting",
+    "https://www.foxnews.com/politics/democrat-forgets-pledge-allegiance-first-miami-city-commission-meeting"
+  ],
+  [
+    "XFL accidentally shows half-naked player on broadcast",
+    "https://www.foxnews.com/sports/xfl-accidentally-shows-half-naked-player-broadcast"
+  ],
+  [
+    "Mayorkas under fire after 1,000 migrants rush El Paso border: 'Resign immediately'",
+    "https://www.foxnews.com/media/mayorkas-under-fire-1000-migrants-rush-el-paso-border-resign-immediately"
+  ],
+  [
+    "Don Lemon seemingly roasted at Oscars by lead actress winner",
+    "https://www.foxnews.com/media/don-lemon-seemed-roasted-oscars-michelle-yeoh-dont-let-anybody-tell-you-youre-ever-past-your-prime"
+  ],
+  [
+    "Xi Jinping to reportedly speak with Zelenskyy after meeting Putin in Moscow",
+    "https://www.foxnews.com/world/xi-jinping-speak-zelenskyy-meeting-putin-moscow-report"
+  ],
+  [
+    "\u2018White Lotus\u2019 actor claims agent dropped him for refusing to reveal sexuality",
+    "https://www.foxnews.com/media/white-lotus-actor-claims-agent-dropped-him-refusing-reveal-sexuality-pick-lane"
+  ],
+  [
+    "Suspect killed in shooting was \u2018waiting\u2019 for deputies before opening fire",
+    "https://www.foxnews.com/us/florida-suspect-killed-shooting-waiting-deputies-opening-fire-wounding-officer-police"
+  ],
+  [
+    "Chiefs\u2019 Chris Jones vows he \u2018will not play for another franchise\u2019 ahead free agency",
+    "https://www.foxnews.com/sports/chiefs-chris-jones-vows-he-will-not-play-another-franchise-ahead-free-agency"
+  ],
+  [
+    "Man catches fish with bare hands in flooded street",
+    "https://www.foxnews.com/us/man-catches-fish-bare-hands-flooded-california-street-dinner-tonight"
+  ],
+  [
+    "Doctor warns against 'dangerous' DEI agenda exposed at medical school",
+    "https://www.foxnews.com/media/first-year-medical-school-students-exposed-woke-sex-gender-primer-lesson"
+  ],
+  [
+    "Faith and science take center stage on space shuttle flight in new book",
+    "https://www.foxnews.com/lifestyle/jesus-space-faith-science-center-stage-space-shuttle-book"
+  ],
+  [
+    "iPhone owners outraged over forced clean energy usage setting",
+    "https://www.foxnews.com/tech/iphone-owners-outraged-forced-clean-energy-usage-setting"
+  ],
+  [
+    "Large alligator gets stuck in metal fence in Florida",
+    "https://www.foxnews.com/video/6322493874112"
+  ],
+  [
+    "On this day in history, US Army K-9 Corps begins training dogs to fight in WWII",
+    "https://www.foxnews.com/lifestyle/this-day-history-march-13-1942-us-army-k-9-corps-begins-training-dogs-fight-world-war-ii"
+  ],
+  [
+    "PLAY HERE: Check out the latest edition of the Fox News Daily Crossword Puzzle",
+    "https://www.foxnews.com/daily-crossword-puzzle"
+  ],
+  [
+    "Political cartoons of the day",
+    "https://www.foxnews.com/politics/cartoons-slideshow"
+  ],
+  [
+    "Scientist says nature's 'skeleton key' could be solution to toxic chemical spills and save East Palestine",
+    "https://www.foxnews.com/us/scientist-says-natures-skeleton-key-solution-toxic-chemical-spills-save-east-palestine"
+  ],
+  [
+    "International Church of Cannabis spars with liberal city \u2014 but it's not because of drugs",
+    "https://www.foxnews.com/politics/international-church-cannabis-spars-liberal-city-not-drugs"
+  ],
+  [
+    "Why Jimmy Kimmel will flop as host of the Oscars: Jimmy Failla",
+    "https://www.foxnews.com/entertainment/jimmy-kimmel-flop-host-oscars-jimmy-failla"
+  ],
+  [
+    "Treasury rejects complaint that it 'excluded' Senate GOP from Silicon Valley Bank briefing",
+    "https://www.foxnews.com/politics/treasury-rejects-complaint-excluded-senate-gop-silicon-valley-bank-briefing"
+  ],
+  [
+    "Thousands of junior doctors go on strike across England to demand better pay",
+    "https://www.foxnews.com/world/thousands-uk-doctors-strike-across-england-demand-better-pay"
+  ],
+  [
+    "Biden says Americans should 'feel confident' in banking system after federal response to SVB collapse",
+    "https://www.foxnews.com/politics/biden-americans-confidence-banking-system-federal-response-svb-collapse"
+  ],
+  [
+    "Biden admin's response to Silicon Valley Bank collapse is the 'greatest form of corporate cronyism': Tim Scott",
+    "https://www.foxnews.com/media/biden-administration-silicon-valley-bank-collapse-corporate-cronyism-tim-scott"
+  ],
+  [
+    "SVB collapse only 'the tip of the iceberg' under Biden spending policies, economist warns",
+    "https://www.foxnews.com/media/svb-collapse-tip-iceberg-biden-spending-policies-economist-warns"
+  ],
+  [
+    "First-year medical school students exposed to woke 'sex and gender primer' lesson",
+    "https://www.foxnews.com/media/first-year-medical-school-students-exposed-woke-sex-gender-primer-lesson"
+  ],
+  [
+    "Video of White college student goes viral after being 'deprogrammed' about White privilege",
+    "https://www.foxnews.com/media/video-white-college-student-goes-viral-deprogrammed-about-white-privilege"
+  ],
+  [
+    "Trump makes first stop in Iowa this cycle just days after DeSantis, expands 2024 campaign ground game",
+    "https://www.foxnews.com/politics/trump-makes-first-stop-iowa-cycle-just-days-after-desantis-expands-2024-campaign-ground-game"
+  ],
+  [
+    "Hunter Biden: Subpoenaed Bank of America records opened 'new avenues' of investigation, House Oversight says",
+    "https://www.foxnews.com/politics/hunter-biden-subpoenaed-bank-america-records-opened-new-avenues-investigation-house-oversight"
+  ],
+  [
+    "GOP midterm candidate sounds off on 'criminal' request of his private military records by Dem-aligned group",
+    "https://www.foxnews.com/politics/gop-midterm-candidate-sounds-criminal-request-private-military-records-dem-aligned-group"
+  ],
+  [
+    "Dave McCormick\u2019s new book could serve as a \u2018battle plan\u2019 for a 2024 GOP Senate run in Pennsylvania",
+    "https://www.foxnews.com/politics/dave-mccormicks-new-book-serve-battle-plan-2024-gop-senate-run-pennsylvania"
+  ],
+  [
+    "China's quiet land grab threatens our most valuable resource",
+    "https://www.foxnews.com/opinion/china-quiet-land-grab-threatens-most-valuable-resource"
+  ],
+  [
+    "Patriot remembered: Military mom memorializes son who died in National Guard helicopter crash with new book",
+    "https://www.foxnews.com/lifestyle/patriot-remembered-military-mom-memorializes-son-died-national-guard-helicopter-crash-book"
+  ],
+  [
+    "US Merchant Marine Academy rescinds vaccine mandate days after accusations of 'iIlegal attack'",
+    "https://www.foxnews.com/us/us-merchant-marine-academy-rescinds-vaccine-mandate-days-after-accusations-legal-attack"
+  ],
+  [
+    "Mayor Eric Adams' church and state remarks 'surprising' but 'encouraging,' says religious liberty group",
+    "https://www.foxnews.com/politics/mayor-eric-adams-church-state-remarks-surprising-encouraging-says-pro-religious-liberty-group"
+  ],
+  [
+    "UN commission claims international community, Syrian government didn't react to earthquake quickly enough",
+    "https://www.foxnews.com/world/un-commission-claims-international-community-syrian-government-earthquake-quickly"
+  ],
+  [
+    "Former Haiti mayor accused of torturing, killing his political opponents heads to court in Boston",
+    "https://www.foxnews.com/world/former-haiti-mayor-accused-torturing-killing-political-opponents-heads-court-boston"
+  ],
+  [
+    "Xi Jinping to speak with Zelenskyy after meeting Putin in Moscow: report",
+    "https://www.foxnews.com/world/xi-jinping-speak-zelenskyy-meeting-putin-moscow-report"
+  ],
+  [
+    "Nursery school under fire for advising parents to not call daughters 'pretty' or 'princess': 'Daft advice'",
+    "https://www.foxnews.com/world/nursery-school-under-fire-advising-parents-not-call-daughters-pretty-princess-daft-advice"
+  ],
+  [
+    "What became of 20 babies Paris Hilton left behind?",
+    "https://www.foxnews.com/opinion/what-became-20-babies-paris-hilton-left-behind"
+  ],
+  [
+    "5 ways Biden is still coming for your gas stove",
+    "https://www.foxnews.com/opinion/5-ways-biden-still-coming-your-gas-stove"
+  ],
+  [
+    "Elizabeth Warren's shocking Spirit folly will hurt all air travelers",
+    "https://www.foxnews.com/opinion/elizabeth-warrens-shocking-spirit-folly-will-hurt-all-air-travelers"
+  ],
+  [
+    "China's thought police may already be at work in America",
+    "https://www.foxnews.com/opinion/chinas-thought-police-may-already-work-america"
+  ],
+  [
+    "Be well: Why it's wise to ditch the elevator and take the stairs",
+    "https://www.foxnews.com/health/be-well-wise-ditch-elevator-take-stairs"
+  ],
+  [
+    "Mediterranean, MIND diets shown to reduce signs of Alzheimer\u2019s in the brain, study finds",
+    "https://www.foxnews.com/health/mediterranean-mind-diets-shown-reduce-signs-alzheimers-brain-study-finds"
+  ],
+  [
+    "Most men diagnosed with prostate cancer don't need to rush to surgery, radiation treatments: study",
+    "https://www.foxnews.com/health/most-men-diagnosed-prostate-cancer-dont-need-rush-surgery-radiation-treatments-study"
+  ],
+  [
+    "Prince Harry says psychedelic drugs helped him \u2014 but what about the risks and dangers?",
+    "https://www.foxnews.com/health/prince-harry-psychedelic-drugs-helped-him-what-risks-dangers"
+  ],
+  [
+    "Border Patrol staffer questioned whether Ariz. rancher was \u2018crazy\u2019 when calling about alleged drug traffickers",
+    "https://www.foxnews.com/us/border-patrol-questioned-arizona-rancher-crazy-calling-alleged-drug-traffickers"
+  ],
+  [
+    "Florida suspect killed in shooting was \u2018waiting\u2019 for deputies before opening fire, wounding officer: police",
+    "https://www.foxnews.com/us/florida-suspect-killed-shooting-waiting-deputies-opening-fire-wounding-officer-police"
+  ],
+  [
+    "Ohio judge to determine validity of insanity defense submitted by man who killed 2 children",
+    "https://www.foxnews.com/us/ohio-judge-determine-validity-insanity-defense-submitted-killed-2-children"
+  ],
+  [
+    "Black history through the years: Rosa Parks, Sojourner Truth, MLK Jr. and other famous figures in the US",
+    "https://www.foxnews.com/lifestyle/black-history-10-famous-figures-us"
+  ],
+  [
+    "How to send Valentines to kids in hospitals, nursing home residents and more",
+    "https://www.foxnews.com/lifestyle/send-valentines-children-hospitals-nursing-homes-shelters"
+  ],
+  [
+    "In memory of World War II veteran Lester Tanner: 'We are all Jewish'",
+    "https://www.foxnews.com/lifestyle/memory-wwii-veteran-lester-tanner-we-all-jewish"
+  ],
+  [
+    "Why does so much of Gen-Z hate America? Here's why we can't give up on them",
+    "https://www.foxnews.com/opinion/why-gen-z-hate-america-why-cant-give-up-them"
+  ],
+  [
+    "China flexes muscles in Latin America in latest security challenge to US",
+    "https://www.foxnews.com/world/china-flexes-muscles-latin-america-latest-security-challenge-us"
+  ],
+  [
+    "On this day in history, March 13, 1942, US Army K-9 Corps begins training dogs to fight in World War II",
+    "https://www.foxnews.com/lifestyle/this-day-history-march-13-1942-us-army-k-9-corps-begins-training-dogs-fight-world-war-ii"
+  ],
+  [
+    "David Blaine dislocates shoulder, continues Las Vegas performance: \u2018Wow that hurt\u2019",
+    "https://www.foxnews.com/entertainment/david-blaine-dislocates-shoulder-continues-las-vegas-performance-wow-hurt"
+  ],
+  [
+    "Angela Bassett accused of being 'sore loser' in viral Oscar moment after Jamie Lee Curtis' win",
+    "https://www.foxnews.com/entertainment/angela-bassett-accused-being-sore-loser-viral-oscar-moment-jamie-lee-curtis-win"
+  ],
+  [
+    "'Wheel of Fortune' host Pat Sajak apologizes to contestant after mocking phobia",
+    "https://www.foxnews.com/entertainment/wheel-of-fortune-host-pat-sajak-apologizes-contestant-after-mocking-phobia"
+  ],
+  [
+    "Bruce Springsteen postpones 3 shows due to illness a month into first major tour in 6 years",
+    "https://www.foxnews.com/entertainment/bruce-springsteen-postpones-3-shows-illness-month-first-major-tour-6-years"
+  ],
+  [
+    "Jason Kelce announces plans to return to Eagles in 2023: 'I ain\u2019t f---ing done yet!'",
+    "https://www.foxnews.com/sports/jason-kelce-announces-plans-return-eagles-2023-done-yet"
+  ],
+  [
+    "Chargers star Austin Ekeler requests permission to seek trade after stellar year: reports",
+    "https://www.foxnews.com/sports/chargers-star-austin-ekeler-requests-permission-seek-trade-stellar-year-reports"
+  ],
+  [
+    "Patriots start offseason wheeling and dealing with Jonathan Jones deal, Jonnu Smith trade: reports",
+    "https://www.foxnews.com/sports/patriots-start-offseason-wheeling-dealing-jonathan-jones-deal-jonnu-smith-trade-reports"
+  ],
+  [
+    "Rehabilitated bald eagle released in Mississippi after getting struck by car",
+    "https://www.foxnews.com/us/rehabilitated-bald-eagle-released-mississippi-getting-struck-car"
+  ],
+  [
+    "10 safety tips to remember if you're traveling out of the country for spring break",
+    "https://www.foxnews.com/lifestyle/10-safety-tips-remember-traveling-out-country-spring-break"
+  ],
+  [
+    "Prince Harry, Meghan Markle's children have yet to be invited to King Charles' coronation: report",
+    "https://www.foxnews.com/entertainment/prince-harry-meghan-markles-children-invited-king-charles-coronation-report"
+  ],
+  [
+    "Husky dog who was called 'ugly' for crooked smile finds family who drives 2.6K miles to adopt him",
+    "https://www.foxnews.com/lifestyle/husky-dog-called-ugly-crooked-smile-finds-family-drives-2-6k-miles-adopt-him"
+  ],
+  [
+    "Personal loan interest rates tumble below 15% for 5-year fixed-rate loans",
+    "https://www.foxbusiness.com/personal-finance/personal-loan-rates-march-13-2023"
+  ],
+  [
+    "Savings window opens: Today's 30-year mortgage rates fall to lowest levels in 26 days | March 13, 2023",
+    "https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-march-13-2023"
+  ],
+  [
+    "Inflation, recession fears dampen financial health outlook for many: survey",
+    "https://www.foxbusiness.com/personal-finance/inflation-costs-americans-struggling-get-by-2023"
+  ],
+  [
+    "How to file your 2023 taxes and get the most out of your return",
+    "https://www.foxbusiness.com/personal-finance/how-file-2023-taxes-get-most-return"
+  ],
+  [
+    "Beware of rise in short-term vacation rental scams",
+    "https://www.foxnews.com/tech/beware-rise-short-term-vacation-rental-scams"
+  ],
+  [
+    "Stop! This mistake is loading your device with adware and trackers!",
+    "https://www.foxnews.com/tech/stop-this-mistake-is-loading-your-device-with-adware-and-trackers"
+  ],
+  [
+    "Now you can add ChatGPT to your browser",
+    "https://www.foxnews.com/tech/add-chatgpt-browser"
+  ],
+  [
+    "Woody Harrelson's \u2018Champions\u2019 turns spotlight on actors with disabilities: It's our 'superpower'",
+    "https://www.foxnews.com/entertainment/woody-harrelsons-champions-turns-spotlight-actors-disabilities-our-superpower"
+  ],
+  [
+    "Don Lemon seemingly roasted at Oscars by Michelle Yeoh: 'Don't let anybody tell you you're past your prime'",
+    "https://www.foxnews.com/media/don-lemon-seemed-roasted-oscars-michelle-yeoh-dont-let-anybody-tell-you-youre-ever-past-your-prime"
+  ],
+  [
+    "Ke Huy Quan embraced onstage by presenter Harrison Ford as 'Everything Everywhere All At Once' wins Oscar",
+    "https://www.foxnews.com/entertainment/ke-huy-quan-embraced-onstage-presenter-harrison-ford-everything-everywhere-all-at-once-wins-oscar"
+  ],
+  [
+    "Rent growth had smallest gain in two years: Redfin",
+    "https://www.foxbusiness.com/lifestyle/rent-growth-posts-smallest-increase-two-years-redfin"
+  ],
+  [
+    "Charles Schwab shares head for worst day ever, CFO defends firm",
+    "https://www.foxbusiness.com/markets/charles-schwab-shares-head-for-worst-day-ever-cfo-defends-firm"
+  ],
+  [
+    "First Republic shares plunge on SVB contagion fears",
+    "https://www.foxbusiness.com/markets/first-republic-shares-plunge-svb-contagion-fears"
+  ],
+  [
+    "'Jesus in Space': Faith and science take center stage on space shuttle flight in new book",
+    "https://www.foxnews.com/lifestyle/jesus-space-faith-science-center-stage-space-shuttle-book"
+  ],
+  [
+    "Biblical drama centering around 'controversial' passage in Scripture enjoys crowdfunding success",
+    "https://www.foxnews.com/media/biblical-drama-centering-controversial-passage-scripture-enjoys-crowdfunding-success"
+  ],
+  [
+    "Russell Brand shares faith's role in overcoming addiction: 'I need God, or I cannot cope in this world'",
+    "https://www.foxnews.com/media/russell-brand-shares-faith-role-overcoming-addiction-need-god-cannot-cope-world"
+  ],
+  [
+    "Drowsy drivers just won't stop soon enough, AAA study finds",
+    "https://www.foxnews.com/auto/drowsy-drivers-stop-soon-aaa-study"
+  ],
+  [
+    "William Byron wins second consecutive race, holds off Ryan Blaney in Phoenix",
+    "https://www.foxnews.com/sports/william-byron-wins-second-consecutive-race-holds-off-ryan-blaney-in-phoenix"
+  ],
+  [
+    "Sammy Smith, 18-year-old high schooler, picks up first Xfinity Series win",
+    "https://www.foxnews.com/sports/sammy-smith-18-year-old-high-schooler-picks-up-first-xfinity-series-win"
+  ],
+  [
+    "Amelia Earhart's once-lost 1937 Cord added to National Historic Vehicle Register",
+    "https://www.foxnews.com/auto/amelia-earharts-cord-national-historic-vehicle-register"
+  ],
+  [
+    "Coconuts being incorporated into shoreline protection projects across the world",
+    "https://www.foxnews.com/us/coconuts-incorporate-shoreline-protection-projects-across-world"
+  ],
+  [
+    "Shakira says she 'put up with so much crap' as she talks 'rough year' after split with Gerard Piqu\u00e9",
+    "https://www.foxnews.com/entertainment/shakira-says-she-put-up-with-so-much-crap-she-talks-rough-year-split-gerard-pique"
+  ],
+  [
+    "Paulina Porizkova, 57, reveals she\u2019s dating again despite \u2018trust issues\u2019",
+    "https://www.foxnews.com/entertainment/paulina-porizkova-57-reveals-dating-trust-issues"
+  ],
+  [
+    "Cher, 76, and Alexander Edwards, 37, share passionate kiss as they make their red carpet debut",
+    "https://www.foxnews.com/entertainment/cher-76-alexander-edwards-37-share-passionate-kiss-red-carpet-debut"
+  ],
+  [
+    "The popular cereal that debuted the decade you were born",
+    "https://www.foxnews.com/food-drink/popular-cereal-released-decade"
+  ],
+  [
+    "Celebrate National Margarita Day with these sweet and savory cocktail recipes",
+    "https://www.foxnews.com/food-drink/margarita-recipes-perfect-national-margarita-day"
+  ],
+  [
+    "American Heart Month: Add these heart-healthy foods recommended by experts to your grocery list",
+    "https://www.foxnews.com/food-drink/best-foods-heart-health-experts"
+  ],
+  [
+    "5 homemade Valentine\u2019s Day dinner recipe ideas",
+    "https://www.foxnews.com/food-drink/homemade-valentines-day-dinner-recipes"
+  ],
+  [
+    "Nor'easter to rapidly intensify as it blasts East Coast with heavy snow, rain, high winds, coastal flooding",
+    "https://www.foxweather.com/weather-news/noreaster-forecast-winter-storm-northeast-snow-rain-wind-coastal-flooding"
+  ],
+  [
+    "California again besieged by atmospheric river's flooding rains, triggering 'roofalanche' concerns",
+    "https://www.foxweather.com/weather-news/california-atmospheric-river-flood-rain-sierra-snow-roofalanche-concerns"
+  ],
+  [
+    "Remember all that snow? Here are the most memorable nor'easters over the years",
+    "https://www.foxweather.com/learn/most-memorable-noreasters"
+  ],
+  [
+    "Yosemite National Park extends park closure as another atmospheric river storm slams California",
+    "https://www.foxweather.com/weather-news/yosemite-national-park-extends-closure"
+  ],
+  [
+    "Arkansas student dresses as her 2nd-grade teacher for school 'Superhero Day': 'Melted my heart'",
+    "https://www.foxnews.com/lifestyle/arkansas-student-dresses-2nd-grade-teacher-school-superhero-day-melted-my-heart"
+  ],
+  [
+    "Short questions with Dana Perino",
+    "https://www.foxnews.com/lifestyle/short-questions-dana-perino-jesse-watters"
+  ],
+  [
+    "Tampa woman who fought attacker inside apartment gym honored by sheriff's office: 'Strength and Courage'",
+    "https://www.foxnews.com/us/tampa-woman-fought-attacker-inside-apartment-gym-honored-sheriffs-office-strength-courage"
+  ],
+  [
+    "The Salvation Army offers emotional, spiritual support after Ohio train derailment: 'Providing hope'",
+    "https://www.foxnews.com/lifestyle/the-salvation-army-offers-emotional-spiritual-support-ohio-train-derailment-providing-hope"
+  ],
+  [
+    "The Next Revolution w/ Steve Hilton - Sunday, March 12",
+    "https://www.foxnews.com/video/6322461954112"
+  ],
+  [
+    "Life, Liberty & Levin - Sunday, March 12",
+    "https://www.foxnews.com/video/6322459668112"
+  ],
+  [
+    "Sunday Night in America with Trey Gowdy - Sunday, March 12",
+    "https://www.foxnews.com/video/6322458665112"
+  ],
+  [
+    "The Big Sunday Show - Sunday, March 12",
+    "https://www.foxnews.com/video/6322453315112"
+  ]
 ]

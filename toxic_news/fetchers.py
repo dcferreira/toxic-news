@@ -1,5 +1,6 @@
 import csv
 import importlib.resources as pkg_resources
+import urllib.parse
 from datetime import datetime
 from typing import Optional, cast
 
@@ -23,17 +24,36 @@ class Newspaper(BaseModel):
 
 class Headline(BaseModel):
     newspaper: str
+    language: str
     text: str
     date: datetime
     toxicity: float
+    url: HttpUrl
+
+
+class ClassifierResult(BaseModel):
+    toxicity: list[float]
+    severe_toxicity: list[float]
+    obscene: list[float]
+    identity_attack: list[float]
+    insult: list[float]
+    threat: list[float]
+    sexual_explicit: list[float]
 
 
 class Fetcher:
     def __init__(self, newspaper: Newspaper):
         self.newspaper = newspaper
         self.xpath = newspaper.xpath
+        self._model: Optional[Detoxify] = None
         self._response: Optional[Response] = None
         self._request_time: Optional[datetime] = None
+
+    @property
+    def model(self) -> Detoxify:
+        if self._model is None:
+            self._model = Detoxify("multilingual")
+        return self._model
 
     def _request(self):
         logger.info(f"Fetching {self.newspaper.url}...")
@@ -55,28 +75,42 @@ class Fetcher:
             self._request()
         return cast(datetime, self._request_time)
 
-    def parse(self, content: str) -> list[str]:
+    def parse(self, content: str) -> list[tuple[str, str]]:
         tree: HtmlElement = lxml.html.fromstring(content)
-        titles_list = [
-            "".join(x.itertext()).strip(" \t\n\r|") for x in tree.xpath(self.xpath)
+        headlines = [
+            (
+                "".join(x.itertext()).strip(" \t\n\r|"),  # title
+                urllib.parse.urljoin(self.newspaper.url, x.get("href")),  # absolute url
+            )
+            for x in tree.xpath(self.xpath)
         ]
-        # sort list by appearance in the page
-        return sorted(set(titles_list), key=lambda x: titles_list.index(x))
+        # often the same headline appears multiple times in the page
+        deduped_headlines = set(headlines)
+        # sort by order in which they appear in the page
+        return sorted(deduped_headlines, key=lambda x: headlines.index(x))
 
-    def fetch(self) -> list[str]:
+    def fetch(self) -> list[tuple[str, str]]:
         return self.parse(self.content)
 
+    def _predict(self, texts: list[str]) -> dict[str, list[float]]:
+        return self.model.predict(texts)
+
+    def predict(self, texts: list[str]) -> ClassifierResult:
+        return ClassifierResult.parse_obj(self._predict(texts))
+
     def classify(self) -> list[Headline]:
-        texts = self.fetch()
-        results = Detoxify("multilingual").predict(texts)
+        content = self.fetch()
+        results = self.predict([x[0] for x in content])
         return [
             Headline(
                 newspaper=self.newspaper.name,
+                language=self.newspaper.language,
                 text=t,
                 date=self.request_time,
                 toxicity=s,
+                url=cast(HttpUrl, u),
             )
-            for s, t in zip(results["toxicity"], texts)
+            for s, (t, u) in zip(results.toxicity, content)
         ]
 
 
