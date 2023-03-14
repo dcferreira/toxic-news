@@ -6,9 +6,13 @@ from jinja2 import Environment, PackageLoader, select_autoescape
 from pymongo import MongoClient
 from pymongo.command_cursor import CommandCursor
 from pymongo.database import Database
+from pymongo.server_api import ServerApi
 
 load_dotenv()
-client: MongoClient = MongoClient(os.environ["MONGODB_URL"])
+client: MongoClient = MongoClient(
+    os.environ["MONGODB_URL"],
+    server_api=ServerApi("1"),
+)
 db: Database = client[os.environ["DATABASE_NAME"]]
 
 

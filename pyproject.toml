@@ -70,6 +70,10 @@ types = "mypy ."
 generate = "python toxic_news/generate.py"
 build = "docker buildx build . -t toxic-news:local"
 serve-docker = "docker compose up"
+push = [
+    "docker tag toxic-news:local us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest",
+    "docker push us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest"
+]
 
 [tool.hatch.envs.explore]
 dependencies = [
