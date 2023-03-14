@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <title>Toxic News</title>
+</head>
+<body>
+    <table id="navigation">
+        <tr>
+            <th>Name</th>
+            <th>Toxicity</th>
+            <th>#Headlines</th>
+        </tr>
+        {% for item in rows %}
+        <tr>
+            <td>{{ item._id }}</td>
+            <td>{{ item.toxicityAvg }}</td>
+            <td>{{ item.count }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
