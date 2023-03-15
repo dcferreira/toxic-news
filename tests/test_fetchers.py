@@ -126,4 +126,4 @@ def test_wayback_sync():
     for f in fetchers:
         assert f._response is not None
         assert f._response.status == 200
-        assert isinstance(f.content, bytes)
+        assert isinstance(f.content, str)

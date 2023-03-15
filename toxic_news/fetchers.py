@@ -1,4 +1,5 @@
 import asyncio
+import atexit
 import csv
 import importlib.resources as pkg_resources
 import urllib.parse
@@ -135,10 +136,17 @@ class WaybackFetcher(Fetcher):
     ):
         self.date = date
         self.availability_api = WaybackMachineAvailabilityAPI(newspaper.url)
-        self.session = session if session is not None else aiohttp.ClientSession()
         self._wayback_url: Optional[str] = None
+
+        self.session = session if session is not None else aiohttp.ClientSession()
+        # close session when object ends
+        atexit.register(self._close_session)
         super().__init__(newspaper)
+
         self._response: Optional[ClientResponse] = None
+
+    def _close_session(self):
+        asyncio.run(self.session.close())
 
     def get_wayback_url(self) -> str:
         if self._wayback_url is None:
