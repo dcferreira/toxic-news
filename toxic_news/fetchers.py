@@ -116,16 +116,14 @@ class Fetcher:
 
 # load newspapers from the CSV file
 newspapers_text = pkg_resources.read_text(assets, "newspapers.csv")
-newspapers: list[Fetcher] = [
-    Fetcher(
-        Newspaper.parse_obj(
-            {
-                "name": row[0],
-                "language": row[1],
-                "url": row[2],
-                "xpath": row[3],
-            }
-        )
+newspapers: list[Newspaper] = [
+    Newspaper.parse_obj(
+        {
+            "name": row[0],
+            "language": row[1],
+            "url": row[2],
+            "xpath": row[3],
+        }
     )
     for row in csv.reader(newspapers_text.strip().split("\n"))
 ]

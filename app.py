@@ -20,17 +20,8 @@ db: Database = client[os.environ["DATABASE_NAME"]]
 
 
 @app.post("/fetch")
-async def fetch(name: str, language: str, url: str, xpath: str) -> int:
-    fetcher = Fetcher(
-        Newspaper.parse_obj(
-            {
-                "name": name,
-                "language": language,
-                "url": url,
-                "xpath": xpath,
-            }
-        )
-    )
+async def fetch(newspaper: Newspaper) -> int:
+    fetcher = Fetcher(newspaper)
     headlines = fetcher.classify()
     logger.info(f"Inserting {len(headlines)} rows in the database...")
     db.headlines.insert_many(h.dict() for h in headlines)
