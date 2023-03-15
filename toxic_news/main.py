@@ -2,6 +2,7 @@ import asyncio
 import os
 import re
 from asyncio import create_task
+from datetime import datetime, timedelta
 
 import aiohttp
 import typer
@@ -10,11 +11,13 @@ from dotenv import load_dotenv
 from jinja2 import Environment, PackageLoader, select_autoescape
 from loguru import logger
 from pymongo import MongoClient
+from pymongo.collection import Collection
 from pymongo.command_cursor import CommandCursor
 from pymongo.database import Database
 from pymongo.server_api import ServerApi
+from tqdm import tqdm
 
-from toxic_news.fetchers import Newspaper, newspapers
+from toxic_news.fetchers import Headline, Newspaper, WaybackFetcher, newspapers
 
 app = typer.Typer()
 
@@ -114,6 +117,51 @@ def fetch_daily(
     endpoint: str = "fetch",
 ):
     asyncio.run(_fetch_daily(url=url, auth_bearer=auth_bearer, endpoint=endpoint))
+
+
+async def _fetch_wayback(
+    newspaper: Newspaper, date_range: list[datetime]
+) -> list[list[Headline]]:
+    async with aiohttp.ClientSession() as session:
+        fetchers = [
+            WaybackFetcher(date=date, newspaper=newspaper, session=session)
+            for date in date_range
+        ]
+        tasks = [create_task(f.run_request_coroutine()) for f in fetchers]
+        await asyncio.gather(*tasks)
+
+        return [f.classify() for f in tqdm(fetchers)]
+
+
+@app.command()
+def fetch_wayback(
+    name: str,
+    language: str,
+    url: str,
+    xpath: str,
+    expected_nr_headlines: int,
+    date_start: datetime,
+    date_end: datetime,
+    allowed_difference_headlines: float = typer.Option(
+        0.1,
+        help="Allow for more or less headlines. "
+        "If `expected_nr_headlines` is 100 and this is 0.1, allows for #headlines "
+        "between 90 and 110, and errors if there's too many/few headlines.",
+    ),
+):
+    # workaround for to stop logger from interfering with tqdm
+    logger.remove()
+    logger.add(lambda msg: tqdm.write(msg, end=""), colorize=True)
+
+    numdays = (date_end - date_start).days
+    date_list = [date_start + timedelta(days=x) for x in range(numdays)]
+    newspaper = Newspaper.parse_obj(
+        {"name": name, "language": language, "url": url, "xpath": xpath}
+    )
+    headlines_list = asyncio.run(_fetch_wayback(newspaper, date_list))
+
+    table: Collection = db.headlines
+    table.insert_many([h.dict() for day in headlines_list for h in day])
 
 
 if __name__ == "__main__":

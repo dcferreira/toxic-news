@@ -1,18 +1,27 @@
+import asyncio
 import csv
 import importlib.resources as pkg_resources
 import urllib.parse
 from datetime import datetime
 from typing import Optional, cast
 
+import aiohttp
 import lxml.html
-import requests
+import nest_asyncio
+from aiohttp import ClientResponse, ClientSession
 from detoxify import Detoxify
 from loguru import logger
 from lxml.html import HtmlElement
 from pydantic import BaseModel, HttpUrl
 from requests import Response
+from waybackpy import WaybackMachineAvailabilityAPI
 
 from toxic_news import assets
+
+# allow nesting of loops
+# removing this fails the test `test_wayback_sync`
+# with `RuntimeError: Timeout context manager should be used inside a task`
+nest_asyncio.apply()
 
 
 class Newspaper(BaseModel):
@@ -46,7 +55,7 @@ class Fetcher:
         self.newspaper = newspaper
         self.xpath = newspaper.xpath
         self._model: Optional[Detoxify] = None
-        self._response: Optional[Response] = None
+        self._response: Optional[ClientResponse] = None
         self._request_time: Optional[datetime] = None
 
     @property
@@ -55,13 +64,16 @@ class Fetcher:
             self._model = Detoxify("multilingual")
         return self._model
 
+    async def _request_coroutine(self) -> ClientResponse:
+        async with aiohttp.ClientSession() as session:
+            result = await session.get(self.newspaper.url)
+            return result
+
     def _request(self):
         logger.info(f"Fetching {self.newspaper.url}...")
-        self._response = requests.get(self.newspaper.url)
+        self._response = asyncio.run(self._request_coroutine())
         self._request_time = datetime.utcnow()
-        logger.info(
-            f"{self.newspaper.url} fetched with code: " f"{self._response.status_code}"
-        )
+        logger.info(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
     @property
     def content(self) -> str:
@@ -112,6 +124,61 @@ class Fetcher:
             )
             for s, (t, u) in zip(results.toxicity, content)
         ]
+
+
+class WaybackFetcher(Fetcher):
+    def __init__(
+        self,
+        date: datetime,
+        newspaper: Newspaper,
+        session: Optional[ClientSession] = None,
+    ):
+        self.date = date
+        self.availability_api = WaybackMachineAvailabilityAPI(newspaper.url)
+        self.session = session if session is not None else aiohttp.ClientSession()
+        self._wayback_url: Optional[str] = None
+        super().__init__(newspaper)
+        self._response: Optional[ClientResponse] = None
+
+    def get_wayback_url(self) -> str:
+        if self._wayback_url is None:
+            archive = self.availability_api.near(
+                year=self.date.year, month=self.date.month, day=self.date.day, hour=12
+            )
+            self._request_time = archive.timestamp()
+
+            # use the `id_` flag to get the original copy
+            # see https://webapps.stackexchange.com/a/155393
+            self._wayback_url = archive.archive_url.replace("/http", "id_/http")
+        return cast(str, self._wayback_url)
+
+    async def _request_coroutine(self) -> ClientResponse:
+        url = self.get_wayback_url()
+        logger.debug(f"Fetching {url}...")
+        result = await self.session.get(url)
+        return result
+
+    def _request(self):
+        logger.info(f"Fetching {self.newspaper.url}...")
+        self._response = asyncio.run(self._request_coroutine())
+        logger.info(f"{self.newspaper.url} fetched with code: {self._response.status}")
+
+    async def run_request_coroutine(self) -> ClientResponse:
+        self._response = await self._request_coroutine()
+        return self._response
+
+    @property
+    def content(self) -> str:
+        if self._response is None:
+            self._request()
+        return asyncio.run(self.get_async_content()).decode()
+
+    async def get_async_content(self) -> bytes:
+        if self._response is None:
+            await self.run_request_coroutine()
+        response = cast(ClientResponse, self._response)
+        result = await response.content.read()
+        return result
 
 
 # load newspapers from the CSV file

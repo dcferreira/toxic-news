@@ -1,11 +1,13 @@
+import asyncio
 import json
 import re
 from datetime import datetime
 
+import aiohttp
 import pytest
 from fastapi.encoders import jsonable_encoder
 
-from toxic_news.fetchers import Fetcher, newspapers
+from toxic_news.fetchers import Fetcher, Newspaper, WaybackFetcher, newspapers
 
 
 def clean_url(url: str) -> str:
@@ -76,3 +78,52 @@ def test_classify(assets, snapshot, monkeypatch, newspaper):
         json.dumps(jsonable_encoder(fetcher.classify()), indent=2),
         f"{clean_url(newspaper.url)}.txt",
     )
+
+
+@pytest.mark.asyncio
+async def test_wayback_integration():
+    newspaper = Newspaper.parse_obj(
+        {
+            "name": "BBC",
+            "language": "en",
+            "url": "https://bbc.com",
+            "xpath": "//h3[@class='media__title']/a",
+        }
+    )
+    async with aiohttp.ClientSession() as session:
+        fetchers = [
+            WaybackFetcher(date=date, newspaper=newspaper, session=session)
+            for date in [datetime(2023, 1, 1), datetime(2023, 1, 2)]
+        ]
+        tasks = [asyncio.create_task(f.run_request_coroutine()) for f in fetchers]
+        results = await asyncio.gather(*tasks)
+
+        assert len(results) == 2
+        for r in results:
+            assert r.status == 200
+        for f in fetchers:
+            assert f._response is not None
+            assert isinstance(await f.get_async_content(), bytes)
+
+
+def test_wayback_sync():
+    newspaper = Newspaper.parse_obj(
+        {
+            "name": "BBC",
+            "language": "en",
+            "url": "https://bbc.com",
+            "xpath": "//h3[@class='media__title']/a",
+        }
+    )
+    fetchers = [
+        WaybackFetcher(date=date, newspaper=newspaper)
+        for date in [datetime(2023, 1, 1), datetime(2023, 1, 2)]
+    ]
+
+    for f in fetchers:
+        asyncio.run(f.run_request_coroutine())
+
+    for f in fetchers:
+        assert f._response is not None
+        assert f._response.status == 200
+        assert isinstance(f.content, bytes)
