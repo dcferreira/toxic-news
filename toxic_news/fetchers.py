@@ -14,7 +14,6 @@ from detoxify import Detoxify
 from loguru import logger
 from lxml.html import HtmlElement
 from pydantic import BaseModel, HttpUrl
-from requests import Response
 from waybackpy import WaybackMachineAvailabilityAPI
 
 from toxic_news import assets
@@ -32,16 +31,26 @@ class Newspaper(BaseModel):
     xpath: str
 
 
+class Scores(BaseModel):
+    toxicity: float
+    severe_toxicity: float
+    obscene: float
+    identity_attack: float
+    insult: float
+    threat: float
+    sexual_explicit: float
+
+
 class Headline(BaseModel):
     newspaper: str
     language: str
     text: str
     date: datetime
-    toxicity: float
+    scores: Scores
     url: HttpUrl
 
 
-class ClassifierResult(BaseModel):
+class DetoxifyResults(BaseModel):
     toxicity: list[float]
     severe_toxicity: list[float]
     obscene: list[float]
@@ -51,12 +60,24 @@ class ClassifierResult(BaseModel):
     sexual_explicit: list[float]
 
 
+def parse_detoxify_scores(scores: DetoxifyResults) -> list[Scores]:
+    scores_dict = scores.dict()
+    keys = scores_dict.keys()
+    vals = zip(*scores_dict.values())
+
+    # create a list of dictionaries
+    scores_list = [dict(zip(keys, v)) for v in vals]
+
+    return [Scores.parse_obj(s) for s in scores_list]
+
+
 class Fetcher:
     def __init__(self, newspaper: Newspaper):
         self.newspaper = newspaper
         self.xpath = newspaper.xpath
         self._model: Optional[Detoxify] = None
         self._response: Optional[ClientResponse] = None
+        self._content: Optional[bytes] = None
         self._request_time: Optional[datetime] = None
 
     @property
@@ -65,22 +86,23 @@ class Fetcher:
             self._model = Detoxify("multilingual")
         return self._model
 
-    async def _request_coroutine(self) -> ClientResponse:
+    async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
         async with aiohttp.ClientSession() as session:
             result = await session.get(self.newspaper.url)
-            return result
+            content = await result.content.read()
+            return result, content
 
     def _request(self):
         logger.info(f"Fetching {self.newspaper.url}...")
-        self._response = asyncio.run(self._request_coroutine())
+        self._response, self._content = asyncio.run(self._request_coroutine())
         self._request_time = datetime.utcnow()
         logger.info(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
     @property
     def content(self) -> str:
-        if self._response is None:
+        if self._content is None:
             self._request()
-        return cast(Response, self._response).text
+        return cast(bytes, self._content).decode()
 
     @property
     def request_time(self) -> datetime:
@@ -108,22 +130,23 @@ class Fetcher:
     def _predict(self, texts: list[str]) -> dict[str, list[float]]:
         return self.model.predict(texts)
 
-    def predict(self, texts: list[str]) -> ClassifierResult:
-        return ClassifierResult.parse_obj(self._predict(texts))
+    def predict(self, texts: list[str]) -> DetoxifyResults:
+        return DetoxifyResults.parse_obj(self._predict(texts))
 
     def classify(self) -> list[Headline]:
         content = self.fetch()
         results = self.predict([x[0] for x in content])
+        scores = parse_detoxify_scores(results)
         return [
             Headline(
                 newspaper=self.newspaper.name,
                 language=self.newspaper.language,
                 text=t,
                 date=self.request_time,
-                toxicity=s,
+                scores=s,
                 url=cast(HttpUrl, u),
             )
-            for s, (t, u) in zip(results.toxicity, content)
+            for s, (t, u) in zip(scores, content)
         ]
 
 
@@ -141,9 +164,8 @@ class WaybackFetcher(Fetcher):
         self.session = session if session is not None else aiohttp.ClientSession()
         # close session when object ends
         atexit.register(self._close_session)
-        super().__init__(newspaper)
 
-        self._response: Optional[ClientResponse] = None
+        super().__init__(newspaper)
 
     def _close_session(self):
         asyncio.run(self.session.close())
@@ -160,19 +182,20 @@ class WaybackFetcher(Fetcher):
             self._wayback_url = archive.archive_url.replace("/http", "id_/http")
         return cast(str, self._wayback_url)
 
-    async def _request_coroutine(self) -> ClientResponse:
+    async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
         url = self.get_wayback_url()
         logger.debug(f"Fetching {url}...")
         result = await self.session.get(url)
-        return result
+        content = await result.content.read()
+        return result, content
 
     def _request(self):
         logger.info(f"Fetching {self.newspaper.url}...")
-        self._response = asyncio.run(self._request_coroutine())
+        self._response, self._content = asyncio.run(self._request_coroutine())
         logger.info(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
     async def run_request_coroutine(self) -> ClientResponse:
-        self._response = await self._request_coroutine()
+        self._response, self._content = await self._request_coroutine()
         return self._response
 
     @property

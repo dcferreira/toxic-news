@@ -10,14 +10,14 @@ from aiohttp import ClientSession
 from dotenv import load_dotenv
 from jinja2 import Environment, PackageLoader, select_autoescape
 from loguru import logger
+from pydantic import BaseModel
 from pymongo import MongoClient
 from pymongo.collection import Collection
-from pymongo.command_cursor import CommandCursor
 from pymongo.database import Database
 from pymongo.server_api import ServerApi
 from tqdm import tqdm
 
-from toxic_news.fetchers import Headline, Newspaper, WaybackFetcher, newspapers
+from toxic_news.fetchers import Headline, Newspaper, Scores, WaybackFetcher, newspapers
 
 app = typer.Typer()
 
@@ -29,8 +29,15 @@ client: MongoClient = MongoClient(
 db: Database = client[os.environ["DATABASE_NAME"]]
 
 
-def build_daily_table(date: str) -> CommandCursor:
-    return db.headlines.aggregate(
+class DailyRow(BaseModel):
+    name: str
+    scores: Scores
+    count: int
+    date: str
+
+
+def average_daily_scores(name: str, date: str) -> Scores:
+    cursor = db.headlines.aggregate(
         [
             {
                 "$project": {
@@ -39,24 +46,82 @@ def build_daily_table(date: str) -> CommandCursor:
                     },
                     "newspaper": 1,
                     "text": 1,
-                    "toxicity": 1,
+                    "scores": 1,
                 }
             },
-            {"$match": {"dateStr": date}},
+            {
+                "$match": {
+                    "dateStr": date,
+                    "newspaper": name,
+                }
+            },
+            {"$addFields": {"scores": {"$objectToArray": "$scores"}}},
+            {"$unwind": {"path": "$scores"}},
+            {"$group": {"_id": "$scores.k", "average": {"$avg": "$scores.v"}}},
+            {"$addFields": {"score": "$_id", "_id": 0}},
             {
                 "$group": {
-                    "_id": "$newspaper",
-                    "toxicityAvg": {"$avg": "$toxicity"},
-                    "count": {"$sum": 1},
+                    "_id": "score",
+                    "scores": {"$push": {"k": "$score", "v": "$average"}},
+                }
+            },
+            {
+                "$addFields": {
+                    "name": "$_id",
+                    "scores": {"$arrayToObject": "$scores"},
+                    "_id": 0,
                 }
             },
         ]
     )
+    results = list(cursor)
+    return results[0]["scores"]
+
+
+def count_daily_headlines(name: str, date: str) -> int:
+    cursor = db.headlines.aggregate(
+        [
+            {
+                "$project": {
+                    "dateStr": {
+                        "$dateToString": {"format": "%G/%m/%d", "date": "$date"}
+                    },
+                    "newspaper": 1,
+                    "text": 1,
+                    "scores": 1,
+                }
+            },
+            {
+                "$match": {
+                    "dateStr": date,
+                    "newspaper": name,
+                }
+            },
+            {"$count": "count"},
+        ]
+    )
+    results = list(cursor)
+    return results[0]["count"]
+
+
+def build_daily_table(date: str) -> list[DailyRow]:
+    out = []
+    for n in newspapers:
+        out.append(
+            DailyRow(
+                name=n.name,
+                scores=average_daily_scores(n.name, date),
+                count=count_daily_headlines(n.name, date),
+                date=date,
+            )
+        )
+    table: Collection = db.daily
+    table.insert_many([r.dict() for r in out])
+    return out
 
 
 def build_daily(date: str):
-    if re.fullmatch(r"[0-9]{4}/[0-1][0-9]/[0-3][0-9]", date) is None:
-        raise ValueError(f"Date passed is invalid: {date=}")
+    _verify_date_string(date)
     env = Environment(
         loader=PackageLoader("toxic_news"),
         autoescape=select_autoescape(),
@@ -65,9 +130,20 @@ def build_daily(date: str):
     with open("public/index.html", "w+") as fd:
         fd.write(
             template.render(
-                rows=sorted(build_daily_table(date), key=lambda k: k["toxicityAvg"]),
+                rows=build_daily_table(date),
             )
         )
+
+
+def _verify_date_string(date: str):
+    if re.fullmatch(r"[0-9]{4}/[0-1][0-9]/[0-3][0-9]", date) is None:
+        raise ValueError(f"Date passed is invalid: {date=}")
+
+
+@app.command()
+def daily_update_db(date: str = typer.Argument(..., help="Date in YYYY/MM/DD format")):
+    _verify_date_string(date)
+    build_daily(date)
 
 
 async def _fetch_single(
@@ -165,5 +241,4 @@ def fetch_wayback(
 
 
 if __name__ == "__main__":
-    # build_daily("2023/03/13")
     app()

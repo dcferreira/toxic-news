@@ -70,10 +70,10 @@ cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=toxic_
 no-cov = "cov --no-cov {args}"
 integration = "no-cov -m integration"
 slow = "no-cov -m slow"
+full = ["no-cov", "integration", "slow"]
 lint = ["ruff .", "black . --check -q", "isort . --check -q"]
 format = ["black .", "isort ."]
 types = "mypy ."
-generate = "python toxic_news/generate.py"
 build = "docker buildx build . -t toxic-news:local"
 serve-docker = "docker compose up"
 push = [
@@ -117,6 +117,7 @@ check_untyped_defs = true
 [[tool.mypy.overrides]]
 module = [
     "detoxify",
+    "nest_asyncio",
 ]
 ignore_missing_imports = true
 

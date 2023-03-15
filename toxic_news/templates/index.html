@@ -26,15 +26,15 @@
     <tr>
         <th>Name</th>
         <th>Toxicity</th>
-        <th>#Headlines</th>
+<!--        <th>#Headlines</th>-->
     </tr>
     </thead>
     <tbody>
     {% for item in rows %}
     <tr>
-        <td>{{ item._id }}</td>
-        <td>{{ item.toxicityAvg }}</td>
-        <td>{{ item.count }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.scores.toxicity }}</td>
+<!--        <td>{{ item.count }}</td>-->
     </tr>
     {% endfor %}
     </tbody>

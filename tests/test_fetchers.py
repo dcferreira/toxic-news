@@ -7,7 +7,51 @@ import aiohttp
 import pytest
 from fastapi.encoders import jsonable_encoder
 
-from toxic_news.fetchers import Fetcher, Newspaper, WaybackFetcher, newspapers
+from toxic_news.fetchers import (
+    DetoxifyResults,
+    Fetcher,
+    Newspaper,
+    Scores,
+    WaybackFetcher,
+    newspapers,
+    parse_detoxify_scores,
+)
+
+
+def test_parse_detoxify_scores():
+    scores = DetoxifyResults(
+        toxicity=[1, 2],
+        severe_toxicity=[3, 4],
+        obscene=[5, 6],
+        identity_attack=[7, 8],
+        insult=[9, 10],
+        threat=[11, 12],
+        sexual_explicit=[13, 14],
+    )
+    result = parse_detoxify_scores(scores)
+
+    expected = [
+        Scores(
+            toxicity=1,
+            severe_toxicity=3,
+            obscene=5,
+            identity_attack=7,
+            insult=9,
+            threat=11,
+            sexual_explicit=13,
+        ),
+        Scores(
+            toxicity=2,
+            severe_toxicity=4,
+            obscene=6,
+            identity_attack=8,
+            insult=10,
+            threat=12,
+            sexual_explicit=14,
+        ),
+    ]
+
+    assert result == expected
 
 
 def clean_url(url: str) -> str:
@@ -80,6 +124,7 @@ def test_classify(assets, snapshot, monkeypatch, newspaper):
     )
 
 
+@pytest.mark.integration
 @pytest.mark.asyncio
 async def test_wayback_integration():
     newspaper = Newspaper.parse_obj(
@@ -106,6 +151,7 @@ async def test_wayback_integration():
             assert isinstance(await f.get_async_content(), bytes)
 
 
+@pytest.mark.integration
 def test_wayback_sync():
     newspaper = Newspaper.parse_obj(
         {

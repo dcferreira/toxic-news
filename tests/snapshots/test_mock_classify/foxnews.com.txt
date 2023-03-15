@@ -4,7 +4,15 @@
     "language": "en",
     "text": "Parents sue over 'high crime area' after football player star son brutally gunned down in parking lot",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/georgia-high-school-football-stars-alleged-killer-pleads-not-guilty-family-sues-high-crime-area"
   },
   {
@@ -12,7 +20,15 @@
     "language": "en",
     "text": "CBP staffer questioned if rancher was 'crazy' when calling about alleged traffickers",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/border-patrol-questioned-arizona-rancher-crazy-calling-alleged-drug-traffickers"
   },
   {
@@ -20,7 +36,15 @@
     "language": "en",
     "text": "VP Harris reportedly won't speak to Elizabeth Warren after 'pretty insulting' snub",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/kamala-harris-wont-speak-elizabeth-warren-after-pretty-insulting-2024-snub-report"
   },
   {
@@ -28,7 +52,15 @@
     "language": "en",
     "text": "Video of student goes viral after being 'deprogrammed' about White privilege",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/video-white-college-student-goes-viral-deprogrammed-about-white-privilege"
   },
   {
@@ -36,7 +68,15 @@
     "language": "en",
     "text": "Biden tries softening banking system blow after historic SVB collapse",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/biden-americans-confidence-banking-system-federal-response-svb-collapse"
   },
   {
@@ -44,7 +84,15 @@
     "language": "en",
     "text": "Angela Bassett accused of being 'sore loser' after Jamie Lee Curtis wins Oscar",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/angela-bassett-accused-being-sore-loser-viral-oscar-moment-jamie-lee-curtis-win"
   },
   {
@@ -52,7 +100,15 @@
     "language": "en",
     "text": "'Wheel of Fortune' host apologizes to contestant after mocking phobia on game show",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/wheel-of-fortune-host-pat-sajak-apologizes-contestant-after-mocking-phobia"
   },
   {
@@ -60,7 +116,15 @@
     "language": "en",
     "text": "LIVE UPDATES: Stocks volatile as Silicon Valley Bank collapse rattles Wall Street",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxbusiness.com/live-news/stock-market-news-today-march-13-2023"
   },
   {
@@ -68,7 +132,15 @@
     "language": "en",
     "text": "Woman finds dead husband in their home months after his disappearance",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/illinois-woman-discovers-dead-husband-closet-months-disappearance"
   },
   {
@@ -76,7 +148,15 @@
     "language": "en",
     "text": "Man reportedly shot over 70 times while on porch of home",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/philadelphia-man-shot-70-times-porch-home-report"
   },
   {
@@ -84,7 +164,15 @@
     "language": "en",
     "text": "Emily Ratajkowski shows off mostly naked body at Vanity Fair Oscars party",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/emily-ratajkowski-shows-off-mostly-naked-body-vanity-fair-oscars-party-nsfw-pictures"
   },
   {
@@ -92,7 +180,15 @@
     "language": "en",
     "text": "Gov. Whitmer blasted for 'gaslighting' residents on COVID-19 restrictions",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/gov-whitmer-blasted-gaslighting-residents-covid-19-restrictions-admitting-didnt-make-sense"
   },
   {
@@ -100,7 +196,15 @@
     "language": "en",
     "text": "Ex-UFC star gives fans a look at her steamy content on social media",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/sports/ex-ufc-star-paige-vanzant-gives-fans-behind-scenes-look-her-steamy-content-social-media"
   },
   {
@@ -108,7 +212,15 @@
     "language": "en",
     "text": "House committee subpoenas bank for records related to Hunter Biden dealings",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/hunter-biden-subpoenaed-bank-america-records-opened-new-avenues-investigation-house-oversight"
   },
   {
@@ -116,7 +228,15 @@
     "language": "en",
     "text": "Virgin Islands officials mum on US swim champ autopsy results as spring break vacations begin",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/virgin-islands-officials-mum-us-swim-champ-autopsy-results-spring-break-vacations-begin"
   },
   {
@@ -124,7 +244,15 @@
     "language": "en",
     "text": "Manhunt underway after two officers are shot, one of them killed",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/manhunt-unfolds-missouri-2-officers-shot-1-killed"
   },
   {
@@ -132,7 +260,15 @@
     "language": "en",
     "text": "Nursery school under fire for advising parents to not call daughters 'pretty'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/world/nursery-school-under-fire-advising-parents-not-call-daughters-pretty-princess-daft-advice"
   },
   {
@@ -140,7 +276,15 @@
     "language": "en",
     "text": "Researchers identify this mammal as latest potential cause of climate change",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/researchers-identify-mammal-latest-potential-cause-climate-change-suggest-balancing-species"
   },
   {
@@ -148,7 +292,15 @@
     "language": "en",
     "text": "NYC ICE office reportedly backed up until 2032 amid massive migrant influx",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/new-york-city-ice-office-reportedly-backed-2032-massive-migrant-influx-border"
   },
   {
@@ -156,7 +308,15 @@
     "language": "en",
     "text": "Florida Democrat forgets the Pledge of Allegiance at first public meeting",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/democrat-forgets-pledge-allegiance-first-miami-city-commission-meeting"
   },
   {
@@ -164,7 +324,15 @@
     "language": "en",
     "text": "XFL accidentally shows half-naked player on broadcast",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/sports/xfl-accidentally-shows-half-naked-player-broadcast"
   },
   {
@@ -172,7 +340,15 @@
     "language": "en",
     "text": "Mayorkas under fire after 1,000 migrants rush El Paso border: 'Resign immediately'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/mayorkas-under-fire-1000-migrants-rush-el-paso-border-resign-immediately"
   },
   {
@@ -180,7 +356,15 @@
     "language": "en",
     "text": "Don Lemon seemingly roasted at Oscars by lead actress winner",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/don-lemon-seemed-roasted-oscars-michelle-yeoh-dont-let-anybody-tell-you-youre-ever-past-your-prime"
   },
   {
@@ -188,7 +372,15 @@
     "language": "en",
     "text": "Xi Jinping to reportedly speak with Zelenskyy after meeting Putin in Moscow",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/world/xi-jinping-speak-zelenskyy-meeting-putin-moscow-report"
   },
   {
@@ -196,7 +388,15 @@
     "language": "en",
     "text": "\u2018White Lotus\u2019 actor claims agent dropped him for refusing to reveal sexuality",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/white-lotus-actor-claims-agent-dropped-him-refusing-reveal-sexuality-pick-lane"
   },
   {
@@ -204,7 +404,15 @@
     "language": "en",
     "text": "Suspect killed in shooting was \u2018waiting\u2019 for deputies before opening fire",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/florida-suspect-killed-shooting-waiting-deputies-opening-fire-wounding-officer-police"
   },
   {
@@ -212,7 +420,15 @@
     "language": "en",
     "text": "Chiefs\u2019 Chris Jones vows he \u2018will not play for another franchise\u2019 ahead free agency",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/sports/chiefs-chris-jones-vows-he-will-not-play-another-franchise-ahead-free-agency"
   },
   {
@@ -220,7 +436,15 @@
     "language": "en",
     "text": "Man catches fish with bare hands in flooded street",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/man-catches-fish-bare-hands-flooded-california-street-dinner-tonight"
   },
   {
@@ -228,7 +452,15 @@
     "language": "en",
     "text": "Doctor warns against 'dangerous' DEI agenda exposed at medical school",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/first-year-medical-school-students-exposed-woke-sex-gender-primer-lesson"
   },
   {
@@ -236,7 +468,15 @@
     "language": "en",
     "text": "Faith and science take center stage on space shuttle flight in new book",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/jesus-space-faith-science-center-stage-space-shuttle-book"
   },
   {
@@ -244,7 +484,15 @@
     "language": "en",
     "text": "iPhone owners outraged over forced clean energy usage setting",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/tech/iphone-owners-outraged-forced-clean-energy-usage-setting"
   },
   {
@@ -252,7 +500,15 @@
     "language": "en",
     "text": "Large alligator gets stuck in metal fence in Florida",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/video/6322493874112"
   },
   {
@@ -260,7 +516,15 @@
     "language": "en",
     "text": "On this day in history, US Army K-9 Corps begins training dogs to fight in WWII",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/this-day-history-march-13-1942-us-army-k-9-corps-begins-training-dogs-fight-world-war-ii"
   },
   {
@@ -268,7 +532,15 @@
     "language": "en",
     "text": "PLAY HERE: Check out the latest edition of the Fox News Daily Crossword Puzzle",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/daily-crossword-puzzle"
   },
   {
@@ -276,7 +548,15 @@
     "language": "en",
     "text": "Political cartoons of the day",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/cartoons-slideshow"
   },
   {
@@ -284,7 +564,15 @@
     "language": "en",
     "text": "Scientist says nature's 'skeleton key' could be solution to toxic chemical spills and save East Palestine",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/scientist-says-natures-skeleton-key-solution-toxic-chemical-spills-save-east-palestine"
   },
   {
@@ -292,7 +580,15 @@
     "language": "en",
     "text": "International Church of Cannabis spars with liberal city \u2014 but it's not because of drugs",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/international-church-cannabis-spars-liberal-city-not-drugs"
   },
   {
@@ -300,7 +596,15 @@
     "language": "en",
     "text": "Why Jimmy Kimmel will flop as host of the Oscars: Jimmy Failla",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/jimmy-kimmel-flop-host-oscars-jimmy-failla"
   },
   {
@@ -308,7 +612,15 @@
     "language": "en",
     "text": "Treasury rejects complaint that it 'excluded' Senate GOP from Silicon Valley Bank briefing",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/treasury-rejects-complaint-excluded-senate-gop-silicon-valley-bank-briefing"
   },
   {
@@ -316,7 +628,15 @@
     "language": "en",
     "text": "Thousands of junior doctors go on strike across England to demand better pay",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/world/thousands-uk-doctors-strike-across-england-demand-better-pay"
   },
   {
@@ -324,7 +644,15 @@
     "language": "en",
     "text": "Biden says Americans should 'feel confident' in banking system after federal response to SVB collapse",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/biden-americans-confidence-banking-system-federal-response-svb-collapse"
   },
   {
@@ -332,7 +660,15 @@
     "language": "en",
     "text": "Biden admin's response to Silicon Valley Bank collapse is the 'greatest form of corporate cronyism': Tim Scott",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/biden-administration-silicon-valley-bank-collapse-corporate-cronyism-tim-scott"
   },
   {
@@ -340,7 +676,15 @@
     "language": "en",
     "text": "SVB collapse only 'the tip of the iceberg' under Biden spending policies, economist warns",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/svb-collapse-tip-iceberg-biden-spending-policies-economist-warns"
   },
   {
@@ -348,7 +692,15 @@
     "language": "en",
     "text": "First-year medical school students exposed to woke 'sex and gender primer' lesson",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/first-year-medical-school-students-exposed-woke-sex-gender-primer-lesson"
   },
   {
@@ -356,7 +708,15 @@
     "language": "en",
     "text": "Video of White college student goes viral after being 'deprogrammed' about White privilege",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/video-white-college-student-goes-viral-deprogrammed-about-white-privilege"
   },
   {
@@ -364,7 +724,15 @@
     "language": "en",
     "text": "Trump makes first stop in Iowa this cycle just days after DeSantis, expands 2024 campaign ground game",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/trump-makes-first-stop-iowa-cycle-just-days-after-desantis-expands-2024-campaign-ground-game"
   },
   {
@@ -372,7 +740,15 @@
     "language": "en",
     "text": "Hunter Biden: Subpoenaed Bank of America records opened 'new avenues' of investigation, House Oversight says",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/hunter-biden-subpoenaed-bank-america-records-opened-new-avenues-investigation-house-oversight"
   },
   {
@@ -380,7 +756,15 @@
     "language": "en",
     "text": "GOP midterm candidate sounds off on 'criminal' request of his private military records by Dem-aligned group",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/gop-midterm-candidate-sounds-criminal-request-private-military-records-dem-aligned-group"
   },
   {
@@ -388,7 +772,15 @@
     "language": "en",
     "text": "Dave McCormick\u2019s new book could serve as a \u2018battle plan\u2019 for a 2024 GOP Senate run in Pennsylvania",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/dave-mccormicks-new-book-serve-battle-plan-2024-gop-senate-run-pennsylvania"
   },
   {
@@ -396,7 +788,15 @@
     "language": "en",
     "text": "China's quiet land grab threatens our most valuable resource",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/opinion/china-quiet-land-grab-threatens-most-valuable-resource"
   },
   {
@@ -404,7 +804,15 @@
     "language": "en",
     "text": "Patriot remembered: Military mom memorializes son who died in National Guard helicopter crash with new book",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/patriot-remembered-military-mom-memorializes-son-died-national-guard-helicopter-crash-book"
   },
   {
@@ -412,7 +820,15 @@
     "language": "en",
     "text": "US Merchant Marine Academy rescinds vaccine mandate days after accusations of 'iIlegal attack'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/us-merchant-marine-academy-rescinds-vaccine-mandate-days-after-accusations-legal-attack"
   },
   {
@@ -420,7 +836,15 @@
     "language": "en",
     "text": "Mayor Eric Adams' church and state remarks 'surprising' but 'encouraging,' says religious liberty group",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/politics/mayor-eric-adams-church-state-remarks-surprising-encouraging-says-pro-religious-liberty-group"
   },
   {
@@ -428,7 +852,15 @@
     "language": "en",
     "text": "UN commission claims international community, Syrian government didn't react to earthquake quickly enough",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/world/un-commission-claims-international-community-syrian-government-earthquake-quickly"
   },
   {
@@ -436,7 +868,15 @@
     "language": "en",
     "text": "Former Haiti mayor accused of torturing, killing his political opponents heads to court in Boston",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/world/former-haiti-mayor-accused-torturing-killing-political-opponents-heads-court-boston"
   },
   {
@@ -444,7 +884,15 @@
     "language": "en",
     "text": "Xi Jinping to speak with Zelenskyy after meeting Putin in Moscow: report",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/world/xi-jinping-speak-zelenskyy-meeting-putin-moscow-report"
   },
   {
@@ -452,7 +900,15 @@
     "language": "en",
     "text": "Nursery school under fire for advising parents to not call daughters 'pretty' or 'princess': 'Daft advice'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/world/nursery-school-under-fire-advising-parents-not-call-daughters-pretty-princess-daft-advice"
   },
   {
@@ -460,7 +916,15 @@
     "language": "en",
     "text": "What became of 20 babies Paris Hilton left behind?",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/opinion/what-became-20-babies-paris-hilton-left-behind"
   },
   {
@@ -468,7 +932,15 @@
     "language": "en",
     "text": "5 ways Biden is still coming for your gas stove",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/opinion/5-ways-biden-still-coming-your-gas-stove"
   },
   {
@@ -476,7 +948,15 @@
     "language": "en",
     "text": "Elizabeth Warren's shocking Spirit folly will hurt all air travelers",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/opinion/elizabeth-warrens-shocking-spirit-folly-will-hurt-all-air-travelers"
   },
   {
@@ -484,7 +964,15 @@
     "language": "en",
     "text": "China's thought police may already be at work in America",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/opinion/chinas-thought-police-may-already-work-america"
   },
   {
@@ -492,7 +980,15 @@
     "language": "en",
     "text": "Be well: Why it's wise to ditch the elevator and take the stairs",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/health/be-well-wise-ditch-elevator-take-stairs"
   },
   {
@@ -500,7 +996,15 @@
     "language": "en",
     "text": "Mediterranean, MIND diets shown to reduce signs of Alzheimer\u2019s in the brain, study finds",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/health/mediterranean-mind-diets-shown-reduce-signs-alzheimers-brain-study-finds"
   },
   {
@@ -508,7 +1012,15 @@
     "language": "en",
     "text": "Most men diagnosed with prostate cancer don't need to rush to surgery, radiation treatments: study",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/health/most-men-diagnosed-prostate-cancer-dont-need-rush-surgery-radiation-treatments-study"
   },
   {
@@ -516,7 +1028,15 @@
     "language": "en",
     "text": "Prince Harry says psychedelic drugs helped him \u2014 but what about the risks and dangers?",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/health/prince-harry-psychedelic-drugs-helped-him-what-risks-dangers"
   },
   {
@@ -524,7 +1044,15 @@
     "language": "en",
     "text": "Border Patrol staffer questioned whether Ariz. rancher was \u2018crazy\u2019 when calling about alleged drug traffickers",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/border-patrol-questioned-arizona-rancher-crazy-calling-alleged-drug-traffickers"
   },
   {
@@ -532,7 +1060,15 @@
     "language": "en",
     "text": "Florida suspect killed in shooting was \u2018waiting\u2019 for deputies before opening fire, wounding officer: police",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/florida-suspect-killed-shooting-waiting-deputies-opening-fire-wounding-officer-police"
   },
   {
@@ -540,7 +1076,15 @@
     "language": "en",
     "text": "Ohio judge to determine validity of insanity defense submitted by man who killed 2 children",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/ohio-judge-determine-validity-insanity-defense-submitted-killed-2-children"
   },
   {
@@ -548,7 +1092,15 @@
     "language": "en",
     "text": "Black history through the years: Rosa Parks, Sojourner Truth, MLK Jr. and other famous figures in the US",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/black-history-10-famous-figures-us"
   },
   {
@@ -556,7 +1108,15 @@
     "language": "en",
     "text": "How to send Valentines to kids in hospitals, nursing home residents and more",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/send-valentines-children-hospitals-nursing-homes-shelters"
   },
   {
@@ -564,7 +1124,15 @@
     "language": "en",
     "text": "In memory of World War II veteran Lester Tanner: 'We are all Jewish'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/memory-wwii-veteran-lester-tanner-we-all-jewish"
   },
   {
@@ -572,7 +1140,15 @@
     "language": "en",
     "text": "Why does so much of Gen-Z hate America? Here's why we can't give up on them",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/opinion/why-gen-z-hate-america-why-cant-give-up-them"
   },
   {
@@ -580,7 +1156,15 @@
     "language": "en",
     "text": "China flexes muscles in Latin America in latest security challenge to US",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/world/china-flexes-muscles-latin-america-latest-security-challenge-us"
   },
   {
@@ -588,7 +1172,15 @@
     "language": "en",
     "text": "On this day in history, March 13, 1942, US Army K-9 Corps begins training dogs to fight in World War II",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/this-day-history-march-13-1942-us-army-k-9-corps-begins-training-dogs-fight-world-war-ii"
   },
   {
@@ -596,7 +1188,15 @@
     "language": "en",
     "text": "David Blaine dislocates shoulder, continues Las Vegas performance: \u2018Wow that hurt\u2019",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/david-blaine-dislocates-shoulder-continues-las-vegas-performance-wow-hurt"
   },
   {
@@ -604,7 +1204,15 @@
     "language": "en",
     "text": "Angela Bassett accused of being 'sore loser' in viral Oscar moment after Jamie Lee Curtis' win",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/angela-bassett-accused-being-sore-loser-viral-oscar-moment-jamie-lee-curtis-win"
   },
   {
@@ -612,7 +1220,15 @@
     "language": "en",
     "text": "'Wheel of Fortune' host Pat Sajak apologizes to contestant after mocking phobia",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/wheel-of-fortune-host-pat-sajak-apologizes-contestant-after-mocking-phobia"
   },
   {
@@ -620,7 +1236,15 @@
     "language": "en",
     "text": "Bruce Springsteen postpones 3 shows due to illness a month into first major tour in 6 years",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/bruce-springsteen-postpones-3-shows-illness-month-first-major-tour-6-years"
   },
   {
@@ -628,7 +1252,15 @@
     "language": "en",
     "text": "Jason Kelce announces plans to return to Eagles in 2023: 'I ain\u2019t f---ing done yet!'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/sports/jason-kelce-announces-plans-return-eagles-2023-done-yet"
   },
   {
@@ -636,7 +1268,15 @@
     "language": "en",
     "text": "Chargers star Austin Ekeler requests permission to seek trade after stellar year: reports",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/sports/chargers-star-austin-ekeler-requests-permission-seek-trade-stellar-year-reports"
   },
   {
@@ -644,7 +1284,15 @@
     "language": "en",
     "text": "Patriots start offseason wheeling and dealing with Jonathan Jones deal, Jonnu Smith trade: reports",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/sports/patriots-start-offseason-wheeling-dealing-jonathan-jones-deal-jonnu-smith-trade-reports"
   },
   {
@@ -652,7 +1300,15 @@
     "language": "en",
     "text": "Rehabilitated bald eagle released in Mississippi after getting struck by car",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/rehabilitated-bald-eagle-released-mississippi-getting-struck-car"
   },
   {
@@ -660,7 +1316,15 @@
     "language": "en",
     "text": "10 safety tips to remember if you're traveling out of the country for spring break",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/10-safety-tips-remember-traveling-out-country-spring-break"
   },
   {
@@ -668,7 +1332,15 @@
     "language": "en",
     "text": "Prince Harry, Meghan Markle's children have yet to be invited to King Charles' coronation: report",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markles-children-invited-king-charles-coronation-report"
   },
   {
@@ -676,7 +1348,15 @@
     "language": "en",
     "text": "Husky dog who was called 'ugly' for crooked smile finds family who drives 2.6K miles to adopt him",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/husky-dog-called-ugly-crooked-smile-finds-family-drives-2-6k-miles-adopt-him"
   },
   {
@@ -684,7 +1364,15 @@
     "language": "en",
     "text": "Personal loan interest rates tumble below 15% for 5-year fixed-rate loans",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxbusiness.com/personal-finance/personal-loan-rates-march-13-2023"
   },
   {
@@ -692,7 +1380,15 @@
     "language": "en",
     "text": "Savings window opens: Today's 30-year mortgage rates fall to lowest levels in 26 days | March 13, 2023",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-march-13-2023"
   },
   {
@@ -700,7 +1396,15 @@
     "language": "en",
     "text": "Inflation, recession fears dampen financial health outlook for many: survey",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxbusiness.com/personal-finance/inflation-costs-americans-struggling-get-by-2023"
   },
   {
@@ -708,7 +1412,15 @@
     "language": "en",
     "text": "How to file your 2023 taxes and get the most out of your return",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxbusiness.com/personal-finance/how-file-2023-taxes-get-most-return"
   },
   {
@@ -716,7 +1428,15 @@
     "language": "en",
     "text": "Beware of rise in short-term vacation rental scams",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/tech/beware-rise-short-term-vacation-rental-scams"
   },
   {
@@ -724,7 +1444,15 @@
     "language": "en",
     "text": "Stop! This mistake is loading your device with adware and trackers!",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/tech/stop-this-mistake-is-loading-your-device-with-adware-and-trackers"
   },
   {
@@ -732,7 +1460,15 @@
     "language": "en",
     "text": "Now you can add ChatGPT to your browser",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/tech/add-chatgpt-browser"
   },
   {
@@ -740,7 +1476,15 @@
     "language": "en",
     "text": "Woody Harrelson's \u2018Champions\u2019 turns spotlight on actors with disabilities: It's our 'superpower'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/woody-harrelsons-champions-turns-spotlight-actors-disabilities-our-superpower"
   },
   {
@@ -748,7 +1492,15 @@
     "language": "en",
     "text": "Don Lemon seemingly roasted at Oscars by Michelle Yeoh: 'Don't let anybody tell you you're past your prime'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/don-lemon-seemed-roasted-oscars-michelle-yeoh-dont-let-anybody-tell-you-youre-ever-past-your-prime"
   },
   {
@@ -756,7 +1508,15 @@
     "language": "en",
     "text": "Ke Huy Quan embraced onstage by presenter Harrison Ford as 'Everything Everywhere All At Once' wins Oscar",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/ke-huy-quan-embraced-onstage-presenter-harrison-ford-everything-everywhere-all-at-once-wins-oscar"
   },
   {
@@ -764,7 +1524,15 @@
     "language": "en",
     "text": "Rent growth had smallest gain in two years: Redfin",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxbusiness.com/lifestyle/rent-growth-posts-smallest-increase-two-years-redfin"
   },
   {
@@ -772,7 +1540,15 @@
     "language": "en",
     "text": "Charles Schwab shares head for worst day ever, CFO defends firm",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxbusiness.com/markets/charles-schwab-shares-head-for-worst-day-ever-cfo-defends-firm"
   },
   {
@@ -780,7 +1556,15 @@
     "language": "en",
     "text": "First Republic shares plunge on SVB contagion fears",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxbusiness.com/markets/first-republic-shares-plunge-svb-contagion-fears"
   },
   {
@@ -788,7 +1572,15 @@
     "language": "en",
     "text": "'Jesus in Space': Faith and science take center stage on space shuttle flight in new book",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/jesus-space-faith-science-center-stage-space-shuttle-book"
   },
   {
@@ -796,7 +1588,15 @@
     "language": "en",
     "text": "Biblical drama centering around 'controversial' passage in Scripture enjoys crowdfunding success",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/biblical-drama-centering-controversial-passage-scripture-enjoys-crowdfunding-success"
   },
   {
@@ -804,7 +1604,15 @@
     "language": "en",
     "text": "Russell Brand shares faith's role in overcoming addiction: 'I need God, or I cannot cope in this world'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/media/russell-brand-shares-faith-role-overcoming-addiction-need-god-cannot-cope-world"
   },
   {
@@ -812,7 +1620,15 @@
     "language": "en",
     "text": "Drowsy drivers just won't stop soon enough, AAA study finds",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/auto/drowsy-drivers-stop-soon-aaa-study"
   },
   {
@@ -820,7 +1636,15 @@
     "language": "en",
     "text": "William Byron wins second consecutive race, holds off Ryan Blaney in Phoenix",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/sports/william-byron-wins-second-consecutive-race-holds-off-ryan-blaney-in-phoenix"
   },
   {
@@ -828,7 +1652,15 @@
     "language": "en",
     "text": "Sammy Smith, 18-year-old high schooler, picks up first Xfinity Series win",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/sports/sammy-smith-18-year-old-high-schooler-picks-up-first-xfinity-series-win"
   },
   {
@@ -836,7 +1668,15 @@
     "language": "en",
     "text": "Amelia Earhart's once-lost 1937 Cord added to National Historic Vehicle Register",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/auto/amelia-earharts-cord-national-historic-vehicle-register"
   },
   {
@@ -844,7 +1684,15 @@
     "language": "en",
     "text": "Coconuts being incorporated into shoreline protection projects across the world",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/coconuts-incorporate-shoreline-protection-projects-across-world"
   },
   {
@@ -852,7 +1700,15 @@
     "language": "en",
     "text": "Shakira says she 'put up with so much crap' as she talks 'rough year' after split with Gerard Piqu\u00e9",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/shakira-says-she-put-up-with-so-much-crap-she-talks-rough-year-split-gerard-pique"
   },
   {
@@ -860,7 +1716,15 @@
     "language": "en",
     "text": "Paulina Porizkova, 57, reveals she\u2019s dating again despite \u2018trust issues\u2019",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/paulina-porizkova-57-reveals-dating-trust-issues"
   },
   {
@@ -868,7 +1732,15 @@
     "language": "en",
     "text": "Cher, 76, and Alexander Edwards, 37, share passionate kiss as they make their red carpet debut",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/entertainment/cher-76-alexander-edwards-37-share-passionate-kiss-red-carpet-debut"
   },
   {
@@ -876,7 +1748,15 @@
     "language": "en",
     "text": "The popular cereal that debuted the decade you were born",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/food-drink/popular-cereal-released-decade"
   },
   {
@@ -884,7 +1764,15 @@
     "language": "en",
     "text": "Celebrate National Margarita Day with these sweet and savory cocktail recipes",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/food-drink/margarita-recipes-perfect-national-margarita-day"
   },
   {
@@ -892,7 +1780,15 @@
     "language": "en",
     "text": "American Heart Month: Add these heart-healthy foods recommended by experts to your grocery list",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/food-drink/best-foods-heart-health-experts"
   },
   {
@@ -900,7 +1796,15 @@
     "language": "en",
     "text": "5 homemade Valentine\u2019s Day dinner recipe ideas",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/food-drink/homemade-valentines-day-dinner-recipes"
   },
   {
@@ -908,7 +1812,15 @@
     "language": "en",
     "text": "Nor'easter to rapidly intensify as it blasts East Coast with heavy snow, rain, high winds, coastal flooding",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxweather.com/weather-news/noreaster-forecast-winter-storm-northeast-snow-rain-wind-coastal-flooding"
   },
   {
@@ -916,7 +1828,15 @@
     "language": "en",
     "text": "California again besieged by atmospheric river's flooding rains, triggering 'roofalanche' concerns",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxweather.com/weather-news/california-atmospheric-river-flood-rain-sierra-snow-roofalanche-concerns"
   },
   {
@@ -924,7 +1844,15 @@
     "language": "en",
     "text": "Remember all that snow? Here are the most memorable nor'easters over the years",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxweather.com/learn/most-memorable-noreasters"
   },
   {
@@ -932,7 +1860,15 @@
     "language": "en",
     "text": "Yosemite National Park extends park closure as another atmospheric river storm slams California",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxweather.com/weather-news/yosemite-national-park-extends-closure"
   },
   {
@@ -940,7 +1876,15 @@
     "language": "en",
     "text": "Arkansas student dresses as her 2nd-grade teacher for school 'Superhero Day': 'Melted my heart'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/arkansas-student-dresses-2nd-grade-teacher-school-superhero-day-melted-my-heart"
   },
   {
@@ -948,7 +1892,15 @@
     "language": "en",
     "text": "Short questions with Dana Perino",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/short-questions-dana-perino-jesse-watters"
   },
   {
@@ -956,7 +1908,15 @@
     "language": "en",
     "text": "Tampa woman who fought attacker inside apartment gym honored by sheriff's office: 'Strength and Courage'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/us/tampa-woman-fought-attacker-inside-apartment-gym-honored-sheriffs-office-strength-courage"
   },
   {
@@ -964,7 +1924,15 @@
     "language": "en",
     "text": "The Salvation Army offers emotional, spiritual support after Ohio train derailment: 'Providing hope'",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/lifestyle/the-salvation-army-offers-emotional-spiritual-support-ohio-train-derailment-providing-hope"
   },
   {
@@ -972,7 +1940,15 @@
     "language": "en",
     "text": "The Next Revolution w/ Steve Hilton - Sunday, March 12",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/video/6322461954112"
   },
   {
@@ -980,7 +1956,15 @@
     "language": "en",
     "text": "Life, Liberty & Levin - Sunday, March 12",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/video/6322459668112"
   },
   {
@@ -988,7 +1972,15 @@
     "language": "en",
     "text": "Sunday Night in America with Trey Gowdy - Sunday, March 12",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/video/6322458665112"
   },
   {
@@ -996,7 +1988,15 @@
     "language": "en",
     "text": "The Big Sunday Show - Sunday, March 12",
     "date": "2000-01-01T00:00:00",
-    "toxicity": 0.5,
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
     "url": "https://www.foxnews.com/video/6322453315112"
   }
 ]
