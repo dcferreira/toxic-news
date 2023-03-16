@@ -2,6 +2,7 @@ import asyncio
 import atexit
 import csv
 import importlib.resources as pkg_resources
+import time
 import urllib.parse
 from datetime import datetime
 from typing import Optional, cast
@@ -13,7 +14,7 @@ from aiohttp import ClientResponse, ClientSession
 from detoxify import Detoxify
 from loguru import logger
 from lxml.html import HtmlElement
-from pydantic import BaseModel, HttpUrl
+from pydantic import BaseModel, HttpUrl, ValidationError
 from waybackpy import WaybackMachineAvailabilityAPI
 
 from toxic_news import assets
@@ -29,6 +30,7 @@ class Newspaper(BaseModel):
     language: str
     url: HttpUrl
     xpath: str
+    expected_headlines: int
 
 
 class Scores(BaseModel):
@@ -47,7 +49,7 @@ class Headline(BaseModel):
     text: str
     date: datetime
     scores: Scores
-    url: HttpUrl
+    url: Optional[HttpUrl]
 
 
 class DetoxifyResults(BaseModel):
@@ -58,6 +60,17 @@ class DetoxifyResults(BaseModel):
     insult: list[float]
     threat: list[float]
     sexual_explicit: list[float]
+
+
+def validate_url(url: str) -> bool:
+    class UrlModel(BaseModel):
+        url: HttpUrl
+
+    try:
+        UrlModel(url=url)  # type: ignore
+        return True
+    except ValidationError:
+        return False
 
 
 def parse_detoxify_scores(scores: DetoxifyResults) -> list[Scores]:
@@ -93,10 +106,10 @@ class Fetcher:
             return result, content
 
     def _request(self):
-        logger.info(f"Fetching {self.newspaper.url}...")
+        logger.debug(f"Fetching {self.newspaper.url!r}...")
         self._response, self._content = asyncio.run(self._request_coroutine())
         self._request_time = datetime.utcnow()
-        logger.info(f"{self.newspaper.url} fetched with code: {self._response.status}")
+        logger.debug(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
     @property
     def content(self) -> str:
@@ -135,6 +148,8 @@ class Fetcher:
 
     def classify(self) -> list[Headline]:
         content = self.fetch()
+        if len(content) == 0:  # no content was found
+            return []
         results = self.predict([x[0] for x in content])
         scores = parse_detoxify_scores(results)
         return [
@@ -144,7 +159,7 @@ class Fetcher:
                 text=t,
                 date=self.request_time,
                 scores=s,
-                url=cast(HttpUrl, u),
+                url=cast(HttpUrl, u) if validate_url(u) else None,
             )
             for s, (t, u) in zip(scores, content)
         ]
@@ -176,6 +191,7 @@ class WaybackFetcher(Fetcher):
                 year=self.date.year, month=self.date.month, day=self.date.day, hour=12
             )
             self._request_time = archive.timestamp()
+            time.sleep(1)  # blocking sleep, to not spam the API
 
             # use the `id_` flag to get the original copy
             # see https://webapps.stackexchange.com/a/155393
@@ -184,25 +200,19 @@ class WaybackFetcher(Fetcher):
 
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
         url = self.get_wayback_url()
-        logger.debug(f"Fetching {url}...")
+        logger.debug(f"Fetching {url!r}...")
         result = await self.session.get(url)
         content = await result.content.read()
         return result, content
 
     def _request(self):
-        logger.info(f"Fetching {self.newspaper.url}...")
+        logger.debug(f"Fetching {self.newspaper.url}...")
         self._response, self._content = asyncio.run(self._request_coroutine())
-        logger.info(f"{self.newspaper.url} fetched with code: {self._response.status}")
+        logger.debug(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
     async def run_request_coroutine(self) -> ClientResponse:
         self._response, self._content = await self._request_coroutine()
         return self._response
-
-    @property
-    def content(self) -> str:
-        if self._response is None:
-            self._request()
-        return asyncio.run(self.get_async_content()).decode()
 
     async def get_async_content(self) -> bytes:
         if self._response is None:
@@ -221,6 +231,7 @@ newspapers: list[Newspaper] = [
             "language": row[1],
             "url": row[2],
             "xpath": row[3],
+            "expected_headlines": row[4],
         }
     )
     for row in csv.reader(newspapers_text.strip().split("\n"))

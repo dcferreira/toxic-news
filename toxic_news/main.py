@@ -3,6 +3,7 @@ import os
 import re
 from asyncio import create_task
 from datetime import datetime, timedelta
+from typing import Optional
 
 import aiohttp
 import typer
@@ -143,7 +144,7 @@ def _verify_date_string(date: str):
 @app.command()
 def daily_update_db(date: str = typer.Argument(..., help="Date in YYYY/MM/DD format")):
     _verify_date_string(date)
-    build_daily(date)
+    build_daily_table(date)
 
 
 async def _fetch_single(
@@ -209,21 +210,26 @@ async def _fetch_wayback(
         return [f.classify() for f in tqdm(fetchers)]
 
 
+def find_newspaper(url: str) -> Newspaper:
+    for n in newspapers:
+        if n.url == url:
+            return n
+    raise ValueError(f"No newspaper found with {url=}")
+
+
 @app.command()
 def fetch_wayback(
-    name: str,
-    language: str,
     url: str,
-    xpath: str,
-    expected_nr_headlines: int,
     date_start: datetime,
     date_end: datetime,
     allowed_difference_headlines: float = typer.Option(
-        0.1,
+        0.3,
         help="Allow for more or less headlines. "
-        "If `expected_nr_headlines` is 100 and this is 0.1, allows for #headlines "
-        "between 90 and 110, and errors if there's too many/few headlines.",
+        "If `expected_nr_headlines` is 100 and this is 0.3, allows for #headlines "
+        "between 70 and 130, and errors if there's too many/few headlines.",
     ),
+    xpath: Optional[str] = None,
+    auto_save: bool = False,
 ):
     # workaround for to stop logger from interfering with tqdm
     logger.remove()
@@ -231,13 +237,38 @@ def fetch_wayback(
 
     numdays = (date_end - date_start).days
     date_list = [date_start + timedelta(days=x) for x in range(numdays)]
-    newspaper = Newspaper.parse_obj(
-        {"name": name, "language": language, "url": url, "xpath": xpath}
-    )
+    newspaper = find_newspaper(url)
+    if xpath is not None:  # might need a different xpath for historic websites
+        newspaper.xpath = xpath
     headlines_list = asyncio.run(_fetch_wayback(newspaper, date_list))
 
-    table: Collection = db.headlines
-    table.insert_many([h.dict() for day in headlines_list for h in day])
+    def check_nr(n: int) -> bool:
+        return (
+            newspaper.expected_headlines * (1 - allowed_difference_headlines)
+            <= n
+            <= newspaper.expected_headlines * (1 + allowed_difference_headlines)
+        )
+
+    headlines_to_insert = []
+    bad_dates = []
+    for h, d in zip(headlines_list, date_list):
+        if check_nr(len(h)):
+            headlines_to_insert.append(h)
+        else:
+            bad_dates.append((d, len(h)))
+    for d, n in bad_dates:
+        logger.warning(
+            f"Bad date not inserted: {d} with {n} headlines "
+            f"(expected {newspaper.expected_headlines} ± "
+            f"{allowed_difference_headlines * newspaper.expected_headlines:.2f})"
+        )
+
+    if auto_save or typer.confirm("Save these results?"):
+        if len(headlines_to_insert) > 0:
+            table: Collection = db.headlines
+            table.insert_many([h.dict() for day in headlines_to_insert for h in day])
+    else:
+        logger.info("No results saved to database.")
 
 
 if __name__ == "__main__":

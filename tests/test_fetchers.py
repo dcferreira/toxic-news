@@ -82,6 +82,21 @@ def test_parse(assets, snapshot, monkeypatch, newspaper):
     )
 
 
+@pytest.mark.integration
+@pytest.mark.parametrize("newspaper", newspapers)
+def test_parse_live(assets, snapshot, newspaper):
+    # check live version of the website, and see if the xpath we have configured
+    # still outputs around the same number of headlines
+    fetcher = Fetcher(newspaper)
+    live_len = len(fetcher.fetch())
+
+    assert (
+        newspaper.expected_headlines * 0.7
+        <= live_len
+        <= newspaper.expected_headlines * 1.3
+    )
+
+
 @pytest.mark.parametrize("newspaper", newspapers)
 def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
     make_mock_fetcher(monkeypatch, newspaper.url, assets)
@@ -133,6 +148,7 @@ async def test_wayback_integration():
             "language": "en",
             "url": "https://bbc.com",
             "xpath": "//h3[@class='media__title']/a",
+            "expected_headlines": 47,
         }
     )
     async with aiohttp.ClientSession() as session:
@@ -159,6 +175,7 @@ def test_wayback_sync():
             "language": "en",
             "url": "https://bbc.com",
             "xpath": "//h3[@class='media__title']/a",
+            "expected_headlines": 47,
         }
     )
     fetchers = [

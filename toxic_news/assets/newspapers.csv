@@ -1,4 +1,4 @@
-BBC,en,https://bbc.com,//h3[@class='media__title']/a
-Fox News,en,https://foxnews.com,//article//h3/a
-Newsmax,en,https://newsmax.com,//div[@id='nmCanvas1Headline']//h1 | //div[@id='nmLeadStoryContent']/div[@id='nmleadStoryHead']/h2/a | //div[@class='nmNewsfrontT ' or @class='nmleadStoryHead']//h2/a
-The Washington Times,en,https://washingtontimes.com,//div[@class='homeholding']//article/h2/a
+BBC,en,https://bbc.com,//h3[@class='media__title']/a,47
+Fox News,en,https://foxnews.com,//article//h3/a,125
+Newsmax,en,https://newsmax.com,//div[@id='nmCanvas1Headline']//h1 | //div[@id='nmLeadStoryContent']/div[@id='nmleadStoryHead']/h2/a | //div[@class='nmNewsfrontT ' or @class='nmleadStoryHead']//h2/a,50
+The Washington Times,en,https://washingtontimes.com,//div[@class='homeholding']//article/h2/a,46
