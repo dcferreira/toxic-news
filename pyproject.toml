@@ -80,6 +80,7 @@ push = [
     "docker tag toxic-news:local us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest",
     "docker push us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest"
 ]
+cli = "python toxic_news/main.py {args}"
 
 [tool.hatch.envs.explore]
 dependencies = [

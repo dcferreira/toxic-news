@@ -211,6 +211,9 @@ def render_daily(
         "all the dates in [`date`, `end_date`[ will be inserted.",
     ),
 ):
+    """
+    Renders a page for one (or multiple) dates
+    """
     if end_date is not None:
         date_range = get_date_range(date, end_date)
     else:
@@ -236,7 +239,7 @@ def render_daily(
 
 
 @app.command()
-def daily_update_db(
+def update_daily_db(
     date: datetime = typer.Argument(..., help="Date in YYYY/MM/DD format"),
     end_date: Optional[datetime] = typer.Option(
         None,
@@ -245,6 +248,10 @@ def daily_update_db(
     ),
     auto_save: bool = False,
 ):
+    """
+    Queries rows from the `headlines` collection, and stores the averages
+    per day per newspaper to the `daily` collection.
+    """
     if end_date is not None:
         date_range = get_date_range(date, end_date)
     else:
@@ -299,6 +306,10 @@ def fetch_daily(
     auth_bearer: str = typer.Argument(..., envvar="AUTH_BEARER"),
     endpoint: str = "fetch",
 ):
+    """
+    Calls the serverless agent with one call per newspaper, to fetch live
+    pages and populate the `headlines` collection.
+    """
     asyncio.run(_fetch_daily(url=url, auth_bearer=auth_bearer, endpoint=endpoint))
 
 
@@ -343,6 +354,10 @@ def fetch_wayback(
     xpath: Optional[str] = None,
     auto_save: bool = False,
 ):
+    """
+    Fetch webpages using the wayback machine, classifies them and (optionally)
+    updates the `headlines` collection with the results
+    """
     # workaround for to stop logger from interfering with tqdm
     logger.remove()
     logger.add(lambda msg: tqdm.write(msg, end=""), colorize=True)
@@ -384,6 +399,9 @@ def fetch_wayback(
 
 @app.command()
 def render():
+    """
+    Renders the main page HTML.
+    """
     render_alltime()
 
 
