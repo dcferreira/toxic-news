@@ -1,8 +1,8 @@
 import asyncio
 import os
-import re
 from asyncio import create_task
 from datetime import datetime, timedelta
+from pathlib import Path
 from typing import Optional
 
 import aiohttp
@@ -29,6 +29,8 @@ client: MongoClient = MongoClient(
 )
 db: Database = client[os.environ["DATABASE_NAME"]]
 
+date_fmt = "%Y/%m/%d"
+
 
 class DailyRow(BaseModel):
     name: str
@@ -37,13 +39,18 @@ class DailyRow(BaseModel):
     date: str
 
 
-def average_daily_scores(name: str, date: str) -> Scores:
+class AllTimeRow(BaseModel):
+    name: str
+    scores: Scores
+
+
+def query_average_headline_scores(name: str, date: datetime) -> Scores:
     cursor = db.headlines.aggregate(
         [
             {
                 "$project": {
                     "dateStr": {
-                        "$dateToString": {"format": "%G/%m/%d", "date": "$date"}
+                        "$dateToString": {"format": "%Y/%m/%d", "date": "$date"}
                     },
                     "newspaper": 1,
                     "text": 1,
@@ -52,7 +59,7 @@ def average_daily_scores(name: str, date: str) -> Scores:
             },
             {
                 "$match": {
-                    "dateStr": date,
+                    "dateStr": date.strftime(date_fmt),
                     "newspaper": name,
                 }
             },
@@ -79,13 +86,66 @@ def average_daily_scores(name: str, date: str) -> Scores:
     return results[0]["scores"]
 
 
-def count_daily_headlines(name: str, date: str) -> int:
+def query_average_daily_scores(name: str) -> Scores:
+    cursor = db.daily.aggregate(
+        [
+            {
+                "$match": {
+                    "name": name,
+                }
+            },
+            {"$addFields": {"scores": {"$objectToArray": "$scores"}}},
+            {"$unwind": {"path": "$scores"}},
+            {"$group": {"_id": "$scores.k", "average": {"$avg": "$scores.v"}}},
+            {"$addFields": {"score": "$_id", "_id": 0}},
+            {
+                "$group": {
+                    "_id": "score",
+                    "scores": {"$push": {"k": "$score", "v": "$average"}},
+                }
+            },
+            {
+                "$addFields": {
+                    "name": "$_id",
+                    "scores": {"$arrayToObject": "$scores"},
+                    "_id": 0,
+                }
+            },
+        ]
+    )
+    results = list(cursor)
+    return results[0]["scores"]
+
+
+def get_alltime_rows() -> list[AllTimeRow]:
+    out = []
+    for n in newspapers:
+        scores = query_average_daily_scores(n.name)
+        out.append(AllTimeRow(name=n.name, scores=scores))
+    return out
+
+
+def render_alltime():
+    env = Environment(
+        loader=PackageLoader("toxic_news"),
+        autoescape=select_autoescape(),
+    )
+    template = env.get_template("index.html")
+    with open("public/index.html", "w+") as fd:
+        fd.write(
+            template.render(
+                rows=get_alltime_rows(),
+            )
+        )
+
+
+def query_headlines_count(name: str, date: datetime) -> int:
     cursor = db.headlines.aggregate(
         [
             {
                 "$project": {
                     "dateStr": {
-                        "$dateToString": {"format": "%G/%m/%d", "date": "$date"}
+                        "$dateToString": {"format": "%Y/%m/%d", "date": "$date"}
                     },
                     "newspaper": 1,
                     "text": 1,
@@ -94,7 +154,7 @@ def count_daily_headlines(name: str, date: str) -> int:
             },
             {
                 "$match": {
-                    "dateStr": date,
+                    "dateStr": date.strftime(date_fmt),
                     "newspaper": name,
                 }
             },
@@ -105,46 +165,92 @@ def count_daily_headlines(name: str, date: str) -> int:
     return results[0]["count"]
 
 
-def build_daily_table(date: str) -> list[DailyRow]:
+def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
     out = []
     for n in newspapers:
         out.append(
             DailyRow(
                 name=n.name,
-                scores=average_daily_scores(n.name, date),
-                count=count_daily_headlines(n.name, date),
-                date=date,
+                scores=query_average_headline_scores(n.name, date),
+                count=query_headlines_count(n.name, date),
+                date=date.strftime(date_fmt),
             )
         )
-    table: Collection = db.daily
-    table.insert_many([r.dict() for r in out])
+
+    logger.debug(f"First 5 rows to be inserted:\n\n{out[:5]}")
+    if autosave or typer.confirm("Insert results into table?"):
+        if len(out) > 0:
+            table: Collection = db.daily
+            table.insert_many([r.dict() for r in out])
+    else:
+        logger.info("Results not inserted")
     return out
 
 
-def build_daily(date: str):
-    _verify_date_string(date)
-    env = Environment(
-        loader=PackageLoader("toxic_news"),
-        autoescape=select_autoescape(),
-    )
-    template = env.get_template("index.html")
-    with open("public/index.html", "w+") as fd:
-        fd.write(
-            template.render(
-                rows=build_daily_table(date),
-            )
+def query_daily_rows(date: datetime) -> list[DailyRow]:
+    table: Collection = db.daily
+    date_str = date.strftime(date_fmt)
+    cursor = table.find({"date": date_str})
+    return [
+        DailyRow(
+            name=res["name"],
+            scores=Scores.parse_obj(res["scores"]),
+            date=date_str,
+            count=res["count"],
         )
-
-
-def _verify_date_string(date: str):
-    if re.fullmatch(r"[0-9]{4}/[0-1][0-9]/[0-3][0-9]", date) is None:
-        raise ValueError(f"Date passed is invalid: {date=}")
+        for res in cursor
+    ]
 
 
 @app.command()
-def daily_update_db(date: str = typer.Argument(..., help="Date in YYYY/MM/DD format")):
-    _verify_date_string(date)
-    build_daily_table(date)
+def render_daily(
+    date: datetime,
+    end_date: Optional[datetime] = typer.Option(
+        None,
+        help="If a `end_date` is provided, "
+        "all the dates in [`date`, `end_date`[ will be inserted.",
+    ),
+):
+    if end_date is not None:
+        date_range = get_date_range(date, end_date)
+    else:
+        date_range = [date]
+
+    for d in date_range:
+        env = Environment(
+            loader=PackageLoader("toxic_news"),
+            autoescape=select_autoescape(),
+        )
+        dir_path = Path("public") / str(d.year) / str(d.month)
+        if not dir_path.exists():
+            os.makedirs(dir_path)
+        path = dir_path / f"{d.day}.html"
+
+        template = env.get_template("daily.html")
+        with open(path, "w+") as fd:
+            fd.write(
+                template.render(
+                    rows=query_daily_rows(d),
+                )
+            )
+
+
+@app.command()
+def daily_update_db(
+    date: datetime = typer.Argument(..., help="Date in YYYY/MM/DD format"),
+    end_date: Optional[datetime] = typer.Option(
+        None,
+        help="If a `end_date` is provided, "
+        "all the dates in [`date`, `end_date`[ will be inserted.",
+    ),
+    auto_save: bool = False,
+):
+    if end_date is not None:
+        date_range = get_date_range(date, end_date)
+    else:
+        date_range = [date]
+    for d in date_range:
+        insert_daily_table(d, auto_save)
 
 
 async def _fetch_single(
@@ -217,13 +323,19 @@ def find_newspaper(url: str) -> Newspaper:
     raise ValueError(f"No newspaper found with {url=}")
 
 
+def get_date_range(start_date: datetime, end_date: datetime) -> list[datetime]:
+    numdays = (end_date - start_date).days
+    date_list = [start_date + timedelta(days=x) for x in range(numdays)]
+    return date_list
+
+
 @app.command()
 def fetch_wayback(
     url: str,
-    date_start: datetime,
-    date_end: datetime,
+    start_date: datetime,
+    end_date: datetime,
     allowed_difference_headlines: float = typer.Option(
-        0.3,
+        0.4,
         help="Allow for more or less headlines. "
         "If `expected_nr_headlines` is 100 and this is 0.3, allows for #headlines "
         "between 70 and 130, and errors if there's too many/few headlines.",
@@ -235,17 +347,16 @@ def fetch_wayback(
     logger.remove()
     logger.add(lambda msg: tqdm.write(msg, end=""), colorize=True)
 
-    numdays = (date_end - date_start).days
-    date_list = [date_start + timedelta(days=x) for x in range(numdays)]
+    date_list = get_date_range(start_date, end_date)
     newspaper = find_newspaper(url)
     if xpath is not None:  # might need a different xpath for historic websites
         newspaper.xpath = xpath
     headlines_list = asyncio.run(_fetch_wayback(newspaper, date_list))
 
-    def check_nr(n: int) -> bool:
+    def check_nr(nr: int) -> bool:
         return (
             newspaper.expected_headlines * (1 - allowed_difference_headlines)
-            <= n
+            <= nr
             <= newspaper.expected_headlines * (1 + allowed_difference_headlines)
         )
 
@@ -258,7 +369,7 @@ def fetch_wayback(
             bad_dates.append((d, len(h)))
     for d, n in bad_dates:
         logger.warning(
-            f"Bad date not inserted: {d} with {n} headlines "
+            f"Bad date: {d} with {n} headlines "
             f"(expected {newspaper.expected_headlines} ± "
             f"{allowed_difference_headlines * newspaper.expected_headlines:.2f})"
         )
@@ -269,6 +380,11 @@ def fetch_wayback(
             table.insert_many([h.dict() for day in headlines_to_insert for h in day])
     else:
         logger.info("No results saved to database.")
+
+
+@app.command()
+def render():
+    render_alltime()
 
 
 if __name__ == "__main__":
