@@ -1,6 +1,5 @@
 import asyncio
 import json
-import re
 from datetime import datetime
 
 import aiohttp
@@ -13,6 +12,7 @@ from toxic_news.fetchers import (
     Newspaper,
     Scores,
     WaybackFetcher,
+    clean_url,
     newspapers,
     parse_detoxify_scores,
 )
@@ -54,14 +54,6 @@ def test_parse_detoxify_scores():
     assert result == expected
 
 
-def clean_url(url: str) -> str:
-    """Removes the slashes from a URL, to make sure it's safe to use as a filename."""
-    assert "http" in url
-    out = re.sub("(http|https)://", "", url).strip("/")
-    assert "/" not in out
-    return out
-
-
 def make_mock_fetcher(monkeypatch, url, assets):
     # mock content to use the HTML in the assets
     with open(assets / "html" / f"{clean_url(url)}.html", "r") as fd:
@@ -69,6 +61,23 @@ def make_mock_fetcher(monkeypatch, url, assets):
 
     # set request time to a fixed value
     monkeypatch.setattr(Fetcher, "request_time", datetime(2000, 1, 1))
+
+
+def test_fetcher_save_load(tmp_path, monkeypatch, assets):
+    newspaper = newspapers[0]
+    fake_time = datetime(2000, 1, 1)
+
+    fetcher = Fetcher(newspaper=newspaper, cache_dir=tmp_path)
+    with open(assets / "html" / f"{clean_url(newspaper.url)}.html", "rb") as fd:
+        fetcher._content = fd.read()
+    fetcher._request_time = fake_time
+    fetcher.save()
+
+    fetcher2 = Fetcher(newspaper=newspaper, cache_dir=tmp_path)
+    fetcher2.load(fake_time)
+
+    assert fetcher2.request_time == fake_time
+    assert fetcher2._content == fetcher._content
 
 
 @pytest.mark.parametrize("newspaper", newspapers)

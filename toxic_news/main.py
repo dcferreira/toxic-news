@@ -8,6 +8,7 @@ from typing import Optional
 import aiohttp
 import typer
 from aiohttp import ClientSession
+from detoxify import Detoxify
 from dotenv import load_dotenv
 from jinja2 import Environment, PackageLoader, select_autoescape
 from loguru import logger
@@ -316,14 +317,25 @@ def fetch_daily(
 
 
 async def _fetch_wayback(
-    newspaper: Newspaper, date_range: list[datetime]
+    newspaper: Newspaper, date_range: list[datetime], cache_dir: Optional[Path]
 ) -> list[list[Headline]]:
+    model = Detoxify("multilingual")
     async with aiohttp.ClientSession() as session:
         fetchers = [
-            WaybackFetcher(date=date, newspaper=newspaper, session=session)
+            WaybackFetcher(
+                date=date,
+                newspaper=newspaper,
+                session=session,
+                cache_dir=cache_dir,
+                model=model,
+            )
             for date in date_range
         ]
-        tasks = [create_task(f.run_request_coroutine()) for f in fetchers]
+        tasks = [
+            create_task(f.run_request_coroutine())
+            for f, d in zip(fetchers, date_range)
+            if not f.load(d)  # check if there's cache before making a task
+        ]
         await asyncio.gather(*tasks)
 
         return [f.classify() for f in tqdm(fetchers)]
@@ -355,6 +367,8 @@ def fetch_wayback(
     ),
     xpath: Optional[str] = None,
     auto_save: bool = False,
+    cache_dir: Path = Path(".requests_cache"),
+    use_cache: bool = True,
 ):
     """
     Fetch webpages using the wayback machine, classifies them and (optionally)
@@ -368,7 +382,9 @@ def fetch_wayback(
     newspaper = find_newspaper(url)
     if xpath is not None:  # might need a different xpath for historic websites
         newspaper.xpath = xpath
-    headlines_list = asyncio.run(_fetch_wayback(newspaper, date_list))
+    headlines_list = asyncio.run(
+        _fetch_wayback(newspaper, date_list, cache_dir if use_cache else None)
+    )
 
     def check_nr(nr: int) -> bool:
         return (
