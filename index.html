@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toxic News</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+
+    <!--Replace with your tailwind.css once created-->
+<!--    <script src="https://cdn.tailwindcss.com"></script>-->
+
+    <!--Regular Datatables CSS-->
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
+          rel="stylesheet">
+    <!--Responsive Extension Datatables CSS-->
+    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"
+          rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+
+
+</head>
+<body class="bg-gray-900 text-gray-300 tracking-wider leading-normal">
+
+<nav class="bg-gray-800">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                <!-- Mobile menu button-->
+                <button type="button"
+                        class="inline-flex items-center justify-center rounded-md p-2 text-gray-300 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <!--
+                      Icon when menu is closed.
+
+                      Menu open: "hidden", Menu closed: "block"
+                    -->
+                    <svg id="menu-button" class="block h-6 w-6" fill="none"
+                         viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                         aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+                    </svg>
+                    <!--
+                      Icon when menu is open.
+
+                      Menu open: "block", Menu closed: "hidden"
+                    -->
+                    <svg id="menu-close-button" class="hidden h-6 w-6" fill="none"
+                         viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                         aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div class="flex flex-shrink-0 items-center">
+                    <img class="block h-8 w-auto lg:hidden"
+                         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                         alt="Your Company">
+                    <img class="hidden h-8 w-auto lg:block"
+                         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                         alt="Your Company">
+                </div>
+                <div class="hidden sm:ml-6 sm:block">
+                    <div class="flex space-x-4">
+                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                        <a href="#"
+                           class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                           aria-current="page">All Days</a>
+
+                        <a href="#"
+                           class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Daily</a>
+
+                        <a href="#"
+                           class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="hidden" id="mobile-menu">
+        <div class="space-y-1 px-2 pt-2 pb-3">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#"
+               class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+               aria-current="page">All Days</a>
+
+            <a href="#"
+               class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Daily</a>
+
+            <a href="#"
+               class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container w-full md:w-4/5 xl:w-3/5  mx-auto px-2">
+<h1 class="flex items-center font-sans font-bold break-normal text-white px-2 py-4 text-xl md:text-3xl">
+    How toxic are newspapers headlines?
+</h1>
+<h2 class="flex items-center font-semibold font-sans break-normal text-white px-2 text-l md:text-l">What is this?</h2>
+<div class="px-2 text-sm md:pb-6">
+<p>
+    The table below quantifies how toxic the headlines in the main page of each news website are.
+    For each day, all the headlines are run through
+    <a href="https://github.com/unitaryai/detoxify" class="text-blue-500 hover:underline">
+        Unitary's Detoxify model</a>
+    and the scores are averaged.
+    The numbers in this table are the averages of those scores.
+</p>
+</div>
+<div id='recipients'
+     class="p-8 mt-6 lg:mt-0 sm:rounded-lg shadow-md border-gray-600 bg-gray-700">
+
+
+    <table id="example" class="stripe hover"
+           style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
+        <thead class="uppercase">
+        <tr>
+            <th>Name</th>
+            <th>Toxicity</th>
+            <th>Severe Toxicity</th>
+            <th>Obscene</th>
+            <th>Identity Attack</th>
+            <th>Insult</th>
+            <th>Threat</th>
+            <th>Sexually Explicit</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+        <tr>
+            <td>BBC</td>
+            <td>0.02236</td>
+            <td>0.00011</td>
+            <td>0.00079</td>
+            <td>0.00304</td>
+            <td>0.00516</td>
+            <td>0.00394</td>
+            <td>0.00325</td>
+        </tr>
+        
+        <tr>
+            <td>Fox News</td>
+            <td>0.01795</td>
+            <td>0.00007</td>
+            <td>0.00111</td>
+            <td>0.00147</td>
+            <td>0.00610</td>
+            <td>0.00142</td>
+            <td>0.00303</td>
+        </tr>
+        
+        <tr>
+            <td>Newsmax</td>
+            <td>0.01476</td>
+            <td>0.00010</td>
+            <td>0.00074</td>
+            <td>0.00296</td>
+            <td>0.00272</td>
+            <td>0.00126</td>
+            <td>0.00228</td>
+        </tr>
+        
+        <tr>
+            <td>The Washington Times</td>
+            <td>0.02385</td>
+            <td>0.00007</td>
+            <td>0.00172</td>
+            <td>0.00429</td>
+            <td>0.00904</td>
+            <td>0.00081</td>
+            <td>0.00220</td>
+        </tr>
+        
+        </tbody>
+    </table>
+</div>
+
+</div>
+<!--/container-->
+
+
+<!-- jQuery -->
+<script type="text/javascript"
+        src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!--Datatables -->
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        var table = $('#example').DataTable({
+            responsive: true
+        })
+            .columns.adjust()
+            .responsive.recalc();
+    });
+</script>
+
+
+<!--Show/hide mobile menu-->
+<script>
+    const button = document.querySelector('#menu-button'); // Hamburger Icon
+    const closeButton = document.querySelector('#menu-close-button')
+    const menu = document.querySelector('#mobile-menu'); // Menu
+
+    const toggle = () => {
+        button.classList.toggle('hidden');
+        button.classList.toggle('block');
+
+        closeButton.classList.toggle('hidden');
+        closeButton.classList.toggle('block');
+
+        menu.classList.toggle('hidden');
+    };
+
+    button.addEventListener('click', toggle);
+    closeButton.addEventListener('click', toggle);
+</script>
+
+</body>
+
+</html>
