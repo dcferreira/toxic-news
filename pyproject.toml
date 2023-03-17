@@ -38,6 +38,7 @@ dependencies = [
     "aiohttp==3.8.4",
     "waybackpy==3.0.6",
     "nest-asyncio==1.5.6",
+    "pytailwindcss==0.1.4",
 ]
 dynamic = ["version"]
 
@@ -81,6 +82,7 @@ push = [
     "docker push us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest"
 ]
 cli = "python toxic_news/main.py {args}"
+update-styles = "tailwindcss -i toxic_news/templates/style.css -o public/style.css"
 
 [tool.hatch.envs.explore]
 dependencies = [

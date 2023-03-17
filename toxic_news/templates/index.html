@@ -1,44 +1,51 @@
-<html lang="en">
-<head>
-    <title>Toxic News</title>
+{% include 'header.html' %}
+<h1 class="flex items-center font-sans font-bold break-normal text-white px-2 py-4 text-xl md:text-3xl">
+    How toxic are newspapers headlines?
+</h1>
+<h2 class="flex items-center font-semibold font-sans break-normal text-white px-2 text-l md:text-l">What is this?</h2>
+<div class="px-2 text-sm md:pb-6">
+<p>
+    The table below quantifies how toxic the headlines in the main page of each news website are.
+    For each day, all the headlines are run through
+    <a href="https://github.com/unitaryai/detoxify" class="text-blue-500 hover:underline">
+        Unitary's Detoxify model</a>
+    and the scores are averaged.
+    The numbers in this table are the averages of those scores.
+</p>
+</div>
+<div id='recipients'
+     class="p-8 mt-6 lg:mt-0 sm:rounded-lg shadow-md border-gray-600 bg-gray-700">
 
 
-    <link rel="stylesheet" type="text/css"
-          href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <table id="example" class="stripe hover"
+           style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
+        <thead class="uppercase">
+        <tr>
+            <th>Name</th>
+            <th>Toxicity</th>
+            <th>Severe Toxicity</th>
+            <th>Obscene</th>
+            <th>Identity Attack</th>
+            <th>Insult</th>
+            <th>Threat</th>
+            <th>Sexually Explicit</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in rows %}
+        <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ '{0:0.5f}'.format(item.scores.toxicity) }}</td>
+            <td>{{ '{0:0.5f}'.format(item.scores.severe_toxicity) }}</td>
+            <td>{{ '{0:0.5f}'.format(item.scores.obscene) }}</td>
+            <td>{{ '{0:0.5f}'.format(item.scores.identity_attack) }}</td>
+            <td>{{ '{0:0.5f}'.format(item.scores.insult) }}</td>
+            <td>{{ '{0:0.5f}'.format(item.scores.threat) }}</td>
+            <td>{{ '{0:0.5f}'.format(item.scores.sexual_explicit) }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
 
-    <script type="text/javascript"
-            src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript"
-            src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" class="init">
-
-        $(document).ready(function () {
-            $('#table').DataTable({
-                order: [[1, 'asc']],
-            });
-        });
-
-    </script>
-</head>
-<body>
-<table id="table" class="display">
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Toxicity</th>
-<!--        <th>#Headlines</th>-->
-    </tr>
-    </thead>
-    <tbody>
-    {% for item in rows %}
-    <tr>
-        <td>{{ item.name }}</td>
-        <td>{{ item.scores.toxicity }}</td>
-<!--        <td>{{ item.count }}</td>-->
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>
-
-</body>
-</html>
+{% include 'footer.html' %}

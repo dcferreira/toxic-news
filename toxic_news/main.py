@@ -131,10 +131,12 @@ def render_alltime():
         autoescape=select_autoescape(),
     )
     template = env.get_template("index.html")
+    rows = get_alltime_rows()
+    logger.info(f"Got {len(rows)} rows to display")
     with open("public/index.html", "w+") as fd:
         fd.write(
             template.render(
-                rows=get_alltime_rows(),
+                rows=rows,
             )
         )
 
