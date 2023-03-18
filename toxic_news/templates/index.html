@@ -17,34 +17,15 @@
      class="p-8 mt-6 lg:mt-0 sm:rounded-lg shadow-md border-gray-600 bg-gray-700">
 
 
+    <div class="pb-4">
+        <button id="btn-all" class="bg-gray-900 hover:bg-gray-600 text-white font-bold py-1 px-4 rounded">All time</button>
+        <button id="btn-year" class="bg-gray-800 hover:bg-gray-600 text-gray-300 px-4 py-1 rounded">Last year</button>
+        <button id="btn-90" class="bg-gray-800 hover:bg-gray-600 text-gray-300 px-4 py-1 rounded">Last 90 days</button>
+        <button id="btn-30" class="bg-gray-800 hover:bg-gray-600 text-gray-300 px-4 py-1 rounded">Last 30 days</button>
+        <button id="btn-7" class="bg-gray-800 hover:bg-gray-600 text-gray-300 px-4 py-1 rounded">Last 7 days</button>
+    </div>
     <table id="example" class="stripe hover"
            style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
-        <thead class="uppercase">
-        <tr>
-            <th>Name</th>
-            <th>Toxicity</th>
-            <th>Severe Toxicity</th>
-            <th>Obscene</th>
-            <th>Identity Attack</th>
-            <th>Insult</th>
-            <th>Threat</th>
-            <th>Sexually Explicit</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% for item in rows %}
-        <tr>
-            <td>{{ item.name }}</td>
-            <td>{{ '{0:0.5f}'.format(item.scores.toxicity) }}</td>
-            <td>{{ '{0:0.5f}'.format(item.scores.severe_toxicity) }}</td>
-            <td>{{ '{0:0.5f}'.format(item.scores.obscene) }}</td>
-            <td>{{ '{0:0.5f}'.format(item.scores.identity_attack) }}</td>
-            <td>{{ '{0:0.5f}'.format(item.scores.insult) }}</td>
-            <td>{{ '{0:0.5f}'.format(item.scores.threat) }}</td>
-            <td>{{ '{0:0.5f}'.format(item.scores.sexual_explicit) }}</td>
-        </tr>
-        {% endfor %}
-        </tbody>
     </table>
 </div>
 

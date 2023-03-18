@@ -1,4 +1,5 @@
 import asyncio
+import csv
 import os
 from asyncio import create_task
 from datetime import datetime, timedelta
@@ -37,12 +38,13 @@ class DailyRow(BaseModel):
     name: str
     scores: Scores
     count: int
-    date: str
+    date: datetime
 
 
 class AllTimeRow(BaseModel):
     name: str
     scores: Scores
+    count: int
 
 
 def query_average_headline_scores(name: str, date: datetime) -> Scores:
@@ -87,14 +89,12 @@ def query_average_headline_scores(name: str, date: datetime) -> Scores:
     return results[0]["scores"]
 
 
-def query_average_daily_scores(name: str) -> Scores:
+def query_average_daily_scores(
+    name: str, start_date: datetime, end_date: datetime
+) -> Scores:
     cursor = db.daily.aggregate(
         [
-            {
-                "$match": {
-                    "name": name,
-                }
-            },
+            {"$match": {"name": name, "date": {"$gte": start_date, "$lte": end_date}}},
             {"$addFields": {"scores": {"$objectToArray": "$scores"}}},
             {"$unwind": {"path": "$scores"}},
             {"$group": {"_id": "$scores.k", "average": {"$avg": "$scores.v"}}},
@@ -118,28 +118,24 @@ def query_average_daily_scores(name: str) -> Scores:
     return results[0]["scores"]
 
 
-def get_alltime_rows() -> list[AllTimeRow]:
+def query_daily_count(name: str, start_date: datetime, end_date: datetime) -> int:
+    cursor = db.daily.aggregate(
+        [
+            {"$match": {"name": name, "date": {"$gte": start_date, "$lte": end_date}}},
+            {"$count": "count"},
+        ]
+    )
+    results = list(cursor)
+    return results[0]["count"]
+
+
+def get_alltime_rows(start_date: datetime, end_date: datetime) -> list[AllTimeRow]:
     out = []
     for n in newspapers:
-        scores = query_average_daily_scores(n.name)
-        out.append(AllTimeRow(name=n.name, scores=scores))
+        scores = query_average_daily_scores(n.name, start_date, end_date)
+        count = query_daily_count(n.name, start_date, end_date)
+        out.append(AllTimeRow(name=n.name, scores=scores, count=count))
     return out
-
-
-def render_alltime():
-    env = Environment(
-        loader=PackageLoader("toxic_news"),
-        autoescape=select_autoescape(),
-    )
-    template = env.get_template("index.html")
-    rows = get_alltime_rows()
-    logger.info(f"Got {len(rows)} rows to display")
-    with open("public/index.html", "w+") as fd:
-        fd.write(
-            template.render(
-                rows=rows,
-            )
-        )
 
 
 def query_headlines_count(name: str, date: datetime) -> int:
@@ -176,7 +172,7 @@ def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
                 name=n.name,
                 scores=query_average_headline_scores(n.name, date),
                 count=query_headlines_count(n.name, date),
-                date=date.strftime(date_fmt),
+                date=date,
             )
         )
 
@@ -198,7 +194,7 @@ def query_daily_rows(date: datetime) -> list[DailyRow]:
         DailyRow(
             name=res["name"],
             scores=Scores.parse_obj(res["scores"]),
-            date=date_str,
+            date=date,
             count=res["count"],
         )
         for res in cursor
@@ -233,7 +229,7 @@ def render_daily(
         path = dir_path / f"{d.day}.html"
 
         template = env.get_template("daily.html")
-        with open(path, "w+") as fd:
+        with path.open("w+") as fd:
             fd.write(
                 template.render(
                     rows=query_daily_rows(d),
@@ -415,12 +411,109 @@ def fetch_wayback(
         logger.info("No results saved to database.")
 
 
+def render_index():
+    env = Environment(
+        loader=PackageLoader("toxic_news"),
+        autoescape=select_autoescape(),
+    )
+    template = env.get_template("index.html")
+    with open("public/index.html", "w+") as fd:
+        fd.write(template.render())
+
+
 @app.command()
 def render():
     """
     Renders the main page HTML.
     """
-    render_alltime()
+    render_index()
+
+
+def generate_daily_csv(
+    start_date: datetime,
+    end_date: Optional[datetime] = None,
+    out_dir: Path = Path("public") / "daily",
+):
+    if end_date is None:
+        date_range = [start_date]
+    else:
+        date_range = get_date_range(start_date, end_date)
+
+    headers = ["name", "count", "date", *list(Scores.schema()["properties"].keys())]
+
+    for d in date_range:
+        fname = out_dir / str(d.year) / str(d.month) / f"{d.day}.csv"
+        os.makedirs(fname.parent, exist_ok=True)
+
+        with fname.open("w+") as fd:
+            writer = csv.DictWriter(fd, fieldnames=headers)
+            writer.writeheader()
+
+            rows = query_daily_rows(d)
+            for r in rows:
+                writer.writerow(
+                    {
+                        "name": r.name,
+                        "count": r.count,
+                        "date": r.date,
+                        **{
+                            k: f"{v:.5f}"  # export only 5 decimal places
+                            for k, v in r.scores.dict().items()
+                        },
+                    }
+                )
+
+
+def generate_averages_csv(
+    start_date: datetime,
+    end_date: datetime,
+    filename: Path,
+):
+    os.makedirs(filename.parent, exist_ok=True)
+
+    headers = ["name", "count", *list(Scores.schema()["properties"].keys())]
+    with filename.open("w+") as fd:
+        writer = csv.DictWriter(fd, fieldnames=headers)
+        writer.writeheader()
+
+        rows = get_alltime_rows(start_date, end_date)
+        for r in rows:
+            writer.writerow(
+                {
+                    "name": r.name,
+                    "count": r.count,
+                    **{
+                        k: f"{v:.5f}"  # export only 5 decimal places
+                        for k, v in r.scores.dict().items()
+                    },
+                }
+            )
+
+
+@app.command()
+def generate_averages(out_dir: Path = Path("public") / "averages"):
+    filenames = {
+        7: "7.csv",
+        30: "30.csv",
+        90: "90.csv",
+        365: "year.csv",
+        99999: "all.csv",
+    }
+    for ndays, fname in filenames.items():
+        try:
+            full_fname = out_dir / fname
+            logger.info(f"Generating {full_fname}...")
+            today = datetime.today()
+            generate_averages_csv(
+                start_date=today - timedelta(days=ndays),
+                end_date=today + timedelta(days=1),
+                # query for tomorrow, to make sure today's data is included
+                filename=full_fname,
+            )
+        except IndexError:
+            logger.warning(
+                f"Couldn't generate {fname}, probably there's no data in range"
+            )
 
 
 if __name__ == "__main__":
