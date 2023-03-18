@@ -19,7 +19,7 @@ from detoxify import Detoxify
 from loguru import logger
 from lxml.html import HtmlElement
 from pydantic import BaseModel, HttpUrl, ValidationError
-from tenacity import retry, stop_after_attempt, wait_fixed, wait_random
+from tenacity import RetryError, retry, stop_after_attempt, wait_fixed, wait_random
 from waybackpy import WaybackMachineAvailabilityAPI
 
 from toxic_news import assets
@@ -229,7 +229,7 @@ class WaybackFetcher(Fetcher):
     ):
         self.date = date
         self.availability_api = WaybackMachineAvailabilityAPI(newspaper.url)
-        self._wayback_url: Optional[str] = None
+        self.wayback_url: Optional[str] = None
 
         self.session = session if session is not None else aiohttp.ClientSession()
         # close session when object ends
@@ -242,7 +242,7 @@ class WaybackFetcher(Fetcher):
 
     @retry(wait=wait_fixed(5), stop=stop_after_attempt(5))
     def get_wayback_url(self) -> str:
-        if self._wayback_url is None:
+        if self.wayback_url is None:
             archive = self.availability_api.near(
                 year=self.date.year, month=self.date.month, day=self.date.day, hour=12
             )
@@ -251,8 +251,8 @@ class WaybackFetcher(Fetcher):
 
             # use the `id_` flag to get the original copy
             # see https://webapps.stackexchange.com/a/155393
-            self._wayback_url = archive.archive_url.replace("/http", "id_/http")
-        return cast(str, self._wayback_url)
+            self.wayback_url = archive.archive_url.replace("/http", "id_/http")
+        return cast(str, self.wayback_url)
 
     @retry(wait=wait_fixed(3) + wait_random(0, 2), stop=stop_after_attempt(5))
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
@@ -269,8 +269,19 @@ class WaybackFetcher(Fetcher):
             self.save()
         logger.debug(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
-    async def run_request_coroutine(self) -> ClientResponse:
-        self._response, self._content = await self._request_coroutine()
+    async def run_request_coroutine(self, ignore_raise: bool = False) -> ClientResponse:
+        try:
+            self._response, self._content = await self._request_coroutine()
+        except RetryError as e:
+            if ignore_raise:
+                logger.warning(
+                    f"Failed to fetch for {self.newspaper} @ "
+                    f"{self.request_time.strftime('%Y/%m/%d')}. "
+                    f"Url used was {self.wayback_url=}"
+                )
+                self._content = b""
+            else:
+                raise e
         if self.cache_dir is not None:
             self.save()
         return self._response
