@@ -471,7 +471,7 @@ def generate_averages_csv(
 ):
     os.makedirs(filename.parent, exist_ok=True)
 
-    headers = ["name", "count", *list(Scores.schema()["properties"].keys())]
+    headers = ["name", *list(Scores.schema()["properties"].keys()), "count"]
     with filename.open("w+") as fd:
         writer = csv.DictWriter(fd, fieldnames=headers)
         writer.writeheader()
