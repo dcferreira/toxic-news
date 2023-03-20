@@ -34,7 +34,8 @@ class Newspaper(BaseModel):
     name: str
     language: str
     url: HttpUrl
-    xpath: str
+    title_xpath: str
+    relative_href_xpath: str
     expected_headlines: int
 
 
@@ -97,7 +98,6 @@ class Fetcher:
         model: Optional[Detoxify] = None,
     ):
         self.newspaper = newspaper
-        self.xpath = newspaper.xpath
         self.cache_dir = cache_dir
 
         self._model: Optional[Detoxify] = model
@@ -177,14 +177,18 @@ class Fetcher:
             self._request()
         return cast(datetime, self._request_time)
 
+    def _extract_title_and_url(self, element: HtmlElement) -> tuple[str, str]:
+        title = "".join(element.itertext()).strip(" \t\n\r|")
+        res = element.xpath(self.newspaper.relative_href_xpath)
+        url = res[0].get("href")
+        absolute_url = urllib.parse.urljoin(self.newspaper.url, url)
+        return title, absolute_url
+
     def parse(self, content: str) -> list[tuple[str, str]]:
         tree: HtmlElement = lxml.html.fromstring(content)
         headlines = [
-            (
-                "".join(x.itertext()).strip(" \t\n\r|"),  # title
-                urllib.parse.urljoin(self.newspaper.url, x.get("href")),  # absolute url
-            )
-            for x in tree.xpath(self.xpath)
+            self._extract_title_and_url(x)
+            for x in tree.xpath(self.newspaper.title_xpath)
         ]
         # often the same headline appears multiple times in the page
         deduped_headlines = set(headlines)
@@ -302,8 +306,9 @@ newspapers: list[Newspaper] = [
             "name": row[0],
             "language": row[1],
             "url": row[2],
-            "xpath": row[3],
-            "expected_headlines": row[4],
+            "title_xpath": row[3],
+            "relative_href_xpath": row[4],
+            "expected_headlines": row[5],
         }
     )
     for row in csv.reader(newspapers_text.strip().split("\n"))

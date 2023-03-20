@@ -156,7 +156,8 @@ async def test_wayback_integration():
             "name": "BBC",
             "language": "en",
             "url": "https://bbc.com",
-            "xpath": "//h3[@class='media__title']/a",
+            "title_xpath": "//h3[@class='media__title']",
+            "relative_href_xpath": "/a",
             "expected_headlines": 47,
         }
     )
@@ -183,7 +184,8 @@ def test_wayback_sync():
             "name": "BBC",
             "language": "en",
             "url": "https://bbc.com",
-            "xpath": "//h3[@class='media__title']/a",
+            "title_xpath": "//h3[@class='media__title']",
+            "relative_href_xpath": "/a",
             "expected_headlines": 47,
         }
     )
