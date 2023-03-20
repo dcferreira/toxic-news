@@ -1,0 +1,270 @@
+[
+  [
+    "Major climate report issues a dire outlook for human life on Earth",
+    "https://www.nbcnews.com/science/environment/climate-change-un-ipcc-rcna75670"
+  ],
+  [
+    "Carbon dioxide emissions reached a record high in 2022",
+    "https://www.nbcnews.com/science/environment/carbon-dioxide-emissions-reached-record-high-2022-rcna73108"
+  ],
+  [
+    "NASA and NOAA find 2022 was one of the hottest years on record",
+    "https://www.nbcnews.com/science/environment/nasa-noaa-find-2022-was-one-hottest-years-record-rcna65086"
+  ],
+  [
+    "Xi joins Putin in Russia in an even greater show of solidarity",
+    "https://www.nbcnews.com/news/world/russia-ukraine-war-china-xi-jinping-vladimir-putin-meeting-us-moscow-rcna74613"
+  ],
+  [
+    "White House seeks softer tone on China ahead of Putin-Xi meeting",
+    "https://www.nbcnews.com/politics/white-house-seeks-softer-tone-china-ahead-putin-xi-meeting-rcna75549"
+  ],
+  [
+    "VIDEO: Here's what Xi hopes to get out of his trip to Russia",
+    "https://www.nbcnews.com/now/video/chinese-president-xi-arrives-in-russia-ahead-of-meeting-with-president-putin-165729349691"
+  ],
+  [
+    "DeSantis attacks Manhattan 'Soros-funded' prosecutor in first comments on possible Trump indictment",
+    "https://www.nbcnews.com/politics/2024-election/ron-desantis-breaks-silence-possible-trump-indictment-rcna75747"
+  ],
+  [
+    "House GOP chairmen ask Manhattan D.A. Alvin Bragg to testify on Trump probe",
+    "https://www.nbcnews.com/politics/congress/house-gop-chairmen-ask-manhattan-d-alvin-bragg-testify-trump-probe-rcna75754"
+  ],
+  [
+    "McCarthy says Americans should not protest if Trump is indicted",
+    "https://www.nbcnews.com/politics/congress/mccarthy-says-americans-not-protest-trump-indicted-rcna75679"
+  ],
+  [
+    "Jury convicts 3 men of murder in rapper XXXTentacion\u2019s death",
+    "https://www.nbcnews.com/news/us-news/jury-returns-verdict-trial-3-men-accused-killing-rapper-xxxten-rcna74121"
+  ],
+  [
+    "XXXTentacion's friend describes rapper's fatal shooting",
+    "https://www.nbcnews.com/news/us-news/xxxtentacions-friend-describes-rappers-fatal-shooting-rcna69681"
+  ],
+  [
+    "Buster Murdaugh says he had nothing to do with teen's hit-and-run death",
+    "https://www.nbcnews.com/news/crime-courts/buster-murdaugh-says-nothing-teens-2015-hit-run-death-rcna75683"
+  ],
+  [
+    "Body of teenager in hit-and-run death near Murdaugh estate to be exhumed",
+    "https://www.nbcnews.com/news/us-news/body-teenager-hit-run-death-murdaugh-estate-exhumed-rcna75480"
+  ],
+  [
+    "American aid worker held captive for over 6 years in West Africa is released, officials say",
+    "https://www.nbcnews.com/news/us-news/american-aid-worker-jeff-woodke-kidnapped-west-africa-released-6-years-rcna75744"
+  ],
+  [
+    "Protesters bloodied and arrested at NYC Drag Story Hour",
+    "https://www.nbcnews.com/nbc-out/out-news/protesters-bloodied-arrested-nyc-drag-story-hour-rcna75724"
+  ],
+  [
+    "2 students injured, 1 critically, in shooting outside a Texas high school",
+    "https://www.nbcnews.com/news/us-news/2-students-injured-shooting-lamar-high-school-texas-rcna75759"
+  ],
+  [
+    "Colorado dentist is charged with fatally poisoning his wife in 'complex and calculated murder'",
+    "https://www.nbcnews.com/news/us-news/colorado-dentist-charged-poisoning-wife-was-declared-brain-dead-days-h-rcna75716"
+  ],
+  [
+    "5 children dead after SUV veers off a N.Y. highway and catches fire; boy, 9, survives",
+    "https://www.nbcnews.com/news/us-news/5-connecticut-children-dead-fiery-new-york-boy-9-survives-rcna75719"
+  ],
+  [
+    "Search on for Florida boaters missing in lake near Legoland",
+    "https://www.nbcnews.com/news/us-news/search-florida-boaters-missing-lake-legoland-rcna75687"
+  ],
+  [
+    "Cuban protests and celebrations mark World Baseball Classic semifinal against the U.S.",
+    "https://www.nbcnews.com/news/us-news/protesters-gather-miami-run-field-cuba-us-world-baseball-classic-semif-rcna75696"
+  ],
+  [
+    "Trump isn't giving up on Fox News even after Dominion revelations",
+    "https://www.nbcnews.com/politics/2024-election/trump-fox-news-dominion-revelations-ron-desantis-rcna75646"
+  ],
+  [
+    "White House to counter GOP's soft-on-crime attacks by targeting far-right budget plan",
+    "https://www.nbcnews.com/politics/white-house/white-house-counter-gops-soft-crime-attacks-targeting-far-right-budget-rcna75700"
+  ],
+  [
+    "Supreme Court wrestles with Navajo Nation water rights dispute",
+    "https://www.nbcnews.com/politics/supreme-court/supreme-court-weighs-navajo-nation-water-rights-dispute-rcna75433"
+  ],
+  [
+    "Justice Dan Kelly launches his first ad of Wisconsin Supreme Court campaign",
+    "https://www.nbcnews.com/meet-the-press/meetthepressblog/justice-dan-kelly-launches-first-ad-wisconsin-supreme-court-campaign-rcna75713"
+  ],
+  [
+    "Candidates who support psychedelics as medicine get a political action committee",
+    "https://www.nbcnews.com/news/us-news/candidates-support-psychedelics-medicine-get-political-action-committe-rcna75295"
+  ],
+  [
+    "Amazon to lay off 9,000 more workers after earlier cuts",
+    "https://www.nbcnews.com/business/business-news/amazon-lay-9000-workers-earlier-cuts-rcna75745"
+  ],
+  [
+    "Here's how to secure your Twitter account without text message verification",
+    "https://www.nbcnews.com/tech/security/twitter-authenticator-secure-account-free-rcna74850"
+  ],
+  [
+    "New York Community Bank to buy failed Signature Bank",
+    "https://www.nbcnews.com/business/business-news/new-york-community-bank-buy-failed-signature-bank-rcna75681"
+  ],
+  [
+    "UBS buys Credit Suisse for $3.2 billion as regulators look to shore up the global banking system",
+    "https://www.nbcnews.com/business/ubs-reportedly-offers-buy-credit-suisse-1-billion-rcna75653"
+  ],
+  [
+    "Elizabeth Holmes owes over $25 million to Theranos creditors, lawsuit says",
+    "https://www.nbcnews.com/news/us-news/elizabeth-holmes-owes-25-million-theranos-creditors-lawsuit-says-rcna75393"
+  ],
+  [
+    "Macron's government faces no-confidence vote over contentious pension plan",
+    "https://www.nbcnews.com/news/world/france-pension-reform-emmanuel-macron-no-confidence-vote-borne-rcna75690"
+  ],
+  [
+    "North Korea's Kim oversees simulated nuclear counterattack against U.S. and South Korea",
+    "https://www.nbcnews.com/news/world/north-korea-kim-oversees-simulated-nuclear-counterattack-us-south-rcna75686"
+  ],
+  [
+    "Netanyahu softens government's judicial overhaul after Biden call",
+    "https://www.nbcnews.com/news/world/israel-judicial-reforms-benjamin-netanyahu-joe-biden-phone-call-rcna75698"
+  ],
+  [
+    "Millions of dead fish wash up amid heat wave in Australia",
+    "https://www.nbcnews.com/news/world/millions-dead-fish-wash-heat-wave-australia-rcna75620"
+  ],
+  [
+    "Defiant Putin visits Mariupol in first trip to occupied eastern Ukraine",
+    "https://www.nbcnews.com/news/world/russia-ukraine-war-putin-mariupol-visit-arrest-warrant-war-crimes-rcna75621"
+  ],
+  [
+    "Bruce Willis' family opens up about 'grief' they feel on his 68th birthday",
+    "https://www.nbcnews.com/pop-culture/pop-culture-news/bruce-willis-family-opens-grief-feel-68th-birthday-rcna75701"
+  ],
+  [
+    "Adam Sandler takes home Mark Twain Prize for American Humor",
+    "https://www.nbcnews.com/news/us-news/adam-sandler-takes-home-mark-twain-prize-american-humor-rcna75694"
+  ],
+  [
+    "Jason Sudeikis and 'Ted Lasso' cast members to visit White House",
+    "https://www.nbcnews.com/politics/joe-biden/jason-sudeikis-ted-lasso-cast-members-visit-white-house-rcna75677"
+  ],
+  [
+    "Andrew Lloyd Webber reveals his eldest son is critically ill with stomach cancer",
+    "https://www.nbcnews.com/news/us-news/andrew-lloyd-webber-reveals-eldest-son-critically-ill-stomach-cancer-rcna75663"
+  ],
+  [
+    "Mikaela Shiffrin ties Lindsey Vonn's all-time podium record at World Cup Finals",
+    "https://olympics.nbcsports.com/2023/03/18/mikaela-shiffrin-lindsey-vonn-world-cup-podiums-alpine-skiing/"
+  ],
+  [
+    "Exclusive: Buster Murdaugh speaks out over Stephen Smith death",
+    "https://www.today.com/video/buster-murdaugh-denies-involvement-in-death-of-stephen-smith-165730373925"
+  ],
+  [
+    "KCAL meteorologist Alissa Carlton faints and collapses live on air",
+    "https://www.today.com/video/kcal-meteorologist-alissa-carlton-faints-and-collapses-live-on-air-165733445690"
+  ],
+  [
+    "Disturbing history of negative health outcomes for Black pregnant women, study reveals",
+    "https://www.nbcnews.com/nightly-news/video/disturbing-history-of-negative-health-outcomes-for-black-pregnant-women-study-reveals-165685317737"
+  ],
+  [
+    "7-year-old boy is \u2018real-life superhero,\u2019 donating bone marrow to older brother",
+    "https://www.nbcnews.com/nightly-news/video/7-year-old-boy-is-real-life-superhero-donating-bone-marrow-to-older-brother-165686341664"
+  ],
+  [
+    "How Midwest roots shaped Ron DeSantis' political values and perspective",
+    "https://www.nbcnews.com/politics/2024-election/midwest-roots-shaped-ron-desantis-political-values-youngstown-ohio-rcna73797"
+  ],
+  [
+    "The high price of Ozempic is pushing many to unregulated, copycat drugs for weight loss",
+    "https://www.nbcnews.com/health/health-news/ozempic-wegovy-semaglutide-compounding-weight-loss-safe-rcna72990"
+  ],
+  [
+    "Putin is a wanted man \u2014 a trial isn't imminent, but the world is closing in",
+    "https://www.nbcnews.com/news/world/vladimir-putin-war-crimes-arrest-warrant-international-criminal-court-rcna75526"
+  ],
+  [
+    "Utah is flush with snow and money. It might not be enough to save the Great Salt Lake.",
+    "https://www.nbcnews.com/science/environment/great-salt-lake-still-risk-influx-snow-cash-rcna74949"
+  ],
+  [
+    "PrEP's promise to change the course of HIV has succeeded \u2014 but only for white gay men",
+    "https://www.nbcnews.com/nbc-out/out-health-and-wellness/preps-promise-change-course-hiv-succeeded-only-white-gay-men-rcna75438"
+  ],
+  [
+    "Frozen fruit recalled at Costco and Trader Joe's due to risk of hepatitis A contamination",
+    "https://www.nbcnews.com/health/health-news/frozen-fruit-recalled-costco-trader-joes-hepatitis-rcna75520"
+  ],
+  [
+    "New Covid origins data suggests pandemic linked to raccoon dogs at Wuhan market",
+    "https://www.nbcnews.com/health/health-news/covid-origins-data-links-pandemic-raccoon-dogs-wuhan-market-rcna75437"
+  ],
+  [
+    "Mexico says fentanyl is America's problem. How did drug war relations reach such a low?",
+    "https://www.nbcnews.com/politics/national-security/no-cooperation-us-mexico-drug-war-rcna75093"
+  ],
+  [
+    "Deadly earthquake in Ecuador brings grief and fear",
+    "https://www.nbcnews.com/news/latino/deadly-earthquake-ecuador-brings-grief-fear-rcna75761"
+  ],
+  [
+    "Nuclear power plant leaks 400,000 gallons of radioactive water",
+    "https://www.nbcnews.com/news/us-news/nuclear-power-plant-leaks-400000-gallons-radioactive-water-rcna75406"
+  ],
+  [
+    "Scorpion tamales and grasshopper tacos are on the menu at one of America\u2019s best restaurants",
+    "https://www.nbcnews.com/news/latino/scorpion-insects-mexican-chef-jose-avila-denver-restaurant-rcna75445"
+  ],
+  [
+    "Mexico's president: Fentanyl crisis caused by 'lack of hugs' among U.S. families",
+    "https://www.nbcnews.com/news/latino/mexico-president-fentanyl-crisis-lack-of-hugs-us-families-rcna75533"
+  ],
+  [
+    "Farmworkers lead 5-day march to pressure companies on wages, work conditions",
+    "https://www.nbcnews.com/news/latino/farmworkers-lead-5-day-march-pressure-companies-wages-work-conditions-rcna75500"
+  ],
+  [
+    "Posthumous album set from \u2018Gangsta\u2019s Paradise\u2019 rapper Coolio",
+    "https://www.nbcnews.com/news/nbcblk/posthumous-album-set-gangstas-paradise-rapper-coolio-rcna75470"
+  ],
+  [
+    "'Great British Bake Off' taps Alison Hammond to cohost next season",
+    "https://www.nbcnews.com/news/nbcblk/great-british-bake-taps-alison-hammond-cohost-season-rcna75452"
+  ],
+  [
+    "Ex-NFL player's family says he died from excessive force in L.A. County custody",
+    "https://www.nbcnews.com/news/nbcblk/ex-nfl-players-family-says-died-excessive-force-custody-l-county-rcna75149"
+  ],
+  [
+    "Black veterans were more often denied VA benefits for PTSD than white counterparts, newly surfaced study shows",
+    "https://www.nbcnews.com/health/mental-health/black-veterans-denied-va-benefits-ptsd-more-often-whites-rcna75334"
+  ],
+  [
+    "'Drag Race' star Jinkx Monsoon slams wave of anti-drag laws",
+    "https://www.nbcnews.com/nbc-out/out-pop-culture/drag-race-star-jinkx-monsoon-slams-wave-anti-drag-laws-rcna75484"
+  ],
+  [
+    "Kentucky lawmakers pass ban on youth gender-affirming care",
+    "https://www.nbcnews.com/nbc-out/out-politics-and-policy/kentucky-lawmakers-pass-ban-youth-gender-affirming-care-rcna75429"
+  ],
+  [
+    "Sikh community organizer says he was denied entry to NBA game for wearing religious article",
+    "https://www.nbcnews.com/news/asian-america/sikh-community-organizer-says-was-denied-entry-nba-game-wearing-religi-rcna75518"
+  ],
+  [
+    "Biden commemorates the anniversary of Atlanta deadly spa shootings",
+    "https://www.nbcnews.com/news/asian-america/biden-commemorates-anniversary-atlanta-deadly-spa-shootings-rcna75489"
+  ],
+  [
+    "East Asians more likely to develop stomach cancer because of lower alcohol tolerance, new study says",
+    "https://www.nbcnews.com/news/asian-america/east-asians-likely-develop-stomach-cancer-lower-alcohol-tolerance-new-rcna75329"
+  ],
+  [
+    "'American Born Chinese' producers discuss the 'next phase' of on-screen diversity",
+    "https://www.nbcnews.com/news/asian-america/american-born-chinese-producers-discuss-phase-screen-diversity-rcna75096"
+  ]
+]

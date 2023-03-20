@@ -1,0 +1,1058 @@
+[
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Xi Meets Putin in Moscow on State Visit Highlighting China\u2019s Ties to Russia",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/live/2023/03/20/world/russia-ukraine-xi-putin-news"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Here\u2019s why China and Russia are closer than ever.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/world/asia/china-russia-ties.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "European officials agreed to supply more artillery shells to Ukraine.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/live/2023/03/20/world/russia-ukraine-xi-putin-news/european-officials-agree-to-supply-more-artillery-shells-to-ukraine"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Analysis: Out of Power, Donald Trump Still Exerts It as the Law Closes In",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/us/politics/trump-indictment-republicans.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Donald Trump\u2019s lawyers are seeking to quash a special grand jury report in Georgia into 2020 election interference.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/us/trumps-georgia-special-grand-jury.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Fingerprints and a mug shot: how a Trump arrest would proceed.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/nyregion/trump-arrest-indictment-nypd.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Earth to Hit Critical Warming Threshold by Early 2030s, Climate Panel Says",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/climate/global-warming-ipcc-earth.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "A Different Kind of Pipeline Project Scrambles Midwest Politics",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/us/carbon-dioxide-ethanol-underground-midwest.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Have climate questions? Get answers here.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/interactive/2023/climate/climate-change-faq.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Fate of First Republic Is Uncertain as Shares Slide",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/business/first-republic-bank.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Choppy trading in markets suggested that investors remained nervous about some banks after moves to shore them up.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/business/markets-today.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "For Years She Said a Coach Abused Her. Now She Has Named a Legend.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/sports/olympics/jennifer-fox-sexual-abuse-the-tale.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Macron Cabinet Faces No-Confidence Vote as Fury Grows Over French Pensions",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/live/2023/03/20/world/france-macron-no-confidence-vote"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Missteps From Iraq Retain the Power to Haunt America",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/us/politics/iraq-20-years.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Children of the Iraq War Have Grown Up, but Some Wounds Don\u2019t Heal",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/world/middleeast/iraq-war-anniversary-youth.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Monday\u2019s Matchups to Watch in the Women\u2019s N.C.A.A. Tournament",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/sports/ncaabasketball/march-madness-monday.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "The quest to be Cinderella: Go behind the scenes as No. 15 Vermont tries for a first-round upset.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://theathletic.com/4325496/2023/03/20/march-madness-vermont-cinderella/"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Here are the key questions facing each team in the men\u2019s Sweet 16 field.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://theathletic.com/4326239/2023/03/20/ncaa-tournament-sweet-16-seth-davis/"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Recyclable? Try Refillable.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/17/headway/spray-bottle-clorox-plastic-refillable-recycle.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Work Friend: Don\u2019t be the dress code police.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/18/business/roxane-gay-work-advice-work-wardrobe.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "This carrot cake doesn\u2019t require any grating.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/17/dining/easy-carrot-cake-recipe.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Never Mind About Ron DeSantis",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/opinion/ron-desantis-trump-silicon-valley-bank.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Before His Death, I Asked the Manhattan D.A. What His Greatest Fear Was. He Answered: \u2018Trump.\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/opinion/donald-trump-friendship-with-robert-morgenthau.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Americans Have Mostly Forgotten the Iraq War. I Haven\u2019t.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/opinion/iraq-war-20th-anniversary.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Bill Gates: \u2018I Worry We\u2019re Making the Same Mistakes Again\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/19/opinion/bill-gates-pandemic-preparedness-covid.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "I Fantasized About Multiple Timelines, and It Nearly Ruined My Life",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/opinion/multiverse-danger.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "The Colorado River Is Running Dry, but Nobody Wants to Talk About the Mud",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/opinion/colorado-river-lake-powell-glen-canyon-dam.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Ron DeSantis Has a Secret Theory of Trump",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/19/opinion/ron-desantis-donald-trump-courage-free.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Here Are the Concerns Raised About TikTok. Don\u2019t They Sound Familiar?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/opinion/tiktok-ban-big-tech-china.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "What if Kids Are Sad and Stressed Because Their Parents Are?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/19/opinion/teen-adult-depression-anxiety.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "The Man Who Changed Everything for American Jewish Audiences",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/18/opinion/topol-tevye-fiddler-tradition.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Can We Slow This All Down, Please?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/18/opinion/svb-banks-change.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "On Pets, Moral Logic and Love",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/19/opinion/pets-dogs-love.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "This Isn\u2019t What Middle Age Was Supposed to Look Like",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/interactive/2023/03/14/opinion/middle-age-millennials.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "My Dangerous, Lonely Life on the Run",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/19/opinion/myanmar-military-coup-resistance.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Can a Neuroscientist Fight Cancer With Mere Thought?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/18/opinion/cancer-brain-mind-body.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Humanity Is Facing a Great Injustice. The World Bank Must Respond.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/18/opinion/world-bank-climate-change.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Read The Morning",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/briefing/donald-trump-indictment.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Listen to \u2018The Daily\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/podcasts/the-daily/how-tiktok-became-a-matter-of-national-security.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Americans\u2019 Old Car Batteries Are Making Mexican Workers Sick",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/world/car-batteries-lead-mexico.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "First Official Estimate of Somalia\u2019s Drought Shows 43,000 Dead",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/world/africa/somalia-drought-death-famine.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Trial of 2016 Twitter Troll to Test Limits of Online Speech",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/nyregion/douglass-mackey-twitter-misinformation-trial.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Crypto Wants Its Shine Back",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/technology/crypto-rebranding-marketing.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Israeli Leaders Advance Key Part of Judicial Overhaul, but Delay Rest",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/world/middleeast/israel-judicial-overhaul-changes.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "American Held Hostage in Africa Is Freed After Over Six Years in Captivity",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/us/politics/hostage-jeffery-woodke-freed.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Meta Manager Was Hacked With Spyware and Wiretapped in Greece",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/world/europe/greece-spyware-hacking-meta.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Adam Sandler Is Awarded the Mark Twain Prize for American Humor",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/19/movies/adam-sandler-mark-twain-prize.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Australian State Moves to Ban Nazi Salute After Clashes at Rally",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/20/world/australia/melbourne-nazi-salute.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "5 Young People Are Killed in Car Crash in Westchester County",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/19/nyregion/connecticut-children-car-crash-westchester.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "American Directors Bring Fresh Visions to Europe\u2019s Opera Stages",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/17/arts/music/american-opera-directors-ted-huffman-lydia-steier-rb-schlather.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "What Do We Wear in a Warming World?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/17/style/extrapolations-fashion-climate-change.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "A Voice for an Untold South African Story",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/16/arts/dance/maqoma-sibisi-broken-chord.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "\u2018Swarm\u2019 Review: The Underside of \u2018Atlanta\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/17/arts/television/swarm-review.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "\u2018Rye Lane\u2019 Aims to Show You a Real London Love Story",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2023/03/17/movies/rye-lane.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "A Former Patriots Player Could Be Bill Belichick\u2019s Successor",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://theathletic.com/4317268/2023/03/20/jerod-mayo-patriots-bill-belichick/"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Dusty Baker on Life, Baseball and Becoming an American Icon",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://theathletic.com/4324804/2023/03/20/dusty-baker-astros-world-series/"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "How Shameful Self-Sabotage Destroyed One Soccer Club\u2019s Special Season",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://theathletic.com/4325731/2023/03/20/fulham-manchester-united-aleksandar-mitrovic-red-card/"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "The Ravens Appear Hamstrung by Lamar Jackson\u2019s Contract Stalemate",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://theathletic.com/4325452/2023/03/20/lamar-jackson-contract-ravens-free-agency/"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Cheat Burgers and Halftime Snacks: Inside the Life of an N.B.A. Dietitian",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://theathletic.com/4323108/2023/03/20/taylor-call-detroit-pistons-dietitian/"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "The Jets Are Likely to Land Aaron Rodgers. Odell Beckham Jr. Could Be Next.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://theathletic.com/4326353/2023/03/20/odell-beckham-jets-nfl-free-agency/"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Wordle",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/games/wordle/index.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "The Best First Wordle Words",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/2022/09/01/crosswords/wordle-starting-words-adieu.html"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Spelling Bee",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/puzzles/spelling-bee"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "The Crossword",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/crosswords"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Letter Boxed",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/puzzles/letter-boxed"
+  },
+  {
+    "newspaper": "The New York Times",
+    "language": "en",
+    "text": "Tiles",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nytimes.com/puzzles/tiles"
+  }
+]

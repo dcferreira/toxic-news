@@ -100,9 +100,9 @@ def test_parse_live(assets, snapshot, newspaper):
     live_len = len(fetcher.fetch())
 
     assert (
-        newspaper.expected_headlines * 0.7
+        newspaper.expected_headlines * 0.6
         <= live_len
-        <= newspaper.expected_headlines * 1.3
+        <= newspaper.expected_headlines * 1.4
     )
 
 

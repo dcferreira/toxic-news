@@ -126,7 +126,7 @@ module = [
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]
-addopts = "--strict-markers -m \"not integration\" -m \"not slow\""
+addopts = "--strict-markers -m \"not integration and not slow\""
 markers = [
     "slow: slow and heavy tests, not sure if these can run in the CI pipeline",
     "integration: slow tests, shouldn't be run so often"

@@ -2,3 +2,7 @@ BBC,en,https://bbc.com,//h3[@class='media__title' and a],a,47
 Fox News,en,https://foxnews.com,//article//h3[a],a,125
 Newsmax,en,https://newsmax.com,//div[@id='nmCanvas1Headline']//h1 | //div[@id='nmLeadStoryContent']/div[@id='nmleadStoryHead']/h2[a] | //div[@class='nmNewsfrontT ' or @class='nmleadStoryHead']//h2[a],a,50
 The Washington Times,en,https://washingtontimes.com,//div[@class='homeholding']//article/h2/a,.,46
+The New York Times,en,https://www.nytimes.com/,"//section[contains(@class, 'story-wrapper')]//h3[contains(@class, 'indicate-hover')]",ancestor::a,67
+New York Post,en,https://nypost.com/,"//h2[contains(@class, 'story__headline')][a]",a,38
+Associated Press,en,https://apnews.com/,"//div[@class='Body']//a/h2 | //article[@class='cards']//h4",ancestor::a,45
+NBC News,en,https://www.nbcnews.com/,"//div[@class='tease-card__info']//*[self::h2 or self::h3]/a | //*[contains(@class, 'styles_headline') and (self::h2 or self::h3)]/a",.,67

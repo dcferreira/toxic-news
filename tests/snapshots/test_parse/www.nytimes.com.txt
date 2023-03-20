@@ -1,0 +1,266 @@
+[
+  [
+    "Xi Meets Putin in Moscow on State Visit Highlighting China\u2019s Ties to Russia",
+    "https://www.nytimes.com/live/2023/03/20/world/russia-ukraine-xi-putin-news"
+  ],
+  [
+    "Here\u2019s why China and Russia are closer than ever.",
+    "https://www.nytimes.com/2023/03/20/world/asia/china-russia-ties.html"
+  ],
+  [
+    "European officials agreed to supply more artillery shells to Ukraine.",
+    "https://www.nytimes.com/live/2023/03/20/world/russia-ukraine-xi-putin-news/european-officials-agree-to-supply-more-artillery-shells-to-ukraine"
+  ],
+  [
+    "Analysis: Out of Power, Donald Trump Still Exerts It as the Law Closes In",
+    "https://www.nytimes.com/2023/03/20/us/politics/trump-indictment-republicans.html"
+  ],
+  [
+    "Donald Trump\u2019s lawyers are seeking to quash a special grand jury report in Georgia into 2020 election interference.",
+    "https://www.nytimes.com/2023/03/20/us/trumps-georgia-special-grand-jury.html"
+  ],
+  [
+    "Fingerprints and a mug shot: how a Trump arrest would proceed.",
+    "https://www.nytimes.com/2023/03/20/nyregion/trump-arrest-indictment-nypd.html"
+  ],
+  [
+    "Earth to Hit Critical Warming Threshold by Early 2030s, Climate Panel Says",
+    "https://www.nytimes.com/2023/03/20/climate/global-warming-ipcc-earth.html"
+  ],
+  [
+    "A Different Kind of Pipeline Project Scrambles Midwest Politics",
+    "https://www.nytimes.com/2023/03/20/us/carbon-dioxide-ethanol-underground-midwest.html"
+  ],
+  [
+    "Have climate questions? Get answers here.",
+    "https://www.nytimes.com/interactive/2023/climate/climate-change-faq.html"
+  ],
+  [
+    "Fate of First Republic Is Uncertain as Shares Slide",
+    "https://www.nytimes.com/2023/03/20/business/first-republic-bank.html"
+  ],
+  [
+    "Choppy trading in markets suggested that investors remained nervous about some banks after moves to shore them up.",
+    "https://www.nytimes.com/2023/03/20/business/markets-today.html"
+  ],
+  [
+    "For Years She Said a Coach Abused Her. Now She Has Named a Legend.",
+    "https://www.nytimes.com/2023/03/20/sports/olympics/jennifer-fox-sexual-abuse-the-tale.html"
+  ],
+  [
+    "Macron Cabinet Faces No-Confidence Vote as Fury Grows Over French Pensions",
+    "https://www.nytimes.com/live/2023/03/20/world/france-macron-no-confidence-vote"
+  ],
+  [
+    "Missteps From Iraq Retain the Power to Haunt America",
+    "https://www.nytimes.com/2023/03/20/us/politics/iraq-20-years.html"
+  ],
+  [
+    "Children of the Iraq War Have Grown Up, but Some Wounds Don\u2019t Heal",
+    "https://www.nytimes.com/2023/03/20/world/middleeast/iraq-war-anniversary-youth.html"
+  ],
+  [
+    "Monday\u2019s Matchups to Watch in the Women\u2019s N.C.A.A. Tournament",
+    "https://www.nytimes.com/2023/03/20/sports/ncaabasketball/march-madness-monday.html"
+  ],
+  [
+    "The quest to be Cinderella: Go behind the scenes as No. 15 Vermont tries for a first-round upset.",
+    "https://theathletic.com/4325496/2023/03/20/march-madness-vermont-cinderella/"
+  ],
+  [
+    "Here are the key questions facing each team in the men\u2019s Sweet 16 field.",
+    "https://theathletic.com/4326239/2023/03/20/ncaa-tournament-sweet-16-seth-davis/"
+  ],
+  [
+    "Recyclable? Try Refillable.",
+    "https://www.nytimes.com/2023/03/17/headway/spray-bottle-clorox-plastic-refillable-recycle.html"
+  ],
+  [
+    "Work Friend: Don\u2019t be the dress code police.",
+    "https://www.nytimes.com/2023/03/18/business/roxane-gay-work-advice-work-wardrobe.html"
+  ],
+  [
+    "This carrot cake doesn\u2019t require any grating.",
+    "https://www.nytimes.com/2023/03/17/dining/easy-carrot-cake-recipe.html"
+  ],
+  [
+    "Never Mind About Ron DeSantis",
+    "https://www.nytimes.com/2023/03/20/opinion/ron-desantis-trump-silicon-valley-bank.html"
+  ],
+  [
+    "Before His Death, I Asked the Manhattan D.A. What His Greatest Fear Was. He Answered: \u2018Trump.\u2019",
+    "https://www.nytimes.com/2023/03/20/opinion/donald-trump-friendship-with-robert-morgenthau.html"
+  ],
+  [
+    "Americans Have Mostly Forgotten the Iraq War. I Haven\u2019t.",
+    "https://www.nytimes.com/2023/03/20/opinion/iraq-war-20th-anniversary.html"
+  ],
+  [
+    "Bill Gates: \u2018I Worry We\u2019re Making the Same Mistakes Again\u2019",
+    "https://www.nytimes.com/2023/03/19/opinion/bill-gates-pandemic-preparedness-covid.html"
+  ],
+  [
+    "I Fantasized About Multiple Timelines, and It Nearly Ruined My Life",
+    "https://www.nytimes.com/2023/03/20/opinion/multiverse-danger.html"
+  ],
+  [
+    "The Colorado River Is Running Dry, but Nobody Wants to Talk About the Mud",
+    "https://www.nytimes.com/2023/03/20/opinion/colorado-river-lake-powell-glen-canyon-dam.html"
+  ],
+  [
+    "Ron DeSantis Has a Secret Theory of Trump",
+    "https://www.nytimes.com/2023/03/19/opinion/ron-desantis-donald-trump-courage-free.html"
+  ],
+  [
+    "Here Are the Concerns Raised About TikTok. Don\u2019t They Sound Familiar?",
+    "https://www.nytimes.com/2023/03/20/opinion/tiktok-ban-big-tech-china.html"
+  ],
+  [
+    "What if Kids Are Sad and Stressed Because Their Parents Are?",
+    "https://www.nytimes.com/2023/03/19/opinion/teen-adult-depression-anxiety.html"
+  ],
+  [
+    "The Man Who Changed Everything for American Jewish Audiences",
+    "https://www.nytimes.com/2023/03/18/opinion/topol-tevye-fiddler-tradition.html"
+  ],
+  [
+    "Can We Slow This All Down, Please?",
+    "https://www.nytimes.com/2023/03/18/opinion/svb-banks-change.html"
+  ],
+  [
+    "On Pets, Moral Logic and Love",
+    "https://www.nytimes.com/2023/03/19/opinion/pets-dogs-love.html"
+  ],
+  [
+    "This Isn\u2019t What Middle Age Was Supposed to Look Like",
+    "https://www.nytimes.com/interactive/2023/03/14/opinion/middle-age-millennials.html"
+  ],
+  [
+    "My Dangerous, Lonely Life on the Run",
+    "https://www.nytimes.com/2023/03/19/opinion/myanmar-military-coup-resistance.html"
+  ],
+  [
+    "Can a Neuroscientist Fight Cancer With Mere Thought?",
+    "https://www.nytimes.com/2023/03/18/opinion/cancer-brain-mind-body.html"
+  ],
+  [
+    "Humanity Is Facing a Great Injustice. The World Bank Must Respond.",
+    "https://www.nytimes.com/2023/03/18/opinion/world-bank-climate-change.html"
+  ],
+  [
+    "Read The Morning",
+    "https://www.nytimes.com/2023/03/20/briefing/donald-trump-indictment.html"
+  ],
+  [
+    "Listen to \u2018The Daily\u2019",
+    "https://www.nytimes.com/2023/03/20/podcasts/the-daily/how-tiktok-became-a-matter-of-national-security.html"
+  ],
+  [
+    "Americans\u2019 Old Car Batteries Are Making Mexican Workers Sick",
+    "https://www.nytimes.com/2023/03/20/world/car-batteries-lead-mexico.html"
+  ],
+  [
+    "First Official Estimate of Somalia\u2019s Drought Shows 43,000 Dead",
+    "https://www.nytimes.com/2023/03/20/world/africa/somalia-drought-death-famine.html"
+  ],
+  [
+    "Trial of 2016 Twitter Troll to Test Limits of Online Speech",
+    "https://www.nytimes.com/2023/03/20/nyregion/douglass-mackey-twitter-misinformation-trial.html"
+  ],
+  [
+    "Crypto Wants Its Shine Back",
+    "https://www.nytimes.com/2023/03/20/technology/crypto-rebranding-marketing.html"
+  ],
+  [
+    "Israeli Leaders Advance Key Part of Judicial Overhaul, but Delay Rest",
+    "https://www.nytimes.com/2023/03/20/world/middleeast/israel-judicial-overhaul-changes.html"
+  ],
+  [
+    "American Held Hostage in Africa Is Freed After Over Six Years in Captivity",
+    "https://www.nytimes.com/2023/03/20/us/politics/hostage-jeffery-woodke-freed.html"
+  ],
+  [
+    "Meta Manager Was Hacked With Spyware and Wiretapped in Greece",
+    "https://www.nytimes.com/2023/03/20/world/europe/greece-spyware-hacking-meta.html"
+  ],
+  [
+    "Adam Sandler Is Awarded the Mark Twain Prize for American Humor",
+    "https://www.nytimes.com/2023/03/19/movies/adam-sandler-mark-twain-prize.html"
+  ],
+  [
+    "Australian State Moves to Ban Nazi Salute After Clashes at Rally",
+    "https://www.nytimes.com/2023/03/20/world/australia/melbourne-nazi-salute.html"
+  ],
+  [
+    "5 Young People Are Killed in Car Crash in Westchester County",
+    "https://www.nytimes.com/2023/03/19/nyregion/connecticut-children-car-crash-westchester.html"
+  ],
+  [
+    "American Directors Bring Fresh Visions to Europe\u2019s Opera Stages",
+    "https://www.nytimes.com/2023/03/17/arts/music/american-opera-directors-ted-huffman-lydia-steier-rb-schlather.html"
+  ],
+  [
+    "What Do We Wear in a Warming World?",
+    "https://www.nytimes.com/2023/03/17/style/extrapolations-fashion-climate-change.html"
+  ],
+  [
+    "A Voice for an Untold South African Story",
+    "https://www.nytimes.com/2023/03/16/arts/dance/maqoma-sibisi-broken-chord.html"
+  ],
+  [
+    "\u2018Swarm\u2019 Review: The Underside of \u2018Atlanta\u2019",
+    "https://www.nytimes.com/2023/03/17/arts/television/swarm-review.html"
+  ],
+  [
+    "\u2018Rye Lane\u2019 Aims to Show You a Real London Love Story",
+    "https://www.nytimes.com/2023/03/17/movies/rye-lane.html"
+  ],
+  [
+    "A Former Patriots Player Could Be Bill Belichick\u2019s Successor",
+    "https://theathletic.com/4317268/2023/03/20/jerod-mayo-patriots-bill-belichick/"
+  ],
+  [
+    "Dusty Baker on Life, Baseball and Becoming an American Icon",
+    "https://theathletic.com/4324804/2023/03/20/dusty-baker-astros-world-series/"
+  ],
+  [
+    "How Shameful Self-Sabotage Destroyed One Soccer Club\u2019s Special Season",
+    "https://theathletic.com/4325731/2023/03/20/fulham-manchester-united-aleksandar-mitrovic-red-card/"
+  ],
+  [
+    "The Ravens Appear Hamstrung by Lamar Jackson\u2019s Contract Stalemate",
+    "https://theathletic.com/4325452/2023/03/20/lamar-jackson-contract-ravens-free-agency/"
+  ],
+  [
+    "Cheat Burgers and Halftime Snacks: Inside the Life of an N.B.A. Dietitian",
+    "https://theathletic.com/4323108/2023/03/20/taylor-call-detroit-pistons-dietitian/"
+  ],
+  [
+    "The Jets Are Likely to Land Aaron Rodgers. Odell Beckham Jr. Could Be Next.",
+    "https://theathletic.com/4326353/2023/03/20/odell-beckham-jets-nfl-free-agency/"
+  ],
+  [
+    "Wordle",
+    "https://www.nytimes.com/games/wordle/index.html"
+  ],
+  [
+    "The Best First Wordle Words",
+    "https://www.nytimes.com/2022/09/01/crosswords/wordle-starting-words-adieu.html"
+  ],
+  [
+    "Spelling Bee",
+    "https://www.nytimes.com/puzzles/spelling-bee"
+  ],
+  [
+    "The Crossword",
+    "https://www.nytimes.com/crosswords"
+  ],
+  [
+    "Letter Boxed",
+    "https://www.nytimes.com/puzzles/letter-boxed"
+  ],
+  [
+    "Tiles",
+    "https://www.nytimes.com/puzzles/tiles"
+  ]
+]

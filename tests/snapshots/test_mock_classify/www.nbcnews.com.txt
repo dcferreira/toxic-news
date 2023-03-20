@@ -1,0 +1,1074 @@
+[
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Major climate report issues a dire outlook for human life on Earth",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/science/environment/climate-change-un-ipcc-rcna75670"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Carbon dioxide emissions reached a record high in 2022",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/science/environment/carbon-dioxide-emissions-reached-record-high-2022-rcna73108"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "NASA and NOAA find 2022 was one of the hottest years on record",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/science/environment/nasa-noaa-find-2022-was-one-hottest-years-record-rcna65086"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Xi joins Putin in Russia in an even greater show of solidarity",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/world/russia-ukraine-war-china-xi-jinping-vladimir-putin-meeting-us-moscow-rcna74613"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "White House seeks softer tone on China ahead of Putin-Xi meeting",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/white-house-seeks-softer-tone-china-ahead-putin-xi-meeting-rcna75549"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "VIDEO: Here's what Xi hopes to get out of his trip to Russia",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/now/video/chinese-president-xi-arrives-in-russia-ahead-of-meeting-with-president-putin-165729349691"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "DeSantis attacks Manhattan 'Soros-funded' prosecutor in first comments on possible Trump indictment",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/2024-election/ron-desantis-breaks-silence-possible-trump-indictment-rcna75747"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "House GOP chairmen ask Manhattan D.A. Alvin Bragg to testify on Trump probe",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/congress/house-gop-chairmen-ask-manhattan-d-alvin-bragg-testify-trump-probe-rcna75754"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "McCarthy says Americans should not protest if Trump is indicted",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/congress/mccarthy-says-americans-not-protest-trump-indicted-rcna75679"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Jury convicts 3 men of murder in rapper XXXTentacion\u2019s death",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/jury-returns-verdict-trial-3-men-accused-killing-rapper-xxxten-rcna74121"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "XXXTentacion's friend describes rapper's fatal shooting",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/xxxtentacions-friend-describes-rappers-fatal-shooting-rcna69681"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Buster Murdaugh says he had nothing to do with teen's hit-and-run death",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/crime-courts/buster-murdaugh-says-nothing-teens-2015-hit-run-death-rcna75683"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Body of teenager in hit-and-run death near Murdaugh estate to be exhumed",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/body-teenager-hit-run-death-murdaugh-estate-exhumed-rcna75480"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "American aid worker held captive for over 6 years in West Africa is released, officials say",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/american-aid-worker-jeff-woodke-kidnapped-west-africa-released-6-years-rcna75744"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Protesters bloodied and arrested at NYC Drag Story Hour",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/nbc-out/out-news/protesters-bloodied-arrested-nyc-drag-story-hour-rcna75724"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "2 students injured, 1 critically, in shooting outside a Texas high school",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/2-students-injured-shooting-lamar-high-school-texas-rcna75759"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Colorado dentist is charged with fatally poisoning his wife in 'complex and calculated murder'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/colorado-dentist-charged-poisoning-wife-was-declared-brain-dead-days-h-rcna75716"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "5 children dead after SUV veers off a N.Y. highway and catches fire; boy, 9, survives",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/5-connecticut-children-dead-fiery-new-york-boy-9-survives-rcna75719"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Search on for Florida boaters missing in lake near Legoland",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/search-florida-boaters-missing-lake-legoland-rcna75687"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Cuban protests and celebrations mark World Baseball Classic semifinal against the U.S.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/protesters-gather-miami-run-field-cuba-us-world-baseball-classic-semif-rcna75696"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Trump isn't giving up on Fox News even after Dominion revelations",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/2024-election/trump-fox-news-dominion-revelations-ron-desantis-rcna75646"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "White House to counter GOP's soft-on-crime attacks by targeting far-right budget plan",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/white-house/white-house-counter-gops-soft-crime-attacks-targeting-far-right-budget-rcna75700"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Supreme Court wrestles with Navajo Nation water rights dispute",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-weighs-navajo-nation-water-rights-dispute-rcna75433"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Justice Dan Kelly launches his first ad of Wisconsin Supreme Court campaign",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/meet-the-press/meetthepressblog/justice-dan-kelly-launches-first-ad-wisconsin-supreme-court-campaign-rcna75713"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Candidates who support psychedelics as medicine get a political action committee",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/candidates-support-psychedelics-medicine-get-political-action-committe-rcna75295"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Amazon to lay off 9,000 more workers after earlier cuts",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/business/business-news/amazon-lay-9000-workers-earlier-cuts-rcna75745"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Here's how to secure your Twitter account without text message verification",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/tech/security/twitter-authenticator-secure-account-free-rcna74850"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "New York Community Bank to buy failed Signature Bank",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/business/business-news/new-york-community-bank-buy-failed-signature-bank-rcna75681"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "UBS buys Credit Suisse for $3.2 billion as regulators look to shore up the global banking system",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/business/ubs-reportedly-offers-buy-credit-suisse-1-billion-rcna75653"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Elizabeth Holmes owes over $25 million to Theranos creditors, lawsuit says",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/elizabeth-holmes-owes-25-million-theranos-creditors-lawsuit-says-rcna75393"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Macron's government faces no-confidence vote over contentious pension plan",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/world/france-pension-reform-emmanuel-macron-no-confidence-vote-borne-rcna75690"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "North Korea's Kim oversees simulated nuclear counterattack against U.S. and South Korea",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/world/north-korea-kim-oversees-simulated-nuclear-counterattack-us-south-rcna75686"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Netanyahu softens government's judicial overhaul after Biden call",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/world/israel-judicial-reforms-benjamin-netanyahu-joe-biden-phone-call-rcna75698"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Millions of dead fish wash up amid heat wave in Australia",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/world/millions-dead-fish-wash-heat-wave-australia-rcna75620"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Defiant Putin visits Mariupol in first trip to occupied eastern Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/world/russia-ukraine-war-putin-mariupol-visit-arrest-warrant-war-crimes-rcna75621"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Bruce Willis' family opens up about 'grief' they feel on his 68th birthday",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/bruce-willis-family-opens-grief-feel-68th-birthday-rcna75701"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Adam Sandler takes home Mark Twain Prize for American Humor",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/adam-sandler-takes-home-mark-twain-prize-american-humor-rcna75694"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Jason Sudeikis and 'Ted Lasso' cast members to visit White House",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/joe-biden/jason-sudeikis-ted-lasso-cast-members-visit-white-house-rcna75677"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Andrew Lloyd Webber reveals his eldest son is critically ill with stomach cancer",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/andrew-lloyd-webber-reveals-eldest-son-critically-ill-stomach-cancer-rcna75663"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Mikaela Shiffrin ties Lindsey Vonn's all-time podium record at World Cup Finals",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://olympics.nbcsports.com/2023/03/18/mikaela-shiffrin-lindsey-vonn-world-cup-podiums-alpine-skiing/"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Exclusive: Buster Murdaugh speaks out over Stephen Smith death",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.today.com/video/buster-murdaugh-denies-involvement-in-death-of-stephen-smith-165730373925"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "KCAL meteorologist Alissa Carlton faints and collapses live on air",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.today.com/video/kcal-meteorologist-alissa-carlton-faints-and-collapses-live-on-air-165733445690"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Disturbing history of negative health outcomes for Black pregnant women, study reveals",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/nightly-news/video/disturbing-history-of-negative-health-outcomes-for-black-pregnant-women-study-reveals-165685317737"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "7-year-old boy is \u2018real-life superhero,\u2019 donating bone marrow to older brother",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/nightly-news/video/7-year-old-boy-is-real-life-superhero-donating-bone-marrow-to-older-brother-165686341664"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "How Midwest roots shaped Ron DeSantis' political values and perspective",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/2024-election/midwest-roots-shaped-ron-desantis-political-values-youngstown-ohio-rcna73797"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "The high price of Ozempic is pushing many to unregulated, copycat drugs for weight loss",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/health/health-news/ozempic-wegovy-semaglutide-compounding-weight-loss-safe-rcna72990"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Putin is a wanted man \u2014 a trial isn't imminent, but the world is closing in",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/world/vladimir-putin-war-crimes-arrest-warrant-international-criminal-court-rcna75526"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Utah is flush with snow and money. It might not be enough to save the Great Salt Lake.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/science/environment/great-salt-lake-still-risk-influx-snow-cash-rcna74949"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "PrEP's promise to change the course of HIV has succeeded \u2014 but only for white gay men",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/nbc-out/out-health-and-wellness/preps-promise-change-course-hiv-succeeded-only-white-gay-men-rcna75438"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Frozen fruit recalled at Costco and Trader Joe's due to risk of hepatitis A contamination",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/health/health-news/frozen-fruit-recalled-costco-trader-joes-hepatitis-rcna75520"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "New Covid origins data suggests pandemic linked to raccoon dogs at Wuhan market",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/health/health-news/covid-origins-data-links-pandemic-raccoon-dogs-wuhan-market-rcna75437"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Mexico says fentanyl is America's problem. How did drug war relations reach such a low?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/politics/national-security/no-cooperation-us-mexico-drug-war-rcna75093"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Deadly earthquake in Ecuador brings grief and fear",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/latino/deadly-earthquake-ecuador-brings-grief-fear-rcna75761"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Nuclear power plant leaks 400,000 gallons of radioactive water",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/us-news/nuclear-power-plant-leaks-400000-gallons-radioactive-water-rcna75406"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Scorpion tamales and grasshopper tacos are on the menu at one of America\u2019s best restaurants",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/latino/scorpion-insects-mexican-chef-jose-avila-denver-restaurant-rcna75445"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Mexico's president: Fentanyl crisis caused by 'lack of hugs' among U.S. families",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/latino/mexico-president-fentanyl-crisis-lack-of-hugs-us-families-rcna75533"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Farmworkers lead 5-day march to pressure companies on wages, work conditions",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/latino/farmworkers-lead-5-day-march-pressure-companies-wages-work-conditions-rcna75500"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Posthumous album set from \u2018Gangsta\u2019s Paradise\u2019 rapper Coolio",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/nbcblk/posthumous-album-set-gangstas-paradise-rapper-coolio-rcna75470"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "'Great British Bake Off' taps Alison Hammond to cohost next season",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/nbcblk/great-british-bake-taps-alison-hammond-cohost-season-rcna75452"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Ex-NFL player's family says he died from excessive force in L.A. County custody",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/nbcblk/ex-nfl-players-family-says-died-excessive-force-custody-l-county-rcna75149"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Black veterans were more often denied VA benefits for PTSD than white counterparts, newly surfaced study shows",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/health/mental-health/black-veterans-denied-va-benefits-ptsd-more-often-whites-rcna75334"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "'Drag Race' star Jinkx Monsoon slams wave of anti-drag laws",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/nbc-out/out-pop-culture/drag-race-star-jinkx-monsoon-slams-wave-anti-drag-laws-rcna75484"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Kentucky lawmakers pass ban on youth gender-affirming care",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/nbc-out/out-politics-and-policy/kentucky-lawmakers-pass-ban-youth-gender-affirming-care-rcna75429"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Sikh community organizer says he was denied entry to NBA game for wearing religious article",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/asian-america/sikh-community-organizer-says-was-denied-entry-nba-game-wearing-religi-rcna75518"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "Biden commemorates the anniversary of Atlanta deadly spa shootings",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/asian-america/biden-commemorates-anniversary-atlanta-deadly-spa-shootings-rcna75489"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "East Asians more likely to develop stomach cancer because of lower alcohol tolerance, new study says",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/asian-america/east-asians-likely-develop-stomach-cancer-lower-alcohol-tolerance-new-rcna75329"
+  },
+  {
+    "newspaper": "NBC News",
+    "language": "en",
+    "text": "'American Born Chinese' producers discuss the 'next phase' of on-screen diversity",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.nbcnews.com/news/asian-america/american-born-chinese-producers-discuss-phase-screen-diversity-rcna75096"
+  }
+]

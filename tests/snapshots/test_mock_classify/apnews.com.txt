@@ -1,0 +1,722 @@
+[
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Trump\u2019s call for protests gets muted reaction by supporters",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/trump-indictment-new-york-jan-6-protest-f19306253133d9dacd65667bd5b4650c?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_01"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "US aid worker and French journalist freed in West Africa",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/niger-hostage-captive-biden-woodke-b94936724080252ad5a1a3070b986d2a?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_04"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Putin welcomes China\u2019s Xi to Kremlin amid Ukraine fighting",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/russia-ukraine-china-xi-putin-meeting-d989e5c65ff762c1af91215d6dd2cf6e?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_06"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Top Israeli minister: \u2018No such thing\u2019 as Palestinian people",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/israel-palestinians-netanyahu-smotrich-tensions-38150d2ba81f571b1d5333dd7b046af0?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_08"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "School library book bans are seen as targeting LGBTQ content",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/lgbtq-book-bans-91b2d4c086eb082cbecfdda2800ef29a?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_10"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "World on \u2018thin ice\u2019 as UN climate report gives stark warning",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/un-climate-change-report-ipcc-guterres-science-30d8451c0f3fb7b8a857e3ed4fd01172?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_03"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "2 students hurt in Texas school shooting, suspect arrested",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/texas-school-shooting-arlington-lamar-students-9c0e6db8be95fea41cbf250c1e70c9ae?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_05"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Miami Beach struggles with spring break violence, big crowds",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/miami-beach-spring-break-shootings-curfew-8b72d3ad074f087025fbcd828ce6c79c?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_07"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Amazon cuts 9,000 more jobs, bringing 2023 total to 27,000",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/amazon-layoffs-jobs-cuts-jassy-0e857f39702de134c8f677c5b5731688?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_09"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "The maddest March ever? Underdogs head to the Sweet 16",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/march-madness-sweet-16-49841b96269369ec82b3325939c26e25?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_11"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Millions of rotting fish to be removed from Outback river",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/dead-fish-australia-river-8cf09f1b59b20920de86c362f3542eb2"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Adam Sandler gets Mark Twain prize surrounded by celeb pals",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/mark-twain-prize-adam-sandler-kennedy-center-318c5052ac3e184e7384b1398573692f"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "With overdoses up, states look at harsher fentanyl penalties",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/fentanyl-penalties-state-legislatures-98a97e53a984e8f5a265ed229199ecb1"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Miami Beach sets spring break curfew after 2 fatal shootings",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/miami-beach-spring-break-curfew-shootings-67a77b4b8954ace2f29d9f19fbe1272b"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Cuban baseball team draws ire, support in Little Havana",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/world-baseball-classic-cuba-little-havana-usa-2ba6986b33af8109bb55c58179ddaca7"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "20 years after U.S. invasion, young Iraqis see signs of hope",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/iraq-war-invasion-anniversary-saddam-hussein-47b558083aad51d96106bc72342c49ea"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Ski resorts are embracing a new role: climate activist",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/climate-change-activism-ski-industry-028d83e19543db5d7633ea83932bdde3"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Pro-Moscow voices tried to steer Ohio train disaster debate",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/ohio-train-derailment-russia-disinformation-twitter-musk-49af27699727d6f4157a5d6d5f35819b"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "How a warrant for Putin puts new spin on Xi visit to Russia",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/us-russia-china-ukraine-icc-putin-57774b3a58d6ec1c75c921f71d9ebe90"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "El Salvador: 2,000 more to prison, vows will 'never return'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/el-salvador-gang-crackdown-prison-state-of-emergency-d95e1fcd5b806c38077ffb060c8c2f48"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "March Madness: Sweet 16 matchups are set after wild weekend",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/march-madness-2023-e8fe1bfd7964f938781458952670f51a"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Ole Miss stuns Stanford, reaches first Sweet 16 in 16 years",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/march-madness-stanford-ole-miss-upset-343e0c5133f71952c84a80c08ffd7694"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Nowell's huge 2nd half leads Kansas State past Kentucky",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/sports-kansas-xavier-musketeers-march-madness-f257475282af438001f012bfb676faf0"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Gonzaga, Timme move to Sweet 16 with 84-81 win over TCU",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/march-madness-gonzaga-tcu-e8043bbb481f087f576da9573db4edd7"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "March Madness betting guide: Upsets shuffle favorites' odds",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/march-madness-betting-favorite-odds-149e49842f90412a306dcbd1f0279a6c"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Volunteer doctors providing critical care near Ukraine war front lines",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/russia-ukraine-war-volunteer-doctors-mobile-clinics-67aec494c68bca987ebd74b8bec4fd46"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "EU's top diplomat hails deal on artillery shells for Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/ukraine-eu-ammunition-defense-a507b2cececc4a78ba1b604df59d6b07"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Putin makes surprise trip to occupied Mariupol",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/russia-ukraine-war-5482b8f62cc70efbdbeb0b3f492c0393"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "US sending ammunition, tanker trucks, boats to Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/ukraine-aid-ammunition-riverine-boats-91b4aa084c7e00bd7c93ef8b857b1509"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Countries urged to rally behind court probes in Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/ukraine-uk-war-crimes-conference-icc-2facdba93e4dae9bb4d27027c6aadbe8"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Credit Suisse shares fall, but UBS deal raises hope on banks",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/credit-suisse-ubs-swiss-bank-svb-7d4c2c82b6df9830c0254ef0de62e870"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Silicon Valley Bank successor's auction extended by FDIC",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/silicon-valley-fdic-bank-bidding-eb9a7e4a326aa231f9ff80438db60002"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Fed's tough challenge: Confront inflation and bank jitters",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/inflation-interest-rates-federal-reserve-banks-recession-232be412196916317f583f73445bd149"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Wall Street strengthens after big bank deal, regulator moves",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/stocks-shares-markets-economy-suisse-ubs-036b8fe51eb1f275f1e743a49115b493"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "New York Community Bank to buy failed Signature Bank",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/signature-fdic-failure-new-york-community-bank-3c820646cc6574439fa158095594505e"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "US: War crimes on all sides in Ethiopia's Tigray conflict",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/blinken-ethiopia-tigray-eritrea-war-crimes-da5d9ac7c900c58cc34b9ca5d4156667"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Prosecutors rest in sedition case against Proud Boys leaders",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/capitol-riot-proud-boys-enrique-tarrio-trial-bbaac6ea3f710a4f1b5e6555821510ee"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Biden's appeals court nominee faces rare Democratic scrutiny",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/biden-judicial-nominee-delaney-abortion-new-hampshire-68f2a0ed839c743873a16924a8bce148"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Trump lawyers attack Georgia grand jury and prosecutor",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/trump-georgia-grand-jury-filing-prosecutors-b92649f938006c325d9c6aa68f5cc857"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Digital literacy: Can the republic 'survive an algorithm'?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/misinformation-education-election-vaccine-canada-finland-e7d6eed63f3db289bf887605c99ab5c5"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Jeremy Scott leaves Moschino after 10 years at fashion house",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/jeremy-scott-moschino-fashion-2aff0a2b4157ae06734951817a5809fd"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Anthony Fauci documentary on PBS covers a career of crises",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/anthony-fauci-documentary-pbs-93eba2bb0c55cd37fdf8518d0a94ab5c"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Mae Muller wrote a song, now represents UK at Eurovision",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/eurovision-mae-muller-uk-8b92bb8bd99abb7467b27588cd23de39"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Review: Stunning new novel about a family and mental illness",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/commitment-mona-simpson-book-review-8b9b82bffdf7bff4336a8c229d89b9ff"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "New this week: 'Top Gun,' Lana Del Rey and 'Rabbit Hole'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://apnews.com/article/streaming-tv-music-video-movies-week-c135dd1c98c80702163165377776170e"
+  }
+]
