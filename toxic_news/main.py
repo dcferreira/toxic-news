@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Optional
 
 import aiohttp
+import pymongo
 import typer
 from aiohttp import ClientSession
 from detoxify import Detoxify
@@ -164,6 +165,13 @@ def query_headlines_count(name: str, date: datetime) -> int:
     return results[0]["count"]
 
 
+def check_index_exists(collection: Collection, index_name: str) -> bool:
+    for idx in collection.list_indexes():
+        if idx["name"] == index_name:
+            return True
+    return False
+
+
 def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
     out = []
     for n in newspapers:
@@ -180,7 +188,17 @@ def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
     if autosave or typer.confirm("Insert results into table?"):
         if len(out) > 0:
             table: Collection = db.daily
-            table.insert_many([r.dict() for r in out])
+            if not check_index_exists(table, "daily-unique-idx"):
+                # make sure there's a `unique` index, to avoid duplicates
+                table.create_index(
+                    [
+                        ("name", pymongo.ASCENDING),
+                        ("date", pymongo.DESCENDING),
+                    ],
+                    name="daily-unique-idx",
+                    unique=True,
+                )
+            table.insert_many([r.dict() for r in out], ordered=False)
     else:
         logger.info("Results not inserted")
     return out
@@ -406,7 +424,19 @@ def fetch_wayback(
     if auto_save or typer.confirm("Save these results?"):
         if len(headlines_to_insert) > 0:
             table: Collection = db.headlines
-            table.insert_many([h.dict() for day in headlines_to_insert for h in day])
+            if not check_index_exists(table, "headlines-unique-idx"):
+                # make sure there's a `unique` index, to avoid duplicates
+                table.create_index(
+                    [
+                        ("url", pymongo.ASCENDING),
+                        ("date", pymongo.DESCENDING),
+                    ],
+                    name="headlines-unique-idx",
+                    unique=True,
+                )
+            table.insert_many(
+                [h.dict() for day in headlines_to_insert for h in day], ordered=False
+            )
     else:
         logger.info("No results saved to database.")
 
