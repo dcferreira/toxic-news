@@ -206,8 +206,7 @@ def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
 
 def query_daily_rows(date: datetime) -> list[DailyRow]:
     table: Collection = db.daily
-    date_str = date.strftime(date_fmt)
-    cursor = table.find({"date": date_str})
+    cursor = table.find({"date": {"$gte": date, "$lt": date + timedelta(days=1)}})
     return [
         DailyRow(
             name=res["name"],
@@ -219,40 +218,40 @@ def query_daily_rows(date: datetime) -> list[DailyRow]:
     ]
 
 
-@app.command()
-def render_daily(
-    date: datetime,
-    end_date: Optional[datetime] = typer.Option(
-        None,
-        help="If a `end_date` is provided, "
-        "all the dates in [`date`, `end_date`[ will be inserted.",
-    ),
-):
-    """
-    Renders a page for one (or multiple) dates
-    """
-    if end_date is not None:
-        date_range = get_date_range(date, end_date)
-    else:
-        date_range = [date]
-
-    for d in date_range:
-        env = Environment(
-            loader=PackageLoader("toxic_news"),
-            autoescape=select_autoescape(),
-        )
-        dir_path = Path("public") / str(d.year) / str(d.month)
-        if not dir_path.exists():
-            os.makedirs(dir_path)
-        path = dir_path / f"{d.day}.html"
-
-        template = env.get_template("daily.html")
-        with path.open("w+") as fd:
-            fd.write(
-                template.render(
-                    rows=query_daily_rows(d),
-                )
-            )
+# @app.command()
+# def render_daily(
+#     date: datetime,
+#     end_date: Optional[datetime] = typer.Option(
+#         None,
+#         help="If a `end_date` is provided, "
+#         "all the dates in [`date`, `end_date`[ will be inserted.",
+#     ),
+# ):
+#     """
+#     Renders a page for one (or multiple) dates
+#     """
+#     if end_date is not None:
+#         date_range = get_date_range(date, end_date)
+#     else:
+#         date_range = [date]
+#
+#     for d in date_range:
+#         env = Environment(
+#             loader=PackageLoader("toxic_news"),
+#             autoescape=select_autoescape(),
+#         )
+#         dir_path = Path("public") / str(d.year) / str(d.month)
+#         if not dir_path.exists():
+#             os.makedirs(dir_path)
+#         path = dir_path / f"{d.day}.html"
+#
+#         template = env.get_template("daily.html")
+#         with path.open("w+") as fd:
+#             fd.write(
+#                 template.render(
+#                     rows=query_daily_rows(d),
+#                 )
+#             )
 
 
 @app.command()
@@ -376,8 +375,9 @@ def fetch_wayback(
     allowed_difference_headlines: float = typer.Option(
         0.4,
         help="Allow for more or less headlines. "
-        "If `expected_nr_headlines` is 100 and this is 0.3, allows for #headlines "
-        "between 70 and 130, and errors if there's too many/few headlines.",
+        "If `expected_nr_headlines` is 100 and this is 0.3, "
+        "allows for #headlines between 70 and 130, "
+        "and errors if there's too many/few headlines.",
     ),
     xpath: Optional[str] = None,
     auto_save: bool = False,
@@ -441,14 +441,18 @@ def fetch_wayback(
         logger.info("No results saved to database.")
 
 
-def render_index():
+def render_pages():
     env = Environment(
         loader=PackageLoader("toxic_news"),
         autoescape=select_autoescape(),
     )
     template = env.get_template("index.html")
     with open("public/index.html", "w+") as fd:
-        fd.write(template.render())
+        fd.write(template.render(selected="/index.html", today=datetime.today()))
+
+    template = env.get_template("daily.html")
+    with open("public/daily.html", "w+") as fd:
+        fd.write(template.render(selected="/daily.html", today=datetime.today()))
 
 
 @app.command()
@@ -456,9 +460,10 @@ def render():
     """
     Renders the main page HTML.
     """
-    render_index()
+    render_pages()
 
 
+@app.command()
 def generate_daily_csv(
     start_date: datetime,
     end_date: Optional[datetime] = None,
@@ -469,10 +474,15 @@ def generate_daily_csv(
     else:
         date_range = get_date_range(start_date, end_date)
 
-    headers = ["name", "count", "date", *list(Scores.schema()["properties"].keys())]
+    headers = [
+        "name",
+        *list(Scores.schema()["properties"].keys()),
+        "count",
+        "date",
+    ]
 
     for d in date_range:
-        fname = out_dir / str(d.year) / str(d.month) / f"{d.day}.csv"
+        fname = out_dir / str(d.year) / f"{d.month:0>{2}}" / f"{d.day:0>{2}}.csv"
         os.makedirs(fname.parent, exist_ok=True)
 
         with fname.open("w+") as fd:
@@ -480,12 +490,13 @@ def generate_daily_csv(
             writer.writeheader()
 
             rows = query_daily_rows(d)
+            logger.debug(f"{len(rows)} rows for {d.strftime(date_fmt)}")
             for r in rows:
                 writer.writerow(
                     {
                         "name": r.name,
                         "count": r.count,
-                        "date": r.date,
+                        "date": r.date.strftime(date_fmt),
                         **{
                             k: f"{v:.5f}"  # export only 5 decimal places
                             for k, v in r.scores.dict().items()
