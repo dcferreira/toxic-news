@@ -1,0 +1,38 @@
+name: Daily Update Frontend
+on:
+  schedule:
+    - cron: "30 12 * * *"
+
+jobs:
+  daily-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Main Source
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Checkout Public Branch
+        uses: actions/checkout@v3
+        with:
+          ref: public
+          path: public
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install hatch
+        run: python -m pip install -U pip hatch
+
+      - name: Run Commands
+        run: hatch run cli update-frontend
+
+      - name: Commit Changes
+        run: |
+          git config --global user.email "github.actions@toxicnews.dcferreira.com"
+          git config --global user.name "Daily Update"
+          git add .
+          git commit -m "daily update $(date +%Y-%m-%d)"
+          git push origin public

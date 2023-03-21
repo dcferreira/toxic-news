@@ -451,26 +451,26 @@ def fetch_wayback(
         logger.info("No results saved to database.")
 
 
-def render_pages():
+def render_pages(out_dir: Path):
     env = Environment(
         loader=PackageLoader("toxic_news"),
         autoescape=select_autoescape(),
     )
     template = env.get_template("index.html")
-    with open("public/index.html", "w+") as fd:
+    with (out_dir / "index.html").open("w+") as fd:
         fd.write(template.render(selected="/index.html", today=datetime.today()))
 
     template = env.get_template("daily.html")
-    with open("public/daily.html", "w+") as fd:
+    with (out_dir / "daily.html").open("w+") as fd:
         fd.write(template.render(selected="/daily.html", today=datetime.today()))
 
 
 @app.command()
-def render():
+def render_html(out_dir: Path = Path("public/")):
     """
-    Renders the main page HTML.
+    Renders the main pages HTML.
     """
-    render_pages()
+    render_pages(out_dir)
 
 
 @app.command()
@@ -565,6 +565,28 @@ def generate_averages(out_dir: Path = Path("public") / "averages"):
             logger.warning(
                 f"Couldn't generate {fname}, probably there's no data in range"
             )
+
+
+@app.command()
+def update_frontend(
+    start_date: Optional[datetime] = None,
+    end_date: Optional[datetime] = None,
+    daily: bool = True,
+    averages: bool = True,
+    render: bool = True,
+    out_dir: Path = Path("public"),
+):
+    """
+    Updates all the HTML and CSV in the frontend.
+    """
+    if start_date is None and daily:
+        raise ValueError("Need to provide a date to run the daily CSV generation!")
+    if daily:
+        generate_daily_csv(start_date, end_date=end_date, out_dir=out_dir / "daily")
+    if averages:
+        generate_averages(out_dir / "averages")
+    if render:
+        render_html(out_dir)
 
 
 if __name__ == "__main__":
