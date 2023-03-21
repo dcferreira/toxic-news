@@ -27,7 +27,7 @@ jobs:
         run: python -m pip install -U pip hatch
 
       - name: Run Commands
-        run: hatch run cli update-frontend
+        run: hatch run cli update-frontend-today
 
       - name: Commit Changes
         run: |

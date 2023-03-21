@@ -225,42 +225,6 @@ def query_daily_rows(date: datetime) -> list[DailyRow]:
     ]
 
 
-# @app.command()
-# def render_daily(
-#     date: datetime,
-#     end_date: Optional[datetime] = typer.Option(
-#         None,
-#         help="If a `end_date` is provided, "
-#         "all the dates in [`date`, `end_date`[ will be inserted.",
-#     ),
-# ):
-#     """
-#     Renders a page for one (or multiple) dates
-#     """
-#     if end_date is not None:
-#         date_range = get_date_range(date, end_date)
-#     else:
-#         date_range = [date]
-#
-#     for d in date_range:
-#         env = Environment(
-#             loader=PackageLoader("toxic_news"),
-#             autoescape=select_autoescape(),
-#         )
-#         dir_path = Path("public") / str(d.year) / str(d.month)
-#         if not dir_path.exists():
-#             os.makedirs(dir_path)
-#         path = dir_path / f"{d.day}.html"
-#
-#         template = env.get_template("daily.html")
-#         with path.open("w+") as fd:
-#             fd.write(
-#                 template.render(
-#                     rows=query_daily_rows(d),
-#                 )
-#             )
-
-
 @app.command()
 def update_daily_db(
     date: datetime = typer.Argument(..., help="Date in YYYY/MM/DD format"),
@@ -290,7 +254,9 @@ async def _fetch_single(
         "name": newspaper.name,
         "url": str(newspaper.url),
         "language": newspaper.language,
-        "xpath": newspaper.xpath,
+        "title_xpath": newspaper.title_xpath,
+        "relative_href_xpath": newspaper.relative_href_xpath,
+        "expected_headlines": newspaper.expected_headlines,
     }
     result = await session.post(url, headers=headers, json=payload)
     content = await result.content.read()
@@ -324,7 +290,7 @@ async def _fetch_daily(url: str, auth_bearer: str, endpoint: str):
 
 
 @app.command()
-def fetch_daily(
+def fetch_today(
     url: str = typer.Argument(..., envvar="SERVERLESS_URL"),
     auth_bearer: str = typer.Argument(..., envvar="AUTH_BEARER"),
     endpoint: str = "fetch",
@@ -386,7 +352,10 @@ def fetch_wayback(
         "allows for #headlines between 70 and 130, "
         "and errors if there's too many/few headlines.",
     ),
-    xpath: Optional[str] = None,
+    title_xpath: Optional[str] = None,
+    href_xpath: str = typer.Option(
+        ".", help="Xpath, relative to the title_xpath, for the url of the article"
+    ),
     auto_save: bool = False,
     cache_dir: Path = Path(".requests_cache"),
     use_cache: bool = True,
@@ -401,8 +370,9 @@ def fetch_wayback(
 
     date_list = get_date_range(start_date, end_date)
     newspaper = find_newspaper(url)
-    if xpath is not None:  # might need a different xpath for historic websites
-        newspaper.xpath = xpath
+    if title_xpath is not None:  # might need a different xpath for historic websites
+        newspaper.title_xpath = title_xpath
+        newspaper.relative_href_xpath = href_xpath
     headlines_list = asyncio.run(
         _fetch_wayback(newspaper, date_list, cache_dir if use_cache else None)
     )
@@ -568,9 +538,8 @@ def generate_averages(out_dir: Path = Path("public") / "averages"):
 
 
 @app.command()
-def update_frontend(
-    start_date: Optional[datetime] = None,
-    end_date: Optional[datetime] = None,
+def update_frontend_today(
+    update_db: bool = True,
     daily: bool = True,
     averages: bool = True,
     render: bool = True,
@@ -579,10 +548,11 @@ def update_frontend(
     """
     Updates all the HTML and CSV in the frontend.
     """
-    if start_date is None and daily:
-        raise ValueError("Need to provide a date to run the daily CSV generation!")
+    today = datetime.today()
+    if update_db:
+        update_daily_db(today, end_date=None, auto_save=True)
     if daily:
-        generate_daily_csv(start_date, end_date=end_date, out_dir=out_dir / "daily")
+        generate_daily_csv(today, end_date=None, out_dir=out_dir / "daily")
     if averages:
         generate_averages(out_dir / "averages")
     if render:
