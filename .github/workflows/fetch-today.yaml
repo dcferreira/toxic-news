@@ -1,0 +1,40 @@
+name: Fetch Newspapers
+on:
+  schedule:
+    - cron: "0 12 * * *"
+
+
+jobs:
+  fetch-today-job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          token_format: 'id_token'
+          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT }}
+          id_token_audience: ${{ secrets.SERVERLESS_URL }}
+          id_token_include_email: true # optional
+
+      - name: Set up Cloud SDK
+        uses: 'google-github-actions/setup-gcloud@v1'
+        with:
+          version: '>= 363.0.0'
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install hatch
+        run: python -m pip install -U pip hatch
+
+      - name: Fetch Websites
+        run: hatch run cli fetch-today "${{ secrets.SERVERLESS_URL }}" "${{ steps.auth.outputs.id_token }}"

@@ -27,11 +27,6 @@ from toxic_news.fetchers import Headline, Newspaper, Scores, WaybackFetcher, new
 app = typer.Typer()
 
 load_dotenv()
-client: MongoClient = MongoClient(
-    os.environ["MONGODB_URL"],
-    server_api=ServerApi("1"),
-)
-db: Database = client[os.environ["DATABASE_NAME"]]
 
 date_fmt = "%Y/%m/%d"
 
@@ -49,7 +44,16 @@ class AllTimeRow(BaseModel):
     count: int
 
 
-def query_average_headline_scores(name: str, date: datetime) -> Scores:
+def get_database(url: str, name: str) -> Database:
+    client: MongoClient = MongoClient(
+        url,
+        server_api=ServerApi("1"),
+    )
+    db: Database = client[name]
+    return db
+
+
+def query_average_headline_scores(name: str, date: datetime, db: Database) -> Scores:
     cursor = db.headlines.aggregate(
         [
             {
@@ -92,7 +96,7 @@ def query_average_headline_scores(name: str, date: datetime) -> Scores:
 
 
 def query_average_daily_scores(
-    name: str, start_date: datetime, end_date: datetime
+    name: str, start_date: datetime, end_date: datetime, db: Database
 ) -> Scores:
     cursor = db.daily.aggregate(
         [
@@ -120,7 +124,9 @@ def query_average_daily_scores(
     return results[0]["scores"]
 
 
-def query_daily_count(name: str, start_date: datetime, end_date: datetime) -> int:
+def query_daily_count(
+    name: str, start_date: datetime, end_date: datetime, db: Database
+) -> int:
     cursor = db.daily.aggregate(
         [
             {"$match": {"name": name, "date": {"$gte": start_date, "$lte": end_date}}},
@@ -131,16 +137,18 @@ def query_daily_count(name: str, start_date: datetime, end_date: datetime) -> in
     return results[0]["count"]
 
 
-def get_alltime_rows(start_date: datetime, end_date: datetime) -> list[AllTimeRow]:
+def get_alltime_rows(
+    start_date: datetime, end_date: datetime, db: Database
+) -> list[AllTimeRow]:
     out = []
     for n in newspapers:
-        scores = query_average_daily_scores(n.name, start_date, end_date)
-        count = query_daily_count(n.name, start_date, end_date)
+        scores = query_average_daily_scores(n.name, start_date, end_date, db)
+        count = query_daily_count(n.name, start_date, end_date, db)
         out.append(AllTimeRow(name=n.name, scores=scores, count=count))
     return out
 
 
-def query_headlines_count(name: str, date: datetime) -> int:
+def query_headlines_count(name: str, date: datetime, db: Database) -> int:
     cursor = db.headlines.aggregate(
         [
             {
@@ -173,14 +181,16 @@ def check_index_exists(collection: Collection, index_name: str) -> bool:
     return False
 
 
-def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
+def insert_daily_table(
+    date: datetime, db: Database, autosave: bool = True
+) -> list[DailyRow]:
     out = []
     for n in newspapers:
         out.append(
             DailyRow(
                 name=n.name,
-                scores=query_average_headline_scores(n.name, date),
-                count=query_headlines_count(n.name, date),
+                scores=query_average_headline_scores(n.name, date, db),
+                count=query_headlines_count(n.name, date, db),
                 date=date,
             )
         )
@@ -211,7 +221,7 @@ def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
     return out
 
 
-def query_daily_rows(date: datetime) -> list[DailyRow]:
+def query_daily_rows(date: datetime, db: Database) -> list[DailyRow]:
     table: Collection = db.daily
     cursor = table.find({"date": {"$gte": date, "$lt": date + timedelta(days=1)}})
     return [
@@ -233,18 +243,22 @@ def update_daily_db(
         help="If a `end_date` is provided, "
         "all the dates in [`date`, `end_date`[ will be inserted.",
     ),
+    mongodb_url: str = typer.Option(..., envvar="MONGODB_URL"),
+    database_name: str = typer.Option(..., envvar="DATABASE_NAME"),
     auto_save: bool = False,
 ):
     """
     Queries rows from the `headlines` collection, and stores the averages
     per day per newspaper to the `daily` collection.
     """
+    db = get_database(mongodb_url, database_name)
+
     if end_date is not None:
         date_range = get_date_range(date, end_date)
     else:
         date_range = [date]
     for d in date_range:
-        insert_daily_table(d, auto_save)
+        insert_daily_table(d, db, autosave=auto_save)
 
 
 async def _fetch_single(
@@ -265,6 +279,7 @@ async def _fetch_single(
             f"Failed request to {newspaper.name!r} with error {result.status}: "
             f"{content!r}"
         )
+        raise RuntimeError(f"Failed to fetch {newspaper.name}!")
     else:
         logger.info(f"Fetched {newspaper.name!r}!")
 
@@ -286,7 +301,7 @@ async def _fetch_daily(url: str, auth_bearer: str, endpoint: str):
                 create_task(_fetch_single(request_url, headers, newspaper, session))
             )
 
-        await asyncio.wait(pending)
+        await asyncio.gather(*pending, return_exceptions=False)
 
 
 @app.command()
@@ -345,6 +360,8 @@ def fetch_wayback(
     url: str,
     start_date: datetime,
     end_date: datetime,
+    mongodb_url: str = typer.Option(..., envvar="MONGODB_URL"),
+    database_name: str = typer.Option(..., envvar="DATABASE_NAME"),
     allowed_difference_headlines: float = typer.Option(
         0.4,
         help="Allow for more or less headlines. "
@@ -367,6 +384,8 @@ def fetch_wayback(
     # workaround for to stop logger from interfering with tqdm
     logger.remove()
     logger.add(lambda msg: tqdm.write(msg, end=""), colorize=True)
+
+    db = get_database(mongodb_url, database_name)
 
     date_list = get_date_range(start_date, end_date)
     newspaper = find_newspaper(url)
@@ -448,7 +467,10 @@ def generate_daily_csv(
     start_date: datetime,
     end_date: Optional[datetime] = None,
     out_dir: Path = Path("public") / "daily",
+    mongodb_url: str = typer.Option(..., envvar="MONGODB_URL"),
+    database_name: str = typer.Option(..., envvar="DATABASE_NAME"),
 ):
+    db = get_database(mongodb_url, database_name)
     if end_date is None:
         date_range = [start_date]
     else:
@@ -469,7 +491,7 @@ def generate_daily_csv(
             writer = csv.DictWriter(fd, fieldnames=headers)
             writer.writeheader()
 
-            rows = query_daily_rows(d)
+            rows = query_daily_rows(d, db)
             logger.debug(f"{len(rows)} rows for {d.strftime(date_fmt)}")
             for r in rows:
                 writer.writerow(
@@ -489,6 +511,7 @@ def generate_averages_csv(
     start_date: datetime,
     end_date: datetime,
     filename: Path,
+    db: Database,
 ):
     os.makedirs(filename.parent, exist_ok=True)
 
@@ -497,7 +520,7 @@ def generate_averages_csv(
         writer = csv.DictWriter(fd, fieldnames=headers)
         writer.writeheader()
 
-        rows = get_alltime_rows(start_date, end_date)
+        rows = get_alltime_rows(start_date, end_date, db)
         for r in rows:
             writer.writerow(
                 {
@@ -512,7 +535,13 @@ def generate_averages_csv(
 
 
 @app.command()
-def generate_averages(out_dir: Path = Path("public") / "averages"):
+def generate_averages(
+    out_dir: Path = Path("public") / "averages",
+    mongodb_url: str = typer.Option(..., envvar="MONGODB_URL"),
+    database_name: str = typer.Option(..., envvar="DATABASE_NAME"),
+):
+    db = get_database(mongodb_url, database_name)
+
     filenames = {
         7: "7.csv",
         30: "30.csv",
@@ -530,6 +559,7 @@ def generate_averages(out_dir: Path = Path("public") / "averages"):
                 end_date=today + timedelta(days=1),
                 # query for tomorrow, to make sure today's data is included
                 filename=full_fname,
+                db=db,
             )
         except IndexError:
             logger.warning(

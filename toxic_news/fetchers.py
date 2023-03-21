@@ -287,7 +287,7 @@ class WaybackFetcher(Fetcher):
             self.save()
         logger.debug(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
-    async def run_request_coroutine(self, ignore_raise: bool = False) -> ClientResponse:
+    async def run_request_coroutine(self, ignore_raise: bool = False) -> bytes:
         try:
             self._response, self._content = await self._request_coroutine()
         except RetryError as e:
@@ -302,7 +302,12 @@ class WaybackFetcher(Fetcher):
                 raise e
         if self.cache_dir is not None:
             self.save()
-        return self._response
+        if self._content is None:
+            raise RuntimeError(
+                f"Something failed in the request to {self.newspaper.url}, "
+                f"the fetched content is empty!"
+            )
+        return self._content
 
     async def get_async_content(self) -> bytes:
         if self._content is None:
