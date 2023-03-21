@@ -8,6 +8,7 @@ from typing import Optional
 
 import aiohttp
 import pymongo
+import pymongo.errors
 import typer
 from aiohttp import ClientSession
 from detoxify import Detoxify
@@ -184,8 +185,8 @@ def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
             )
         )
 
-    logger.debug(f"First 5 rows to be inserted:\n\n{out[:5]}")
-    if autosave or typer.confirm("Insert results into table?"):
+    logger.debug(f"First row to be inserted: {out[:1]}")
+    if autosave or typer.confirm(f"Insert {len(out)} results into table?"):
         if len(out) > 0:
             table: Collection = db.daily
             if not check_index_exists(table, "daily-unique-idx"):
@@ -198,7 +199,13 @@ def insert_daily_table(date: datetime, autosave: bool = True) -> list[DailyRow]:
                     name="daily-unique-idx",
                     unique=True,
                 )
-            table.insert_many([r.dict() for r in out], ordered=False)
+            try:
+                table.insert_many([r.dict() for r in out], ordered=False)
+            except pymongo.errors.BulkWriteError as e:
+                # ignore errors with duplicate index, simply don't re-insert those
+                panic_list = [x for x in e.details["writeErrors"] if x["code"] != 11000]
+                if len(panic_list) > 0:
+                    raise e
     else:
         logger.info("Results not inserted")
     return out
@@ -430,13 +437,16 @@ def fetch_wayback(
                     [
                         ("url", pymongo.ASCENDING),
                         ("date", pymongo.DESCENDING),
+                        ("newspaper", pymongo.ASCENDING),
+                        ("text", pymongo.ASCENDING),
                     ],
                     name="headlines-unique-idx",
                     unique=True,
                 )
-            table.insert_many(
+            res = table.insert_many(
                 [h.dict() for day in headlines_to_insert for h in day], ordered=False
             )
+            logger.debug(f"Inserted {len(res.inserted_ids)} records in the collection")
     else:
         logger.info("No results saved to database.")
 

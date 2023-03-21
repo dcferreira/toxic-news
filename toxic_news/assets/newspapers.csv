@@ -6,3 +6,4 @@ The New York Times,en,https://www.nytimes.com/,"//section[contains(@class, 'stor
 New York Post,en,https://nypost.com/,"//h2[contains(@class, 'story__headline')][a]",a,38
 Associated Press,en,https://apnews.com/,"//div[@class='Body']//a/h2 | //article[@class='cards']//h4",ancestor::a,45
 NBC News,en,https://www.nbcnews.com/,"//div[@class='tease-card__info']//*[self::h2 or self::h3]/a | //*[contains(@class, 'styles_headline') and (self::h2 or self::h3)]/a",.,67
+Newsweek,en,https://www.newsweek.com/,"//article//*[self::h1 or self::h3 or self::h4 or self::li]/a | //div[@class='title' or @class='info']/a",.,102

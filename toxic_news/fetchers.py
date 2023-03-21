@@ -30,6 +30,15 @@ from toxic_news import assets
 nest_asyncio.apply()
 
 
+user_agent = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+)
+HEADERS = {
+    "User-Agent": user_agent,
+}
+
+
 class Newspaper(BaseModel):
     name: str
     language: str
@@ -153,7 +162,12 @@ class Fetcher:
 
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
         async with aiohttp.ClientSession() as session:
-            result = await session.get(self.newspaper.url)
+            if self.newspaper.url == "https://newsmax.com":
+                # newsmax requires http/2 when using our header,
+                # but aiohttp doesn't support http/2
+                result = await session.get(self.newspaper.url)
+            else:
+                result = await session.get(self.newspaper.url, headers=HEADERS)
             content = await result.content.read()
             return result, content
 
@@ -262,7 +276,7 @@ class WaybackFetcher(Fetcher):
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
         url = self.get_wayback_url()
         logger.debug(f"Fetching (async) {url!r}...")
-        result = await self.session.get(url)
+        result = await self.session.get(url, headers=HEADERS)
         content = await result.content.read()
         return result, content
 

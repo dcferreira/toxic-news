@@ -1,0 +1,1634 @@
+[
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Ex-Wagner Prisoner Troop\u00a0Reveals Lies Fed to Him About Putin's Invasion",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/ex-wagner-prisoner-reveals-lies-putin-invasion-1789069"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Ukraine Gets Desperately Needed Artillery Boost in War With Russia",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/ukraine-gets-desperately-needed-artillery-boost-war-russia-1789016"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Putin 'Knows He's in the Corner' in Ukraine, Ex-NATO Spy Chief Says",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/vladimir-putin-corner-ukraine-ex-nato-spy-chief-mikk-marran-estonia-1788814"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Putin's 12: The Russian Oligarchs Summoned to Kremlin",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/putins-12-russian-oligarchs-summoned-kremlin-1788899"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Trump Supporters Plan Bank Run to Protest His Arrest",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/trump-supporters-plan-bank-run-protest-his-arrest-1789034"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Video Shows Fighters Use Remote-Controlled 'Kamikaze' Cars on Russian Tanks",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/video-shows-fighters-use-remote-controlled-kamikaze-cars-russian-tanks-1789039"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Putin's Visit to Occupied Ukraine Shows All Is Not Well",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/putin-visit-occupied-ukraine-crimea-mariupol-arrest-warrant-1788976"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "How Russia's Su-35s Compare to U.S. F-16 Jets",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/russia-su35-comparison-f16-jets-ukraine-1788873"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "How Russians Reacted to Warrant for Putin's Arrest",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/how-russians-reacted-putin-icc-arrest-warrant-1788831"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Putin Heckled While Visiting Mariupol: 'It's All for Show'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/putin-heckled-mariupol-visit-kremlin-arrest-warrant-1788891"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Trump Warns DeSantis He Could Be Next to Face 'False Accusations'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/trump-warns-desantis-he-could-next-face-false-accusations-1789052"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Trump Supporters Plan Rally Despite Fears of Protest 'Trap'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/trump-supporters-plan-rally-despite-fears-protest-trap-1789003"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "MAGA Rages Against DeSantis Remarks on Possible Trump Arrest: 'Weasel'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/maga-rages-desantis-remarks-trump-arrest-1789031"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Donald Trump Receives Lifeline as Surprise Witness Called Up at Last Minute",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/donald-trump-surprise-witness-last-minute-robert-costello-1788826"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Donald Trump Demands Alvin Bragg Be Arrested Instead",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/donald-trump-demands-alvin-bragg-arrested-instead-1788786"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Trump's Legal Team Files Flurry of Motions as Potential Indictment Looms",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/trumps-legal-team-files-flurry-motions-potential-indictment-looms-1788981"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Donald Trump's NFT Prices Soar As Indictment Looms",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/donald-trump-nft-prices-soar-indictment-manhattan-district-attorney-1788951"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Ron DeSantis Responds to Rumors About Trump Indictment",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/ron-desantis-responds-rumors-about-trump-indictment-1788978"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Will U.S. Military Recruitment Struggles Cripple Response to Wars?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/will-us-military-recruitment-struggles-cripple-response-wars-1789001"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Warren Buffett Could be Asked to Save the Banks Once More\u00a0",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/warren-buffett-ready-save-us-economy-once-more-1788953"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Jerome Powell on the Horns of Dilemma of the Federal Reserve's Own Making",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/jerome-powell-horns-dilemma-federal-reserves-own-making-1788724"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "How the U.S. Invasion of Iraq Is Still Ruining the World 20 Years Later",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/how-us-invasion-iraq-still-ruining-world-20-years-later-1788598"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Iraq Veterans: 20 Years On",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/iraq-war-veterans-20-years-anniversary-1788740"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "As Xi Summits With Putin, Is Biden Losing Ground to China?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/xi-summits-putin-biden-losing-ground-china-1789062"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "China Says Putin Has 'Immunity' From War Crimes Prosecution",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/china-russia-vladimir-putin-icc-war-crimes-ukraine-1788911"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Putin Says Russia-China Relationship 'Without Limitations'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/russia-china-vladimir-putin-xi-jinping-state-visit-1788810"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Did Putin Snub Xi? What to Know About Airport Greeting",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/did-putin-snub-xi-what-know-about-airport-greeting-1789049"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "'I'm a Diabetic Nurse. The Price of Insulin Is Killing People'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/insulin-diabetes-nurse-health-care-1788325"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "'I Was Asked to Define Woke. My Humiliation Went Viral'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/define-woke-bethany-mandel-conservative-book-1788538"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "'I Hated Myself as a Teen Girl. A Diagnosis Helped Me Understand Why'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/teen-girl-mental-health-depression-carrie-berk-1787445"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Suicide Rates Start Spiking in Spring, This is Why and How to Get Help",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/suicide-holiday-spring-myth-mental-health-1764615"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Man Transforms Shed off Craigslist Into Tiny Home He Rents for $74 a Night",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/man-transforms-craigslist-shed-rental-tiny-home-1788102"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "I Don't Want My Sister-in-Law To Get Her Share of $1.5M\u2014What Should I Do?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/wsid-inheritance-sister-law-money-finances-family-death-1787012"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Brittany Mahomes Discusses Her 'Flaws' in Cryptic Post",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/brittany-mahomes-discusses-her-flaws-cryptic-post-1788920"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Marjorie Taylor Greene Slams Her Own Party as Potential Trump Arrest Looms",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/marjorie-taylor-greene-slams-her-own-party-potential-trump-arrest-looms-1788879"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Rosie O'Donnell Shuts Down Claim Madonna Is 'Troubled'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/rosie-odonnell-shuts-down-claim-madonna-troubled-tiktok-1788917"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Prince William Accused of 'Performative PR' on Racism After Meghan Silence",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/prince-william-accused-performative-pr-racism-meghan-markle-silence-1788846"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Donald Trump Indictment Will End 'Civilization,' Rudy Giuliani Says",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/donald-trump-indictment-end-civilization-rudy-giuliani-new-york-1788905"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "California's Unprecedented Snowfall Seen From Space: 'Absurd'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/california-flooding-snow-pictures-space-nasa-1788991"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Pictures of Vladimir Putin's Chin Spark Conspiracy Theories",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/russia-ukraine-putin-fake-chin-double-conspiracy-1788946"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Biden Calls Out Marjorie Taylor Greene After First Veto",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/biden-marjorie-taylor-greene-veto-twitter-1789027"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Murdaugh Family's Personal Items Set To Go Up for Auction: 'Negative Vibes'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/alex-murdaugh-family-personal-items-auction-home-south-carolina-1788969"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Kellyanne Conway's Daughter, Husband Roast Trump Over Looming Indictment",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/kellyanne-conway-daughter-husband-roast-donald-trump-over-looming-indictment-1788988"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "U.S. Shouldn't Enforce Putin's Arrest Warrant, John Bolton Says",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/vladimir-putin-arrest-warrant-icc-john-bolton-1788923"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Did Putin snub Xi? What to know about airport greeting",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/did-putin-snub-xi-what-know-about-airport-greeting-1789049"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Video shows fighters use remote-controlled \"kamikaze\" cars on Russian tanks",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/video-shows-fighters-use-remote-controlled-kamikaze-cars-russian-tanks-1789039"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Legal analyst pours cold water on Trump's 'most important' witness",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/legal-analyst-pours-cold-water-trumps-most-important-witness-1789046"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Trump supporters plan bank run to protest his arrest",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/trump-supporters-plan-bank-run-protest-his-arrest-1789034"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Videos show California releasing water from reservoirs after massive storms",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/videos-show-california-releasing-water-reservoirs-after-massive-storms-1789024"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Ukraine gets desperately needed artillery boost in war with Russia",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/ukraine-gets-desperately-needed-artillery-boost-war-russia-1789016"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "MAGA rages against DeSantis remarks on possible Trump arrest: 'Weasel'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/maga-rages-desantis-remarks-trump-arrest-1789031"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "See first baby shark of hundreds released in bid to save endangered species",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/zebra-shark-baby-hundreds-released-bid-save-endangered-species-1789021"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Jury Unanimity Is Unnecessary for Death Penalty | Opinion",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/jury-unanimity-unnecessary-death-penalty-opinion-1789029"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "States Shouldn't Kill People, Even With Jury Unanimity | Opinion",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/states-shouldnt-kill-people-even-jury-unanimity-opinion-1789051"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Trump Is Way Ahead With Republican Voters of Color. Challengers: Take Note",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/trump-way-ahead-republican-voters-color-heres-why-opinion-1789037"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Mr. President: You Called Family Detention Inhumane. You Were Right",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/mr-president-you-called-family-detention-inhumane-you-were-right-dont-flip-flop-opinion-1789043"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "I Teach James Baldwin\u2014Nervously, Now",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/i-teach-james-baldwinnervously-now-opinion-1787811"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "The Global War Over AI Already Started",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/global-war-over-ai-already-started-opinion-1788079"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "The Iraq War Began 20 Years Ago, but Its Impact Will Last Decades To Come",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/iraq-war-began-20-years-ago-its-impact-will-last-decades-come-opinion-1788515"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "China Is Pushing the U.S. Out of the Middle East",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/china-pushing-us-out-middle-east-opinion-1788627"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "China Is Preparing To Challenge the U.S. Over Taiwan",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/china-preparing-challenge-us-over-taiwan-opinion-1788349"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Protecting America's Medical Supplies is a Bipartisan Priority",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/protecting-americas-medical-supplies-bipartisan-national-security-priority-opinion-1788657"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Netanyahu Is Leading Israel to Civil War",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/netanyahu-leading-israel-civil-war-opinion-1788502"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "You Have the Right to an Attorney, but How Long Until You Get One?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/you-have-right-attorney-how-long-until-you-get-one-opinion-1788640"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Antonin Scalia: The Origins of a Supreme Court Originalist",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/antonin-scalia-origins-supreme-court-originalist-1789071"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "These Seven States Are Sleepwalking Into a Maternal Mortality Crisis",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/seven-states-sleepwalking-maternal-mortality-crisis-medicaid-abortion-1788685"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Miami Beach Videos Show Spring Break Chaos Amid Shootings",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/miami-beach-videos-show-spring-break-chaos-shootings-1788807"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "House Republicans are 'accessories' to Trump's crimes: Kirschner",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/house-republicans-accessories-trump-crimes-1789006"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Trump supporters plan rally despite fears of protest \"trap\"",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/trump-supporters-plan-rally-despite-fears-protest-trap-1789003"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Trump's legal team files flurry of motions as potential indictment looms",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/trumps-legal-team-files-flurry-motions-potential-indictment-looms-1788981"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Ron DeSantis responds to rumors about Trump indictment",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/ron-desantis-responds-rumors-about-trump-indictment-1788978"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Full list of documents House GOP chairs want from Manhattan DA",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/full-list-documents-house-gop-chairs-want-manhattan-da-1788987"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Putin's visit to occupied Ukraine shows all is not well",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/putin-visit-occupied-ukraine-crimea-mariupol-arrest-warrant-1788976"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Ben & Jerry's faces boycott calls over founder's stance on Ukraine weapons",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/ben-jerrys-faces-boycott-calls-over-founders-stance-ukraine-weapons-1788962"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Russia gains ground in \"defendable key terrain\" south of Bakhmut: U.K.",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/russia-gains-ground-defendable-key-terrain-south-bakhmut-1788971"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "China says Putin has \"immunity\" from war crimes prosecution",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/china-russia-vladimir-putin-icc-war-crimes-ukraine-1788911"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Putin's 12: Who are the Russian oligarchs summoned to the Kremlin?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/putins-12-russian-oligarchs-summoned-kremlin-1788899"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Signature Bank taken over by Michigan-based Flagstar Bank after failure",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/failed-signature-bank-taken-over-michigan-based-flagstar-bank-1788782"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "SVB collapse rocks California housing market as house prices to bottom out",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/svb-collapse-rocks-california-housing-market-house-prices-bottom-out-1788517"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Pips Bunce, Credit Suisse executive, attacked over \"gender fluid\" identity",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/pips-bunce-credit-suisse-executive-gender-fluid-identity-bank-1788557"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Credit Suisse is \"tip of the iceberg\"",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/credit-suisse-tip-iceberg-1788042"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Credit Suisse shares sink triggering fresh crisis fears",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/credit-suisse-shares-sink-fresh-crisis-fears-1787918"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "\"Beautiful\" new fish species with yellow head discovered",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/beautiful-new-fish-species-yellow-head-discovered-1788995"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Stunning animal X-rays show unique perspective of endangered wildlife",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/animal-xray-unique-perspective-endangered-wildlife-1788932"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Watch live as 200-ft. asteroid zooms past Earth at 17K mph in \"close\" flyby",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/asteroid-200-foot-long-fly-past-earth-half-distance-moon-watch-live-1788914"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Meet the new giant spider species described as \"rare and secretive\"",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/new-giant-spider-species-discovered-rare-secretive-1788861"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Drought-stricken California lake set to overspill after heavy rain",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/drought-stricken-california-lake-overspill-heavy-rain-1788868"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Is 'Six of Crows' happening? 'Shadow and Bone' cast on hopes for spinoff",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/six-crows-shadow-bone-standalone-series-freddy-carter-amita-suman-danielle-galligan-1788870"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Meghan Markle's \"sweet\" royal tour moment caught on camera",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/meghan-markle-sweet-royal-tour-moment-caught-camera-video-tiktok-1788784"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "\"Shadow and Bone\" boss teases \"Six of Crows\" spin-off and Season 3 villain",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/shadow-bone-six-crows-spin-off-season-3-villain-plans-eric-heisserer-1787601"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "What Brian Cox of \"Succession\" said about Meghan Markle and the royals",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/succession-brian-cox-said-meghan-markle-prince-harry-logan-roy-1788112"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Charlie Sheen's daughter resurfaces interview about his drug addiction",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/charlie-sheen-daughter-sami-sheen-interview-drug-addiction-1788558"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Shaquille O'Neal sparks concern with fans after hospital picture",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/shaquille-oneal-sparks-concern-after-hospital-picture-nba-1789011"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Tobin Anderson's \"emotional\" speech goes viral after Cinderella run ends",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/tobin-anderson-emotional-speech-goes-viral-cinderella-run-ends-1788860"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Alijah Martin's showboating sparks anger: \"Pathetic and embarrassing\"",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/alijah-martin-showboating-sparks-anger-pathetic-embarrassing-1788878"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "What is March Mammal Madness and how are the fights decided?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/what-march-mammal-madness-how-fights-decided-1788621"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "'Wheel of Fortune' posts cheeky comment after March Madness interrupts show",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/wheel-fortune-posts-cheeky-comment-march-madness-interrupts-show-1788535"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "How To Ensure Your Business Wins, No Matter What 2023 Throws at It",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/how-ensure-your-business-wins-no-matter-what-2023-throws-it-1788628"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Don't Get Lost in the Data: The Humanity of Business Development",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/dont-get-lost-data-humanity-business-development-1788624"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Hourly Workers Left the Service Industry \u2014 What's Next?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/hourly-workers-left-service-industry-whats-next-1788615"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Five Things Employers Can Do To Attract and Retain Top Talent",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/five-things-employers-can-do-attract-retain-top-talent-1788611"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Quiet Quitting, Rage Applying, Resenteeism: What Is a Disgruntled Employee",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.newsweek.com/quiet-quitting-rage-applying-resenteeism-what-disgruntled-employee-do-1788606"
+  }
+]

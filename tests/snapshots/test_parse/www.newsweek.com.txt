@@ -1,0 +1,410 @@
+[
+  [
+    "Ex-Wagner Prisoner Troop\u00a0Reveals Lies Fed to Him About Putin's Invasion",
+    "https://www.newsweek.com/ex-wagner-prisoner-reveals-lies-putin-invasion-1789069"
+  ],
+  [
+    "Ukraine Gets Desperately Needed Artillery Boost in War With Russia",
+    "https://www.newsweek.com/ukraine-gets-desperately-needed-artillery-boost-war-russia-1789016"
+  ],
+  [
+    "Putin 'Knows He's in the Corner' in Ukraine, Ex-NATO Spy Chief Says",
+    "https://www.newsweek.com/vladimir-putin-corner-ukraine-ex-nato-spy-chief-mikk-marran-estonia-1788814"
+  ],
+  [
+    "Putin's 12: The Russian Oligarchs Summoned to Kremlin",
+    "https://www.newsweek.com/putins-12-russian-oligarchs-summoned-kremlin-1788899"
+  ],
+  [
+    "Trump Supporters Plan Bank Run to Protest His Arrest",
+    "https://www.newsweek.com/trump-supporters-plan-bank-run-protest-his-arrest-1789034"
+  ],
+  [
+    "Video Shows Fighters Use Remote-Controlled 'Kamikaze' Cars on Russian Tanks",
+    "https://www.newsweek.com/video-shows-fighters-use-remote-controlled-kamikaze-cars-russian-tanks-1789039"
+  ],
+  [
+    "Putin's Visit to Occupied Ukraine Shows All Is Not Well",
+    "https://www.newsweek.com/putin-visit-occupied-ukraine-crimea-mariupol-arrest-warrant-1788976"
+  ],
+  [
+    "How Russia's Su-35s Compare to U.S. F-16 Jets",
+    "https://www.newsweek.com/russia-su35-comparison-f16-jets-ukraine-1788873"
+  ],
+  [
+    "How Russians Reacted to Warrant for Putin's Arrest",
+    "https://www.newsweek.com/how-russians-reacted-putin-icc-arrest-warrant-1788831"
+  ],
+  [
+    "Putin Heckled While Visiting Mariupol: 'It's All for Show'",
+    "https://www.newsweek.com/putin-heckled-mariupol-visit-kremlin-arrest-warrant-1788891"
+  ],
+  [
+    "Trump Warns DeSantis He Could Be Next to Face 'False Accusations'",
+    "https://www.newsweek.com/trump-warns-desantis-he-could-next-face-false-accusations-1789052"
+  ],
+  [
+    "Trump Supporters Plan Rally Despite Fears of Protest 'Trap'",
+    "https://www.newsweek.com/trump-supporters-plan-rally-despite-fears-protest-trap-1789003"
+  ],
+  [
+    "MAGA Rages Against DeSantis Remarks on Possible Trump Arrest: 'Weasel'",
+    "https://www.newsweek.com/maga-rages-desantis-remarks-trump-arrest-1789031"
+  ],
+  [
+    "Donald Trump Receives Lifeline as Surprise Witness Called Up at Last Minute",
+    "https://www.newsweek.com/donald-trump-surprise-witness-last-minute-robert-costello-1788826"
+  ],
+  [
+    "Donald Trump Demands Alvin Bragg Be Arrested Instead",
+    "https://www.newsweek.com/donald-trump-demands-alvin-bragg-arrested-instead-1788786"
+  ],
+  [
+    "Trump's Legal Team Files Flurry of Motions as Potential Indictment Looms",
+    "https://www.newsweek.com/trumps-legal-team-files-flurry-motions-potential-indictment-looms-1788981"
+  ],
+  [
+    "Donald Trump's NFT Prices Soar As Indictment Looms",
+    "https://www.newsweek.com/donald-trump-nft-prices-soar-indictment-manhattan-district-attorney-1788951"
+  ],
+  [
+    "Ron DeSantis Responds to Rumors About Trump Indictment",
+    "https://www.newsweek.com/ron-desantis-responds-rumors-about-trump-indictment-1788978"
+  ],
+  [
+    "Will U.S. Military Recruitment Struggles Cripple Response to Wars?",
+    "https://www.newsweek.com/will-us-military-recruitment-struggles-cripple-response-wars-1789001"
+  ],
+  [
+    "Warren Buffett Could be Asked to Save the Banks Once More\u00a0",
+    "https://www.newsweek.com/warren-buffett-ready-save-us-economy-once-more-1788953"
+  ],
+  [
+    "Jerome Powell on the Horns of Dilemma of the Federal Reserve's Own Making",
+    "https://www.newsweek.com/jerome-powell-horns-dilemma-federal-reserves-own-making-1788724"
+  ],
+  [
+    "How the U.S. Invasion of Iraq Is Still Ruining the World 20 Years Later",
+    "https://www.newsweek.com/how-us-invasion-iraq-still-ruining-world-20-years-later-1788598"
+  ],
+  [
+    "Iraq Veterans: 20 Years On",
+    "https://www.newsweek.com/iraq-war-veterans-20-years-anniversary-1788740"
+  ],
+  [
+    "As Xi Summits With Putin, Is Biden Losing Ground to China?",
+    "https://www.newsweek.com/xi-summits-putin-biden-losing-ground-china-1789062"
+  ],
+  [
+    "China Says Putin Has 'Immunity' From War Crimes Prosecution",
+    "https://www.newsweek.com/china-russia-vladimir-putin-icc-war-crimes-ukraine-1788911"
+  ],
+  [
+    "Putin Says Russia-China Relationship 'Without Limitations'",
+    "https://www.newsweek.com/russia-china-vladimir-putin-xi-jinping-state-visit-1788810"
+  ],
+  [
+    "Did Putin Snub Xi? What to Know About Airport Greeting",
+    "https://www.newsweek.com/did-putin-snub-xi-what-know-about-airport-greeting-1789049"
+  ],
+  [
+    "'I'm a Diabetic Nurse. The Price of Insulin Is Killing People'",
+    "https://www.newsweek.com/insulin-diabetes-nurse-health-care-1788325"
+  ],
+  [
+    "'I Was Asked to Define Woke. My Humiliation Went Viral'",
+    "https://www.newsweek.com/define-woke-bethany-mandel-conservative-book-1788538"
+  ],
+  [
+    "'I Hated Myself as a Teen Girl. A Diagnosis Helped Me Understand Why'",
+    "https://www.newsweek.com/teen-girl-mental-health-depression-carrie-berk-1787445"
+  ],
+  [
+    "Suicide Rates Start Spiking in Spring, This is Why and How to Get Help",
+    "https://www.newsweek.com/suicide-holiday-spring-myth-mental-health-1764615"
+  ],
+  [
+    "Man Transforms Shed off Craigslist Into Tiny Home He Rents for $74 a Night",
+    "https://www.newsweek.com/man-transforms-craigslist-shed-rental-tiny-home-1788102"
+  ],
+  [
+    "I Don't Want My Sister-in-Law To Get Her Share of $1.5M\u2014What Should I Do?",
+    "https://www.newsweek.com/wsid-inheritance-sister-law-money-finances-family-death-1787012"
+  ],
+  [
+    "Brittany Mahomes Discusses Her 'Flaws' in Cryptic Post",
+    "https://www.newsweek.com/brittany-mahomes-discusses-her-flaws-cryptic-post-1788920"
+  ],
+  [
+    "Marjorie Taylor Greene Slams Her Own Party as Potential Trump Arrest Looms",
+    "https://www.newsweek.com/marjorie-taylor-greene-slams-her-own-party-potential-trump-arrest-looms-1788879"
+  ],
+  [
+    "Rosie O'Donnell Shuts Down Claim Madonna Is 'Troubled'",
+    "https://www.newsweek.com/rosie-odonnell-shuts-down-claim-madonna-troubled-tiktok-1788917"
+  ],
+  [
+    "Prince William Accused of 'Performative PR' on Racism After Meghan Silence",
+    "https://www.newsweek.com/prince-william-accused-performative-pr-racism-meghan-markle-silence-1788846"
+  ],
+  [
+    "Donald Trump Indictment Will End 'Civilization,' Rudy Giuliani Says",
+    "https://www.newsweek.com/donald-trump-indictment-end-civilization-rudy-giuliani-new-york-1788905"
+  ],
+  [
+    "California's Unprecedented Snowfall Seen From Space: 'Absurd'",
+    "https://www.newsweek.com/california-flooding-snow-pictures-space-nasa-1788991"
+  ],
+  [
+    "Pictures of Vladimir Putin's Chin Spark Conspiracy Theories",
+    "https://www.newsweek.com/russia-ukraine-putin-fake-chin-double-conspiracy-1788946"
+  ],
+  [
+    "Biden Calls Out Marjorie Taylor Greene After First Veto",
+    "https://www.newsweek.com/biden-marjorie-taylor-greene-veto-twitter-1789027"
+  ],
+  [
+    "Murdaugh Family's Personal Items Set To Go Up for Auction: 'Negative Vibes'",
+    "https://www.newsweek.com/alex-murdaugh-family-personal-items-auction-home-south-carolina-1788969"
+  ],
+  [
+    "Kellyanne Conway's Daughter, Husband Roast Trump Over Looming Indictment",
+    "https://www.newsweek.com/kellyanne-conway-daughter-husband-roast-donald-trump-over-looming-indictment-1788988"
+  ],
+  [
+    "U.S. Shouldn't Enforce Putin's Arrest Warrant, John Bolton Says",
+    "https://www.newsweek.com/vladimir-putin-arrest-warrant-icc-john-bolton-1788923"
+  ],
+  [
+    "Did Putin snub Xi? What to know about airport greeting",
+    "https://www.newsweek.com/did-putin-snub-xi-what-know-about-airport-greeting-1789049"
+  ],
+  [
+    "Video shows fighters use remote-controlled \"kamikaze\" cars on Russian tanks",
+    "https://www.newsweek.com/video-shows-fighters-use-remote-controlled-kamikaze-cars-russian-tanks-1789039"
+  ],
+  [
+    "Legal analyst pours cold water on Trump's 'most important' witness",
+    "https://www.newsweek.com/legal-analyst-pours-cold-water-trumps-most-important-witness-1789046"
+  ],
+  [
+    "Trump supporters plan bank run to protest his arrest",
+    "https://www.newsweek.com/trump-supporters-plan-bank-run-protest-his-arrest-1789034"
+  ],
+  [
+    "Videos show California releasing water from reservoirs after massive storms",
+    "https://www.newsweek.com/videos-show-california-releasing-water-reservoirs-after-massive-storms-1789024"
+  ],
+  [
+    "Ukraine gets desperately needed artillery boost in war with Russia",
+    "https://www.newsweek.com/ukraine-gets-desperately-needed-artillery-boost-war-russia-1789016"
+  ],
+  [
+    "MAGA rages against DeSantis remarks on possible Trump arrest: 'Weasel'",
+    "https://www.newsweek.com/maga-rages-desantis-remarks-trump-arrest-1789031"
+  ],
+  [
+    "See first baby shark of hundreds released in bid to save endangered species",
+    "https://www.newsweek.com/zebra-shark-baby-hundreds-released-bid-save-endangered-species-1789021"
+  ],
+  [
+    "Jury Unanimity Is Unnecessary for Death Penalty | Opinion",
+    "https://www.newsweek.com/jury-unanimity-unnecessary-death-penalty-opinion-1789029"
+  ],
+  [
+    "States Shouldn't Kill People, Even With Jury Unanimity | Opinion",
+    "https://www.newsweek.com/states-shouldnt-kill-people-even-jury-unanimity-opinion-1789051"
+  ],
+  [
+    "Trump Is Way Ahead With Republican Voters of Color. Challengers: Take Note",
+    "https://www.newsweek.com/trump-way-ahead-republican-voters-color-heres-why-opinion-1789037"
+  ],
+  [
+    "Mr. President: You Called Family Detention Inhumane. You Were Right",
+    "https://www.newsweek.com/mr-president-you-called-family-detention-inhumane-you-were-right-dont-flip-flop-opinion-1789043"
+  ],
+  [
+    "I Teach James Baldwin\u2014Nervously, Now",
+    "https://www.newsweek.com/i-teach-james-baldwinnervously-now-opinion-1787811"
+  ],
+  [
+    "The Global War Over AI Already Started",
+    "https://www.newsweek.com/global-war-over-ai-already-started-opinion-1788079"
+  ],
+  [
+    "The Iraq War Began 20 Years Ago, but Its Impact Will Last Decades To Come",
+    "https://www.newsweek.com/iraq-war-began-20-years-ago-its-impact-will-last-decades-come-opinion-1788515"
+  ],
+  [
+    "China Is Pushing the U.S. Out of the Middle East",
+    "https://www.newsweek.com/china-pushing-us-out-middle-east-opinion-1788627"
+  ],
+  [
+    "China Is Preparing To Challenge the U.S. Over Taiwan",
+    "https://www.newsweek.com/china-preparing-challenge-us-over-taiwan-opinion-1788349"
+  ],
+  [
+    "Protecting America's Medical Supplies is a Bipartisan Priority",
+    "https://www.newsweek.com/protecting-americas-medical-supplies-bipartisan-national-security-priority-opinion-1788657"
+  ],
+  [
+    "Netanyahu Is Leading Israel to Civil War",
+    "https://www.newsweek.com/netanyahu-leading-israel-civil-war-opinion-1788502"
+  ],
+  [
+    "You Have the Right to an Attorney, but How Long Until You Get One?",
+    "https://www.newsweek.com/you-have-right-attorney-how-long-until-you-get-one-opinion-1788640"
+  ],
+  [
+    "Antonin Scalia: The Origins of a Supreme Court Originalist",
+    "https://www.newsweek.com/antonin-scalia-origins-supreme-court-originalist-1789071"
+  ],
+  [
+    "These Seven States Are Sleepwalking Into a Maternal Mortality Crisis",
+    "https://www.newsweek.com/seven-states-sleepwalking-maternal-mortality-crisis-medicaid-abortion-1788685"
+  ],
+  [
+    "Miami Beach Videos Show Spring Break Chaos Amid Shootings",
+    "https://www.newsweek.com/miami-beach-videos-show-spring-break-chaos-shootings-1788807"
+  ],
+  [
+    "House Republicans are 'accessories' to Trump's crimes: Kirschner",
+    "https://www.newsweek.com/house-republicans-accessories-trump-crimes-1789006"
+  ],
+  [
+    "Trump supporters plan rally despite fears of protest \"trap\"",
+    "https://www.newsweek.com/trump-supporters-plan-rally-despite-fears-protest-trap-1789003"
+  ],
+  [
+    "Trump's legal team files flurry of motions as potential indictment looms",
+    "https://www.newsweek.com/trumps-legal-team-files-flurry-motions-potential-indictment-looms-1788981"
+  ],
+  [
+    "Ron DeSantis responds to rumors about Trump indictment",
+    "https://www.newsweek.com/ron-desantis-responds-rumors-about-trump-indictment-1788978"
+  ],
+  [
+    "Full list of documents House GOP chairs want from Manhattan DA",
+    "https://www.newsweek.com/full-list-documents-house-gop-chairs-want-manhattan-da-1788987"
+  ],
+  [
+    "Putin's visit to occupied Ukraine shows all is not well",
+    "https://www.newsweek.com/putin-visit-occupied-ukraine-crimea-mariupol-arrest-warrant-1788976"
+  ],
+  [
+    "Ben & Jerry's faces boycott calls over founder's stance on Ukraine weapons",
+    "https://www.newsweek.com/ben-jerrys-faces-boycott-calls-over-founders-stance-ukraine-weapons-1788962"
+  ],
+  [
+    "Russia gains ground in \"defendable key terrain\" south of Bakhmut: U.K.",
+    "https://www.newsweek.com/russia-gains-ground-defendable-key-terrain-south-bakhmut-1788971"
+  ],
+  [
+    "China says Putin has \"immunity\" from war crimes prosecution",
+    "https://www.newsweek.com/china-russia-vladimir-putin-icc-war-crimes-ukraine-1788911"
+  ],
+  [
+    "Putin's 12: Who are the Russian oligarchs summoned to the Kremlin?",
+    "https://www.newsweek.com/putins-12-russian-oligarchs-summoned-kremlin-1788899"
+  ],
+  [
+    "Signature Bank taken over by Michigan-based Flagstar Bank after failure",
+    "https://www.newsweek.com/failed-signature-bank-taken-over-michigan-based-flagstar-bank-1788782"
+  ],
+  [
+    "SVB collapse rocks California housing market as house prices to bottom out",
+    "https://www.newsweek.com/svb-collapse-rocks-california-housing-market-house-prices-bottom-out-1788517"
+  ],
+  [
+    "Pips Bunce, Credit Suisse executive, attacked over \"gender fluid\" identity",
+    "https://www.newsweek.com/pips-bunce-credit-suisse-executive-gender-fluid-identity-bank-1788557"
+  ],
+  [
+    "Credit Suisse is \"tip of the iceberg\"",
+    "https://www.newsweek.com/credit-suisse-tip-iceberg-1788042"
+  ],
+  [
+    "Credit Suisse shares sink triggering fresh crisis fears",
+    "https://www.newsweek.com/credit-suisse-shares-sink-fresh-crisis-fears-1787918"
+  ],
+  [
+    "\"Beautiful\" new fish species with yellow head discovered",
+    "https://www.newsweek.com/beautiful-new-fish-species-yellow-head-discovered-1788995"
+  ],
+  [
+    "Stunning animal X-rays show unique perspective of endangered wildlife",
+    "https://www.newsweek.com/animal-xray-unique-perspective-endangered-wildlife-1788932"
+  ],
+  [
+    "Watch live as 200-ft. asteroid zooms past Earth at 17K mph in \"close\" flyby",
+    "https://www.newsweek.com/asteroid-200-foot-long-fly-past-earth-half-distance-moon-watch-live-1788914"
+  ],
+  [
+    "Meet the new giant spider species described as \"rare and secretive\"",
+    "https://www.newsweek.com/new-giant-spider-species-discovered-rare-secretive-1788861"
+  ],
+  [
+    "Drought-stricken California lake set to overspill after heavy rain",
+    "https://www.newsweek.com/drought-stricken-california-lake-overspill-heavy-rain-1788868"
+  ],
+  [
+    "Is 'Six of Crows' happening? 'Shadow and Bone' cast on hopes for spinoff",
+    "https://www.newsweek.com/six-crows-shadow-bone-standalone-series-freddy-carter-amita-suman-danielle-galligan-1788870"
+  ],
+  [
+    "Meghan Markle's \"sweet\" royal tour moment caught on camera",
+    "https://www.newsweek.com/meghan-markle-sweet-royal-tour-moment-caught-camera-video-tiktok-1788784"
+  ],
+  [
+    "\"Shadow and Bone\" boss teases \"Six of Crows\" spin-off and Season 3 villain",
+    "https://www.newsweek.com/shadow-bone-six-crows-spin-off-season-3-villain-plans-eric-heisserer-1787601"
+  ],
+  [
+    "What Brian Cox of \"Succession\" said about Meghan Markle and the royals",
+    "https://www.newsweek.com/succession-brian-cox-said-meghan-markle-prince-harry-logan-roy-1788112"
+  ],
+  [
+    "Charlie Sheen's daughter resurfaces interview about his drug addiction",
+    "https://www.newsweek.com/charlie-sheen-daughter-sami-sheen-interview-drug-addiction-1788558"
+  ],
+  [
+    "Shaquille O'Neal sparks concern with fans after hospital picture",
+    "https://www.newsweek.com/shaquille-oneal-sparks-concern-after-hospital-picture-nba-1789011"
+  ],
+  [
+    "Tobin Anderson's \"emotional\" speech goes viral after Cinderella run ends",
+    "https://www.newsweek.com/tobin-anderson-emotional-speech-goes-viral-cinderella-run-ends-1788860"
+  ],
+  [
+    "Alijah Martin's showboating sparks anger: \"Pathetic and embarrassing\"",
+    "https://www.newsweek.com/alijah-martin-showboating-sparks-anger-pathetic-embarrassing-1788878"
+  ],
+  [
+    "What is March Mammal Madness and how are the fights decided?",
+    "https://www.newsweek.com/what-march-mammal-madness-how-fights-decided-1788621"
+  ],
+  [
+    "'Wheel of Fortune' posts cheeky comment after March Madness interrupts show",
+    "https://www.newsweek.com/wheel-fortune-posts-cheeky-comment-march-madness-interrupts-show-1788535"
+  ],
+  [
+    "How To Ensure Your Business Wins, No Matter What 2023 Throws at It",
+    "https://www.newsweek.com/how-ensure-your-business-wins-no-matter-what-2023-throws-it-1788628"
+  ],
+  [
+    "Don't Get Lost in the Data: The Humanity of Business Development",
+    "https://www.newsweek.com/dont-get-lost-data-humanity-business-development-1788624"
+  ],
+  [
+    "Hourly Workers Left the Service Industry \u2014 What's Next?",
+    "https://www.newsweek.com/hourly-workers-left-service-industry-whats-next-1788615"
+  ],
+  [
+    "Five Things Employers Can Do To Attract and Retain Top Talent",
+    "https://www.newsweek.com/five-things-employers-can-do-attract-retain-top-talent-1788611"
+  ],
+  [
+    "Quiet Quitting, Rage Applying, Resenteeism: What Is a Disgruntled Employee",
+    "https://www.newsweek.com/quiet-quitting-rage-applying-resenteeism-what-disgruntled-employee-do-1788606"
+  ]
+]
