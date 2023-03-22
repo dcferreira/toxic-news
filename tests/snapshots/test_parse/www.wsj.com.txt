@@ -1,0 +1,266 @@
+[
+  [
+    "Markets Quiet Ahead of Federal Reserve Rate Decision",
+    "https://www.wsj.com/livecoverage/federal-reserve-meeting-interest-rate-march-2023"
+  ],
+  [
+    "Trump Grand Jury to Reconvene as Potential Indictment Looms",
+    "https://www.wsj.com/articles/donald-trump-grand-jury-to-reconvene-as-potential-indictment-looms-629d1773?mod=hp_lead_pos1"
+  ],
+  [
+    "Apple, Microsoft Dominate U.S. Markets After FAANG Trade Fizzles",
+    "https://www.wsj.com/articles/apple-microsoft-dominate-u-s-markets-after-faang-trade-fizzles-d6f10309?mod=hp_lead_pos2"
+  ],
+  [
+    "Insurer Chubb Demands Energy Producers Cut Methane Emissions for Coverage",
+    "https://www.wsj.com/articles/insurer-chubb-demands-energy-producers-cut-methane-emissions-for-coverage-52251222?mod=hp_lead_pos3"
+  ],
+  [
+    "Moderna to Price Its Covid-19 Vaccine at $130 a Dose",
+    "https://www.wsj.com/articles/moderna-to-price-its-covid-19-vaccine-at-130-a-dose-d7f4a956?mod=hp_lead_pos4"
+  ],
+  [
+    "Home Prices Post First Drop in Over a Decade",
+    "https://www.wsj.com/articles/home-prices-fell-in-february-for-first-time-in-11-years-73df0107?mod=hp_lead_pos5"
+  ],
+  [
+    "Who Is Shou Zi Chew, the TikTok CEO Trying to Reassure America?",
+    "https://www.wsj.com/articles/tiktok-ceo-shou-zi-chew-congress-8ed38010?mod=hp_lead_pos6"
+  ],
+  [
+    "Russia-Ukraine War Threatens to Trigger New Nuclear Arms Race",
+    "https://www.wsj.com/articles/ukraine-war-threatens-to-trigger-new-nuclear-arms-race-8e630514?mod=hp_lead_pos7"
+  ],
+  [
+    "Work Travel Is Suddenly a Lot More Work",
+    "https://www.wsj.com/articles/airfare-prices-business-travel-flights-38cc33c9?mod=hp_lead_pos10"
+  ],
+  [
+    "The Unraveling of the U.S. News College Rankings",
+    "https://www.wsj.com/articles/u-s-news-college-rankings-yale-law-fe24f0b2?mod=hp_lead_pos11"
+  ],
+  [
+    "Taylor Swift Fans Prepare for Marathon-Length Shows",
+    "https://www.wsj.com/articles/taylor-swift-fans-prepare-wardrobe-hydration-strategies-for-marathon-length-shows-2123930c?mod=hp_lead_pos12"
+  ],
+  [
+    "The World Baseball Classic Gets Its Fantasy Finale: Ohtani vs. Trout",
+    "https://www.wsj.com/articles/ohtani-trout-japan-usa-world-baseball-classic-a84f6656?mod=hp_featst_pos3"
+  ],
+  [
+    "China Has a New Vision for Itself: Global Power",
+    "https://www.wsj.com/articles/china-has-a-new-vision-for-itself-global-power-da8dc559?mod=hp_featst_pos4"
+  ],
+  [
+    "It\u2019s More Than a Fluffy Headband. On TikTok, It\u2019s a Status Symbol.",
+    "https://www.wsj.com/articles/tiktok-headband-versed-1d6484e5?mod=hp_featst_pos5"
+  ],
+  [
+    "Kansas Hunts for Water as Aquifer Levels Fall",
+    "https://www.wsj.com/articles/kansas-hunts-for-water-as-aquifer-levels-fall-41d10313?mod=hp_lista_pos1"
+  ],
+  [
+    "\u2018Greenwashing\u2019 Targeted in Latest European Regulatory Push",
+    "https://www.wsj.com/articles/greenwashing-targeted-in-latest-european-regulatory-push-13fbac3?mod=hp_lista_pos2"
+  ],
+  [
+    "Biden\u2019s Push to Counter China Steers EV Investments to Canada",
+    "https://www.wsj.com/articles/joe-bidens-push-to-counter-china-steers-ev-investments-to-canada-a3095936?mod=hp_lista_pos3"
+  ],
+  [
+    "In Green Hydrogen Race With the U.S., Europe Is Hobbled",
+    "https://www.wsj.com/articles/in-green-hydrogen-race-with-the-u-s-europe-is-hobbled-a47ee572?mod=hp_lista_pos4"
+  ],
+  [
+    "Give ChatGPT All the Boring Tasks, Employees Say",
+    "https://www.wsj.com/articles/despite-office-bans-some-workers-still-want-to-use-chatgpt-778da50e?mod=lead_feature_below_a_pos1"
+  ],
+  [
+    "Google Launches Bard AI Chatbot to Counter ChatGPT",
+    "https://www.wsj.com/articles/google-launches-bard-ai-chatbot-to-counter-chatgpt-2200c357?mod=lead_feature_below_a_pos1"
+  ],
+  [
+    "A Psychologist Explains How AI and Algorithms Are Changing Our Lives",
+    "https://www.wsj.com/articles/algorithms-ai-humanity-psychology-ebf1364c?mod=lead_feature_below_a_pos1"
+  ],
+  [
+    "How Nintendo Competes Differently Than Sony and Microsoft",
+    "https://www.wsj.com/video/series/the-economics-of/how-nintendo-competes-differently-than-sony-and-microsoft/8F0D4A33-FD22-45D7-A7CC-6A2F1A0BBE06?mod=hp_listb_pos1"
+  ],
+  [
+    "Huawei Bets on Another Premium 4G Phone",
+    "https://www.wsj.com/articles/huawei-bets-on-another-premium-4g-phone-86a7a60c?mod=hp_listb_pos2"
+  ],
+  [
+    "Tencent\u2019s Sales Growth Lifted by Digital-Ad Recovery",
+    "https://www.wsj.com/articles/tencent-posts-surprise-profit-growth-despite-economic-slowdown-dde00140?mod=hp_listb_pos3"
+  ],
+  [
+    "Nancy Pelosi on How Women Can Succeed in Politics, Business",
+    "https://www.wsj.com/articles/nancy-pelosi-to-be-interviewed-at-journals-women-in-the-workplace-forum-b6cb4a9c?mod=hp_listc_pos1"
+  ],
+  [
+    "Taliban Leader Faces Blowback Over Girls\u2019 School Ban\u2014From Own Movement",
+    "https://www.wsj.com/articles/taliban-girls-school-ban-leader-blowback-secret-education-b1e9ab7f?mod=hp_listc_pos2"
+  ],
+  [
+    "U.K. Inflation Resumes Its Rise, Defying Expectations",
+    "https://www.wsj.com/articles/u-k-inflation-resumes-its-rise-defying-expectations-b23e6aa0?mod=hp_listc_pos3"
+  ],
+  [
+    "These Commuter Backpacks Deliver on Function and Style",
+    "https://www.wsj.com/buyside/style/best-commuter-backpacks-01653427565?mod=wsj_hp_buyside_pos1"
+  ],
+  [
+    "The 38 Best Deals to Shop Online Right Now",
+    "https://www.wsj.com/buyside/shopping-holidays/best-deals-right-now-4e77f8d6?mod=wsj_hp_buyside_pos2"
+  ],
+  [
+    "What Are the New Tax Brackets for 2023?",
+    "https://www.wsj.com/buyside/personal-finance/tax-bracket-changes-01666448477?mod=wsj_hp_buyside_pos3"
+  ],
+  [
+    "New FTC Order Pressures Tech Platforms Over Fraudulent Ads",
+    "https://www.wsj.com/articles/new-ftc-order-pressures-tech-platforms-over-fraudulent-ads-72a6df4e?mod=hp_minor_pos1"
+  ],
+  [
+    "Have the Ads in Your Twitter Feed Changed? There\u2019s a Reason for That",
+    "https://www.wsj.com/articles/have-the-ads-in-your-twitter-feed-changed-theres-a-reason-for-that-1772f9f3?mod=hp_minor_pos2"
+  ],
+  [
+    "Five Things Marketers Should Know About Generative AI in Advertising",
+    "https://www.wsj.com/articles/five-things-marketers-should-know-about-generative-ai-in-advertising-5381c1d0?mod=hp_minor_pos3"
+  ],
+  [
+    "Generative AI Makes Headway in Healthcare",
+    "https://www.wsj.com/articles/generative-ai-makes-headway-in-healthcare-cb5d4ee2?mod=hp_minor_pos4"
+  ],
+  [
+    "Data Deluge: Businesses Struggle With TMI",
+    "https://www.wsj.com/articles/data-deluge-businesses-struggle-with-tmi-5e41cca1?mod=hp_minor_pos5"
+  ],
+  [
+    "SVB Collapse Could Trigger More Corporate M&A, Tech Leaders Say",
+    "https://www.wsj.com/articles/svb-collapse-could-trigger-more-corporate-m-a-tech-leaders-say-baff7734?mod=hp_minor_pos6"
+  ],
+  [
+    "As Ford Carves Out Its EV Unit, Reporting by Region Gets Ditched",
+    "https://www.wsj.com/articles/as-ford-carves-out-its-ev-unit-reporting-by-region-gets-ditched-11a8c7b1?mod=hp_minor_pos7"
+  ],
+  [
+    "Banks, Investors Revive Push for Changes to Securities Accounting After SVB Collapse",
+    "https://www.wsj.com/articles/banks-investors-revive-push-for-changes-to-securities-accounting-after-svb-collapse-99caa9ce?mod=hp_minor_pos8"
+  ],
+  [
+    "SVB Collapse Spurs Finance Executives to Re-Evaluate Cash Strategies",
+    "https://www.wsj.com/articles/svb-collapse-spurs-finance-executives-to-re-evaluate-cash-strategies-62cb3083?mod=hp_minor_pos9"
+  ],
+  [
+    "Missteps by Ericsson and Its Lawyers Led to New Sanctions Against Company",
+    "https://www.wsj.com/articles/missteps-by-ericsson-and-its-lawyers-led-to-new-sanctions-against-company-a0e70f80?mod=hp_minor_pos10"
+  ],
+  [
+    "ChipMixer Is Shut Down for Allegedly Laundering $3 Billion in Crypto",
+    "https://www.wsj.com/articles/chipmixer-is-shut-down-for-allegedly-laundering-3-billion-in-crypto-325a55ee?mod=hp_minor_pos11"
+  ],
+  [
+    "The Morning Risk Report",
+    "https://createsend.com/t/d-124F53EF6669129F2540EF23F30FEDED?mod=hp_minor_pos12"
+  ],
+  [
+    "Trucking Giant Knight-Swift Transportation to Buy U.S. Xpress",
+    "https://www.wsj.com/articles/trucking-giant-knight-swift-transportation-to-buy-u-s-xpress-c763d424?mod=hp_minor_pos13"
+  ],
+  [
+    "Labor Tensions Rise in Stalled West Coast Port Contract Talks",
+    "https://www.wsj.com/articles/labor-tensions-rise-in-stalled-west-coast-port-contract-talks-cb031b7c?mod=hp_minor_pos14"
+  ],
+  [
+    "Today\u2019s Logistics Report: Knight Growing by the Truckload; Expanding Port Cyber Safeguards",
+    "https://createsend.com/t/d-E91BE92DC5B7A1672540EF23F30FEDED?mod=hp_minor_pos15"
+  ],
+  [
+    "Companies Face Another Packed Year of Sustainability Shareholder Votes",
+    "https://www.wsj.com/articles/companies-face-another-packed-year-of-sustainability-shareholder-votes-94c2c8bb?mod=hp_minor_pos16"
+  ],
+  [
+    "Nestl\u00e9 Says Less Than Half of Its Main Portfolio Is Ranked as Healthy",
+    "https://www.wsj.com/articles/nestle-says-less-than-half-of-its-main-portfolio-is-ranked-as-healthy-53778554?mod=hp_minor_pos17"
+  ],
+  [
+    "Corporate Climate Targets Get Lift Under Rosier U.S. Government Emissions Outlook",
+    "https://www.wsj.com/articles/corporate-climate-targets-get-lift-under-rosier-u-s-government-emissions-outlook-fb6b154?mod=hp_minor_pos18"
+  ],
+  [
+    "India\u2019s EV Dreams Face a Reality Check",
+    "https://www.wsj.com/articles/indias-ev-dreams-face-a-reality-check-bda1db82?mod=hp_minor_pos19"
+  ],
+  [
+    "Eli Lilly Is Priced for Perfection in the Obesity Market",
+    "https://www.wsj.com/articles/eli-lilly-is-priced-for-perfection-in-the-obesity-market-4b3e2363?mod=hp_minor_pos20"
+  ],
+  [
+    "Credit Suisse\u2019s \u2018Bail-In\u2019 Bonds Gave Politicians Easy Target",
+    "https://www.wsj.com/articles/credit-suisses-bail-in-bonds-made-an-easy-target-for-politicians-2a821441?mod=hp_minor_pos21"
+  ],
+  [
+    "Meta Gets Third Upgrade of the Week\u2014and It's Only Wednesday",
+    "https://www.barrons.com/articles/meta-stock-upgrade-alphabet-pinterest-cbd36e59?mod=hp_minor_pos22"
+  ],
+  [
+    "PacWest Bancorp Stock Tumbles After Bank Opts Against Capital Raise",
+    "https://www.barrons.com/articles/pacwest-bancorp-stock-capital-f8653a7a?mod=hp_minor_pos23"
+  ],
+  [
+    "Fungus Endangers Patients in Hospitals, Long-Term Care",
+    "https://www.barrons.com/articles/new-deadly-fungus-candida-auris-194db099?mod=hp_minor_pos24"
+  ],
+  [
+    "U.S. stocks open lower ahead of Fed rate decision",
+    "https://www.marketwatch.com/story/u-s-stock-futures-dip-ahead-of-fed-rate-decision-1a03174a?mod=hp_minor_pos25"
+  ],
+  [
+    "GameStop surges on surprise earnings beat, lifting meme stocks AMC and Bed Bath & Beyond",
+    "https://www.marketwatch.com/story/amc-bed-bath-beyond-stocks-get-a-big-lift-as-meme-peer-gamestop-shares-soar-ba31beb?mod=hp_minor_pos26"
+  ],
+  [
+    "Fed likely to follow ECB's playbook and hike interest rates this week",
+    "https://www.marketwatch.com/story/fed-likely-to-follow-ecbs-playbook-and-hike-interest-rates-next-week-b465a0d9?mod=hp_minor_pos27"
+  ],
+  [
+    "One of the Priciest Homes for Sale in the Dominican Republic Is This $25 Million Penthouse",
+    "https://www.mansionglobal.com/articles/one-of-the-priciest-homes-for-sale-in-the-dominican-republic-is-this-25-million-penthouse-47701d1a?mod=hp_minor_pos28"
+  ],
+  [
+    "Dubai\u2019s Latest Luxury Developments Include Man-Made Islands and Rooftop Opera Pavilions",
+    "https://www.mansionglobal.com/articles/dubais-latest-luxury-developments-include-man-made-islands-and-rooftop-opera-pavilions-138df4fe?mod=hp_minor_pos29"
+  ],
+  [
+    "How to Mix Bedroom Patterns Like a Maximalist Pro",
+    "https://www.mansionglobal.com/articles/how-to-mix-bedroom-patterns-like-a-maximalist-pro-45d75378?mod=hp_minor_pos30"
+  ],
+  [
+    "A Horological Road Trip In Switzerland\u2019s Watch Valley",
+    "https://www.barrons.com/articles/a-horological-road-trip-in-switzerlands-watch-valley-10d2a8c8?mod=hp_minor_pos31"
+  ],
+  [
+    "Asia Week New York Returns With a Series of Auctions and Exhibitions",
+    "https://www.barrons.com/articles/asia-week-new-york-returns-with-a-series-of-auctions-and-exhibitions-8e518546?mod=hp_minor_pos32"
+  ],
+  [
+    "The 2023 Porsche 911 Carrera T Offers a Heart-Clutching Drive",
+    "https://www.barrons.com/articles/the-2023-porsche-911-carrera-t-offers-a-heart-clutching-drive-7fd5a2?mod=hp_minor_pos33"
+  ],
+  [
+    "What Is a Digital Twin? And How Can It Make Companies\u2014and Cities\u2014More Efficient?",
+    "https://www.wsj.com/articles/what-is-digital-twin-making-companies-cities-more-efficient-92e551b6?mod=hp_jr_pos1"
+  ],
+  [
+    "The Technology Skills Every Employee Should Have Today",
+    "https://www.wsj.com/articles/technology-skills-employees-should-have-fdc6c0ba?mod=hp_jr_pos2"
+  ],
+  [
+    "Why It Matters Whether a Robot Is Given a Gender",
+    "https://www.wsj.com/articles/benefits-drawbacks-of-giving-ai-gender-4f1b2a2b?mod=hp_jr_pos3"
+  ]
+]

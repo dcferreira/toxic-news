@@ -11,3 +11,5 @@ One America News Network (OAN),en,https://www.oann.com/,//div[@class='site']//h2
 Reuters,en,https://www.reuters.com/,"//a[@data-testid='Heading' and not(span)] | //a[@data-testid='Heading']/span[not(@style)]","self::a | parent::a",49
 The Epoch Times,en,https://www.theepochtimes.com/,"//a/*[contains(@class,'title') and not(ancestor::*[contains(@class, 'live_video') or contains(@class, 'games')])]",parent::a,97
 The Guardian (US),en,https://www.theguardian.com/us,"//a[contains(@class, 'js-headline-text')]",.,92
+The Hill,en,https://thehill.com/,"//div[contains(@class, 'content')]/h1[contains(@class, 'headline') and not(@data-module-type='thehill-video')]/a[@href] | //ul[@data-module-type='more-news']/li/a[@href] | //ol[@data-module-type='most-popular']/li/a[@href]",.,39
+The Wall Street Journal,en,https://www.wsj.com/,"//div[contains(@class, '-headline-')]//*[contains(@class, 'headlineText') and not(./span)] | //div[contains(@class, '-headline-')]//*[contains(@class, 'headlineText')]/span[not(contains(@class, 'time-to-read'))]",ancestor::a,66

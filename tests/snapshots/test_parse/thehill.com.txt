@@ -1,0 +1,158 @@
+[
+  [
+    "The Hill\u2019s Morning Report \u2014 Will Trump be indicted today?",
+    "https://thehill.com/newsletters/morning-report/3911746-the-hills-morning-report-will-trump-be-indicted-today/"
+  ],
+  [
+    "Trump fights claims he misled attorney as court weighs effort to force testimony",
+    "https://thehill.com/policy/national-security/3911884-trump-fights-claims-he-misled-attorney-as-court-weighs-effort-to-force-testimony/"
+  ],
+  [
+    "House Republicans pressured to take sides between Trump, DeSantis",
+    "https://thehill.com/homenews/house/3911108-house-republicans-pressured-to-take-sides-between-trump-desantis/"
+  ],
+  [
+    "White House steps up attacks on GOP budget",
+    "https://thehill.com/homenews/administration/3910990-white-house-steps-up-attacks-on-gop-budget/"
+  ],
+  [
+    "Trump shares possibility of no indictment in hush money case",
+    "https://thehill.com/regulation/court-battles/3911856-trump-shares-possibility-of-no-indictment-in-hush-money-case/"
+  ],
+  [
+    "Young Americans are once again switching up how they date",
+    "https://thehill.com/changing-america/enrichment/arts-culture/3910904-young-americans-are-once-again-switching-up-how-they-date/"
+  ],
+  [
+    "Democrats brace for fight over SNAP benefits in farm bill",
+    "https://thehill.com/policy/future-of-farming/3903833-democrats-brace-for-fight-over-snap-benefits-in-farm-bill/"
+  ],
+  [
+    "Tucker Carlson \u2018enraged\u2019 private texts revealed; \u2018I love Trump\u2019",
+    "https://thehill.com/homenews/media/3911174-tucker-carlson-enraged-private-texts-revealed-i-love-trump/"
+  ],
+  [
+    "Why millions of people could lose Medicaid next month",
+    "https://thehill.com/policy/healthcare/3911215-why-millions-of-people-could-lose-medicaid-next-month/"
+  ],
+  [
+    "Biden designates new national monuments in Nevada, Texas",
+    "https://thehill.com/policy/energy-environment/3910332-biden-designates-new-national-monuments-in-nevada-texas/"
+  ],
+  [
+    "Trump lawyer: If he\u2019s indicted \u2018this is an all-out war\u2019",
+    "https://thehill.com/regulation/court-battles/3910289-trump-lawyer-if-hes-indicted-this-is-an-all-out-war/"
+  ],
+  [
+    "Van Jones says Bragg may \u2018step back from the brink\u2019 on charging Trump",
+    "https://thehill.com/media/3910806-van-jones-says-bragg-may-step-back-from-the-brink-on-charging-trump/"
+  ],
+  [
+    "Rand Paul tweets NY DA \u2018should be put in jail\u2019",
+    "https://thehill.com/homenews/senate/3910156-rand-paul-tweets-ny-da-should-be-put-in-jail/"
+  ],
+  [
+    "Jackson pens solo dissent as Supreme Court vacates abortion ruling",
+    "https://thehill.com/regulation/court-battles/3909352-jackson-pens-solo-dissent-as-supreme-court-vacates-abortion-ruling/"
+  ],
+  [
+    "Trump plunges GOP into more turmoil with legal troubles",
+    "https://thehill.com/homenews/senate/3911176-trump-plunges-gop-into-more-turmoil-with-legal-troubles/"
+  ],
+  [
+    "Bomb threat disrupts NY court where Trump case is being heard",
+    "https://thehill.com/homenews/state-watch/3910708-bomb-threat-disrupts-ny-court-where-trump-case-is-being-heard/"
+  ],
+  [
+    "Georgia attorney convicted on Jan. 6 charges",
+    "https://thehill.com/homenews/state-watch/3910628-georgia-attorney-convicted-on-jan-6-charges/"
+  ],
+  [
+    "ChatGPT sends shockwaves across college campuses",
+    "https://thehill.com/policy/technology/3905672-chatgpt-sends-shockwaves-across-college-campuses/"
+  ],
+  [
+    "Graham warns Trump arrest would \u2018blow up our country\u2019\u00a0",
+    "https://thehill.com/homenews/senate/3910819-graham-warns-trump-arrest-would-blow-up-our-country/"
+  ],
+  [
+    "White House, reporters push back on disruptive journalist at press briefing",
+    "https://thehill.com/homenews/administration/3909243-white-house-reporters-push-back-on-disruptive-journalist-at-press-briefing/"
+  ],
+  [
+    "ESPN\u2019s Stephen A. Smith rips Tucker Carlson\u2019s Jan. 6 framing: \u2018That\u2019s ...",
+    "https://thehill.com/homenews/media/3908950-espns-stephen-a-smith-rips-tucker-carlsons-jan-6-framing-thats-bulls-that-youre-spewing/"
+  ],
+  [
+    "Large majority in new poll says Trump hush money allegations are believable",
+    "https://thehill.com/blogs/blog-briefing-room/3911915-large-majority-in-new-poll-says-trump-hush-money-allegations-are-believable/"
+  ],
+  [
+    "Pence calls for \u2018common sense\u2019 reforms to Social Security, Medicare",
+    "https://thehill.com/homenews/campaign/3911898-pence-calls-for-common-sense-reforms-to-social-security-medicare/"
+  ],
+  [
+    "Republicans seize on transgender rights ahead of 2024",
+    "https://thehill.com/homenews/campaign/3911157-republicans-seize-on-transgender-rights-ahead-of-2024/"
+  ],
+  [
+    "NY DA Alvin Bragg could eye various charges in Trump prosecution",
+    "https://thehill.com/regulation/court-battles/3910851-nyda-alvin-bragg-could-eye-various-charges-in-trump-prosecution/"
+  ],
+  [
+    "Pentagon will expedite delivery of tanks, Patriot systems to Ukraine",
+    "https://thehill.com/policy/defense/3910935-pentagon-will-expedite-delivery-of-tanks-patriot-systems-to-ukraine/"
+  ],
+  [
+    "Comer agrees it could be politically unsustainable to investigate Kushner",
+    "https://thehill.com/homenews/house/3910467-comer-agrees-it-could-be-politically-unsustainable-to-investigate-kushner/"
+  ],
+  [
+    "Bipartisan lawmakers introduce bill to ban members from owning, trading stocks",
+    "https://thehill.com/homenews/house/3911300-bipartisan-lawmakers-introduce-bill-to-ban-members-from-owning-trading-stocks/"
+  ],
+  [
+    "Democrats worry about Trump protest calls over possible indictment",
+    "https://thehill.com/homenews/senate/3911385-democrats-worry-about-trump-protest-calls-over-possible-indictment/"
+  ],
+  [
+    "Trump fundraises off possible indictment\u00a0",
+    "https://thehill.com/homenews/campaign/3911468-trump-fundraises-off-possible-indictment/"
+  ],
+  [
+    "Oklahoma court OK\u2019s abortion to preserve mother\u2019s life",
+    "https://thehill.com/homenews/ap/ap-u-s-news/oklahoma-court-oks-abortion-to-preserve-mothers-life/"
+  ],
+  [
+    "Will Manhattan DA Bragg charge Trump? Should he?",
+    "https://thehill.com/opinion/white-house/3910970-will-manhattan-da-bragg-charge-trump-should-he/"
+  ],
+  [
+    "Florida\u2019s education foes resort to \u2018horror fiction\u2019",
+    "https://thehill.com/opinion/education/3901470-floridas-education-foes-resort-to-horror-fiction/"
+  ],
+  [
+    "Americans who survived Mexico kidnapping \u2018continue to recover,\u2019 attorneys say",
+    "https://thehill.com/homenews/3911052-americans-who-survived-mexico-kidnapping-continue-to-recover-attorneys-say/"
+  ],
+  [
+    "California bill could ban the sale of Skittles, Hot Tamales, and more",
+    "https://thehill.com/homenews/3911092-california-bill-could-ban-the-sale-of-skittles-hot-tamales-and-more/"
+  ],
+  [
+    "Video: Security guards take down gunman in devil mask at famed Florida strip club",
+    "https://thehill.com/homenews/3911202-video-security-guards-take-down-gunman-in-devil-mask-at-famed-florida-strip-club/"
+  ],
+  [
+    "Case of teen\u2019s 2015 death, reopened during Murdaugh investigation, now ruled a homicide",
+    "https://thehill.com/homenews/3911508-case-of-teens-2015-death-reopened-during-murdaugh-investigation-now-ruled-a-homicide/"
+  ],
+  [
+    "Some Android users should turn off Wi-Fi calling due to security concerns, Google team warns",
+    "https://thehill.com/homenews/3911346-some-android-users-should-turn-off-wi-fi-calling-due-to-security-concerns-google-team-warns/"
+  ],
+  [
+    "Child mortality is rising at the fastest rate in 50 years",
+    "https://thehill.com/policy/healthcare/3910940-child-mortality-is-rising-at-the-fastest-rate-in-50-years/"
+  ]
+]

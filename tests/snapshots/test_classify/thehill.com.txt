@@ -1,0 +1,626 @@
+[
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "The Hill\u2019s Morning Report \u2014 Will Trump be indicted today?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0005998284905217588,
+      "severe_toxicity": 1.8339866073802114e-05,
+      "obscene": 0.00011236871068831533,
+      "identity_attack": 9.644806414144114e-05,
+      "insult": 0.00023298762971535325,
+      "threat": 3.638934504124336e-05,
+      "sexual_explicit": 2.0212562958477065e-05
+    },
+    "url": "https://thehill.com/newsletters/morning-report/3911746-the-hills-morning-report-will-trump-be-indicted-today/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Trump fights claims he misled attorney as court weighs effort to force testimony",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0008896429208107293,
+      "severe_toxicity": 1.5470737707801163e-05,
+      "obscene": 0.00011978359543718398,
+      "identity_attack": 7.270200148923323e-05,
+      "insult": 0.00036618541344068944,
+      "threat": 2.7767136998591013e-05,
+      "sexual_explicit": 2.200098242610693e-05
+    },
+    "url": "https://thehill.com/policy/national-security/3911884-trump-fights-claims-he-misled-attorney-as-court-weighs-effort-to-force-testimony/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "House Republicans pressured to take sides between Trump, DeSantis",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0057059829123318195,
+      "severe_toxicity": 1.513962615717901e-05,
+      "obscene": 0.00014808734704274684,
+      "identity_attack": 0.0001291338849114254,
+      "insult": 0.002370671136304736,
+      "threat": 0.00010207437298959121,
+      "sexual_explicit": 4.0278413507621735e-05
+    },
+    "url": "https://thehill.com/homenews/house/3911108-house-republicans-pressured-to-take-sides-between-trump-desantis/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "White House steps up attacks on GOP budget",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0037916195578873158,
+      "severe_toxicity": 7.652674685232341e-05,
+      "obscene": 0.00031359761487692595,
+      "identity_attack": 0.0007462475914508104,
+      "insult": 0.0006002428126521409,
+      "threat": 0.0003060128365177661,
+      "sexual_explicit": 7.283335435204208e-05
+    },
+    "url": "https://thehill.com/homenews/administration/3910990-white-house-steps-up-attacks-on-gop-budget/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Trump shares possibility of no indictment in hush money case",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0008741469355300069,
+      "severe_toxicity": 1.3924979612056632e-05,
+      "obscene": 9.461578883929178e-05,
+      "identity_attack": 8.101482671918347e-05,
+      "insult": 0.00034834412508644164,
+      "threat": 2.772913830995094e-05,
+      "sexual_explicit": 1.6108981071738526e-05
+    },
+    "url": "https://thehill.com/regulation/court-battles/3911856-trump-shares-possibility-of-no-indictment-in-hush-money-case/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Young Americans are once again switching up how they date",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0012150632683187723,
+      "severe_toxicity": 2.5171229935949668e-05,
+      "obscene": 0.00018341185932513326,
+      "identity_attack": 0.0002623683831188828,
+      "insult": 0.0002957737597171217,
+      "threat": 3.174806624883786e-05,
+      "sexual_explicit": 2.4844626750564203e-05
+    },
+    "url": "https://thehill.com/changing-america/enrichment/arts-culture/3910904-young-americans-are-once-again-switching-up-how-they-date/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Democrats brace for fight over SNAP benefits in farm bill",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0008343418012373149,
+      "severe_toxicity": 2.044247230514884e-05,
+      "obscene": 0.00012286142737139016,
+      "identity_attack": 0.00010659147665137425,
+      "insult": 0.0002278672473039478,
+      "threat": 5.9897694882238284e-05,
+      "sexual_explicit": 2.606458838272374e-05
+    },
+    "url": "https://thehill.com/policy/future-of-farming/3903833-democrats-brace-for-fight-over-snap-benefits-in-farm-bill/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Tucker Carlson \u2018enraged\u2019 private texts revealed; \u2018I love Trump\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0006067765061743557,
+      "severe_toxicity": 1.5588670066790655e-05,
+      "obscene": 0.00011350886052241549,
+      "identity_attack": 9.570751717546955e-05,
+      "insult": 0.0002534505329094827,
+      "threat": 2.0495117496466264e-05,
+      "sexual_explicit": 1.72941799974069e-05
+    },
+    "url": "https://thehill.com/homenews/media/3911174-tucker-carlson-enraged-private-texts-revealed-i-love-trump/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Why millions of people could lose Medicaid next month",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0007260736310854554,
+      "severe_toxicity": 2.5071210984606296e-05,
+      "obscene": 0.00015898419951554388,
+      "identity_attack": 0.00013034378935117275,
+      "insult": 0.00028614391339942813,
+      "threat": 3.7318721297197044e-05,
+      "sexual_explicit": 1.971636993403081e-05
+    },
+    "url": "https://thehill.com/policy/healthcare/3911215-why-millions-of-people-could-lose-medicaid-next-month/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Biden designates new national monuments in Nevada, Texas",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.000377227202989161,
+      "severe_toxicity": 3.403523442102596e-05,
+      "obscene": 0.00023668580979574472,
+      "identity_attack": 0.00010361057502450421,
+      "insult": 0.00024343353288713843,
+      "threat": 3.888903302140534e-05,
+      "sexual_explicit": 2.75076090474613e-05
+    },
+    "url": "https://thehill.com/policy/energy-environment/3910332-biden-designates-new-national-monuments-in-nevada-texas/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Trump lawyer: If he\u2019s indicted \u2018this is an all-out war\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0011412237072363496,
+      "severe_toxicity": 1.7167700207210146e-05,
+      "obscene": 0.00011141516733914614,
+      "identity_attack": 0.0001504959218436852,
+      "insult": 0.0003139652544632554,
+      "threat": 3.6544835893437266e-05,
+      "sexual_explicit": 1.6402276742155664e-05
+    },
+    "url": "https://thehill.com/regulation/court-battles/3910289-trump-lawyer-if-hes-indicted-this-is-an-all-out-war/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Van Jones says Bragg may \u2018step back from the brink\u2019 on charging Trump",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0066624050959944725,
+      "severe_toxicity": 4.428461761563085e-05,
+      "obscene": 0.00023718641023151577,
+      "identity_attack": 0.0001908346457639709,
+      "insult": 0.0006855961983092129,
+      "threat": 0.0012291745515540242,
+      "sexual_explicit": 0.00010457667667651549
+    },
+    "url": "https://thehill.com/media/3910806-van-jones-says-bragg-may-step-back-from-the-brink-on-charging-trump/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Rand Paul tweets NY DA \u2018should be put in jail\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.006576618179678917,
+      "severe_toxicity": 3.524885687511414e-05,
+      "obscene": 0.00016289213090203702,
+      "identity_attack": 0.0012256888439878821,
+      "insult": 0.0008251073304563761,
+      "threat": 0.00018650261336006224,
+      "sexual_explicit": 8.167938358383253e-05
+    },
+    "url": "https://thehill.com/homenews/senate/3910156-rand-paul-tweets-ny-da-should-be-put-in-jail/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Jackson pens solo dissent as Supreme Court vacates abortion ruling",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0010793996043503284,
+      "severe_toxicity": 3.24982320307754e-05,
+      "obscene": 0.00019710401829797775,
+      "identity_attack": 9.815367229748517e-05,
+      "insult": 0.000276737759122625,
+      "threat": 7.070443825796247e-05,
+      "sexual_explicit": 0.000176350207766518
+    },
+    "url": "https://thehill.com/regulation/court-battles/3909352-jackson-pens-solo-dissent-as-supreme-court-vacates-abortion-ruling/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Trump plunges GOP into more turmoil with legal troubles",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0018787349108606577,
+      "severe_toxicity": 1.7656087948125787e-05,
+      "obscene": 0.00012286423589102924,
+      "identity_attack": 9.965530625777319e-05,
+      "insult": 0.0005824693362228572,
+      "threat": 7.103139068931341e-05,
+      "sexual_explicit": 2.794200372591149e-05
+    },
+    "url": "https://thehill.com/homenews/senate/3911176-trump-plunges-gop-into-more-turmoil-with-legal-troubles/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Bomb threat disrupts NY court where Trump case is being heard",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.016553355380892754,
+      "severe_toxicity": 9.492765821050853e-05,
+      "obscene": 0.0002717206079978496,
+      "identity_attack": 0.0004033525474369526,
+      "insult": 0.000708055857103318,
+      "threat": 0.005384388845413923,
+      "sexual_explicit": 0.00011342501238686964
+    },
+    "url": "https://thehill.com/homenews/state-watch/3910708-bomb-threat-disrupts-ny-court-where-trump-case-is-being-heard/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Georgia attorney convicted on Jan. 6 charges",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.00034682959085330367,
+      "severe_toxicity": 3.596592796384357e-05,
+      "obscene": 0.0002281396446051076,
+      "identity_attack": 0.00011421840463299304,
+      "insult": 0.00023194856476038694,
+      "threat": 3.307265797047876e-05,
+      "sexual_explicit": 2.9656197511940263e-05
+    },
+    "url": "https://thehill.com/homenews/state-watch/3910628-georgia-attorney-convicted-on-jan-6-charges/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "ChatGPT sends shockwaves across college campuses",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0011119096307083964,
+      "severe_toxicity": 3.0452209102804773e-05,
+      "obscene": 0.00016276883252430707,
+      "identity_attack": 0.0001722146844258532,
+      "insult": 0.00027956732083112,
+      "threat": 9.30984242586419e-05,
+      "sexual_explicit": 2.7626358132692985e-05
+    },
+    "url": "https://thehill.com/policy/technology/3905672-chatgpt-sends-shockwaves-across-college-campuses/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Graham warns Trump arrest would \u2018blow up our country\u2019\u00a0",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0015430828789249063,
+      "severe_toxicity": 2.306175338162575e-05,
+      "obscene": 0.0001075972686521709,
+      "identity_attack": 0.00020742256310768425,
+      "insult": 0.00021032440417911857,
+      "threat": 8.960950071923435e-05,
+      "sexual_explicit": 2.4191313059418462e-05
+    },
+    "url": "https://thehill.com/homenews/senate/3910819-graham-warns-trump-arrest-would-blow-up-our-country/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "White House, reporters push back on disruptive journalist at press briefing",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0032082225661724806,
+      "severe_toxicity": 3.606704558478668e-05,
+      "obscene": 0.00028578509227372706,
+      "identity_attack": 0.0002647318469826132,
+      "insult": 0.0015918926801532507,
+      "threat": 3.735232894541696e-05,
+      "sexual_explicit": 5.391999366111122e-05
+    },
+    "url": "https://thehill.com/homenews/administration/3909243-white-house-reporters-push-back-on-disruptive-journalist-at-press-briefing/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "ESPN\u2019s Stephen A. Smith rips Tucker Carlson\u2019s Jan. 6 framing: \u2018That\u2019s ...",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.000751144252717495,
+      "severe_toxicity": 2.4473967641824856e-05,
+      "obscene": 0.00022962184448260814,
+      "identity_attack": 0.00010356029815739021,
+      "insult": 0.00031390570802614093,
+      "threat": 4.597540100803599e-05,
+      "sexual_explicit": 3.4495085856178775e-05
+    },
+    "url": "https://thehill.com/homenews/media/3908950-espns-stephen-a-smith-rips-tucker-carlsons-jan-6-framing-thats-bulls-that-youre-spewing/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Large majority in new poll says Trump hush money allegations are believable",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.03336672484874725,
+      "severe_toxicity": 1.4722279047418851e-05,
+      "obscene": 0.00038855511229485273,
+      "identity_attack": 0.0003361429844517261,
+      "insult": 0.01492350734770298,
+      "threat": 3.596832902985625e-05,
+      "sexual_explicit": 6.149183900561184e-05
+    },
+    "url": "https://thehill.com/blogs/blog-briefing-room/3911915-large-majority-in-new-poll-says-trump-hush-money-allegations-are-believable/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Pence calls for \u2018common sense\u2019 reforms to Social Security, Medicare",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0004969547735527158,
+      "severe_toxicity": 1.5049657122290228e-05,
+      "obscene": 8.664518827572465e-05,
+      "identity_attack": 8.679122402099892e-05,
+      "insult": 0.00020186384790576994,
+      "threat": 2.6050873202621005e-05,
+      "sexual_explicit": 2.0301291442592628e-05
+    },
+    "url": "https://thehill.com/homenews/campaign/3911898-pence-calls-for-common-sense-reforms-to-social-security-medicare/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Republicans seize on transgender rights ahead of 2024",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.06023212522268295,
+      "severe_toxicity": 6.15529716014862e-05,
+      "obscene": 0.0002872689801733941,
+      "identity_attack": 0.049675773829221725,
+      "insult": 0.002729545347392559,
+      "threat": 0.00037963889189995825,
+      "sexual_explicit": 0.0003589759289752692
+    },
+    "url": "https://thehill.com/homenews/campaign/3911157-republicans-seize-on-transgender-rights-ahead-of-2024/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "NY DA Alvin Bragg could eye various charges in Trump prosecution",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.001010062638670206,
+      "severe_toxicity": 1.7010452211252414e-05,
+      "obscene": 0.00012634415179491043,
+      "identity_attack": 8.963666914496571e-05,
+      "insult": 0.0003435521211940795,
+      "threat": 3.673750688903965e-05,
+      "sexual_explicit": 2.1091049347887747e-05
+    },
+    "url": "https://thehill.com/regulation/court-battles/3910851-nyda-alvin-bragg-could-eye-various-charges-in-trump-prosecution/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Pentagon will expedite delivery of tanks, Patriot systems to Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0006717139040119946,
+      "severe_toxicity": 4.2182960896752775e-05,
+      "obscene": 0.00016431247058790177,
+      "identity_attack": 0.0002365939726587385,
+      "insult": 0.00015121500473469496,
+      "threat": 0.00011138053378090262,
+      "sexual_explicit": 3.1721800041850656e-05
+    },
+    "url": "https://thehill.com/policy/defense/3910935-pentagon-will-expedite-delivery-of-tanks-patriot-systems-to-ukraine/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Comer agrees it could be politically unsustainable to investigate Kushner",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0005930210463702679,
+      "severe_toxicity": 1.726213304209523e-05,
+      "obscene": 9.641118958825245e-05,
+      "identity_attack": 9.605202649254352e-05,
+      "insult": 0.00022117691696621478,
+      "threat": 3.2561267289565876e-05,
+      "sexual_explicit": 1.828715903684497e-05
+    },
+    "url": "https://thehill.com/homenews/house/3910467-comer-agrees-it-could-be-politically-unsustainable-to-investigate-kushner/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Bipartisan lawmakers introduce bill to ban members from owning, trading stocks",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0009720103116706014,
+      "severe_toxicity": 1.8440798157826066e-05,
+      "obscene": 0.00010891799320233986,
+      "identity_attack": 0.00018106192874256521,
+      "insult": 0.0002517773536965251,
+      "threat": 3.7303245335351676e-05,
+      "sexual_explicit": 1.9319066268508323e-05
+    },
+    "url": "https://thehill.com/homenews/house/3911300-bipartisan-lawmakers-introduce-bill-to-ban-members-from-owning-trading-stocks/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Democrats worry about Trump protest calls over possible indictment",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0007770216325297952,
+      "severe_toxicity": 1.6039064576034434e-05,
+      "obscene": 9.685700933914632e-05,
+      "identity_attack": 0.00010614750499371439,
+      "insult": 0.00027445703744888306,
+      "threat": 3.221883889636956e-05,
+      "sexual_explicit": 1.9676323063322343e-05
+    },
+    "url": "https://thehill.com/homenews/senate/3911385-democrats-worry-about-trump-protest-calls-over-possible-indictment/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Trump fundraises off possible indictment\u00a0",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0018062329618260264,
+      "severe_toxicity": 1.700339635135606e-05,
+      "obscene": 0.0001333882100880146,
+      "identity_attack": 9.107017831411213e-05,
+      "insult": 0.0007148889708332717,
+      "threat": 4.768760845763609e-05,
+      "sexual_explicit": 2.305056113982573e-05
+    },
+    "url": "https://thehill.com/homenews/campaign/3911468-trump-fundraises-off-possible-indictment/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Oklahoma court OK\u2019s abortion to preserve mother\u2019s life",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0026068859733641148,
+      "severe_toxicity": 3.702520552906208e-05,
+      "obscene": 0.00015586966765113175,
+      "identity_attack": 0.0004386136424727738,
+      "insult": 0.00022281879500951618,
+      "threat": 0.00023022908135317266,
+      "sexual_explicit": 0.0002821637026499957
+    },
+    "url": "https://thehill.com/homenews/ap/ap-u-s-news/oklahoma-court-oks-abortion-to-preserve-mothers-life/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Will Manhattan DA Bragg charge Trump? Should he?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0009433557861484587,
+      "severe_toxicity": 1.769772825355176e-05,
+      "obscene": 0.00014054952771402895,
+      "identity_attack": 9.978539310395718e-05,
+      "insult": 0.0002981630386784673,
+      "threat": 3.646191180450842e-05,
+      "sexual_explicit": 2.2588657884625718e-05
+    },
+    "url": "https://thehill.com/opinion/white-house/3910970-will-manhattan-da-bragg-charge-trump-should-he/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Florida\u2019s education foes resort to \u2018horror fiction\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.07226863503456116,
+      "severe_toxicity": 1.9834311387967318e-05,
+      "obscene": 0.00036231274134479463,
+      "identity_attack": 0.0014336133608594537,
+      "insult": 0.037103619426488876,
+      "threat": 7.71675186115317e-05,
+      "sexual_explicit": 9.74568902165629e-05
+    },
+    "url": "https://thehill.com/opinion/education/3901470-floridas-education-foes-resort-to-horror-fiction/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Americans who survived Mexico kidnapping \u2018continue to recover,\u2019 attorneys say",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0015159357571974397,
+      "severe_toxicity": 1.726937625790015e-05,
+      "obscene": 7.603849371662363e-05,
+      "identity_attack": 0.0006342031410895288,
+      "insult": 0.00015886736218817532,
+      "threat": 5.5925920605659485e-05,
+      "sexual_explicit": 2.2326457838062197e-05
+    },
+    "url": "https://thehill.com/homenews/3911052-americans-who-survived-mexico-kidnapping-continue-to-recover-attorneys-say/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "California bill could ban the sale of Skittles, Hot Tamales, and more",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0007675341330468655,
+      "severe_toxicity": 2.5304616428911686e-05,
+      "obscene": 0.00015588720270898193,
+      "identity_attack": 0.00015295096090994775,
+      "insult": 0.00025758144329302013,
+      "threat": 2.9929457014077343e-05,
+      "sexual_explicit": 2.42283695115475e-05
+    },
+    "url": "https://thehill.com/homenews/3911092-california-bill-could-ban-the-sale-of-skittles-hot-tamales-and-more/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Video: Security guards take down gunman in devil mask at famed Florida strip club",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.015375928953289986,
+      "severe_toxicity": 2.2663100025965832e-05,
+      "obscene": 0.00020048508304171264,
+      "identity_attack": 0.00023292077821679413,
+      "insult": 0.0031218286603689194,
+      "threat": 0.00022725020244251937,
+      "sexual_explicit": 6.399570702342317e-05
+    },
+    "url": "https://thehill.com/homenews/3911202-video-security-guards-take-down-gunman-in-devil-mask-at-famed-florida-strip-club/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Case of teen\u2019s 2015 death, reopened during Murdaugh investigation, now ruled a homicide",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0017703071935102344,
+      "severe_toxicity": 2.8231681426404975e-05,
+      "obscene": 0.0001279014250030741,
+      "identity_attack": 0.00036994583206251264,
+      "insult": 0.00018300327064935118,
+      "threat": 0.0001097532149287872,
+      "sexual_explicit": 3.3571523090358824e-05
+    },
+    "url": "https://thehill.com/homenews/3911508-case-of-teens-2015-death-reopened-during-murdaugh-investigation-now-ruled-a-homicide/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Some Android users should turn off Wi-Fi calling due to security concerns, Google team warns",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0003817702236119658,
+      "severe_toxicity": 3.545538493199274e-05,
+      "obscene": 0.0001568469451740384,
+      "identity_attack": 0.0001539067307021469,
+      "insult": 0.00015710139996372163,
+      "threat": 4.9656970077194273e-05,
+      "sexual_explicit": 2.6962101401295513e-05
+    },
+    "url": "https://thehill.com/homenews/3911346-some-android-users-should-turn-off-wi-fi-calling-due-to-security-concerns-google-team-warns/"
+  },
+  {
+    "newspaper": "The Hill",
+    "language": "en",
+    "text": "Child mortality is rising at the fastest rate in 50 years",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.002596738049760461,
+      "severe_toxicity": 3.5093027690891176e-05,
+      "obscene": 0.00031903930357657373,
+      "identity_attack": 0.00011078123498009518,
+      "insult": 0.00046840240247547626,
+      "threat": 0.0001671960053499788,
+      "sexual_explicit": 8.978757978184149e-05
+    },
+    "url": "https://thehill.com/policy/healthcare/3910940-child-mortality-is-rising-at-the-fastest-rate-in-50-years/"
+  }
+]
