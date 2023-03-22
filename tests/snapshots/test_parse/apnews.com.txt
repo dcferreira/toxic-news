@@ -1,67 +1,75 @@
 [
   [
-    "Trump\u2019s call for protests gets muted reaction by supporters",
-    "https://apnews.com/article/trump-indictment-new-york-jan-6-protest-f19306253133d9dacd65667bd5b4650c?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_01"
+    "What to know about Alvin Bragg, the Manhattan DA investigating Trump",
+    "https://apnews.com/article/who-is-alvin-bragg-trump-manhattan-da-d77a4ec8df9a2b2b35f6e8bb9a52a5a7?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_01"
   ],
   [
-    "US aid worker and French journalist freed in West Africa",
-    "https://apnews.com/article/niger-hostage-captive-biden-woodke-b94936724080252ad5a1a3070b986d2a?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_04"
+    "Fed facing a blurrier outlook as it meets to weigh rate hike",
+    "https://apnews.com/article/federal-reserve-inflation-banks-interest-rates-jobs-91a9185ebce972bbf5ab1f46654f1a53?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_03"
   ],
   [
-    "Putin welcomes China\u2019s Xi to Kremlin amid Ukraine fighting",
-    "https://apnews.com/article/russia-ukraine-china-xi-putin-meeting-d989e5c65ff762c1af91215d6dd2cf6e?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_06"
+    "Ohtani fans Trout, Japan tops US 3-2 for WBC championship",
+    "https://apnews.com/article/world-baseball-classic-japan-us-ohtani-trout-09c620b87260f7d8e8736ccc8fd950a6?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_04"
   ],
   [
-    "Top Israeli minister: \u2018No such thing\u2019 as Palestinian people",
-    "https://apnews.com/article/israel-palestinians-netanyahu-smotrich-tensions-38150d2ba81f571b1d5333dd7b046af0?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_08"
+    "Arkansas restricts school bathroom use by transgender people",
+    "https://apnews.com/article/huckabee-sanders-schools-bathroom-transgender-lgbtq-6fc56daa21e1ce7f8189248dcc37588b?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_05"
+  ],
+  [
+    "China, Japan leaders end visits to warring capitals",
+    "https://apnews.com/article/russia-ukraine-war-xi-china-japan-kishida-summit-07af10f35b16472d12549875af420d08?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_06"
+  ],
+  [
+    "Doctors expected to testify in Gwyneth Paltrow\u2019s ski trial",
+    "https://apnews.com/article/gwyneth-paltrow-utah-ski-collision-trial-8bca6c9d5e8a1eb41fc0264effead79e?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_07"
+  ],
+  [
+    "Effort to recall New Orleans\u2019 first female mayor fails",
+    "https://apnews.com/article/new-orleans-mayor-recall-fails-latoya-cantrell-e0d405e7defa27bb2c098c1d840c0997?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_08"
+  ],
+  [
+    "Kurds remain biggest winners from US-led invasion of Iraq",
+    "https://apnews.com/article/iraq-us-invasion-kurds-3223a368f3ad26fbe6760de477d6b973?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_09"
+  ],
+  [
+    "South Korea says North Korea test-fires cruise missiles",
+    "https://apnews.com/article/north-korea-missiles-f7584ba0845643c1e5892720092ccebf?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_10"
+  ],
+  [
+    "March Madness Mix: Dominant Gamecocks amid Sweet 16 parity",
+    "https://apnews.com/article/march-madness-undefeated-south-carolina-staley-c8ef02da16d3a4c390779374db48e0d0?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_11"
+  ],
+  [
+    "'Winnie the Pooh' film pulled from Hong Kong cinemas",
+    "https://apnews.com/article/hong-kong-winnie-pooh-censorship-film-613ba02ab3cd453635f851bf1fbb071e"
+  ],
+  [
+    "Morant apologizes again after NBA suspension for mistakes",
+    "https://apnews.com/article/grizzlies-ja-morant-21a9869c39dcff8d0ca2ca0c8c1ff10c"
+  ],
+  [
+    "Messi mania in Argentina as soccer star mobbed at restaurant",
+    "https://apnews.com/article/messi-argentina-don-julio-restaurant-5c6cd0fa9f4b928fac909560395d4b61"
+  ],
+  [
+    "Def Leppard drummer recovering from attack outside hotel",
+    "https://apnews.com/article/def-leppard-drummer-rick-allen-attacked-florida-074028cc3498d239cfccfc172b48f28a"
+  ],
+  [
+    "Sleepless night after Pakistan, Afghanistan quake kills 13",
+    "https://apnews.com/article/earthquake-pakistan-afghanistan-taliban-4dce3d7302ef95f3691afc4df7c025a1"
+  ],
+  [
+    "Ignoring experts, China's sudden zero-COVID exit cost lives",
+    "https://apnews.com/article/zero-covid-exit-china-reopening-investigation-05e1bf6d14e3b77ade26b719093ac43b"
   ],
   [
     "School library book bans are seen as targeting LGBTQ content",
-    "https://apnews.com/article/lgbtq-book-bans-91b2d4c086eb082cbecfdda2800ef29a?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_10"
+    "https://apnews.com/article/lgbtq-book-bans-91b2d4c086eb082cbecfdda2800ef29a"
   ],
   [
-    "World on \u2018thin ice\u2019 as UN climate report gives stark warning",
-    "https://apnews.com/article/un-climate-change-report-ipcc-guterres-science-30d8451c0f3fb7b8a857e3ed4fd01172?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_03"
-  ],
-  [
-    "2 students hurt in Texas school shooting, suspect arrested",
-    "https://apnews.com/article/texas-school-shooting-arlington-lamar-students-9c0e6db8be95fea41cbf250c1e70c9ae?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_05"
-  ],
-  [
-    "Miami Beach struggles with spring break violence, big crowds",
-    "https://apnews.com/article/miami-beach-spring-break-shootings-curfew-8b72d3ad074f087025fbcd828ce6c79c?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_07"
-  ],
-  [
-    "Amazon cuts 9,000 more jobs, bringing 2023 total to 27,000",
-    "https://apnews.com/article/amazon-layoffs-jobs-cuts-jassy-0e857f39702de134c8f677c5b5731688?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_09"
-  ],
-  [
-    "The maddest March ever? Underdogs head to the Sweet 16",
-    "https://apnews.com/article/march-madness-sweet-16-49841b96269369ec82b3325939c26e25?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_11"
-  ],
-  [
-    "Millions of rotting fish to be removed from Outback river",
-    "https://apnews.com/article/dead-fish-australia-river-8cf09f1b59b20920de86c362f3542eb2"
-  ],
-  [
-    "Adam Sandler gets Mark Twain prize surrounded by celeb pals",
-    "https://apnews.com/article/mark-twain-prize-adam-sandler-kennedy-center-318c5052ac3e184e7384b1398573692f"
-  ],
-  [
-    "With overdoses up, states look at harsher fentanyl penalties",
-    "https://apnews.com/article/fentanyl-penalties-state-legislatures-98a97e53a984e8f5a265ed229199ecb1"
-  ],
-  [
-    "Miami Beach sets spring break curfew after 2 fatal shootings",
-    "https://apnews.com/article/miami-beach-spring-break-curfew-shootings-67a77b4b8954ace2f29d9f19fbe1272b"
-  ],
-  [
-    "Cuban baseball team draws ire, support in Little Havana",
-    "https://apnews.com/article/world-baseball-classic-cuba-little-havana-usa-2ba6986b33af8109bb55c58179ddaca7"
-  ],
-  [
-    "20 years after U.S. invasion, young Iraqis see signs of hope",
-    "https://apnews.com/article/iraq-war-invasion-anniversary-saddam-hussein-47b558083aad51d96106bc72342c49ea"
+    "Digital literacy: Can the republic 'survive an algorithm'?",
+    "https://apnews.com/article/misinformation-education-election-vaccine-canada-finland-e7d6eed63f3db289bf887605c99ab5c5"
   ],
   [
     "Ski resorts are embracing a new role: climate activist",
@@ -72,111 +80,123 @@
     "https://apnews.com/article/ohio-train-derailment-russia-disinformation-twitter-musk-49af27699727d6f4157a5d6d5f35819b"
   ],
   [
-    "How a warrant for Putin puts new spin on Xi visit to Russia",
-    "https://apnews.com/article/us-russia-china-ukraine-icc-putin-57774b3a58d6ec1c75c921f71d9ebe90"
+    "Super seniors lead the way into March Madness Sweet 16",
+    "https://apnews.com/article/march-madness-sweet-16-e2864238342a12a51c6659da4841d050"
   ],
   [
-    "El Salvador: 2,000 more to prison, vows will 'never return'",
-    "https://apnews.com/article/el-salvador-gang-crackdown-prison-state-of-emergency-d95e1fcd5b806c38077ffb060c8c2f48"
+    "Transfer portal provided boost for most March Madness teams",
+    "https://apnews.com/article/march-madness-transfer-portal-0b9862a4e4e4b6da08ce56b3eb2c443a"
   ],
   [
-    "March Madness: Sweet 16 matchups are set after wild weekend",
-    "https://apnews.com/article/march-madness-2023-e8fe1bfd7964f938781458952670f51a"
+    "March Madness allows Vols to showcase SEC's rugged style",
+    "https://apnews.com/article/march-madness-tennessee-volunteers-sweet-16-6101a6abb9002fc8a4fd525f710d9748"
   ],
   [
-    "Ole Miss stuns Stanford, reaches first Sweet 16 in 16 years",
-    "https://apnews.com/article/march-madness-stanford-ole-miss-upset-343e0c5133f71952c84a80c08ffd7694"
+    "Tobin Anderson leaving FDU to replace Rick Pitino at Iona",
+    "https://apnews.com/article/march-madness-iona-fdu-anderson-pitino-dae6ca2272dddfbbd8e39dce02d3ae96"
   ],
   [
-    "Nowell's huge 2nd half leads Kansas State past Kentucky",
-    "https://apnews.com/article/sports-kansas-xavier-musketeers-march-madness-f257475282af438001f012bfb676faf0"
+    "Jerome Tang has rising Kansas State feeling sweet again",
+    "https://apnews.com/article/march-madness-sweet-16-kansas-tang-63e449c8d08c70b3726732c7246bb7a5"
   ],
   [
-    "Gonzaga, Timme move to Sweet 16 with 84-81 win over TCU",
-    "https://apnews.com/article/march-madness-gonzaga-tcu-e8043bbb481f087f576da9573db4edd7"
+    "Ukraine, IMF agree on $15.6 billion loan package",
+    "https://apnews.com/article/ukraine-imf-loan-package-russia-war-a88adb2e9778337d8655eeb268826ff8"
   ],
   [
-    "March Madness betting guide: Upsets shuffle favorites' odds",
-    "https://apnews.com/article/march-madness-betting-favorite-odds-149e49842f90412a306dcbd1f0279a6c"
+    "Ukraine, Russia trade claims after blast rocks Crimean town",
+    "https://apnews.com/article/drone-strike-crimea-missile-ukraine-russia-51bc8b2f20592382d843395ea269e3df"
   ],
   [
-    "Volunteer doctors providing critical care near Ukraine war front lines",
-    "https://apnews.com/article/russia-ukraine-war-volunteer-doctors-mobile-clinics-67aec494c68bca987ebd74b8bec4fd46"
+    "Putin hosts Xi in the Kremlin with imperial palace pageantry",
+    "https://apnews.com/article/xi-putin-russia-china-summit-06b296bc6b1c0c73634ed6329d9d2015"
   ],
   [
-    "EU's top diplomat hails deal on artillery shells for Ukraine",
-    "https://apnews.com/article/ukraine-eu-ammunition-defense-a507b2cececc4a78ba1b604df59d6b07"
+    "Russia's reliance on China rises amid Ukraine sanctions",
+    "https://apnews.com/article/china-russia-putin-jinping-oil-9b72c07fe4738998f5142389506fd35f"
   ],
   [
-    "Putin makes surprise trip to occupied Mariupol",
-    "https://apnews.com/article/russia-ukraine-war-5482b8f62cc70efbdbeb0b3f492c0393"
+    "Japan's Kishida in Poland for talks after visit to Ukraine",
+    "https://apnews.com/article/poland-japan-kishida-visit-russia-ukraine-war-4ebb62eeabf6503ee3209d7cbdd4312a"
   ],
   [
-    "US sending ammunition, tanker trucks, boats to Ukraine",
-    "https://apnews.com/article/ukraine-aid-ammunition-riverine-boats-91b4aa084c7e00bd7c93ef8b857b1509"
+    "UK inflation jumps to 10.4%, surprising analysts",
+    "https://apnews.com/article/britain-inflation-f254e30ff0dab3fc52c0dd59992d9c66"
   ],
   [
-    "Countries urged to rally behind court probes in Ukraine",
-    "https://apnews.com/article/ukraine-uk-war-crimes-conference-icc-2facdba93e4dae9bb4d27027c6aadbe8"
+    "Asian shares advance on back of Wall Street rally",
+    "https://apnews.com/article/shares-stocks-markets-federal-yellen-suisse-264e76ad84ece33bf1d06b8a0adfbf75"
   ],
   [
-    "Credit Suisse shares fall, but UBS deal raises hope on banks",
-    "https://apnews.com/article/credit-suisse-ubs-swiss-bank-svb-7d4c2c82b6df9830c0254ef0de62e870"
+    "AP PHOTOS: Marseille carnival melds resistance with revelry",
+    "https://apnews.com/article/france-carnival-marseille-protests-police-fd4af3f39914ce4e209bf53ffc4c0fcf"
   ],
   [
-    "Silicon Valley Bank successor's auction extended by FDIC",
-    "https://apnews.com/article/silicon-valley-fdic-bank-bidding-eb9a7e4a326aa231f9ff80438db60002"
+    "Boris Johnson faces high-stakes grilling over 'partygate'",
+    "https://apnews.com/article/boris-johnson-partygate-coronavirus-rules-uk-parliament-dec689d91755940254e94c2d23704298"
   ],
   [
-    "Fed's tough challenge: Confront inflation and bank jitters",
-    "https://apnews.com/article/inflation-interest-rates-federal-reserve-banks-recession-232be412196916317f583f73445bd149"
+    "After Greek rail disaster, trains gradually restart",
+    "https://apnews.com/article/greece-train-collision-elections-33c69746079f78092de616dba00ed1d9"
   ],
   [
-    "Wall Street strengthens after big bank deal, regulator moves",
-    "https://apnews.com/article/stocks-shares-markets-economy-suisse-ubs-036b8fe51eb1f275f1e743a49115b493"
+    "US speeds up Abrams tank delivery to Ukraine war zone",
+    "https://apnews.com/article/ukraine-russia-war-abrams-tanks-94294a9c1e1acc50098afa440bcb4d40"
   ],
   [
-    "New York Community Bank to buy failed Signature Bank",
-    "https://apnews.com/article/signature-fdic-failure-new-york-community-bank-3c820646cc6574439fa158095594505e"
+    "Yellen says bank situation stabilizing, different from 2008",
+    "https://apnews.com/article/yellen-bank-collapse-silicon-valley-first-republic-6f5537524e1883c04e9488bae83a0345"
   ],
   [
-    "US: War crimes on all sides in Ethiopia's Tigray conflict",
-    "https://apnews.com/article/blinken-ethiopia-tigray-eritrea-war-crimes-da5d9ac7c900c58cc34b9ca5d4156667"
+    "Pence seeks 'common sense' Social Security, Medicare reform",
+    "https://apnews.com/article/pence-social-security-medicare-president-2024-fc87ee66f6da6bc97413231efddfaf06"
   ],
   [
-    "Prosecutors rest in sedition case against Proud Boys leaders",
-    "https://apnews.com/article/capitol-riot-proud-boys-enrique-tarrio-trial-bbaac6ea3f710a4f1b5e6555821510ee"
+    "UN: 26% of world lacks clean drinking water, 46% sanitation",
+    "https://apnews.com/article/un-water-sanitation-conference-7a3671dc74f788e36adff9ef9879ed91"
   ],
   [
-    "Biden's appeals court nominee faces rare Democratic scrutiny",
-    "https://apnews.com/article/biden-judicial-nominee-delaney-abortion-new-hampshire-68f2a0ed839c743873a16924a8bce148"
+    "Springsteen, Kaling, Louis-Dreyfus among 22 honored by Biden",
+    "https://apnews.com/article/biden-arts-humanities-63742a82542683ebf0c3ed818cb572bb"
   ],
   [
-    "Trump lawyers attack Georgia grand jury and prosecutor",
-    "https://apnews.com/article/trump-georgia-grand-jury-filing-prosecutors-b92649f938006c325d9c6aa68f5cc857"
+    "Review: John Wick gets even more stylish in fourth episode",
+    "https://apnews.com/article/john-wick-4-movie-review-d6350c7f8ceda029dd033bb60998f5c8"
   ],
   [
-    "Digital literacy: Can the republic 'survive an algorithm'?",
-    "https://apnews.com/article/misinformation-education-election-vaccine-canada-finland-e7d6eed63f3db289bf887605c99ab5c5"
+    "Reborn Ringling Bros. circus to leap on tour \u2014 minus animals",
+    "https://apnews.com/article/circus-ringling-feld-bailey-tour-e55f8ee37e9b645a5d9c72e58992e9c2"
   ],
   [
-    "Jeremy Scott leaves Moschino after 10 years at fashion house",
-    "https://apnews.com/article/jeremy-scott-moschino-fashion-2aff0a2b4157ae06734951817a5809fd"
+    "'John Wick' stars honor late co-star Lance Reddick",
+    "https://apnews.com/article/lance-reddick-john-wick-4-tributes-ff6cd68e124bd84892862c691d043fe2"
   ],
   [
-    "Anthony Fauci documentary on PBS covers a career of crises",
-    "https://apnews.com/article/anthony-fauci-documentary-pbs-93eba2bb0c55cd37fdf8518d0a94ab5c"
+    "Paul Newman's camp for sick kids rises from the ashes",
+    "https://apnews.com/article/paul-newman-camp-fire-29dda4e2da432496c28366764ca2dde2"
   ],
   [
-    "Mae Muller wrote a song, now represents UK at Eurovision",
-    "https://apnews.com/article/eurovision-mae-muller-uk-8b92bb8bd99abb7467b27588cd23de39"
+    "'Succession' star Sarah Snook pregnant with 1st child",
+    "https://apnews.com/article/sarah-snook-pregnant-succession-c520d613214d642244be0933a931f2c3"
   ],
   [
-    "Review: Stunning new novel about a family and mental illness",
-    "https://apnews.com/article/commitment-mona-simpson-book-review-8b9b82bffdf7bff4336a8c229d89b9ff"
+    "All-Stars of Team USA outmatched, outpitched in WBC final",
+    "https://apnews.com/article/team-usa-trout-betts-wbc-miami-5292eeb5d05713092092e497567279a4"
   ],
   [
-    "New this week: 'Top Gun,' Lana Del Rey and 'Rabbit Hole'",
-    "https://apnews.com/article/streaming-tv-music-video-movies-week-c135dd1c98c80702163165377776170e"
+    "George leaves with injury as Clippers lose to Thunder",
+    "https://apnews.com/article/thunder-clippers-nba-a4b32b5a8346a1ed6bd724bacfdac524"
+  ],
+  [
+    "Willis Reed, leader on Knicks' 2 title teams, dies at 80",
+    "https://apnews.com/article/willis-reed-dies-knicks-7a86a451386ef4a2d65372d7919d930d"
+  ],
+  [
+    "WBC returns in March 2026, retaining spring training slot",
+    "https://apnews.com/article/world-baseball-classic-wbc-manfred-japan-us-4497d5f9ac9ce59e00777a799d1f4e1b"
+  ],
+  [
+    "MLB plans to announce rules tweaks, week before opening day",
+    "https://apnews.com/article/pitch-clock-defensive-shifts-mlb-manfred-1721a4f0c7c05b1ad511a20dd57018bd"
   ]
 ]

@@ -4,7 +4,7 @@ Newsmax,en,https://newsmax.com,//div[@id='nmCanvas1Headline']//h1 | //div[@id='n
 The Washington Times,en,https://washingtontimes.com,//div[@class='homeholding']//article/h2/a,.,46
 The New York Times,en,https://www.nytimes.com/,"//section[contains(@class, 'story-wrapper')]//h3[contains(@class, 'indicate-hover')]",ancestor::a,67
 New York Post,en,https://nypost.com/,"//h2[contains(@class, 'story__headline')][a]",a,38
-Associated Press,en,https://apnews.com/,"//div[@class='Body']//a/h2 | //article[@class='cards']//h4",ancestor::a,45
+Associated Press,en,https://apnews.com/,"//div[@class='Body']//a[contains(@class, 'headline')]/h2 | //article[@class='cards']//h3",ancestor::a,45
 NBC News,en,https://www.nbcnews.com/,"//div[@class='tease-card__info']//*[self::h2 or self::h3]/a | //*[contains(@class, 'styles_headline') and (self::h2 or self::h3)]/a",.,67
 Newsweek,en,https://www.newsweek.com/,"//article//*[self::h1 or self::h3 or self::h4 or self::li]/a | //div[@class='title' or @class='info']/a",.,102
 One America News Network (OAN),en,https://www.oann.com/,//div[@class='site']//h2/a[@title],.,28

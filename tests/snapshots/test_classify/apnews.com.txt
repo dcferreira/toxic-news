@@ -2,66 +2,258 @@
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Trump\u2019s call for protests gets muted reaction by supporters",
+    "text": "What to know about Alvin Bragg, the Manhattan DA investigating Trump",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.007050469983369112,
-      "severe_toxicity": 1.1993223779427353e-05,
-      "obscene": 0.0001376831205561757,
-      "identity_attack": 0.00011855203774757683,
-      "insult": 0.003079379675909877,
-      "threat": 4.018085019197315e-05,
-      "sexual_explicit": 2.381867670919746e-05
+      "toxicity": 0.0009784552967175841,
+      "severe_toxicity": 1.9939379853894934e-05,
+      "obscene": 0.00016144370601978153,
+      "identity_attack": 0.00010773905523819849,
+      "insult": 0.0004018179897684604,
+      "threat": 2.7726335247280076e-05,
+      "sexual_explicit": 1.9742654330912046e-05
     },
-    "url": "https://apnews.com/article/trump-indictment-new-york-jan-6-protest-f19306253133d9dacd65667bd5b4650c?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_01"
+    "url": "https://apnews.com/article/who-is-alvin-bragg-trump-manhattan-da-d77a4ec8df9a2b2b35f6e8bb9a52a5a7?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_01"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "US aid worker and French journalist freed in West Africa",
+    "text": "Fed facing a blurrier outlook as it meets to weigh rate hike",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000496127235237509,
-      "severe_toxicity": 2.3380815036944114e-05,
-      "obscene": 0.00015284030814655125,
-      "identity_attack": 0.00014249556988943368,
-      "insult": 0.00024227694666478783,
-      "threat": 2.6091198378708214e-05,
-      "sexual_explicit": 2.492329258529935e-05
+      "toxicity": 0.0004514171159826219,
+      "severe_toxicity": 2.6005918698501773e-05,
+      "obscene": 0.00011443589755799621,
+      "identity_attack": 0.00010597497021080926,
+      "insult": 0.00017273997946176678,
+      "threat": 4.905021341983229e-05,
+      "sexual_explicit": 2.3810183847672306e-05
     },
-    "url": "https://apnews.com/article/niger-hostage-captive-biden-woodke-b94936724080252ad5a1a3070b986d2a?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_04"
+    "url": "https://apnews.com/article/federal-reserve-inflation-banks-interest-rates-jobs-91a9185ebce972bbf5ab1f46654f1a53?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_03"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Putin welcomes China\u2019s Xi to Kremlin amid Ukraine fighting",
+    "text": "Ohtani fans Trout, Japan tops US 3-2 for WBC championship",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004879873595200479,
-      "severe_toxicity": 2.68330259132199e-05,
-      "obscene": 0.00013187374861445278,
-      "identity_attack": 0.0001477120677009225,
-      "insult": 0.0001725822512526065,
-      "threat": 5.5991557019297034e-05,
-      "sexual_explicit": 2.2468473616754636e-05
+      "toxicity": 0.0010801356984302402,
+      "severe_toxicity": 3.6948840715922415e-05,
+      "obscene": 0.00035551199107430875,
+      "identity_attack": 0.0002132361551048234,
+      "insult": 0.00042516173562034965,
+      "threat": 7.965143595356494e-05,
+      "sexual_explicit": 4.8355093895224854e-05
     },
-    "url": "https://apnews.com/article/russia-ukraine-china-xi-putin-meeting-d989e5c65ff762c1af91215d6dd2cf6e?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_06"
+    "url": "https://apnews.com/article/world-baseball-classic-japan-us-ohtani-trout-09c620b87260f7d8e8736ccc8fd950a6?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_04"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Top Israeli minister: \u2018No such thing\u2019 as Palestinian people",
+    "text": "Arkansas restricts school bathroom use by transgender people",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.04027711972594261,
-      "severe_toxicity": 6.319092062767595e-05,
-      "obscene": 0.0010377953294664621,
-      "identity_attack": 0.034538354724645615,
-      "insult": 0.008042593486607075,
-      "threat": 0.00022538819757755846,
-      "sexual_explicit": 0.00011458998051239178
+      "toxicity": 0.7687443494796753,
+      "severe_toxicity": 0.00019946078828070313,
+      "obscene": 0.0012213977752253413,
+      "identity_attack": 0.6402686834335327,
+      "insult": 0.05114158242940903,
+      "threat": 0.0020049489103257656,
+      "sexual_explicit": 0.001259355223737657
     },
-    "url": "https://apnews.com/article/israel-palestinians-netanyahu-smotrich-tensions-38150d2ba81f571b1d5333dd7b046af0?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_08"
+    "url": "https://apnews.com/article/huckabee-sanders-schools-bathroom-transgender-lgbtq-6fc56daa21e1ce7f8189248dcc37588b?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_05"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "China, Japan leaders end visits to warring capitals",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0013992891181260347,
+      "severe_toxicity": 2.390749978076201e-05,
+      "obscene": 9.512928954791278e-05,
+      "identity_attack": 0.00044604844879359007,
+      "insult": 0.0001802229235181585,
+      "threat": 7.272612856468186e-05,
+      "sexual_explicit": 2.4850598492776044e-05
+    },
+    "url": "https://apnews.com/article/russia-ukraine-war-xi-china-japan-kishida-summit-07af10f35b16472d12549875af420d08?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_06"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Doctors expected to testify in Gwyneth Paltrow\u2019s ski trial",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0006164813530631363,
+      "severe_toxicity": 2.071162271022331e-05,
+      "obscene": 0.00013082493387628347,
+      "identity_attack": 9.058315481524915e-05,
+      "insult": 0.00019920307386200875,
+      "threat": 4.5833916374249384e-05,
+      "sexual_explicit": 2.8750484489137307e-05
+    },
+    "url": "https://apnews.com/article/gwyneth-paltrow-utah-ski-collision-trial-8bca6c9d5e8a1eb41fc0264effead79e?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_07"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Effort to recall New Orleans\u2019 first female mayor fails",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.006614627782255411,
+      "severe_toxicity": 5.340850111679174e-05,
+      "obscene": 0.0003821742138825357,
+      "identity_attack": 0.0006498682196252048,
+      "insult": 0.001912625739350915,
+      "threat": 0.0002177739515900612,
+      "sexual_explicit": 0.00030083826277405024
+    },
+    "url": "https://apnews.com/article/new-orleans-mayor-recall-fails-latoya-cantrell-e0d405e7defa27bb2c098c1d840c0997?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_08"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Kurds remain biggest winners from US-led invasion of Iraq",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0012363661080598831,
+      "severe_toxicity": 2.8859980375273153e-05,
+      "obscene": 0.00014658845611847937,
+      "identity_attack": 0.0004795586282853037,
+      "insult": 0.00023993516515474766,
+      "threat": 7.338663999689743e-05,
+      "sexual_explicit": 2.8240485335118137e-05
+    },
+    "url": "https://apnews.com/article/iraq-us-invasion-kurds-3223a368f3ad26fbe6760de477d6b973?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_09"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "South Korea says North Korea test-fires cruise missiles",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.004551527090370655,
+      "severe_toxicity": 8.527962927473709e-05,
+      "obscene": 0.0003668360295705497,
+      "identity_attack": 0.0007033806177787483,
+      "insult": 0.0003374422376509756,
+      "threat": 0.0015729317674413323,
+      "sexual_explicit": 0.00010967590060317889
+    },
+    "url": "https://apnews.com/article/north-korea-missiles-f7584ba0845643c1e5892720092ccebf?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_10"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "March Madness Mix: Dominant Gamecocks amid Sweet 16 parity",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0027050261851400137,
+      "severe_toxicity": 0.00017254753038287163,
+      "obscene": 0.002619040897116065,
+      "identity_attack": 0.0005878236261196434,
+      "insult": 0.00517595699056983,
+      "threat": 0.00015728081052657217,
+      "sexual_explicit": 0.0001140452513936907
+    },
+    "url": "https://apnews.com/article/march-madness-undefeated-south-carolina-staley-c8ef02da16d3a4c390779374db48e0d0?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_11"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "'Winnie the Pooh' film pulled from Hong Kong cinemas",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0003275680646765977,
+      "severe_toxicity": 8.510666521033272e-05,
+      "obscene": 0.0007774404948577285,
+      "identity_attack": 0.00017969186592381448,
+      "insult": 0.000550028053112328,
+      "threat": 7.406507938867435e-05,
+      "sexual_explicit": 6.816958193667233e-05
+    },
+    "url": "https://apnews.com/article/hong-kong-winnie-pooh-censorship-film-613ba02ab3cd453635f851bf1fbb071e"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Morant apologizes again after NBA suspension for mistakes",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.1194796934723854,
+      "severe_toxicity": 3.0467112082988024e-05,
+      "obscene": 0.00058683444513008,
+      "identity_attack": 0.00018133161938749254,
+      "insult": 0.10300557315349579,
+      "threat": 8.862339018378407e-05,
+      "sexual_explicit": 0.00011278253805357963
+    },
+    "url": "https://apnews.com/article/grizzlies-ja-morant-21a9869c39dcff8d0ca2ca0c8c1ff10c"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Messi mania in Argentina as soccer star mobbed at restaurant",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.03516253083944321,
+      "severe_toxicity": 8.763359801378101e-05,
+      "obscene": 0.001348181045614183,
+      "identity_attack": 0.0024144102353602648,
+      "insult": 0.0067764814011752605,
+      "threat": 0.000686872168444097,
+      "sexual_explicit": 0.00034509654506109655
+    },
+    "url": "https://apnews.com/article/messi-argentina-don-julio-restaurant-5c6cd0fa9f4b928fac909560395d4b61"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Def Leppard drummer recovering from attack outside hotel",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.002253489103168249,
+      "severe_toxicity": 3.6033492506248876e-05,
+      "obscene": 0.000544820271898061,
+      "identity_attack": 0.00011355627793818712,
+      "insult": 0.0011259543243795633,
+      "threat": 5.339877316146158e-05,
+      "sexual_explicit": 5.5075193813536316e-05
+    },
+    "url": "https://apnews.com/article/def-leppard-drummer-rick-allen-attacked-florida-074028cc3498d239cfccfc172b48f28a"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Sleepless night after Pakistan, Afghanistan quake kills 13",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0901215672492981,
+      "severe_toxicity": 0.00010204595309915021,
+      "obscene": 0.000848725438117981,
+      "identity_attack": 0.016733763739466667,
+      "insult": 0.004655222408473492,
+      "threat": 0.004320200067013502,
+      "sexual_explicit": 0.0002644550986588001
+    },
+    "url": "https://apnews.com/article/earthquake-pakistan-afghanistan-taliban-4dce3d7302ef95f3691afc4df7c025a1"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Ignoring experts, China's sudden zero-COVID exit cost lives",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.06712107360363007,
+      "severe_toxicity": 1.3779483197140507e-05,
+      "obscene": 0.00025021322653628886,
+      "identity_attack": 0.0002761476207524538,
+      "insult": 0.038774274289608,
+      "threat": 6.986603693803772e-05,
+      "sexual_explicit": 3.563642894732766e-05
+    },
+    "url": "https://apnews.com/article/zero-covid-exit-china-reopening-investigation-05e1bf6d14e3b77ade26b719093ac43b"
   },
   {
     "newspaper": "Associated Press",
@@ -77,183 +269,23 @@
       "threat": 0.0002344282402191311,
       "sexual_explicit": 0.00039586020284332335
     },
-    "url": "https://apnews.com/article/lgbtq-book-bans-91b2d4c086eb082cbecfdda2800ef29a?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_10"
+    "url": "https://apnews.com/article/lgbtq-book-bans-91b2d4c086eb082cbecfdda2800ef29a"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "World on \u2018thin ice\u2019 as UN climate report gives stark warning",
+    "text": "Digital literacy: Can the republic 'survive an algorithm'?",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004238748224452138,
-      "severe_toxicity": 2.149658939742949e-05,
-      "obscene": 0.00010844127245945856,
-      "identity_attack": 8.583792805438861e-05,
-      "insult": 0.0001653160434216261,
-      "threat": 3.067325087613426e-05,
-      "sexual_explicit": 2.170480729546398e-05
+      "toxicity": 0.000510352780111134,
+      "severe_toxicity": 2.0314693756517954e-05,
+      "obscene": 0.00011545348388608545,
+      "identity_attack": 9.207129187416285e-05,
+      "insult": 0.00021635233133565634,
+      "threat": 3.5925855627283454e-05,
+      "sexual_explicit": 2.0817187760258093e-05
     },
-    "url": "https://apnews.com/article/un-climate-change-report-ipcc-guterres-science-30d8451c0f3fb7b8a857e3ed4fd01172?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_03"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "2 students hurt in Texas school shooting, suspect arrested",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.0011744736693799496,
-      "severe_toxicity": 3.775118966586888e-05,
-      "obscene": 0.00015907881606835872,
-      "identity_attack": 0.00014902905968483537,
-      "insult": 0.00015971687389537692,
-      "threat": 0.00016398487787228078,
-      "sexual_explicit": 0.00012040426372550428
-    },
-    "url": "https://apnews.com/article/texas-school-shooting-arlington-lamar-students-9c0e6db8be95fea41cbf250c1e70c9ae?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_05"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "Miami Beach struggles with spring break violence, big crowds",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.005895194597542286,
-      "severe_toxicity": 0.00012315946514718235,
-      "obscene": 0.0009908727370202541,
-      "identity_attack": 0.0005818118224851787,
-      "insult": 0.0006259728106670082,
-      "threat": 0.0011818272760137916,
-      "sexual_explicit": 0.00020707023213617504
-    },
-    "url": "https://apnews.com/article/miami-beach-spring-break-shootings-curfew-8b72d3ad074f087025fbcd828ce6c79c?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_07"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "Amazon cuts 9,000 more jobs, bringing 2023 total to 27,000",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.0003196110192220658,
-      "severe_toxicity": 3.6284662201069295e-05,
-      "obscene": 0.0002043872227659449,
-      "identity_attack": 0.00010893315629800782,
-      "insult": 0.00017539183318149298,
-      "threat": 5.0856844609370455e-05,
-      "sexual_explicit": 3.012667366419919e-05
-    },
-    "url": "https://apnews.com/article/amazon-layoffs-jobs-cuts-jassy-0e857f39702de134c8f677c5b5731688?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_09"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "The maddest March ever? Underdogs head to the Sweet 16",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.033878814429044724,
-      "severe_toxicity": 3.27998714055866e-05,
-      "obscene": 0.0010885378578677773,
-      "identity_attack": 0.00022338249254971743,
-      "insult": 0.026781532913446426,
-      "threat": 0.00014757819008082151,
-      "sexual_explicit": 0.00012549034727271646
-    },
-    "url": "https://apnews.com/article/march-madness-sweet-16-49841b96269369ec82b3325939c26e25?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_11"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "Millions of rotting fish to be removed from Outback river",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.004694108851253986,
-      "severe_toxicity": 3.1762967410031706e-05,
-      "obscene": 0.00023304851492866874,
-      "identity_attack": 0.00033254813752137125,
-      "insult": 0.0008000161615200341,
-      "threat": 0.00040856082341633737,
-      "sexual_explicit": 6.874628888908774e-05
-    },
-    "url": "https://apnews.com/article/dead-fish-australia-river-8cf09f1b59b20920de86c362f3542eb2"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "Adam Sandler gets Mark Twain prize surrounded by celeb pals",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.0015518419677391648,
-      "severe_toxicity": 3.0136186978779733e-05,
-      "obscene": 0.0005117640248499811,
-      "identity_attack": 0.00010646763985278085,
-      "insult": 0.0008285084622912109,
-      "threat": 4.24649660999421e-05,
-      "sexual_explicit": 5.839998266310431e-05
-    },
-    "url": "https://apnews.com/article/mark-twain-prize-adam-sandler-kennedy-center-318c5052ac3e184e7384b1398573692f"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "With overdoses up, states look at harsher fentanyl penalties",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.0008739270851947367,
-      "severe_toxicity": 2.2940255803405307e-05,
-      "obscene": 8.948183676693588e-05,
-      "identity_attack": 0.00015465670730918646,
-      "insult": 0.00019520788919180632,
-      "threat": 6.55176627333276e-05,
-      "sexual_explicit": 2.30150453717215e-05
-    },
-    "url": "https://apnews.com/article/fentanyl-penalties-state-legislatures-98a97e53a984e8f5a265ed229199ecb1"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "Miami Beach sets spring break curfew after 2 fatal shootings",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.007185469381511211,
-      "severe_toxicity": 9.287310967920348e-05,
-      "obscene": 0.0003869145002681762,
-      "identity_attack": 0.0002639913291204721,
-      "insult": 0.00046265823766589165,
-      "threat": 0.0031066241208463907,
-      "sexual_explicit": 0.00011953484499827027
-    },
-    "url": "https://apnews.com/article/miami-beach-spring-break-curfew-shootings-67a77b4b8954ace2f29d9f19fbe1272b"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "Cuban baseball team draws ire, support in Little Havana",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.0022409160155802965,
-      "severe_toxicity": 6.186084647197276e-05,
-      "obscene": 0.0006631763535551727,
-      "identity_attack": 0.0003236166085116565,
-      "insult": 0.0007812358671799302,
-      "threat": 0.00016260005941148847,
-      "sexual_explicit": 9.979500464396551e-05
-    },
-    "url": "https://apnews.com/article/world-baseball-classic-cuba-little-havana-usa-2ba6986b33af8109bb55c58179ddaca7"
-  },
-  {
-    "newspaper": "Associated Press",
-    "language": "en",
-    "text": "20 years after U.S. invasion, young Iraqis see signs of hope",
-    "date": "2000-01-01T00:00:00",
-    "scores": {
-      "toxicity": 0.00034308942849747837,
-      "severe_toxicity": 3.427852425375022e-05,
-      "obscene": 0.0001385095383739099,
-      "identity_attack": 0.0001885839010355994,
-      "insult": 0.00012176311429357156,
-      "threat": 4.890588752459735e-05,
-      "sexual_explicit": 2.86783033516258e-05
-    },
-    "url": "https://apnews.com/article/iraq-war-invasion-anniversary-saddam-hussein-47b558083aad51d96106bc72342c49ea"
+    "url": "https://apnews.com/article/misinformation-education-election-vaccine-canada-finland-e7d6eed63f3db289bf887605c99ab5c5"
   },
   {
     "newspaper": "Associated Press",
@@ -277,12 +309,12 @@
     "text": "Pro-Moscow voices tried to steer Ohio train disaster debate",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007400509784929454,
+      "toxicity": 0.0007400498725473881,
       "severe_toxicity": 2.865309579647146e-05,
-      "obscene": 0.00012654333841055632,
-      "identity_attack": 0.00018404165166430175,
+      "obscene": 0.00012654345482587814,
+      "identity_attack": 0.00018404146248940378,
       "insult": 0.00023335512378253043,
-      "threat": 4.6325858420459554e-05,
+      "threat": 4.632589843822643e-05,
       "sexual_explicit": 2.049652539426461e-05
     },
     "url": "https://apnews.com/article/ohio-train-derailment-russia-disinformation-twitter-musk-49af27699727d6f4157a5d6d5f35819b"
@@ -290,433 +322,481 @@
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "How a warrant for Putin puts new spin on Xi visit to Russia",
+    "text": "Super seniors lead the way into March Madness Sweet 16",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005498488317243755,
-      "severe_toxicity": 2.1437997929751873e-05,
-      "obscene": 0.00013284037413541228,
-      "identity_attack": 0.00010613343329168856,
-      "insult": 0.00024834158830344677,
-      "threat": 4.325431291363202e-05,
-      "sexual_explicit": 2.1453353838296607e-05
+      "toxicity": 0.00047829386312514544,
+      "severe_toxicity": 1.9962097212555818e-05,
+      "obscene": 0.0001515182520961389,
+      "identity_attack": 7.712425576755777e-05,
+      "insult": 0.00023541622795164585,
+      "threat": 3.291166649432853e-05,
+      "sexual_explicit": 2.5107459805440158e-05
     },
-    "url": "https://apnews.com/article/us-russia-china-ukraine-icc-putin-57774b3a58d6ec1c75c921f71d9ebe90"
+    "url": "https://apnews.com/article/march-madness-sweet-16-e2864238342a12a51c6659da4841d050"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "El Salvador: 2,000 more to prison, vows will 'never return'",
+    "text": "Transfer portal provided boost for most March Madness teams",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.006329110823571682,
-      "severe_toxicity": 1.842677011154592e-05,
-      "obscene": 0.0001353754778392613,
-      "identity_attack": 0.0007485035457648337,
-      "insult": 0.0008303598733618855,
-      "threat": 0.00024273869348689914,
-      "sexual_explicit": 5.6378183217020705e-05
+      "toxicity": 0.0003765274886973202,
+      "severe_toxicity": 3.150305201415904e-05,
+      "obscene": 0.00022065032680984586,
+      "identity_attack": 0.00011484901187941432,
+      "insult": 0.0002690239925868809,
+      "threat": 3.992326310253702e-05,
+      "sexual_explicit": 2.5183908292092383e-05
     },
-    "url": "https://apnews.com/article/el-salvador-gang-crackdown-prison-state-of-emergency-d95e1fcd5b806c38077ffb060c8c2f48"
+    "url": "https://apnews.com/article/march-madness-transfer-portal-0b9862a4e4e4b6da08ce56b3eb2c443a"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "March Madness: Sweet 16 matchups are set after wild weekend",
+    "text": "March Madness allows Vols to showcase SEC's rugged style",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004468164115678519,
-      "severe_toxicity": 3.62073042197153e-05,
-      "obscene": 0.00024147210933733732,
-      "identity_attack": 0.00012277744826860726,
-      "insult": 0.00026006714324466884,
-      "threat": 5.823781248182058e-05,
-      "sexual_explicit": 3.269023000029847e-05
+      "toxicity": 0.006058159284293652,
+      "severe_toxicity": 2.055593540717382e-05,
+      "obscene": 0.0004367224173620343,
+      "identity_attack": 0.00012056844570906833,
+      "insult": 0.0029840359929949045,
+      "threat": 4.8349240387324244e-05,
+      "sexual_explicit": 5.761136708315462e-05
     },
-    "url": "https://apnews.com/article/march-madness-2023-e8fe1bfd7964f938781458952670f51a"
+    "url": "https://apnews.com/article/march-madness-tennessee-volunteers-sweet-16-6101a6abb9002fc8a4fd525f710d9748"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Ole Miss stuns Stanford, reaches first Sweet 16 in 16 years",
+    "text": "Tobin Anderson leaving FDU to replace Rick Pitino at Iona",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004413898568600416,
-      "severe_toxicity": 4.259633715264499e-05,
-      "obscene": 0.00038800397305749357,
-      "identity_attack": 8.053740748437122e-05,
-      "insult": 0.00034038699232041836,
-      "threat": 4.892646029475145e-05,
-      "sexual_explicit": 8.42396475491114e-05
+      "toxicity": 0.0003280043019913137,
+      "severe_toxicity": 3.634395034168847e-05,
+      "obscene": 0.00026229507056996226,
+      "identity_attack": 0.00010717946133809164,
+      "insult": 0.00031837780261412263,
+      "threat": 4.680459096562117e-05,
+      "sexual_explicit": 3.31737392116338e-05
     },
-    "url": "https://apnews.com/article/march-madness-stanford-ole-miss-upset-343e0c5133f71952c84a80c08ffd7694"
+    "url": "https://apnews.com/article/march-madness-iona-fdu-anderson-pitino-dae6ca2272dddfbbd8e39dce02d3ae96"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Nowell's huge 2nd half leads Kansas State past Kentucky",
+    "text": "Jerome Tang has rising Kansas State feeling sweet again",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00042438568198122084,
-      "severe_toxicity": 3.478310100035742e-05,
-      "obscene": 0.00021488712809514254,
-      "identity_attack": 0.00011813111632363871,
-      "insult": 0.000287536415271461,
-      "threat": 4.837432788917795e-05,
-      "sexual_explicit": 2.8196916900924407e-05
+      "toxicity": 0.0012344762217253447,
+      "severe_toxicity": 2.676509575394448e-05,
+      "obscene": 0.00025856689899228513,
+      "identity_attack": 0.00015042664017528296,
+      "insult": 0.00048317800974473357,
+      "threat": 4.5670472900383174e-05,
+      "sexual_explicit": 3.5142191336490214e-05
     },
-    "url": "https://apnews.com/article/sports-kansas-xavier-musketeers-march-madness-f257475282af438001f012bfb676faf0"
+    "url": "https://apnews.com/article/march-madness-sweet-16-kansas-tang-63e449c8d08c70b3726732c7246bb7a5"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Gonzaga, Timme move to Sweet 16 with 84-81 win over TCU",
+    "text": "Ukraine, IMF agree on $15.6 billion loan package",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004068865964654833,
-      "severe_toxicity": 4.340558734838851e-05,
-      "obscene": 0.00033997982973232865,
-      "identity_attack": 0.00010419355385238305,
-      "insult": 0.0003835465759038925,
-      "threat": 5.1267328672111034e-05,
-      "sexual_explicit": 2.9796205126331188e-05
+      "toxicity": 0.00030383424018509686,
+      "severe_toxicity": 3.927054058294743e-05,
+      "obscene": 0.0002788491256069392,
+      "identity_attack": 0.00010697320976760238,
+      "insult": 0.00023515935754403472,
+      "threat": 4.729558349936269e-05,
+      "sexual_explicit": 3.3272430300712585e-05
     },
-    "url": "https://apnews.com/article/march-madness-gonzaga-tcu-e8043bbb481f087f576da9573db4edd7"
+    "url": "https://apnews.com/article/ukraine-imf-loan-package-russia-war-a88adb2e9778337d8655eeb268826ff8"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "March Madness betting guide: Upsets shuffle favorites' odds",
+    "text": "Ukraine, Russia trade claims after blast rocks Crimean town",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00035970594035461545,
-      "severe_toxicity": 4.225390148349106e-05,
-      "obscene": 0.00023263957700692117,
-      "identity_attack": 0.00014914477651473135,
-      "insult": 0.00026144817820750177,
-      "threat": 5.772173608420417e-05,
-      "sexual_explicit": 3.238873614463955e-05
+      "toxicity": 0.002341623418033123,
+      "severe_toxicity": 3.2839994673850015e-05,
+      "obscene": 0.000207575096283108,
+      "identity_attack": 0.0005103092407807708,
+      "insult": 0.00026486816932447255,
+      "threat": 6.645865505561233e-05,
+      "sexual_explicit": 3.100616959272884e-05
     },
-    "url": "https://apnews.com/article/march-madness-betting-favorite-odds-149e49842f90412a306dcbd1f0279a6c"
+    "url": "https://apnews.com/article/drone-strike-crimea-missile-ukraine-russia-51bc8b2f20592382d843395ea269e3df"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Volunteer doctors providing critical care near Ukraine war front lines",
+    "text": "Putin hosts Xi in the Kremlin with imperial palace pageantry",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005701866466552019,
-      "severe_toxicity": 3.1213159672915936e-05,
-      "obscene": 0.00018582702614367008,
-      "identity_attack": 0.00014168547932058573,
-      "insult": 0.0002396370400674641,
-      "threat": 5.138092819834128e-05,
-      "sexual_explicit": 2.628203947097063e-05
+      "toxicity": 0.0008498891838826239,
+      "severe_toxicity": 2.2789388822275214e-05,
+      "obscene": 0.0001892451400635764,
+      "identity_attack": 0.00010744018800323829,
+      "insult": 0.0003742800035979599,
+      "threat": 5.0614733481779695e-05,
+      "sexual_explicit": 2.5337312763440423e-05
     },
-    "url": "https://apnews.com/article/russia-ukraine-war-volunteer-doctors-mobile-clinics-67aec494c68bca987ebd74b8bec4fd46"
+    "url": "https://apnews.com/article/xi-putin-russia-china-summit-06b296bc6b1c0c73634ed6329d9d2015"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "EU's top diplomat hails deal on artillery shells for Ukraine",
+    "text": "Russia's reliance on China rises amid Ukraine sanctions",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.001166037400253117,
-      "severe_toxicity": 2.883170236600563e-05,
-      "obscene": 0.00015013945812825114,
-      "identity_attack": 0.00019143476674798876,
-      "insult": 0.00027020592824555933,
-      "threat": 0.00012554912245832384,
-      "sexual_explicit": 3.2252410164801404e-05
+      "toxicity": 0.0006109564565122128,
+      "severe_toxicity": 2.861595930880867e-05,
+      "obscene": 0.00014799092605244368,
+      "identity_attack": 0.00020965708245057613,
+      "insult": 0.00018810459005180746,
+      "threat": 5.2313644118839875e-05,
+      "sexual_explicit": 2.3673790565226227e-05
     },
-    "url": "https://apnews.com/article/ukraine-eu-ammunition-defense-a507b2cececc4a78ba1b604df59d6b07"
+    "url": "https://apnews.com/article/china-russia-putin-jinping-oil-9b72c07fe4738998f5142389506fd35f"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Putin makes surprise trip to occupied Mariupol",
+    "text": "Japan's Kishida in Poland for talks after visit to Ukraine",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0009672794840298593,
-      "severe_toxicity": 2.0744457287946716e-05,
-      "obscene": 0.00018147847731597722,
-      "identity_attack": 7.637875387445092e-05,
-      "insult": 0.0004407097876537591,
-      "threat": 4.758348950417712e-05,
-      "sexual_explicit": 4.164834172115661e-05
+      "toxicity": 0.0004668681067414582,
+      "severe_toxicity": 3.6358127545099705e-05,
+      "obscene": 0.00020500631944742054,
+      "identity_attack": 0.00019072694703936577,
+      "insult": 0.00023806525859981775,
+      "threat": 4.853874270338565e-05,
+      "sexual_explicit": 3.0488241463899612e-05
     },
-    "url": "https://apnews.com/article/russia-ukraine-war-5482b8f62cc70efbdbeb0b3f492c0393"
+    "url": "https://apnews.com/article/poland-japan-kishida-visit-russia-ukraine-war-4ebb62eeabf6503ee3209d7cbdd4312a"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "US sending ammunition, tanker trucks, boats to Ukraine",
+    "text": "UK inflation jumps to 10.4%, surprising analysts",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.004485615994781256,
-      "severe_toxicity": 5.106844400870614e-05,
-      "obscene": 0.00017157236288767308,
-      "identity_attack": 0.0019775312393903732,
-      "insult": 0.000260177010204643,
-      "threat": 0.0005358739872463048,
-      "sexual_explicit": 5.349234925233759e-05
+      "toxicity": 0.00029317571897991,
+      "severe_toxicity": 2.791454244288616e-05,
+      "obscene": 0.00013569885049946606,
+      "identity_attack": 9.366475569549948e-05,
+      "insult": 0.00016227264131885022,
+      "threat": 3.548149470589124e-05,
+      "sexual_explicit": 2.3774244255037047e-05
     },
-    "url": "https://apnews.com/article/ukraine-aid-ammunition-riverine-boats-91b4aa084c7e00bd7c93ef8b857b1509"
+    "url": "https://apnews.com/article/britain-inflation-f254e30ff0dab3fc52c0dd59992d9c66"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Countries urged to rally behind court probes in Ukraine",
+    "text": "Asian shares advance on back of Wall Street rally",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005396889173425734,
-      "severe_toxicity": 2.384742947469931e-05,
-      "obscene": 0.00012353314377833158,
-      "identity_attack": 0.00012487726053223014,
-      "insult": 0.00016852142289280891,
-      "threat": 4.643421561922878e-05,
-      "sexual_explicit": 2.476556801411789e-05
+      "toxicity": 0.0004333480028435588,
+      "severe_toxicity": 2.9348320822464302e-05,
+      "obscene": 0.00014757452299818397,
+      "identity_attack": 0.0001346930512227118,
+      "insult": 0.00017487784498371184,
+      "threat": 5.112637882120907e-05,
+      "sexual_explicit": 2.4355200366699137e-05
     },
-    "url": "https://apnews.com/article/ukraine-uk-war-crimes-conference-icc-2facdba93e4dae9bb4d27027c6aadbe8"
+    "url": "https://apnews.com/article/shares-stocks-markets-federal-yellen-suisse-264e76ad84ece33bf1d06b8a0adfbf75"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Credit Suisse shares fall, but UBS deal raises hope on banks",
+    "text": "AP PHOTOS: Marseille carnival melds resistance with revelry",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003651960287243128,
-      "severe_toxicity": 2.3463124307454564e-05,
-      "obscene": 0.000132046639919281,
-      "identity_attack": 9.265365224564448e-05,
-      "insult": 0.0001838657190091908,
-      "threat": 3.400567948119715e-05,
-      "sexual_explicit": 2.2146547053125687e-05
+      "toxicity": 0.002864764304831624,
+      "severe_toxicity": 5.846211570315063e-05,
+      "obscene": 0.0008897526422515512,
+      "identity_attack": 0.00021209738042671233,
+      "insult": 0.0013486113166436553,
+      "threat": 0.00011775290477089584,
+      "sexual_explicit": 9.418585250386968e-05
     },
-    "url": "https://apnews.com/article/credit-suisse-ubs-swiss-bank-svb-7d4c2c82b6df9830c0254ef0de62e870"
+    "url": "https://apnews.com/article/france-carnival-marseille-protests-police-fd4af3f39914ce4e209bf53ffc4c0fcf"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Silicon Valley Bank successor's auction extended by FDIC",
+    "text": "Boris Johnson faces high-stakes grilling over 'partygate'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004108120920136571,
-      "severe_toxicity": 3.3494165109004825e-05,
-      "obscene": 0.0002806858392432332,
-      "identity_attack": 0.00010324133472749963,
-      "insult": 0.0003326762525830418,
-      "threat": 3.9165450289146975e-05,
-      "sexual_explicit": 3.041511808987707e-05
+      "toxicity": 0.007452561520040035,
+      "severe_toxicity": 6.735546048730612e-05,
+      "obscene": 0.0007301629520952702,
+      "identity_attack": 0.00014381650544237345,
+      "insult": 0.0008051935001276433,
+      "threat": 0.0010908293770626187,
+      "sexual_explicit": 0.0005011102766729891
     },
-    "url": "https://apnews.com/article/silicon-valley-fdic-bank-bidding-eb9a7e4a326aa231f9ff80438db60002"
+    "url": "https://apnews.com/article/boris-johnson-partygate-coronavirus-rules-uk-parliament-dec689d91755940254e94c2d23704298"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Fed's tough challenge: Confront inflation and bank jitters",
+    "text": "After Greek rail disaster, trains gradually restart",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.003537998767569661,
-      "severe_toxicity": 3.2030522561399266e-05,
-      "obscene": 0.0006019139545969665,
-      "identity_attack": 0.00010020045010605827,
-      "insult": 0.002079065190628171,
-      "threat": 8.81772066350095e-05,
-      "sexual_explicit": 8.050362521316856e-05
+      "toxicity": 0.0006328759482130408,
+      "severe_toxicity": 3.345726145198569e-05,
+      "obscene": 0.00017796237079892308,
+      "identity_attack": 0.00019266091112513095,
+      "insult": 0.00019668835739139467,
+      "threat": 7.383053889498115e-05,
+      "sexual_explicit": 3.1454121199203655e-05
     },
-    "url": "https://apnews.com/article/inflation-interest-rates-federal-reserve-banks-recession-232be412196916317f583f73445bd149"
+    "url": "https://apnews.com/article/greece-train-collision-elections-33c69746079f78092de616dba00ed1d9"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Wall Street strengthens after big bank deal, regulator moves",
+    "text": "US speeds up Abrams tank delivery to Ukraine war zone",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00035623274743556976,
-      "severe_toxicity": 2.6401967261335813e-05,
-      "obscene": 0.0001646970777073875,
-      "identity_attack": 9.101296018343419e-05,
-      "insult": 0.00019848922966048121,
-      "threat": 3.784436557907611e-05,
-      "sexual_explicit": 2.3590495402459055e-05
+      "toxicity": 0.0008781285723671317,
+      "severe_toxicity": 3.666246993816458e-05,
+      "obscene": 0.0001534205803181976,
+      "identity_attack": 0.0002121091092703864,
+      "insult": 0.00017354248848278075,
+      "threat": 0.00010842255869647488,
+      "sexual_explicit": 3.2250933145405725e-05
     },
-    "url": "https://apnews.com/article/stocks-shares-markets-economy-suisse-ubs-036b8fe51eb1f275f1e743a49115b493"
+    "url": "https://apnews.com/article/ukraine-russia-war-abrams-tanks-94294a9c1e1acc50098afa440bcb4d40"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "New York Community Bank to buy failed Signature Bank",
+    "text": "Yellen says bank situation stabilizing, different from 2008",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006791364285163581,
-      "severe_toxicity": 2.456750371493399e-05,
-      "obscene": 0.00017194199608638883,
-      "identity_attack": 0.00011646957136690617,
-      "insult": 0.00035741584724746644,
-      "threat": 3.586010279832408e-05,
-      "sexual_explicit": 2.257909727632068e-05
+      "toxicity": 0.0002765278040897101,
+      "severe_toxicity": 3.710537566803396e-05,
+      "obscene": 0.00021415241644717753,
+      "identity_attack": 0.00011457980872364715,
+      "insult": 0.00019521961803548038,
+      "threat": 4.682593498728238e-05,
+      "sexual_explicit": 3.063390249735676e-05
     },
-    "url": "https://apnews.com/article/signature-fdic-failure-new-york-community-bank-3c820646cc6574439fa158095594505e"
+    "url": "https://apnews.com/article/yellen-bank-collapse-silicon-valley-first-republic-6f5537524e1883c04e9488bae83a0345"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "US: War crimes on all sides in Ethiopia's Tigray conflict",
+    "text": "Pence seeks 'common sense' Social Security, Medicare reform",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0022810574155300856,
-      "severe_toxicity": 2.796012813632842e-05,
-      "obscene": 0.00014514278154820204,
-      "identity_attack": 0.000825459195766598,
-      "insult": 0.0002957007382065058,
-      "threat": 0.00010622516856528819,
-      "sexual_explicit": 3.0193115890142508e-05
+      "toxicity": 0.0005930973566137254,
+      "severe_toxicity": 1.4762980754312593e-05,
+      "obscene": 0.00010057302279165015,
+      "identity_attack": 8.122825238388032e-05,
+      "insult": 0.0002534343511797488,
+      "threat": 2.5419452867936343e-05,
+      "sexual_explicit": 1.9471122868708335e-05
     },
-    "url": "https://apnews.com/article/blinken-ethiopia-tigray-eritrea-war-crimes-da5d9ac7c900c58cc34b9ca5d4156667"
+    "url": "https://apnews.com/article/pence-social-security-medicare-president-2024-fc87ee66f6da6bc97413231efddfaf06"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Prosecutors rest in sedition case against Proud Boys leaders",
+    "text": "UN: 26% of world lacks clean drinking water, 46% sanitation",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0010274730157107115,
-      "severe_toxicity": 3.2404706871602684e-05,
-      "obscene": 0.00023718347074463964,
-      "identity_attack": 7.454257865902036e-05,
-      "insult": 0.0005287544918246567,
-      "threat": 9.165091614704579e-05,
-      "sexual_explicit": 5.829977089888416e-05
+      "toxicity": 0.0006865655304864049,
+      "severe_toxicity": 1.815426367102191e-05,
+      "obscene": 0.00011585458560148254,
+      "identity_attack": 0.0001032979489536956,
+      "insult": 0.0002544648014008999,
+      "threat": 2.3797767426003702e-05,
+      "sexual_explicit": 1.7913289411808364e-05
     },
-    "url": "https://apnews.com/article/capitol-riot-proud-boys-enrique-tarrio-trial-bbaac6ea3f710a4f1b5e6555821510ee"
+    "url": "https://apnews.com/article/un-water-sanitation-conference-7a3671dc74f788e36adff9ef9879ed91"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Biden's appeals court nominee faces rare Democratic scrutiny",
+    "text": "Springsteen, Kaling, Louis-Dreyfus among 22 honored by Biden",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007997291395440698,
-      "severe_toxicity": 1.7647165805101395e-05,
-      "obscene": 0.0001341680035693571,
-      "identity_attack": 7.774963887641206e-05,
-      "insult": 0.0003658514760900289,
-      "threat": 2.8903939892188646e-05,
-      "sexual_explicit": 2.3372787836706266e-05
+      "toxicity": 0.0003035302215721458,
+      "severe_toxicity": 3.684493640321307e-05,
+      "obscene": 0.00030939668067730963,
+      "identity_attack": 9.958624286809936e-05,
+      "insult": 0.0003931726678274572,
+      "threat": 3.856907642330043e-05,
+      "sexual_explicit": 2.8744123483193107e-05
     },
-    "url": "https://apnews.com/article/biden-judicial-nominee-delaney-abortion-new-hampshire-68f2a0ed839c743873a16924a8bce148"
+    "url": "https://apnews.com/article/biden-arts-humanities-63742a82542683ebf0c3ed818cb572bb"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Trump lawyers attack Georgia grand jury and prosecutor",
+    "text": "Review: John Wick gets even more stylish in fourth episode",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.004760523792356253,
-      "severe_toxicity": 3.141886554658413e-05,
-      "obscene": 0.0003969430399592966,
-      "identity_attack": 0.00014172047667670995,
-      "insult": 0.0019027647795155644,
-      "threat": 0.00010032100544776767,
-      "sexual_explicit": 8.475274808006361e-05
+      "toxicity": 0.00042481208220124245,
+      "severe_toxicity": 3.4954115108121186e-05,
+      "obscene": 0.00022512681607622653,
+      "identity_attack": 0.00011383686069166288,
+      "insult": 0.0003480808809399605,
+      "threat": 4.044812158099376e-05,
+      "sexual_explicit": 2.5976447432185523e-05
     },
-    "url": "https://apnews.com/article/trump-georgia-grand-jury-filing-prosecutors-b92649f938006c325d9c6aa68f5cc857"
+    "url": "https://apnews.com/article/john-wick-4-movie-review-d6350c7f8ceda029dd033bb60998f5c8"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Digital literacy: Can the republic 'survive an algorithm'?",
+    "text": "Reborn Ringling Bros. circus to leap on tour \u2014 minus animals",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005103532457724214,
-      "severe_toxicity": 2.0314693756517954e-05,
-      "obscene": 0.00011545348388608545,
-      "identity_attack": 9.207129187416285e-05,
-      "insult": 0.00021635253506246954,
-      "threat": 3.5925855627283454e-05,
-      "sexual_explicit": 2.0817187760258093e-05
+      "toxicity": 0.0046421983279287815,
+      "severe_toxicity": 4.15402500948403e-05,
+      "obscene": 0.0005763343069702387,
+      "identity_attack": 0.00023590447381138802,
+      "insult": 0.0014066623989492655,
+      "threat": 0.00016811088426038623,
+      "sexual_explicit": 8.283257920993492e-05
     },
-    "url": "https://apnews.com/article/misinformation-education-election-vaccine-canada-finland-e7d6eed63f3db289bf887605c99ab5c5"
+    "url": "https://apnews.com/article/circus-ringling-feld-bailey-tour-e55f8ee37e9b645a5d9c72e58992e9c2"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Jeremy Scott leaves Moschino after 10 years at fashion house",
+    "text": "'John Wick' stars honor late co-star Lance Reddick",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0011643480975180864,
-      "severe_toxicity": 5.4681335313944146e-05,
-      "obscene": 0.0005945368902757764,
-      "identity_attack": 0.00021131498215254396,
-      "insult": 0.0007027899846434593,
-      "threat": 5.588039130088873e-05,
-      "sexual_explicit": 0.00011030940368073061
+      "toxicity": 0.0010479759657755494,
+      "severe_toxicity": 4.339387669460848e-05,
+      "obscene": 0.00042157649295404553,
+      "identity_attack": 0.0001494583993917331,
+      "insult": 0.0008764725644141436,
+      "threat": 3.8938575016800314e-05,
+      "sexual_explicit": 4.877994433627464e-05
     },
-    "url": "https://apnews.com/article/jeremy-scott-moschino-fashion-2aff0a2b4157ae06734951817a5809fd"
+    "url": "https://apnews.com/article/lance-reddick-john-wick-4-tributes-ff6cd68e124bd84892862c691d043fe2"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Anthony Fauci documentary on PBS covers a career of crises",
+    "text": "Paul Newman's camp for sick kids rises from the ashes",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004666540480684489,
-      "severe_toxicity": 2.3825628886697814e-05,
-      "obscene": 0.0001641442795516923,
-      "identity_attack": 8.61659791553393e-05,
-      "insult": 0.0002769697748590261,
-      "threat": 3.222633677069098e-05,
-      "sexual_explicit": 2.1898726117797196e-05
+      "toxicity": 0.1654021292924881,
+      "severe_toxicity": 3.748535891645588e-05,
+      "obscene": 0.0005431157187558711,
+      "identity_attack": 0.00087004154920578,
+      "insult": 0.09692225605249405,
+      "threat": 0.00048423156840726733,
+      "sexual_explicit": 0.0002715429582167417
     },
-    "url": "https://apnews.com/article/anthony-fauci-documentary-pbs-93eba2bb0c55cd37fdf8518d0a94ab5c"
+    "url": "https://apnews.com/article/paul-newman-camp-fire-29dda4e2da432496c28366764ca2dde2"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Mae Muller wrote a song, now represents UK at Eurovision",
+    "text": "'Succession' star Sarah Snook pregnant with 1st child",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004825469513889402,
-      "severe_toxicity": 3.181747524649836e-05,
-      "obscene": 0.00019414391135796905,
-      "identity_attack": 0.00013130033039487898,
-      "insult": 0.0002396852505626157,
-      "threat": 3.553737042238936e-05,
-      "sexual_explicit": 2.9524442652473226e-05
+      "toxicity": 0.0013199137756600976,
+      "severe_toxicity": 4.148996958974749e-05,
+      "obscene": 0.00036952353548258543,
+      "identity_attack": 7.674584776395932e-05,
+      "insult": 0.0005237931618466973,
+      "threat": 6.0588339692912996e-05,
+      "sexual_explicit": 0.00024657961330376565
     },
-    "url": "https://apnews.com/article/eurovision-mae-muller-uk-8b92bb8bd99abb7467b27588cd23de39"
+    "url": "https://apnews.com/article/sarah-snook-pregnant-succession-c520d613214d642244be0933a931f2c3"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "Review: Stunning new novel about a family and mental illness",
+    "text": "All-Stars of Team USA outmatched, outpitched in WBC final",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.006378558464348316,
-      "severe_toxicity": 0.00763649120926857,
-      "obscene": 0.009414390660822392,
-      "identity_attack": 0.004535393323749304,
-      "insult": 0.011644797399640083,
-      "threat": 0.006325657479465008,
-      "sexual_explicit": 0.005791366565972567
+      "toxicity": 0.0005400890368036926,
+      "severe_toxicity": 3.9067042962415144e-05,
+      "obscene": 0.00032806029776111245,
+      "identity_attack": 0.00013894740550313145,
+      "insult": 0.0004038604092784226,
+      "threat": 4.892613287665881e-05,
+      "sexual_explicit": 3.169358751620166e-05
     },
-    "url": "https://apnews.com/article/commitment-mona-simpson-book-review-8b9b82bffdf7bff4336a8c229d89b9ff"
+    "url": "https://apnews.com/article/team-usa-trout-betts-wbc-miami-5292eeb5d05713092092e497567279a4"
   },
   {
     "newspaper": "Associated Press",
     "language": "en",
-    "text": "New this week: 'Top Gun,' Lana Del Rey and 'Rabbit Hole'",
+    "text": "George leaves with injury as Clippers lose to Thunder",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004679230914916843,
-      "severe_toxicity": 2.552636397012975e-05,
-      "obscene": 0.0002115052629960701,
-      "identity_attack": 8.874136256054044e-05,
-      "insult": 0.00029686480411328375,
-      "threat": 3.6128836654825136e-05,
-      "sexual_explicit": 2.979794044222217e-05
+      "toxicity": 0.002323220018297434,
+      "severe_toxicity": 8.261028415290639e-05,
+      "obscene": 0.0007979992078617215,
+      "identity_attack": 0.00013436670997180045,
+      "insult": 0.0004951534792780876,
+      "threat": 0.0005506680463440716,
+      "sexual_explicit": 0.00018662819638848305
     },
-    "url": "https://apnews.com/article/streaming-tv-music-video-movies-week-c135dd1c98c80702163165377776170e"
+    "url": "https://apnews.com/article/thunder-clippers-nba-a4b32b5a8346a1ed6bd724bacfdac524"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "Willis Reed, leader on Knicks' 2 title teams, dies at 80",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0012953021796420217,
+      "severe_toxicity": 3.498232763377018e-05,
+      "obscene": 0.0003203025262337178,
+      "identity_attack": 0.00012209912529215217,
+      "insult": 0.00042473737266846,
+      "threat": 0.0001159708626801148,
+      "sexual_explicit": 3.586191451177001e-05
+    },
+    "url": "https://apnews.com/article/willis-reed-dies-knicks-7a86a451386ef4a2d65372d7919d930d"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "WBC returns in March 2026, retaining spring training slot",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.0003320020332466811,
+      "severe_toxicity": 5.452757250168361e-05,
+      "obscene": 0.0003909248043783009,
+      "identity_attack": 0.00013024899817537516,
+      "insult": 0.0002992261142935604,
+      "threat": 6.50480724289082e-05,
+      "sexual_explicit": 4.1842213249765337e-05
+    },
+    "url": "https://apnews.com/article/world-baseball-classic-wbc-manfred-japan-us-4497d5f9ac9ce59e00777a799d1f4e1b"
+  },
+  {
+    "newspaper": "Associated Press",
+    "language": "en",
+    "text": "MLB plans to announce rules tweaks, week before opening day",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.00036659359466284513,
+      "severe_toxicity": 2.6467338102520443e-05,
+      "obscene": 0.0001420553307980299,
+      "identity_attack": 0.00010488657426321879,
+      "insult": 0.00019721323042176664,
+      "threat": 3.905359699274413e-05,
+      "sexual_explicit": 2.4894265152397566e-05
+    },
+    "url": "https://apnews.com/article/pitch-clock-defensive-shifts-mlb-manfred-1721a4f0c7c05b1ad511a20dd57018bd"
   }
 ]
