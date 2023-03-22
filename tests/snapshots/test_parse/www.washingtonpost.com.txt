@@ -1,0 +1,362 @@
+[
+  [
+    "Troubled U.S. organ transplant system targeted for overhaul",
+    "https://www.washingtonpost.com/health/2023/03/22/transplant-system-overhaul-unos/"
+  ],
+  [
+    "Trump campaign prepares for \u2018new normal\u2019: Running while in legal peril",
+    "https://www.washingtonpost.com/politics/2023/03/21/trump-2024-ny-case-republicans/"
+  ],
+  [
+    "Who is Alvin Bragg, the Manhattan DA who could charge Trump?",
+    "https://www.washingtonpost.com/politics/2023/03/22/alvin-bragg-da-trump-investigation/"
+  ],
+  [
+    "DeSantis sharpens criticism of Trump, attacks his character",
+    "https://www.washingtonpost.com/politics/2023/03/22/ron-desantis-trump-piers-morgan-interview/"
+  ],
+  [
+    "Weighing bank distress and inflation, Fed faces next rate hike",
+    "https://www.washingtonpost.com/business/2023/03/22/fed-rate-hike-svb/"
+  ],
+  [
+    "Feel like a slug? You may have the wrong exercise mind-set.",
+    "https://www.washingtonpost.com/wellness/2023/03/22/exercise-mindset-counting-steps/"
+  ],
+  [
+    "Here\u2019s the real lesson from the showy Xi-Putin meeting",
+    "https://www.washingtonpost.com/opinions/2023/03/21/xi-putin-summit-alliance-danger/"
+  ],
+  [
+    "Only one thing will solve the fentanyl crisis",
+    "https://www.washingtonpost.com/opinions/2023/03/21/fentanyl-methamphetamine-us-mexico-diplomacy/"
+  ],
+  [
+    "Jim Jordan\u2019s sordid attack on possible Trump charges demands an answer",
+    "https://www.washingtonpost.com/opinions/2023/03/22/jim-jordan-alvin-bragg-trump-indictment-possible/"
+  ],
+  [
+    "But could this be good news for Trump?",
+    "https://www.washingtonpost.com/opinions/2023/03/22/trump-indictment-supporters-protest-satire/"
+  ],
+  [
+    "How government casually violates the letter and spirit of the First Amendment",
+    "https://www.washingtonpost.com/opinions/2023/03/22/supreme-court-case-government-speech-laws/"
+  ],
+  [
+    "Expanding child labor is exactly what America\u2019s kids don\u2019t need",
+    "https://www.washingtonpost.com/opinions/2023/03/22/expand-child-labor-republicans/"
+  ],
+  [
+    "Moderna hearing shows government should drive harder bargain",
+    "https://www.washingtonpost.com/opinions/2023/03/22/moderna-prices-hearing-federal-research-funding/"
+  ],
+  [
+    "Macron defends move to raise retirement age as protests roil France",
+    "https://www.washingtonpost.com/world/2023/03/22/france-macron-interview-retirement-strikes/"
+  ],
+  [
+    "More than 200,000 without power as deadly storm slams California",
+    "https://www.washingtonpost.com/weather/2023/03/21/california-storm-flooding-avalanches-wind/"
+  ],
+  [
+    "Idaho hospital to stop delivering babies, partly due to \u2018political climate\u2019",
+    "https://www.washingtonpost.com/politics/2023/03/21/idaho-hospital-baby-delivery-abortion/"
+  ],
+  [
+    "U.S. will speed transfer of Abrams tanks to Ukraine, Pentagon says",
+    "https://www.washingtonpost.com/national-security/2023/03/21/abrams-tanks-ukraine/"
+  ],
+  [
+    "Senate hearing to focus on Norfolk Southern\u2019s safety record",
+    "https://www.washingtonpost.com/transportation/2023/03/22/ohio-derailment-senate-hearing-norfolk-southern/"
+  ],
+  [
+    "5 colorful DIY projects you can tackle with one gallon of paint",
+    "https://www.washingtonpost.com/home/2023/03/22/diy-paint-projects/"
+  ],
+  [
+    "Sign up for expert home advice delivered right to your phone",
+    "https://www.washingtonpost.com/home/2023/03/21/expert-home-advice-texts-sign-up/"
+  ],
+  [
+    "Carolyn Hax: Is it wrong not to accommodate niece\u2019s fear of dogs?",
+    "https://www.washingtonpost.com/advice/2023/03/22/carolyn-hax-accommodate-niece-fear-dogs/"
+  ],
+  [
+    "Gwyneth Paltrow\u2019s ski accident trial has begun. Here\u2019s what to know.",
+    "https://www.washingtonpost.com/lifestyle/2023/03/21/gwyneth-paltrow-ski-trial/"
+  ],
+  [
+    "Working in the ER used to be a cool job. Now medical students shun it.",
+    "https://www.washingtonpost.com/health/2023/03/17/match-day-emergency-medicine-doctor/"
+  ],
+  [
+    "Why are so many Americans poor? Because we allow it, two books argue.",
+    "https://www.washingtonpost.com/books/2023/03/16/poverty-desmond-paradox-rank-essay/"
+  ],
+  [
+    "Mauritania\u2019s ancient libraries could be lost to the expanding desert",
+    "https://www.washingtonpost.com/world/interactive/2023/mauritania-libraries-desert/"
+  ],
+  [
+    "Is Sean Hannity a journalist? Role of hosts is key in Fox News lawsuit.",
+    "https://www.washingtonpost.com/media/2023/03/20/fox-lawsuit-hosts-journalists-hannity-dominion/"
+  ],
+  [
+    "After political fury, Newsmax will return to DirecTV",
+    "https://www.washingtonpost.com/media/2023/03/22/newsmax-directv/"
+  ],
+  [
+    "House GOP tries to avoid Trump talk at retreat while targeting Bragg",
+    "https://www.washingtonpost.com/politics/2023/03/21/trump-house-republicans/"
+  ],
+  [
+    "McConnell phones Senate Republicans, who say he\u2019s \u2018eager\u2019 to be back",
+    "https://www.washingtonpost.com/politics/2023/03/21/mcconnell-phones-senate-republicans-who-say-hes-eager-be-back/"
+  ],
+  [
+    "A president has never been indicted. But one was arrested.",
+    "https://www.washingtonpost.com/history/2023/03/21/president-arrested-ulysses-grant-speeding/"
+  ],
+  [
+    "Judge sounds skeptical of some Fox arguments in Dominion lawsuit",
+    "https://www.washingtonpost.com/media/2023/03/21/judge-sounds-skeptical-some-fox-arguments-dominion-lawsuit/"
+  ],
+  [
+    "How to make the most of duty-free airport stores",
+    "https://www.washingtonpost.com/travel/tips/duty-free-shopping-tips/"
+  ],
+  [
+    "Kids these days! Why do they talk back, argue, disrespect elders?",
+    "https://www.washingtonpost.com/parenting/2023/03/22/children-respect-elders/"
+  ],
+  [
+    "Filed an amended tax return with the IRS? You have a 20-week wait.",
+    "https://www.washingtonpost.com/business/2023/03/22/amended-tax-return-irs/"
+  ],
+  [
+    "Miss Manners: My friend dropped me and I don\u2019t know why",
+    "https://www.washingtonpost.com/advice/2023/03/22/miss-manners-friend-suddenly-ignores/"
+  ],
+  [
+    "Ask Amy: My boyfriend\u2019s adult daughter won\u2019t accept our relationship",
+    "https://www.washingtonpost.com/advice/2023/03/22/ask-amy-boyfriend-daughter-hates-me/"
+  ],
+  [
+    "Why Americans should eat lentils every day",
+    "https://www.washingtonpost.com/climate-environment/2023/03/21/lentils-are-just-waiting-their-hummus-moment/"
+  ],
+  [
+    "Can dogs talk by pressing buttons? What science says about the debate.",
+    "https://www.washingtonpost.com/wellness/2023/03/21/dog-talking-buttons-communication-research/"
+  ],
+  [
+    "Four 80-year-old men finished a 100-mile race. Here\u2019s how they did it.",
+    "https://www.washingtonpost.com/wellness/2023/03/20/octogenarian-older-runners-ultramarathons-100-miles/"
+  ],
+  [
+    "What to know about kefir, one of the original gut-friendly foods",
+    "https://www.washingtonpost.com/wellness/2023/03/20/kefir-good-for-gut-drink/"
+  ],
+  [
+    "Allergy season is here: the U.S. cities where pollen is the worst",
+    "https://www.washingtonpost.com/climate-environment/2023/03/16/allergy-season-pollen-count-climate/"
+  ],
+  [
+    "They survived terrible Kentucky floods. Now they are living through another crisis.",
+    "https://www.washingtonpost.com/climate-environment/2023/03/22/kentucky-flooding-disasters-housing/"
+  ],
+  [
+    "With El Ni\u00f1o expected, unusually warm current ocean temps are worrisome sign",
+    "https://www.washingtonpost.com/weather/2023/03/21/ocean-temperatures-record-warm-climate/"
+  ],
+  [
+    "Why seniors protested outside the four largest U.S. banks",
+    "https://www.washingtonpost.com/climate-environment/2023/03/21/climate-banks-protest-fossil-fuels/"
+  ],
+  [
+    "One U.N. graphic shows how climate change will affect your generation",
+    "https://www.washingtonpost.com/climate-environment/2023/03/21/climate-ipcc-report-temperatures-graphic/"
+  ],
+  [
+    "How a state analysis derailed a green amendment in New Mexico",
+    "https://www.washingtonpost.com/politics/2023/03/22/how-state-analysis-derailed-green-amendment-new-mexico/"
+  ],
+  [
+    "AI isn\u2019t magic or evil. Here\u2019s how to spot AI myths.",
+    "https://www.washingtonpost.com/technology/2023/03/22/ai-red-flags-misinformation/"
+  ],
+  [
+    "What is Bard good for? Our tech columnist finds out",
+    "https://www.washingtonpost.com/technology/2023/03/21/google-bard/"
+  ],
+  [
+    "Buying coffee with your phone is easy. Paying for the subway is a pain.",
+    "https://www.washingtonpost.com/technology/2023/03/21/wageworks-edenred-mta-digital-wallets/"
+  ],
+  [
+    "End of BreachForums could take a bite out of cybercrime",
+    "https://www.washingtonpost.com/politics/2023/03/22/end-breachforums-could-take-bite-out-cybercrime/"
+  ],
+  [
+    "Amid flurry of legal challenges, Google and Meta fund litigation center",
+    "https://www.washingtonpost.com/technology/2023/03/21/netchoice-tech-litigation-center/"
+  ],
+  [
+    "The Elon Musk request that left Tesla engineers aghast, and the fallout that followed",
+    "https://www.washingtonpost.com/technology/2023/03/19/elon-musk-tesla-driving/"
+  ],
+  [
+    "Zelensky visits Bakhmut; China\u2019s Xi leaves Russia with no clear progress on ending war",
+    "https://www.washingtonpost.com/world/2023/03/22/russia-ukraine-war-news/"
+  ],
+  [
+    "Costa Rica, laid-back land of \u2018pura vida,\u2019 succumbing to drug violence",
+    "https://www.washingtonpost.com/world/2023/03/22/costa-rica-violence-crime-drugs/"
+  ],
+  [
+    "Boris Johnson to be grilled on whether he lied to Parliament over Partygate",
+    "https://www.washingtonpost.com/world/2023/03/22/boris-johnson-partygate-parliament/"
+  ],
+  [
+    "Xi\u2019s cocoon in Moscow: A Chinese-owned hotel over Red Square opulence",
+    "https://www.washingtonpost.com/world/2023/03/21/xi-moscow-hotel-motorcade/"
+  ],
+  [
+    "11 killed as strong earthquake rattles Pakistan, Afghanistan",
+    "https://www.washingtonpost.com/world/2023/03/21/pakistan-earthquake-islamabad/3417ba3c-c80b-11ed-9cc5-a58a4f6d84cd_story.html"
+  ],
+  [
+    "The sandwich generation is changing. The stress remains.",
+    "https://www.washingtonpost.com/parenting/2023/03/22/caregivers-sandwich-generation/"
+  ],
+  [
+    "Woman, 92, has grown tomatoes from the same seed lineage since 1965",
+    "https://www.washingtonpost.com/lifestyle/2023/03/22/tomato-heirloom-sybil-gorby-garden/"
+  ],
+  [
+    "Louisiana backs off, lets family keep invasive rodent as a pet",
+    "https://www.washingtonpost.com/nation/2023/03/21/neuty-neutria-pet-new-orleans/"
+  ],
+  [
+    "Fed up with her town\u2019s recycling, she collected two tons of trash on her own",
+    "https://www.washingtonpost.com/lifestyle/2023/03/21/recycling-drop-off-site-telford-terracycle/"
+  ],
+  [
+    "A pet cockatiel escaped. Billy Joel songs helped return him to his owner.",
+    "https://www.washingtonpost.com/lifestyle/2023/03/21/cockatiel-pet-myrtle-beach-skywheel/"
+  ],
+  [
+    "Homeland Security launches \u2018Operation Blue Lotus\u2019 to target fentanyl",
+    "https://www.washingtonpost.com/nation/2023/03/21/border-fentanyl-mayorkas/"
+  ],
+  [
+    "Supreme Court rules for deaf student who says school district failed him",
+    "https://www.washingtonpost.com/politics/2023/03/21/supreme-court-deaf-student-ada/"
+  ],
+  [
+    "A tree fell, killing two children. Their parents are now warning others.",
+    "https://www.washingtonpost.com/nation/2023/03/22/indiana-children-billboard-trees-deaths/"
+  ],
+  [
+    "A Winnie the Pooh horror film was pulled in Hong Kong. No one will explain why.",
+    "https://www.washingtonpost.com/world/2023/03/22/winnie-the-pooh-horror-hong-kong/"
+  ],
+  [
+    "\u2018The Lost King\u2019: True story of the search for the grave of Richard III",
+    "https://www.washingtonpost.com/movies/2023/03/21/the-lost-king-movie-review/"
+  ],
+  [
+    "Nashville singers band together in support of LGBTQ rights",
+    "https://www.washingtonpost.com/music/2023/03/21/nashville-concert-country-lgbtq/"
+  ],
+  [
+    "At Georgia lawmaker\u2019s office, statehood advocates say \u2018hands off DC\u2019",
+    "https://www.washingtonpost.com/dc-md-va/2023/03/21/dc-statehood-advocates-georgia-congressman-andrew-clyde/"
+  ],
+  [
+    "Montgomery County schools report increase in arrests, decrease in calls for service",
+    "https://www.washingtonpost.com/education/2023/03/22/montgomery-county-schools-safety/"
+  ],
+  [
+    "Inmates dig out of jail with toothbrush, get caught at IHOP, officials say",
+    "https://www.washingtonpost.com/dc-md-va/2023/03/22/toothbrush-jail-escape-virginia-ihop/"
+  ],
+  [
+    "James Madison\u2019s Montpelier receives $5.8 million for memorial to enslaved",
+    "https://www.washingtonpost.com/history/2023/03/21/madison-montpelier-history-enslaved-mellon/"
+  ],
+  [
+    "Strapped for more housing, Alexandria looks to rework zoning rules",
+    "https://www.washingtonpost.com/dc-md-va/2023/03/21/alexandria-zoning-affordable-housing-planning/"
+  ],
+  [
+    "A deadly fungus is spreading in U.S. health facilities. It has exposed a broader problem.",
+    "https://www.washingtonpost.com/health/2023/03/21/deadly-fungus-infection-hospital-nursing-home/"
+  ],
+  [
+    "Minnesota advances abortion bill to protect out-of-state patients",
+    "https://www.washingtonpost.com/nation/2023/03/21/minnesota-abortion-bill/"
+  ],
+  [
+    "Martina Navratilova says she is cancer-free, describes \u2018total panic\u2019 of diagnosis",
+    "https://www.washingtonpost.com/sports/2023/03/21/martina-navratilova-cancer/"
+  ],
+  [
+    "Vivid images capture sounds that soothe and nurture \u2014 and some that jar",
+    "https://www.washingtonpost.com/science/interactive/2023/nature-audio-pictures/"
+  ],
+  [
+    "The surfer, the scientist and the big-wave beach at a breaking point",
+    "https://www.washingtonpost.com/sports/2023/03/22/mavericks-surfing-climate-change/"
+  ],
+  [
+    "With an epic ending, Shohei Ohtani and Japan reclaim the World Baseball Classic crown",
+    "https://www.washingtonpost.com/sports/2023/03/21/world-baseball-classic-final-shohei-ohtani-mike-trout/"
+  ],
+  [
+    "Wizards\u2019 troubles don\u2019t disappear in a deflating loss to the Magic",
+    "https://www.washingtonpost.com/sports/2023/03/21/wizards-magic-losing-streak/"
+  ],
+  [
+    "After honoring Alex Ovechkin, Caps blow three-goal lead, lose in overtime",
+    "https://www.washingtonpost.com/sports/2023/03/21/capitals-blue-jackets-alex-ovechkin/"
+  ],
+  [
+    "How one cognitive test could help NFL teams find the next elite quarterback",
+    "https://www.washingtonpost.com/sports/2023/03/21/nfl-s2-cognition-quarterbacks/"
+  ],
+  [
+    "Deeply, truly, very sorry: How tech CEOs talk when they lay off workers",
+    "https://www.washingtonpost.com/business/interactive/2023/tech-layoffs-company-memos/"
+  ],
+  [
+    "A surprising (and growing) gender gap in the most dangerous jobs",
+    "https://www.washingtonpost.com/business/2023/03/17/work-injuries-violence-women/"
+  ],
+  [
+    "Settlement will wipe $6B in student loan debt \u2014 but not for these borrowers",
+    "https://www.washingtonpost.com/education/2023/03/22/sweet-cardona-private-student-loans/"
+  ],
+  [
+    "Electric cars are creating a new economy \u2014 and leaving some towns behind",
+    "https://www.washingtonpost.com/business/2023/03/22/auto-factory-closing-ev/"
+  ],
+  [
+    "Buyers pour into housing market as prices drop for first time since 2012",
+    "https://www.washingtonpost.com/business/2023/03/21/housing-prices/"
+  ],
+  [
+    "New Yorkers bond over new city logo: They hate it",
+    "https://www.washingtonpost.com/travel/2023/03/21/we-heart-nyc-new-logo/"
+  ],
+  [
+    "Mountain lion attacks tourist in a pool at Colorado vacation rental",
+    "https://www.washingtonpost.com/travel/2023/03/21/mountain-lion-attack-colorado/"
+  ],
+  [
+    "Everything you need to know about traveling to Japan this year",
+    "https://www.washingtonpost.com/travel/tips/japan-restrictions-tokyo-rail-pass/"
+  ]
+]

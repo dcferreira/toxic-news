@@ -13,3 +13,5 @@ The Epoch Times,en,https://www.theepochtimes.com/,"//a/*[contains(@class,'title'
 The Guardian (US),en,https://www.theguardian.com/us,"//a[contains(@class, 'js-headline-text')]",.,92
 The Hill,en,https://thehill.com/,"//div[contains(@class, 'content')]/h1[contains(@class, 'headline') and not(@data-module-type='thehill-video')]/a[@href] | //ul[@data-module-type='more-news']/li/a[@href] | //ol[@data-module-type='most-popular']/li/a[@href]",.,39
 The Wall Street Journal,en,https://www.wsj.com/,"//div[contains(@class, '-headline-')]//*[contains(@class, 'headlineText') and not(./span)] | //div[contains(@class, '-headline-')]//*[contains(@class, 'headlineText')]/span[not(contains(@class, 'time-to-read'))]",ancestor::a,66
+Washington Examiner,en,https://www.washingtonexaminer.com/,"//*[(self::div or self::h1 or self::h2 or self::h4 or self::h5 or self::h6) and contains(@class, 'title')]/a",.,62
+The Washington Post,en,https://www.washingtonpost.com/,"//h2[contains(@class, 'headline')]/a/span",parent::a,98
