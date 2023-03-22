@@ -5,13 +5,13 @@
     "text": "Markets Quiet Ahead of Federal Reserve Rate Decision",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00033868695027194917,
-      "severe_toxicity": 3.3078842534450814e-05,
-      "obscene": 0.00017837145423982292,
-      "identity_attack": 0.00011049869499402121,
-      "insult": 0.0001902873773360625,
-      "threat": 5.1466307922964916e-05,
-      "sexual_explicit": 3.088231824222021e-05
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00011,
+      "insult": 0.00019,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/livecoverage/federal-reserve-meeting-interest-rate-march-2023"
   },
@@ -21,13 +21,13 @@
     "text": "Trump Grand Jury to Reconvene as Potential Indictment Looms",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0015131589025259018,
-      "severe_toxicity": 1.588587838341482e-05,
-      "obscene": 0.0001564688718644902,
-      "identity_attack": 9.000137652037665e-05,
-      "insult": 0.0008239605813287199,
-      "threat": 2.832863356161397e-05,
-      "sexual_explicit": 2.5631206881371327e-05
+      "toxicity": 0.00151,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00009,
+      "insult": 0.00082,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/donald-trump-grand-jury-to-reconvene-as-potential-indictment-looms-629d1773?mod=hp_lead_pos1"
   },
@@ -37,13 +37,13 @@
     "text": "Apple, Microsoft Dominate U.S. Markets After FAANG Trade Fizzles",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008623517351225019,
-      "severe_toxicity": 3.133905556751415e-05,
-      "obscene": 0.0002723347570281476,
-      "identity_attack": 0.0001486508408561349,
-      "insult": 0.00038273571408353746,
-      "threat": 3.732245750143193e-05,
-      "sexual_explicit": 2.8509783078334294e-05
+      "toxicity": 0.00086,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00027,
+      "identity_attack": 0.00015,
+      "insult": 0.00038,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/apple-microsoft-dominate-u-s-markets-after-faang-trade-fizzles-d6f10309?mod=hp_lead_pos2"
   },
@@ -53,13 +53,13 @@
     "text": "Insurer Chubb Demands Energy Producers Cut Methane Emissions for Coverage",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0009492460521869361,
-      "severe_toxicity": 2.1710769942728803e-05,
-      "obscene": 0.0001449017581762746,
-      "identity_attack": 0.00012679191422648728,
-      "insult": 0.0003779132675845176,
-      "threat": 4.53139582532458e-05,
-      "sexual_explicit": 2.0829003915423527e-05
+      "toxicity": 0.00095,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00013,
+      "insult": 0.00038,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/insurer-chubb-demands-energy-producers-cut-methane-emissions-for-coverage-52251222?mod=hp_lead_pos3"
   },
@@ -69,13 +69,13 @@
     "text": "Moderna to Price Its Covid-19 Vaccine at $130 a Dose",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00045651147956959903,
-      "severe_toxicity": 3.750592077267356e-05,
-      "obscene": 0.0001853273279266432,
-      "identity_attack": 0.00012184417573735118,
-      "insult": 0.00022623474069405347,
-      "threat": 5.754915764555335e-05,
-      "sexual_explicit": 2.8582848244695924e-05
+      "toxicity": 0.00046,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00019,
+      "identity_attack": 0.00012,
+      "insult": 0.00023,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/moderna-to-price-its-covid-19-vaccine-at-130-a-dose-d7f4a956?mod=hp_lead_pos4"
   },
@@ -85,13 +85,13 @@
     "text": "Home Prices Post First Drop in Over a Decade",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00048449033056385815,
-      "severe_toxicity": 2.6658868591766804e-05,
-      "obscene": 0.00014616498083341867,
-      "identity_attack": 0.00010377116268500686,
-      "insult": 0.00018117384752258658,
-      "threat": 4.029005140182562e-05,
-      "sexual_explicit": 2.3724869606667198e-05
+      "toxicity": 0.00048,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00010,
+      "insult": 0.00018,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/home-prices-fell-in-february-for-first-time-in-11-years-73df0107?mod=hp_lead_pos5"
   },
@@ -101,13 +101,13 @@
     "text": "Who Is Shou Zi Chew, the TikTok CEO Trying to Reassure America?",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007074151071719825,
-      "severe_toxicity": 1.717120539979078e-05,
-      "obscene": 0.00011497185187181458,
-      "identity_attack": 0.00011688344966387376,
-      "insult": 0.0002864840207621455,
-      "threat": 2.552499972807709e-05,
-      "sexual_explicit": 1.6368117940146476e-05
+      "toxicity": 0.00071,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00012,
+      "insult": 0.00029,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/tiktok-ceo-shou-zi-chew-congress-8ed38010?mod=hp_lead_pos6"
   },
@@ -117,13 +117,13 @@
     "text": "Russia-Ukraine War Threatens to Trigger New Nuclear Arms Race",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.011557970196008682,
-      "severe_toxicity": 4.2793726606760174e-05,
-      "obscene": 0.00022710159828420728,
-      "identity_attack": 0.0019463087664917111,
-      "insult": 0.0009615463786758482,
-      "threat": 0.000307833164697513,
-      "sexual_explicit": 4.362598338047974e-05
+      "toxicity": 0.01156,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00023,
+      "identity_attack": 0.00195,
+      "insult": 0.00096,
+      "threat": 0.00031,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.wsj.com/articles/ukraine-war-threatens-to-trigger-new-nuclear-arms-race-8e630514?mod=hp_lead_pos7"
   },
@@ -133,13 +133,13 @@
     "text": "Work Travel Is Suddenly a Lot More Work",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004735669062938541,
-      "severe_toxicity": 3.366609962540679e-05,
-      "obscene": 0.00023576035164296627,
-      "identity_attack": 0.00011611105583142489,
-      "insult": 0.0002787664416246116,
-      "threat": 5.037276787334122e-05,
-      "sexual_explicit": 3.1092011340660974e-05
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00024,
+      "identity_attack": 0.00012,
+      "insult": 0.00028,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/airfare-prices-business-travel-flights-38cc33c9?mod=hp_lead_pos10"
   },
@@ -149,13 +149,13 @@
     "text": "The Unraveling of the U.S. News College Rankings",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00041344951023347676,
-      "severe_toxicity": 2.5235958673874848e-05,
-      "obscene": 0.00015084676851984113,
-      "identity_attack": 0.00011195415572728962,
-      "insult": 0.0002696094452403486,
-      "threat": 2.915063851105515e-05,
-      "sexual_explicit": 2.159752148145344e-05
+      "toxicity": 0.00041,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00011,
+      "insult": 0.00027,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/u-s-news-college-rankings-yale-law-fe24f0b2?mod=hp_lead_pos11"
   },
@@ -165,13 +165,13 @@
     "text": "Taylor Swift Fans Prepare for Marathon-Length Shows",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008514957735314965,
-      "severe_toxicity": 0.0017683819169178605,
-      "obscene": 0.013790552504360676,
-      "identity_attack": 0.0023783748038113117,
-      "insult": 0.010838495567440987,
-      "threat": 0.0005111158825457096,
-      "sexual_explicit": 0.0006662589148618281
+      "toxicity": 0.00085,
+      "severe_toxicity": 0.00177,
+      "obscene": 0.01379,
+      "identity_attack": 0.00238,
+      "insult": 0.01084,
+      "threat": 0.00051,
+      "sexual_explicit": 0.00067
     },
     "url": "https://www.wsj.com/articles/taylor-swift-fans-prepare-wardrobe-hydration-strategies-for-marathon-length-shows-2123930c?mod=hp_lead_pos12"
   },
@@ -181,13 +181,13 @@
     "text": "The World Baseball Classic Gets Its Fantasy Finale: Ohtani vs. Trout",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003210267750546336,
-      "severe_toxicity": 0.0010422677733004093,
-      "obscene": 0.006622083019465208,
-      "identity_attack": 0.0014898123918101192,
-      "insult": 0.004795942921191454,
-      "threat": 0.0005260970792733133,
-      "sexual_explicit": 0.0003403397568035871
+      "toxicity": 0.00032,
+      "severe_toxicity": 0.00104,
+      "obscene": 0.00662,
+      "identity_attack": 0.00149,
+      "insult": 0.00480,
+      "threat": 0.00053,
+      "sexual_explicit": 0.00034
     },
     "url": "https://www.wsj.com/articles/ohtani-trout-japan-usa-world-baseball-classic-a84f6656?mod=hp_featst_pos3"
   },
@@ -197,13 +197,13 @@
     "text": "China Has a New Vision for Itself: Global Power",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003883044410031289,
-      "severe_toxicity": 3.652539089671336e-05,
-      "obscene": 0.0001789617381291464,
-      "identity_attack": 0.0001757169229676947,
-      "insult": 0.00017222209135070443,
-      "threat": 4.929160786559805e-05,
-      "sexual_explicit": 2.7296644475427456e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00018,
+      "identity_attack": 0.00018,
+      "insult": 0.00017,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/china-has-a-new-vision-for-itself-global-power-da8dc559?mod=hp_featst_pos4"
   },
@@ -213,13 +213,13 @@
     "text": "It\u2019s More Than a Fluffy Headband. On TikTok, It\u2019s a Status Symbol.",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0015421007992699742,
-      "severe_toxicity": 3.0390734536922537e-05,
-      "obscene": 0.00032059152727015316,
-      "identity_attack": 0.00019019414321519434,
-      "insult": 0.0007294980459846556,
-      "threat": 3.463240500423126e-05,
-      "sexual_explicit": 2.726773891481571e-05
+      "toxicity": 0.00154,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00032,
+      "identity_attack": 0.00019,
+      "insult": 0.00073,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/tiktok-headband-versed-1d6484e5?mod=hp_featst_pos5"
   },
@@ -229,13 +229,13 @@
     "text": "Kansas Hunts for Water as Aquifer Levels Fall",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005275960429571569,
-      "severe_toxicity": 2.555695755290799e-05,
-      "obscene": 0.00014002220996189862,
-      "identity_attack": 0.00013857758312951773,
-      "insult": 0.0002003429108299315,
-      "threat": 4.638854443328455e-05,
-      "sexual_explicit": 2.5633746190578677e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00014,
+      "insult": 0.00020,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/kansas-hunts-for-water-as-aquifer-levels-fall-41d10313?mod=hp_lista_pos1"
   },
@@ -245,13 +245,13 @@
     "text": "\u2018Greenwashing\u2019 Targeted in Latest European Regulatory Push",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004049614362884313,
-      "severe_toxicity": 3.906830897904001e-05,
-      "obscene": 0.0002354175812797621,
-      "identity_attack": 0.000144325356814079,
-      "insult": 0.0003009633510373533,
-      "threat": 5.4807729611638933e-05,
-      "sexual_explicit": 3.141479101032019e-05
+      "toxicity": 0.00040,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00024,
+      "identity_attack": 0.00014,
+      "insult": 0.00030,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/greenwashing-targeted-in-latest-european-regulatory-push-13fbac3?mod=hp_lista_pos2"
   },
@@ -261,13 +261,13 @@
     "text": "Biden\u2019s Push to Counter China Steers EV Investments to Canada",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005326647078618407,
-      "severe_toxicity": 2.164829129469581e-05,
-      "obscene": 0.00011301723134238273,
-      "identity_attack": 0.00012657315528485924,
-      "insult": 0.0001906893157865852,
-      "threat": 3.865387770929374e-05,
-      "sexual_explicit": 2.010063144552987e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00013,
+      "insult": 0.00019,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/joe-bidens-push-to-counter-china-steers-ev-investments-to-canada-a3095936?mod=hp_lista_pos3"
   },
@@ -277,13 +277,13 @@
     "text": "In Green Hydrogen Race With the U.S., Europe Is Hobbled",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0010646877344697714,
-      "severe_toxicity": 3.829924753517844e-05,
-      "obscene": 0.00024793349439278245,
-      "identity_attack": 0.00025334471138194203,
-      "insult": 0.00036341059603728354,
-      "threat": 0.00010922731598839164,
-      "sexual_explicit": 3.8064317777752876e-05
+      "toxicity": 0.00106,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00025,
+      "identity_attack": 0.00025,
+      "insult": 0.00036,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.wsj.com/articles/in-green-hydrogen-race-with-the-u-s-europe-is-hobbled-a47ee572?mod=hp_lista_pos4"
   },
@@ -293,13 +293,13 @@
     "text": "Give ChatGPT All the Boring Tasks, Employees Say",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.004027283750474453,
-      "severe_toxicity": 3.240572914364748e-05,
-      "obscene": 0.00036513927625492215,
-      "identity_attack": 0.0004640584229491651,
-      "insult": 0.0008966919267550111,
-      "threat": 6.959327583899722e-05,
-      "sexual_explicit": 4.1717150452313945e-05
+      "toxicity": 0.00403,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00037,
+      "identity_attack": 0.00046,
+      "insult": 0.00090,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.wsj.com/articles/despite-office-bans-some-workers-still-want-to-use-chatgpt-778da50e?mod=lead_feature_below_a_pos1"
   },
@@ -309,13 +309,13 @@
     "text": "Google Launches Bard AI Chatbot to Counter ChatGPT",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002527468604966998,
-      "severe_toxicity": 8.505611913278699e-05,
-      "obscene": 0.00046267372090369463,
-      "identity_attack": 0.00021870658383704722,
-      "insult": 0.0003735993232112378,
-      "threat": 8.484566205879673e-05,
-      "sexual_explicit": 5.117418186273426e-05
+      "toxicity": 0.00025,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00046,
+      "identity_attack": 0.00022,
+      "insult": 0.00037,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00005
     },
     "url": "https://www.wsj.com/articles/google-launches-bard-ai-chatbot-to-counter-chatgpt-2200c357?mod=lead_feature_below_a_pos1"
   },
@@ -325,13 +325,13 @@
     "text": "A Psychologist Explains How AI and Algorithms Are Changing Our Lives",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004941633087582886,
-      "severe_toxicity": 3.322464908706024e-05,
-      "obscene": 0.00018790362810250372,
-      "identity_attack": 0.0001403388596372679,
-      "insult": 0.00024805075372569263,
-      "threat": 3.8491038139909506e-05,
-      "sexual_explicit": 2.6941126634483226e-05
+      "toxicity": 0.00049,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00014,
+      "insult": 0.00025,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/algorithms-ai-humanity-psychology-ebf1364c?mod=lead_feature_below_a_pos1"
   },
@@ -341,13 +341,13 @@
     "text": "How Nintendo Competes Differently Than Sony and Microsoft",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005174268153496087,
-      "severe_toxicity": 0.0005077788373455405,
-      "obscene": 0.004073258489370346,
-      "identity_attack": 0.001241279998794198,
-      "insult": 0.003335205838084221,
-      "threat": 0.00021309571457095444,
-      "sexual_explicit": 0.0001525395200587809
+      "toxicity": 0.00052,
+      "severe_toxicity": 0.00051,
+      "obscene": 0.00407,
+      "identity_attack": 0.00124,
+      "insult": 0.00334,
+      "threat": 0.00021,
+      "sexual_explicit": 0.00015
     },
     "url": "https://www.wsj.com/video/series/the-economics-of/how-nintendo-competes-differently-than-sony-and-microsoft/8F0D4A33-FD22-45D7-A7CC-6A2F1A0BBE06?mod=hp_listb_pos1"
   },
@@ -357,13 +357,13 @@
     "text": "Huawei Bets on Another Premium 4G Phone",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00027719113859348,
-      "severe_toxicity": 5.6294698879355565e-05,
-      "obscene": 0.0002853998157661408,
-      "identity_attack": 0.00017281081818509847,
-      "insult": 0.0001914123131427914,
-      "threat": 6.947803194634616e-05,
-      "sexual_explicit": 4.4926022383151576e-05
+      "toxicity": 0.00028,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00029,
+      "identity_attack": 0.00017,
+      "insult": 0.00019,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.wsj.com/articles/huawei-bets-on-another-premium-4g-phone-86a7a60c?mod=hp_listb_pos2"
   },
@@ -373,13 +373,13 @@
     "text": "Tencent\u2019s Sales Growth Lifted by Digital-Ad Recovery",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00036939940764568746,
-      "severe_toxicity": 2.7892298021470197e-05,
-      "obscene": 0.0001444729568902403,
-      "identity_attack": 0.00010978377395076677,
-      "insult": 0.00018389955221209675,
-      "threat": 3.950194877688773e-05,
-      "sexual_explicit": 2.6395926397526637e-05
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00018,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/tencent-posts-surprise-profit-growth-despite-economic-slowdown-dde00140?mod=hp_listb_pos3"
   },
@@ -389,13 +389,13 @@
     "text": "Nancy Pelosi on How Women Can Succeed in Politics, Business",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.005497397389262915,
-      "severe_toxicity": 9.704949479782954e-05,
-      "obscene": 0.00048694139695726335,
-      "identity_attack": 0.0025821810122579336,
-      "insult": 0.0015962899196892977,
-      "threat": 0.00024052750086411834,
-      "sexual_explicit": 0.0004519986396189779
+      "toxicity": 0.00550,
+      "severe_toxicity": 0.00010,
+      "obscene": 0.00049,
+      "identity_attack": 0.00258,
+      "insult": 0.00160,
+      "threat": 0.00024,
+      "sexual_explicit": 0.00045
     },
     "url": "https://www.wsj.com/articles/nancy-pelosi-to-be-interviewed-at-journals-women-in-the-workplace-forum-b6cb4a9c?mod=hp_listc_pos1"
   },
@@ -405,13 +405,13 @@
     "text": "Taliban Leader Faces Blowback Over Girls\u2019 School Ban\u2014From Own Movement",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.017307166010141373,
-      "severe_toxicity": 5.06327414768748e-05,
-      "obscene": 0.0004565573763102293,
-      "identity_attack": 0.0021941899321973324,
-      "insult": 0.0028523020446300507,
-      "threat": 0.0003983854840043932,
-      "sexual_explicit": 0.0005963515141047537
+      "toxicity": 0.01731,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00046,
+      "identity_attack": 0.00219,
+      "insult": 0.00285,
+      "threat": 0.00040,
+      "sexual_explicit": 0.00060
     },
     "url": "https://www.wsj.com/articles/taliban-girls-school-ban-leader-blowback-secret-education-b1e9ab7f?mod=hp_listc_pos2"
   },
@@ -421,13 +421,13 @@
     "text": "U.K. Inflation Resumes Its Rise, Defying Expectations",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007124405819922686,
-      "severe_toxicity": 2.8910168111906387e-05,
-      "obscene": 0.00016672414494678378,
-      "identity_attack": 0.00017076675430871546,
-      "insult": 0.00021579112217295915,
-      "threat": 6.459097494371235e-05,
-      "sexual_explicit": 3.485449269646779e-05
+      "toxicity": 0.00071,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00017,
+      "insult": 0.00022,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/u-k-inflation-resumes-its-rise-defying-expectations-b23e6aa0?mod=hp_listc_pos3"
   },
@@ -437,13 +437,13 @@
     "text": "These Commuter Backpacks Deliver on Function and Style",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000990699976682663,
-      "severe_toxicity": 3.107191150775179e-05,
-      "obscene": 0.0002788119309116155,
-      "identity_attack": 0.00019308351329527795,
-      "insult": 0.0005078930989839137,
-      "threat": 3.799751357291825e-05,
-      "sexual_explicit": 2.8734586521750316e-05
+      "toxicity": 0.00099,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00028,
+      "identity_attack": 0.00019,
+      "insult": 0.00051,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/buyside/style/best-commuter-backpacks-01653427565?mod=wsj_hp_buyside_pos1"
   },
@@ -453,13 +453,13 @@
     "text": "The 38 Best Deals to Shop Online Right Now",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003152877907268703,
-      "severe_toxicity": 3.3227024687221274e-05,
-      "obscene": 0.0001800348691176623,
-      "identity_attack": 0.00010450649278936908,
-      "insult": 0.0002012289041886106,
-      "threat": 4.4295469706412405e-05,
-      "sexual_explicit": 2.493910324119497e-05
+      "toxicity": 0.00032,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00010,
+      "insult": 0.00020,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/buyside/shopping-holidays/best-deals-right-now-4e77f8d6?mod=wsj_hp_buyside_pos2"
   },
@@ -469,13 +469,13 @@
     "text": "What Are the New Tax Brackets for 2023?",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003320615505799651,
-      "severe_toxicity": 2.4031298380577937e-05,
-      "obscene": 0.00012284654076211154,
-      "identity_attack": 9.190778655465692e-05,
-      "insult": 0.0001510681613581255,
-      "threat": 3.118560925940983e-05,
-      "sexual_explicit": 2.3768667233525775e-05
+      "toxicity": 0.00033,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00009,
+      "insult": 0.00015,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/buyside/personal-finance/tax-bracket-changes-01666448477?mod=wsj_hp_buyside_pos3"
   },
@@ -485,13 +485,13 @@
     "text": "New FTC Order Pressures Tech Platforms Over Fraudulent Ads",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00069957080995664,
-      "severe_toxicity": 2.8750868295901455e-05,
-      "obscene": 0.00022403475304599851,
-      "identity_attack": 0.0001182989653898403,
-      "insult": 0.0004540959489531815,
-      "threat": 3.4950149711221457e-05,
-      "sexual_explicit": 2.2858166630612686e-05
+      "toxicity": 0.00070,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00022,
+      "identity_attack": 0.00012,
+      "insult": 0.00045,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/new-ftc-order-pressures-tech-platforms-over-fraudulent-ads-72a6df4e?mod=hp_minor_pos1"
   },
@@ -501,13 +501,13 @@
     "text": "Have the Ads in Your Twitter Feed Changed? There\u2019s a Reason for That",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008173356764018536,
-      "severe_toxicity": 1.6866764781298116e-05,
-      "obscene": 0.00012134757707826793,
-      "identity_attack": 0.0001191556584672071,
-      "insult": 0.0002405798004474491,
-      "threat": 2.9889610232203268e-05,
-      "sexual_explicit": 1.911742947413586e-05
+      "toxicity": 0.00082,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00012,
+      "insult": 0.00024,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/have-the-ads-in-your-twitter-feed-changed-theres-a-reason-for-that-1772f9f3?mod=hp_minor_pos2"
   },
@@ -517,13 +517,13 @@
     "text": "Five Things Marketers Should Know About Generative AI in Advertising",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00037487063673324883,
-      "severe_toxicity": 2.824546754709445e-05,
-      "obscene": 0.00012917477579321712,
-      "identity_attack": 0.0001254965754924342,
-      "insult": 0.0001464935630792752,
-      "threat": 3.679949804791249e-05,
-      "sexual_explicit": 2.426219725748524e-05
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00013,
+      "insult": 0.00015,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/five-things-marketers-should-know-about-generative-ai-in-advertising-5381c1d0?mod=hp_minor_pos3"
   },
@@ -533,13 +533,13 @@
     "text": "Generative AI Makes Headway in Healthcare",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006012972444295883,
-      "severe_toxicity": 2.997078627231531e-05,
-      "obscene": 0.00017266505165025592,
-      "identity_attack": 0.00013804476475343108,
-      "insult": 0.0001957984350156039,
-      "threat": 5.888235682505183e-05,
-      "sexual_explicit": 3.007308259839192e-05
+      "toxicity": 0.00060,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00014,
+      "insult": 0.00020,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/generative-ai-makes-headway-in-healthcare-cb5d4ee2?mod=hp_minor_pos4"
   },
@@ -549,13 +549,13 @@
     "text": "Data Deluge: Businesses Struggle With TMI",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007151032914407551,
-      "severe_toxicity": 6.396733806468546e-05,
-      "obscene": 0.0006040927255526185,
-      "identity_attack": 0.00021010013006161898,
-      "insult": 0.0005886685685254633,
-      "threat": 0.000103650992969051,
-      "sexual_explicit": 5.740609049098566e-05
+      "toxicity": 0.00072,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00060,
+      "identity_attack": 0.00021,
+      "insult": 0.00059,
+      "threat": 0.00010,
+      "sexual_explicit": 0.00006
     },
     "url": "https://www.wsj.com/articles/data-deluge-businesses-struggle-with-tmi-5e41cca1?mod=hp_minor_pos5"
   },
@@ -565,13 +565,13 @@
     "text": "SVB Collapse Could Trigger More Corporate M&A, Tech Leaders Say",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005041179829277098,
-      "severe_toxicity": 2.33002174354624e-05,
-      "obscene": 0.00013891176786273718,
-      "identity_attack": 0.00010863098577829078,
-      "insult": 0.00018827433814294636,
-      "threat": 3.9373775507556275e-05,
-      "sexual_explicit": 2.0440016669454053e-05
+      "toxicity": 0.00050,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00019,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/svb-collapse-could-trigger-more-corporate-m-a-tech-leaders-say-baff7734?mod=hp_minor_pos6"
   },
@@ -581,13 +581,13 @@
     "text": "As Ford Carves Out Its EV Unit, Reporting by Region Gets Ditched",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004837326123379171,
-      "severe_toxicity": 2.3183054508990608e-05,
-      "obscene": 0.0001404420763719827,
-      "identity_attack": 0.00010843590280273929,
-      "insult": 0.00019973695452790707,
-      "threat": 3.726672366610728e-05,
-      "sexual_explicit": 2.306612987013068e-05
+      "toxicity": 0.00048,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00020,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/as-ford-carves-out-its-ev-unit-reporting-by-region-gets-ditched-11a8c7b1?mod=hp_minor_pos7"
   },
@@ -597,13 +597,13 @@
     "text": "Banks, Investors Revive Push for Changes to Securities Accounting After SVB Collapse",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003649774589575827,
-      "severe_toxicity": 2.5588295102352276e-05,
-      "obscene": 0.0001377103035338223,
-      "identity_attack": 9.890984802041203e-05,
-      "insult": 0.00016378563304897398,
-      "threat": 3.710898454301059e-05,
-      "sexual_explicit": 2.3339534891420044e-05
+      "toxicity": 0.00036,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00010,
+      "insult": 0.00016,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/banks-investors-revive-push-for-changes-to-securities-accounting-after-svb-collapse-99caa9ce?mod=hp_minor_pos8"
   },
@@ -613,13 +613,13 @@
     "text": "SVB Collapse Spurs Finance Executives to Re-Evaluate Cash Strategies",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004640177357941866,
-      "severe_toxicity": 2.5587001800886355e-05,
-      "obscene": 0.00012827284808736295,
-      "identity_attack": 0.00013608175504487008,
-      "insult": 0.00017466636199969798,
-      "threat": 4.472532600630075e-05,
-      "sexual_explicit": 2.7145018975716084e-05
+      "toxicity": 0.00046,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00014,
+      "insult": 0.00017,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/svb-collapse-spurs-finance-executives-to-re-evaluate-cash-strategies-62cb3083?mod=hp_minor_pos9"
   },
@@ -629,13 +629,13 @@
     "text": "Missteps by Ericsson and Its Lawyers Led to New Sanctions Against Company",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007878558826632798,
-      "severe_toxicity": 1.885794881673064e-05,
-      "obscene": 0.00014271176769398153,
-      "identity_attack": 0.0001128915318986401,
-      "insult": 0.00036488892510533333,
-      "threat": 2.253583625133615e-05,
-      "sexual_explicit": 1.6950680219451897e-05
+      "toxicity": 0.00079,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00036,
+      "threat": 0.00002,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/missteps-by-ericsson-and-its-lawyers-led-to-new-sanctions-against-company-a0e70f80?mod=hp_minor_pos10"
   },
@@ -645,13 +645,13 @@
     "text": "ChipMixer Is Shut Down for Allegedly Laundering $3 Billion in Crypto",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.013612260110676289,
-      "severe_toxicity": 5.93065342400223e-05,
-      "obscene": 0.0015704198740422726,
-      "identity_attack": 0.00019504137162584811,
-      "insult": 0.0034954154398292303,
-      "threat": 7.196106889750808e-05,
-      "sexual_explicit": 8.8866101577878e-05
+      "toxicity": 0.01361,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00157,
+      "identity_attack": 0.00020,
+      "insult": 0.00350,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00009
     },
     "url": "https://www.wsj.com/articles/chipmixer-is-shut-down-for-allegedly-laundering-3-billion-in-crypto-325a55ee?mod=hp_minor_pos11"
   },
@@ -661,13 +661,13 @@
     "text": "The Morning Risk Report",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00027704425156116486,
-      "severe_toxicity": 2.932951792899985e-05,
-      "obscene": 0.00015499773144256324,
-      "identity_attack": 9.692205640021712e-05,
-      "insult": 0.00017810445569921285,
-      "threat": 3.897393980878405e-05,
-      "sexual_explicit": 2.398523429292254e-05
+      "toxicity": 0.00028,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00010,
+      "insult": 0.00018,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://createsend.com/t/d-124F53EF6669129F2540EF23F30FEDED?mod=hp_minor_pos12"
   },
@@ -677,13 +677,13 @@
     "text": "Trucking Giant Knight-Swift Transportation to Buy U.S. Xpress",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008042590925469995,
-      "severe_toxicity": 3.491777169983834e-05,
-      "obscene": 0.00023904531553853303,
-      "identity_attack": 0.00017994064546655864,
-      "insult": 0.00029082028777338564,
-      "threat": 6.609297270188108e-05,
-      "sexual_explicit": 2.9994116630405188e-05
+      "toxicity": 0.00080,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00024,
+      "identity_attack": 0.00018,
+      "insult": 0.00029,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/trucking-giant-knight-swift-transportation-to-buy-u-s-xpress-c763d424?mod=hp_minor_pos13"
   },
@@ -693,13 +693,13 @@
     "text": "Labor Tensions Rise in Stalled West Coast Port Contract Talks",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00041373888961970806,
-      "severe_toxicity": 4.49329600087367e-05,
-      "obscene": 0.00028355172253213823,
-      "identity_attack": 0.00015959417214617133,
-      "insult": 0.00033022795105353,
-      "threat": 5.680863614543341e-05,
-      "sexual_explicit": 3.281958197476342e-05
+      "toxicity": 0.00041,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00028,
+      "identity_attack": 0.00016,
+      "insult": 0.00033,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/labor-tensions-rise-in-stalled-west-coast-port-contract-talks-cb031b7c?mod=hp_minor_pos14"
   },
@@ -709,13 +709,13 @@
     "text": "Today\u2019s Logistics Report: Knight Growing by the Truckload; Expanding Port Cyber Safeguards",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004317716520745307,
-      "severe_toxicity": 2.5890531105687842e-05,
-      "obscene": 0.00014593283412978053,
-      "identity_attack": 0.00011617872951319441,
-      "insult": 0.0001865903177531436,
-      "threat": 4.0441718738293275e-05,
-      "sexual_explicit": 2.1648042093147524e-05
+      "toxicity": 0.00043,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00012,
+      "insult": 0.00019,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://createsend.com/t/d-E91BE92DC5B7A1672540EF23F30FEDED?mod=hp_minor_pos15"
   },
@@ -725,13 +725,13 @@
     "text": "Companies Face Another Packed Year of Sustainability Shareholder Votes",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000385281047783792,
-      "severe_toxicity": 3.733680205186829e-05,
-      "obscene": 0.00023374705051537603,
-      "identity_attack": 0.00011932837514905259,
-      "insult": 0.00020797904289793223,
-      "threat": 4.7993133193813264e-05,
-      "sexual_explicit": 3.4144435630878434e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00023,
+      "identity_attack": 0.00012,
+      "insult": 0.00021,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/companies-face-another-packed-year-of-sustainability-shareholder-votes-94c2c8bb?mod=hp_minor_pos16"
   },
@@ -741,13 +741,13 @@
     "text": "Nestl\u00e9 Says Less Than Half of Its Main Portfolio Is Ranked as Healthy",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005297043826431036,
-      "severe_toxicity": 2.385878178756684e-05,
-      "obscene": 0.00016075980965979397,
-      "identity_attack": 0.00011924908176297322,
-      "insult": 0.0002689124667085707,
-      "threat": 2.7658912586048245e-05,
-      "sexual_explicit": 2.1450858184834942e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00012,
+      "insult": 0.00027,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/nestle-says-less-than-half-of-its-main-portfolio-is-ranked-as-healthy-53778554?mod=hp_minor_pos17"
   },
@@ -757,13 +757,13 @@
     "text": "Corporate Climate Targets Get Lift Under Rosier U.S. Government Emissions Outlook",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00031190848676487803,
-      "severe_toxicity": 3.0049688575672917e-05,
-      "obscene": 0.00014004370314069092,
-      "identity_attack": 0.00010981695959344506,
-      "insult": 0.00016883021453395486,
-      "threat": 4.031207208754495e-05,
-      "sexual_explicit": 2.811392187140882e-05
+      "toxicity": 0.00031,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00017,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/corporate-climate-targets-get-lift-under-rosier-u-s-government-emissions-outlook-fb6b154?mod=hp_minor_pos18"
   },
@@ -773,13 +773,13 @@
     "text": "India\u2019s EV Dreams Face a Reality Check",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003817751130554825,
-      "severe_toxicity": 3.572602508938871e-05,
-      "obscene": 0.00015562922635581344,
-      "identity_attack": 0.00017387357365805656,
-      "insult": 0.00013758717977907509,
-      "threat": 6.356139783747494e-05,
-      "sexual_explicit": 3.711797035066411e-05
+      "toxicity": 0.00038,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00016,
+      "identity_attack": 0.00017,
+      "insult": 0.00014,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.wsj.com/articles/indias-ev-dreams-face-a-reality-check-bda1db82?mod=hp_minor_pos19"
   },
@@ -789,13 +789,13 @@
     "text": "Eli Lilly Is Priced for Perfection in the Obesity Market",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.013727335259318352,
-      "severe_toxicity": 1.4447940884565469e-05,
-      "obscene": 0.00020415543986018747,
-      "identity_attack": 0.00013963341189082712,
-      "insult": 0.008169733919203281,
-      "threat": 6.537617446156219e-05,
-      "sexual_explicit": 3.8116333598736674e-05
+      "toxicity": 0.01373,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00020,
+      "identity_attack": 0.00014,
+      "insult": 0.00817,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.wsj.com/articles/eli-lilly-is-priced-for-perfection-in-the-obesity-market-4b3e2363?mod=hp_minor_pos20"
   },
@@ -805,13 +805,13 @@
     "text": "Credit Suisse\u2019s \u2018Bail-In\u2019 Bonds Gave Politicians Easy Target",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005651867832057178,
-      "severe_toxicity": 3.466392809059471e-05,
-      "obscene": 0.0003023740428034216,
-      "identity_attack": 0.00013029196998104453,
-      "insult": 0.0003864697937387973,
-      "threat": 5.121568392496556e-05,
-      "sexual_explicit": 3.597594331949949e-05
+      "toxicity": 0.00057,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00030,
+      "identity_attack": 0.00013,
+      "insult": 0.00039,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.wsj.com/articles/credit-suisses-bail-in-bonds-made-an-easy-target-for-politicians-2a821441?mod=hp_minor_pos21"
   },
@@ -821,13 +821,13 @@
     "text": "Meta Gets Third Upgrade of the Week\u2014and It's Only Wednesday",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004083059902768582,
-      "severe_toxicity": 2.8976743124076165e-05,
-      "obscene": 0.00016268335457425565,
-      "identity_attack": 0.00012690367293544114,
-      "insult": 0.00020799689809791744,
-      "threat": 3.673848550533876e-05,
-      "sexual_explicit": 2.289855183335021e-05
+      "toxicity": 0.00041,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00016,
+      "identity_attack": 0.00013,
+      "insult": 0.00021,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.barrons.com/articles/meta-stock-upgrade-alphabet-pinterest-cbd36e59?mod=hp_minor_pos22"
   },
@@ -837,13 +837,13 @@
     "text": "PacWest Bancorp Stock Tumbles After Bank Opts Against Capital Raise",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004606162547133863,
-      "severe_toxicity": 2.1597070372081362e-05,
-      "obscene": 0.0001369675010209903,
-      "identity_attack": 8.838320354698226e-05,
-      "insult": 0.00023488129954785109,
-      "threat": 3.183180160704069e-05,
-      "sexual_explicit": 2.0658262656070292e-05
+      "toxicity": 0.00046,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00009,
+      "insult": 0.00023,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.barrons.com/articles/pacwest-bancorp-stock-capital-f8653a7a?mod=hp_minor_pos23"
   },
@@ -853,13 +853,13 @@
     "text": "Fungus Endangers Patients in Hospitals, Long-Term Care",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.006971093360334635,
-      "severe_toxicity": 4.7275603719754145e-05,
-      "obscene": 0.0012057108106091619,
-      "identity_attack": 0.0002964255982078612,
-      "insult": 0.001991896191611886,
-      "threat": 6.86523417243734e-05,
-      "sexual_explicit": 7.935833127703518e-05
+      "toxicity": 0.00697,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00121,
+      "identity_attack": 0.00030,
+      "insult": 0.00199,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00008
     },
     "url": "https://www.barrons.com/articles/new-deadly-fungus-candida-auris-194db099?mod=hp_minor_pos24"
   },
@@ -869,13 +869,13 @@
     "text": "U.S. stocks open lower ahead of Fed rate decision",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003312609624117613,
-      "severe_toxicity": 2.957928336400073e-05,
-      "obscene": 0.00012623325164895505,
-      "identity_attack": 0.00010594778723316267,
-      "insult": 0.00013045257946942002,
-      "threat": 5.042304110247642e-05,
-      "sexual_explicit": 2.6188368792645633e-05
+      "toxicity": 0.00033,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00011,
+      "insult": 0.00013,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.marketwatch.com/story/u-s-stock-futures-dip-ahead-of-fed-rate-decision-1a03174a?mod=hp_minor_pos25"
   },
@@ -885,13 +885,13 @@
     "text": "GameStop surges on surprise earnings beat, lifting meme stocks AMC and Bed Bath & Beyond",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003958256565965712,
-      "severe_toxicity": 2.2485042791231535e-05,
-      "obscene": 0.00012937372957821935,
-      "identity_attack": 9.771139593794942e-05,
-      "insult": 0.00017789214325603098,
-      "threat": 3.5399061744101346e-05,
-      "sexual_explicit": 2.142522316717077e-05
+      "toxicity": 0.00040,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00010,
+      "insult": 0.00018,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.marketwatch.com/story/amc-bed-bath-beyond-stocks-get-a-big-lift-as-meme-peer-gamestop-shares-soar-ba31beb?mod=hp_minor_pos26"
   },
@@ -901,13 +901,13 @@
     "text": "Fed likely to follow ECB's playbook and hike interest rates this week",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003942350158467889,
-      "severe_toxicity": 2.3029206204228103e-05,
-      "obscene": 0.00011192416423000395,
-      "identity_attack": 8.71620504767634e-05,
-      "insult": 0.00017308983660768718,
-      "threat": 3.979539542342536e-05,
-      "sexual_explicit": 2.1789341190014966e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00009,
+      "insult": 0.00017,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.marketwatch.com/story/fed-likely-to-follow-ecbs-playbook-and-hike-interest-rates-next-week-b465a0d9?mod=hp_minor_pos27"
   },
@@ -917,13 +917,13 @@
     "text": "One of the Priciest Homes for Sale in the Dominican Republic Is This $25 Million Penthouse",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00029913283651694655,
-      "severe_toxicity": 2.466059959260747e-05,
-      "obscene": 0.00014348844706546515,
-      "identity_attack": 9.106183279072866e-05,
-      "insult": 0.0001611459447303787,
-      "threat": 3.0332217647810467e-05,
-      "sexual_explicit": 2.379899160587229e-05
+      "toxicity": 0.00030,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00009,
+      "insult": 0.00016,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.mansionglobal.com/articles/one-of-the-priciest-homes-for-sale-in-the-dominican-republic-is-this-25-million-penthouse-47701d1a?mod=hp_minor_pos28"
   },
@@ -933,13 +933,13 @@
     "text": "Dubai\u2019s Latest Luxury Developments Include Man-Made Islands and Rooftop Opera Pavilions",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002347856789128855,
-      "severe_toxicity": 0.00020177724945824593,
-      "obscene": 0.0011285191867500544,
-      "identity_attack": 0.0002495585067663342,
-      "insult": 0.0009174555307254195,
-      "threat": 0.00016542722005397081,
-      "sexual_explicit": 0.00011327671381877735
+      "toxicity": 0.00023,
+      "severe_toxicity": 0.00020,
+      "obscene": 0.00113,
+      "identity_attack": 0.00025,
+      "insult": 0.00092,
+      "threat": 0.00017,
+      "sexual_explicit": 0.00011
     },
     "url": "https://www.mansionglobal.com/articles/dubais-latest-luxury-developments-include-man-made-islands-and-rooftop-opera-pavilions-138df4fe?mod=hp_minor_pos29"
   },
@@ -949,13 +949,13 @@
     "text": "How to Mix Bedroom Patterns Like a Maximalist Pro",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008759328629821539,
-      "severe_toxicity": 2.5385417757206596e-05,
-      "obscene": 0.00015732912288513035,
-      "identity_attack": 0.00019205603166483343,
-      "insult": 0.0002831921447068453,
-      "threat": 3.710523378686048e-05,
-      "sexual_explicit": 2.071907147183083e-05
+      "toxicity": 0.00088,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00016,
+      "identity_attack": 0.00019,
+      "insult": 0.00028,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.mansionglobal.com/articles/how-to-mix-bedroom-patterns-like-a-maximalist-pro-45d75378?mod=hp_minor_pos30"
   },
@@ -965,13 +965,13 @@
     "text": "A Horological Road Trip In Switzerland\u2019s Watch Valley",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0025407050270587206,
-      "severe_toxicity": 0.00016316663823090494,
-      "obscene": 0.0010218019597232342,
-      "identity_attack": 0.0006232074229046702,
-      "insult": 0.000845112488605082,
-      "threat": 0.00032943274709396064,
-      "sexual_explicit": 0.0005247428780421615
+      "toxicity": 0.00254,
+      "severe_toxicity": 0.00016,
+      "obscene": 0.00102,
+      "identity_attack": 0.00062,
+      "insult": 0.00085,
+      "threat": 0.00033,
+      "sexual_explicit": 0.00052
     },
     "url": "https://www.barrons.com/articles/a-horological-road-trip-in-switzerlands-watch-valley-10d2a8c8?mod=hp_minor_pos31"
   },
@@ -981,13 +981,13 @@
     "text": "Asia Week New York Returns With a Series of Auctions and Exhibitions",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002550064236856997,
-      "severe_toxicity": 0.00011219376028748229,
-      "obscene": 0.0006192688597366214,
-      "identity_attack": 0.0003340600524097681,
-      "insult": 0.0006488291546702385,
-      "threat": 8.667724614497274e-05,
-      "sexual_explicit": 4.999852171749808e-05
+      "toxicity": 0.00026,
+      "severe_toxicity": 0.00011,
+      "obscene": 0.00062,
+      "identity_attack": 0.00033,
+      "insult": 0.00065,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00005
     },
     "url": "https://www.barrons.com/articles/asia-week-new-york-returns-with-a-series-of-auctions-and-exhibitions-8e518546?mod=hp_minor_pos32"
   },
@@ -997,13 +997,13 @@
     "text": "The 2023 Porsche 911 Carrera T Offers a Heart-Clutching Drive",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00026048877043649554,
-      "severe_toxicity": 0.00011552054638741538,
-      "obscene": 0.0007223219727165997,
-      "identity_attack": 0.00020814052550122142,
-      "insult": 0.0004446403181646019,
-      "threat": 0.00012699821672867984,
-      "sexual_explicit": 7.321370503632352e-05
+      "toxicity": 0.00026,
+      "severe_toxicity": 0.00012,
+      "obscene": 0.00072,
+      "identity_attack": 0.00021,
+      "insult": 0.00044,
+      "threat": 0.00013,
+      "sexual_explicit": 0.00007
     },
     "url": "https://www.barrons.com/articles/the-2023-porsche-911-carrera-t-offers-a-heart-clutching-drive-7fd5a2?mod=hp_minor_pos33"
   },
@@ -1013,13 +1013,13 @@
     "text": "What Is a Digital Twin? And How Can It Make Companies\u2014and Cities\u2014More Efficient?",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004540323279798031,
-      "severe_toxicity": 2.2104009985923767e-05,
-      "obscene": 0.000130593340145424,
-      "identity_attack": 9.848077752394602e-05,
-      "insult": 0.00020880882220808417,
-      "threat": 3.224807369406335e-05,
-      "sexual_explicit": 2.0650581063819118e-05
+      "toxicity": 0.00045,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00010,
+      "insult": 0.00021,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/what-is-digital-twin-making-companies-cities-more-efficient-92e551b6?mod=hp_jr_pos1"
   },
@@ -1029,13 +1029,13 @@
     "text": "The Technology Skills Every Employee Should Have Today",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005165742477402091,
-      "severe_toxicity": 1.9874414647347294e-05,
-      "obscene": 0.00013485935050994158,
-      "identity_attack": 9.75083967205137e-05,
-      "insult": 0.00021474127424880862,
-      "threat": 2.963244878628757e-05,
-      "sexual_explicit": 2.0766783563885838e-05
+      "toxicity": 0.00052,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00010,
+      "insult": 0.00021,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.wsj.com/articles/technology-skills-employees-should-have-fdc6c0ba?mod=hp_jr_pos2"
   },
@@ -1045,13 +1045,13 @@
     "text": "Why It Matters Whether a Robot Is Given a Gender",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005475353682413697,
-      "severe_toxicity": 2.9423366868286394e-05,
-      "obscene": 0.00017622701125219464,
-      "identity_attack": 0.00013863903586752713,
-      "insult": 0.00016234026406891644,
-      "threat": 4.589164745993912e-05,
-      "sexual_explicit": 2.6809750124812126e-05
+      "toxicity": 0.00055,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00014,
+      "insult": 0.00016,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.wsj.com/articles/benefits-drawbacks-of-giving-ai-gender-4f1b2a2b?mod=hp_jr_pos3"
   }

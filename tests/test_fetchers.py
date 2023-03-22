@@ -146,6 +146,13 @@ def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
 def test_classify(assets, snapshot, monkeypatch, newspaper):
     make_mock_fetcher(monkeypatch, newspaper.url, assets)
 
+    # force rounding scores to 5 decimal places
+    class RoundingFloat(float):
+        __repr__ = staticmethod(lambda x: format(x, ".5f"))  # type: ignore
+
+    json.encoder.c_make_encoder = None  # type: ignore
+    json.encoder.float = RoundingFloat  # type: ignore
+
     fetcher = Fetcher(newspaper)
     snapshot.snapshot_dir = assets / "../snapshots/test_classify"
     snapshot.assert_match(

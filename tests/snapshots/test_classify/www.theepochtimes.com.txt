@@ -5,13 +5,13 @@
     "text": "How Do They Defy Death? Secrets of Cancer Survivors Unveiled",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.002613875549286604,
-      "severe_toxicity": 4.601522596203722e-05,
-      "obscene": 0.00025233079213649035,
-      "identity_attack": 0.0003235545882489532,
-      "insult": 0.000280293810646981,
-      "threat": 0.0002539836859796196,
-      "sexual_explicit": 4.572774196276441e-05
+      "toxicity": 0.00261,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00025,
+      "identity_attack": 0.00032,
+      "insult": 0.00028,
+      "threat": 0.00025,
+      "sexual_explicit": 0.00005
     },
     "url": "https://www.theepochtimes.com/health/how-do-they-defy-death-secrets-of-cancer-survivors-unveiled_5118045.html"
   },
@@ -21,13 +21,13 @@
     "text": "Conflicts of Interest: Pfizer\u2019s Secret Collusion With the NIH",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004023855144623667,
-      "severe_toxicity": 2.6468371288501658e-05,
-      "obscene": 0.00016553167370148003,
-      "identity_attack": 9.84130019787699e-05,
-      "insult": 0.0002536028332542628,
-      "threat": 3.4264470741618425e-05,
-      "sexual_explicit": 2.6584608349367045e-05
+      "toxicity": 0.00040,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00010,
+      "insult": 0.00025,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/health/conflicts-of-interest-pfizers-secret-collusion-with-the-nih_5138161.html"
   },
@@ -37,13 +37,13 @@
     "text": "Depression: 4 Major Symptoms, Treatment, and Natural Therapies (Infographics)",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00028817946440540254,
-      "severe_toxicity": 7.842794002499431e-05,
-      "obscene": 0.0003217995981685817,
-      "identity_attack": 0.00015763424744363874,
-      "insult": 0.0002389698929619044,
-      "threat": 8.968138718046248e-05,
-      "sexual_explicit": 6.237292836885899e-05
+      "toxicity": 0.00029,
+      "severe_toxicity": 0.00008,
+      "obscene": 0.00032,
+      "identity_attack": 0.00016,
+      "insult": 0.00024,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00006
     },
     "url": "https://www.theepochtimes.com/health/depression-4-major-symptoms-treatment-and-natural-therapies-infographics_5085021.html"
   },
@@ -53,13 +53,13 @@
     "text": "Texas AG Ken Paxton\u2019s Legal Opinion Could Help Clear Way For School Choice",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003477062564343214,
-      "severe_toxicity": 2.244652387162205e-05,
-      "obscene": 0.00013213191414251924,
-      "identity_attack": 8.422807877650484e-05,
-      "insult": 0.0001844207290560007,
-      "threat": 3.2310901588061824e-05,
-      "sexual_explicit": 2.185289304179605e-05
+      "toxicity": 0.00035,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00008,
+      "insult": 0.00018,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/texas-ag-ken-paxtons-legal-opinion-could-help-clear-way-for-school-choice_5138691.html"
   },
@@ -69,13 +69,13 @@
     "text": "Los Angeles Public Schools Closed as Unions Launch 3-Day Strike",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005138570559211075,
-      "severe_toxicity": 8.230590174207464e-05,
-      "obscene": 0.0006382663850672543,
-      "identity_attack": 0.00024847660097293556,
-      "insult": 0.000539831758942455,
-      "threat": 8.8474691438023e-05,
-      "sexual_explicit": 5.1355014875298366e-05
+      "toxicity": 0.00051,
+      "severe_toxicity": 0.00008,
+      "obscene": 0.00064,
+      "identity_attack": 0.00025,
+      "insult": 0.00054,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00005
     },
     "url": "https://www.theepochtimes.com/los-angeles-public-schools-closed-as-unions-launch-three-day-strike_5140524.html"
   },
@@ -85,13 +85,13 @@
     "text": "Topple or Kneel to the Patriarchy?",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0010575222549960017,
-      "severe_toxicity": 2.3264823539648205e-05,
-      "obscene": 0.000141818483825773,
-      "identity_attack": 0.00013252471399027854,
-      "insult": 0.00038844108348712325,
-      "threat": 8.191315282601863e-05,
-      "sexual_explicit": 4.2401919927215204e-05
+      "toxicity": 0.00106,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00013,
+      "insult": 0.00039,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/topple-or-kneel-to-the-patriarchy_5137105.html"
   },
@@ -101,13 +101,13 @@
     "text": "DOJ Asks SCOTUS to Quickly Restore Ban on Guns in Domestic Violence Cases",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0009968156227841973,
-      "severe_toxicity": 2.7687388865160756e-05,
-      "obscene": 0.00013254898658487946,
-      "identity_attack": 0.00016212741320487112,
-      "insult": 0.00019020175386685878,
-      "threat": 5.402803071774542e-05,
-      "sexual_explicit": 3.267689316999167e-05
+      "toxicity": 0.00100,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00016,
+      "insult": 0.00019,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/doj-asks-scotus-to-quickly-restore-ban-on-guns-in-domestic-violence-cases_5140054.html"
   },
@@ -117,13 +117,13 @@
     "text": "The Boot of the State\u2014Mark Chenoweth on Suing Federal Agencies and Ensuring the Separation of Powers",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006792827043682337,
-      "severe_toxicity": 1.5143842574616428e-05,
-      "obscene": 0.00011453185288701206,
-      "identity_attack": 8.101236016955227e-05,
-      "insult": 0.0003354825312271714,
-      "threat": 2.5251029001083225e-05,
-      "sexual_explicit": 1.9214885469409637e-05
+      "toxicity": 0.00068,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00008,
+      "insult": 0.00034,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/the-boot-of-the-state-mark-chenoweth-on-suing-federal-agencies-and-ensuring-the-separation-of-powers_5126951.html"
   },
@@ -133,13 +133,13 @@
     "text": "Hillary Clinton Memes Test Limits of First Amendment in Online Speech Trial",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.005204312037676573,
-      "severe_toxicity": 6.267140270210803e-05,
-      "obscene": 0.000975128379650414,
-      "identity_attack": 0.0004341940220911056,
-      "insult": 0.0014744856161996722,
-      "threat": 7.278225530171767e-05,
-      "sexual_explicit": 0.0001762365864124149
+      "toxicity": 0.00520,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00098,
+      "identity_attack": 0.00043,
+      "insult": 0.00147,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00018
     },
     "url": "https://www.theepochtimes.com/hillary-clinton-memes-test-limits-of-first-amendment-in-online-speech-trial_5138669.html"
   },
@@ -149,13 +149,13 @@
     "text": "China Not \u2018Impartial\u2019 Actor in Russia-Ukraine War: White House",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0018218281911686063,
-      "severe_toxicity": 0.0001681155408732593,
-      "obscene": 0.0013253070646896958,
-      "identity_attack": 0.0013661191333085299,
-      "insult": 0.0011544829467311502,
-      "threat": 0.00010776783165056258,
-      "sexual_explicit": 0.0001041959403664805
+      "toxicity": 0.00182,
+      "severe_toxicity": 0.00017,
+      "obscene": 0.00133,
+      "identity_attack": 0.00137,
+      "insult": 0.00115,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00010
     },
     "url": "https://www.theepochtimes.com/china-not-impartial-actor-in-russia-ukraine-war-white-house_5140110.html"
   },
@@ -165,13 +165,13 @@
     "text": "Biden Signs Bill to Declassify COVID Origins Intelligence on Wuhan Lab",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007933189044706523,
-      "severe_toxicity": 2.638694058987312e-05,
-      "obscene": 0.00014030447346158326,
-      "identity_attack": 0.00022620866366196424,
-      "insult": 0.0002573323145043105,
-      "threat": 4.6195051254471764e-05,
-      "sexual_explicit": 2.056420998997055e-05
+      "toxicity": 0.00079,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00023,
+      "insult": 0.00026,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/biden-signs-bill-to-declassify-covid-origin-intelligence-on-wuhan-lab_5137128.html"
   },
@@ -181,13 +181,13 @@
     "text": "Memories of Pre-Dawn Raids at Gunpoint Haunt Pro-Life Activists, Friends, and Family",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00042516132816672325,
-      "severe_toxicity": 2.3352627977146767e-05,
-      "obscene": 0.0001423372159479186,
-      "identity_attack": 0.00011501999688334763,
-      "insult": 0.0002199332375312224,
-      "threat": 3.000032484123949e-05,
-      "sexual_explicit": 2.047966336249374e-05
+      "toxicity": 0.00043,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00012,
+      "insult": 0.00022,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/memories-of-pre-dawn-raids-at-gunpoint-haunt-pro-life-activists-friends-and-family_5115167.html"
   },
@@ -197,13 +197,13 @@
     "text": "\u2018The Country Wants a Change\u2019: DeSantis Details How He Can Beat Biden in 2024",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006961958133615553,
-      "severe_toxicity": 2.2970007194089703e-05,
-      "obscene": 0.00011893305054400116,
-      "identity_attack": 0.00011502974666655064,
-      "insult": 0.0001718036801321432,
-      "threat": 6.683961692033336e-05,
-      "sexual_explicit": 2.6625026293913834e-05
+      "toxicity": 0.00070,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00012,
+      "insult": 0.00017,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/the-country-wants-a-change-desantis-details-how-he-can-beat-biden-in-2024_5140887.html"
   },
@@ -213,13 +213,13 @@
     "text": "GOP Panel Chair Demands Action to Fix \u2018Dire\u2019 Border Situation",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.001216150471009314,
-      "severe_toxicity": 4.351172538008541e-05,
-      "obscene": 0.00014933361671864986,
-      "identity_attack": 0.0002881453838199377,
-      "insult": 0.00016037812747526914,
-      "threat": 0.00025812425883486867,
-      "sexual_explicit": 3.4826949558919296e-05
+      "toxicity": 0.00122,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00015,
+      "identity_attack": 0.00029,
+      "insult": 0.00016,
+      "threat": 0.00026,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/gop-panel-chair-demands-action-to-fix-dire-border-situation_5137224.html"
   },
@@ -229,13 +229,13 @@
     "text": "Senate Votes to Begin Debate on Bill Repealing Iraq War Authorizations",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00023349355615209788,
-      "severe_toxicity": 5.4706168157281354e-05,
-      "obscene": 0.0002760281495284289,
-      "identity_attack": 0.00015448043996002525,
-      "insult": 0.00023044056433718652,
-      "threat": 6.0471331380540505e-05,
-      "sexual_explicit": 3.621510768425651e-05
+      "toxicity": 0.00023,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00028,
+      "identity_attack": 0.00015,
+      "insult": 0.00023,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/senate-votes-to-begin-debate-on-bill-repealing-iraq-war-authorizations_5140038.html"
   },
@@ -245,13 +245,13 @@
     "text": "CDC Bought Phone Data to Monitor Americans\u2019 Compliance With Lockdowns, Contracts Show",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005317539325915277,
-      "severe_toxicity": 2.3057467842590995e-05,
-      "obscene": 0.00012472743401303887,
-      "identity_attack": 0.00012563414929900318,
-      "insult": 0.00019396499556023628,
-      "threat": 3.358897447469644e-05,
-      "sexual_explicit": 2.221953218395356e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00013,
+      "insult": 0.00019,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/cdc-bought-phone-data-to-monitor-americans-compliance-with-lockdowns-contracts-show_5118737.html"
   },
@@ -261,13 +261,13 @@
     "text": "COVID-19 Vaccines Can Cause \u2018Permanent Disabilities\u2019: German Health Minister",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006645068060606718,
-      "severe_toxicity": 3.0245910238591023e-05,
-      "obscene": 0.00025335774989798665,
-      "identity_attack": 0.00012574392894748598,
-      "insult": 0.00039568572537973523,
-      "threat": 3.916970672435127e-05,
-      "sexual_explicit": 3.567026215023361e-05
+      "toxicity": 0.00066,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00025,
+      "identity_attack": 0.00013,
+      "insult": 0.00040,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/covid-19-vaccines-can-cause-permanent-disabilities-says-german-health-minister_5129027.html"
   },
@@ -277,13 +277,13 @@
     "text": "Texas Judge Grants Injunction Against Biden\u2019s \u2018Waters of the United States\u2019 Rule in Texas, Idaho",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005783347878605127,
-      "severe_toxicity": 1.8836919480236247e-05,
-      "obscene": 0.00011764783994294703,
-      "identity_attack": 0.00012037142732879147,
-      "insult": 0.00026270252419635653,
-      "threat": 2.9613067454192787e-05,
-      "sexual_explicit": 1.8430162526783533e-05
+      "toxicity": 0.00058,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00012,
+      "insult": 0.00026,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/texas-judge-grants-injunction-against-bidens-waters-of-the-united-states-rule-in-texas-idaho_5139827.html"
   },
@@ -293,13 +293,13 @@
     "text": "McCarthy Urges Senate to Form China Committee",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005905412253923714,
-      "severe_toxicity": 1.7403692254447378e-05,
-      "obscene": 9.955453424481675e-05,
-      "identity_attack": 0.00011757988249883056,
-      "insult": 0.00021883842418901622,
-      "threat": 2.8447779186535627e-05,
-      "sexual_explicit": 2.0452220269362442e-05
+      "toxicity": 0.00059,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00010,
+      "identity_attack": 0.00012,
+      "insult": 0.00022,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/mccarthy-urges-senate-to-form-china-committee_5140240.html"
   },
@@ -309,13 +309,13 @@
     "text": "Bipartisan Group Renews Push to Ban Lawmakers From Owning and Trading Stocks",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0009656450129114091,
-      "severe_toxicity": 1.9323193555464968e-05,
-      "obscene": 0.0001288062776438892,
-      "identity_attack": 0.00014800998906139284,
-      "insult": 0.00031169058638624847,
-      "threat": 3.920113158528693e-05,
-      "sexual_explicit": 1.8978174921358004e-05
+      "toxicity": 0.00097,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00015,
+      "insult": 0.00031,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/bipartisan-group-renews-push-to-ban-lawmakers-from-owning-and-trading-stocks_5140575.html"
   },
@@ -325,13 +325,13 @@
     "text": "Physician Assistant Fired for Reporting COVID-19 Vaccine Adverse Events to VAERS",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00043880686280317605,
-      "severe_toxicity": 3.250356166972779e-05,
-      "obscene": 0.00021749795996583998,
-      "identity_attack": 0.00011086830636486411,
-      "insult": 0.00028463866328820586,
-      "threat": 4.13100169680547e-05,
-      "sexual_explicit": 3.101424590568058e-05
+      "toxicity": 0.00044,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00022,
+      "identity_attack": 0.00011,
+      "insult": 0.00028,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/physician-assistant-fired-for-reporting-covid-vaccine-adverse-events-to-vaers_5130783.html"
   },
@@ -341,13 +341,13 @@
     "text": "EXCLUSIVE: ATF Gains Financial Information on Potential Gun Buyers for Warrantless Tracking, Documents Show",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003851247893180698,
-      "severe_toxicity": 2.9597342290799133e-05,
-      "obscene": 0.00015761259419377893,
-      "identity_attack": 0.000124649319332093,
-      "insult": 0.00018474526586942375,
-      "threat": 4.2364816181361675e-05,
-      "sexual_explicit": 2.5410025045857765e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00016,
+      "identity_attack": 0.00012,
+      "insult": 0.00018,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/atf-gains-financial-information-on-potential-gun-buyers-for-warrantless-tracking-documents-show_5119085.html"
   },
@@ -357,13 +357,13 @@
     "text": "Southern California Hit by More Rainfall Amid Growing Damages From Flooding",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.002394150011241436,
-      "severe_toxicity": 3.509681118885055e-05,
-      "obscene": 0.0002277234598295763,
-      "identity_attack": 0.000246749899815768,
-      "insult": 0.00034967903047800064,
-      "threat": 0.00022061749768909067,
-      "sexual_explicit": 3.270345041528344e-05
+      "toxicity": 0.00239,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00023,
+      "identity_attack": 0.00025,
+      "insult": 0.00035,
+      "threat": 0.00022,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/southern-california-hit-by-more-rainfall-amid-growing-damages-from-storm-flooding_5140626.html"
   },
@@ -373,13 +373,13 @@
     "text": "Biden Signs Bill to Declassify Virus Origin",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00047816347796469927,
-      "severe_toxicity": 5.772184886154719e-05,
-      "obscene": 0.00031051013502292335,
-      "identity_attack": 0.00018559681484475732,
-      "insult": 0.0003117075248155743,
-      "threat": 6.0009235312463716e-05,
-      "sexual_explicit": 2.8885862775496207e-05
+      "toxicity": 0.00048,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00031,
+      "identity_attack": 0.00019,
+      "insult": 0.00031,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/biden-signs-bill-to-declassify-virus-origin_5140107.html"
   },
@@ -389,13 +389,13 @@
     "text": "Capitol Report: Biden Approves Releasing COVID Intel, Blocks DC Crime Reform",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00045095436507835984,
-      "severe_toxicity": 2.4219407350756228e-05,
-      "obscene": 0.00015408691251650453,
-      "identity_attack": 0.00011291090777376667,
-      "insult": 0.00023355746816378087,
-      "threat": 3.4066702937707305e-05,
-      "sexual_explicit": 2.2262460333877243e-05
+      "toxicity": 0.00045,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00011,
+      "insult": 0.00023,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/capitol-report-biden-approves-releasing-covid-intel-blocks-dc-crime-reform_5139921.html"
   },
@@ -405,13 +405,13 @@
     "text": "California Bill Would Protect Doctors Who Mail Abortion Pills to Out-of-State Patients",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0015191517304629087,
-      "severe_toxicity": 1.9766241166507825e-05,
-      "obscene": 0.00011456516949692741,
-      "identity_attack": 0.00016980130749288946,
-      "insult": 0.0003719406377058476,
-      "threat": 4.086533954250626e-05,
-      "sexual_explicit": 2.697529453143943e-05
+      "toxicity": 0.00152,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00017,
+      "insult": 0.00037,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/california-bill-would-protect-doctors-who-mail-abortion-pills-to-out-of-state-patients_5140370.html"
   },
@@ -421,13 +421,13 @@
     "text": "UN Cultural Agency Under Fire Over CCP Atrocities",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.001256626914255321,
-      "severe_toxicity": 7.3145107307937e-05,
-      "obscene": 0.0005585345206782222,
-      "identity_attack": 0.0002572138328105211,
-      "insult": 0.0005965107120573521,
-      "threat": 8.805528341326863e-05,
-      "sexual_explicit": 3.909581573680043e-05
+      "toxicity": 0.00126,
+      "severe_toxicity": 0.00007,
+      "obscene": 0.00056,
+      "identity_attack": 0.00026,
+      "insult": 0.00060,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/un-cultural-agency-under-fire-over-ccp-atrocities_5139199.html"
   },
@@ -437,13 +437,13 @@
     "text": "Another Former Trans Teen to Sue Medical Provider Over Double Mastectomy at 13",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0011948227183893323,
-      "severe_toxicity": 3.256291165598668e-05,
-      "obscene": 0.00018855801317840815,
-      "identity_attack": 0.0003513563715387136,
-      "insult": 0.00030679249903187156,
-      "threat": 7.359912706306204e-05,
-      "sexual_explicit": 6.951978139113635e-05
+      "toxicity": 0.00119,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00035,
+      "insult": 0.00031,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00007
     },
     "url": "https://www.theepochtimes.com/another-former-trans-teen-to-sue-medical-provider-over-double-mastectomy-at-13_5140279.html"
   },
@@ -453,13 +453,13 @@
     "text": "Vermont League Kicks Out School\u2019s Sports Teams Over Refusal to Pit Girls Against Transgender Basketballer",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.17349013686180115,
-      "severe_toxicity": 0.00014245060447137803,
-      "obscene": 0.0013097790069878101,
-      "identity_attack": 0.07366561144590378,
-      "insult": 0.01296826172620058,
-      "threat": 0.000732194515876472,
-      "sexual_explicit": 0.0032220096327364445
+      "toxicity": 0.17349,
+      "severe_toxicity": 0.00014,
+      "obscene": 0.00131,
+      "identity_attack": 0.07367,
+      "insult": 0.01297,
+      "threat": 0.00073,
+      "sexual_explicit": 0.00322
     },
     "url": "https://www.theepochtimes.com/vermont-league-kicks-out-schools-sports-teams-over-refusal-to-pit-girls-against-transgender-basketballer_5126142.html"
   },
@@ -469,13 +469,13 @@
     "text": "Los Angeles DA Gasc\u00f3n\u2019s Office Provides Free Shuttle for Staff Amid Rising Crime",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006526426295749843,
-      "severe_toxicity": 2.3900158339529298e-05,
-      "obscene": 0.0001602801203262061,
-      "identity_attack": 0.00011884405830642208,
-      "insult": 0.00024525183835066855,
-      "threat": 4.242902286932804e-05,
-      "sexual_explicit": 2.1417439711512998e-05
+      "toxicity": 0.00065,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00012,
+      "insult": 0.00025,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/los-angeles-da-gascons-office-provides-free-shuttle-for-staff-amid-rising-crime_5140231.html"
   },
@@ -485,13 +485,13 @@
     "text": "House Oversight Committee Probes FDA\u2019s Response to Baby Formula Shortage",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00038936457713134587,
-      "severe_toxicity": 2.5412184186279774e-05,
-      "obscene": 0.0001609507598914206,
-      "identity_attack": 9.312603651778772e-05,
-      "insult": 0.000254501705057919,
-      "threat": 3.286819264758378e-05,
-      "sexual_explicit": 2.534127634135075e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00016,
+      "identity_attack": 0.00009,
+      "insult": 0.00025,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/house-oversight-committee-probes-fdas-response-to-baby-formula-shortage_5139958.html"
   },
@@ -501,13 +501,13 @@
     "text": "US Not Considering Fighter Jets for Ukraine After Poland, Slovakia Pledge More Than a Dozen MiGs",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006649591377936304,
-      "severe_toxicity": 3.133030259050429e-05,
-      "obscene": 0.0001910527644213289,
-      "identity_attack": 0.00016965970280580223,
-      "insult": 0.00025977150653488934,
-      "threat": 4.6346183808054775e-05,
-      "sexual_explicit": 2.8415732231223956e-05
+      "toxicity": 0.00066,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00017,
+      "insult": 0.00026,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/us-not-considering-fighter-jets-for-ukraine-after-poland-slovakia-pledge-more-than-a-dozen-migs_5139833.html"
   },
@@ -517,13 +517,13 @@
     "text": "Two American Children Reported Missing in Mexico as US Embassy Issues Alert to Spring Breakers",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008191367378458381,
-      "severe_toxicity": 2.1138310330570675e-05,
-      "obscene": 8.556970715289935e-05,
-      "identity_attack": 0.0003099230816587806,
-      "insult": 0.00014295175787992775,
-      "threat": 4.823139533982612e-05,
-      "sexual_explicit": 2.043364293058403e-05
+      "toxicity": 0.00082,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00009,
+      "identity_attack": 0.00031,
+      "insult": 0.00014,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/two-american-children-reported-missing-in-mexico-as-us-embassy-issues-alert-to-spring-breakers_5139810.html"
   },
@@ -533,13 +533,13 @@
     "text": "State Department Faces Deadline to Provide Documents on Afghanistan Withdrawal",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007154976483434439,
-      "severe_toxicity": 2.6372275897301733e-05,
-      "obscene": 0.00011683732009259984,
-      "identity_attack": 0.00023239415895659477,
-      "insult": 0.00018354551866650581,
-      "threat": 5.9169655287405476e-05,
-      "sexual_explicit": 2.2263096980168484e-05
+      "toxicity": 0.00072,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00012,
+      "identity_attack": 0.00023,
+      "insult": 0.00018,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/state-department-faces-deadline-to-provide-documents-on-afghanistan-withdrawal_5138804.html"
   },
@@ -549,13 +549,13 @@
     "text": "Google Pulls Chinese Pinduoduo App Off Play Store Over Security Concerns",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.001198395504616201,
-      "severe_toxicity": 4.1133240301860496e-05,
-      "obscene": 0.00043370548519305885,
-      "identity_attack": 0.00025187170831486583,
-      "insult": 0.0006406200700439513,
-      "threat": 5.5862488807179034e-05,
-      "sexual_explicit": 3.8394471630454063e-05
+      "toxicity": 0.00120,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00043,
+      "identity_attack": 0.00025,
+      "insult": 0.00064,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/google-pulls-chinese-pinduoduo-app-off-play-store-over-security-concerns_5139529.html"
   },
@@ -565,13 +565,13 @@
     "text": "Willis Reed, Leader on Knicks\u2019 2 Title Teams, Dies at 80",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004712233494501561,
-      "severe_toxicity": 5.300315751810558e-05,
-      "obscene": 0.00042125029722228646,
-      "identity_attack": 0.0001672549988143146,
-      "insult": 0.0006088400259613991,
-      "threat": 6.043207395123318e-05,
-      "sexual_explicit": 3.1541319913230836e-05
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00042,
+      "identity_attack": 0.00017,
+      "insult": 0.00061,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/willis-reed-leader-on-knicks-2-title-teams-dies-at-80_5139976.html"
   },
@@ -581,13 +581,13 @@
     "text": "I Hear Ghosts",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006524486234411597,
-      "severe_toxicity": 2.891403164539952e-05,
-      "obscene": 0.00015481680748052895,
-      "identity_attack": 0.00013788623618893325,
-      "insult": 0.00020549929467961192,
-      "threat": 5.7988931075669825e-05,
-      "sexual_explicit": 2.8188365831738338e-05
+      "toxicity": 0.00065,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00014,
+      "insult": 0.00021,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/i-hear-ghosts_5062745.html"
   },
@@ -597,13 +597,13 @@
     "text": "Home Prices Drop, Breaking 11-Year Streak of Increases",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00044606480514630675,
-      "severe_toxicity": 2.4343058612430468e-05,
-      "obscene": 0.00015398806135635823,
-      "identity_attack": 8.227105718106031e-05,
-      "insult": 0.0002013947523664683,
-      "threat": 3.4207041608169675e-05,
-      "sexual_explicit": 2.3406961190630682e-05
+      "toxicity": 0.00045,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00008,
+      "insult": 0.00020,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/home-prices-drop-breaking-11-year-streak-of-increases_5138381.html"
   },
@@ -613,13 +613,13 @@
     "text": "4 Menopause Symptoms You Might Not Realize You\u2019re Experiencing",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000620458391495049,
-      "severe_toxicity": 0.00019987544510513544,
-      "obscene": 0.0008617480052635074,
-      "identity_attack": 0.0003141907509416342,
-      "insult": 0.000718133756890893,
-      "threat": 0.00019028065435122699,
-      "sexual_explicit": 0.0003174276789650321
+      "toxicity": 0.00062,
+      "severe_toxicity": 0.00020,
+      "obscene": 0.00086,
+      "identity_attack": 0.00031,
+      "insult": 0.00072,
+      "threat": 0.00019,
+      "sexual_explicit": 0.00032
     },
     "url": "https://www.theepochtimes.com/health/4-menopause-symptoms-you-might-not-realize-youre-experiencing_5117823.html"
   },
@@ -629,13 +629,13 @@
     "text": "Shen Yun Represents the Values That Made China Great, Says Company Owner",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007134753395803273,
-      "severe_toxicity": 2.0512990886345506e-05,
-      "obscene": 0.00010635845683282241,
-      "identity_attack": 0.00019972416339442134,
-      "insult": 0.00021526054479181767,
-      "threat": 3.089905294473283e-05,
-      "sexual_explicit": 1.6572512322454713e-05
+      "toxicity": 0.00071,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00020,
+      "insult": 0.00022,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/shen-yun-represents-the-values-that-made-china-great-says-company-owner_5141046.html"
   },
@@ -645,13 +645,13 @@
     "text": "Shen Yun Moved Me to Tears, Says Brazilian Doctor to the Stars",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.002884016605094075,
-      "severe_toxicity": 2.7511227017384954e-05,
-      "obscene": 0.00030871163471601903,
-      "identity_attack": 0.00027403526473790407,
-      "insult": 0.0006396353710442781,
-      "threat": 6.112777191447094e-05,
-      "sexual_explicit": 6.467905041063204e-05
+      "toxicity": 0.00288,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00031,
+      "identity_attack": 0.00027,
+      "insult": 0.00064,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00006
     },
     "url": "https://www.theepochtimes.com/shen-yun-moved-me-to-tears-says-brazilian-doctor-to-the-stars_5135430.html"
   },
@@ -661,13 +661,13 @@
     "text": "Earthing Might Have Therapeutic Effect on COVID-19, 2 Simple Ways to Do It",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003027392376679927,
-      "severe_toxicity": 5.4461677791550756e-05,
-      "obscene": 0.0002913517237175256,
-      "identity_attack": 0.00012538999726530164,
-      "insult": 0.00024154740094672889,
-      "threat": 9.339798998553306e-05,
-      "sexual_explicit": 4.165755308349617e-05
+      "toxicity": 0.00030,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00029,
+      "identity_attack": 0.00013,
+      "insult": 0.00024,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/health/earthing-might-have-therapeutic-effect-on-covid-19-2-simple-ways-to-do-it_5133553.html"
   },
@@ -677,13 +677,13 @@
     "text": "Hypertension Medications Can Increase Stroke Risk: Pressing 2 Acupoints May Effectively Control High Blood Pressure",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00041587656596675515,
-      "severe_toxicity": 4.003435969934799e-05,
-      "obscene": 0.00018690849537961185,
-      "identity_attack": 0.00013383144687395543,
-      "insult": 0.00018603887292556465,
-      "threat": 6.723616388626397e-05,
-      "sexual_explicit": 4.6251388994278386e-05
+      "toxicity": 0.00042,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00019,
+      "identity_attack": 0.00013,
+      "insult": 0.00019,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00005
     },
     "url": "https://www.theepochtimes.com/health/hypertension-medications-can-increase-stroke-risk-pressing-2-acupoints-may-effectively-control-high-blood-pressure_5123999.html"
   },
@@ -693,13 +693,13 @@
     "text": "Crypto Exchange Coinbase Asks Supreme Court to Compel Disgruntled Customers to Pursue Arbitration",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005942221614532173,
-      "severe_toxicity": 2.440647040202748e-05,
-      "obscene": 0.00013021670747548342,
-      "identity_attack": 0.00014655588893219829,
-      "insult": 0.00027297684573568404,
-      "threat": 3.603122240747325e-05,
-      "sexual_explicit": 2.3420470824930817e-05
+      "toxicity": 0.00059,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00015,
+      "insult": 0.00027,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/crypto-exchange-coinbase-asks-supreme-court-to-compel-disgruntled-customers-to-pursue-arbitration_5137882.html"
   },
@@ -709,13 +709,13 @@
     "text": "World Stocks Cautiously Higher Ahead of High Stakes Fed Decision",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00047106255078688264,
-      "severe_toxicity": 2.5950574126909487e-05,
-      "obscene": 0.00014439817459788173,
-      "identity_attack": 0.00010950826981570572,
-      "insult": 0.0002041914704022929,
-      "threat": 4.349019582150504e-05,
-      "sexual_explicit": 2.0978595784981735e-05
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00020,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/world-stocks-cautiously-higher-ahead-of-high-stakes-fed-decision_5141144.html"
   },
@@ -725,13 +725,13 @@
     "text": "This Unique Castle Has Been One Family\u2019s Home Through 34 Generations and for Over 800 Years",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003756530350074172,
-      "severe_toxicity": 3.1167590350378305e-05,
-      "obscene": 0.00017794097948353738,
-      "identity_attack": 9.716579370433465e-05,
-      "insult": 0.00024272782320622355,
-      "threat": 3.510989699861966e-05,
-      "sexual_explicit": 2.151014268747531e-05
+      "toxicity": 0.00038,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00010,
+      "insult": 0.00024,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/this-unique-castle-has-been-one-familys-home-through-34-generations-and-for-over-800-years_5025281.html"
   },
@@ -741,13 +741,13 @@
     "text": "Obese Young Man Weighed 820 Pounds Now Unrecognizable After Dropping 600 Pounds",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0013474008301272988,
-      "severe_toxicity": 8.823154348647222e-05,
-      "obscene": 0.0004954719333909452,
-      "identity_attack": 0.00015712027379777282,
-      "insult": 0.0008243619231507182,
-      "threat": 0.00014051294419914484,
-      "sexual_explicit": 0.00010822206240845844
+      "toxicity": 0.00135,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00050,
+      "identity_attack": 0.00016,
+      "insult": 0.00082,
+      "threat": 0.00014,
+      "sexual_explicit": 0.00011
     },
     "url": "https://www.theepochtimes.com/obese-young-man-weighed-820-pounds-now-unrecognizable-after-dropping-600-pounds_5117977.html"
   },
@@ -757,13 +757,13 @@
     "text": "Webcam Captures Mama Bald Eagle Who Won\u2019t Leave Nest Covered in Over Foot of Snow After Winter Storm",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0013757448177784681,
-      "severe_toxicity": 6.790371116949245e-05,
-      "obscene": 0.0006018729764036834,
-      "identity_attack": 0.00022854306735098362,
-      "insult": 0.0007205684669315815,
-      "threat": 7.245312008308247e-05,
-      "sexual_explicit": 6.279278022702783e-05
+      "toxicity": 0.00138,
+      "severe_toxicity": 0.00007,
+      "obscene": 0.00060,
+      "identity_attack": 0.00023,
+      "insult": 0.00072,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00006
     },
     "url": "https://www.theepochtimes.com/webcam-captures-mama-bald-eagle-who-wont-leave-nest-covered-in-over-foot-of-snow-after-winter-storm_5099311.html"
   },
@@ -773,13 +773,13 @@
     "text": "SCOTUS Overturns Appeals Court Upholding Abortion Without Parental Consent",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005980600253678858,
-      "severe_toxicity": 2.925635635619983e-05,
-      "obscene": 0.00023677360150031745,
-      "identity_attack": 9.718850196804851e-05,
-      "insult": 0.0003510088426992297,
-      "threat": 3.122370253549889e-05,
-      "sexual_explicit": 4.114779949304648e-05
+      "toxicity": 0.00060,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00024,
+      "identity_attack": 0.00010,
+      "insult": 0.00035,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/supreme-court-overturns-appeals-court-ruling-upholding-abortion-without-parental-notification_5135384.html"
   },
@@ -789,13 +789,13 @@
     "text": "CDC Warns of Dangerous Fungal Infection Spreading Through US at \u2018Alarming Rate\u2019",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007570847519673407,
-      "severe_toxicity": 3.211788134649396e-05,
-      "obscene": 0.00016939573106355965,
-      "identity_attack": 0.00014287352678366005,
-      "insult": 0.00021561590256169438,
-      "threat": 5.2221977966837585e-05,
-      "sexual_explicit": 4.4188353058416396e-05
+      "toxicity": 0.00076,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00014,
+      "insult": 0.00022,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/cdc-warns-of-dangerous-fungal-infection-spreading-through-us-at-alarming-rate_5137789.html"
   },
@@ -805,13 +805,13 @@
     "text": "IRS Issues Fresh Warning in \u2018Dirty Dozen\u2019 List of Tax Scams",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0019331309013068676,
-      "severe_toxicity": 1.4259248928283341e-05,
-      "obscene": 0.0001952801103470847,
-      "identity_attack": 7.701534195803106e-05,
-      "insult": 0.0008825365803204477,
-      "threat": 2.1634234144585207e-05,
-      "sexual_explicit": 2.4950975785031915e-05
+      "toxicity": 0.00193,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00020,
+      "identity_attack": 0.00008,
+      "insult": 0.00088,
+      "threat": 0.00002,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/irs-issues-fresh-warning-in-dirty-dozen-list-of-tax-scams_5138029.html"
   },
@@ -821,13 +821,13 @@
     "text": "House Republicans Demand Testimony From Manhattan DA Behind Potential Trump Arrest",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007367556681856513,
-      "severe_toxicity": 1.976946441573091e-05,
-      "obscene": 0.0001387846568832174,
-      "identity_attack": 0.00010521383956074715,
-      "insult": 0.00026955470093525946,
-      "threat": 4.336500205681659e-05,
-      "sexual_explicit": 2.309058436367195e-05
+      "toxicity": 0.00074,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00027,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/jim-jordan-demands-testimony-from-manhattan-da-behind-pending-trump-arrest_5135363.html"
   },
@@ -837,13 +837,13 @@
     "text": "DeSantis Criticizes Manhattan DA, Calls Trump Investigation a \u2018Manufactured Circus\u2019",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0011254497803747654,
-      "severe_toxicity": 2.061885970761068e-05,
-      "obscene": 0.00020098999084439129,
-      "identity_attack": 9.396507812198251e-05,
-      "insult": 0.0005615359987132251,
-      "threat": 2.907065936597064e-05,
-      "sexual_explicit": 2.7245099772699177e-05
+      "toxicity": 0.00113,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00020,
+      "identity_attack": 0.00009,
+      "insult": 0.00056,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/desantis-criticizes-manhattan-da-calls-trump-investigation-a-manufactured-circus_5135698.html"
   },
@@ -853,13 +853,13 @@
     "text": "County\u2019s First Veteran Housing Moves Ahead in Port Jervis",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004229870392009616,
-      "severe_toxicity": 2.3991593479877338e-05,
-      "obscene": 0.00012751307804137468,
-      "identity_attack": 0.00010816615395015106,
-      "insult": 0.0001959736255230382,
-      "threat": 3.433869278524071e-05,
-      "sexual_explicit": 2.124155253113713e-05
+      "toxicity": 0.00042,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00011,
+      "insult": 0.00020,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/countys-first-veteran-housing-moves-ahead-in-port-jervis_5140498.html"
   },
@@ -869,13 +869,13 @@
     "text": "Philly Agrees to $9.2 Million Payout Over Police Response to 2020 Protests",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000286743335891515,
-      "severe_toxicity": 2.45523751800647e-05,
-      "obscene": 0.00012821305426768959,
-      "identity_attack": 8.454320777673274e-05,
-      "insult": 0.00015969052037689835,
-      "threat": 3.436706538195722e-05,
-      "sexual_explicit": 2.461475924064871e-05
+      "toxicity": 0.00029,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00008,
+      "insult": 0.00016,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/philly-agrees-to-9-2-million-payout-over-police-response-to-2020-protests_5139951.html"
   },
@@ -885,13 +885,13 @@
     "text": "Alan Dershowitz: Trump Can Serve as President \u2018From Prison\u2019",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.003005590057000518,
-      "severe_toxicity": 1.1374548193998635e-05,
-      "obscene": 8.60584041220136e-05,
-      "identity_attack": 0.00013674826186615974,
-      "insult": 0.0010232183849439025,
-      "threat": 4.474486559047364e-05,
-      "sexual_explicit": 2.3278360458789393e-05
+      "toxicity": 0.00301,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00009,
+      "identity_attack": 0.00014,
+      "insult": 0.00102,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/alan-dershowitz-trump-can-serve-as-president-from-prison_5139164.html"
   },
@@ -901,13 +901,13 @@
     "text": "Haley Defends Trump as 2024 GOP Rival Faces Possible Arrest",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006447274936363101,
-      "severe_toxicity": 2.736623901000712e-05,
-      "obscene": 0.0001301211304962635,
-      "identity_attack": 0.00012931638048030436,
-      "insult": 0.0001757068675942719,
-      "threat": 6.831737846368924e-05,
-      "sexual_explicit": 2.602343556645792e-05
+      "toxicity": 0.00064,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00013,
+      "insult": 0.00018,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/haley-defends-trump-as-2024-gop-rival-faces-possible-arrest_5139162.html"
   },
@@ -917,13 +917,13 @@
     "text": "Man Found Insane When He Killed Father in Laguna Niguel",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0291404090821743,
-      "severe_toxicity": 0.0002893439959734678,
-      "obscene": 0.0007174131460487843,
-      "identity_attack": 0.005546197295188904,
-      "insult": 0.002142805838957429,
-      "threat": 0.004097027238458395,
-      "sexual_explicit": 0.0012179688783362508
+      "toxicity": 0.02914,
+      "severe_toxicity": 0.00029,
+      "obscene": 0.00072,
+      "identity_attack": 0.00555,
+      "insult": 0.00214,
+      "threat": 0.00410,
+      "sexual_explicit": 0.00122
     },
     "url": "https://www.theepochtimes.com/man-found-insane-when-he-killed-father-in-laguna-niguel_5140460.html"
   },
@@ -933,13 +933,13 @@
     "text": "USA Water Polo Facility, Concert Venue, Botanical Garden Approved for Irvine\u2019s Great Park",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003093279665336013,
-      "severe_toxicity": 3.7534762668656185e-05,
-      "obscene": 0.0002284280490130186,
-      "identity_attack": 0.00012871480430476367,
-      "insult": 0.0002666768850758672,
-      "threat": 3.9877260860521346e-05,
-      "sexual_explicit": 3.0407230951823294e-05
+      "toxicity": 0.00031,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00023,
+      "identity_attack": 0.00013,
+      "insult": 0.00027,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/usa-water-polo-facility-concert-venue-botanical-garden-approved-for-irvines-great-park_5140444.html"
   },
@@ -949,13 +949,13 @@
     "text": "Judge Blocks 1999 California Law Requiring Specific Safety Features for Handguns",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00046068316441960633,
-      "severe_toxicity": 3.780126280616969e-05,
-      "obscene": 0.00016475851589348167,
-      "identity_attack": 0.00017303999629803002,
-      "insult": 0.00022845593048259616,
-      "threat": 4.6458888391498476e-05,
-      "sexual_explicit": 2.534835584810935e-05
+      "toxicity": 0.00046,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00016,
+      "identity_attack": 0.00017,
+      "insult": 0.00023,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/judge-blocks-1999-california-law-requiring-specific-safety-features-for-handguns_5137790.html"
   },
@@ -965,13 +965,13 @@
     "text": "The Role of Newsom\u2019s Diversity Mandates in SVB\u2019s Failure",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00042499316623434424,
-      "severe_toxicity": 2.087931898131501e-05,
-      "obscene": 0.00012226410035509616,
-      "identity_attack": 9.587623935658485e-05,
-      "insult": 0.00023424322716891766,
-      "threat": 2.751815554802306e-05,
-      "sexual_explicit": 1.9745873942156322e-05
+      "toxicity": 0.00042,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00010,
+      "insult": 0.00023,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/the-role-of-newsoms-diversity-mandates-in-svbs-failure_5137206.html"
   },
@@ -981,13 +981,13 @@
     "text": "Proposed GOP Legislation to Block Gas Stove Ban Supported by Industry",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005299050826579332,
-      "severe_toxicity": 3.1028739613248035e-05,
-      "obscene": 0.0001743866305332631,
-      "identity_attack": 0.0001397186570102349,
-      "insult": 0.00020612194202840328,
-      "threat": 4.931506919092499e-05,
-      "sexual_explicit": 2.627394496812485e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00014,
+      "insult": 0.00021,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/proposed-gop-legislation-to-block-gas-stove-ban-supported-by-industry_5139106.html"
   },
@@ -997,13 +997,13 @@
     "text": "\u2018Defamation of a Beloved Teacher\u2019: Community Backs Teacher Charged With Assaulting Student",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.013594318181276321,
-      "severe_toxicity": 5.4416144848801196e-05,
-      "obscene": 0.0003205215616617352,
-      "identity_attack": 0.000331973860738799,
-      "insult": 0.0014495315263047814,
-      "threat": 0.0013978865463286638,
-      "sexual_explicit": 0.0003446592600084841
+      "toxicity": 0.01359,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00032,
+      "identity_attack": 0.00033,
+      "insult": 0.00145,
+      "threat": 0.00140,
+      "sexual_explicit": 0.00034
     },
     "url": "https://www.theepochtimes.com/defamation-of-a-beloved-teacher-community-backs-teacher-who-was-charged-with-assaulting-students_5140847.html"
   },
@@ -1013,13 +1013,13 @@
     "text": "Former US Marine Arrested in Australia for Training Chinese Military Pilots",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0009578687604516745,
-      "severe_toxicity": 1.918081397889182e-05,
-      "obscene": 0.000102499638160225,
-      "identity_attack": 0.0002718130999710411,
-      "insult": 0.000264479051111266,
-      "threat": 4.0011233068071306e-05,
-      "sexual_explicit": 1.880841409729328e-05
+      "toxicity": 0.00096,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00010,
+      "identity_attack": 0.00027,
+      "insult": 0.00026,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/former-us-marine-arrested-in-australia-for-training-chinese-military-pilots_5139761.html"
   },
@@ -1029,13 +1029,13 @@
     "text": "Taiwan President to Visit US but No Word on House Speaker Meeting",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005108126788400114,
-      "severe_toxicity": 1.998266816372052e-05,
-      "obscene": 0.0001159679886768572,
-      "identity_attack": 0.00011568458285182714,
-      "insult": 0.00021852689678780735,
-      "threat": 3.15097531711217e-05,
-      "sexual_explicit": 1.9671126210596412e-05
+      "toxicity": 0.00051,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00012,
+      "insult": 0.00022,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/taiwan-president-to-visit-us-but-no-word-on-house-speaker-meeting_5138328.html"
   },
@@ -1045,13 +1045,13 @@
     "text": "PREMIERING at  Mar. 22 10AM ET: Troubled US Bank\u2019s Ties to China Raise More Red Flags",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006839308189228177,
-      "severe_toxicity": 2.8633787223952822e-05,
-      "obscene": 0.00019419185991864651,
-      "identity_attack": 0.00014105743321124464,
-      "insult": 0.00027296695043332875,
-      "threat": 4.3830859794979915e-05,
-      "sexual_explicit": 2.3212389351101592e-05
+      "toxicity": 0.00068,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00014,
+      "insult": 0.00027,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/troubled-us-banks-ties-to-china-raise-more-red-flags_5139675.html"
   },
@@ -1061,13 +1061,13 @@
     "text": "Clashes Erupt Outside Sydney Church Over \u2018Anti-Trans\u2019 Speech",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.022729670628905296,
-      "severe_toxicity": 4.9632773880148306e-05,
-      "obscene": 0.0005259815370664,
-      "identity_attack": 0.004590324126183987,
-      "insult": 0.004916094243526459,
-      "threat": 0.00021955024567432702,
-      "sexual_explicit": 0.00021818796813022345
+      "toxicity": 0.02273,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00053,
+      "identity_attack": 0.00459,
+      "insult": 0.00492,
+      "threat": 0.00022,
+      "sexual_explicit": 0.00022
     },
     "url": "https://www.theepochtimes.com/clashes-erupt-outside-church-over-anti-trans-speech_5140517.html"
   },
@@ -1077,13 +1077,13 @@
     "text": "Soaring Electricity Prices Push Up EV Charging Fees in Australia",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004861692141275853,
-      "severe_toxicity": 2.331184077775106e-05,
-      "obscene": 0.00011734712461475283,
-      "identity_attack": 0.00011273737618466839,
-      "insult": 0.00017031468451023102,
-      "threat": 3.699090302689001e-05,
-      "sexual_explicit": 2.2542477381648496e-05
+      "toxicity": 0.00049,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00011,
+      "insult": 0.00017,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/soaring-electricity-prices-push-up-ev-charging-fees-in-australia_5140651.html"
   },
@@ -1093,13 +1093,13 @@
     "text": "Federal Decision to Shut Down BC Salmon Farms Prompts Company Court Challenge",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008294951403513551,
-      "severe_toxicity": 3.0284991225926206e-05,
-      "obscene": 0.0001892559666885063,
-      "identity_attack": 0.0001200651386170648,
-      "insult": 0.00021507487690541893,
-      "threat": 9.788485476747155e-05,
-      "sexual_explicit": 3.6649813409894705e-05
+      "toxicity": 0.00083,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00012,
+      "insult": 0.00022,
+      "threat": 0.00010,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/federal-decision-to-shut-down-bc-salmon-farms-prompts-company-court-challenge_5140758.html"
   },
@@ -1109,13 +1109,13 @@
     "text": "Toronto Mayoral Race Shapes up as Former Police Chief, City Councillor Announce Bids",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.001127647585235536,
-      "severe_toxicity": 2.1429246771731414e-05,
-      "obscene": 0.0001706174953142181,
-      "identity_attack": 0.0001446629175916314,
-      "insult": 0.00035328161902725697,
-      "threat": 3.5563982237363234e-05,
-      "sexual_explicit": 3.490625022095628e-05
+      "toxicity": 0.00113,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00017,
+      "identity_attack": 0.00014,
+      "insult": 0.00035,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/toronto-mayoral-race-shapes-up-as-former-police-chief-city-councillor-announce-bids_5140734.html"
   },
@@ -1125,13 +1125,13 @@
     "text": "Swiss Suspend Bonus Payouts to Credit Suisse Staffers",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003559779725037515,
-      "severe_toxicity": 4.179376264801249e-05,
-      "obscene": 0.00022492147400043905,
-      "identity_attack": 0.00015425258607137948,
-      "insult": 0.0002659020246937871,
-      "threat": 5.450282333185896e-05,
-      "sexual_explicit": 2.9867469493183307e-05
+      "toxicity": 0.00036,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00022,
+      "identity_attack": 0.00015,
+      "insult": 0.00027,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/swiss-suspend-bonus-payouts-to-credit-suisse-staffers_5139886.html"
   },
@@ -1141,13 +1141,13 @@
     "text": "US Probes Reports of Steering Glitch on Newer Honda Civics",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003759898245334625,
-      "severe_toxicity": 3.596332317101769e-05,
-      "obscene": 0.00024269911227747798,
-      "identity_attack": 0.000127667241031304,
-      "insult": 0.00027999572921544313,
-      "threat": 3.83155420422554e-05,
-      "sexual_explicit": 3.3540898584760725e-05
+      "toxicity": 0.00038,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00024,
+      "identity_attack": 0.00013,
+      "insult": 0.00028,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/us-probes-reports-of-steering-glitch-on-newer-honda-civics_5139113.html"
   },
@@ -1157,13 +1157,13 @@
     "text": "Microsoft Wins Dismissal of Gamers\u2019 Suit Over $69 Billion Activision Deal",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00039273645961657166,
-      "severe_toxicity": 2.3012038582237437e-05,
-      "obscene": 0.00013727255281992257,
-      "identity_attack": 0.00010650399053702131,
-      "insult": 0.00019573255849536508,
-      "threat": 3.563734935596585e-05,
-      "sexual_explicit": 2.119751661666669e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00020,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/microsoft-wins-dismissal-of-gamers-suit-over-69-billion-activision-deal_5139677.html"
   },
@@ -1173,13 +1173,13 @@
     "text": "Gargantuan Seaweed \u2018Island\u2019 Crossing Atlantic, Headed Toward Florida\u2019s Gulf Coast",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005250686081126332,
-      "severe_toxicity": 3.30507755279541e-05,
-      "obscene": 0.00026476438506506383,
-      "identity_attack": 0.0001249163324246183,
-      "insult": 0.00039762037340551615,
-      "threat": 3.6065841413801536e-05,
-      "sexual_explicit": 3.291690518381074e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00026,
+      "identity_attack": 0.00012,
+      "insult": 0.00040,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/gargantuan-seaweed-island-crossing-atlantic-headed-toward-floridas-gulf-coast_5134053.html"
   },
@@ -1189,13 +1189,13 @@
     "text": "Film Review: \u2018Gotham: The Fall and Rise of New York\u2019: Saving America\u2019s Biggest City From Itself",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003360090486239642,
-      "severe_toxicity": 3.2900712540140375e-05,
-      "obscene": 0.00017814419697970152,
-      "identity_attack": 0.00011189246288267896,
-      "insult": 0.00018725170230027288,
-      "threat": 4.38845636381302e-05,
-      "sexual_explicit": 2.677834709174931e-05
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00011,
+      "insult": 0.00019,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/film-review-gotham-the-fall-and-rise-of-new-york-saving-americas-biggest-city-from-itself_5139581.html"
   },
@@ -1205,13 +1205,13 @@
     "text": "Lessons From Epictetus: On Mastering the Will",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004067923582624644,
-      "severe_toxicity": 0.00011655755952233449,
-      "obscene": 0.0007913215085864067,
-      "identity_attack": 0.0002669679233804345,
-      "insult": 0.0008389045251533389,
-      "threat": 0.00011621540761552751,
-      "sexual_explicit": 7.14727066224441e-05
+      "toxicity": 0.00041,
+      "severe_toxicity": 0.00012,
+      "obscene": 0.00079,
+      "identity_attack": 0.00027,
+      "insult": 0.00084,
+      "threat": 0.00012,
+      "sexual_explicit": 0.00007
     },
     "url": "https://www.theepochtimes.com/lessons-from-epictetus-on-mastering-the-will_5097631.html"
   },
@@ -1221,13 +1221,13 @@
     "text": "Rewind, Review, and Re-Rate: \u2018Cheaper by the Dozen\u2019",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.001378428190946579,
-      "severe_toxicity": 2.7252479412709363e-05,
-      "obscene": 0.00019354339747224003,
-      "identity_attack": 0.00010940108040813357,
-      "insult": 0.0005578399286605418,
-      "threat": 0.0001251561043318361,
-      "sexual_explicit": 3.068954902119003e-05
+      "toxicity": 0.00138,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00011,
+      "insult": 0.00056,
+      "threat": 0.00013,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/rewind-review-and-re-rate-cheaper-by-the-dozen_5136987.html"
   },
@@ -1237,13 +1237,13 @@
     "text": "Book Review: \u2018An Immense World: How Animal Senses Reveal the Hidden Realms Around Us\u2019",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00036872265627607703,
-      "severe_toxicity": 2.036353362200316e-05,
-      "obscene": 0.00011308051034575328,
-      "identity_attack": 7.582785474369302e-05,
-      "insult": 0.00017474415653850883,
-      "threat": 2.6665406039683148e-05,
-      "sexual_explicit": 1.9838133084704168e-05
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00008,
+      "insult": 0.00017,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/book-review-an-immense-world-how-animal-senses-reveal-the-hidden-realms-around-us_5135113.html"
   },
@@ -1253,13 +1253,13 @@
     "text": "New Show \u2018Mysteries of Life\u2019 Explores the Big Questions of Human Existence",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00033895729575306177,
-      "severe_toxicity": 3.0070930733927526e-05,
-      "obscene": 0.00017820383072830737,
-      "identity_attack": 9.060838783625513e-05,
-      "insult": 0.00019917191821150482,
-      "threat": 2.8291891794651747e-05,
-      "sexual_explicit": 2.865736314561218e-05
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00009,
+      "insult": 0.00020,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/new-show-mysteries-of-life-explores-the-big-questions-of-human-existence_5138464.html"
   },
@@ -1269,13 +1269,13 @@
     "text": "Profiles in History: W.W. Keen: The President\u2019s Surgeon",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004892306751571596,
-      "severe_toxicity": 2.176871566916816e-05,
-      "obscene": 0.0001569407613715157,
-      "identity_attack": 0.00010025187657447532,
-      "insult": 0.0003292992478236556,
-      "threat": 3.2339259632863104e-05,
-      "sexual_explicit": 2.259865686937701e-05
+      "toxicity": 0.00049,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00010,
+      "insult": 0.00033,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.theepochtimes.com/profiles-in-history-w-w-keen-the-presidents-surgeon_5136859.html"
   },
@@ -1285,13 +1285,13 @@
     "text": "Roast Loin of Pork Is a Family Favorite for Easter",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.006095640826970339,
-      "severe_toxicity": 1.5000279745436274e-05,
-      "obscene": 0.00019516434986144304,
-      "identity_attack": 0.00021864466543775052,
-      "insult": 0.0021989892702549696,
-      "threat": 6.881758599774912e-05,
-      "sexual_explicit": 3.379756890353747e-05
+      "toxicity": 0.00610,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00020,
+      "identity_attack": 0.00022,
+      "insult": 0.00220,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/roast-loin-of-pork-is-a-family-favorite-for-easter_5137285.html"
   },
@@ -1301,13 +1301,13 @@
     "text": "Restaurant Wine Prices and Obscurity",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002893591590691358,
-      "severe_toxicity": 0.00011905082646990195,
-      "obscene": 0.0007478155312128365,
-      "identity_attack": 0.0002354494499741122,
-      "insult": 0.0005623825709335506,
-      "threat": 0.0001052934312610887,
-      "sexual_explicit": 6.431611109292135e-05
+      "toxicity": 0.00029,
+      "severe_toxicity": 0.00012,
+      "obscene": 0.00075,
+      "identity_attack": 0.00024,
+      "insult": 0.00056,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00006
     },
     "url": "https://www.theepochtimes.com/restaurant-wine-prices-and-obscurity_5137517.html"
   },
@@ -1317,13 +1317,13 @@
     "text": "Smoked Salmon in a Cozy Chowder Is Perfect on Cool, Rainy Days",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0015993333654478192,
-      "severe_toxicity": 3.184592060279101e-05,
-      "obscene": 0.00037220719968900084,
-      "identity_attack": 0.00015186307427939028,
-      "insult": 0.0004902172368019819,
-      "threat": 4.064164022565819e-05,
-      "sexual_explicit": 5.8026769693242386e-05
+      "toxicity": 0.00160,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00037,
+      "identity_attack": 0.00015,
+      "insult": 0.00049,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00006
     },
     "url": "https://www.theepochtimes.com/smoked-salmon-in-a-cozy-chowder-is-perfect-on-cool-rainy-days_5137269.html"
   },
@@ -1333,13 +1333,13 @@
     "text": "Eating This Vegetable Can Lower Blood Pressure and Prevent Cancer",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006515072309412062,
-      "severe_toxicity": 5.5185388191603124e-05,
-      "obscene": 0.00019964497187174857,
-      "identity_attack": 0.00020168512128293514,
-      "insult": 0.0001640945120016113,
-      "threat": 9.301686804974452e-05,
-      "sexual_explicit": 4.0606348193250597e-05
+      "toxicity": 0.00065,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00020,
+      "identity_attack": 0.00020,
+      "insult": 0.00016,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/health/eating-this-vegetable-can-lower-blood-pressure-and-prevent-cancer_5126840.html"
   },
@@ -1349,13 +1349,13 @@
     "text": "This Delicious \u2018Kit Kat\u2019 Recipe Is Passover-Approved",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0009122255723923445,
-      "severe_toxicity": 1.6972451703622937e-05,
-      "obscene": 0.00014900462701916695,
-      "identity_attack": 0.00012102654000045732,
-      "insult": 0.00031061848858371377,
-      "threat": 2.7087327907793224e-05,
-      "sexual_explicit": 3.241623562644236e-05
+      "toxicity": 0.00091,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00012,
+      "insult": 0.00031,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/this-delicious-kit-kat-recipe-is-passover-approved_5136241.html"
   },
@@ -1365,13 +1365,13 @@
     "text": "Pucker Up With a Zesty Lemon Bar",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.008157283067703247,
-      "severe_toxicity": 9.660260548116639e-05,
-      "obscene": 0.001356208696961403,
-      "identity_attack": 0.00024129997473210096,
-      "insult": 0.001406422583386302,
-      "threat": 0.0012270567240193486,
-      "sexual_explicit": 0.0002762166259344667
+      "toxicity": 0.00816,
+      "severe_toxicity": 0.00010,
+      "obscene": 0.00136,
+      "identity_attack": 0.00024,
+      "insult": 0.00141,
+      "threat": 0.00123,
+      "sexual_explicit": 0.00028
     },
     "url": "https://www.theepochtimes.com/pucker-up-with-a-zesty-lemon-bar_5122250.html"
   },
@@ -1381,13 +1381,13 @@
     "text": "Hoffmeister: Viola Concerto in D | William Coleman",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005617653951048851,
-      "severe_toxicity": 0.006558965425938368,
-      "obscene": 0.04138205200433731,
-      "identity_attack": 0.007817156612873077,
-      "insult": 0.039947509765625,
-      "threat": 0.002214076230302453,
-      "sexual_explicit": 0.0016189697198569775
+      "toxicity": 0.00056,
+      "severe_toxicity": 0.00656,
+      "obscene": 0.04138,
+      "identity_attack": 0.00782,
+      "insult": 0.03995,
+      "threat": 0.00221,
+      "sexual_explicit": 0.00162
     },
     "url": "https://www.theepochtimes.com/hoffmeister-viola-concerto-in-d-william-coleman_5133157.html"
   },
@@ -1397,13 +1397,13 @@
     "text": "Gwyneth Paltrow\u2019s Trial Begins for Deer Valley Ski Crash",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005157988634891808,
-      "severe_toxicity": 4.4828528189100325e-05,
-      "obscene": 0.00030005400185473263,
-      "identity_attack": 0.0001673650840530172,
-      "insult": 0.0003244980180170387,
-      "threat": 7.002986239967868e-05,
-      "sexual_explicit": 4.635188452084549e-05
+      "toxicity": 0.00052,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00030,
+      "identity_attack": 0.00017,
+      "insult": 0.00032,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00005
     },
     "url": "https://www.theepochtimes.com/gwyneth-paltrows-trial-begins-for-deer-valley-ski-crash_5140399.html"
   },
@@ -1413,13 +1413,13 @@
     "text": "How the Waning of Religious Belief Impacts America: Sam Sorbo",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0019748632330447435,
-      "severe_toxicity": 2.8641488825087436e-05,
-      "obscene": 0.00020113377831876278,
-      "identity_attack": 0.00034964419319294393,
-      "insult": 0.000528518168721348,
-      "threat": 4.096003249287605e-05,
-      "sexual_explicit": 2.8190061129862443e-05
+      "toxicity": 0.00197,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00020,
+      "identity_attack": 0.00035,
+      "insult": 0.00053,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/how-the-waning-of-religious-belief-impacts-america-sam-sorbo_5136692.html"
   },
@@ -1429,13 +1429,13 @@
     "text": "\u2018Mister Scoutmaster\u2019 (1953): A Tribute to the Boy Scouts of America",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00033750158036127687,
-      "severe_toxicity": 3.088909215875901e-05,
-      "obscene": 0.00018832531350199133,
-      "identity_attack": 8.793151937425137e-05,
-      "insult": 0.0002433792396914214,
-      "threat": 3.104753704974428e-05,
-      "sexual_explicit": 2.7409803806222044e-05
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00009,
+      "insult": 0.00024,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/mister-scoutmaster-1953-a-tribute-to-the-boy-scouts-of-america_5139600.html"
   },
@@ -1445,13 +1445,13 @@
     "text": "Bad Boys | I Married Joan Season 1, Ep.8",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00019995759066659957,
-      "severe_toxicity": 0.00044544850243255496,
-      "obscene": 0.00325248995795846,
-      "identity_attack": 0.0005364315584301949,
-      "insult": 0.0034214970655739307,
-      "threat": 0.00019975693430751562,
-      "sexual_explicit": 0.0001553727051941678
+      "toxicity": 0.00020,
+      "severe_toxicity": 0.00045,
+      "obscene": 0.00325,
+      "identity_attack": 0.00054,
+      "insult": 0.00342,
+      "threat": 0.00020,
+      "sexual_explicit": 0.00016
     },
     "url": "https://www.theepochtimes.com/bad-boys-i-married-joan-season-1-ep-8_5129140.html"
   },
@@ -1461,13 +1461,13 @@
     "text": "Saving and Sharing Good Memories Is Easy, Healthy, and Fun",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00037202981184236705,
-      "severe_toxicity": 4.1572508052922785e-05,
-      "obscene": 0.00023887604766059667,
-      "identity_attack": 0.00012049970973748714,
-      "insult": 0.0002143487217836082,
-      "threat": 4.844260183745064e-05,
-      "sexual_explicit": 2.730463893385604e-05
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00024,
+      "identity_attack": 0.00012,
+      "insult": 0.00021,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/saving-and-sharing-good-memories-is-easy-healthy-and-fun_5121990.html"
   },
@@ -1477,13 +1477,13 @@
     "text": "Mother Prays to Heal Relationship With Family",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00023449931177310646,
-      "severe_toxicity": 3.0273007723735645e-05,
-      "obscene": 0.0001366793003398925,
-      "identity_attack": 0.00011189439828740433,
-      "insult": 0.00012221536599099636,
-      "threat": 4.3927393562626094e-05,
-      "sexual_explicit": 3.71575697499793e-05
+      "toxicity": 0.00023,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00012,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/mother-prays-to-heal-relationship-with-family_5118702.html"
   },
@@ -1493,13 +1493,13 @@
     "text": "Dear Next Generation: The Essence of True Love",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002849596203304827,
-      "severe_toxicity": 7.556301716249436e-05,
-      "obscene": 0.0005517961108125746,
-      "identity_attack": 0.0001854312577052042,
-      "insult": 0.00043332736822776496,
-      "threat": 7.552144961664453e-05,
-      "sexual_explicit": 5.209653318161145e-05
+      "toxicity": 0.00028,
+      "severe_toxicity": 0.00008,
+      "obscene": 0.00055,
+      "identity_attack": 0.00019,
+      "insult": 0.00043,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00005
     },
     "url": "https://www.theepochtimes.com/dear-next-generation-the-essence-of-true-love_5127893.html"
   },
@@ -1509,13 +1509,13 @@
     "text": "\u2018The Parenting Map\u2019: A Conversation With Dr. Shefali",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002620686136651784,
-      "severe_toxicity": 5.182376116863452e-05,
-      "obscene": 0.0003556624869816005,
-      "identity_attack": 0.00011677360453177243,
-      "insult": 0.0003233698953408748,
-      "threat": 5.999064524075948e-05,
-      "sexual_explicit": 3.634655149653554e-05
+      "toxicity": 0.00026,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00036,
+      "identity_attack": 0.00012,
+      "insult": 0.00032,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.theepochtimes.com/the-parenting-map-a-conversation-with-dr-shefali_5119699.html"
   },
@@ -1525,13 +1525,13 @@
     "text": "5 Reasons to Give Kids an Allowance",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00032212340738624334,
-      "severe_toxicity": 2.4027311155805364e-05,
-      "obscene": 0.00011896980868186802,
-      "identity_attack": 0.00010188562009716406,
-      "insult": 0.0001125029448303394,
-      "threat": 3.505907443468459e-05,
-      "sexual_explicit": 2.5507430109428242e-05
+      "toxicity": 0.00032,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00010,
+      "insult": 0.00011,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.theepochtimes.com/5-reasons-to-give-kids-an-allowance_5137349.html"
   },
@@ -1541,13 +1541,13 @@
     "text": "Public Etiquette",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00039418708183802664,
-      "severe_toxicity": 0.000138945018989034,
-      "obscene": 0.0010202728444710374,
-      "identity_attack": 0.0002763451775535941,
-      "insult": 0.0011163668241351843,
-      "threat": 0.00012799464457202703,
-      "sexual_explicit": 7.76162269175984e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00014,
+      "obscene": 0.00102,
+      "identity_attack": 0.00028,
+      "insult": 0.00112,
+      "threat": 0.00013,
+      "sexual_explicit": 0.00008
     },
     "url": "https://www.theepochtimes.com/public-etiquette_5092977.html"
   }

@@ -5,13 +5,13 @@
     "text": "Terrifying video shows execution-style Miami Beach shooting in the midst of spring break",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.003151890356093645,
-      "severe_toxicity": 8.072578930296004e-05,
-      "obscene": 0.0004604162822943181,
-      "identity_attack": 0.0002721149066928774,
-      "insult": 0.0003526053042151034,
-      "threat": 0.00043402620940469205,
-      "sexual_explicit": 0.00010012403799919412
+      "toxicity": 0.00315,
+      "severe_toxicity": 0.00008,
+      "obscene": 0.00046,
+      "identity_attack": 0.00027,
+      "insult": 0.00035,
+      "threat": 0.00043,
+      "sexual_explicit": 0.00010
     },
     "url": "https://nypost.com/2023/03/20/video-shows-execution-style-miami-beach-shooting/"
   },
@@ -21,13 +21,13 @@
     "text": "'Miss y'all'\nShaquille O'Neal sparks concern with hospital photo",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0021746838465332985,
-      "severe_toxicity": 6.063295222702436e-05,
-      "obscene": 0.0009286936256103218,
-      "identity_attack": 0.00024390284670516849,
-      "insult": 0.0009330626344308257,
-      "threat": 4.130907473154366e-05,
-      "sexual_explicit": 0.00012545936624519527
+      "toxicity": 0.00217,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00093,
+      "identity_attack": 0.00024,
+      "insult": 0.00093,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00013
     },
     "url": "https://nypost.com/2023/03/20/shaq-sparks-concern-with-hospital-photo/"
   },
@@ -37,13 +37,13 @@
     "text": "'Against the law': Credit Suisse bondholders blast 'insane' UBS takeover",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.01931758224964142,
-      "severe_toxicity": 3.695127452374436e-05,
-      "obscene": 0.0010721024591475725,
-      "identity_attack": 0.00021103933977428824,
-      "insult": 0.012105066329240799,
-      "threat": 0.00012702679669018835,
-      "sexual_explicit": 0.00011092403292423114
+      "toxicity": 0.01932,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00107,
+      "identity_attack": 0.00021,
+      "insult": 0.01211,
+      "threat": 0.00013,
+      "sexual_explicit": 0.00011
     },
     "url": "https://nypost.com/2023/03/20/credit-suisse-bondholders-blast-insane-ubs-takeover/"
   },
@@ -53,13 +53,13 @@
     "text": "Wendy Williams spotted drinking at NYC gay bar Townhouse after rehab",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.11121605336666107,
-      "severe_toxicity": 0.0006827322067692876,
-      "obscene": 0.002255614148452878,
-      "identity_attack": 0.0806862935423851,
-      "insult": 0.01254977099597454,
-      "threat": 0.0012215053429827094,
-      "sexual_explicit": 0.002411647466942668
+      "toxicity": 0.11122,
+      "severe_toxicity": 0.00068,
+      "obscene": 0.00226,
+      "identity_attack": 0.08069,
+      "insult": 0.01255,
+      "threat": 0.00122,
+      "sexual_explicit": 0.00241
     },
     "url": "https://pagesix.com/2023/03/20/wendy-williams-spotted-drinking-at-nyc-gay-bar-after-rehab/"
   },
@@ -69,13 +69,13 @@
     "text": "Company killer\nInsane, 130-year-old state law poses huge new threat to New York jobs",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.1580866575241089,
-      "severe_toxicity": 5.51517732674256e-05,
-      "obscene": 0.00216302671469748,
-      "identity_attack": 0.0002041071857092902,
-      "insult": 0.13442102074623108,
-      "threat": 0.00016562450036872178,
-      "sexual_explicit": 0.00012894057726953179
+      "toxicity": 0.15809,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00216,
+      "identity_attack": 0.00020,
+      "insult": 0.13442,
+      "threat": 0.00017,
+      "sexual_explicit": 0.00013
     },
     "url": "https://nypost.com/2023/03/19/insane-state-law-poses-huge-new-threat-to-new-york-jobs/"
   },
@@ -85,13 +85,13 @@
     "text": "Stuffed\nFlorida Atlantic coach apologizes for player's rude dunk at end of win over FDU",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.01738028973340988,
-      "severe_toxicity": 5.1996175898239017e-05,
-      "obscene": 0.001991122029721737,
-      "identity_attack": 9.581499762134627e-05,
-      "insult": 0.007368242368102074,
-      "threat": 0.00016071337449830025,
-      "sexual_explicit": 0.0004185503930784762
+      "toxicity": 0.01738,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00199,
+      "identity_attack": 0.00010,
+      "insult": 0.00737,
+      "threat": 0.00016,
+      "sexual_explicit": 0.00042
     },
     "url": "https://nypost.com/2023/03/20/fau-coach-dusty-may-apologizes-for-players-dunk-against-fdu/"
   },
@@ -101,13 +101,13 @@
     "text": "Bettors react in disbelief to brutal March Madness bad beat",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.008985781110823154,
-      "severe_toxicity": 4.916129182674922e-05,
-      "obscene": 0.00037965484079904854,
-      "identity_attack": 0.0002309046540176496,
-      "insult": 0.0020545246079564095,
-      "threat": 0.0007499372004531324,
-      "sexual_explicit": 9.946494537871331e-05
+      "toxicity": 0.00899,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00038,
+      "identity_attack": 0.00023,
+      "insult": 0.00205,
+      "threat": 0.00075,
+      "sexual_explicit": 0.00010
     },
     "url": "https://nypost.com/2023/03/20/bettors-react-to-march-madness-bad-beat-in-tcu-gonzaga/"
   },
@@ -117,13 +117,13 @@
     "text": "CBS reporter saved March Madness star in profane interview",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0057268706150352955,
-      "severe_toxicity": 1.54776298586512e-05,
-      "obscene": 0.00020198513811919838,
-      "identity_attack": 9.819139813771471e-05,
-      "insult": 0.0030352615285664797,
-      "threat": 2.335177850909531e-05,
-      "sexual_explicit": 2.922030216723215e-05
+      "toxicity": 0.00573,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00020,
+      "identity_attack": 0.00010,
+      "insult": 0.00304,
+      "threat": 0.00002,
+      "sexual_explicit": 0.00003
     },
     "url": "https://nypost.com/2023/03/20/jamie-erdahl-saves-faus-johnell-davis-after-march-madness-flub/"
   },
@@ -133,13 +133,13 @@
     "text": "Playing favorites\nPaulina Gretzky fan sends clear message to Dustin Johnson at LIV Golf event",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006603042711503804,
-      "severe_toxicity": 2.865397254936397e-05,
-      "obscene": 0.000216119980905205,
-      "identity_attack": 0.00012483190221246332,
-      "insult": 0.0003731639590114355,
-      "threat": 2.852076977433171e-05,
-      "sexual_explicit": 2.3398170014843345e-05
+      "toxicity": 0.00066,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00022,
+      "identity_attack": 0.00012,
+      "insult": 0.00037,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://nypost.com/2023/03/20/paulina-gretzky-fan-sends-message-to-dustin-johnson-at-liv-tucson/"
   },
@@ -149,13 +149,13 @@
     "text": "Rocking the boat\nChris Rock calls lawmakers 'stupid' for wanting Trump arrested",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.9858043193817139,
-      "severe_toxicity": 0.00018120785534847528,
-      "obscene": 0.0021887461189180613,
-      "identity_attack": 0.002105965744704008,
-      "insult": 0.9823633432388306,
-      "threat": 0.0005931598134338856,
-      "sexual_explicit": 0.00042902110726572573
+      "toxicity": 0.98580,
+      "severe_toxicity": 0.00018,
+      "obscene": 0.00219,
+      "identity_attack": 0.00211,
+      "insult": 0.98236,
+      "threat": 0.00059,
+      "sexual_explicit": 0.00043
     },
     "url": "https://nypost.com/2023/03/20/chris-rock-calls-lawmakers-stupid-for-wanting-trump-arrested/"
   },
@@ -165,13 +165,13 @@
     "text": "Kevin McCarthy calls for calm after Trump tells backers to 'protest' arrest",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008412952884100378,
-      "severe_toxicity": 1.3321600818017032e-05,
-      "obscene": 7.313339301617816e-05,
-      "identity_attack": 8.94617842277512e-05,
-      "insult": 0.0002629879745654762,
-      "threat": 2.6846462787943892e-05,
-      "sexual_explicit": 1.6882488125702366e-05
+      "toxicity": 0.00084,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00007,
+      "identity_attack": 0.00009,
+      "insult": 0.00026,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://nypost.com/2023/03/20/republicans-allay-trumps-calls-for-protest-of-his-possible-arrest/"
   },
@@ -181,13 +181,13 @@
     "text": "A potential Trump indictment is a sideshow gift to the Biden family",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0017120764823630452,
-      "severe_toxicity": 1.0667059541447088e-05,
-      "obscene": 7.599804666824639e-05,
-      "identity_attack": 9.254574979422614e-05,
-      "insult": 0.0006111256661824882,
-      "threat": 2.9130824259482324e-05,
-      "sexual_explicit": 1.687971962383017e-05
+      "toxicity": 0.00171,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00008,
+      "identity_attack": 0.00009,
+      "insult": 0.00061,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://nypost.com/2023/03/19/a-potential-trump-indictment-is-a-sideshow-gift-to-the-biden-family/"
   },
@@ -197,13 +197,13 @@
     "text": "Big Apple beatdown\nBrutal video shows man attacked by neighbors over NYC parking spot",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.15069885551929474,
-      "severe_toxicity": 0.001456842408515513,
-      "obscene": 0.016202149912714958,
-      "identity_attack": 0.0020839304197579622,
-      "insult": 0.005366896744817495,
-      "threat": 0.00949157029390335,
-      "sexual_explicit": 0.032489459961652756
+      "toxicity": 0.15070,
+      "severe_toxicity": 0.00146,
+      "obscene": 0.01620,
+      "identity_attack": 0.00208,
+      "insult": 0.00537,
+      "threat": 0.00949,
+      "sexual_explicit": 0.03249
     },
     "url": "https://nypost.com/2023/03/20/video-shows-man-woman-brutally-attack-neighbor-over-nyc-parking-dispute/"
   },
@@ -213,13 +213,13 @@
     "text": "Hits close to home\nChicago family in battle with 'professional squatter' in dead mom's house",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.004978116136044264,
-      "severe_toxicity": 3.7221689126454294e-05,
-      "obscene": 0.0002600515144877136,
-      "identity_attack": 0.00020937419321853667,
-      "insult": 0.0010527856647968292,
-      "threat": 0.00030988111393526196,
-      "sexual_explicit": 0.00016483046056237072
+      "toxicity": 0.00498,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00026,
+      "identity_attack": 0.00021,
+      "insult": 0.00105,
+      "threat": 0.00031,
+      "sexual_explicit": 0.00016
     },
     "url": "https://nypost.com/2023/03/20/chicago-family-battles-to-evict-professional-squatter/"
   },
@@ -229,13 +229,13 @@
     "text": "Dear Abby: I don't want to get stuck raising my nephew",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0022611627355217934,
-      "severe_toxicity": 1.2859172784374095e-05,
-      "obscene": 9.621969365980476e-05,
-      "identity_attack": 0.0001398040767526254,
-      "insult": 0.0006586070521734655,
-      "threat": 4.861081833951175e-05,
-      "sexual_explicit": 2.641317405505106e-05
+      "toxicity": 0.00226,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00010,
+      "identity_attack": 0.00014,
+      "insult": 0.00066,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://nypost.com/2023/03/20/dear-abby-i-dont-want-to-get-stuck-raising-my-nephew/"
   },
@@ -245,13 +245,13 @@
     "text": "Fans spot Bruce Willis' missing front tooth as star celebrates birthday",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.004445099271833897,
-      "severe_toxicity": 3.4724900615401566e-05,
-      "obscene": 0.0005892694462090731,
-      "identity_attack": 0.00017116467643063515,
-      "insult": 0.0014410697622224689,
-      "threat": 7.6999407610856e-05,
-      "sexual_explicit": 9.057331772055477e-05
+      "toxicity": 0.00445,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00059,
+      "identity_attack": 0.00017,
+      "insult": 0.00144,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00009
     },
     "url": "https://nypost.com/2023/03/20/bruce-willis-reportedly-missing-tooth-in-b-day-video/"
   },
@@ -261,13 +261,13 @@
     "text": "Point of sail\nInside fashion designer Tommy Hilfiger\u2019s $46M mega yacht for sale",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006768464809283614,
-      "severe_toxicity": 2.7225307348999195e-05,
-      "obscene": 0.0002020575775532052,
-      "identity_attack": 0.0001217134267790243,
-      "insult": 0.00034773111110553145,
-      "threat": 3.615775494836271e-05,
-      "sexual_explicit": 2.6566542146611027e-05
+      "toxicity": 0.00068,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00020,
+      "identity_attack": 0.00012,
+      "insult": 0.00035,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://nypost.com/2023/03/20/meet-flag-inside-fashion-designer-tommy-hilfigers-46m-mega-yacht-for-sale/"
   },
@@ -277,13 +277,13 @@
     "text": "What a drag\nNYC 'Drag Story Hour' sparks protests, draws cops, City Council guards to LGBTQA facility",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.12144866585731506,
-      "severe_toxicity": 0.00011100657138740644,
-      "obscene": 0.0018073914106935263,
-      "identity_attack": 0.011617986485362053,
-      "insult": 0.029785018414258957,
-      "threat": 0.0002059331745840609,
-      "sexual_explicit": 0.0007003382197581232
+      "toxicity": 0.12145,
+      "severe_toxicity": 0.00011,
+      "obscene": 0.00181,
+      "identity_attack": 0.01162,
+      "insult": 0.02979,
+      "threat": 0.00021,
+      "sexual_explicit": 0.00070
     },
     "url": "https://nypost.com/2023/03/19/nyc-drag-story-hour-draws-protesters-cops-even-city-council-guards/"
   },
@@ -293,13 +293,13 @@
     "text": "The good, the bad and the ugly\nAll the possibilities for Aaron Rodgers experiment",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.005126184318214655,
-      "severe_toxicity": 9.234347999154124e-06,
-      "obscene": 0.0001168507951661013,
-      "identity_attack": 0.00012603899813257158,
-      "insult": 0.0025452598929405212,
-      "threat": 2.07585053431103e-05,
-      "sexual_explicit": 2.030144605669193e-05
+      "toxicity": 0.00513,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00012,
+      "identity_attack": 0.00013,
+      "insult": 0.00255,
+      "threat": 0.00002,
+      "sexual_explicit": 0.00002
     },
     "url": "https://nypost.com/2023/03/20/the-good-bad-and-ugly-possibilities-for-jets-aaron-rodgers-experiment/"
   },
@@ -309,13 +309,13 @@
     "text": "How sweet it is\nUConn coach celebrates Sweet 16 berth from his efforts since youth",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00105559010989964,
-      "severe_toxicity": 1.9121202058158815e-05,
-      "obscene": 0.00019616170902736485,
-      "identity_attack": 8.460610843030736e-05,
-      "insult": 0.00040332062053494155,
-      "threat": 2.3434704417013563e-05,
-      "sexual_explicit": 3.188791743014008e-05
+      "toxicity": 0.00106,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00020,
+      "identity_attack": 0.00008,
+      "insult": 0.00040,
+      "threat": 0.00002,
+      "sexual_explicit": 0.00003
     },
     "url": "https://nypost.com/2023/03/19/dan-hurley-earns-his-validation-upon-sweet-sixteen-berth/"
   },
@@ -325,13 +325,13 @@
     "text": "Trea Turner's homers fuel Team USA laugher to reach WBC final",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.004962129984050989,
-      "severe_toxicity": 3.7107143725734204e-05,
-      "obscene": 0.0004032835422549397,
-      "identity_attack": 0.00014513710630126297,
-      "insult": 0.0018030385253950953,
-      "threat": 0.00030260157654993236,
-      "sexual_explicit": 9.779575339052826e-05
+      "toxicity": 0.00496,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00040,
+      "identity_attack": 0.00015,
+      "insult": 0.00180,
+      "threat": 0.00030,
+      "sexual_explicit": 0.00010
     },
     "url": "https://nypost.com/2023/03/19/trea-turner-fuels-team-usa-to-world-baseball-classic-final/"
   },
@@ -341,13 +341,13 @@
     "text": "Mets infielder, post ACL surgery, swats leadoff homer",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.008057131431996822,
-      "severe_toxicity": 8.56878687045537e-05,
-      "obscene": 0.0014703191118314862,
-      "identity_attack": 0.00016787846107035875,
-      "insult": 0.0026462122332304716,
-      "threat": 0.0010486675892025232,
-      "sexual_explicit": 0.0005146504263393581
+      "toxicity": 0.00806,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00147,
+      "identity_attack": 0.00017,
+      "insult": 0.00265,
+      "threat": 0.00105,
+      "sexual_explicit": 0.00051
     },
     "url": "https://nypost.com/2023/03/20/metsdanny-mendick-post-acl-surgery-swats-leadoff-homer/"
   },
@@ -357,13 +357,13 @@
     "text": "Heir grievances\nWilliam, Kate in 'argument' about George's coronation role: report",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004090483707841486,
-      "severe_toxicity": 5.967698962194845e-05,
-      "obscene": 0.0005234495620243251,
-      "identity_attack": 0.00015360911493189633,
-      "insult": 0.0005943651776760817,
-      "threat": 6.0516562371049076e-05,
-      "sexual_explicit": 4.763288234244101e-05
+      "toxicity": 0.00041,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00052,
+      "identity_attack": 0.00015,
+      "insult": 0.00059,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00005
     },
     "url": "https://nypost.com/2023/03/20/william-kate-in-argument-about-georges-coronation-role/"
   },
@@ -373,13 +373,13 @@
     "text": "Missing pieces\nSister of Idaho victim mourns loss in heartbreaking videos",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.001399514265358448,
-      "severe_toxicity": 3.481260500848293e-05,
-      "obscene": 0.0002955671225208789,
-      "identity_attack": 0.00018867813923861831,
-      "insult": 0.0006819310947321355,
-      "threat": 3.997130261268467e-05,
-      "sexual_explicit": 8.318101026816294e-05
+      "toxicity": 0.00140,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00030,
+      "identity_attack": 0.00019,
+      "insult": 0.00068,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00008
     },
     "url": "https://nypost.com/2023/03/20/idaho-victim-kaylee-goncalves-sister-says-she-will-be-in-denial-forever/"
   },
@@ -389,13 +389,13 @@
     "text": "Why this superfruit could help you burn body fat: study",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0030892835929989815,
-      "severe_toxicity": 3.56778473360464e-05,
-      "obscene": 0.00018549775995779783,
-      "identity_attack": 0.00025408758665435016,
-      "insult": 0.00028334796661511064,
-      "threat": 0.0002010712487390265,
-      "sexual_explicit": 4.898206316283904e-05
+      "toxicity": 0.00309,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00019,
+      "identity_attack": 0.00025,
+      "insult": 0.00028,
+      "threat": 0.00020,
+      "sexual_explicit": 0.00005
     },
     "url": "https://nypost.com/2023/03/20/blueberries-could-help-you-burn-body-fat-study/"
   },
@@ -405,13 +405,13 @@
     "text": "Gift your bunny a bouquet: Celebrate Easter with flower delivery",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0024571700487285852,
-      "severe_toxicity": 3.351976192789152e-05,
-      "obscene": 0.00031526433303952217,
-      "identity_attack": 9.749584569362924e-05,
-      "insult": 0.0006879852735437453,
-      "threat": 0.00023150094784796238,
-      "sexual_explicit": 7.728386844974011e-05
+      "toxicity": 0.00246,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00032,
+      "identity_attack": 0.00010,
+      "insult": 0.00069,
+      "threat": 0.00023,
+      "sexual_explicit": 0.00008
     },
     "url": "https://nypost.com/article/best-places-to-order-and-send-flowers-online/"
   },
@@ -421,13 +421,13 @@
     "text": "Trial and Eras\nJohn Mulaney's ex gets backlash after accusing Taylor Swift of copying art",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0022961886133998632,
-      "severe_toxicity": 0.0002454167406540364,
-      "obscene": 0.002595198340713978,
-      "identity_attack": 0.0006806704914197326,
-      "insult": 0.0032251044176518917,
-      "threat": 0.00021608905808534473,
-      "sexual_explicit": 0.00014058759552426636
+      "toxicity": 0.00230,
+      "severe_toxicity": 0.00025,
+      "obscene": 0.00260,
+      "identity_attack": 0.00068,
+      "insult": 0.00323,
+      "threat": 0.00022,
+      "sexual_explicit": 0.00014
     },
     "url": "https://pagesix.com/2023/03/20/anna-marie-tendler-defends-accusing-taylor-swift-of-copying-art/"
   },
@@ -437,13 +437,13 @@
     "text": "Bridal wave\nKourtney Kardashian reveals NSFW inspiration behind her wedding dress",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.005211263429373503,
-      "severe_toxicity": 0.00011567839828785509,
-      "obscene": 0.002446843544021249,
-      "identity_attack": 0.0007465271628461778,
-      "insult": 0.003181524807587266,
-      "threat": 9.43637642194517e-05,
-      "sexual_explicit": 0.0007342995377257466
+      "toxicity": 0.00521,
+      "severe_toxicity": 0.00012,
+      "obscene": 0.00245,
+      "identity_attack": 0.00075,
+      "insult": 0.00318,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00073
     },
     "url": "https://pagesix.com/2023/03/20/kourtney-kardashian-reveals-nsfw-inspiration-behind-wedding-dress/"
   },
@@ -453,13 +453,13 @@
     "text": "Karreuche Tran cuts hair and releases it into ocean with dad's ashes",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.08344128727912903,
-      "severe_toxicity": 0.00017250295786652714,
-      "obscene": 0.0021713431924581528,
-      "identity_attack": 0.00043636307236738503,
-      "insult": 0.016627158969640732,
-      "threat": 0.013549886643886566,
-      "sexual_explicit": 0.0018472272204235196
+      "toxicity": 0.08344,
+      "severe_toxicity": 0.00017,
+      "obscene": 0.00217,
+      "identity_attack": 0.00044,
+      "insult": 0.01663,
+      "threat": 0.01355,
+      "sexual_explicit": 0.00185
     },
     "url": "https://pagesix.com/2023/03/20/karreuche-tran-cuts-hair-releases-it-into-ocean-with-dads-ashes/"
   },
@@ -469,13 +469,13 @@
     "text": "Single influencer sick of waiting for the 'perfect partner' enjoys solo honeymoon",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.002555016428232193,
-      "severe_toxicity": 2.4143258997355588e-05,
-      "obscene": 0.00042089345515705645,
-      "identity_attack": 0.00023602483270224184,
-      "insult": 0.0009972027037292719,
-      "threat": 4.4869419070892036e-05,
-      "sexual_explicit": 8.133769733831286e-05
+      "toxicity": 0.00256,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00042,
+      "identity_attack": 0.00024,
+      "insult": 0.00100,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00008
     },
     "url": "https://nypost.com/2023/03/19/37-year-old-single-influencer-sick-of-waiting-for-the-perfect-partner-enjoys-solo-honeymoon/"
   },
@@ -485,13 +485,13 @@
     "text": "Hot to trot\nAmy Robach, T.J. Holmes run NYC Half Marathon together as romance heats up",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.015925249084830284,
-      "severe_toxicity": 7.983789691934362e-05,
-      "obscene": 0.0009276695200242102,
-      "identity_attack": 0.0005781697109341621,
-      "insult": 0.004031560383737087,
-      "threat": 0.0004280890861991793,
-      "sexual_explicit": 0.000572783756069839
+      "toxicity": 0.01593,
+      "severe_toxicity": 0.00008,
+      "obscene": 0.00093,
+      "identity_attack": 0.00058,
+      "insult": 0.00403,
+      "threat": 0.00043,
+      "sexual_explicit": 0.00057
     },
     "url": "https://pagesix.com/2023/03/19/amy-robach-t-j-holmes-run-2023-nyc-half-marathon-together/"
   },
@@ -501,13 +501,13 @@
     "text": "Buck' it\nHoward Schultz exits as Starbucks CEO 2 weeks early amid unionization turmoil",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006245083641260862,
-      "severe_toxicity": 2.244307688670233e-05,
-      "obscene": 0.00015384599100798368,
-      "identity_attack": 0.00011290036491118371,
-      "insult": 0.0002573502133600414,
-      "threat": 4.475958849070594e-05,
-      "sexual_explicit": 2.3331856937147677e-05
+      "toxicity": 0.00062,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00011,
+      "insult": 0.00026,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://nypost.com/2023/03/20/howard-schultz-exits-as-starbucks-ceo-2-weeks-early-amid-unionization-turmoil/"
   },
@@ -517,13 +517,13 @@
     "text": "These 15 dresses are so perfect for Easter, and we're *hopping* right to them",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003882252494804561,
-      "severe_toxicity": 2.844707341864705e-05,
-      "obscene": 0.00018288064165972173,
-      "identity_attack": 0.00011326105595799163,
-      "insult": 0.0001530497393105179,
-      "threat": 4.0998682379722595e-05,
-      "sexual_explicit": 3.2887441193452105e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00011,
+      "insult": 0.00015,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://nypost.com/article/best-easter-dresses-for-women/"
   },
@@ -533,13 +533,13 @@
     "text": "We tested 12 hair mousses, and these are the best we reviewed in 2023",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005251231486909091,
-      "severe_toxicity": 3.557215677574277e-05,
-      "obscene": 0.0002692636626306921,
-      "identity_attack": 0.00010112511517945677,
-      "insult": 0.0002763628144748509,
-      "threat": 4.743366298498586e-05,
-      "sexual_explicit": 3.923142503481358e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00027,
+      "identity_attack": 0.00010,
+      "insult": 0.00028,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00004
     },
     "url": "https://nypost.com/article/best-hair-mousses-reviews/"
   },
@@ -549,13 +549,13 @@
     "text": "The 25 best everyday items to buy on Amazon for under $25",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003896803827956319,
-      "severe_toxicity": 2.429574669804424e-05,
-      "obscene": 0.00014995889796409756,
-      "identity_attack": 9.23230909393169e-05,
-      "insult": 0.00022400122543331236,
-      "threat": 3.4394211979815736e-05,
-      "sexual_explicit": 2.083140680042561e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00009,
+      "insult": 0.00022,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://nypost.com/article/best-items-under-25-on-amazon/"
   },
@@ -565,13 +565,13 @@
     "text": "\u2018Boston Strangler\u2019 Director Wanted Keira Knightley and Carrie Coon to \"Stay Away\" From Boston Accents",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0012231895234435797,
-      "severe_toxicity": 2.0093119019293226e-05,
-      "obscene": 0.00017265122733078897,
-      "identity_attack": 0.0001427491952199489,
-      "insult": 0.0006496991263702512,
-      "threat": 2.253495404147543e-05,
-      "sexual_explicit": 2.70859309239313e-05
+      "toxicity": 0.00122,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00017,
+      "identity_attack": 0.00014,
+      "insult": 0.00065,
+      "threat": 0.00002,
+      "sexual_explicit": 0.00003
     },
     "url": "https://decider.com/2023/03/18/keira-knightley-american-accent-boston-strangler/"
   },
@@ -581,13 +581,13 @@
     "text": "Bill Maher Compares \"National Divorce\" Concept To Ireland's Partition On 'Real Time'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00033629557583481073,
-      "severe_toxicity": 2.7409723770688288e-05,
-      "obscene": 0.00016541506920475513,
-      "identity_attack": 9.640493954066187e-05,
-      "insult": 0.00020555240917019546,
-      "threat": 3.622329677455127e-05,
-      "sexual_explicit": 2.574976133473683e-05
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00010,
+      "insult": 0.00021,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://decider.com/2023/03/18/bill-maher-compares-national-divorce-concept-to-irelands-partition-on-real-time/"
   },
@@ -597,13 +597,13 @@
     "text": "'Good Burger' Sequel Starring Kenan & Kel Greenlit By Paramount+",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002338565100217238,
-      "severe_toxicity": 0.0008885403512977064,
-      "obscene": 0.005640378687530756,
-      "identity_attack": 0.001232646289281547,
-      "insult": 0.0044260285794734955,
-      "threat": 0.00050206552259624,
-      "sexual_explicit": 0.00022796068515162915
+      "toxicity": 0.00023,
+      "severe_toxicity": 0.00089,
+      "obscene": 0.00564,
+      "identity_attack": 0.00123,
+      "insult": 0.00443,
+      "threat": 0.00050,
+      "sexual_explicit": 0.00023
     },
     "url": "https://decider.com/2023/03/18/good-burger-sequel-starring-kenan-kel-greenlit-by-paramount/"
   }

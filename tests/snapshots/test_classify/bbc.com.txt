@@ -5,13 +5,13 @@
     "text": "US government approves Alaska Willow oil project",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00029158321558497846,
-      "severe_toxicity": 3.466624184511602e-05,
-      "obscene": 0.00017589327762834728,
-      "identity_attack": 0.00010413226846139878,
-      "insult": 0.0001383333292324096,
-      "threat": 4.798892041435465e-05,
-      "sexual_explicit": 3.1575447792420164e-05
+      "toxicity": 0.00029,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00010,
+      "insult": 0.00014,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://bbc.com/news/world-us-canada-64943603"
   },
@@ -21,13 +21,13 @@
     "text": "Biden pledges 'whatever is needed' amid bank fears",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005505764274857938,
-      "severe_toxicity": 2.2122800146462396e-05,
-      "obscene": 0.00013426884834188968,
-      "identity_attack": 9.822811261983588e-05,
-      "insult": 0.00021141777688171715,
-      "threat": 3.891600499628112e-05,
-      "sexual_explicit": 2.166960621252656e-05
+      "toxicity": 0.00055,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00010,
+      "insult": 0.00021,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.bbc.com/news/world-us-canada-64935170"
   },
@@ -37,13 +37,13 @@
     "text": "TikTok users shrug at China fears: 'It's hard to care'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0012966371141374111,
-      "severe_toxicity": 1.9002987755811773e-05,
-      "obscene": 0.00012610896374098957,
-      "identity_attack": 0.00025877924053929746,
-      "insult": 0.0002412935282336548,
-      "threat": 4.130269371671602e-05,
-      "sexual_explicit": 2.2685349904350005e-05
+      "toxicity": 0.00130,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00026,
+      "insult": 0.00024,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.bbc.com/news/business-64827885"
   },
@@ -53,13 +53,13 @@
     "text": "'A slap in the face for Hollywood'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.6437028646469116,
-      "severe_toxicity": 0.00182306335773319,
-      "obscene": 0.0078085632994771,
-      "identity_attack": 0.0019067871617153287,
-      "insult": 0.00866642314940691,
-      "threat": 0.5578165650367737,
-      "sexual_explicit": 0.007990863174200058
+      "toxicity": 0.64370,
+      "severe_toxicity": 0.00182,
+      "obscene": 0.00781,
+      "identity_attack": 0.00191,
+      "insult": 0.00867,
+      "threat": 0.55782,
+      "sexual_explicit": 0.00799
     },
     "url": "https://www.bbc.com/culture/article/20230313-oscars-2023-a-slap-in-the-face-for-hollywood"
   },
@@ -69,13 +69,13 @@
     "text": "Why burnout may never end",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006276661879383028,
-      "severe_toxicity": 3.305304562672973e-05,
-      "obscene": 0.00021668325643986464,
-      "identity_attack": 9.625116945244372e-05,
-      "insult": 0.00022878681193105876,
-      "threat": 7.46537625673227e-05,
-      "sexual_explicit": 3.7041983887320384e-05
+      "toxicity": 0.00063,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00022,
+      "identity_attack": 0.00010,
+      "insult": 0.00023,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.bbc.com/worklife/article/20230309-is-it-impossible-to-end-burnout"
   },
@@ -85,13 +85,13 @@
     "text": "Heavy losses reported as battle for Bakhmut rages",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008240866591222584,
-      "severe_toxicity": 0.00011083997378591448,
-      "obscene": 0.00110322842374444,
-      "identity_attack": 0.00023688742658123374,
-      "insult": 0.0008012776379473507,
-      "threat": 0.00014474708586931229,
-      "sexual_explicit": 7.846467633498833e-05
+      "toxicity": 0.00082,
+      "severe_toxicity": 0.00011,
+      "obscene": 0.00110,
+      "identity_attack": 0.00024,
+      "insult": 0.00080,
+      "threat": 0.00014,
+      "sexual_explicit": 0.00008
     },
     "url": "https://bbc.com/news/world-europe-64935449"
   },
@@ -101,13 +101,13 @@
     "text": "Michelle Yeoh's mum in tears after Oscars win",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.011868578381836414,
-      "severe_toxicity": 2.0822508304263465e-05,
-      "obscene": 0.00034011079696938396,
-      "identity_attack": 0.00016953825252130628,
-      "insult": 0.004087312612682581,
-      "threat": 5.5260014050872996e-05,
-      "sexual_explicit": 0.0002005785790970549
+      "toxicity": 0.01187,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00034,
+      "identity_attack": 0.00017,
+      "insult": 0.00409,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00020
     },
     "url": "https://bbc.com/news/entertainment-arts-64942684"
   },
@@ -117,13 +117,13 @@
     "text": "Biden seeks to reassure US after two banks collapse",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006192611763253808,
-      "severe_toxicity": 2.4850927729858086e-05,
-      "obscene": 0.000116571674880106,
-      "identity_attack": 0.000142849690746516,
-      "insult": 0.00017696418217383325,
-      "threat": 6.247788405744359e-05,
-      "sexual_explicit": 2.4967494027805515e-05
+      "toxicity": 0.00062,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00014,
+      "insult": 0.00018,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00002
     },
     "url": "https://bbc.com/news/live/business-64940883"
   },
@@ -133,13 +133,13 @@
     "text": "New Zealand beat Sri Lanka in final-ball thriller",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002744774392340332,
-      "severe_toxicity": 0.00013085723912809044,
-      "obscene": 0.0006670188158750534,
-      "identity_attack": 0.00021981479949317873,
-      "insult": 0.0003555158618837595,
-      "threat": 0.0001551723835291341,
-      "sexual_explicit": 9.785321890376508e-05
+      "toxicity": 0.00027,
+      "severe_toxicity": 0.00013,
+      "obscene": 0.00067,
+      "identity_attack": 0.00022,
+      "insult": 0.00036,
+      "threat": 0.00016,
+      "sexual_explicit": 0.00010
     },
     "url": "https://bbc.com/sport/cricket/64937730"
   },
@@ -149,13 +149,13 @@
     "text": "What has gone wrong for England - and what next?",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005975503008812666,
-      "severe_toxicity": 3.9100588764995337e-05,
-      "obscene": 0.00026524445274844766,
-      "identity_attack": 0.00017729065439198166,
-      "insult": 0.0002208795485785231,
-      "threat": 6.453347305068746e-05,
-      "sexual_explicit": 3.9787348214304075e-05
+      "toxicity": 0.00060,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00027,
+      "identity_attack": 0.00018,
+      "insult": 0.00022,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00004
     },
     "url": "https://bbc.com/sport/rugby-union/64938583"
   },
@@ -165,13 +165,13 @@
     "text": "Gary Lineker to return as BBC denies climbdown",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008369782590307295,
-      "severe_toxicity": 2.151502667402383e-05,
-      "obscene": 0.00014604892930947244,
-      "identity_attack": 0.00012232741573825479,
-      "insult": 0.00025830004597082734,
-      "threat": 4.980231824447401e-05,
-      "sexual_explicit": 2.6151581550948322e-05
+      "toxicity": 0.00084,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00012,
+      "insult": 0.00026,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://bbc.com/news/uk-64936917"
   },
@@ -181,13 +181,13 @@
     "text": "7 best moments from this year's Oscars",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003732171899173409,
-      "severe_toxicity": 5.134595630806871e-05,
-      "obscene": 0.00037646613782271743,
-      "identity_attack": 0.00012626430543605238,
-      "insult": 0.0002842571120709181,
-      "threat": 5.0233033107360825e-05,
-      "sexual_explicit": 4.2025523725897074e-05
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00038,
+      "identity_attack": 0.00013,
+      "insult": 0.00028,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64935925"
   },
@@ -197,13 +197,13 @@
     "text": "The best fashion looks at the Oscars",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003910793166141957,
-      "severe_toxicity": 4.6774428483331576e-05,
-      "obscene": 0.00029630804783664644,
-      "identity_attack": 0.0001362332550343126,
-      "insult": 0.00022737850667908788,
-      "threat": 5.681800394086167e-05,
-      "sexual_explicit": 4.714895840152167e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00030,
+      "identity_attack": 0.00014,
+      "insult": 0.00023,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00005
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64935067"
   },
@@ -213,13 +213,13 @@
     "text": "Five quotes from backstage at the 95th Oscars",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006489527877420187,
-      "severe_toxicity": 0.00017931174079421908,
-      "obscene": 0.002000191481783986,
-      "identity_attack": 0.0003910450031980872,
-      "insult": 0.002173007233068347,
-      "threat": 0.00012297756620682776,
-      "sexual_explicit": 9.384812437929213e-05
+      "toxicity": 0.00065,
+      "severe_toxicity": 0.00018,
+      "obscene": 0.00200,
+      "identity_attack": 0.00039,
+      "insult": 0.00217,
+      "threat": 0.00012,
+      "sexual_explicit": 0.00009
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64936405"
   },
@@ -229,13 +229,13 @@
     "text": "The 'sleeping giant' of sea level rise",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0017606146866455674,
-      "severe_toxicity": 3.0372420951607637e-05,
-      "obscene": 0.000436910631833598,
-      "identity_attack": 0.00010631424811435863,
-      "insult": 0.0006757662049494684,
-      "threat": 6.091171599109657e-05,
-      "sexual_explicit": 6.20910432189703e-05
+      "toxicity": 0.00176,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00044,
+      "identity_attack": 0.00011,
+      "insult": 0.00068,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00006
     },
     "url": "https://www.bbc.com/future/article/20230309-climate-change-the-sea-level-rise-locked-in-east-antarctica"
   },
@@ -245,13 +245,13 @@
     "text": "The Last of Us finale is darkly knotty",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.009690321050584316,
-      "severe_toxicity": 4.826838994631544e-05,
-      "obscene": 0.0004068631096743047,
-      "identity_attack": 0.0003079285379499197,
-      "insult": 0.0013282309519127011,
-      "threat": 0.0010240273550152779,
-      "sexual_explicit": 0.00012748439621645957
+      "toxicity": 0.00969,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00041,
+      "identity_attack": 0.00031,
+      "insult": 0.00133,
+      "threat": 0.00102,
+      "sexual_explicit": 0.00013
     },
     "url": "https://www.bbc.com/culture/article/20230309-the-last-of-us-finale-review-a-knotty-violent-ending"
   },
@@ -261,13 +261,13 @@
     "text": "The young workers in a post-Me Too era",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00033676173188723624,
-      "severe_toxicity": 2.646862412802875e-05,
-      "obscene": 0.0001688698393991217,
-      "identity_attack": 8.01166461315006e-05,
-      "insult": 0.00017126441525761038,
-      "threat": 2.5509110855637118e-05,
-      "sexual_explicit": 3.914151238859631e-05
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00008,
+      "insult": 0.00017,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00004
     },
     "url": "https://www.bbc.com/worklife/article/20230307-did-me-too-change-the-workplace-for-gen-z"
   },
@@ -277,13 +277,13 @@
     "text": "How to survive in the wilderness",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005343140801414847,
-      "severe_toxicity": 3.6611072573577985e-05,
-      "obscene": 0.0002638376026879996,
-      "identity_attack": 0.00012669354327954352,
-      "insult": 0.0002716359158512205,
-      "threat": 5.957146640866995e-05,
-      "sexual_explicit": 3.107514203293249e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00026,
+      "identity_attack": 0.00013,
+      "insult": 0.00027,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.bbc.com/travel/article/20230312-why-bushcraft-is-booming-again"
   },
@@ -293,13 +293,13 @@
     "text": "How a dictator's daughter built \u00a3200m property empire",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.008791707456111908,
-      "severe_toxicity": 2.320143539691344e-05,
-      "obscene": 0.0002484791912138462,
-      "identity_attack": 0.00025540083879604936,
-      "insult": 0.0037005399353802204,
-      "threat": 5.549988054553978e-05,
-      "sexual_explicit": 9.303878323407844e-05
+      "toxicity": 0.00879,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00025,
+      "identity_attack": 0.00026,
+      "insult": 0.00370,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00009
     },
     "url": "https://www.bbc.com/news/world-64915348"
   },
@@ -309,13 +309,13 @@
     "text": "Scientists track iceberg the size of London",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005913035711273551,
-      "severe_toxicity": 3.4496501029934734e-05,
-      "obscene": 0.00020402274094522,
-      "identity_attack": 0.00015507933858316392,
-      "insult": 0.00022575812181457877,
-      "threat": 6.77842108416371e-05,
-      "sexual_explicit": 3.463442044449039e-05
+      "toxicity": 0.00059,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00020,
+      "identity_attack": 0.00016,
+      "insult": 0.00023,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.bbc.com/news/science-environment-64919341"
   },
@@ -325,13 +325,13 @@
     "text": "'You can rebuild Mariupol - you can't bring back the dead'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.001749021583236754,
-      "severe_toxicity": 6.790371116949245e-05,
-      "obscene": 0.0002179025177611038,
-      "identity_attack": 0.0001382523769279942,
-      "insult": 0.00033125211484730244,
-      "threat": 0.0004844935901928693,
-      "sexual_explicit": 9.507260256214067e-05
+      "toxicity": 0.00175,
+      "severe_toxicity": 0.00007,
+      "obscene": 0.00022,
+      "identity_attack": 0.00014,
+      "insult": 0.00033,
+      "threat": 0.00048,
+      "sexual_explicit": 0.00010
     },
     "url": "https://www.bbc.com/news/world-europe-64887890"
   },
@@ -341,13 +341,13 @@
     "text": "The tech helping women manage the menopause",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.007945898920297623,
-      "severe_toxicity": 0.00031932018464431167,
-      "obscene": 0.0008650766685605049,
-      "identity_attack": 0.005765186157077551,
-      "insult": 0.0015869976487010717,
-      "threat": 0.0007701482390984893,
-      "sexual_explicit": 0.0010062509682029486
+      "toxicity": 0.00795,
+      "severe_toxicity": 0.00032,
+      "obscene": 0.00087,
+      "identity_attack": 0.00577,
+      "insult": 0.00159,
+      "threat": 0.00077,
+      "sexual_explicit": 0.00101
     },
     "url": "https://www.bbc.com/news/business-64899189"
   },
@@ -357,13 +357,13 @@
     "text": "Is there a better way to insulate our draughty homes?",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008417262579314411,
-      "severe_toxicity": 2.5676317818579264e-05,
-      "obscene": 0.00010284553718520328,
-      "identity_attack": 0.00014372040459420532,
-      "insult": 0.0002543706796132028,
-      "threat": 5.2935214625904337e-05,
-      "sexual_explicit": 1.982748472073581e-05
+      "toxicity": 0.00084,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00010,
+      "identity_attack": 0.00014,
+      "insult": 0.00025,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.bbc.com/news/business-64636384"
   },
@@ -373,13 +373,13 @@
     "text": "'Not affected by one party or other' - BBC boss denies Tory pressure",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000390420900657773,
-      "severe_toxicity": 2.4852683054632507e-05,
-      "obscene": 0.00017692505207378417,
-      "identity_attack": 8.58462808537297e-05,
-      "insult": 0.0002330093993805349,
-      "threat": 3.310579268145375e-05,
-      "sexual_explicit": 2.3866427000029944e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00018,
+      "identity_attack": 0.00009,
+      "insult": 0.00023,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://bbc.com/news/uk-64937660"
   },
@@ -389,13 +389,13 @@
     "text": "'Not affected by one party or other' - BBC...",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00028044803184457123,
-      "severe_toxicity": 5.243350824457593e-05,
-      "obscene": 0.0003797007957473397,
-      "identity_attack": 0.00011454027116997167,
-      "insult": 0.00030801870161667466,
-      "threat": 6.781589763704687e-05,
-      "sexual_explicit": 4.078537313034758e-05
+      "toxicity": 0.00028,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00038,
+      "identity_attack": 0.00011,
+      "insult": 0.00031,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00004
     },
     "url": "https://bbc.com/news/uk-64937660"
   },
@@ -405,13 +405,13 @@
     "text": "Lineker: The BBC director general's interview...",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00047017072211019695,
-      "severe_toxicity": 2.030851464951411e-05,
-      "obscene": 0.00015609290858265013,
-      "identity_attack": 8.200138836400583e-05,
-      "insult": 0.00029531194013543427,
-      "threat": 3.318677408969961e-05,
-      "sexual_explicit": 2.4589513486716896e-05
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00008,
+      "insult": 0.00030,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://bbc.com/news/uk-64937658"
   },
@@ -421,13 +421,13 @@
     "text": "Chancellor on HSBC buying UK arm of Silicon...",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00035911984741687775,
-      "severe_toxicity": 2.6994748623110354e-05,
-      "obscene": 0.00015132810221984982,
-      "identity_attack": 9.684721590019763e-05,
-      "insult": 0.00018010697385761887,
-      "threat": 3.8140224205562845e-05,
-      "sexual_explicit": 2.569515345385298e-05
+      "toxicity": 0.00036,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00010,
+      "insult": 0.00018,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://bbc.com/news/business-64937654"
   },
@@ -437,13 +437,13 @@
     "text": "Best Oscars acceptance speeches... in 61...",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000386362022254616,
-      "severe_toxicity": 3.1797455449122936e-05,
-      "obscene": 0.0002368397545069456,
-      "identity_attack": 9.387739555677399e-05,
-      "insult": 0.00020550556655507535,
-      "threat": 4.999604061595164e-05,
-      "sexual_explicit": 3.2972013286780566e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00024,
+      "identity_attack": 0.00009,
+      "insult": 0.00021,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://bbc.com/news/entertainment-arts-64935382"
   },
@@ -453,13 +453,13 @@
     "text": "I can't say anything at the moment, I'm sorry...",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00040629954310134053,
-      "severe_toxicity": 0.00012954323028679937,
-      "obscene": 0.0009496028651483357,
-      "identity_attack": 0.0003902333555743098,
-      "insult": 0.0008739832555875182,
-      "threat": 0.00011734948202501982,
-      "sexual_explicit": 5.7383382227271795e-05
+      "toxicity": 0.00041,
+      "severe_toxicity": 0.00013,
+      "obscene": 0.00095,
+      "identity_attack": 0.00039,
+      "insult": 0.00087,
+      "threat": 0.00012,
+      "sexual_explicit": 0.00006
     },
     "url": "https://bbc.com/news/uk-64932702"
   },
@@ -469,13 +469,13 @@
     "text": "A weekend of BBC football show chaos... in 90...",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007001787307672203,
-      "severe_toxicity": 2.237691114714835e-05,
-      "obscene": 0.0001476899633416906,
-      "identity_attack": 0.00010824549826793373,
-      "insult": 0.0002671927504707128,
-      "threat": 4.7602912673028186e-05,
-      "sexual_explicit": 2.2242427803575993e-05
+      "toxicity": 0.00070,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00011,
+      "insult": 0.00027,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002
     },
     "url": "https://bbc.com/news/uk-64929759"
   },
@@ -485,13 +485,13 @@
     "text": "Looks like Lineker broke rules on a...",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008700991747900844,
-      "severe_toxicity": 2.5722492864588276e-05,
-      "obscene": 0.00019904454529751092,
-      "identity_attack": 0.0001199376565637067,
-      "insult": 0.00023990658519323915,
-      "threat": 7.150290184654295e-05,
-      "sexual_explicit": 4.1739393054740503e-05
+      "toxicity": 0.00087,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00020,
+      "identity_attack": 0.00012,
+      "insult": 0.00024,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00004
     },
     "url": "https://bbc.com/news/uk-64931367"
   },
@@ -501,13 +501,13 @@
     "text": "Watch: Murder suspect flees US courtroom",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.006268235854804516,
-      "severe_toxicity": 3.651166844065301e-05,
-      "obscene": 0.000437930750194937,
-      "identity_attack": 0.00011878741497639567,
-      "insult": 0.003947950433939695,
-      "threat": 0.00013010995462536812,
-      "sexual_explicit": 8.104365406325087e-05
+      "toxicity": 0.00627,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00044,
+      "identity_attack": 0.00012,
+      "insult": 0.00395,
+      "threat": 0.00013,
+      "sexual_explicit": 0.00008
     },
     "url": "https://bbc.com/news/world-us-canada-64929190"
   },
@@ -517,13 +517,13 @@
     "text": "How a tummy-tuck kidnap ended in cartel...",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.029517898336052895,
-      "severe_toxicity": 0.00010392791591584682,
-      "obscene": 0.002018895698711276,
-      "identity_attack": 0.00016885293007362634,
-      "insult": 0.0074095940217375755,
-      "threat": 0.0033866451121866703,
-      "sexual_explicit": 0.0009321789839304984
+      "toxicity": 0.02952,
+      "severe_toxicity": 0.00010,
+      "obscene": 0.00202,
+      "identity_attack": 0.00017,
+      "insult": 0.00741,
+      "threat": 0.00339,
+      "sexual_explicit": 0.00093
     },
     "url": "https://bbc.com/news/world-us-canada-64753595"
   },
@@ -533,13 +533,13 @@
     "text": "'I rarely saw people who looked like me'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000831448589451611,
-      "severe_toxicity": 3.502302206470631e-05,
-      "obscene": 0.0003613607259467244,
-      "identity_attack": 0.0001458970655221492,
-      "insult": 0.00047399415052495897,
-      "threat": 3.353443753439933e-05,
-      "sexual_explicit": 3.0463363145827316e-05
+      "toxicity": 0.00083,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00036,
+      "identity_attack": 0.00015,
+      "insult": 0.00047,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://bbc.com/news/uk-england-merseyside-64881091"
   },
@@ -549,13 +549,13 @@
     "text": "Lineker 'delighted' to return as BBC reviews social media rules",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003688070282805711,
-      "severe_toxicity": 2.1883633962715976e-05,
-      "obscene": 0.0001369906240142882,
-      "identity_attack": 8.703953790245578e-05,
-      "insult": 0.0002156891132472083,
-      "threat": 2.944913831015583e-05,
-      "sexual_explicit": 2.0984398361179046e-05
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00009,
+      "insult": 0.00022,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://bbc.com/news/live/entertainment-arts-64938252"
   },
@@ -565,13 +565,13 @@
     "text": "Vasectomies even safer than reported, doctors say",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.015217477455735207,
-      "severe_toxicity": 0.00013456698798108846,
-      "obscene": 0.0007898302283138037,
-      "identity_attack": 0.00044551811879500747,
-      "insult": 0.0006885939510539174,
-      "threat": 0.0005219302256591618,
-      "sexual_explicit": 0.014402789995074272
+      "toxicity": 0.01522,
+      "severe_toxicity": 0.00013,
+      "obscene": 0.00079,
+      "identity_attack": 0.00045,
+      "insult": 0.00069,
+      "threat": 0.00052,
+      "sexual_explicit": 0.01440
     },
     "url": "https://bbc.com/news/health-64899943"
   },
@@ -581,13 +581,13 @@
     "text": "Li Qiang takes centre stage as China's new premier",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003876091504935175,
-      "severe_toxicity": 3.34339783876203e-05,
-      "obscene": 0.00019552513549569994,
-      "identity_attack": 0.00018056041153613478,
-      "insult": 0.00022681726841256022,
-      "threat": 4.28656094300095e-05,
-      "sexual_explicit": 2.670255707926117e-05
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00020,
+      "identity_attack": 0.00018,
+      "insult": 0.00023,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://bbc.com/news/world-asia-china-64936125"
   },
@@ -597,13 +597,13 @@
     "text": "Still time to save Our Wild Isles, say campaigners",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005347930127754807,
-      "severe_toxicity": 1.8750888557406142e-05,
-      "obscene": 0.0001100532608688809,
-      "identity_attack": 9.16093194973655e-05,
-      "insult": 0.00014523360005114228,
-      "threat": 4.7204790462274104e-05,
-      "sexual_explicit": 2.4914548703236505e-05
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00009,
+      "insult": 0.00015,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002
     },
     "url": "https://bbc.com/news/science-environment-64903069"
   },
@@ -613,13 +613,13 @@
     "text": "Lessons learned from failed 'tech bank' SVB",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008828170248307288,
-      "severe_toxicity": 2.1062869564048015e-05,
-      "obscene": 0.0001698108681011945,
-      "identity_attack": 8.320409688167274e-05,
-      "insult": 0.0005700410110875964,
-      "threat": 3.3419473766116425e-05,
-      "sexual_explicit": 2.0682626200141385e-05
+      "toxicity": 0.00088,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00017,
+      "identity_attack": 0.00008,
+      "insult": 0.00057,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://bbc.com/news/technology-64939556"
   },
@@ -629,13 +629,13 @@
     "text": "New Attenborough series: Three must-watch moments",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003359344264026731,
-      "severe_toxicity": 4.1011116991285235e-05,
-      "obscene": 0.0002825012488756329,
-      "identity_attack": 0.00012180155317764729,
-      "insult": 0.0002931005437858403,
-      "threat": 4.686913234763779e-05,
-      "sexual_explicit": 3.227625347790308e-05
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00028,
+      "identity_attack": 0.00012,
+      "insult": 0.00029,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://bbc.com/news/science-environment-64867517"
   },
@@ -645,13 +645,13 @@
     "text": "UK microchip firms call for millions in investment",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0003799841506406665,
-      "severe_toxicity": 2.535478961362969e-05,
-      "obscene": 0.0001363538613077253,
-      "identity_attack": 0.00010621899855323136,
-      "insult": 0.00019598934159148484,
-      "threat": 3.437811028561555e-05,
-      "sexual_explicit": 2.2703336071572267e-05
+      "toxicity": 0.00038,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00011,
+      "insult": 0.00020,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://www.bbc.com/news/business-64872465"
   },
@@ -661,13 +661,13 @@
     "text": "'We cut our website's carbon emissions by 520kg in a year'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005455698119476438,
-      "severe_toxicity": 4.023955625598319e-05,
-      "obscene": 0.00012871001672465354,
-      "identity_attack": 0.00012985648936592042,
-      "insult": 0.00014504289720207453,
-      "threat": 6.839534034952521e-05,
-      "sexual_explicit": 3.387317337910645e-05
+      "toxicity": 0.00055,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00013,
+      "identity_attack": 0.00013,
+      "insult": 0.00015,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003
     },
     "url": "https://www.bbc.co.uk/news/business-64623955"
   },
@@ -677,13 +677,13 @@
     "text": "Tributes paid to acclaimed documentary photographer",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00034283686545677483,
-      "severe_toxicity": 3.1391849915962666e-05,
-      "obscene": 0.00023806208628229797,
-      "identity_attack": 8.462506957584992e-05,
-      "insult": 0.0002649118541739881,
-      "threat": 2.9608496333821677e-05,
-      "sexual_explicit": 4.045579771627672e-05
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00024,
+      "identity_attack": 0.00008,
+      "insult": 0.00026,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00004
     },
     "url": "https://bbc.com/news/uk-england-tyne-64918073"
   },
@@ -693,13 +693,13 @@
     "text": "Africa's top shots: Cool frames and gold nuggets",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0017178711714223027,
-      "severe_toxicity": 9.240288636647165e-05,
-      "obscene": 0.00065269396873191,
-      "identity_attack": 0.0016566283302381635,
-      "insult": 0.0004046014219056815,
-      "threat": 0.00011769340926548466,
-      "sexual_explicit": 8.399796206504107e-05
+      "toxicity": 0.00172,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00065,
+      "identity_attack": 0.00166,
+      "insult": 0.00040,
+      "threat": 0.00012,
+      "sexual_explicit": 0.00008
     },
     "url": "https://bbc.com/news/world-africa-64902352"
   },
@@ -709,13 +709,13 @@
     "text": "Robert Blake: From Hollywood to murder accused",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00543572660535574,
-      "severe_toxicity": 2.9792397981509566e-05,
-      "obscene": 0.00014734701835550368,
-      "identity_attack": 0.00036266769166104496,
-      "insult": 0.0004456427996046841,
-      "threat": 0.00023333868011832237,
-      "sexual_explicit": 4.0303231799043715e-05
+      "toxicity": 0.00544,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00036,
+      "insult": 0.00045,
+      "threat": 0.00023,
+      "sexual_explicit": 0.00004
     },
     "url": "https://bbc.com/news/world-us-canada-64911059"
   },
@@ -725,13 +725,13 @@
     "text": "Photographers capture March's 'worm moon'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005118930712342262,
-      "severe_toxicity": 2.043457789113745e-05,
-      "obscene": 0.0001407857344020158,
-      "identity_attack": 9.289843728765845e-05,
-      "insult": 0.00023234321270138025,
-      "threat": 2.926327579189092e-05,
-      "sexual_explicit": 2.7285819669486955e-05
+      "toxicity": 0.00051,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00009,
+      "insult": 0.00023,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003
     },
     "url": "https://bbc.com/news/uk-england-york-north-yorkshire-64887992"
   },
@@ -741,13 +741,13 @@
     "text": "Turkish women defy protest ban to march in Istanbul",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.029058121144771576,
-      "severe_toxicity": 0.0002265764633193612,
-      "obscene": 0.0006218125927262008,
-      "identity_attack": 0.019717514514923096,
-      "insult": 0.002424722770228982,
-      "threat": 0.0007382758194580674,
-      "sexual_explicit": 0.0008273965213447809
+      "toxicity": 0.02906,
+      "severe_toxicity": 0.00023,
+      "obscene": 0.00062,
+      "identity_attack": 0.01972,
+      "insult": 0.00242,
+      "threat": 0.00074,
+      "sexual_explicit": 0.00083
     },
     "url": "https://bbc.com/news/world-europe-64897655"
   }

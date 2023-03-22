@@ -5,13 +5,13 @@
     "text": "Biden on Collapsed Banks: 'Your Deposits Will Be There'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00046381496940739453,
-      "severe_toxicity": 3.0004874133737758e-05,
-      "obscene": 0.0001864162040874362,
-      "identity_attack": 0.00010263001604471356,
-      "insult": 0.00020579203555826098,
-      "threat": 5.2837021939922124e-05,
-      "sexual_explicit": 3.186223329976201e-05
+      "toxicity": 0.00046,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00010,
+      "insult": 0.00021,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/us/biden-banking/2023/03/13/id/1112018/"
   },
@@ -21,13 +21,13 @@
     "text": "Biden Blasts Trump's Rollback of Bank Restraints",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.026359310373663902,
-      "severe_toxicity": 0.0001469453127356246,
-      "obscene": 0.0022973446175456047,
-      "identity_attack": 0.0002790153375826776,
-      "insult": 0.00241691991686821,
-      "threat": 0.0022053909488022327,
-      "sexual_explicit": 0.001018616370856762
+      "toxicity": 0.02636,
+      "severe_toxicity": 0.00015,
+      "obscene": 0.00230,
+      "identity_attack": 0.00028,
+      "insult": 0.00242,
+      "threat": 0.00221,
+      "sexual_explicit": 0.00102
     },
     "url": "https://newsmax.com/newsfront/joe-biden-banks-collapse/2023/03/13/id/1112058/"
   },
@@ -37,13 +37,13 @@
     "text": "GOP Targets Vulnerable House Dems for 2024",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0010871626436710358,
-      "severe_toxicity": 1.9479834008961916e-05,
-      "obscene": 0.00014087287127040327,
-      "identity_attack": 0.0001203512292704545,
-      "insult": 0.00043796873069368303,
-      "threat": 3.768956594285555e-05,
-      "sexual_explicit": 2.7568376026465558e-05
+      "toxicity": 0.00109,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00012,
+      "insult": 0.00044,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/newsfront/republicans-democrats-seats/2023/03/13/id/1112060/"
   },
@@ -53,13 +53,13 @@
     "text": "Grenell to Newsmax: NewsGuard Demonetizing 'Dissent'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00828514713793993,
-      "severe_toxicity": 0.00013012930867262185,
-      "obscene": 0.0010516579495742917,
-      "identity_attack": 0.0003473704564385116,
-      "insult": 0.0012918198481202126,
-      "threat": 0.003535209223628044,
-      "sexual_explicit": 0.00015650811837986112
+      "toxicity": 0.00829,
+      "severe_toxicity": 0.00013,
+      "obscene": 0.00105,
+      "identity_attack": 0.00035,
+      "insult": 0.00129,
+      "threat": 0.00354,
+      "sexual_explicit": 0.00016
     },
     "url": "https://newsmax.com/newsmax-tv/ric-grenell-newsguard-bias-against-conservative/2023/03/12/id/1111964/"
   },
@@ -69,13 +69,13 @@
     "text": "US Repels Migrants as Asylum App Frustration Grows in Mexico",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.23239180445671082,
-      "severe_toxicity": 4.970950976712629e-05,
-      "obscene": 0.0004597719816956669,
-      "identity_attack": 0.08451581001281738,
-      "insult": 0.03909651190042496,
-      "threat": 0.0004083513340447098,
-      "sexual_explicit": 0.00015195707965176553
+      "toxicity": 0.23239,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00046,
+      "identity_attack": 0.08452,
+      "insult": 0.03910,
+      "threat": 0.00041,
+      "sexual_explicit": 0.00015
     },
     "url": "https://newsmax.com/newsfront/migrants-bridge-el-paso-mexico-customs/2023/03/13/id/1112054/"
   },
@@ -85,13 +85,13 @@
     "text": "Casualties Rise in Ukraine, Russia Bakhmut Battle",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0022196124773472548,
-      "severe_toxicity": 0.0002807329292409122,
-      "obscene": 0.002679750556126237,
-      "identity_attack": 0.0015273926546797156,
-      "insult": 0.0032468291465193033,
-      "threat": 0.0004347065114416182,
-      "sexual_explicit": 0.0001501905790064484
+      "toxicity": 0.00222,
+      "severe_toxicity": 0.00028,
+      "obscene": 0.00268,
+      "identity_attack": 0.00153,
+      "insult": 0.00325,
+      "threat": 0.00043,
+      "sexual_explicit": 0.00015
     },
     "url": "https://newsmax.com/newsfront/russia-attacks-ukraine/2023/03/13/id/1112024/"
   },
@@ -101,13 +101,13 @@
     "text": "Proposed SCOTUS Ethics 'Model' Targets Justice Thomas, Wife",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007285011815838516,
-      "severe_toxicity": 4.939512655255385e-05,
-      "obscene": 0.0004948038840666413,
-      "identity_attack": 0.00015225789684336632,
-      "insult": 0.0009107899386435747,
-      "threat": 4.777440699399449e-05,
-      "sexual_explicit": 8.17906839074567e-05
+      "toxicity": 0.00073,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00049,
+      "identity_attack": 0.00015,
+      "insult": 0.00091,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00008
     },
     "url": "https://newsmax.com/newsfront/supreme-court-ethics-code-justice-thomas/2023/03/13/id/1112052/"
   },
@@ -117,13 +117,13 @@
     "text": "Iran-Saudi Arabia Deal 'Huge Win' for China",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007201949483714998,
-      "severe_toxicity": 2.9002347218920477e-05,
-      "obscene": 0.00017293114797212183,
-      "identity_attack": 0.000327154528349638,
-      "insult": 0.00024146752548404038,
-      "threat": 6.037758066668175e-05,
-      "sexual_explicit": 2.7633628633338958e-05
+      "toxicity": 0.00072,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00033,
+      "insult": 0.00024,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/platinum/iran-saudi-arabia-deal/2023/03/13/id/1112004/"
   },
@@ -133,13 +133,13 @@
     "text": "Ramaswamy to Newsmax: Biden's 'Crony Capitalism'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0023624124005436897,
-      "severe_toxicity": 1.4667302821180783e-05,
-      "obscene": 0.00014676943828817457,
-      "identity_attack": 0.00013393920380622149,
-      "insult": 0.0011786563554778695,
-      "threat": 2.7788195438915864e-05,
-      "sexual_explicit": 2.0470642994041555e-05
+      "toxicity": 0.00236,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00015,
+      "identity_attack": 0.00013,
+      "insult": 0.00118,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/vivek-ramaswamy-joe-biden-svb/2023/03/13/id/1112045/"
   },
@@ -149,13 +149,13 @@
     "text": "US Must Treat Mexican Cartels Like 'Terrorists'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.9554656147956848,
-      "severe_toxicity": 0.0004949642461724579,
-      "obscene": 0.0032833246514201164,
-      "identity_attack": 0.7896632552146912,
-      "insult": 0.8057869672775269,
-      "threat": 0.00691579096019268,
-      "sexual_explicit": 0.0010739675490185618
+      "toxicity": 0.95547,
+      "severe_toxicity": 0.00049,
+      "obscene": 0.00328,
+      "identity_attack": 0.78966,
+      "insult": 0.80579,
+      "threat": 0.00692,
+      "sexual_explicit": 0.00107
     },
     "url": "https://newsmax.com/platinum/mexican-cartels-drugs-traffickers/2023/03/13/id/1112002/"
   },
@@ -165,13 +165,13 @@
     "text": "Biden Admin. Approves Alaska Willow Oil Project",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0006053699762560427,
-      "severe_toxicity": 8.17828913568519e-05,
-      "obscene": 0.0006068803486414254,
-      "identity_attack": 0.0003186037065461278,
-      "insult": 0.0007357767899520695,
-      "threat": 8.61812659422867e-05,
-      "sexual_explicit": 4.309008363634348e-05
+      "toxicity": 0.00061,
+      "severe_toxicity": 0.00008,
+      "obscene": 0.00061,
+      "identity_attack": 0.00032,
+      "insult": 0.00074,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00004
     },
     "url": "https://newsmax.com/us/willow-oil-alaska/2023/03/13/id/1112032/"
   },
@@ -181,13 +181,13 @@
     "text": "Attorney: Trump Won't Participate in Hush-Money Probe",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008912582998163998,
-      "severe_toxicity": 1.920372960739769e-05,
-      "obscene": 0.00015141628682613373,
-      "identity_attack": 9.806563321035355e-05,
-      "insult": 0.00034191820304840803,
-      "threat": 4.965900006936863e-05,
-      "sexual_explicit": 2.6633864763425663e-05
+      "toxicity": 0.00089,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00010,
+      "insult": 0.00034,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/newsfront/joe-tacopina-donald-trump-hush-money/2023/03/13/id/1112029/"
   },
@@ -197,13 +197,13 @@
     "text": "Iran Claims Leader Pardoned 22,000 Jailed Protesters",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008427081629633904,
-      "severe_toxicity": 2.581018998171203e-05,
-      "obscene": 0.00020928819139953703,
-      "identity_attack": 0.00021616840967908502,
-      "insult": 0.00036117853596806526,
-      "threat": 5.644666816806421e-05,
-      "sexual_explicit": 2.9230392101453617e-05
+      "toxicity": 0.00084,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00021,
+      "identity_attack": 0.00022,
+      "insult": 0.00036,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/newsfront/iran-protests-arrested/2023/03/13/id/1112019/"
   },
@@ -213,13 +213,13 @@
     "text": "Trump Praises Horowitz's 'Final Battle' as 'Great'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0012496664421632886,
-      "severe_toxicity": 4.168215673416853e-05,
-      "obscene": 0.00024920853320509195,
-      "identity_attack": 0.00010535328328842297,
-      "insult": 0.00026287490618415177,
-      "threat": 0.0001798461307771504,
-      "sexual_explicit": 6.922651664353907e-05
+      "toxicity": 0.00125,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00025,
+      "identity_attack": 0.00011,
+      "insult": 0.00026,
+      "threat": 0.00018,
+      "sexual_explicit": 0.00007
     },
     "url": "https://newsmax.com/newsfront/donald-trump-david-horowitz-book/2023/03/09/id/1111679/"
   },
@@ -229,13 +229,13 @@
     "text": "Jews Protest Israeli Finance Minister in Washington",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.02643677592277527,
-      "severe_toxicity": 0.0016275389352813363,
-      "obscene": 0.0026546192821115255,
-      "identity_attack": 0.018855303525924683,
-      "insult": 0.004560627043247223,
-      "threat": 0.0016579530201852322,
-      "sexual_explicit": 0.0006449742359109223
+      "toxicity": 0.02644,
+      "severe_toxicity": 0.00163,
+      "obscene": 0.00265,
+      "identity_attack": 0.01886,
+      "insult": 0.00456,
+      "threat": 0.00166,
+      "sexual_explicit": 0.00064
     },
     "url": "https://newsmax.com/newsfront/protest-washington-israel/2023/03/13/id/1112011/"
   },
@@ -245,13 +245,13 @@
     "text": "'Robot Lawyer' Sued for Practicing Without License",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0009872998343780637,
-      "severe_toxicity": 1.3930438399256673e-05,
-      "obscene": 0.00011271597759332508,
-      "identity_attack": 7.95114174252376e-05,
-      "insult": 0.0004754421825055033,
-      "threat": 2.4025157472351566e-05,
-      "sexual_explicit": 1.9121474906569347e-05
+      "toxicity": 0.00099,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00011,
+      "identity_attack": 0.00008,
+      "insult": 0.00048,
+      "threat": 0.00002,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/ia-chatbot-robot/2023/03/13/id/1112017/"
   },
@@ -261,13 +261,13 @@
     "text": "'Everything Everywhere' Wins Oscars' Best Picture",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00028357660630717874,
-      "severe_toxicity": 5.920820694882423e-05,
-      "obscene": 0.00043502324842847884,
-      "identity_attack": 0.0001567790750414133,
-      "insult": 0.0003777158563025296,
-      "threat": 5.104453884996474e-05,
-      "sexual_explicit": 4.4369837269186974e-05
+      "toxicity": 0.00028,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00044,
+      "identity_attack": 0.00016,
+      "insult": 0.00038,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00004
     },
     "url": "https://newsmax.com/newsfront/oscars-best-picture/2023/03/13/id/1112001/"
   },
@@ -277,13 +277,13 @@
     "text": "Gov. Murphy: 1,000 Percent Behind Biden in '24",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000351420312654227,
-      "severe_toxicity": 2.5085942979785614e-05,
-      "obscene": 0.00013674695219378918,
-      "identity_attack": 9.652176959207281e-05,
-      "insult": 0.00016671094635967165,
-      "threat": 4.0638809878146276e-05,
-      "sexual_explicit": 2.3898654035292566e-05
+      "toxicity": 0.00035,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00010,
+      "insult": 0.00017,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/phil-murphy-biden-presidential-election/2023/03/12/id/1111998/"
   },
@@ -293,13 +293,13 @@
     "text": "March Madness: Bama, Houston, Kansas, Purdue Top Seeds",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005619718576781452,
-      "severe_toxicity": 0.00015700855874456465,
-      "obscene": 0.0015912168892100453,
-      "identity_attack": 0.00031325966119766235,
-      "insult": 0.0016119282227009535,
-      "threat": 0.00011621729208854958,
-      "sexual_explicit": 0.00010442292114021257
+      "toxicity": 0.00056,
+      "severe_toxicity": 0.00016,
+      "obscene": 0.00159,
+      "identity_attack": 0.00031,
+      "insult": 0.00161,
+      "threat": 0.00012,
+      "sexual_explicit": 0.00010
     },
     "url": "https://newsmax.com/us/march-madness-bracket-kansas-alabama/2023/03/12/id/1111996/"
   },
@@ -309,13 +309,13 @@
     "text": "Signature Bank Closes After SVB Collapse",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0005564377643167973,
-      "severe_toxicity": 3.724732596310787e-05,
-      "obscene": 0.00024165936338249594,
-      "identity_attack": 0.00015719491057097912,
-      "insult": 0.00025566224940121174,
-      "threat": 5.2201714424882084e-05,
-      "sexual_explicit": 2.7297166525386274e-05
+      "toxicity": 0.00056,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00024,
+      "identity_attack": 0.00016,
+      "insult": 0.00026,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/finance/streettalk/signature-bank-failure/2023/03/13/id/1112003/"
   },
@@ -325,13 +325,13 @@
     "text": "Suspended Crematorium Hid Bodies in Warehouse",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00456013111397624,
-      "severe_toxicity": 0.00019968838023487478,
-      "obscene": 0.0033606181386858225,
-      "identity_attack": 0.00048310658894479275,
-      "insult": 0.0036382039543241262,
-      "threat": 0.0002996063558384776,
-      "sexual_explicit": 0.0004082159139215946
+      "toxicity": 0.00456,
+      "severe_toxicity": 0.00020,
+      "obscene": 0.00336,
+      "identity_attack": 0.00048,
+      "insult": 0.00364,
+      "threat": 0.00030,
+      "sexual_explicit": 0.00041
     },
     "url": "https://newsmax.com/newsfront/crematorium-investigation-california/2023/03/12/id/1111994/"
   },
@@ -341,13 +341,13 @@
     "text": "Russia Loses 1,090 Troops in 1 Day",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0013656357768923044,
-      "severe_toxicity": 2.504731310182251e-05,
-      "obscene": 0.00014370519784279168,
-      "identity_attack": 0.00037155099562369287,
-      "insult": 0.0002638591977301985,
-      "threat": 5.47957097296603e-05,
-      "sexual_explicit": 2.4863184080459177e-05
+      "toxicity": 0.00137,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00037,
+      "insult": 0.00026,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/russia-ukraine-wagner-group/2023/03/13/id/1112039/"
   },
@@ -357,13 +357,13 @@
     "text": "Gallup Poll: 90 Percent of US Rebukes Russia",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0025309862103313208,
-      "severe_toxicity": 2.370451511524152e-05,
-      "obscene": 0.00011947513849008828,
-      "identity_attack": 0.00062391790561378,
-      "insult": 0.0004003488284070045,
-      "threat": 4.886673195869662e-05,
-      "sexual_explicit": 2.5163815735140815e-05
+      "toxicity": 0.00253,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00062,
+      "insult": 0.00040,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/newsfront/gallup-survey-america/2023/03/13/id/1112042/"
   },
@@ -373,13 +373,13 @@
     "text": "Transgender Teens Disproportionately Autistic",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.8510599732398987,
-      "severe_toxicity": 0.0011006020940840244,
-      "obscene": 0.02698962204158306,
-      "identity_attack": 0.5924157500267029,
-      "insult": 0.22079338133335114,
-      "threat": 0.0022464743815362453,
-      "sexual_explicit": 0.007027952466160059
+      "toxicity": 0.85106,
+      "severe_toxicity": 0.00110,
+      "obscene": 0.02699,
+      "identity_attack": 0.59242,
+      "insult": 0.22079,
+      "threat": 0.00225,
+      "sexual_explicit": 0.00703
     },
     "url": "https://newsmax.com/newsfront/transgender-children-autistic/2023/03/12/id/1111990/"
   },
@@ -389,13 +389,13 @@
     "text": "McCarthy: Jan. 6 Footage to Roll Out 'Slowly'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.000516637519467622,
-      "severe_toxicity": 2.2556994736078195e-05,
-      "obscene": 0.0001474669115850702,
-      "identity_attack": 9.478411811869591e-05,
-      "insult": 0.0002019537496380508,
-      "threat": 3.969843601225875e-05,
-      "sexual_explicit": 2.694289833016228e-05
+      "toxicity": 0.00052,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00009,
+      "insult": 0.00020,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/newsfront/kevin-mccarthy-tucker-carlson-jan-6/2023/03/12/id/1111988/"
   },
@@ -405,13 +405,13 @@
     "text": "Bernie Marcus: Justice Dept Won't Go After 'Woke' SVB",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00043987331446260214,
-      "severe_toxicity": 2.1197112801019102e-05,
-      "obscene": 0.00013180133828427643,
-      "identity_attack": 8.921856351662427e-05,
-      "insult": 0.00020076819055248052,
-      "threat": 3.448465940891765e-05,
-      "sexual_explicit": 2.4381042749155313e-05
+      "toxicity": 0.00044,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00009,
+      "insult": 0.00020,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/silicon-valley-bank-woke/2023/03/12/id/1111950/"
   },
@@ -421,13 +421,13 @@
     "text": "Nicaragua Closing Vatican-Related Embassies",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.008002668619155884,
-      "severe_toxicity": 0.0002045110013568774,
-      "obscene": 0.0018813556525856256,
-      "identity_attack": 0.0033441430423408747,
-      "insult": 0.0019472073763608932,
-      "threat": 0.0007729480275884271,
-      "sexual_explicit": 0.0005510077462531626
+      "toxicity": 0.00800,
+      "severe_toxicity": 0.00020,
+      "obscene": 0.00188,
+      "identity_attack": 0.00334,
+      "insult": 0.00195,
+      "threat": 0.00077,
+      "sexual_explicit": 0.00055
     },
     "url": "https://newsmax.com/world/globaltalk/nicaragua-ortega-vatican/2023/03/12/id/1111984/"
   },
@@ -437,13 +437,13 @@
     "text": "Dr. Rich Besser: We're Not Ready For Next Pandemic",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00048715845332480967,
-      "severe_toxicity": 2.175885674660094e-05,
-      "obscene": 0.00010735314572229981,
-      "identity_attack": 0.00010933110024780035,
-      "insult": 0.00018738208746071905,
-      "threat": 4.196481313556433e-05,
-      "sexual_explicit": 2.1358351659728214e-05
+      "toxicity": 0.00049,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00011,
+      "insult": 0.00019,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/pandemic-covid-preparedness/2023/03/12/id/1111981/"
   },
@@ -453,13 +453,13 @@
     "text": "Lieberman Urges US to Facilitate Mideast Talks",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0013339008437469602,
-      "severe_toxicity": 2.5592758902348578e-05,
-      "obscene": 0.0001547859574202448,
-      "identity_attack": 0.00024024855520110577,
-      "insult": 0.0003510970273055136,
-      "threat": 5.842549944645725e-05,
-      "sexual_explicit": 2.124345519405324e-05
+      "toxicity": 0.00133,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00024,
+      "insult": 0.00035,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/joe-lieberman-israel-saudi-arabia/2023/03/12/id/1111979/"
   },
@@ -469,13 +469,13 @@
     "text": "McCaul: Pence Avoided 'Constitutional Crisis'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0010947160189971328,
-      "severe_toxicity": 2.0946928998455405e-05,
-      "obscene": 0.000175014793057926,
-      "identity_attack": 0.00010317136184312403,
-      "insult": 0.00042686634697020054,
-      "threat": 5.7358927733730525e-05,
-      "sexual_explicit": 2.9179036573623307e-05
+      "toxicity": 0.00109,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00018,
+      "identity_attack": 0.00010,
+      "insult": 0.00043,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003
     },
     "url": "https://newsmax.com/newsfront/michael-mccaul-pence-jan-6/2023/03/12/id/1111976/"
   },
@@ -485,13 +485,13 @@
     "text": "Texas Man Sues Women for Getting His Ex-Wife Abortion Pills",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.08217768371105194,
-      "severe_toxicity": 0.00042582509922795,
-      "obscene": 0.0024857884272933006,
-      "identity_attack": 0.008527434431016445,
-      "insult": 0.004757815971970558,
-      "threat": 0.005484005436301231,
-      "sexual_explicit": 0.012960897758603096
+      "toxicity": 0.08218,
+      "severe_toxicity": 0.00043,
+      "obscene": 0.00249,
+      "identity_attack": 0.00853,
+      "insult": 0.00476,
+      "threat": 0.00548,
+      "sexual_explicit": 0.01296
     },
     "url": "https://newsmax.com/newsfront/man-sues-abortion/2023/03/12/id/1111971/"
   },
@@ -501,13 +501,13 @@
     "text": "China's Xi to Speak With Ukraine's Zelenskyy: WSJ",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00033257194445468485,
-      "severe_toxicity": 5.7891687902156264e-05,
-      "obscene": 0.0004161448450759053,
-      "identity_attack": 0.00021509519137907773,
-      "insult": 0.000500950263813138,
-      "threat": 5.7678931625559926e-05,
-      "sexual_explicit": 3.743588240467943e-05
+      "toxicity": 0.00033,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00042,
+      "identity_attack": 0.00022,
+      "insult": 0.00050,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00004
     },
     "url": "https://newsmax.com/world/globaltalk/china-xi-ukraine/2023/03/13/id/1112026/"
   },
@@ -517,13 +517,13 @@
     "text": "VP Harris to Visit Africa in Latest US Outreach",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0004887652467004955,
-      "severe_toxicity": 2.634691190905869e-05,
-      "obscene": 0.00011009722948074341,
-      "identity_attack": 0.0001719583960948512,
-      "insult": 0.0001718577550491318,
-      "threat": 3.528003071551211e-05,
-      "sexual_explicit": 2.493560896255076e-05
+      "toxicity": 0.00049,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00011,
+      "identity_attack": 0.00017,
+      "insult": 0.00017,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/politics/kamala-harris-africa-u-s/2023/03/13/id/1112021/"
   },
@@ -533,13 +533,13 @@
     "text": "IDF Chief: Military Can Only Function in 'Jewish, Democratic State'",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.04059988260269165,
-      "severe_toxicity": 0.0010935580357909203,
-      "obscene": 0.0023791082203388214,
-      "identity_attack": 0.026260551065206528,
-      "insult": 0.007180977612733841,
-      "threat": 0.0013305075699463487,
-      "sexual_explicit": 0.00042428760207258165
+      "toxicity": 0.04060,
+      "severe_toxicity": 0.00109,
+      "obscene": 0.00238,
+      "identity_attack": 0.02626,
+      "insult": 0.00718,
+      "threat": 0.00133,
+      "sexual_explicit": 0.00042
     },
     "url": "https://newsmax.com/world/globaltalk/idf-chief-herzi-halevi/2023/03/13/id/1112016/"
   },
@@ -549,13 +549,13 @@
     "text": "Global Union Leader Fired in EU Graft Scandal",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0014985293382778764,
-      "severe_toxicity": 0.00019420002354308963,
-      "obscene": 0.0020248389337211847,
-      "identity_attack": 0.00043130162521265447,
-      "insult": 0.0019715961534529924,
-      "threat": 0.0004593643534462899,
-      "sexual_explicit": 0.00013165587733965367
+      "toxicity": 0.00150,
+      "severe_toxicity": 0.00019,
+      "obscene": 0.00202,
+      "identity_attack": 0.00043,
+      "insult": 0.00197,
+      "threat": 0.00046,
+      "sexual_explicit": 0.00013
     },
     "url": "https://newsmax.com/newsfront/ituc-bribery-luca-visentini/2023/03/12/id/1111992/"
   },
@@ -565,13 +565,13 @@
     "text": "Italy Says 30 Migrants Missing after Boat Capsizes off Libya",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.020549770444631577,
-      "severe_toxicity": 3.50368172803428e-05,
-      "obscene": 0.0001814469724195078,
-      "identity_attack": 0.005870092194527388,
-      "insult": 0.0011415090411901474,
-      "threat": 0.0008363990345969796,
-      "sexual_explicit": 8.352136501343921e-05
+      "toxicity": 0.02055,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00018,
+      "identity_attack": 0.00587,
+      "insult": 0.00114,
+      "threat": 0.00084,
+      "sexual_explicit": 0.00008
     },
     "url": "https://newsmax.com/newsfront/migrants-italy-capsized/2023/03/12/id/1111989/"
   },
@@ -581,13 +581,13 @@
     "text": "Seoul: North Korea Conducts Missile Test",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007977787754498422,
-      "severe_toxicity": 4.887842806056142e-05,
-      "obscene": 0.00022463814821094275,
-      "identity_attack": 0.0002843709662556648,
-      "insult": 0.00023902115935925394,
-      "threat": 0.00013313228555489331,
-      "sexual_explicit": 4.5750028220936656e-05
+      "toxicity": 0.00080,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00022,
+      "identity_attack": 0.00028,
+      "insult": 0.00024,
+      "threat": 0.00013,
+      "sexual_explicit": 0.00005
     },
     "url": "https://newsmax.com/newsfront/south-korea-north-korea-chiefs-of-staff/2023/03/12/id/1111982/"
   },
@@ -597,13 +597,13 @@
     "text": "Suspected Islamist Militants Kill 19 in Congo",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.4366168975830078,
-      "severe_toxicity": 0.0003071205283049494,
-      "obscene": 0.0008477066876366735,
-      "identity_attack": 0.3169705867767334,
-      "insult": 0.02383408509194851,
-      "threat": 0.024042002856731415,
-      "sexual_explicit": 0.0004704143793787807
+      "toxicity": 0.43662,
+      "severe_toxicity": 0.00031,
+      "obscene": 0.00085,
+      "identity_attack": 0.31697,
+      "insult": 0.02383,
+      "threat": 0.02404,
+      "sexual_explicit": 0.00047
     },
     "url": "https://newsmax.com/world/globaltalk/congo-islamist-militants-un/2023/03/12/id/1111980/"
   },
@@ -613,13 +613,13 @@
     "text": "Zelenskyy: More Than 1,100 Russian Dead in Less Than a Week",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.04135053977370262,
-      "severe_toxicity": 0.0001196010853163898,
-      "obscene": 0.00033031360362656415,
-      "identity_attack": 0.01523111667484045,
-      "insult": 0.0011880361707881093,
-      "threat": 0.0027066022157669067,
-      "sexual_explicit": 0.00010442202619742602
+      "toxicity": 0.04135,
+      "severe_toxicity": 0.00012,
+      "obscene": 0.00033,
+      "identity_attack": 0.01523,
+      "insult": 0.00119,
+      "threat": 0.00271,
+      "sexual_explicit": 0.00010
     },
     "url": "https://newsmax.com/world/globaltalk/ukraine-russia-war/2023/03/12/id/1111975/"
   },
@@ -629,13 +629,13 @@
     "text": "Bolton: China Increasingly in 'Catbird' Seat",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0007081155781634152,
-      "severe_toxicity": 3.7458845326909795e-05,
-      "obscene": 0.00027456774841994047,
-      "identity_attack": 0.0002277538733324036,
-      "insult": 0.0004604458808898926,
-      "threat": 8.271062688436359e-05,
-      "sexual_explicit": 4.151715984335169e-05
+      "toxicity": 0.00071,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00027,
+      "identity_attack": 0.00023,
+      "insult": 0.00046,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00004
     },
     "url": "https://newsmax.com/newsfront/john-bolton-china-saudi-arabia/2023/03/12/id/1111965/"
   },
@@ -645,13 +645,13 @@
     "text": "Israel Stocks Slide on SVB Collapse",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0002547609619796276,
-      "severe_toxicity": 8.121113933157176e-05,
-      "obscene": 0.00044375070137903094,
-      "identity_attack": 0.00020410407159943134,
-      "insult": 0.0003847198677249253,
-      "threat": 7.526802073698491e-05,
-      "sexual_explicit": 4.498136695474386e-05
+      "toxicity": 0.00025,
+      "severe_toxicity": 0.00008,
+      "obscene": 0.00044,
+      "identity_attack": 0.00020,
+      "insult": 0.00038,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00004
     },
     "url": "https://newsmax.com/world/globaltalk/israel-svb-bank/2023/03/12/id/1111961/"
   },
@@ -661,13 +661,13 @@
     "text": "French Senate Adopts Pension Bill Despite Mass Protests",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00039771097362972796,
-      "severe_toxicity": 2.629903974593617e-05,
-      "obscene": 0.00016759855498094112,
-      "identity_attack": 0.00012163000792497769,
-      "insult": 0.00022645553690381348,
-      "threat": 3.0849587346892804e-05,
-      "sexual_explicit": 2.483865500835236e-05
+      "toxicity": 0.00040,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00012,
+      "insult": 0.00023,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/france-retirement-age-vote-pension-reform/2023/03/12/id/1111957/"
   },
@@ -677,13 +677,13 @@
     "text": "Iran Says Deal Reached With US for Prisoner Swap",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0017357217147946358,
-      "severe_toxicity": 1.6360128938686103e-05,
-      "obscene": 0.00011442990216892213,
-      "identity_attack": 0.00033286059624515474,
-      "insult": 0.00037093678838573396,
-      "threat": 5.67598981433548e-05,
-      "sexual_explicit": 1.8771446775645018e-05
+      "toxicity": 0.00174,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00033,
+      "insult": 0.00037,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/iran-hostages-us/2023/03/12/id/1111955/"
   },
@@ -693,13 +693,13 @@
     "text": "BBC Under Fire After Host's 'Nazi' Comments",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.12776169180870056,
-      "severe_toxicity": 0.0001343583717243746,
-      "obscene": 0.0022602989338338375,
-      "identity_attack": 0.02036118134856224,
-      "insult": 0.02479623444378376,
-      "threat": 0.000634118216112256,
-      "sexual_explicit": 0.00033534885733388364
+      "toxicity": 0.12776,
+      "severe_toxicity": 0.00013,
+      "obscene": 0.00226,
+      "identity_attack": 0.02036,
+      "insult": 0.02480,
+      "threat": 0.00063,
+      "sexual_explicit": 0.00034
     },
     "url": "https://newsmax.com/newsfront/bbc-lineker-tweet-asylum-migrants-suspension-british-government-motd-motd2/2023/03/12/id/1111954/"
   },
@@ -709,13 +709,13 @@
     "text": "China Surprisingly Retains Central Bank Chief",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.002536618849262595,
-      "severe_toxicity": 2.9946244467282668e-05,
-      "obscene": 0.0003373179351910949,
-      "identity_attack": 0.0006565958610735834,
-      "insult": 0.00074803113238886,
-      "threat": 7.678691326873377e-05,
-      "sexual_explicit": 5.564471575780772e-05
+      "toxicity": 0.00254,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00034,
+      "identity_attack": 0.00066,
+      "insult": 0.00075,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00006
     },
     "url": "https://newsmax.com/world/globaltalk/china-yi-gang/2023/03/12/id/1111949/"
   },
@@ -725,13 +725,13 @@
     "text": "WHO Chief: Finding COVID's Origins a Moral Imperative",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00037085614167153835,
-      "severe_toxicity": 2.2147160052554682e-05,
-      "obscene": 0.00013628523447550833,
-      "identity_attack": 8.900883403839543e-05,
-      "insult": 0.00017738653696142137,
-      "threat": 3.770107286982238e-05,
-      "sexual_explicit": 2.2609110601479188e-05
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00009,
+      "insult": 0.00018,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/newsfront/who-covid-origins/2023/03/12/id/1111946/"
   },
@@ -741,13 +741,13 @@
     "text": "Pope Francis at 10 Years: A Reformer's Learning Curve, Plans",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0008685286738909781,
-      "severe_toxicity": 5.164265530765988e-05,
-      "obscene": 0.00024757845676504076,
-      "identity_attack": 0.0002952624054159969,
-      "insult": 0.00041671626968309283,
-      "threat": 7.629103492945433e-05,
-      "sexual_explicit": 6.81916280882433e-05
+      "toxicity": 0.00087,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00025,
+      "identity_attack": 0.00030,
+      "insult": 0.00042,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00007
     },
     "url": "https://newsmax.com/world/globaltalk/pope-francis-vatican-anniversary-abuse-lgbt/2023/03/12/id/1111943/"
   },
@@ -757,13 +757,13 @@
     "text": "Marines Prep for Ambush Operations Against China",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.018367230892181396,
-      "severe_toxicity": 0.00011887840082636103,
-      "obscene": 0.0004764963814523071,
-      "identity_attack": 0.002719563664868474,
-      "insult": 0.0007430472178384662,
-      "threat": 0.003954930230975151,
-      "sexual_explicit": 0.00015286494453903288
+      "toxicity": 0.01837,
+      "severe_toxicity": 0.00012,
+      "obscene": 0.00048,
+      "identity_attack": 0.00272,
+      "insult": 0.00074,
+      "threat": 0.00395,
+      "sexual_explicit": 0.00015
     },
     "url": "https://newsmax.com/platinum/u-s-marines-china/2023/03/10/id/1111777/"
   },
@@ -773,13 +773,13 @@
     "text": "US Should Embrace 'Sunlight' of Nord Stream Probe",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.00044880667701363564,
-      "severe_toxicity": 4.121172605664469e-05,
-      "obscene": 0.00018459983402863145,
-      "identity_attack": 0.00015159035683609545,
-      "insult": 0.00015257035556714982,
-      "threat": 8.865602285368368e-05,
-      "sexual_explicit": 3.687769640237093e-05
+      "toxicity": 0.00045,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00018,
+      "identity_attack": 0.00015,
+      "insult": 0.00015,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00004
     },
     "url": "https://newsmax.com/platinum/u-s-nord-stream-pipelines/2023/03/10/id/1111779/"
   },
@@ -789,13 +789,13 @@
     "text": "US Lacks 'Urgency' as China Readies for War",
     "date": "2000-01-01T00:00:00",
     "scores": {
-      "toxicity": 0.0018537570722401142,
-      "severe_toxicity": 1.7482640032540075e-05,
-      "obscene": 8.979887934401631e-05,
-      "identity_attack": 0.00037047453224658966,
-      "insult": 0.00034933467395603657,
-      "threat": 4.953173265676014e-05,
-      "sexual_explicit": 2.016785401792731e-05
+      "toxicity": 0.00185,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00009,
+      "identity_attack": 0.00037,
+      "insult": 0.00035,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002
     },
     "url": "https://newsmax.com/platinum/u-s-china-war/2023/03/09/id/1111645/"
   }
