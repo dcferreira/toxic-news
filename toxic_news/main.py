@@ -573,6 +573,8 @@ def update_frontend_today(
     daily: bool = True,
     averages: bool = True,
     render: bool = True,
+    mongodb_url: str = typer.Option(..., envvar="MONGODB_URL"),
+    database_name: str = typer.Option(..., envvar="DATABASE_NAME"),
     out_dir: Path = Path("public"),
 ):
     """
@@ -580,11 +582,25 @@ def update_frontend_today(
     """
     today = datetime.today()
     if update_db:
-        update_daily_db(today, end_date=None, auto_save=True)
+        update_daily_db(
+            today,
+            end_date=None,
+            auto_save=True,
+            mongodb_url=mongodb_url,
+            database_name=database_name,
+        )
     if daily:
-        generate_daily_csv(today, end_date=None, out_dir=out_dir / "daily")
+        generate_daily_csv(
+            today,
+            end_date=None,
+            out_dir=out_dir / "daily",
+            mongodb_url=mongodb_url,
+            database_name=database_name,
+        )
     if averages:
-        generate_averages(out_dir / "averages")
+        generate_averages(
+            out_dir / "averages", mongodb_url=mongodb_url, database_name=database_name
+        )
     if render:
         render_html(out_dir)
 

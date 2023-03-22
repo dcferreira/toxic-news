@@ -28,6 +28,10 @@ jobs:
 
       - name: Run Commands
         run: hatch run cli update-frontend-today
+        env:
+          MONGODB_URL: ${{ secrets.MONGODB_URL }}
+          DATABASE_NAME: ${{ vars.DATABASE_NAME }}
+
 
       - name: Commit Changes
         run: |
