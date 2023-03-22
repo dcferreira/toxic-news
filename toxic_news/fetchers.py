@@ -337,6 +337,5 @@ newspapers: list[Newspaper] = [
 def clean_url(url: str) -> str:
     """Removes the slashes from a URL, to make sure it's safe to use as a filename."""
     assert "http" in url
-    out = re.sub("(http|https)://", "", url).strip("/")
-    assert "/" not in out
+    out = re.sub("(http|https)://", "", url).strip("/").replace("/", "__")
     return out

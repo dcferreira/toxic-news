@@ -1,0 +1,390 @@
+[
+  [
+    "How Do They Defy Death? Secrets of Cancer Survivors Unveiled",
+    "https://www.theepochtimes.com/health/how-do-they-defy-death-secrets-of-cancer-survivors-unveiled_5118045.html"
+  ],
+  [
+    "Conflicts of Interest: Pfizer\u2019s Secret Collusion With the NIH",
+    "https://www.theepochtimes.com/health/conflicts-of-interest-pfizers-secret-collusion-with-the-nih_5138161.html"
+  ],
+  [
+    "Depression: 4 Major Symptoms, Treatment, and Natural Therapies (Infographics)",
+    "https://www.theepochtimes.com/health/depression-4-major-symptoms-treatment-and-natural-therapies-infographics_5085021.html"
+  ],
+  [
+    "Texas AG Ken Paxton\u2019s Legal Opinion Could Help Clear Way For School Choice",
+    "https://www.theepochtimes.com/texas-ag-ken-paxtons-legal-opinion-could-help-clear-way-for-school-choice_5138691.html"
+  ],
+  [
+    "Los Angeles Public Schools Closed as Unions Launch 3-Day Strike",
+    "https://www.theepochtimes.com/los-angeles-public-schools-closed-as-unions-launch-three-day-strike_5140524.html"
+  ],
+  [
+    "Topple or Kneel to the Patriarchy?",
+    "https://www.theepochtimes.com/topple-or-kneel-to-the-patriarchy_5137105.html"
+  ],
+  [
+    "DOJ Asks SCOTUS to Quickly Restore Ban on Guns in Domestic Violence Cases",
+    "https://www.theepochtimes.com/doj-asks-scotus-to-quickly-restore-ban-on-guns-in-domestic-violence-cases_5140054.html"
+  ],
+  [
+    "The Boot of the State\u2014Mark Chenoweth on Suing Federal Agencies and Ensuring the Separation of Powers",
+    "https://www.theepochtimes.com/the-boot-of-the-state-mark-chenoweth-on-suing-federal-agencies-and-ensuring-the-separation-of-powers_5126951.html"
+  ],
+  [
+    "Hillary Clinton Memes Test Limits of First Amendment in Online Speech Trial",
+    "https://www.theepochtimes.com/hillary-clinton-memes-test-limits-of-first-amendment-in-online-speech-trial_5138669.html"
+  ],
+  [
+    "China Not \u2018Impartial\u2019 Actor in Russia-Ukraine War: White House",
+    "https://www.theepochtimes.com/china-not-impartial-actor-in-russia-ukraine-war-white-house_5140110.html"
+  ],
+  [
+    "Biden Signs Bill to Declassify COVID Origins Intelligence on Wuhan Lab",
+    "https://www.theepochtimes.com/biden-signs-bill-to-declassify-covid-origin-intelligence-on-wuhan-lab_5137128.html"
+  ],
+  [
+    "Memories of Pre-Dawn Raids at Gunpoint Haunt Pro-Life Activists, Friends, and Family",
+    "https://www.theepochtimes.com/memories-of-pre-dawn-raids-at-gunpoint-haunt-pro-life-activists-friends-and-family_5115167.html"
+  ],
+  [
+    "\u2018The Country Wants a Change\u2019: DeSantis Details How He Can Beat Biden in 2024",
+    "https://www.theepochtimes.com/the-country-wants-a-change-desantis-details-how-he-can-beat-biden-in-2024_5140887.html"
+  ],
+  [
+    "GOP Panel Chair Demands Action to Fix \u2018Dire\u2019 Border Situation",
+    "https://www.theepochtimes.com/gop-panel-chair-demands-action-to-fix-dire-border-situation_5137224.html"
+  ],
+  [
+    "Senate Votes to Begin Debate on Bill Repealing Iraq War Authorizations",
+    "https://www.theepochtimes.com/senate-votes-to-begin-debate-on-bill-repealing-iraq-war-authorizations_5140038.html"
+  ],
+  [
+    "CDC Bought Phone Data to Monitor Americans\u2019 Compliance With Lockdowns, Contracts Show",
+    "https://www.theepochtimes.com/cdc-bought-phone-data-to-monitor-americans-compliance-with-lockdowns-contracts-show_5118737.html"
+  ],
+  [
+    "COVID-19 Vaccines Can Cause \u2018Permanent Disabilities\u2019: German Health Minister",
+    "https://www.theepochtimes.com/covid-19-vaccines-can-cause-permanent-disabilities-says-german-health-minister_5129027.html"
+  ],
+  [
+    "Texas Judge Grants Injunction Against Biden\u2019s \u2018Waters of the United States\u2019 Rule in Texas, Idaho",
+    "https://www.theepochtimes.com/texas-judge-grants-injunction-against-bidens-waters-of-the-united-states-rule-in-texas-idaho_5139827.html"
+  ],
+  [
+    "McCarthy Urges Senate to Form China Committee",
+    "https://www.theepochtimes.com/mccarthy-urges-senate-to-form-china-committee_5140240.html"
+  ],
+  [
+    "Bipartisan Group Renews Push to Ban Lawmakers From Owning and Trading Stocks",
+    "https://www.theepochtimes.com/bipartisan-group-renews-push-to-ban-lawmakers-from-owning-and-trading-stocks_5140575.html"
+  ],
+  [
+    "Physician Assistant Fired for Reporting COVID-19 Vaccine Adverse Events to VAERS",
+    "https://www.theepochtimes.com/physician-assistant-fired-for-reporting-covid-vaccine-adverse-events-to-vaers_5130783.html"
+  ],
+  [
+    "EXCLUSIVE: ATF Gains Financial Information on Potential Gun Buyers for Warrantless Tracking, Documents Show",
+    "https://www.theepochtimes.com/atf-gains-financial-information-on-potential-gun-buyers-for-warrantless-tracking-documents-show_5119085.html"
+  ],
+  [
+    "Southern California Hit by More Rainfall Amid Growing Damages From Flooding",
+    "https://www.theepochtimes.com/southern-california-hit-by-more-rainfall-amid-growing-damages-from-storm-flooding_5140626.html"
+  ],
+  [
+    "Biden Signs Bill to Declassify Virus Origin",
+    "https://www.theepochtimes.com/biden-signs-bill-to-declassify-virus-origin_5140107.html"
+  ],
+  [
+    "Capitol Report: Biden Approves Releasing COVID Intel, Blocks DC Crime Reform",
+    "https://www.theepochtimes.com/capitol-report-biden-approves-releasing-covid-intel-blocks-dc-crime-reform_5139921.html"
+  ],
+  [
+    "California Bill Would Protect Doctors Who Mail Abortion Pills to Out-of-State Patients",
+    "https://www.theepochtimes.com/california-bill-would-protect-doctors-who-mail-abortion-pills-to-out-of-state-patients_5140370.html"
+  ],
+  [
+    "UN Cultural Agency Under Fire Over CCP Atrocities",
+    "https://www.theepochtimes.com/un-cultural-agency-under-fire-over-ccp-atrocities_5139199.html"
+  ],
+  [
+    "Another Former Trans Teen to Sue Medical Provider Over Double Mastectomy at 13",
+    "https://www.theepochtimes.com/another-former-trans-teen-to-sue-medical-provider-over-double-mastectomy-at-13_5140279.html"
+  ],
+  [
+    "Vermont League Kicks Out School\u2019s Sports Teams Over Refusal to Pit Girls Against Transgender Basketballer",
+    "https://www.theepochtimes.com/vermont-league-kicks-out-schools-sports-teams-over-refusal-to-pit-girls-against-transgender-basketballer_5126142.html"
+  ],
+  [
+    "Los Angeles DA Gasc\u00f3n\u2019s Office Provides Free Shuttle for Staff Amid Rising Crime",
+    "https://www.theepochtimes.com/los-angeles-da-gascons-office-provides-free-shuttle-for-staff-amid-rising-crime_5140231.html"
+  ],
+  [
+    "House Oversight Committee Probes FDA\u2019s Response to Baby Formula Shortage",
+    "https://www.theepochtimes.com/house-oversight-committee-probes-fdas-response-to-baby-formula-shortage_5139958.html"
+  ],
+  [
+    "US Not Considering Fighter Jets for Ukraine After Poland, Slovakia Pledge More Than a Dozen MiGs",
+    "https://www.theepochtimes.com/us-not-considering-fighter-jets-for-ukraine-after-poland-slovakia-pledge-more-than-a-dozen-migs_5139833.html"
+  ],
+  [
+    "Two American Children Reported Missing in Mexico as US Embassy Issues Alert to Spring Breakers",
+    "https://www.theepochtimes.com/two-american-children-reported-missing-in-mexico-as-us-embassy-issues-alert-to-spring-breakers_5139810.html"
+  ],
+  [
+    "State Department Faces Deadline to Provide Documents on Afghanistan Withdrawal",
+    "https://www.theepochtimes.com/state-department-faces-deadline-to-provide-documents-on-afghanistan-withdrawal_5138804.html"
+  ],
+  [
+    "Google Pulls Chinese Pinduoduo App Off Play Store Over Security Concerns",
+    "https://www.theepochtimes.com/google-pulls-chinese-pinduoduo-app-off-play-store-over-security-concerns_5139529.html"
+  ],
+  [
+    "Willis Reed, Leader on Knicks\u2019 2 Title Teams, Dies at 80",
+    "https://www.theepochtimes.com/willis-reed-leader-on-knicks-2-title-teams-dies-at-80_5139976.html"
+  ],
+  [
+    "I Hear Ghosts",
+    "https://www.theepochtimes.com/i-hear-ghosts_5062745.html"
+  ],
+  [
+    "Home Prices Drop, Breaking 11-Year Streak of Increases",
+    "https://www.theepochtimes.com/home-prices-drop-breaking-11-year-streak-of-increases_5138381.html"
+  ],
+  [
+    "4 Menopause Symptoms You Might Not Realize You\u2019re Experiencing",
+    "https://www.theepochtimes.com/health/4-menopause-symptoms-you-might-not-realize-youre-experiencing_5117823.html"
+  ],
+  [
+    "Shen Yun Represents the Values That Made China Great, Says Company Owner",
+    "https://www.theepochtimes.com/shen-yun-represents-the-values-that-made-china-great-says-company-owner_5141046.html"
+  ],
+  [
+    "Shen Yun Moved Me to Tears, Says Brazilian Doctor to the Stars",
+    "https://www.theepochtimes.com/shen-yun-moved-me-to-tears-says-brazilian-doctor-to-the-stars_5135430.html"
+  ],
+  [
+    "Earthing Might Have Therapeutic Effect on COVID-19, 2 Simple Ways to Do It",
+    "https://www.theepochtimes.com/health/earthing-might-have-therapeutic-effect-on-covid-19-2-simple-ways-to-do-it_5133553.html"
+  ],
+  [
+    "Hypertension Medications Can Increase Stroke Risk: Pressing 2 Acupoints May Effectively Control High Blood Pressure",
+    "https://www.theepochtimes.com/health/hypertension-medications-can-increase-stroke-risk-pressing-2-acupoints-may-effectively-control-high-blood-pressure_5123999.html"
+  ],
+  [
+    "Crypto Exchange Coinbase Asks Supreme Court to Compel Disgruntled Customers to Pursue Arbitration",
+    "https://www.theepochtimes.com/crypto-exchange-coinbase-asks-supreme-court-to-compel-disgruntled-customers-to-pursue-arbitration_5137882.html"
+  ],
+  [
+    "World Stocks Cautiously Higher Ahead of High Stakes Fed Decision",
+    "https://www.theepochtimes.com/world-stocks-cautiously-higher-ahead-of-high-stakes-fed-decision_5141144.html"
+  ],
+  [
+    "This Unique Castle Has Been One Family\u2019s Home Through 34 Generations and for Over 800 Years",
+    "https://www.theepochtimes.com/this-unique-castle-has-been-one-familys-home-through-34-generations-and-for-over-800-years_5025281.html"
+  ],
+  [
+    "Obese Young Man Weighed 820 Pounds Now Unrecognizable After Dropping 600 Pounds",
+    "https://www.theepochtimes.com/obese-young-man-weighed-820-pounds-now-unrecognizable-after-dropping-600-pounds_5117977.html"
+  ],
+  [
+    "Webcam Captures Mama Bald Eagle Who Won\u2019t Leave Nest Covered in Over Foot of Snow After Winter Storm",
+    "https://www.theepochtimes.com/webcam-captures-mama-bald-eagle-who-wont-leave-nest-covered-in-over-foot-of-snow-after-winter-storm_5099311.html"
+  ],
+  [
+    "SCOTUS Overturns Appeals Court Upholding Abortion Without Parental Consent",
+    "https://www.theepochtimes.com/supreme-court-overturns-appeals-court-ruling-upholding-abortion-without-parental-notification_5135384.html"
+  ],
+  [
+    "CDC Warns of Dangerous Fungal Infection Spreading Through US at \u2018Alarming Rate\u2019",
+    "https://www.theepochtimes.com/cdc-warns-of-dangerous-fungal-infection-spreading-through-us-at-alarming-rate_5137789.html"
+  ],
+  [
+    "IRS Issues Fresh Warning in \u2018Dirty Dozen\u2019 List of Tax Scams",
+    "https://www.theepochtimes.com/irs-issues-fresh-warning-in-dirty-dozen-list-of-tax-scams_5138029.html"
+  ],
+  [
+    "House Republicans Demand Testimony From Manhattan DA Behind Potential Trump Arrest",
+    "https://www.theepochtimes.com/jim-jordan-demands-testimony-from-manhattan-da-behind-pending-trump-arrest_5135363.html"
+  ],
+  [
+    "DeSantis Criticizes Manhattan DA, Calls Trump Investigation a \u2018Manufactured Circus\u2019",
+    "https://www.theepochtimes.com/desantis-criticizes-manhattan-da-calls-trump-investigation-a-manufactured-circus_5135698.html"
+  ],
+  [
+    "County\u2019s First Veteran Housing Moves Ahead in Port Jervis",
+    "https://www.theepochtimes.com/countys-first-veteran-housing-moves-ahead-in-port-jervis_5140498.html"
+  ],
+  [
+    "Philly Agrees to $9.2 Million Payout Over Police Response to 2020 Protests",
+    "https://www.theepochtimes.com/philly-agrees-to-9-2-million-payout-over-police-response-to-2020-protests_5139951.html"
+  ],
+  [
+    "Alan Dershowitz: Trump Can Serve as President \u2018From Prison\u2019",
+    "https://www.theepochtimes.com/alan-dershowitz-trump-can-serve-as-president-from-prison_5139164.html"
+  ],
+  [
+    "Haley Defends Trump as 2024 GOP Rival Faces Possible Arrest",
+    "https://www.theepochtimes.com/haley-defends-trump-as-2024-gop-rival-faces-possible-arrest_5139162.html"
+  ],
+  [
+    "Man Found Insane When He Killed Father in Laguna Niguel",
+    "https://www.theepochtimes.com/man-found-insane-when-he-killed-father-in-laguna-niguel_5140460.html"
+  ],
+  [
+    "USA Water Polo Facility, Concert Venue, Botanical Garden Approved for Irvine\u2019s Great Park",
+    "https://www.theepochtimes.com/usa-water-polo-facility-concert-venue-botanical-garden-approved-for-irvines-great-park_5140444.html"
+  ],
+  [
+    "Judge Blocks 1999 California Law Requiring Specific Safety Features for Handguns",
+    "https://www.theepochtimes.com/judge-blocks-1999-california-law-requiring-specific-safety-features-for-handguns_5137790.html"
+  ],
+  [
+    "The Role of Newsom\u2019s Diversity Mandates in SVB\u2019s Failure",
+    "https://www.theepochtimes.com/the-role-of-newsoms-diversity-mandates-in-svbs-failure_5137206.html"
+  ],
+  [
+    "Proposed GOP Legislation to Block Gas Stove Ban Supported by Industry",
+    "https://www.theepochtimes.com/proposed-gop-legislation-to-block-gas-stove-ban-supported-by-industry_5139106.html"
+  ],
+  [
+    "\u2018Defamation of a Beloved Teacher\u2019: Community Backs Teacher Charged With Assaulting Student",
+    "https://www.theepochtimes.com/defamation-of-a-beloved-teacher-community-backs-teacher-who-was-charged-with-assaulting-students_5140847.html"
+  ],
+  [
+    "Former US Marine Arrested in Australia for Training Chinese Military Pilots",
+    "https://www.theepochtimes.com/former-us-marine-arrested-in-australia-for-training-chinese-military-pilots_5139761.html"
+  ],
+  [
+    "Taiwan President to Visit US but No Word on House Speaker Meeting",
+    "https://www.theepochtimes.com/taiwan-president-to-visit-us-but-no-word-on-house-speaker-meeting_5138328.html"
+  ],
+  [
+    "PREMIERING at  Mar. 22 10AM ET: Troubled US Bank\u2019s Ties to China Raise More Red Flags",
+    "https://www.theepochtimes.com/troubled-us-banks-ties-to-china-raise-more-red-flags_5139675.html"
+  ],
+  [
+    "Clashes Erupt Outside Sydney Church Over \u2018Anti-Trans\u2019 Speech",
+    "https://www.theepochtimes.com/clashes-erupt-outside-church-over-anti-trans-speech_5140517.html"
+  ],
+  [
+    "Soaring Electricity Prices Push Up EV Charging Fees in Australia",
+    "https://www.theepochtimes.com/soaring-electricity-prices-push-up-ev-charging-fees-in-australia_5140651.html"
+  ],
+  [
+    "Federal Decision to Shut Down BC Salmon Farms Prompts Company Court Challenge",
+    "https://www.theepochtimes.com/federal-decision-to-shut-down-bc-salmon-farms-prompts-company-court-challenge_5140758.html"
+  ],
+  [
+    "Toronto Mayoral Race Shapes up as Former Police Chief, City Councillor Announce Bids",
+    "https://www.theepochtimes.com/toronto-mayoral-race-shapes-up-as-former-police-chief-city-councillor-announce-bids_5140734.html"
+  ],
+  [
+    "Swiss Suspend Bonus Payouts to Credit Suisse Staffers",
+    "https://www.theepochtimes.com/swiss-suspend-bonus-payouts-to-credit-suisse-staffers_5139886.html"
+  ],
+  [
+    "US Probes Reports of Steering Glitch on Newer Honda Civics",
+    "https://www.theepochtimes.com/us-probes-reports-of-steering-glitch-on-newer-honda-civics_5139113.html"
+  ],
+  [
+    "Microsoft Wins Dismissal of Gamers\u2019 Suit Over $69 Billion Activision Deal",
+    "https://www.theepochtimes.com/microsoft-wins-dismissal-of-gamers-suit-over-69-billion-activision-deal_5139677.html"
+  ],
+  [
+    "Gargantuan Seaweed \u2018Island\u2019 Crossing Atlantic, Headed Toward Florida\u2019s Gulf Coast",
+    "https://www.theepochtimes.com/gargantuan-seaweed-island-crossing-atlantic-headed-toward-floridas-gulf-coast_5134053.html"
+  ],
+  [
+    "Film Review: \u2018Gotham: The Fall and Rise of New York\u2019: Saving America\u2019s Biggest City From Itself",
+    "https://www.theepochtimes.com/film-review-gotham-the-fall-and-rise-of-new-york-saving-americas-biggest-city-from-itself_5139581.html"
+  ],
+  [
+    "Lessons From Epictetus: On Mastering the Will",
+    "https://www.theepochtimes.com/lessons-from-epictetus-on-mastering-the-will_5097631.html"
+  ],
+  [
+    "Rewind, Review, and Re-Rate: \u2018Cheaper by the Dozen\u2019",
+    "https://www.theepochtimes.com/rewind-review-and-re-rate-cheaper-by-the-dozen_5136987.html"
+  ],
+  [
+    "Book Review: \u2018An Immense World: How Animal Senses Reveal the Hidden Realms Around Us\u2019",
+    "https://www.theepochtimes.com/book-review-an-immense-world-how-animal-senses-reveal-the-hidden-realms-around-us_5135113.html"
+  ],
+  [
+    "New Show \u2018Mysteries of Life\u2019 Explores the Big Questions of Human Existence",
+    "https://www.theepochtimes.com/new-show-mysteries-of-life-explores-the-big-questions-of-human-existence_5138464.html"
+  ],
+  [
+    "Profiles in History: W.W. Keen: The President\u2019s Surgeon",
+    "https://www.theepochtimes.com/profiles-in-history-w-w-keen-the-presidents-surgeon_5136859.html"
+  ],
+  [
+    "Roast Loin of Pork Is a Family Favorite for Easter",
+    "https://www.theepochtimes.com/roast-loin-of-pork-is-a-family-favorite-for-easter_5137285.html"
+  ],
+  [
+    "Restaurant Wine Prices and Obscurity",
+    "https://www.theepochtimes.com/restaurant-wine-prices-and-obscurity_5137517.html"
+  ],
+  [
+    "Smoked Salmon in a Cozy Chowder Is Perfect on Cool, Rainy Days",
+    "https://www.theepochtimes.com/smoked-salmon-in-a-cozy-chowder-is-perfect-on-cool-rainy-days_5137269.html"
+  ],
+  [
+    "Eating This Vegetable Can Lower Blood Pressure and Prevent Cancer",
+    "https://www.theepochtimes.com/health/eating-this-vegetable-can-lower-blood-pressure-and-prevent-cancer_5126840.html"
+  ],
+  [
+    "This Delicious \u2018Kit Kat\u2019 Recipe Is Passover-Approved",
+    "https://www.theepochtimes.com/this-delicious-kit-kat-recipe-is-passover-approved_5136241.html"
+  ],
+  [
+    "Pucker Up With a Zesty Lemon Bar",
+    "https://www.theepochtimes.com/pucker-up-with-a-zesty-lemon-bar_5122250.html"
+  ],
+  [
+    "Hoffmeister: Viola Concerto in D | William Coleman",
+    "https://www.theepochtimes.com/hoffmeister-viola-concerto-in-d-william-coleman_5133157.html"
+  ],
+  [
+    "Gwyneth Paltrow\u2019s Trial Begins for Deer Valley Ski Crash",
+    "https://www.theepochtimes.com/gwyneth-paltrows-trial-begins-for-deer-valley-ski-crash_5140399.html"
+  ],
+  [
+    "How the Waning of Religious Belief Impacts America: Sam Sorbo",
+    "https://www.theepochtimes.com/how-the-waning-of-religious-belief-impacts-america-sam-sorbo_5136692.html"
+  ],
+  [
+    "\u2018Mister Scoutmaster\u2019 (1953): A Tribute to the Boy Scouts of America",
+    "https://www.theepochtimes.com/mister-scoutmaster-1953-a-tribute-to-the-boy-scouts-of-america_5139600.html"
+  ],
+  [
+    "Bad Boys | I Married Joan Season 1, Ep.8",
+    "https://www.theepochtimes.com/bad-boys-i-married-joan-season-1-ep-8_5129140.html"
+  ],
+  [
+    "Saving and Sharing Good Memories Is Easy, Healthy, and Fun",
+    "https://www.theepochtimes.com/saving-and-sharing-good-memories-is-easy-healthy-and-fun_5121990.html"
+  ],
+  [
+    "Mother Prays to Heal Relationship With Family",
+    "https://www.theepochtimes.com/mother-prays-to-heal-relationship-with-family_5118702.html"
+  ],
+  [
+    "Dear Next Generation: The Essence of True Love",
+    "https://www.theepochtimes.com/dear-next-generation-the-essence-of-true-love_5127893.html"
+  ],
+  [
+    "\u2018The Parenting Map\u2019: A Conversation With Dr. Shefali",
+    "https://www.theepochtimes.com/the-parenting-map-a-conversation-with-dr-shefali_5119699.html"
+  ],
+  [
+    "5 Reasons to Give Kids an Allowance",
+    "https://www.theepochtimes.com/5-reasons-to-give-kids-an-allowance_5137349.html"
+  ],
+  [
+    "Public Etiquette",
+    "https://www.theepochtimes.com/public-etiquette_5092977.html"
+  ]
+]

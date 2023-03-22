@@ -1,0 +1,1474 @@
+[
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Ex-president wants to be handcuffed for court appearance in Stormy Daniels case, sources say",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/22/trump-wants-to-be-handcuffed-for-court-appearance-in-stormy-daniels-case-sources-say"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Investment fund links to Atlanta police and \u2018Cop City\u2019 project revealed",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/22/investment-fund-links-atlanta-police-cop-city-project"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The US workers fighting back against union busting",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/22/starbucks-amazon-workers-union-drive-retaliation"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "A radical climate strategy emerges: charge big oil firms with homicide",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/environment/2023/mar/22/big-oil-companies-homicide-harvard-environmental-law-review"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Russia-Ukraine war live: Volodymyr Zekenskiy visits frontline near Bakhmut, reports say; Zaporizhzhia under attack",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/live/2023/mar/22/russia-ukraine-war-live-imf-and-ukraine-agree-15bn-funding-deal-us-rejects-chinas-impartiality-claim"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Decision on rate rise on knife-edge amid banking crisis fears",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/business/2023/mar/22/decision-on-interest-rate-rise-on-knife-edge-amid-banking-crisis-fears"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Republican hits poll low as Trump tightens grip on primary",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/22/desantis-polls-2024-trump-republican-nomination-latest"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "More Partygate evidence published as Boris Johnson prepares to face inquiry",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/politics/live/2023/mar/22/boris-johnson-partygate-inquiry-privileges-committee-brexit-rishi-sunak-uk-politics-latest-news"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Trudeau-Biden talks to tackle asylum seekers at migration hotspot",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/canada-asylum-seekers-biden-talks-immigration"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Pressures of extreme polygamy may be driving southern elephant seals to early death",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/science/2023/mar/22/sex-on-the-beach-pressures-of-extreme-polygamy-may-be-driving-southern-elephant-seals-to-early-death"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Funk legend Sly Stone announces memoir",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/music/2023/mar/22/funk-legend-sly-stone-announces-memoir-thank-you-falettinme-be-mice-elf-agin"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Its CEO eluded the spotlight. Now, a looming ban means he can\u2019t avoid it",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/technology/2023/mar/22/tiktok-ceo-shou-zi-chew-profile-congress-testimony"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Film highlights Germany\u2019s genocidal past in Namibia",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/most-are-unaware-film-highlights-germanys-genocidal-past-in-namibia"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Japan topple USA for third ever title",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/sport/2023/mar/21/japan-usa-world-baseball-classic-final-shohei-ohtani"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Bali marks new year with day of silence",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/im-happy-to-have-this-slow-day-bali-marks-new-year-with-day-of-silence"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Putin\u2019s charm offensive with Xi underlines who\u2019s boss",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/21/putins-two-day-charm-offensive-with-xi-underlines-whos-boss"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Putin says Moscow \u2018will respond\u2019 if UK supplies depleted uranium shells to Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/21/putin-says-russia-will-respond-if-uk-supplies-depleted-uranium-shells-to-ukraine"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "What we know on day 392 of the invasion",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/russia-ukraine-war-at-a-glance-what-we-know-on-day-392-of-the-invasion"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "She was one of Alabama\u2019s last abortion doctors. Then they came for everything she had",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/alabama-last-abortion-doctor-leah-torres"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Why public healthcare can be successful in the US",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/books/2023/mar/22/the-peoples-hospital-book-ricardo-nuila-interview-ben-taub-houston"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The deadly war against Iraq\u2019s journalists",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/global-development/2023/mar/22/deadly-war-against-iraq-journalists-killed"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Kishida and Xi tread starkly different paths on Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/a-tale-of-two-visits-kishida-and-xi-tread-starkly-different-paths-on-ukraine"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "\u2018The wellness industry is like the new form of church\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/tv-and-radio/2023/mar/22/celeste-barber-netflix-tv-series-wellmania-interview-wellness-industry"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Can California's most notorious prison become a rehab center? Ex-residents weigh in",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/21/san-quentin-transformation-rehab-center-thanh-tran-james-king-interview"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Ohtani closes in style as Japan edge USA for third title",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/sport/2023/mar/21/japan-usa-world-baseball-classic-final-shohei-ohtani"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Knicks Hall of Famer who played through pain for title dies at 80",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/sport/2023/mar/21/willis-reed-knicks-hall-of-famer-who-played-through-pain-for-title-dies-at-80"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The midfielders Liverpool should try to sign this summer",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/football/who-scored-blog/2023/mar/22/liverpool-midfielders-sign-summer-jurgen-klopp"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The Yankees are worth $6bn: why won\u2019t they pay for wifi?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/sport/2023/mar/21/the-yankees-are-worth-6bn-why-wont-they-pay-9-for-their-players-wifi"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Ream says Reyna is welcome in US squad after parents\u2019 Berhalter feud",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/football/2023/mar/21/ream-says-reyna-is-welcome-in-us-squad-after-parents-berhalter-feud"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "H\u00f8jbjerg seeks more clarity from Conte after Spurs outburst",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/football/2023/mar/21/spurs-hojbjerg-seeks-more-clarity-from-conte-after-outburst"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Will a $120m moonshot find success in America?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/sport/2023/mar/21/major-league-cricket-will-a-120m-moonshot-find-success-in-america"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Tennis legend announces: 'I'm cancer-free'",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/sport/2023/mar/20/martina-navratilova-reveals-she-is-cancer-free-after-throat-and-breast-diagnoses"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Trump keeps accusing Black prosecutors of being \u2018racist\u2019. Coincidence? I think not",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/commentisfree/2023/mar/22/trump-black-procesutors-racism"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Western democracy is weaker in this new cold war than it was in the first one",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/commentisfree/2023/mar/22/power-russia-china-west-putin-xi-"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Some white artists, like Elvis, exploit Black culture. So celebrate Bobby Caldwell, who enriched it",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/commentisfree/2023/mar/22/white-artists-elvis-exploit-black-culture-celebrate-bobby-caldwell"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The truth about Gwyneth Paltrow\u2019s diet? It is as strange as you\u2019d expect",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/commentisfree/2023/mar/21/the-truth-about-gwyneth-paltrows-diet-it-is-as-strange-as-youd-expect"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Until bankers have more to lose themselves, collapses like SVB and Credit Suisse will keep happening",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/commentisfree/2023/mar/21/bankers-collapse-svb-credit-suisse"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Now the tide of money into the tech sector is ebbing, we can see who has no bathers on",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/commentisfree/2023/mar/22/money-technology-sector-interest-rates-startups-svb"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "One minute, I was in the sauna \u2013 the next, I was in a steamy panic",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/commentisfree/2023/mar/22/one-minute-i-was-in-the-sauna-the-next-i-was-in-a-steamy-panic"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "I learned a lot from making kimchi \u2013 about fermented shrimp, and about myself",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/commentisfree/2023/mar/21/i-learned-a-lot-from-making-kimchi-about-fermented-shrimp-and-about-myself"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Number of city dwellers lacking safe water to double by 2050",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/environment/2023/mar/22/number-city-dwellers-lacking-access-safe-water-double-2050"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "What could the \u2018carbon bomb\u2019 mean for the environment?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/science/audio/2023/mar/21/willow-project-what-could-the-carbon-bomb-mean-for-the-environment-podcast"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Britain\u2019s biggest police force is \u2018racist, sexist, and homophobic\u2019 \u2013 can it change?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/news/audio/2023/mar/22/britains-biggest-police-force-is-racist-sexist-and-homophobic-can-it-change-podcast"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "More from the series",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/news/series/todayinfocus"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "\u2018His legal problems are based on him being an idiot\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/culture/2023/mar/21/late-night-recap-jimmy-kimmel-donald-trump"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Even diehard fans will be glad the end is nigh",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/tv-and-radio/2023/mar/22/succession-season-four-review-even-diehard-fans-will-be-glad-the-end-is-nigh"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Gunfights, dying FBI agents \u2026 and zero analysis",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/tv-and-radio/2023/mar/22/waco-american-apocalypse-review-netflix"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Nerve-jangling noir unpicks middle-class guilt of Pinochet era",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/film/2023/mar/22/1976-review-pinochet-manuela-martelli"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Zach Braff\u2019s tale of self-healing is excruciatingly ersatz",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/film/2023/mar/22/a-good-person-review-zach-braff-florence-pugh"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Poverty, By America by Matthew Desmond review \u2013 how the rich keep the poor down",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/books/2023/mar/22/poverty-by-america-by-matthew-desmond-review-how-the-rich-keep-the-poor-down"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The shocking true story of Bambi",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/books/2023/mar/21/gunned-down-burned-nazis-bambi-walt-disney-holocaust-allegory"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Unsettling rural noir is a Euro-arthouse twist on Straw Dogs",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/film/2023/mar/22/the-beasts-review-unsettling-rural-noir-is-a-euro-arthouse-twist-on-straw-dogs"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Roadside Americana",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/culture/2023/mar/21/roadside-americana-what-currently-brings-me-joy"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Singer \u2018didn\u2019t want to live any more\u2019 after deaths of friends Jamal Edwards and Shane Warne",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/music/2023/mar/21/ed-sheeran-didnt-want-to-live-jamal-edwards-shane-warne"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "My wife told me all about her sexual past \u2013 and I am having mini panic attacks",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/lifeandstyle/2023/mar/22/wife-told-me-sexual-past-mini-panic-attacks"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "What does the most overused word of our era actually mean?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/lifeandstyle/2023/mar/22/vibes-definition-slang-language-meaning"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Why did I avoid the camera so much when I was young?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/lifeandstyle/2023/mar/22/my-biggest-regret-why-did-i-avoid-the-camera-so-much-when-i-was-young"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Why the obsession with perfect kitchens has to stop",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/lifeandstyle/2023/mar/21/pantry-porn-why-the-obsession-with-perfect-kitchens-has-to-stop"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "\u2018I could no longer cosplay the grownup to my little cousin\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/lifeandstyle/2023/mar/22/a-moment-that-changed-me-i-could-no-longer-cosplay-the-grownup-to-my-little-cousin"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The orgasm gap - and how to close it",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/lifeandstyle/2023/mar/21/the-orgasm-gap-and-how-to-close-it-dont-equate-sex-and-penetration"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Residents of Louisiana\u2019s \u2018Cancer Alley\u2019 announce lawsuit against local officials",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/21/louisiana-st-james-parish-cancer-alley-lawsuit"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Network lawyers accused of \u2018coercive\u2019 coaching",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/media/2023/mar/21/fox-news-producer-dominion-case-misleading-testimony-abby-grossberg"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "One person killed and another injured in \u2018remarkable\u2019 storm",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/21/california-storms-atmospheric-rivers-spring"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Hospital video footage shows Irvo Otieno was held down before his death",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/21/hospital-video-footage-shows-irvo-otieno-was-held-down-before-his-death"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Trial begins as actor accused of \u2018out of control\u2019 ski crash",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/film/2023/mar/21/gwyneth-paltrow-ski-accident-trial-utah"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Deadly Candida auris infections spreading across US at \u2018worrisome\u2019 rate",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/society/2023/mar/21/candida-auris-symptoms-fungal-infection-skin"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Google\u2019s Bard chatbot launches in US and UK",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/technology/2023/mar/21/googles-bard-chatbot-launches-in-us-and-uk"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Biden to designate national monuments in Nevada and Texas",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/21/national-monuments-nevada-texas-hawaii-conservation"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Half a million kids out of class as school workers strike for better pay",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/21/los-angeles-schools-shut-down-strike"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Concern over violence as Palestinians prepare for Ramadan",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/concern-over-violence-as-palestinians-prepare-for-ramadan-in-jerusalem"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Government launches campaign to help teens recover from break-ups",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/love-better-nz-new-zealand-government-campaign-teens-teenagers-recover-from-breakups"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Beijing\u2019s population falls for first time since 2003 as country battles low birthrate",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/beijings-population-falls-for-first-time-since-2003-as-china-battles-low-birthrate"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "K-pop star Chaeyoung apologises for wearing swastika logo",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/music/2023/mar/22/k-pop-star-chaeyoung-apologises-for-wearing-swastika-logo-twice"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Protests and strikes spread across France over pensions reform",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/21/protests-and-strikes-france--pensions-reform-emmanuel-macron"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Argentinian Luis Caffarelli wins Abel prize",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/science/2023/mar/22/the-messi-of-maths-argentinian-luis-caffarelli-wins-abel-prize"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Switzerland\u2019s national pride dealt heavy blow by the merger of its banking titans",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/22/switzerlands-national-pride-dealt-heavy-blow-by-the-merger-of-its-banking-titans"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "UK inflation rate in surprise rise to 10.4% as salad crisis pushes up prices",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/business/2023/mar/22/uk-inflation-rate-rises-price-rises-interest-rates"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "President heads to Latin America after partners switch ties to China",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/21/taiwan-president-to-visit-latin-america-us-stops"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The cost of diabetes in the global south",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/global-development/2023/mar/22/i-skip-meals-to-make-insulin-last-cost-of-diabetes-in-global-south"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "The Fed shapes the US economy. Its New York dining staff struggles to afford groceries",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/21/federal-reserve-new-york-union-sodexo-food-service"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "These tastemakers want Black food to be more than a side dish",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/business/2023/mar/21/buying-black-chefs-restaurateurs"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "How H5N1 is killing thousands of sea lions in Peru",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/environment/2023/mar/21/bird-flu-peru-sea-lions-suffer-death-beach-aoe-h5n1"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Designing Elton John\u2019s final tour",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/music/gallery/2023/mar/22/designing-elton-john-final-tour-farewell-yellow-brick-road-in-pictures"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "My life with Jewish retirees \u2013 in pictures",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/artanddesign/gallery/2023/mar/22/i-became-their-surrogate-granddaughter-my-life-with-jewish-retirees-in-pictures"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Fighting with fire: Bali\u2019s new year\u2019s eve celebrations",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/gallery/2023/mar/22/fighting-with-fire-balis-new-years-eve-celebrations-in-pictures"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "\u2018Anger is growing\u2019: protests and strikes spread across France over pensions reform",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/21/protests-and-strikes-france--pensions-reform-emmanuel-macron"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Trump wants to be handcuffed for court appearance in Stormy Daniels case, sources say",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/22/trump-wants-to-be-handcuffed-for-court-appearance-in-stormy-daniels-case-sources-say"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "DeSantis hits Republican poll low as Trump tightens grip on primary",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/22/desantis-polls-2024-trump-republican-nomination-latest"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Putin says Russia \u2018will respond\u2019 if UK supplies depleted uranium shells to Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/21/putin-says-russia-will-respond-if-uk-supplies-depleted-uranium-shells-to-ukraine"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Sailing crew rescued after giant whale sank 44ft boat in Pacific Ocean",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/us-news/2023/mar/21/sailing-crew-rescue-giant-whale-pacific-ocean"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "\u2018I became their surrogate granddaughter!\u2019: my life with Jewish retirees \u2013 in pictures",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/artanddesign/gallery/2023/mar/22/i-became-their-surrogate-granddaughter-my-life-with-jewish-retirees-in-pictures"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "language": "en",
+    "text": "Putin welcomes China\u2019s controversial proposals for peace in Ukraine",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theguardian.com/world/2023/mar/21/putin-welcomes-chinas-controversial-proposals-for-peace-in-ukraine"
+  }
+]

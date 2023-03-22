@@ -1,0 +1,370 @@
+[
+  [
+    "Ex-president wants to be handcuffed for court appearance in Stormy Daniels case, sources say",
+    "https://www.theguardian.com/us-news/2023/mar/22/trump-wants-to-be-handcuffed-for-court-appearance-in-stormy-daniels-case-sources-say"
+  ],
+  [
+    "Investment fund links to Atlanta police and \u2018Cop City\u2019 project revealed",
+    "https://www.theguardian.com/us-news/2023/mar/22/investment-fund-links-atlanta-police-cop-city-project"
+  ],
+  [
+    "The US workers fighting back against union busting",
+    "https://www.theguardian.com/us-news/2023/mar/22/starbucks-amazon-workers-union-drive-retaliation"
+  ],
+  [
+    "A radical climate strategy emerges: charge big oil firms with homicide",
+    "https://www.theguardian.com/environment/2023/mar/22/big-oil-companies-homicide-harvard-environmental-law-review"
+  ],
+  [
+    "Russia-Ukraine war live: Volodymyr Zekenskiy visits frontline near Bakhmut, reports say; Zaporizhzhia under attack",
+    "https://www.theguardian.com/world/live/2023/mar/22/russia-ukraine-war-live-imf-and-ukraine-agree-15bn-funding-deal-us-rejects-chinas-impartiality-claim"
+  ],
+  [
+    "Decision on rate rise on knife-edge amid banking crisis fears",
+    "https://www.theguardian.com/business/2023/mar/22/decision-on-interest-rate-rise-on-knife-edge-amid-banking-crisis-fears"
+  ],
+  [
+    "Republican hits poll low as Trump tightens grip on primary",
+    "https://www.theguardian.com/us-news/2023/mar/22/desantis-polls-2024-trump-republican-nomination-latest"
+  ],
+  [
+    "More Partygate evidence published as Boris Johnson prepares to face inquiry",
+    "https://www.theguardian.com/politics/live/2023/mar/22/boris-johnson-partygate-inquiry-privileges-committee-brexit-rishi-sunak-uk-politics-latest-news"
+  ],
+  [
+    "Trudeau-Biden talks to tackle asylum seekers at migration hotspot",
+    "https://www.theguardian.com/world/2023/mar/22/canada-asylum-seekers-biden-talks-immigration"
+  ],
+  [
+    "Pressures of extreme polygamy may be driving southern elephant seals to early death",
+    "https://www.theguardian.com/science/2023/mar/22/sex-on-the-beach-pressures-of-extreme-polygamy-may-be-driving-southern-elephant-seals-to-early-death"
+  ],
+  [
+    "Funk legend Sly Stone announces memoir",
+    "https://www.theguardian.com/music/2023/mar/22/funk-legend-sly-stone-announces-memoir-thank-you-falettinme-be-mice-elf-agin"
+  ],
+  [
+    "Its CEO eluded the spotlight. Now, a looming ban means he can\u2019t avoid it",
+    "https://www.theguardian.com/technology/2023/mar/22/tiktok-ceo-shou-zi-chew-profile-congress-testimony"
+  ],
+  [
+    "Film highlights Germany\u2019s genocidal past in Namibia",
+    "https://www.theguardian.com/world/2023/mar/22/most-are-unaware-film-highlights-germanys-genocidal-past-in-namibia"
+  ],
+  [
+    "Japan topple USA for third ever title",
+    "https://www.theguardian.com/sport/2023/mar/21/japan-usa-world-baseball-classic-final-shohei-ohtani"
+  ],
+  [
+    "Bali marks new year with day of silence",
+    "https://www.theguardian.com/world/2023/mar/22/im-happy-to-have-this-slow-day-bali-marks-new-year-with-day-of-silence"
+  ],
+  [
+    "Putin\u2019s charm offensive with Xi underlines who\u2019s boss",
+    "https://www.theguardian.com/world/2023/mar/21/putins-two-day-charm-offensive-with-xi-underlines-whos-boss"
+  ],
+  [
+    "Putin says Moscow \u2018will respond\u2019 if UK supplies depleted uranium shells to Ukraine",
+    "https://www.theguardian.com/world/2023/mar/21/putin-says-russia-will-respond-if-uk-supplies-depleted-uranium-shells-to-ukraine"
+  ],
+  [
+    "What we know on day 392 of the invasion",
+    "https://www.theguardian.com/world/2023/mar/22/russia-ukraine-war-at-a-glance-what-we-know-on-day-392-of-the-invasion"
+  ],
+  [
+    "She was one of Alabama\u2019s last abortion doctors. Then they came for everything she had",
+    "https://www.theguardian.com/world/2023/mar/22/alabama-last-abortion-doctor-leah-torres"
+  ],
+  [
+    "Why public healthcare can be successful in the US",
+    "https://www.theguardian.com/books/2023/mar/22/the-peoples-hospital-book-ricardo-nuila-interview-ben-taub-houston"
+  ],
+  [
+    "The deadly war against Iraq\u2019s journalists",
+    "https://www.theguardian.com/global-development/2023/mar/22/deadly-war-against-iraq-journalists-killed"
+  ],
+  [
+    "Kishida and Xi tread starkly different paths on Ukraine",
+    "https://www.theguardian.com/world/2023/mar/22/a-tale-of-two-visits-kishida-and-xi-tread-starkly-different-paths-on-ukraine"
+  ],
+  [
+    "\u2018The wellness industry is like the new form of church\u2019",
+    "https://www.theguardian.com/tv-and-radio/2023/mar/22/celeste-barber-netflix-tv-series-wellmania-interview-wellness-industry"
+  ],
+  [
+    "Can California's most notorious prison become a rehab center? Ex-residents weigh in",
+    "https://www.theguardian.com/us-news/2023/mar/21/san-quentin-transformation-rehab-center-thanh-tran-james-king-interview"
+  ],
+  [
+    "Ohtani closes in style as Japan edge USA for third title",
+    "https://www.theguardian.com/sport/2023/mar/21/japan-usa-world-baseball-classic-final-shohei-ohtani"
+  ],
+  [
+    "Knicks Hall of Famer who played through pain for title dies at 80",
+    "https://www.theguardian.com/sport/2023/mar/21/willis-reed-knicks-hall-of-famer-who-played-through-pain-for-title-dies-at-80"
+  ],
+  [
+    "The midfielders Liverpool should try to sign this summer",
+    "https://www.theguardian.com/football/who-scored-blog/2023/mar/22/liverpool-midfielders-sign-summer-jurgen-klopp"
+  ],
+  [
+    "The Yankees are worth $6bn: why won\u2019t they pay for wifi?",
+    "https://www.theguardian.com/sport/2023/mar/21/the-yankees-are-worth-6bn-why-wont-they-pay-9-for-their-players-wifi"
+  ],
+  [
+    "Ream says Reyna is welcome in US squad after parents\u2019 Berhalter feud",
+    "https://www.theguardian.com/football/2023/mar/21/ream-says-reyna-is-welcome-in-us-squad-after-parents-berhalter-feud"
+  ],
+  [
+    "H\u00f8jbjerg seeks more clarity from Conte after Spurs outburst",
+    "https://www.theguardian.com/football/2023/mar/21/spurs-hojbjerg-seeks-more-clarity-from-conte-after-outburst"
+  ],
+  [
+    "Will a $120m moonshot find success in America?",
+    "https://www.theguardian.com/sport/2023/mar/21/major-league-cricket-will-a-120m-moonshot-find-success-in-america"
+  ],
+  [
+    "Tennis legend announces: 'I'm cancer-free'",
+    "https://www.theguardian.com/sport/2023/mar/20/martina-navratilova-reveals-she-is-cancer-free-after-throat-and-breast-diagnoses"
+  ],
+  [
+    "Trump keeps accusing Black prosecutors of being \u2018racist\u2019. Coincidence? I think not",
+    "https://www.theguardian.com/commentisfree/2023/mar/22/trump-black-procesutors-racism"
+  ],
+  [
+    "Western democracy is weaker in this new cold war than it was in the first one",
+    "https://www.theguardian.com/commentisfree/2023/mar/22/power-russia-china-west-putin-xi-"
+  ],
+  [
+    "Some white artists, like Elvis, exploit Black culture. So celebrate Bobby Caldwell, who enriched it",
+    "https://www.theguardian.com/commentisfree/2023/mar/22/white-artists-elvis-exploit-black-culture-celebrate-bobby-caldwell"
+  ],
+  [
+    "The truth about Gwyneth Paltrow\u2019s diet? It is as strange as you\u2019d expect",
+    "https://www.theguardian.com/commentisfree/2023/mar/21/the-truth-about-gwyneth-paltrows-diet-it-is-as-strange-as-youd-expect"
+  ],
+  [
+    "Until bankers have more to lose themselves, collapses like SVB and Credit Suisse will keep happening",
+    "https://www.theguardian.com/commentisfree/2023/mar/21/bankers-collapse-svb-credit-suisse"
+  ],
+  [
+    "Now the tide of money into the tech sector is ebbing, we can see who has no bathers on",
+    "https://www.theguardian.com/commentisfree/2023/mar/22/money-technology-sector-interest-rates-startups-svb"
+  ],
+  [
+    "One minute, I was in the sauna \u2013 the next, I was in a steamy panic",
+    "https://www.theguardian.com/commentisfree/2023/mar/22/one-minute-i-was-in-the-sauna-the-next-i-was-in-a-steamy-panic"
+  ],
+  [
+    "I learned a lot from making kimchi \u2013 about fermented shrimp, and about myself",
+    "https://www.theguardian.com/commentisfree/2023/mar/21/i-learned-a-lot-from-making-kimchi-about-fermented-shrimp-and-about-myself"
+  ],
+  [
+    "Number of city dwellers lacking safe water to double by 2050",
+    "https://www.theguardian.com/environment/2023/mar/22/number-city-dwellers-lacking-access-safe-water-double-2050"
+  ],
+  [
+    "What could the \u2018carbon bomb\u2019 mean for the environment?",
+    "https://www.theguardian.com/science/audio/2023/mar/21/willow-project-what-could-the-carbon-bomb-mean-for-the-environment-podcast"
+  ],
+  [
+    "Britain\u2019s biggest police force is \u2018racist, sexist, and homophobic\u2019 \u2013 can it change?",
+    "https://www.theguardian.com/news/audio/2023/mar/22/britains-biggest-police-force-is-racist-sexist-and-homophobic-can-it-change-podcast"
+  ],
+  [
+    "More from the series",
+    "https://www.theguardian.com/news/series/todayinfocus"
+  ],
+  [
+    "\u2018His legal problems are based on him being an idiot\u2019",
+    "https://www.theguardian.com/culture/2023/mar/21/late-night-recap-jimmy-kimmel-donald-trump"
+  ],
+  [
+    "Even diehard fans will be glad the end is nigh",
+    "https://www.theguardian.com/tv-and-radio/2023/mar/22/succession-season-four-review-even-diehard-fans-will-be-glad-the-end-is-nigh"
+  ],
+  [
+    "Gunfights, dying FBI agents \u2026 and zero analysis",
+    "https://www.theguardian.com/tv-and-radio/2023/mar/22/waco-american-apocalypse-review-netflix"
+  ],
+  [
+    "Nerve-jangling noir unpicks middle-class guilt of Pinochet era",
+    "https://www.theguardian.com/film/2023/mar/22/1976-review-pinochet-manuela-martelli"
+  ],
+  [
+    "Zach Braff\u2019s tale of self-healing is excruciatingly ersatz",
+    "https://www.theguardian.com/film/2023/mar/22/a-good-person-review-zach-braff-florence-pugh"
+  ],
+  [
+    "Poverty, By America by Matthew Desmond review \u2013 how the rich keep the poor down",
+    "https://www.theguardian.com/books/2023/mar/22/poverty-by-america-by-matthew-desmond-review-how-the-rich-keep-the-poor-down"
+  ],
+  [
+    "The shocking true story of Bambi",
+    "https://www.theguardian.com/books/2023/mar/21/gunned-down-burned-nazis-bambi-walt-disney-holocaust-allegory"
+  ],
+  [
+    "Unsettling rural noir is a Euro-arthouse twist on Straw Dogs",
+    "https://www.theguardian.com/film/2023/mar/22/the-beasts-review-unsettling-rural-noir-is-a-euro-arthouse-twist-on-straw-dogs"
+  ],
+  [
+    "Roadside Americana",
+    "https://www.theguardian.com/culture/2023/mar/21/roadside-americana-what-currently-brings-me-joy"
+  ],
+  [
+    "Singer \u2018didn\u2019t want to live any more\u2019 after deaths of friends Jamal Edwards and Shane Warne",
+    "https://www.theguardian.com/music/2023/mar/21/ed-sheeran-didnt-want-to-live-jamal-edwards-shane-warne"
+  ],
+  [
+    "My wife told me all about her sexual past \u2013 and I am having mini panic attacks",
+    "https://www.theguardian.com/lifeandstyle/2023/mar/22/wife-told-me-sexual-past-mini-panic-attacks"
+  ],
+  [
+    "What does the most overused word of our era actually mean?",
+    "https://www.theguardian.com/lifeandstyle/2023/mar/22/vibes-definition-slang-language-meaning"
+  ],
+  [
+    "Why did I avoid the camera so much when I was young?",
+    "https://www.theguardian.com/lifeandstyle/2023/mar/22/my-biggest-regret-why-did-i-avoid-the-camera-so-much-when-i-was-young"
+  ],
+  [
+    "Why the obsession with perfect kitchens has to stop",
+    "https://www.theguardian.com/lifeandstyle/2023/mar/21/pantry-porn-why-the-obsession-with-perfect-kitchens-has-to-stop"
+  ],
+  [
+    "\u2018I could no longer cosplay the grownup to my little cousin\u2019",
+    "https://www.theguardian.com/lifeandstyle/2023/mar/22/a-moment-that-changed-me-i-could-no-longer-cosplay-the-grownup-to-my-little-cousin"
+  ],
+  [
+    "The orgasm gap - and how to close it",
+    "https://www.theguardian.com/lifeandstyle/2023/mar/21/the-orgasm-gap-and-how-to-close-it-dont-equate-sex-and-penetration"
+  ],
+  [
+    "Residents of Louisiana\u2019s \u2018Cancer Alley\u2019 announce lawsuit against local officials",
+    "https://www.theguardian.com/us-news/2023/mar/21/louisiana-st-james-parish-cancer-alley-lawsuit"
+  ],
+  [
+    "Network lawyers accused of \u2018coercive\u2019 coaching",
+    "https://www.theguardian.com/media/2023/mar/21/fox-news-producer-dominion-case-misleading-testimony-abby-grossberg"
+  ],
+  [
+    "One person killed and another injured in \u2018remarkable\u2019 storm",
+    "https://www.theguardian.com/us-news/2023/mar/21/california-storms-atmospheric-rivers-spring"
+  ],
+  [
+    "Hospital video footage shows Irvo Otieno was held down before his death",
+    "https://www.theguardian.com/us-news/2023/mar/21/hospital-video-footage-shows-irvo-otieno-was-held-down-before-his-death"
+  ],
+  [
+    "Trial begins as actor accused of \u2018out of control\u2019 ski crash",
+    "https://www.theguardian.com/film/2023/mar/21/gwyneth-paltrow-ski-accident-trial-utah"
+  ],
+  [
+    "Deadly Candida auris infections spreading across US at \u2018worrisome\u2019 rate",
+    "https://www.theguardian.com/society/2023/mar/21/candida-auris-symptoms-fungal-infection-skin"
+  ],
+  [
+    "Google\u2019s Bard chatbot launches in US and UK",
+    "https://www.theguardian.com/technology/2023/mar/21/googles-bard-chatbot-launches-in-us-and-uk"
+  ],
+  [
+    "Biden to designate national monuments in Nevada and Texas",
+    "https://www.theguardian.com/us-news/2023/mar/21/national-monuments-nevada-texas-hawaii-conservation"
+  ],
+  [
+    "Half a million kids out of class as school workers strike for better pay",
+    "https://www.theguardian.com/us-news/2023/mar/21/los-angeles-schools-shut-down-strike"
+  ],
+  [
+    "Concern over violence as Palestinians prepare for Ramadan",
+    "https://www.theguardian.com/world/2023/mar/22/concern-over-violence-as-palestinians-prepare-for-ramadan-in-jerusalem"
+  ],
+  [
+    "Government launches campaign to help teens recover from break-ups",
+    "https://www.theguardian.com/world/2023/mar/22/love-better-nz-new-zealand-government-campaign-teens-teenagers-recover-from-breakups"
+  ],
+  [
+    "Beijing\u2019s population falls for first time since 2003 as country battles low birthrate",
+    "https://www.theguardian.com/world/2023/mar/22/beijings-population-falls-for-first-time-since-2003-as-china-battles-low-birthrate"
+  ],
+  [
+    "K-pop star Chaeyoung apologises for wearing swastika logo",
+    "https://www.theguardian.com/music/2023/mar/22/k-pop-star-chaeyoung-apologises-for-wearing-swastika-logo-twice"
+  ],
+  [
+    "Protests and strikes spread across France over pensions reform",
+    "https://www.theguardian.com/world/2023/mar/21/protests-and-strikes-france--pensions-reform-emmanuel-macron"
+  ],
+  [
+    "Argentinian Luis Caffarelli wins Abel prize",
+    "https://www.theguardian.com/science/2023/mar/22/the-messi-of-maths-argentinian-luis-caffarelli-wins-abel-prize"
+  ],
+  [
+    "Switzerland\u2019s national pride dealt heavy blow by the merger of its banking titans",
+    "https://www.theguardian.com/world/2023/mar/22/switzerlands-national-pride-dealt-heavy-blow-by-the-merger-of-its-banking-titans"
+  ],
+  [
+    "UK inflation rate in surprise rise to 10.4% as salad crisis pushes up prices",
+    "https://www.theguardian.com/business/2023/mar/22/uk-inflation-rate-rises-price-rises-interest-rates"
+  ],
+  [
+    "President heads to Latin America after partners switch ties to China",
+    "https://www.theguardian.com/world/2023/mar/21/taiwan-president-to-visit-latin-america-us-stops"
+  ],
+  [
+    "The cost of diabetes in the global south",
+    "https://www.theguardian.com/global-development/2023/mar/22/i-skip-meals-to-make-insulin-last-cost-of-diabetes-in-global-south"
+  ],
+  [
+    "The Fed shapes the US economy. Its New York dining staff struggles to afford groceries",
+    "https://www.theguardian.com/us-news/2023/mar/21/federal-reserve-new-york-union-sodexo-food-service"
+  ],
+  [
+    "These tastemakers want Black food to be more than a side dish",
+    "https://www.theguardian.com/business/2023/mar/21/buying-black-chefs-restaurateurs"
+  ],
+  [
+    "How H5N1 is killing thousands of sea lions in Peru",
+    "https://www.theguardian.com/environment/2023/mar/21/bird-flu-peru-sea-lions-suffer-death-beach-aoe-h5n1"
+  ],
+  [
+    "Designing Elton John\u2019s final tour",
+    "https://www.theguardian.com/music/gallery/2023/mar/22/designing-elton-john-final-tour-farewell-yellow-brick-road-in-pictures"
+  ],
+  [
+    "My life with Jewish retirees \u2013 in pictures",
+    "https://www.theguardian.com/artanddesign/gallery/2023/mar/22/i-became-their-surrogate-granddaughter-my-life-with-jewish-retirees-in-pictures"
+  ],
+  [
+    "Fighting with fire: Bali\u2019s new year\u2019s eve celebrations",
+    "https://www.theguardian.com/world/gallery/2023/mar/22/fighting-with-fire-balis-new-years-eve-celebrations-in-pictures"
+  ],
+  [
+    "\u2018Anger is growing\u2019: protests and strikes spread across France over pensions reform",
+    "https://www.theguardian.com/world/2023/mar/21/protests-and-strikes-france--pensions-reform-emmanuel-macron"
+  ],
+  [
+    "Trump wants to be handcuffed for court appearance in Stormy Daniels case, sources say",
+    "https://www.theguardian.com/us-news/2023/mar/22/trump-wants-to-be-handcuffed-for-court-appearance-in-stormy-daniels-case-sources-say"
+  ],
+  [
+    "DeSantis hits Republican poll low as Trump tightens grip on primary",
+    "https://www.theguardian.com/us-news/2023/mar/22/desantis-polls-2024-trump-republican-nomination-latest"
+  ],
+  [
+    "Putin says Russia \u2018will respond\u2019 if UK supplies depleted uranium shells to Ukraine",
+    "https://www.theguardian.com/world/2023/mar/21/putin-says-russia-will-respond-if-uk-supplies-depleted-uranium-shells-to-ukraine"
+  ],
+  [
+    "Sailing crew rescued after giant whale sank 44ft boat in Pacific Ocean",
+    "https://www.theguardian.com/us-news/2023/mar/21/sailing-crew-rescue-giant-whale-pacific-ocean"
+  ],
+  [
+    "\u2018I became their surrogate granddaughter!\u2019: my life with Jewish retirees \u2013 in pictures",
+    "https://www.theguardian.com/artanddesign/gallery/2023/mar/22/i-became-their-surrogate-granddaughter-my-life-with-jewish-retirees-in-pictures"
+  ],
+  [
+    "Putin welcomes China\u2019s controversial proposals for peace in Ukraine",
+    "https://www.theguardian.com/world/2023/mar/21/putin-welcomes-chinas-controversial-proposals-for-peace-in-ukraine"
+  ]
+]

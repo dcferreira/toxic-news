@@ -1,0 +1,1554 @@
+[
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "How Do They Defy Death? Secrets of Cancer Survivors Unveiled",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/health/how-do-they-defy-death-secrets-of-cancer-survivors-unveiled_5118045.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Conflicts of Interest: Pfizer\u2019s Secret Collusion With the NIH",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/health/conflicts-of-interest-pfizers-secret-collusion-with-the-nih_5138161.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Depression: 4 Major Symptoms, Treatment, and Natural Therapies (Infographics)",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/health/depression-4-major-symptoms-treatment-and-natural-therapies-infographics_5085021.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Texas AG Ken Paxton\u2019s Legal Opinion Could Help Clear Way For School Choice",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/texas-ag-ken-paxtons-legal-opinion-could-help-clear-way-for-school-choice_5138691.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Los Angeles Public Schools Closed as Unions Launch 3-Day Strike",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/los-angeles-public-schools-closed-as-unions-launch-three-day-strike_5140524.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Topple or Kneel to the Patriarchy?",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/topple-or-kneel-to-the-patriarchy_5137105.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "DOJ Asks SCOTUS to Quickly Restore Ban on Guns in Domestic Violence Cases",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/doj-asks-scotus-to-quickly-restore-ban-on-guns-in-domestic-violence-cases_5140054.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "The Boot of the State\u2014Mark Chenoweth on Suing Federal Agencies and Ensuring the Separation of Powers",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/the-boot-of-the-state-mark-chenoweth-on-suing-federal-agencies-and-ensuring-the-separation-of-powers_5126951.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Hillary Clinton Memes Test Limits of First Amendment in Online Speech Trial",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/hillary-clinton-memes-test-limits-of-first-amendment-in-online-speech-trial_5138669.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "China Not \u2018Impartial\u2019 Actor in Russia-Ukraine War: White House",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/china-not-impartial-actor-in-russia-ukraine-war-white-house_5140110.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Biden Signs Bill to Declassify COVID Origins Intelligence on Wuhan Lab",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/biden-signs-bill-to-declassify-covid-origin-intelligence-on-wuhan-lab_5137128.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Memories of Pre-Dawn Raids at Gunpoint Haunt Pro-Life Activists, Friends, and Family",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/memories-of-pre-dawn-raids-at-gunpoint-haunt-pro-life-activists-friends-and-family_5115167.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "\u2018The Country Wants a Change\u2019: DeSantis Details How He Can Beat Biden in 2024",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/the-country-wants-a-change-desantis-details-how-he-can-beat-biden-in-2024_5140887.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "GOP Panel Chair Demands Action to Fix \u2018Dire\u2019 Border Situation",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/gop-panel-chair-demands-action-to-fix-dire-border-situation_5137224.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Senate Votes to Begin Debate on Bill Repealing Iraq War Authorizations",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/senate-votes-to-begin-debate-on-bill-repealing-iraq-war-authorizations_5140038.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "CDC Bought Phone Data to Monitor Americans\u2019 Compliance With Lockdowns, Contracts Show",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/cdc-bought-phone-data-to-monitor-americans-compliance-with-lockdowns-contracts-show_5118737.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "COVID-19 Vaccines Can Cause \u2018Permanent Disabilities\u2019: German Health Minister",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/covid-19-vaccines-can-cause-permanent-disabilities-says-german-health-minister_5129027.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Texas Judge Grants Injunction Against Biden\u2019s \u2018Waters of the United States\u2019 Rule in Texas, Idaho",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/texas-judge-grants-injunction-against-bidens-waters-of-the-united-states-rule-in-texas-idaho_5139827.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "McCarthy Urges Senate to Form China Committee",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/mccarthy-urges-senate-to-form-china-committee_5140240.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Bipartisan Group Renews Push to Ban Lawmakers From Owning and Trading Stocks",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/bipartisan-group-renews-push-to-ban-lawmakers-from-owning-and-trading-stocks_5140575.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Physician Assistant Fired for Reporting COVID-19 Vaccine Adverse Events to VAERS",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/physician-assistant-fired-for-reporting-covid-vaccine-adverse-events-to-vaers_5130783.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "EXCLUSIVE: ATF Gains Financial Information on Potential Gun Buyers for Warrantless Tracking, Documents Show",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/atf-gains-financial-information-on-potential-gun-buyers-for-warrantless-tracking-documents-show_5119085.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Southern California Hit by More Rainfall Amid Growing Damages From Flooding",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/southern-california-hit-by-more-rainfall-amid-growing-damages-from-storm-flooding_5140626.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Biden Signs Bill to Declassify Virus Origin",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/biden-signs-bill-to-declassify-virus-origin_5140107.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Capitol Report: Biden Approves Releasing COVID Intel, Blocks DC Crime Reform",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/capitol-report-biden-approves-releasing-covid-intel-blocks-dc-crime-reform_5139921.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "California Bill Would Protect Doctors Who Mail Abortion Pills to Out-of-State Patients",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/california-bill-would-protect-doctors-who-mail-abortion-pills-to-out-of-state-patients_5140370.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "UN Cultural Agency Under Fire Over CCP Atrocities",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/un-cultural-agency-under-fire-over-ccp-atrocities_5139199.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Another Former Trans Teen to Sue Medical Provider Over Double Mastectomy at 13",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/another-former-trans-teen-to-sue-medical-provider-over-double-mastectomy-at-13_5140279.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Vermont League Kicks Out School\u2019s Sports Teams Over Refusal to Pit Girls Against Transgender Basketballer",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/vermont-league-kicks-out-schools-sports-teams-over-refusal-to-pit-girls-against-transgender-basketballer_5126142.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Los Angeles DA Gasc\u00f3n\u2019s Office Provides Free Shuttle for Staff Amid Rising Crime",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/los-angeles-da-gascons-office-provides-free-shuttle-for-staff-amid-rising-crime_5140231.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "House Oversight Committee Probes FDA\u2019s Response to Baby Formula Shortage",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/house-oversight-committee-probes-fdas-response-to-baby-formula-shortage_5139958.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "US Not Considering Fighter Jets for Ukraine After Poland, Slovakia Pledge More Than a Dozen MiGs",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/us-not-considering-fighter-jets-for-ukraine-after-poland-slovakia-pledge-more-than-a-dozen-migs_5139833.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Two American Children Reported Missing in Mexico as US Embassy Issues Alert to Spring Breakers",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/two-american-children-reported-missing-in-mexico-as-us-embassy-issues-alert-to-spring-breakers_5139810.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "State Department Faces Deadline to Provide Documents on Afghanistan Withdrawal",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/state-department-faces-deadline-to-provide-documents-on-afghanistan-withdrawal_5138804.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Google Pulls Chinese Pinduoduo App Off Play Store Over Security Concerns",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/google-pulls-chinese-pinduoduo-app-off-play-store-over-security-concerns_5139529.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Willis Reed, Leader on Knicks\u2019 2 Title Teams, Dies at 80",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/willis-reed-leader-on-knicks-2-title-teams-dies-at-80_5139976.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "I Hear Ghosts",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/i-hear-ghosts_5062745.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Home Prices Drop, Breaking 11-Year Streak of Increases",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/home-prices-drop-breaking-11-year-streak-of-increases_5138381.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "4 Menopause Symptoms You Might Not Realize You\u2019re Experiencing",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/health/4-menopause-symptoms-you-might-not-realize-youre-experiencing_5117823.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Shen Yun Represents the Values That Made China Great, Says Company Owner",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/shen-yun-represents-the-values-that-made-china-great-says-company-owner_5141046.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Shen Yun Moved Me to Tears, Says Brazilian Doctor to the Stars",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/shen-yun-moved-me-to-tears-says-brazilian-doctor-to-the-stars_5135430.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Earthing Might Have Therapeutic Effect on COVID-19, 2 Simple Ways to Do It",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/health/earthing-might-have-therapeutic-effect-on-covid-19-2-simple-ways-to-do-it_5133553.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Hypertension Medications Can Increase Stroke Risk: Pressing 2 Acupoints May Effectively Control High Blood Pressure",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/health/hypertension-medications-can-increase-stroke-risk-pressing-2-acupoints-may-effectively-control-high-blood-pressure_5123999.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Crypto Exchange Coinbase Asks Supreme Court to Compel Disgruntled Customers to Pursue Arbitration",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/crypto-exchange-coinbase-asks-supreme-court-to-compel-disgruntled-customers-to-pursue-arbitration_5137882.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "World Stocks Cautiously Higher Ahead of High Stakes Fed Decision",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/world-stocks-cautiously-higher-ahead-of-high-stakes-fed-decision_5141144.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "This Unique Castle Has Been One Family\u2019s Home Through 34 Generations and for Over 800 Years",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/this-unique-castle-has-been-one-familys-home-through-34-generations-and-for-over-800-years_5025281.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Obese Young Man Weighed 820 Pounds Now Unrecognizable After Dropping 600 Pounds",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/obese-young-man-weighed-820-pounds-now-unrecognizable-after-dropping-600-pounds_5117977.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Webcam Captures Mama Bald Eagle Who Won\u2019t Leave Nest Covered in Over Foot of Snow After Winter Storm",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/webcam-captures-mama-bald-eagle-who-wont-leave-nest-covered-in-over-foot-of-snow-after-winter-storm_5099311.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "SCOTUS Overturns Appeals Court Upholding Abortion Without Parental Consent",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/supreme-court-overturns-appeals-court-ruling-upholding-abortion-without-parental-notification_5135384.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "CDC Warns of Dangerous Fungal Infection Spreading Through US at \u2018Alarming Rate\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/cdc-warns-of-dangerous-fungal-infection-spreading-through-us-at-alarming-rate_5137789.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "IRS Issues Fresh Warning in \u2018Dirty Dozen\u2019 List of Tax Scams",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/irs-issues-fresh-warning-in-dirty-dozen-list-of-tax-scams_5138029.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "House Republicans Demand Testimony From Manhattan DA Behind Potential Trump Arrest",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/jim-jordan-demands-testimony-from-manhattan-da-behind-pending-trump-arrest_5135363.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "DeSantis Criticizes Manhattan DA, Calls Trump Investigation a \u2018Manufactured Circus\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/desantis-criticizes-manhattan-da-calls-trump-investigation-a-manufactured-circus_5135698.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "County\u2019s First Veteran Housing Moves Ahead in Port Jervis",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/countys-first-veteran-housing-moves-ahead-in-port-jervis_5140498.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Philly Agrees to $9.2 Million Payout Over Police Response to 2020 Protests",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/philly-agrees-to-9-2-million-payout-over-police-response-to-2020-protests_5139951.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Alan Dershowitz: Trump Can Serve as President \u2018From Prison\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/alan-dershowitz-trump-can-serve-as-president-from-prison_5139164.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Haley Defends Trump as 2024 GOP Rival Faces Possible Arrest",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/haley-defends-trump-as-2024-gop-rival-faces-possible-arrest_5139162.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Man Found Insane When He Killed Father in Laguna Niguel",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/man-found-insane-when-he-killed-father-in-laguna-niguel_5140460.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "USA Water Polo Facility, Concert Venue, Botanical Garden Approved for Irvine\u2019s Great Park",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/usa-water-polo-facility-concert-venue-botanical-garden-approved-for-irvines-great-park_5140444.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Judge Blocks 1999 California Law Requiring Specific Safety Features for Handguns",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/judge-blocks-1999-california-law-requiring-specific-safety-features-for-handguns_5137790.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "The Role of Newsom\u2019s Diversity Mandates in SVB\u2019s Failure",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/the-role-of-newsoms-diversity-mandates-in-svbs-failure_5137206.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Proposed GOP Legislation to Block Gas Stove Ban Supported by Industry",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/proposed-gop-legislation-to-block-gas-stove-ban-supported-by-industry_5139106.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "\u2018Defamation of a Beloved Teacher\u2019: Community Backs Teacher Charged With Assaulting Student",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/defamation-of-a-beloved-teacher-community-backs-teacher-who-was-charged-with-assaulting-students_5140847.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Former US Marine Arrested in Australia for Training Chinese Military Pilots",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/former-us-marine-arrested-in-australia-for-training-chinese-military-pilots_5139761.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Taiwan President to Visit US but No Word on House Speaker Meeting",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/taiwan-president-to-visit-us-but-no-word-on-house-speaker-meeting_5138328.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "PREMIERING at  Mar. 22 10AM ET: Troubled US Bank\u2019s Ties to China Raise More Red Flags",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/troubled-us-banks-ties-to-china-raise-more-red-flags_5139675.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Clashes Erupt Outside Sydney Church Over \u2018Anti-Trans\u2019 Speech",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/clashes-erupt-outside-church-over-anti-trans-speech_5140517.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Soaring Electricity Prices Push Up EV Charging Fees in Australia",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/soaring-electricity-prices-push-up-ev-charging-fees-in-australia_5140651.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Federal Decision to Shut Down BC Salmon Farms Prompts Company Court Challenge",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/federal-decision-to-shut-down-bc-salmon-farms-prompts-company-court-challenge_5140758.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Toronto Mayoral Race Shapes up as Former Police Chief, City Councillor Announce Bids",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/toronto-mayoral-race-shapes-up-as-former-police-chief-city-councillor-announce-bids_5140734.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Swiss Suspend Bonus Payouts to Credit Suisse Staffers",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/swiss-suspend-bonus-payouts-to-credit-suisse-staffers_5139886.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "US Probes Reports of Steering Glitch on Newer Honda Civics",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/us-probes-reports-of-steering-glitch-on-newer-honda-civics_5139113.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Microsoft Wins Dismissal of Gamers\u2019 Suit Over $69 Billion Activision Deal",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/microsoft-wins-dismissal-of-gamers-suit-over-69-billion-activision-deal_5139677.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Gargantuan Seaweed \u2018Island\u2019 Crossing Atlantic, Headed Toward Florida\u2019s Gulf Coast",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/gargantuan-seaweed-island-crossing-atlantic-headed-toward-floridas-gulf-coast_5134053.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Film Review: \u2018Gotham: The Fall and Rise of New York\u2019: Saving America\u2019s Biggest City From Itself",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/film-review-gotham-the-fall-and-rise-of-new-york-saving-americas-biggest-city-from-itself_5139581.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Lessons From Epictetus: On Mastering the Will",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/lessons-from-epictetus-on-mastering-the-will_5097631.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Rewind, Review, and Re-Rate: \u2018Cheaper by the Dozen\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/rewind-review-and-re-rate-cheaper-by-the-dozen_5136987.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Book Review: \u2018An Immense World: How Animal Senses Reveal the Hidden Realms Around Us\u2019",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/book-review-an-immense-world-how-animal-senses-reveal-the-hidden-realms-around-us_5135113.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "New Show \u2018Mysteries of Life\u2019 Explores the Big Questions of Human Existence",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/new-show-mysteries-of-life-explores-the-big-questions-of-human-existence_5138464.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Profiles in History: W.W. Keen: The President\u2019s Surgeon",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/profiles-in-history-w-w-keen-the-presidents-surgeon_5136859.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Roast Loin of Pork Is a Family Favorite for Easter",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/roast-loin-of-pork-is-a-family-favorite-for-easter_5137285.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Restaurant Wine Prices and Obscurity",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/restaurant-wine-prices-and-obscurity_5137517.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Smoked Salmon in a Cozy Chowder Is Perfect on Cool, Rainy Days",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/smoked-salmon-in-a-cozy-chowder-is-perfect-on-cool-rainy-days_5137269.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Eating This Vegetable Can Lower Blood Pressure and Prevent Cancer",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/health/eating-this-vegetable-can-lower-blood-pressure-and-prevent-cancer_5126840.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "This Delicious \u2018Kit Kat\u2019 Recipe Is Passover-Approved",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/this-delicious-kit-kat-recipe-is-passover-approved_5136241.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Pucker Up With a Zesty Lemon Bar",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/pucker-up-with-a-zesty-lemon-bar_5122250.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Hoffmeister: Viola Concerto in D | William Coleman",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/hoffmeister-viola-concerto-in-d-william-coleman_5133157.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Gwyneth Paltrow\u2019s Trial Begins for Deer Valley Ski Crash",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/gwyneth-paltrows-trial-begins-for-deer-valley-ski-crash_5140399.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "How the Waning of Religious Belief Impacts America: Sam Sorbo",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/how-the-waning-of-religious-belief-impacts-america-sam-sorbo_5136692.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "\u2018Mister Scoutmaster\u2019 (1953): A Tribute to the Boy Scouts of America",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/mister-scoutmaster-1953-a-tribute-to-the-boy-scouts-of-america_5139600.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Bad Boys | I Married Joan Season 1, Ep.8",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/bad-boys-i-married-joan-season-1-ep-8_5129140.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Saving and Sharing Good Memories Is Easy, Healthy, and Fun",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/saving-and-sharing-good-memories-is-easy-healthy-and-fun_5121990.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Mother Prays to Heal Relationship With Family",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/mother-prays-to-heal-relationship-with-family_5118702.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Dear Next Generation: The Essence of True Love",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/dear-next-generation-the-essence-of-true-love_5127893.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "\u2018The Parenting Map\u2019: A Conversation With Dr. Shefali",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/the-parenting-map-a-conversation-with-dr-shefali_5119699.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "5 Reasons to Give Kids an Allowance",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/5-reasons-to-give-kids-an-allowance_5137349.html"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "language": "en",
+    "text": "Public Etiquette",
+    "date": "2000-01-01T00:00:00",
+    "scores": {
+      "toxicity": 0.5,
+      "severe_toxicity": 0.5,
+      "obscene": 0.5,
+      "identity_attack": 0.5,
+      "insult": 0.5,
+      "threat": 0.5,
+      "sexual_explicit": 0.5
+    },
+    "url": "https://www.theepochtimes.com/public-etiquette_5092977.html"
+  }
+]
