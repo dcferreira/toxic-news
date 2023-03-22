@@ -19,6 +19,10 @@ from toxic_news.fetchers import (
 )
 
 
+def _clean_newspaper(n: Newspaper) -> str:
+    return clean_url(n.url)
+
+
 def test_parse_detoxify_scores():
     scores = DetoxifyResults(
         toxicity=[1, 2],
@@ -81,7 +85,7 @@ def test_fetcher_save_load(tmp_path, monkeypatch, assets):
     assert fetcher2._content == fetcher._content
 
 
-@pytest.mark.parametrize("newspaper", newspapers)
+@pytest.mark.parametrize("newspaper", newspapers, ids=_clean_newspaper)
 def test_parse(assets, snapshot, monkeypatch, newspaper):
     make_mock_fetcher(monkeypatch, newspaper.url, assets)
 
@@ -93,7 +97,7 @@ def test_parse(assets, snapshot, monkeypatch, newspaper):
 
 
 @pytest.mark.integration
-@pytest.mark.parametrize("newspaper", newspapers)
+@pytest.mark.parametrize("newspaper", newspapers, ids=_clean_newspaper)
 def test_parse_live(assets, snapshot, newspaper):
     # check live version of the website, and see if the xpath we have configured
     # still outputs around the same number of headlines
@@ -108,7 +112,7 @@ def test_parse_live(assets, snapshot, newspaper):
     )
 
 
-@pytest.mark.parametrize("newspaper", newspapers)
+@pytest.mark.parametrize("newspaper", newspapers, ids=_clean_newspaper)
 def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
     make_mock_fetcher(monkeypatch, newspaper.url, assets)
 
@@ -138,7 +142,7 @@ def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
 
 
 @pytest.mark.slow
-@pytest.mark.parametrize("newspaper", newspapers)
+@pytest.mark.parametrize("newspaper", newspapers, ids=_clean_newspaper)
 def test_classify(assets, snapshot, monkeypatch, newspaper):
     make_mock_fetcher(monkeypatch, newspaper.url, assets)
 

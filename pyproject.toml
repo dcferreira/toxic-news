@@ -58,6 +58,7 @@ dependencies = [
     "pytest-snapshot",
     "pytest-xprocess",
     "pytest-asyncio",
+    "pytest-xdist",
     "black",
     "isort",
     "ruff",
@@ -68,11 +69,11 @@ dependencies = [
     "types-tqdm",
 ]
 [tool.hatch.envs.default.scripts]
-cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=toxic_news --cov=tests {args}"
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=toxic_news --cov=tests -m \"not integration and not slow\" {args}"
 no-cov = "cov --no-cov {args}"
 integration = "no-cov -m integration"
 slow = "no-cov -m slow"
-full = ["no-cov", "integration", "slow"]
+full = "pytest"
 lint = ["ruff .", "black . --check -q", "isort . --check -q"]
 format = ["black .", "isort ."]
 types = "mypy ."
@@ -126,7 +127,7 @@ module = [
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]
-addopts = "--strict-markers -m \"not integration and not slow\""
+addopts = "--strict-markers --strict-config -ra -n auto"
 markers = [
     "slow: slow and heavy tests, not sure if these can run in the CI pipeline",
     "integration: slow tests, shouldn't be run so often"
