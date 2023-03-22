@@ -1,0 +1,114 @@
+[
+  [
+    "Idaho aims to reinstate the firing squad",
+    "https://www.oann.com/newsroom/idaho-aims-to-reinstate-the-firing-squad/"
+  ],
+  [
+    "LAUSD schools close",
+    "https://www.oann.com/newsroom/lausd-schools-close/"
+  ],
+  [
+    "5 Connecticut kids killed in car accident on NY trip",
+    "https://www.oann.com/newsroom/5-connecticut-kids-killed-in-car-accident-on-ny-trip/"
+  ],
+  [
+    "Manhattan DA issues response to GOP on possible Trump indictment",
+    "https://www.oann.com/newsroom/manhattan-da-issues-response-to-gop-on-possible-trump-indictment/"
+  ],
+  [
+    "Xi invites Putin to China",
+    "https://www.oann.com/newsroom/xi-invites-putin-to-china/"
+  ],
+  [
+    "FTC continues to investigate Amazon",
+    "https://www.oann.com/newsroom/ftc-continues-to-investigate-amazon/"
+  ],
+  [
+    "DeSantis bashes \u2018Soros-funded\u2019 Manhattan DA",
+    "https://www.oann.com/newsroom/desantis-bashes-soros-funded-manhattan-da/"
+  ],
+  [
+    "Diversity, equity and inclusion at colleges and universities raises concerns of free speech",
+    "https://www.oann.com/video/oan-contribution/diversity-equity-and-inclusion-at-colleges-and-universities-raises-concerns-of-free-speech/"
+  ],
+  [
+    "One-on-one with Randy Sevcik, President of Elite Group Retirement Services",
+    "https://www.oann.com/video/oan-contribution/one-on-one-with-randy-sevcik-president-of-elite-group-retirement-services/"
+  ],
+  [
+    "GOP House conference chair: Prosecutor persecution of Trump helps his polls",
+    "https://www.oann.com/video/oan-contribution/gop-house-conference-chair-prosecutor-persecution-of-trump-helps-his-polls/"
+  ],
+  [
+    "GOP leans into transgender battle leading up to 2024 election",
+    "https://www.oann.com/video/oan-contribution/gop-leans-into-transgender-battle-leading-up-to-2024-election/"
+  ],
+  [
+    "20 Years Since the U.S.-Led Invasion of Iraq",
+    "https://www.oann.com/video/oan-contribution/20-years-since-the-u-s-led-invasion-of-iraq/"
+  ],
+  [
+    "Potential Trump indictment likely a \u2018clear case\u2019",
+    "https://www.oann.com/video/oan-contribution/potential-trump-indictment-likely-a-clear-case/"
+  ],
+  [
+    "EU proposes exception for e-fuel combustion engines from 2035",
+    "https://www.oann.com/business/eu-proposes-exception-for/"
+  ],
+  [
+    "EV charger makers brace for slowdown as new Made In America rules kick in",
+    "https://www.oann.com/business/ev-charger-makers-brace/"
+  ],
+  [
+    "Huge Phillips 66 biofuels project will test the industry\u2019s green promises",
+    "https://www.oann.com/business/huge-phillips-66-biofuels/"
+  ],
+  [
+    "Switzerland\u2019s secretive Credit Suisse rescue rocks global finance",
+    "https://www.oann.com/business/switzerlands-secretive-credit-suisse/"
+  ],
+  [
+    "Shares rise after Credit Suisse deal, but bank \u2018whack-a-mole\u2019 not over",
+    "https://www.oann.com/business/shares-rise-after-credit/"
+  ],
+  [
+    "\u2018Succession\u2019 star Brian Cox gets into character at final season premiere",
+    "https://www.oann.com/entertainment/succession-star-brian-cox/"
+  ],
+  [
+    "Screening of \u201cWinnie the Pooh\u201d horror film cancelled in Hong Kong",
+    "https://www.oann.com/entertainment/screening-of-winnie-the/"
+  ],
+  [
+    "Offbeat multiverse movie \u2018Everything Everywhere\u2019 dominates the Oscars",
+    "https://www.oann.com/entertainment/offbeat-multiverse-movie-everything/"
+  ],
+  [
+    "Google suspends China\u2019s Pinduoduo app on security concerns",
+    "https://www.oann.com/tech/google-suspends-chinas-pinduoduo/"
+  ],
+  [
+    "Italy\u2019s Antitrust probes TikTok over \u2018French scar\u2019 dangerous content",
+    "https://www.oann.com/tech/italys-antitrust-probes-tiktok/"
+  ],
+  [
+    "India\u2019s Karnataka govt approves $968 million investment from Foxconn unit",
+    "https://www.oann.com/tech/indias-karnataka-govt-approves/"
+  ],
+  [
+    "EXCLUSIVE-Olympics-Paris 2024 plans Games relay changes, fewer torches-source",
+    "https://www.oann.com/sports/exclusive-olympics-paris-2024-plans-games/"
+  ],
+  [
+    "NHL roundup: Aleksander Barkov sets Panthers\u2019 scoring record",
+    "https://www.oann.com/sports/nhl-roundup-aleksander-barkov/"
+  ],
+  [
+    "Women\u2019s NCAA roundup: Ohio State sinks UNC at buzzer",
+    "https://www.oann.com/sports/womens-ncaa-roundup-ohio/"
+  ],
+  [
+    "Geofence Surveillance: First, They Spied on Protesters. Then Churches. You\u2019re Next.",
+    "https://www.oann.com/commentary/geofence-surveillance-first-they-spied-on-protesters-then-churches-youre-next/"
+  ]
+]

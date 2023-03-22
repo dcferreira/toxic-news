@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1103174857",accountID:"3430287",trustKey:"3430287",xpid:"VwIEUVRbDxABVFhWAAUOUFIH",licenseKey:"NRJS-d628c1a2702dbc7e719",applicationID:"1094749666"};;(()=>{var e,t,r={9071:(e,t,r)=>{"use strict";r.d(t,{I:()=>n});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},6562:(e,t,r)=>{"use strict";r.d(t,{P_:()=>p,Mt:()=>v,C5:()=>f,DL:()=>y,OP:()=>k,lF:()=>H,Yu:()=>E,Dg:()=>g,CX:()=>d,GE:()=>w,sU:()=>L});var n={};r.r(n),r.d(n,{agent:()=>A,match:()=>S,version:()=>O});var i=r(6797),o=r(909),a=r(8610);class s{constructor(e,t){try{if(!e||"object"!=typeof e)return(0,a.Z)("New setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,a.Z)("Setting a Configurable requires a model to set its initial properties");Object.assign(this,t),Object.entries(e).forEach((e=>{let[t,r]=e;const n=(0,o.q)(t);n.length&&r&&"object"==typeof r&&n.forEach((e=>{e in r&&((0,a.Z)('"'.concat(e,'" is a protected attribute and can not be changed in feature ').concat(t,".  It will have no effect.")),delete r[e])})),this[t]=r}))}catch(e){(0,a.Z)("An error occured while setting a Configurable",e)}}}const c={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},u={};function f(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!u[e])throw new Error("Info for ".concat(e," was never set"));return u[e]}function d(e,t){if(!e)throw new Error("All info objects require an agent identifier!");u[e]=new s(t,c),(0,i.Qy)(e,u[e],"info")}const l={allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},spa:{enabled:!0,harvestTimeSeconds:10}},h={};function p(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!h[e])throw new Error("Configuration for ".concat(e," was never set"));return h[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");h[e]=new s(t,l),(0,i.Qy)(e,h[e],"config")}function v(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=p(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},b={};function y(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!b[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return b[e]}function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");b[e]=new s(t,m),(0,i.Qy)(e,b[e],"loader_config")}const E=(0,i.mF)().o;var T=r(2053),A=null,O=null;if(navigator.userAgent){var x=navigator.userAgent,_=x.match(/Version\/(\S+)\s+Safari/);_&&-1===x.indexOf("Chrome")&&-1===x.indexOf("Chromium")&&(A="Safari",O=_[1])}function S(e,t){if(!A)return!1;if(e!==A)return!1;if(!t)return!0;if(!O)return!1;for(var r=O.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var j=r(5526),P=r(2374);const D="NRBA_SESSION_ID";function N(){if(!P.il)return null;try{let e;return null===(e=window.sessionStorage.getItem(D))&&(e=(0,j.ky)(16),window.sessionStorage.setItem(D,e)),e}catch(e){return null}}var C=r(8226);const I=e=>({customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:(0,T.yf)(),onerror:void 0,origin:""+P._A.location,ptid:void 0,releaseIds:{},sessionId:1==v(e,"privacy.cookies_enabled")?N():null,xhrWrappable:"function"==typeof P._A.XMLHttpRequest?.prototype?.addEventListener,userAgent:n,version:C.q}),R={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!R[e])throw new Error("Runtime for ".concat(e," was never set"));return R[e]}function L(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");R[e]=new s(t,I(e)),(0,i.Qy)(e,R[e],"runtime")}function H(e){return function(e){try{const t=f(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},8226:(e,t,r)=>{"use strict";r.d(t,{q:()=>n});const n="1227.PROD"},9557:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(8610);const i={agentIdentifier:""};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,r)=>{"use strict";r.d(t,{L:()=>f,R:()=>c});var n=r(3752),i=r(7022),o=r(4045),a=r(2325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function f(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=Array.from(s[e]);function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)d(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;a(t)})))}function d(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,r)=>{"use strict";r.d(t,{c:()=>d,ee:()=>u});var n=r(6797),i=r(3916),o=r(7022),a=r(6562),s="nr@context";let c=(0,n.fP)();var u;function f(){}function d(e){return(0,i.X)(e,s,l)}function l(){return new f}function h(){u.aborted=!0,u.backlog={}}c.ee?u=c.ee:(u=function e(t,r){var n={},c={},d={},p=!1;try{p=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var g={on:b,addEventListener:b,removeEventListener:y,emit:m,get:E,listeners:w,context:v,buffer:T,abort:h,aborted:!1,isBuffering:A,debugId:r,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function v(e){return e&&e instanceof f?e:e?(0,i.X)(e,s,l):l()}function m(e,r,n,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,r,n);for(var a=v(n),s=w(e),f=s.length,d=0;d<f;d++)s[d].apply(a,r);var l=O()[c[e]];return l&&l.push([g,e,r,a]),a}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function E(t){return d[t]=d[t]||e(g,t)}function T(e,t){var r=O();g.aborted||(0,o.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function A(e){return!!O()[c[e]]}function O(){return g.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(3752).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4045:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(9252);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},8544:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];window.addEventListener(e,t,a(r))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];document.addEventListener(e,t,a(r))}},5526:(e,t,r)=>{"use strict";r.d(t,{Ht:()=>a,M:()=>o,Rl:()=>i,ky:()=>s});var n=r(2374);function i(){var e=null,t=0,r=n._A?.crypto||n._A?.msCrypto;function i(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,a="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",s="",c=0;c<a.length;c++)s+="x"===(o=a[c])?i().toString(16):"y"===o?(o=3&i()|8).toString(16):o;return s}function o(){return s(16)}function a(){return s(32)}function s(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}},2053:(e,t,r)=>{"use strict";r.d(t,{nb:()=>s,os:()=>c,yf:()=>a,zO:()=>o});var n=(new Date).getTime(),i=n;function o(){return performance?.now?Math.round(performance.now()):(n=Math.max((new Date).getTime(),n))-i}function a(){return n}function s(e){i=e}function c(){return i}},6625:(e,t,r)=>{"use strict";r.d(t,{s:()=>a,v:()=>s});var n=r(8283),i=r(2053),o=r(2374);let a=!0;function s(e){var t=function(){a=!1;const e=o._A?.performance?.timeOrigin||o._A?.performance?.timing?.navigationStart;if(!e)return;return Math.round(e)}();t&&((0,n.B)(e,"starttime",t),(0,i.nb)(t))}},8283:(e,t,r)=>{"use strict";r.d(t,{B:()=>o,L:()=>a});var n=r(2053),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){const o=e.sharedContext.agentIdentifier;var a=i[o]?.[r],s=i[o]?.[n];void 0!==a&&void 0!==s&&e.store("measures",t,{value:s-a})}},2545:(e,t,r)=>{"use strict";r.d(t,{L:()=>c});var n=r(9071),i=r(8544),o=r(8305),a=r(2374),s=r(6998);if(a.v6){a._A.cleanupTasks=[];const e=a._A.close;a._A.close=()=>{for(let e of a._A.cleanupTasks)e();e()}}function c(e,t){if(a.il)if(t)(0,s.N)(e,!0),(0,i.bP)("pagehide",e);else{var r=(0,o.Z)(e);!n.I||navigator.sendBeacon?(0,i.bP)("pagehide",r):(0,i.bP)("beforeunload",r),(0,i.bP)("unload",r)}else a.v6&&a._A.cleanupTasks.push(e)}},6368:(e,t,r)=>{"use strict";r.d(t,{e:()=>o});var n=r(2374),i={};function o(e){if(e in i)return i[e];if(0===(e||"").indexOf("data:"))return{protocol:"data"};let t;var r=n._A?.location,o={};if(n.il)t=document.createElement("a"),t.href=e;else try{t=new URL(e,r.href)}catch(e){return o}o.port=t.port;var a=t.href.split("://");!o.port&&a[1]&&(o.port=a[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===a[0]?"443":"80"),o.hostname=t.hostname||r.hostname,o.pathname=t.pathname,o.protocol=a[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var s=!t.protocol||":"===t.protocol||t.protocol===r.protocol,c=t.hostname===r.hostname&&t.port===r.port;return o.sameOrigin=s&&(!t.hostname||c),"/"===o.pathname&&(i[e]=o),o}},8610:(e,t,r)=>{"use strict";function n(e,t){console&&console.warn&&"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},3916:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,r)=>{"use strict";r.d(t,{_A:()=>o,il:()=>n,lW:()=>a,v6:()=>i});const n=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(n)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})();function a(){return o}},7022:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},8305:(e,t,r)=>{"use strict";r.d(t,{Z:()=>o});var n=r(8683),i=r.n(n);function o(e){var t,r=!1;return function(){return r?t:(r=!0,t=e.apply(this,i()(arguments)))}}},2650:(e,t,r)=>{"use strict";r.d(t,{K:()=>a,b:()=>o});var n=r(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},6797:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>f,mF:()=>s});var n=r(2053),i=r(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[r]:t}},i}function u(e,t){a()[e]=t}function f(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,r)=>{"use strict";r.d(t,{N:()=>i,e:()=>o});var n=r(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return void(0,n.iz)("visibilitychange",(function(){if(t){if("hidden"!=document.visibilityState)return;e()}e(document.visibilityState)}))}function o(){return"hidden"===document.visibilityState?-1:1/0}},6408:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(2374);function i(){return"function"==typeof n._A?.PerformanceObserver}},8675:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.ajax},8322:(e,t,r)=>{"use strict";r.d(t,{A:()=>i,t:()=>n});const n=r(2325).D.jserrors,i="nr@seenError"},6034:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(2325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},6486:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageAction},2484:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewEvent},6382:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewTiming},2628:(e,t,r)=>{"use strict";r.r(t),r.d(t,{ADD_EVENT_LISTENER:()=>g,BST_RESOURCE:()=>a,BST_TIMER:()=>l,END:()=>u,FEATURE_NAME:()=>i,FN_END:()=>d,FN_START:()=>f,ORIG_EVENT:()=>p,PUSH_STATE:()=>h,RESOURCE:()=>s,RESOURCE_TIMING_BUFFER_FULL:()=>o,START:()=>c});var n=r(6562);const i=r(2325).D.sessionTrace,o="resourcetimingbufferfull",a="bstResource",s="resource",c="-start",u="-end",f="fn"+c,d="fn"+u,l="bstTimer",h="pushState",p=n.Yu.EV,g="addEventListener"},755:(e,t,r)=>{"use strict";r.r(t),r.d(t,{BODY:()=>T,CB_END:()=>A,CB_START:()=>u,END:()=>E,FEATURE_NAME:()=>i,FETCH:()=>x,FETCH_BODY:()=>m,FETCH_DONE:()=>v,FETCH_START:()=>g,FN_END:()=>c,FN_START:()=>s,INTERACTION:()=>l,INTERACTION_API:()=>f,INTERACTION_EVENTS:()=>o,JSONP_END:()=>b,JSONP_NODE:()=>p,JS_TIME:()=>O,MAX_TIMER_BUDGET:()=>a,REMAINING:()=>d,SPA_NODE:()=>h,START:()=>w,originalSetTimeout:()=>y});var n=r(6562);r(2374);const i=r(2325).D.spa,o=["click","submit","keypress","keydown","keyup","change"],a=999,s="fn-start",c="fn-end",u="cb-start",f="api-ixn-",d="remaining",l="interaction",h="spaNode",p="jsonpNode",g="fetch-start",v="fetch-done",m="fetch-body-",b="jsonp-end",y=n.Yu.ST,w="-start",E="-end",T="-body",A="cb"+E,O="jsTime",x="fetch"},1509:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(6562),i=r(3752),o=r(2384),a=r(6797);class s{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1,this.checkConfiguration()}checkConfiguration(){if(!(0,n.lF)(this.agentIdentifier)){let e={...(0,a.gG)().info?.jsAttributes};try{e={...e,...(0,n.C5)(this.agentIdentifier)?.jsAttributes}}catch(e){}(0,o.j)(this.agentIdentifier,{...(0,a.gG)(),info:{...(0,a.gG)().info,jsAttributes:e}})}}}},2384:(e,t,r)=>{"use strict";r.d(t,{j:()=>w});var n=r(8683),i=r.n(n),o=r(2325),a=r(6562),s=r(9252),c=r(7022),u=r(3752),f=r(2053),d=r(4329),l=r(2650),h=r(2374),p=r(8610),g=r(6034);function v(e){["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&e.api[t](...n)}))}(t,...n)}}))}var m=r(6797);const b={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa]};const y={};function w(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=arguments.length>2?arguments[2]:void 0,w=arguments.length>3?arguments[3]:void 0,{init:E,info:T,loader_config:A,runtime:O={loaderType:n},exposed:x=!0}=t;const _=(0,m.gG)();let S={};return T||(E=_.init,T=_.info,A=_.loader_config,S=_),h.v6&&(T.jsAttributes={...T.jsAttributes,isWorker:!0}),(0,a.CX)(e,T),(0,a.Dg)(e,E||{}),(0,a.GE)(e,A||{}),(0,a.sU)(e,O),function(e,t,n){n||(0,d.R)(e,"api"),v(t);var m=u.ee.get(e),b=m.get("tracer"),y="api-",w=y+"ixn-";function E(){}(0,c.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=A(y,r,!0,"api")})),t.addPageAction=A(y,"addPageAction",!0,o.D.pageAction),t.setCurrentRouteName=A(y,"routeName",!0,o.D.spa),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,a.OP)(e).customTransaction=(r||"http://custom.transaction")+t,A(y,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){const n=(0,a.C5)(e);return(0,a.CX)(e,{...n,jsAttributes:{...n.jsAttributes,[t]:r}}),A(y,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new E).get()};var T=E.prototype={createTracer:function(e,t){var r={},n=this,i="function"==typeof t;return(0,s.p)(w+"tracer",[(0,f.zO)(),e,r],n,o.D.spa,m),function(){if(b.emit((i?"":"no-")+"fn-start",[(0,f.zO)(),n,i],r),i)try{return t.apply(this,arguments)}catch(e){throw b.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],r),e}finally{b.emit("fn-end",[(0,f.zO)()],r)}}}};function A(e,t,r,n){return function(){return(0,s.p)(g.xS,["API/"+t+"/called"],void 0,o.D.metrics,m),(0,s.p)(e+t,[(0,f.zO)()].concat(i()(arguments)),r?null:this,n,m),r?void 0:this}}function O(){r.e(439).then(r.bind(r,5692)).then((t=>{let{setAPI:r}=t;r(e),(0,d.L)(e,"api")})).catch((()=>(0,p.Z)("Downloading runtime APIs failed...")))}(0,c.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){T[t]=A(w,t,void 0,o.D.spa)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,s.p)(g.xS,["API/noticeError/called"],void 0,o.D.metrics,m),(0,s.p)("err",[e,(0,f.zO)(),!1,t],void 0,o.D.jserrors,m)},h.v6?O():(0,l.b)((()=>O()),!0)}(e,S,w),(0,m.Qy)(e,_,"api"),(0,m.Qy)(e,x,"exposed"),(0,m.EZ)("activatedFeatures",y),(0,m.EZ)("setToken",(t=>function(e,t){var r=u.ee.get(t);e&&"object"==typeof e&&((0,c.D)(e,(function(e,t){if(!t)return(b[e]||[]).forEach((t=>{(0,s.p)("block-"+e,[],void 0,t,r)}));y[e]||((0,s.p)("feat-"+e,[],void 0,b[e],r),y[e]=!0)})),(0,d.L)(t,o.D.pageViewEvent))}(t,e))),S}},909:(e,t,r)=>{"use strict";r.d(t,{Z:()=>i,q:()=>o});var n=r(2325);function i(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}function o(e){return e===n.D.jserrors?[]:["auto"]}},2325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8}},8683:e=>{e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",317:"jserrors-aggregate",348:"page_view_timing-aggregate",439:"async-api",729:"lazy-loader",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"2f41aaf7",147:"28086cfb",178:"52056f28",193:"545db67a",317:"941c6e17",348:"a7d9d7be",439:"737e0ca6",729:"540ab0d1",786:"2ae3c96c",873:"494130b7",898:"52cc993d"}[e]+"-1227.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),f=0;f<u.length;f++){var d=u[f];if(d.getAttribute("src")==r||d.getAttribute("data-webpack")==t+o){s=d;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r),e[r]=[n];var l=(t,n)=>{s.onerror=s.onload=null,clearTimeout(h);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},h=setTimeout(l.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=l.bind(null,s.onerror),s.onload=l.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={134:0,935:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var o={};(()=>{"use strict";i.r(o);var e=i(2325),t=i(6562);const r=Object.values(e.D);function n(e){const n={};return r.forEach((r=>{n[r]=function(e,r){return!1!==(0,t.Mt)(r,"".concat(e,".enabled"))}(r,e)})),n}var a=i(2384),s=i(909),c=i(9252),u=i(2053),f=i(8283),d=i(6625),l=i(4329),h=i(1509),p=i(2650),g=i(2374),v=i(8610);class m extends h.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.hasAggregator=!1,this.auto=n,this.abortHandler,n&&(0,l.R)(e,r)}importAggregator(){if(this.hasAggregator||!this.auto)return;this.hasAggregator=!0;const e=async()=>{try{const{lazyLoader:e}=await i.e(729).then(i.bind(i,8110)),{Aggregate:t}=await e(this.featureName,"aggregate");new t(this.agentIdentifier,this.aggregator)}catch(e){(0,v.Z)("Downloading ".concat(this.featureName," failed...")),this.abortHandler?.()}};g.v6?e():(0,p.b)((()=>e()),!0)}}var b,y,w,E=i(2484);class T extends m{constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,E.t,r),(0,d.v)(e),(0,f.B)(e,"firstbyte",(0,u.yf)()),(0,p.K)((()=>this.measureDomContentLoaded())),(0,p.b)((()=>this.measureWindowLoaded()),!0),this.importAggregator()}measureWindowLoaded(){var t=(0,u.zO)();(0,f.B)(this.agentIdentifier,"onload",t+(0,u.os)()),(0,c.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}measureDomContentLoaded(){(0,f.B)(this.agentIdentifier,"domContent",(0,u.zO)()+(0,u.os)())}}b=T,y="featureName",w=E.t,(y=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(y))in b?Object.defineProperty(b,y,{value:w,enumerable:!0,configurable:!0,writable:!0}):b[y]=w;var A=i(9557),O=i(7022);class x extends A.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,O.D)(e,(function(e,r){t[e]=_(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,O.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=_(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=S(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=_(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=j(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function _(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=S(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function S(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function j(e){return"object"!=typeof e?[]:(0,O.D)(e,P)}function P(e,t){return t}var D=i(6797),N=i(5526);var C,I=i(6998),R=i(8544),k=i(6382),L=-1,H=function(e){addEventListener("pageshow",(function(t){t.persisted&&(L=t.timeStamp,e(t))}),!0)},z=function(){return window.performance&&performance.getEntriesByType&&performance.getEntriesByType("navigation")[0]},M=function(){var e=z();return e&&e.activationStart||0},B=function(e,t){var r=z(),n="navigate";return L>=0?n="back-forward-cache":r&&(n=document.prerendering||M()>0?"prerender":document.wasDiscarded?"restore":r.type.replace(/_/g,"-")),{name:e,value:void 0===t?-1:t,rating:"good",delta:0,entries:[],id:"v3-".concat(Date.now(),"-").concat(Math.floor(8999999999999*Math.random())+1e12),navigationType:n}},F=function(e,t,r){try{if(PerformanceObserver.supportedEntryTypes.includes(e)){var n=new PerformanceObserver((function(e){Promise.resolve().then((function(){t(e.getEntries())}))}));return n.observe(Object.assign({type:e,buffered:!0},r||{})),n}}catch(e){}},U=function(e,t){var r=function r(n){"pagehide"!==n.type&&"hidden"!==document.visibilityState||(e(n),t&&(removeEventListener("visibilitychange",r,!0),removeEventListener("pagehide",r,!0)))};addEventListener("visibilitychange",r,!0),addEventListener("pagehide",r,!0)},V=function(e,t,r,n){var i,o;return function(a){t.value>=0&&(a||n)&&((o=t.value-(i||0))||void 0===i)&&(i=t.value,t.delta=o,t.rating=function(e,t){return e>t[1]?"poor":e>t[0]?"needs-improvement":"good"}(t.value,r),e(t))}},W=function(e){document.prerendering?addEventListener("prerenderingchange",(function(){return e()}),!0):e()},q=(new Date,0),G=1/0,X=0,$=function(e){e.forEach((function(e){e.interactionId&&(G=Math.min(G,e.interactionId),X=Math.max(X,e.interactionId),q=X?(X-G)/7+1:0)}))},Z=function(){return C?q:performance.interactionCount||0},Y=function(){"interactionCount"in performance||C||(C=F("event",$,{type:"event",buffered:!0,durationThreshold:0}))},Q=0,J=function(){return Z()-Q},K=[],ee={},te=function(e){var t=K[K.length-1],r=ee[e.interactionId];if(r||K.length<10||e.duration>t.latency){if(r)r.entries.push(e),r.latency=Math.max(r.latency,e.duration);else{var n={id:e.interactionId,latency:e.duration,entries:[e]};ee[n.id]=n,K.push(n)}K.sort((function(e,t){return t.latency-e.latency})),K.splice(10).forEach((function(e){delete ee[e.id]}))}},re=i(2545);class ne extends m{constructor(r,n){var i;let o=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(r,n,k.t,o),i=this,g.il){if(this.pageHiddenTime=(0,I.e)(),this.performanceObserver,this.lcpPerformanceObserver,this.clsPerformanceObserver,this.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){this.performanceObserver=new PerformanceObserver((function(){return i.perfObserver(...arguments)}));try{this.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}this.lcpPerformanceObserver=new PerformanceObserver((function(){return i.lcpObserver(...arguments)}));try{this.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}this.clsPerformanceObserver=new PerformanceObserver((function(){return i.clsObserver(...arguments)}));try{this.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}this.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((e=>{(0,R.iz)(e,(function(){return i.captureInteraction(...arguments)}))})),function(e,t){t=t||{},W((function(){var r=[200,500];Y();var n,i=B("INP"),o=function(e){e.forEach((function(e){e.interactionId&&te(e),"first-input"===e.entryType&&!K.some((function(t){return t.entries.some((function(t){return e.duration===t.duration&&e.startTime===t.startTime}))}))&&te(e)}));var t,r=(t=Math.min(K.length-1,Math.floor(J()/50)),K[t]);r&&r.latency!==i.value&&(i.value=r.latency,i.entries=r.entries,n())},a=F("event",o,{durationThreshold:t.durationThreshold||40});n=V(e,i,r,t.reportAllChanges),a&&(a.observe({type:"first-input",buffered:!0}),U((function(){o(a.takeRecords()),i.value<0&&J()>0&&(i.value=0,i.entries=[]),n(!0)})),H((function(){K=[],Q=Z(),i=B("INP"),n=V(e,i,r,t.reportAllChanges)})))}))}((t=>{let{name:r,value:n,id:i}=t;(0,c.p)("timing",[r.toLowerCase(),n,{metricId:i}],void 0,e.D.pageViewTiming,this.ee)})),!0===(0,t.Mt)(this.agentIdentifier,"page_view_timing.long_task")&&(e=>{const t=t=>{t.forEach((t=>{const r={name:"LT",value:t.duration,info:{ltFrame:t.name,ltStart:t.startTime,ltCtr:t.attribution[0].containerType}};"window"!==r.info.ltCtr&&Object.assign(r.info,{ltCtrSrc:t.attribution[0].containerSrc,ltCtrId:t.attribution[0].containerId,ltCtrName:t.attribution[0].containerName}),e(r)}))};let r;try{PerformanceObserver.supportedEntryTypes.includes("longtask")&&(r=new PerformanceObserver((e=>{Promise.resolve().then((()=>{t(e.getEntries())}))})),r.observe({type:"longtask",buffered:!0}))}catch(e){}r&&(0,re.L)((()=>{t(r.takeRecords())}),!0)})((t=>{let{name:r,value:n,info:i}=t;(0,c.p)("timing",[r.toLowerCase(),n,i],void 0,e.D.pageViewTiming,this.ee)})),(0,I.N)((()=>{this.pageHiddenTime=(0,u.zO)(),(0,c.p)("docHidden",[this.pageHiddenTime],void 0,e.D.pageViewTiming,this.ee)}),!0),(0,R.bP)("pagehide",(()=>(0,c.p)("winPagehide",[(0,u.zO)()],void 0,e.D.pageViewTiming,this.ee))),this.importAggregator()}}perfObserver(t,r){t.getEntries().forEach((t=>{"first-paint"===t.name?(0,c.p)("timing",["fp",Math.floor(t.startTime)],void 0,e.D.pageViewTiming,this.ee):"first-contentful-paint"===t.name&&(0,c.p)("timing",["fcp",Math.floor(t.startTime)],void 0,e.D.pageViewTiming,this.ee)}))}lcpObserver(t,r){var n=t.getEntries();if(n.length>0){var i=n[n.length-1];if(this.pageHiddenTime<i.startTime)return;var o=[i],a=this.addConnectionAttributes({});a&&o.push(a),(0,c.p)("lcp",o,void 0,e.D.pageViewTiming,this.ee)}}clsObserver(t){t.getEntries().forEach((t=>{t.hadRecentInput||(0,c.p)("cls",[t],void 0,e.D.pageViewTiming,this.ee)}))}addConnectionAttributes(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e}captureInteraction(r){if(r instanceof t.Yu.EV&&!this.fiRecorded){var n=Math.round(r.timeStamp),i={type:r.type};this.addConnectionAttributes(i),n<=(0,u.zO)()?i.fid=(0,u.zO)()-n:n>(0,u.os)()&&n<=Date.now()?(n-=(0,u.os)(),i.fid=(0,u.zO)()-n):n=(0,u.zO)(),this.fiRecorded=!0,(0,c.p)("timing",["fi",n,i],void 0,e.D.pageViewTiming,this.ee)}}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(ne,"featureName",k.t);const ie={dedicated:Boolean(g._A?.Worker),shared:Boolean(g._A?.SharedWorker),service:Boolean(g._A?.navigator?.serviceWorker)};let oe,ae,se;var ce=i(6034);class ue extends m{constructor(t,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(t,r,ce.t9,n),function(e){if(!oe){if(ie.dedicated){oe=Worker;try{g._A.Worker=r(oe,"Dedicated")}catch(e){o(e,"Dedicated")}if(ie.shared){ae=SharedWorker;try{g._A.SharedWorker=r(ae,"Shared")}catch(e){o(e,"Shared")}}else n("Shared");if(ie.service){se=navigator.serviceWorker.register;try{g._A.navigator.serviceWorker.register=(t=se,function(){for(var e=arguments.length,r=new Array(e),n=0;n<e;n++)r[n]=arguments[n];return i("Service",r[1]?.type),t.apply(navigator.serviceWorker,r)})}catch(e){o(e,"Service")}}else n("Service");var t;return}n("All")}function r(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,r)=>(i(t,r[1]?.type),new e(...r))})}function n(t){g.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,r){e("Workers/".concat(t,"module"===r?"/Module":"/Classic"))}function o(t,r){e("Workers/".concat(r,"/SM/Unsupported")),(0,v.Z)("NR Agent: Unable to capture ".concat(r," workers."),t)}}((t=>(0,c.p)(ce.xS,[t],void 0,e.D.metrics,this.ee))),this.importAggregator()}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(ue,"featureName",ce.t9);var fe=i(3916),de=i(3752),le=i(8683),he=i.n(le);const pe="nr@original";var ge=Object.prototype.hasOwnProperty,ve=!1;function me(e,t){return e||(e=de.ee),r.inPlace=function(e,t,n,i,o){n||(n="");var a,s,c,u="-"===n.charAt(0);for(c=0;c<t.length;c++)we(a=e[s=t[c]])||(e[s]=r(a,u?s+n:n,i,s,o))},r.flag=pe,r;function r(t,r,i,o,a){return we(t)?t:(r||(r=""),nrWrapper[pe]=t,ye(t,nrWrapper,e),nrWrapper);function nrWrapper(){var s,c,u,f;try{c=this,s=he()(arguments),u="function"==typeof i?i(s,c):i||{}}catch(t){be([t,"",[s,c,o],u],e)}n(r+"start",[s,c,o],u,a);try{return f=t.apply(c,s)}catch(e){throw n(r+"err",[s,c,e],u,a),e}finally{n(r+"end",[s,c,f],u,a)}}}function n(r,n,i,o){if(!ve||t){var a=ve;ve=!0;try{e.emit(r,n,i,t,o)}catch(t){be([t,r,n,i],e)}ve=a}}}function be(e,t){t||(t=de.ee);try{t.emit("internal-error",e)}catch(e){}}function ye(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){be([e],r)}for(var n in e)ge.call(e,n)&&(t[n]=e[n]);return t}function we(e){return!(e&&e instanceof Function&&e.apply&&!e[pe])}var Ee="fetch-",Te=Ee+"body-",Ae=["arrayBuffer","blob","json","text","formData"],Oe=g._A.Request,xe=g._A.Response,_e="prototype",Se="nr@context";const je={};function Pe(e){const t=function(e){return(e||de.ee).get("fetch")}(e);if(!(Oe&&xe&&g._A.fetch))return t;if(je[t.debugId]++)return t;function r(e,r,n){var i=e[r];"function"==typeof i&&(e[r]=function(){var e,r=he()(arguments),o={};t.emit(n+"before-start",[r],o),o[Se]&&o[Se].dt&&(e=o[Se].dt);var a=i.apply(this,r);return t.emit(n+"start",[r,e],a),a.then((function(e){return t.emit(n+"end",[null,e],a),e}),(function(e){throw t.emit(n+"end",[e],a),e}))},e[r][pe]=i)}return je[t.debugId]=1,Ae.forEach((e=>{r(Oe[_e],e,Te),r(xe[_e],e,Te)})),r(g._A,"fetch",Ee),t.on(Ee+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(Ee+"done",[null,r],n)}else t.emit(Ee+"done",[e],n)})),t}const De={},Ne="setTimeout",Ce="setInterval",Ie="clearTimeout",Re="-start",ke="-",Le=[Ne,"setImmediate",Ce,Ie,"clearImmediate"];function He(e){const t=function(e){return(e||de.ee).get("timer")}(e);if(De[t.debugId]++)return t;De[t.debugId]=1;var r=me(t);return r.inPlace(g._A,Le.slice(0,2),Ne+ke),r.inPlace(g._A,Le.slice(2,3),Ce+ke),r.inPlace(g._A,Le.slice(3),Ie+ke),t.on(Ce+Re,(function(e,t,n){e[0]=r(e[0],"fn-",null,n)})),t.on(Ne+Re,(function(e,t,n){this.method=n,this.timerDuration=isNaN(e[1])?0:+e[1],e[0]=r(e[0],"fn-",this,n)})),t}const ze={},Me="requestAnimationFrame";function Be(e){const t=function(e){return(e||de.ee).get("raf")}(e);if(!g.il||ze[t.debugId]++)return t;ze[t.debugId]=1;var r=me(t);return r.inPlace(window,[Me],"raf-"),t.on("raf-start",(function(e){e[0]=r(e[0],"fn-")})),t}const Fe={},Ue=["pushState","replaceState"];function Ve(e){const t=function(e){return(e||de.ee).get("history")}(e);return!g.il||Fe[t.debugId]++||(Fe[t.debugId]=1,me(t).inPlace(window.history,Ue,"-")),t}const We={},qe=["appendChild","insertBefore","replaceChild"];function Ge(e){const t=function(e){return(e||de.ee).get("jsonp")}(e);if(!g.il||We[t.debugId])return t;We[t.debugId]=!0;var r=me(t),n=/[?&](?:callback|cb)=([^&#]+)/,i=/(.*)\.([^.]+)/,o=/^(\w+)(\.|$)(.*)$/;function a(e,t){var r=e.match(o),n=r[1],i=r[3];return i?a(i,t[n]):t[n]}return r.inPlace(Node.prototype,qe,"dom-"),t.on("dom-start",(function(e){!function(e){if(!e||"string"!=typeof e.nodeName||"script"!==e.nodeName.toLowerCase())return;if("function"!=typeof e.addEventListener)return;var o=(s=e.src,c=s.match(n),c?c[1]:null);var s,c;if(!o)return;var u=function(e){var t=e.match(i);if(t&&t.length>=3)return{key:t[2],parent:a(t[1],window)};return{key:e,parent:window}}(o);if("function"!=typeof u.parent[u.key])return;var f={};function d(){t.emit("jsonp-end",[],f),e.removeEventListener("load",d,(0,R.m$)(!1)),e.removeEventListener("error",l,(0,R.m$)(!1))}function l(){t.emit("jsonp-error",[],f),t.emit("jsonp-end",[],f),e.removeEventListener("load",d,(0,R.m$)(!1)),e.removeEventListener("error",l,(0,R.m$)(!1))}r.inPlace(u.parent,[u.key],"cb-",f),e.addEventListener("load",d,(0,R.m$)(!1)),e.addEventListener("error",l,(0,R.m$)(!1)),t.emit("new-jsonp",[e.src],f)}(e[0])})),t}const Xe={};function $e(e){const r=function(e){return(e||de.ee).get("mutation")}(e);if(!g.il||Xe[r.debugId])return r;Xe[r.debugId]=!0;var n=me(r),i=t.Yu.MO;return i&&(window.MutationObserver=function(e){return this instanceof i?new i(n(e,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype),r}const Ze={};function Ye(e){const r=function(e){return(e||de.ee).get("promise")}(e);if(Ze[r.debugId])return r;Ze[r.debugId]=!0;var n=de.c,i=me(r),o=t.Yu.PR;return o&&function(){function e(t){var n=r.context(),a=i(t,"executor-",n,null,!1);const s=Reflect.construct(o,[a],e);return r.context(s).getCtx=function(){return n},s}g._A.Promise=e,Object.defineProperty(e,"name",{value:"Promise"}),e.toString=function(){return o.toString()},Object.setPrototypeOf(e,o),["all","race"].forEach((function(t){const n=o[t];e[t]=function(e){let i=!1;e?.forEach((e=>{this.resolve(e).then(a("all"===t),a(!1))}));const o=n.apply(this,arguments);return o;function a(e){return function(){r.emit("propagate",[null,!i],o,!1,!1),i=i||!e}}}})),["resolve","reject"].forEach((function(t){const n=o[t];e[t]=function(e){const t=n.apply(this,arguments);return e!==t&&r.emit("propagate",[e,!0],t,!1,!1),t}})),e.prototype=o.prototype;const t=o.prototype.then;o.prototype.then=function(){var e=this,o=n(e);o.promise=e;for(var a=arguments.length,s=new Array(a),c=0;c<a;c++)s[c]=arguments[c];s[0]=i(s[0],"cb-",o,null,!1),s[1]=i(s[1],"cb-",o,null,!1);const u=t.apply(this,s);return o.nextPromise=u,r.emit("propagate",[e,!0],u,!1,!1),u},o.prototype.then[pe]=t,r.on("executor-start",(function(e){e[0]=i(e[0],"resolve-",this,null,!1),e[1]=i(e[1],"resolve-",this,null,!1)})),r.on("executor-err",(function(e,t,r){e[1](r)})),r.on("cb-end",(function(e,t,n){r.emit("propagate",[n,!0],this.nextPromise,!1,!1)})),r.on("propagate",(function(e,t,n){this.getCtx&&!t||(this.getCtx=function(){if(e instanceof Promise)var t=r.context(e);return t&&t.getCtx?t.getCtx():this})}))}(),r}const Qe={},Je=XMLHttpRequest,Ke="addEventListener",et="removeEventListener";function tt(e){var t=function(e){return(e||de.ee).get("events")}(e);if(Qe[t.debugId]++)return t;Qe[t.debugId]=1;var r=me(t,!0);function n(e){r.inPlace(e,[Ke,et],"-",i)}function i(e,t){return e[1]}return"getPrototypeOf"in Object&&(g.il&&rt(document,n),rt(g._A,n),rt(Je.prototype,n)),t.on(Ke+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,fe.X)(n,"nr@wrapped",(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(et+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function rt(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,Ke);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),o=2;o<n;o++)i[o-2]=arguments[o];r&&t(r,...i)}const nt={},it=["open","send"];function ot(e){var r=e||de.ee;const n=function(e){return(e||de.ee).get("xhr")}(r);if(nt[n.debugId]++)return n;nt[n.debugId]=1,tt(r);var i=me(n),o=t.Yu.XHR,a=t.Yu.MO,s=t.Yu.PR,c=t.Yu.SI,u="readystatechange",f=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],d=[],l=g._A.XMLHttpRequest.listeners,h=g._A.XMLHttpRequest=function(e){var t=new o(e);function r(){try{n.emit("new-xhr",[t],t),t.addEventListener(u,m,(0,R.m$)(!1))}catch(e){(0,v.Z)("An error occured while intercepting XHR",e);try{n.emit("internal-error",[e])}catch(e){}}}return this.listeners=l?[...l,r]:[r],this.listeners.forEach((e=>e())),t};function p(e,t){i.inPlace(t,["onreadystatechange"],"fn-",T)}function m(){var e=this,t=n.context(e);e.readyState>3&&!t.resolved&&(t.resolved=!0,n.emit("xhr-resolved",[],e)),i.inPlace(e,f,"fn-",T)}if(function(e,t){for(var r in e)t[r]=e[r]}(o,h),h.prototype=o.prototype,i.inPlace(h.prototype,it,"-xhr-",T),n.on("send-xhr-start",(function(e,t){p(e,t),function(e){d.push(e),a&&(b?b.then(E):c?c(E):(y=-y,w.data=y))}(t)})),n.on("open-xhr-start",p),a){var b=s&&s.resolve();if(!c&&!s){var y=1,w=document.createTextNode(y);new a(E).observe(w,{characterData:!0})}}else r.on("fn-end",(function(e){e[0]&&e[0].type===u||E()}));function E(){for(var e=0;e<d.length;e++)p(0,d[e]);d.length&&(d=[])}function T(e,t){return t}return n}var at,st={};try{at=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(st.console=!0,-1!==at.indexOf("dev")&&(st.dev=!0),-1!==at.indexOf("nr_dev")&&(st.nrDev=!0))}catch(e){}function ct(e){try{st.console&&ct(e)}catch(e){}}st.nrDev&&de.ee.on("internal-error",(function(e){ct(e.stack)})),st.dev&&de.ee.on("fn-err",(function(e,t,r){ct(r.stack)})),st.dev&&(ct("NR AGENT IN DEVELOPMENT MODE"),ct("flags: "+(0,O.D)(st,(function(e,t){return e})).join(", ")));var ut=i(8322);function ft(e,t){!function(e,t){if(t.has(e))throw new TypeError("Cannot initialize the same private elements twice on an object")}(e,t),t.add(e)}var dt=new WeakSet;class lt extends m{constructor(r,n){var i;let o=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(r,n,ut.t,o),i=this,ft(this,dt),this.skipNext=0,this.origOnerror=g._A.onerror;try{this.removeOnAbort=new AbortController}catch(e){}const a=this;a.ee.on("fn-start",(function(e,t,r){a.abortHandler&&(a.skipNext+=1)})),a.ee.on("fn-err",(function(e,t,r){a.abortHandler&&!r[ut.A]&&((0,fe.X)(r,ut.A,(function(){return!0})),this.thrown=!0,gt(r,void 0,a.ee))})),a.ee.on("fn-end",(function(){a.abortHandler&&!this.thrown&&a.skipNext>0&&(a.skipNext-=1)})),a.ee.on("internal-error",(function(t){(0,c.p)("ierr",[t,(0,u.zO)(),!0],void 0,e.D.jserrors,a.ee)})),g._A.onerror=function(){return i.origOnerror&&i.origOnerror(...arguments),i.onerrorHandler(...arguments),!1},g._A.addEventListener("unhandledrejection",(t=>{const r=function(e){let t="Unhandled Promise Rejection: ";if(e instanceof Error)try{return e.message=t+e.message,e}catch(t){return e}if(void 0===e)return new Error(t);try{return new Error(t+JSON.stringify(e))}catch(e){return new Error(t)}}(t.reason);(0,c.p)("err",[r,(0,u.zO)(),!1,{unhandledPromiseRejection:1}],void 0,e.D.jserrors,this.ee)}),(0,R.m$)(!1,this.removeOnAbort?.signal)),Be(this.ee),He(this.ee),tt(this.ee),(0,t.OP)(r).xhrWrappable&&ot(this.ee),this.abortHandler=function(e,t,r){if(!t.has(e))throw new TypeError("attempted to get private field on non-instance");return r}(this,dt,ht),this.importAggregator()}onerrorHandler(t,r,n,i,o){try{this.skipNext?this.skipNext-=1:gt(o||new pt(t,r,n),!0,this.ee)}catch(t){try{(0,c.p)("ierr",[t,(0,u.zO)(),!0],void 0,e.D.jserrors,this.ee)}catch(e){}}return"function"==typeof this.origOnerror&&this.origOnerror.apply(this,he()(arguments))}}function ht(){this.removeOnAbort?.abort(),this.abortHandler=void 0}function pt(e,t,r){this.message=e||"Uncaught error with no additional information",this.sourceURL=t,this.line=r}function gt(t,r,n){var i=r?null:(0,u.zO)();(0,c.p)("err",[t,i],void 0,e.D.jserrors,n)}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(lt,"featureName",ut.t);var vt=1,mt="nr@id";function bt(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===g._A?0:(0,fe.X)(e,mt,(function(){return vt++}))}var yt=i(9071);function wt(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return JSON.stringify(e).length}catch(e){return}}}var Et=i(6368);class Tt{constructor(e){this.agentIdentifier=e,this.generateTracePayload=this.generateTracePayload.bind(this),this.shouldGenerateTrace=this.shouldGenerateTrace.bind(this)}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var r=(0,t.DL)(this.agentIdentifier);if(!r)return null;var n=(r.accountID||"").toString()||null,i=(r.agentID||"").toString()||null,o=(r.trustKey||"").toString()||null;if(!n||!i)return null;var a=(0,N.M)(),s=(0,N.Ht)(),c=Date.now(),u={spanId:a,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(u.traceContextParentHeader=this.generateTraceContextParentHeader(a,s),u.traceContextStateHeader=this.generateTraceContextStateHeader(a,c,n,i,o)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(u.newrelicHeader=this.generateTraceHeader(a,s,c,n,i,o)),u}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,o){if(!("function"==typeof g._A?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa(JSON.stringify(a))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var r=!1,n={};if((0,t.Mt)(this.agentIdentifier,"distributed_tracing")&&(n=(0,t.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)r=!0;else if(n.allowed_origins instanceof Array)for(var i=0;i<n.allowed_origins.length;i++){var o=(0,Et.e)(n.allowed_origins[i]);if(e.hostname===o.hostname&&e.protocol===o.protocol&&e.port===o.port){r=!0;break}}return r}isDtEnabled(){var e=(0,t.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,t.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,t.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,t.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var At=i(8675);var Ot=["load","error","abort","timeout"],xt=Ot.length,_t=t.Yu.REQ,St=g._A.XMLHttpRequest;class jt extends m{constructor(r,n){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(r,n,At.t,i),(0,t.OP)(r).xhrWrappable&&(this.dt=new Tt(r),this.handler=(e,t,r,n)=>(0,c.p)(e,t,r,n,this.ee),Pe(this.ee),ot(this.ee),function(r,n,i,o){function a(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=A,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){x(t,e)}),(0,R.m$)(!1)),yt.I||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,R.m$)(!1))}function s(e){this.params={method:e[0]},O(this,e[1]),this.metrics={}}function c(e,n){var i=(0,t.DL)(r);"xpid"in i&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",i.xpid);var a=o.generateTracePayload(this.parsedOrigin);if(a){var s=!1;a.newrelicHeader&&(n.setRequestHeader("newrelic",a.newrelicHeader),s=!0),a.traceContextParentHeader&&(n.setRequestHeader("traceparent",a.traceContextParentHeader),a.traceContextStateHeader&&n.setRequestHeader("tracestate",a.traceContextStateHeader),s=!0),s&&(this.dt=a)}}function f(e,t){var r=this.metrics,i=e[0],o=this;if(r&&i){var a=wt(i);a&&(r.txSize=a)}this.startTime=(0,u.zO)(),this.listener=function(e){try{"abort"!==e.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==e.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof t.onload)&&"function"==typeof o.end)&&o.end(t)}catch(e){try{n.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<xt;s++)t.addEventListener(Ot[s],this.listener,(0,R.m$)(!1))}function d(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function l(e,t){var r=""+bt(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+bt(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function p(){this.endTime=(0,u.zO)()}function v(e,t){t instanceof St&&"load"===e[0]&&n.emit("xhr-load-added",[e[1],e[2]],t)}function m(e,t){t instanceof St&&"load"===e[0]&&n.emit("xhr-load-removed",[e[1],e[2]],t)}function b(e,t,r){t instanceof St&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,u.zO)()))}function y(e,t){this.xhrCbStart&&n.emit("xhr-cb-time",[(0,u.zO)()-this.xhrCbStart,this.onload,t],t)}function w(e){var t,r=e[1]||{};"string"==typeof e[0]?t=e[0]:e[0]&&e[0].url?t=e[0].url:g._A?.URL&&e[0]&&e[0]instanceof URL&&(t=e[0].href),t&&(this.parsedOrigin=(0,Et.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=o.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if("string"==typeof e[0]||g._A?.URL&&e[0]&&e[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}else e[0]&&e[0].headers&&s(e[0].headers,n)&&(this.dt=n);function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function E(e,t){this.params={},this.metrics={},this.startTime=(0,u.zO)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof _t?r=i.url:g._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),O(this,r);var o=(""+(i&&i instanceof _t&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.txSize=wt(n.body)||0}function T(t,r){var n;this.endTime=(0,u.zO)(),this.params||(this.params={}),this.params.status=r?r.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var o={txSize:this.txSize,rxSize:n,duration:(0,u.zO)()-this.startTime};i("xhr",[this.params,o,this.startTime,this.endTime,"fetch"],this,e.D.ajax)}function A(t){var r=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;o<xt;o++)t.removeEventListener(Ot[o],this.listener,!1);r.aborted||(n.duration=(0,u.zO)()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==r.status&&(r.status=0):x(this,t),n.cbTime=this.cbTime,i("xhr",[r,n,this.startTime,this.endTime,"xhr"],this,e.D.ajax))}}function O(e,t){var r=(0,Et.e)(t),n=e.params;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}function x(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?wt(e.response):"text"===r||""===r||void 0===r?wt(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}n.on("new-xhr",a),n.on("open-xhr-start",s),n.on("open-xhr-end",c),n.on("send-xhr-start",f),n.on("xhr-cb-time",d),n.on("xhr-load-added",l),n.on("xhr-load-removed",h),n.on("xhr-resolved",p),n.on("addEventListener-end",v),n.on("removeEventListener-end",m),n.on("fn-end",y),n.on("fetch-before-start",w),n.on("fetch-start",E),n.on("fn-start",b),n.on("fetch-done",T)}(r,this.ee,this.handler,this.dt),this.importAggregator())}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(jt,"featureName",At.t);var Pt=i(6408),Dt=i(2628);function Nt(e,t){!function(e,t){if(t.has(e))throw new TypeError("Cannot initialize the same private elements twice on an object")}(e,t),t.add(e)}const{BST_RESOURCE:Ct,BST_TIMER:It,END:Rt,FEATURE_NAME:kt,FN_END:Lt,FN_START:Ht,ADD_EVENT_LISTENER:zt,PUSH_STATE:Mt,RESOURCE:Bt,RESOURCE_TIMING_BUFFER_FULL:Ft,START:Ut,ORIG_EVENT:Vt}=Dt,Wt="clearResourceTimings";var qt=new WeakSet;class Gt extends m{constructor(t,r){if(super(t,r,kt,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),Nt(this,qt),!g.il)return;const n=this.ee;this.timerEE=He(n),this.rafEE=Be(n),Ve(n),tt(n),n.on(Ht,(function(e,t){e[0]instanceof Vt&&(this.bstStart=(0,u.zO)())})),n.on(Lt,(function(t,r){var i=t[0];i instanceof Vt&&(0,c.p)("bst",[i,r,this.bstStart,(0,u.zO)()],void 0,e.D.sessionTrace,n)})),this.timerEE.on(Ht,(function(e,t,r){this.bstStart=(0,u.zO)(),this.bstType=r})),this.timerEE.on(Lt,(function(t,r){(0,c.p)(It,[r,this.bstStart,(0,u.zO)(),this.bstType],void 0,e.D.sessionTrace,n)})),this.rafEE.on(Ht,(function(){this.bstStart=(0,u.zO)()})),this.rafEE.on(Lt,(function(t,r){(0,c.p)(It,[r,this.bstStart,(0,u.zO)(),"requestAnimationFrame"],void 0,e.D.sessionTrace,n)})),n.on(Mt+Ut,(function(e){this.time=(0,u.zO)(),this.startPath=location.pathname+location.hash})),n.on(Mt+Rt,(function(t){(0,c.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,e.D.sessionTrace,n)})),(0,Pt.W)()?((0,c.p)(Ct,[window.performance.getEntriesByType("resource")],void 0,e.D.sessionTrace,n),function(){var t=new PerformanceObserver(((t,r)=>{var i=t.getEntries();(0,c.p)(Ct,[i],void 0,e.D.sessionTrace,n)}));try{t.observe({entryTypes:["resource"]})}catch(e){}}()):window.performance[Wt]&&window.performance[zt]&&window.performance.addEventListener(Ft,this.onResourceTimingBufferFull,(0,R.m$)(!1)),document.addEventListener("scroll",this.noOp,(0,R.m$)(!1)),document.addEventListener("keypress",this.noOp,(0,R.m$)(!1)),document.addEventListener("click",this.noOp,(0,R.m$)(!1)),this.abortHandler=function(e,t,r){if(!t.has(e))throw new TypeError("attempted to get private field on non-instance");return r}(this,qt,Xt),this.importAggregator()}noOp(e){}onResourceTimingBufferFull(t){if((0,c.p)(Ct,[window.performance.getEntriesByType(Bt)],void 0,e.D.sessionTrace,this.ee),window.performance[Wt])try{window.performance.removeEventListener(Ft,this.onResourceTimingBufferFull,!1)}catch(e){}}}function Xt(){window.performance.removeEventListener(Ft,this.onResourceTimingBufferFull,!1),this.abortHandler=void 0}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(Gt,"featureName",kt);var $t=i(755);function Zt(e,t){!function(e,t){if(t.has(e))throw new TypeError("Cannot initialize the same private elements twice on an object")}(e,t),t.add(e)}const{FEATURE_NAME:Yt,START:Qt,END:Jt,BODY:Kt,CB_END:er,JS_TIME:tr,FETCH:rr,FN_START:nr,CB_START:ir,FN_END:or}=$t;var ar=new WeakSet;class sr extends m{constructor(e,r){if(super(e,r,Yt,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),Zt(this,ar),!g.il)return;if(!(0,t.OP)(e).xhrWrappable)return;try{this.removeOnAbort=new AbortController}catch(e){}let n,i=0;const o=this.ee.get("tracer"),a=Ge(this.ee),s=Ye(this.ee),c=He(this.ee),f=ot(this.ee),d=this.ee.get("events"),l=Pe(this.ee),h=Ve(this.ee),p=$e(this.ee);function v(e,t){h.emit("newURL",[""+window.location,t])}function m(){i++,n=window.location.hash,this[nr]=(0,u.zO)()}function b(){i--,window.location.hash!==n&&v(0,!0);var e=(0,u.zO)();this[tr]=~~this[tr]+e-this[nr],this[or]=e}function y(e,t){e.on(t,(function(){this[t]=(0,u.zO)()}))}this.ee.on(nr,m),s.on(ir,m),a.on(ir,m),this.ee.on(or,b),s.on(er,b),a.on(er,b),this.ee.buffer([nr,or,"xhr-resolved"],this.featureName),d.buffer([nr],this.featureName),c.buffer(["setTimeout"+Jt,"clearTimeout"+Qt,nr],this.featureName),f.buffer([nr,"new-xhr","send-xhr"+Qt],this.featureName),l.buffer([rr+Qt,rr+"-done",rr+Kt+Qt,rr+Kt+Jt],this.featureName),h.buffer(["newURL"],this.featureName),p.buffer([nr],this.featureName),s.buffer(["propagate",ir,er,"executor-err","resolve"+Qt],this.featureName),o.buffer([nr,"no-"+nr],this.featureName),a.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"],this.featureName),y(l,rr+Qt),y(l,rr+"-done"),y(a,"new-jsonp"),y(a,"jsonp-end"),y(a,"cb-start"),h.on("pushState-end",v),h.on("replaceState-end",v),window.addEventListener("hashchange",v,(0,R.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("load",v,(0,R.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("popstate",(function(){v(0,i>1)}),(0,R.m$)(!0,this.removeOnAbort?.signal)),this.abortHandler=function(e,t,r){if(!t.has(e))throw new TypeError("attempted to get private field on non-instance");return r}(this,ar,cr),this.importAggregator()}}function cr(){this.removeOnAbort?.abort(),this.abortHandler=void 0}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(sr,"featureName",Yt);var ur=i(6486);class fr extends m{constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,ur.t,r),this.importAggregator()}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(fr,"featureName",ur.t),new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,N.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new x({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(T),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const r=n(this.agentIdentifier),i=Array.from(this.desiredFeatures);i.sort(((t,r)=>e.p[t.featureName]-e.p[r.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===e.D.pageViewEvent){const e=(0,s.Z)(t.featureName),n=e.every((e=>r[e]));n||(0,v.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat(JSON.stringify(e),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,D.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,v.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,D.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[jt,T,ne,Gt,ue,fr,lt,sr],loaderType:"spa"})})(),window.NRBA=o})();</script>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<title>One America News Network &#8211; Your Nation. Your News.</title>
+		 		 		 		 		 		 		 		 		 		 		 		 		 		 		 		 		 		 		 		 		 		 <meta name='robots' content='max-image-preview:large' />
+<!-- Grow Social by Mediavine v.1.20.3 https://marketplace.mediavine.com/grow-social-pro/ -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="One America News" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://www.oann.com/" />
+<meta property="og:site_name" content="One America News Network" />
+<meta property="og:updated_time" content="2022-12-15T16:02:30+00:00" />
+<meta property="article:published_time" content="2018-03-16T04:55:05+00:00" />
+<meta property="article:modified_time" content="2022-12-15T16:02:30+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="One America News" />
+<meta name="twitter:description" content="" />
+<!-- Grow Social by Mediavine v.1.20.3 https://marketplace.mediavine.com/grow-social-pro/ -->
+<link rel='dns-prefetch' href='//www.oann.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel="alternate" type="application/rss+xml" title="One America News Network &raquo; Feed" href="https://www.oann.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="One America News Network &raquo; Comments Feed" href="https://www.oann.com/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.oann.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://c3.oann.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://c3.oann.com/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='ctct_form_styles-css' href='https://c3.oann.com/wp-content/plugins/constant-contact-forms/assets/css/style.css?ver=1.14.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://c3.oann.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://c3.oann.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.1.20.3.css?ver=1.20.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cmplz-general-css' href='https://c3.oann.com/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=6.4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='magbook-style-css' href='https://c3.oann.com/wp-content/themes/magbook/style.css?ver=6.1.1' type='text/css' media='all' />
+<style id='magbook-style-inline-css' type='text/css'>
+/* Logo for high resolution screen(Use 2X size image) */
+		.custom-logo-link .custom-logo {
+			height: 80px;
+			width: auto;
+		}
+
+		.top-logo-title .custom-logo-link {
+			display: inline-block;
+		}
+
+		.top-logo-title .custom-logo {
+			height: auto;
+			width: 50%;
+		}
+
+		.top-logo-title #site-detail {
+			display: block;
+			text-align: center;
+		}
+		.side-menu-wrap .custom-logo {
+			height: auto;
+			width:100%;
+		}
+
+		@media only screen and (max-width: 767px) {
+			.top-logo-title .custom-logo-link .custom-logo {
+				width: 60%;
+			}
+		}
+
+		@media only screen and (max-width: 480px) {
+			.top-logo-title .custom-logo-link .custom-logo {
+				width: 80%;
+			}
+		}
+			/* Hide Category */
+			.entry-meta .cats-links,
+			.box-layout-1 .cat-box-primary .cat-box-text .cats-links,
+			.widget-cat-box-2 .post:nth-child(2) .cats-links,
+			.main-slider .no-slider .slides li:first-child .slider-text-content .cats-links {
+				display: none;
+				visibility: hidden;
+			}/* Hide Date */
+			.entry-meta .posted-on,
+			.mb-entry-meta .posted-on {
+				display: none;
+				visibility: hidden;
+			}/* Hide Comments */
+			.entry-meta .comments,
+			.mb-entry-meta .comments {
+				display: none;
+				visibility: hidden;
+			}
+		#site-branding #site-title, #site-branding #site-description{
+			clip: rect(1px, 1px, 1px, 1px);
+			position: absolute;
+		}
+li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-5{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-5 a, .widget-cat-tab-box .cat-tab-menu .cl-5{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-5193{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-5193 a, .widget-cat-tab-box .cat-tab-menu .cl-5193{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-34{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-34 a, .widget-cat-tab-box .cat-tab-menu .cl-34{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-4{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-4 a, .widget-cat-tab-box .cat-tab-menu .cl-4{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-2{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-2 a, .widget-cat-tab-box .cat-tab-menu .cl-2{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-3{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-3 a, .widget-cat-tab-box .cat-tab-menu .cl-3{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-12{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-12 a, .widget-cat-tab-box .cat-tab-menu .cl-12{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-6{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-6 a, .widget-cat-tab-box .cat-tab-menu .cl-6{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-7{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-7 a, .widget-cat-tab-box .cat-tab-menu .cl-7{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-8{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-8 a, .widget-cat-tab-box .cat-tab-menu .cl-8{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-9{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-9 a, .widget-cat-tab-box .cat-tab-menu .cl-9{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}.cats-links .cl-10{
+
+					border-color:#9a0000;
+					color:#9a0000;
+
+				}
+				.menu-item-object-category.cl-10 a, .widget-cat-tab-box .cat-tab-menu .cl-10{
+					color:#9a0000;
+
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}li.menu-item-object-category[class*="cl-"] a {
+					color: #222;
+				}
+</style>
+<link rel='stylesheet' id='font-awesome-css' href='https://c3.oann.com/wp-content/themes/magbook/assets/font-awesome/css/font-awesome.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='magbook-responsive-css' href='https://c3.oann.com/wp-content/themes/magbook/css/responsive.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='magbook-google-fonts-css' href='https://www.oann.com/wp-content/fonts/57131661ff54080d4132f1a66d8048a2.css?ver=6.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://c3.oann.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.13.1' id='monsterinsights-frontend-script-js'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/www.oann.com","hash_tracking":"false","ua":"","v4_id":"G-6LWF9Z40Z6"};/* ]]> */
+</script>
+<script type='text/javascript' src='https://c3.oann.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/themes/magbook/js/html5.js?ver=3.7.3' id='html5-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://www.oann.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.oann.com/wp-json/wp/v2/pages/323" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.oann.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://c3.oann.com/wp-includes/wlwmanifest.xml" />
+
+<link rel="canonical" href="https://www.oann.com/" />
+<link rel='shortlink' href='https://www.oann.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.oann.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.oann.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.oann.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.oann.com%2F&#038;format=xml" />
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script type="text/plain" data-service="google-analytics" data-category="statistics">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-98105905-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	<!-- Google AD Manager Scripts -->
+<script type="text/plain" data-service="general" data-category="marketing" async data-cmplz-src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21742901137/OAN/Sidebar_1', [[300, 250]], 'div-gpt-ad-1663871513696-side-1').addService(googletag.pubads());
+    googletag.defineSlot('/21742901137/OAN/Sidebar_2', [[300, 250]], 'div-gpt-ad-1663871513696-side-2').addService(googletag.pubads());
+    googletag.defineSlot('/21742901137/OAN/Sidebar_3', [[300, 250], [300, 600]], 'div-gpt-ad-1663871513696-side-3').addService(googletag.pubads());
+    googletag.defineSlot('/21742901137/OAN/In-Article_728x90_1', [[728, 90], [320, 50]], 'div-gpt-ad-1663871513696-art-1').addService(googletag.pubads());
+    googletag.defineSlot('/21742901137/OAN/In-Article_2', [[728, 90], [320, 50]], 'div-gpt-ad-1663871513696-art-2').addService(googletag.pubads());
+    googletag.defineSlot('/21742901137/OAN/In-Article_3', [[728, 90], [320, 50]], 'div-gpt-ad-1663871513696-art-3').addService(googletag.pubads());
+    googletag.defineSlot('/21742901137/OAN/In-Article_4', [[728, 90], [320, 50]], 'div-gpt-ad-1663871513696-art-4').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<!-- End Google AD Manager Scripts -->
+
+<!-- JS code for Push -->
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+<script src="https://oann-push.s3-us-west-2.amazonaws.com/video.min.js"></script>
+<script src="https://cdn.viblast.com/vb/stable/viblast.js"></script>
+<script src="https://oann-push.s3-us-west-2.amazonaws.com/plugins/vast.vpaid.min.js"></script>
+<script src="https://oann-push.s3-us-west-2.amazonaws.com/nuevo.min.js"></script>
+<script type="text/javascript">
+    var player = videojs('v-7e4f9e52-8345-482e-b96d-4e35ee936e56');
+    player.vastAds({ tagURL :"https://tv.springserve.com/vast/627530?w=640&h=400&cb=0000&url=https://d1cc0p6j4uj4n9.cloudfront.net/26734e6c-b266-4835-9961-af0092add1f3/mp4/7e4f9e52-8345-482e-b96d-4e35ee936e56_Mp4_Avc_Aac_16x9_1280x720p_30Hz_3.5Mbps_qvbr.mp4&us_privacy=1&schain=1", id:"v-7e4f9e52-8345-482e-b96d-4e35ee936e56"});
+</script>
+
+<!-- Meta Pixel Code -->
+<script type="text/plain" data-service="facebook" data-category="marketing">
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2968253139988131');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2968253139988131&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code --><style type="text/css" data-source="Grow Social by Mediavine">
+				@media screen and ( max-width : 720px ) {
+					.dpsp-content-wrapper.dpsp-hide-on-mobile,
+					.dpsp-share-text.dpsp-hide-on-mobile,
+					.dpsp-content-wrapper .dpsp-network-label {
+						display: none;
+					}
+					.dpsp-has-spacing .dpsp-networks-btns-wrapper li {
+						margin:0 2% 10px 0;
+					}
+					.dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count) {
+						max-height: 40px;
+						padding: 0;
+						justify-content: center;
+					}
+					.dpsp-content-wrapper.dpsp-size-small .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 32px;
+					}
+					.dpsp-content-wrapper.dpsp-size-large .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 46px;
+					}
+				}
+			</style>
+	<style></style>
+
+	<style>.cmplz-hidden{display:none!important;}</style>	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" href="https://c3.oann.com/wp-content/uploads/2022/03/cropped-512-1-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://c3.oann.com/wp-content/uploads/2022/03/cropped-512-1-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://c3.oann.com/wp-content/uploads/2022/03/cropped-512-1-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://c3.oann.com/wp-content/uploads/2022/03/cropped-512-1-270x270.jpg" />
+		<style type="text/css" id="wp-custom-css">
+			.top-bar {
+  background-color: #9a0000;
+}
+
+.main-navigation a:hover, .main-navigation a:focus, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a, .main-navigation li.current-menu-ancestor.menu-item-has-children > a::after, .main-navigation li.current-menu-item.menu-item-has-children > a::after, .main-navigation ul li:hover > a::after, .main-navigation li.menu-item-has-children > a:hover::after, .main-navigation li.page_item_has_children > a:hover::after {
+  color: #000f3d;
+}
+
+.widget-cat-box .widget-title, .widget-cat-box-2 .widget-title {
+  color: #000f3d;
+}
+
+.widget-title span {
+  border-bottom: 1px solid #9a0000;
+}
+
+.feature-news-title {
+  border-bottom: 1px solid #9a0000;
+	color: #000f3d;
+}
+
+.tab-menu {
+  background-color: #9a0000;
+}
+
+.go-to-top .icon-bg {
+  background-color: #9a0000;
+}
+
+.breaking-news-header, .news-header-title::after {
+  background-color: #9a0000;
+}
+
+.top-bar-date {
+  padding: 10px 15px;
+}
+
+#sticky-header {
+	border-top: 2px solid #9a0000;
+	align-content
+}
+
+#secondary .widget-title {
+  border-top: 2px solid #000f3d;
+  color: #000f3d;
+}
+
+.box-layout-3 .entry-title, .box-layout-3 .entry-title a {
+  text-shadow: #000 1px 0 7px;
+}
+
+.custom-logo-link .custom-logo {
+  height: auto;
+	width: 290px;
+}
+
+#secondary .widget-title {
+  font-size: 18px;
+  text-transform: none;
+}
+
+.entry-title, .entry-title a {
+  text-transform: capitalize;
+}
+
+.main-slider .no-slider .slider-content .slider-title, .main-slider .no-slider .slider-content .slider-title a {
+  text-transform: capitalize;
+}
+
+.breaking-news-title {
+  text-transform: capitalize;
+}
+.header-search, .header-search-x {
+  width: 30px;
+}
+
+#site-branding {
+  padding: 0 10px 10px 10px;
+}
+
+.logo-bar {
+   padding: 20px 0 10px 0;
+}
+
+p {
+   letter-spacing: 0.01em;
+}
+
+figcaption {
+   font-size: x-small;
+   color: #999;
+}
+
+.entry-content a {
+  text-decoration: none;
+}
+
+.nav-next {
+  display: none;
+}
+
+.cf7Label {
+	float: left;
+	padding-right: 10px;
+	color: #999;
+	margin: 1%;
+}
+
+.meta-nav {
+	font-size: x-large;
+	color: #000;
+}
+
+.navigation.post-navigation .post-title {
+  color: #0C4C8A;
+}
+
+.widget-title .more-btn {
+	margin-top: 8px;
+}
+
+.more-btn {
+	display: none;
+}
+
+.feature-news-box {
+	margin-bottom: 20px;
+}
+
+.custom-logo-link .custom-logo {
+	height: 96px;
+	width: 262px;
+	min-width: 262px;
+}
+
+.image-slider-link a {
+	height: 100%;
+  width: 100%;
+  position: absolute;
+	cursor:pointer;
+	z-index:10;
+}
+
+/* .wp-custom-header {
+  margin: 0 0 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.header-search, .header-search-x {
+		display: block;
+		top: 6px;
+		width: 100%;
+		height: auto;
+}
+} */
+
+@media screen and (max-width: 1200px) {
+  .advertisement-box {
+	display: none;
+  }
+}		</style>
+		</head>
+<body data-cmplz=1 class="home page-template page-template-page-templates page-template-magbook-template page-template-page-templatesmagbook-template-php page page-id-323 wp-custom-logo wp-embed-responsive ctct-magbook fpt-template-magbook boxed-layout  magbook-corporate n-sld">
+	<?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
+<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "540ca37a3e64a8228df87fcb7c55631f"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms --><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#site-content-contain">Skip to content</a>
+	<!-- Masthead ============================================= -->
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-wrap">
+			<a href="https://live.oann.com" target="_blank"></a>
+			<!-- Top Header============================================= -->
+			<div class="top-header">
+
+									<div class="top-bar">
+						<div class="wrap">
+															<div class="top-bar-date">
+									<span>Tuesday, March 21, 2023</span>
+								</div>
+														<nav class="top-bar-menu" role="navigation" aria-label="Topbar Menu">
+								<button class="top-menu-toggle" type="button">
+									<i class="fa fa-bars"></i>
+							  	</button>
+								<ul class="top-menu"><li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-534"><a href="https://www.oann.com/about/">About OAN</a>
+<ul class="sub-menu">
+	<li id="menu-item-533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533"><a href="https://www.oann.com/affiliaterelations/">Affiliate Relations</a></li>
+	<li id="menu-item-531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531"><a href="https://www.oann.com/wheretowatch/">Where to Watch</a></li>
+	<li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a href="https://www.oann.com/presskit/">Press</a></li>
+	<li id="menu-item-999" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-999 cl-6"><a href="https://www.oann.com/category/press-release/">Press Releases</a></li>
+	<li id="menu-item-532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-532"><a href="https://www.oann.com/certifications/">Certifications</a></li>
+</ul>
+</li>
+<li id="menu-item-538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-538"><a href="https://www.oann.com/schedule/">TV Schedule</a></li>
+<li id="menu-item-575" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-575"><a href="/category/shows/">Shows</a>
+<ul class="sub-menu">
+	<li id="menu-item-565" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-565"><a href="https://www.oann.com/shows/realamerica/">Real America</a></li>
+	<li id="menu-item-564" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-564"><a href="https://www.oann.com/shows/infocus/">In Focus</a></li>
+	<li id="menu-item-5835" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-5835"><a href="https://www.oann.com/shows/tippingpoint/">Tipping Point</a></li>
+	<li id="menu-item-566" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-566"><a href="https://www.oann.com/shows/weeklybriefing/">Weekly Briefing</a></li>
+	<li id="menu-item-67478" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-67478"><a href="https://www.oann.com/shows/alison-at-large/">Alison At Large</a></li>
+	<li id="menu-item-67479" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-67479"><a href="https://www.oann.com/shows/nights/">Nights</a></li>
+</ul>
+</li>
+<li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-570"><a href="https://www.oann.com/careers/">Careers</a></li>
+<li id="menu-item-755" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-755"><a href="https://www.oann.com/contact/">Contact</a></li>
+<li id="menu-item-539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-539"><a href="https://store.oann.com">Shop</a></li>
+<li id="menu-item-107172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107172"><a href="https://www.oann.com/search/">Search</a></li>
+</ul>							</nav> <!-- end .top-bar-menu -->
+							<div class="header-social-block">	<div class="social-links clearfix">
+	<ul><li id="menu-item-196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-196"><a href="https://www.facebook.com/OneAmericaNewsNetwork"><span class="screen-reader-text">facebook</span></a></li>
+<li id="menu-item-197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-197"><a href="https://twitter.com/OANN"><span class="screen-reader-text">twitter</span></a></li>
+</ul>	</div><!-- end .social-links -->
+	</div><!-- end .header-social-block -->
+						</div> <!-- end .wrap -->
+					</div> <!-- end .top-bar -->
+
+				<!-- Main Header============================================= -->
+				<div class="logo-bar"> <div class="wrap"> <div id="site-branding"><a href="https://www.oann.com/" class="custom-logo-link" rel="home" aria-current="page"><img width="262" height="96" src="https://c3.oann.com/wp-content/uploads/2022/12/OAN-weblogo-top.jpg" class="custom-logo" alt="One America News logo" decoding="async" /></a><div id="site-detail">				<h1 id="site-title"> 				<a href="https://www.oann.com/" title="One America News Network" rel="home"> One America News Network </a>
+								</h1>  <!-- end .site-title -->
+									<div id="site-description"> Your Nation. Your News. </div> <!-- end #site-description -->
+
+		</div></div>				<div class="advertisement-box">
+					<div class="advertisement-wrap" id="block-28"><figure class="wp-block-image size-full is-resized"><a href="https://live.oann.com/" rel=" noreferrer noopener"><img decoding="async" loading="lazy" src="https://c3.oann.com/wp-content/uploads/2023/01/oan-live-topBanner7day.gif" alt="Watch Midtern Election coverage on OAN Live" class="wp-image-41861" width="768" height="90"></a></figure></div>				</div> <!-- end .advertisement-box -->
+					</div><!-- end .wrap -->
+	</div><!-- end .logo-bar -->
+
+
+				<div id="sticky-header" class="clearfix">
+					<div class="wrap">
+						<div class="main-header clearfix">
+
+							<!-- Main Nav ============================================= -->
+									<div id="site-branding">
+			<a href="https://www.oann.com/" class="custom-logo-link" rel="home" aria-current="page"><img width="262" height="96" src="https://c3.oann.com/wp-content/uploads/2022/12/OAN-weblogo-top.jpg" class="custom-logo" alt="One America News logo" decoding="async" /></a>		</div> <!-- end #site-branding -->
+									<nav id="site-navigation" class="main-navigation clearfix" role="navigation" aria-label="Main Menu">
+
+									<button class="menu-toggle" type="button" aria-controls="primary-menu" aria-expanded="false">
+										<span class="line-bar"></span>
+									</button><!-- end .menu-toggle -->
+									<ul id="primary-menu" class="menu nav-menu"><li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-323 current_page_item menu-item-316"><a href="https://www.oann.com/" aria-current="page">Home</a></li>
+<li id="menu-item-30938" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30938 cl-3"><a href="https://www.oann.com/category/newsroom/">Top News</a></li>
+<li id="menu-item-57165" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57165 cl-5193"><a href="https://www.oann.com/category/commentary/">Guest Commentary</a></li>
+<li id="menu-item-326" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-326 cl-5"><a href="https://www.oann.com/category/business/">Business</a></li>
+<li id="menu-item-739" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-739 cl-9"><a href="https://www.oann.com/category/tech/">Tech</a></li>
+<li id="menu-item-373" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-373 cl-4"><a href="https://www.oann.com/category/entertainment/">Entertainment</a></li>
+<li id="menu-item-327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-327 cl-8"><a href="https://www.oann.com/category/sports/">Sports</a></li>
+<li id="menu-item-374" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-374 cl-10"><a href="https://www.oann.com/category/video/">Video</a>
+<ul class="sub-menu">
+	<li id="menu-item-7283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7283 cl-2"><a href="https://www.oann.com/category/video/oan-contribution/">OAN News</a></li>
+	<li id="menu-item-7460" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7460"><a href="https://www.oann.com/shows/realamerica/">Real America</a></li>
+	<li id="menu-item-7461" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7461"><a href="https://www.oann.com/shows/infocus/">In Focus</a></li>
+	<li id="menu-item-7462" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7462"><a href="https://www.oann.com/shows/tippingpoint/">Tipping Point</a></li>
+	<li id="menu-item-7464" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7464"><a href="https://www.oann.com/shows/weeklybriefing/">Weekly Briefing</a></li>
+	<li id="menu-item-67476" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-67476"><a href="https://www.oann.com/shows/alison-at-large/">Alison At Large</a></li>
+	<li id="menu-item-67477" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-67477"><a href="https://www.oann.com/shows/nights/">Nights</a></li>
+	<li id="menu-item-5882" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5882 cl-12"><a href="https://www.oann.com/category/video/pearsonsharpreports/">Pearson Sharp Reports</a></li>
+</ul>
+</li>
+<li id="menu-item-375" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-375"><a href="https://live.oann.com">LIVE</a></li>
+</ul>								</nav> <!-- end #site-navigation -->
+															<button id="search-toggle" type="button" class="header-search" type="button"></button>
+								<div id="search-box" class="clearfix">
+									<form class="search-form" action="https://www.oann.com/" method="get">
+			<label class="screen-reader-text">Search &hellip;</label>
+		<input type="search" name="s" class="search-field" placeholder="Search &hellip;" autocomplete="off" />
+		<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+</form> <!-- end .search-form -->								</div>  <!-- end #search-box -->
+
+						</div><!-- end .main-header -->
+					</div> <!-- end .wrap -->
+				</div><!-- end #sticky-header -->
+
+							</div><!-- end .top-header -->
+					</div><!-- end .header-wrap -->
+
+		<!-- Breaking News ============================================= -->
+				<div class="breaking-news-box">
+			<div class="wrap">
+				<div class="breaking-news-wrap">
+										<div class="breaking-news-header">
+						<h2 class="news-header-title">Breaking News</h2>
+					</div>
+										<div class="breaking-news-slider">
+						<ul class="slides">
+
+			<li>
+				<h2 class="breaking-news-title">
+					<a title="Idaho aims to reinstate the firing squad" href="https://www.oann.com/newsroom/idaho-aims-to-reinstate-the-firing-squad/">Idaho aims to reinstate the firing squad</a>
+				</h2>
+				<!-- end.breaking-news-title -->
+			</li>
+
+
+			<li>
+				<h2 class="breaking-news-title">
+					<a title="LAUSD schools close" href="https://www.oann.com/newsroom/lausd-schools-close/">LAUSD schools close</a>
+				</h2>
+				<!-- end.breaking-news-title -->
+			</li>
+
+
+			<li>
+				<h2 class="breaking-news-title">
+					<a title="5 Connecticut kids killed in car accident on NY trip" href="https://www.oann.com/newsroom/5-connecticut-kids-killed-in-car-accident-on-ny-trip/">5 Connecticut kids killed in car accident on NY trip</a>
+				</h2>
+				<!-- end.breaking-news-title -->
+			</li>
+
+
+			<li>
+				<h2 class="breaking-news-title">
+					<a title="Manhattan DA issues response to GOP on possible Trump indictment" href="https://www.oann.com/newsroom/manhattan-da-issues-response-to-gop-on-possible-trump-indictment/">Manhattan DA issues response to GOP on possible Trump indictment</a>
+				</h2>
+				<!-- end.breaking-news-title -->
+			</li>
+
+
+			<li>
+				<h2 class="breaking-news-title">
+					<a title="Xi invites Putin to China" href="https://www.oann.com/newsroom/xi-invites-putin-to-china/">Xi invites Putin to China</a>
+				</h2>
+				<!-- end.breaking-news-title -->
+			</li>
+
+
+			<li>
+				<h2 class="breaking-news-title">
+					<a title="FTC continues to investigate Amazon" href="https://www.oann.com/newsroom/ftc-continues-to-investigate-amazon/">FTC continues to investigate Amazon</a>
+				</h2>
+				<!-- end.breaking-news-title -->
+			</li>
+
+
+			<li>
+				<h2 class="breaking-news-title">
+					<a title="DeSantis bashes ‘Soros-funded’ Manhattan DA" href="https://www.oann.com/newsroom/desantis-bashes-soros-funded-manhattan-da/">DeSantis bashes ‘Soros-funded’ Manhattan DA</a>
+				</h2>
+				<!-- end.breaking-news-title -->
+			</li>
+
+		</ul>
+			</div> <!-- end .breaking-news-slider -->
+					</div>
+					<!-- end .breaking-news-wrap -->
+				</div>
+				<!-- end .wrap -->
+			</div>
+			<!-- end .breaking-news-box -->
+		<!-- Main Slider ============================================= -->
+
+		<div class="main-slider clearfix">
+		<div class="no-slider"><ul class="slides"><li><div class="image-slider" title="Idaho aims to reinstate the firing squad" style="background-image:url('https://c3.oann.com/wp-content/uploads/2023/03/GettyImages-92954621.webp')"><div class="image-slider-link"><a href="https://www.oann.com/newsroom/idaho-aims-to-reinstate-the-firing-squad/"><span></span></a></div><article class="slider-content"><div class="slider-text-content"><h2 class="slider-title"><a href="https://www.oann.com/newsroom/idaho-aims-to-reinstate-the-firing-squad/" title="Idaho aims to reinstate the firing squad" rel="bookmark">Idaho aims to reinstate the firing squad</a></h2><!-- .slider-title --><p class="slider-text">The Idaho State Senate passed a bill on Monday aimed at reviving the firing squad as a death penalty option.</p><!-- end .slider-text --></div><!-- end .slider-text-content --></article><!-- end .slider-content --> </div><!-- end .image-slider -->
+				</li><li><div class="image-slider" title="LAUSD schools close" style="background-image:url('https://c3.oann.com/wp-content/uploads/2023/03/GettyImages-1475094136.webp')"><div class="image-slider-link"><a href="https://www.oann.com/newsroom/lausd-schools-close/"><span></span></a></div><article class="slider-content"><div class="slider-text-content"><h2 class="slider-title"><a href="https://www.oann.com/newsroom/lausd-schools-close/" title="LAUSD schools close" rel="bookmark">LAUSD schools close</a></h2><!-- .slider-title --><p class="slider-text">A three-day strike by a Los Angeles union representing school staffs has disrupted classes, prompting the Los Angeles Unified School District (LAUSD) to close down.</p><!-- end .slider-text --></div><!-- end .slider-text-content --></article><!-- end .slider-content --> </div><!-- end .image-slider -->
+				</li><li><div class="image-slider" title="5 Connecticut kids killed in car accident on NY trip" style="background-image:url('https://c3.oann.com/wp-content/uploads/2023/03/car-accident.webp')"><div class="image-slider-link"><a href="https://www.oann.com/newsroom/5-connecticut-kids-killed-in-car-accident-on-ny-trip/"><span></span></a></div><article class="slider-content"><div class="slider-text-content"><h2 class="slider-title"><a href="https://www.oann.com/newsroom/5-connecticut-kids-killed-in-car-accident-on-ny-trip/" title="5 Connecticut kids killed in car accident on NY trip" rel="bookmark">5 Connecticut kids killed in car accident on NY trip</a></h2><!-- .slider-title --><p class="slider-text">Authorities are looking into a horrific car accident that happened over the weekend in Westchester County, New York, that claimed the lives of five Connecticut children.</p><!-- end .slider-text --></div><!-- end .slider-text-content --></article><!-- end .slider-content --> </div><!-- end .image-slider -->
+				</li><li><div class="image-slider" title="Manhattan DA issues response to GOP on possible Trump indictment" style="background-image:url('https://c3.oann.com/wp-content/uploads/2023/03/GettyImages-1243046361.webp')"><div class="image-slider-link"><a href="https://www.oann.com/newsroom/manhattan-da-issues-response-to-gop-on-possible-trump-indictment/"><span></span></a></div><article class="slider-content"><div class="slider-text-content"><h2 class="slider-title"><a href="https://www.oann.com/newsroom/manhattan-da-issues-response-to-gop-on-possible-trump-indictment/" title="Manhattan DA issues response to GOP on possible Trump indictment" rel="bookmark">Manhattan DA issues response to GOP on possible Trump indictment</a></h2><!-- .slider-title --><p class="slider-text">Manhattan District Attorney Alvin Bragg’s office has issued a statement responding to House Republicans who had demanded that Bragg testifies before Congress.</p><!-- end .slider-text --></div><!-- end .slider-text-content --></article><!-- end .slider-content --> </div><!-- end .image-slider -->
+				</li><li><div class="image-slider" title="Xi invites Putin to China" style="background-image:url('https://c3.oann.com/wp-content/uploads/2023/03/GettyImages-1238175215.webp')"><div class="image-slider-link"><a href="https://www.oann.com/newsroom/xi-invites-putin-to-china/"><span></span></a></div><article class="slider-content"><div class="slider-text-content"><h2 class="slider-title"><a href="https://www.oann.com/newsroom/xi-invites-putin-to-china/" title="Xi invites Putin to China" rel="bookmark">Xi invites Putin to China</a></h2><!-- .slider-title --><p class="slider-text">During the Chinese leader’s visit to Moscow, he reportedly invited Russian President Vladimir Putin to visit China.</p><!-- end .slider-text --></div><!-- end .slider-text-content --></article><!-- end .slider-content --> </div><!-- end .image-slider -->
+				</li>			</ul><!-- end .slides -->
+		</div> <!-- end .layer-slider -->
+			</div> <!-- end .main-slider -->
+	</header> <!-- end #masthead -->
+
+	<!-- Main Page Start ============================================= -->
+	<div id="site-content-contain" class="site-content-contain">
+		<div id="content" class="site-content">
+				<div class="feature-news-box">
+						<div class="wrap">
+
+							<div class="feature-news-header">
+								<h2 class="feature-news-title"><a href="/category/video/oan-contribution" style="color: #000f3d;">More from OAN</a></h2>
+							</div>
+
+							<div class="feature-news-slider">
+								<ul class="slides">
+																		<li>
+										<article id="post-190711" class="post-190711 post type-post status-publish format-standard has-post-thumbnail hentry category-oan-contribution tag-diversity-equity-and-inclusion tag-free-speech tag-stella-escobedo tag-the-federalist tag-tristan-justice grow-content-body">
+											<a href="https://www.oann.com/video/oan-contribution/diversity-equity-and-inclusion-at-colleges-and-universities-raises-concerns-of-free-speech/">
+											<figure class="post-featured-image"></a>
+												<a title="Diversity, equity and inclusion at colleges and universities raises concerns of free speech" href="https://www.oann.com/video/oan-contribution/diversity-equity-and-inclusion-at-colleges-and-universities-raises-concerns-of-free-speech/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/2022/12/GettyImages-143309512-700x496.webp" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="LOS ANGELES, CA - APRIL 23: A student walks near Royce Hall on the campus of UCLA on April 23, 2012 in Los Angeles, California. According to reports, half of recent college graduates with bachelor&#039;s degrees are finding themselves underemployed or jobless. (Photo by Kevork Djansezian/Getty Images)" decoding="async" loading="lazy" /></a>
+																							</figure>
+											<!-- end .post-featured-image -->
+																						<header class="entry-header">
+												<h2 class="entry-title">
+													<a title="Diversity, equity and inclusion at colleges and universities raises concerns of free speech" href="https://www.oann.com/video/oan-contribution/diversity-equity-and-inclusion-at-colleges-and-universities-raises-concerns-of-free-speech/">Diversity, equity and inclusion at colleges and universities raises concerns of free speech</a>
+												</h2>
+												<!-- end.entry-title -->
+																							</header>
+											<!-- end .entry-header -->
+										</article>
+										<!-- end .post -->
+									</li>
+																	<li>
+										<article id="post-190708" class="post-190708 post type-post status-publish format-standard has-post-thumbnail hentry category-oan-contribution tag-alicia-summers tag-president-of-elite-group-retirement-services tag-randy-sevcik tag-the-fed grow-content-body">
+											<a href="https://www.oann.com/video/oan-contribution/one-on-one-with-randy-sevcik-president-of-elite-group-retirement-services/">
+											<figure class="post-featured-image"></a>
+												<a title="One-on-one with Randy Sevcik, President of Elite Group Retirement Services" href="https://www.oann.com/video/oan-contribution/one-on-one-with-randy-sevcik-president-of-elite-group-retirement-services/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/2022/12/GettyImages-1237068386-e1671575765546-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="A picture taken on December 7, 2021 in Istanbul shows US dollars banknotes. - Turkey&#039;s annual inflation rate jumped over 20 percent in November, official data showed on December 3, 2021, after a currency crisis last month in which the Turkish lira hit record lows against the dollar. (Photo by Ozan KOSE / AFP) (Photo by OZAN KOSE/AFP via Getty Images)" decoding="async" loading="lazy" /></a>
+																							</figure>
+											<!-- end .post-featured-image -->
+																						<header class="entry-header">
+												<h2 class="entry-title">
+													<a title="One-on-one with Randy Sevcik, President of Elite Group Retirement Services" href="https://www.oann.com/video/oan-contribution/one-on-one-with-randy-sevcik-president-of-elite-group-retirement-services/">One-on-one with Randy Sevcik, President of Elite Group Retirement Services</a>
+												</h2>
+												<!-- end.entry-title -->
+																							</header>
+											<!-- end .entry-header -->
+										</article>
+										<!-- end .post -->
+									</li>
+																	<li>
+										<article id="post-190510" class="post-190510 post type-post status-publish format-standard has-post-thumbnail hentry category-oan-contribution tag-alvin-bragg tag-house-gop-conference tag-manhattan-district-attorney-alvin-bragg tag-president-trump grow-content-body">
+											<a href="https://www.oann.com/video/oan-contribution/gop-house-conference-chair-prosecutor-persecution-of-trump-helps-his-polls/">
+											<figure class="post-featured-image"></a>
+												<a title="GOP House conference chair: Prosecutor persecution of Trump helps his polls" href="https://www.oann.com/video/oan-contribution/gop-house-conference-chair-prosecutor-persecution-of-trump-helps-his-polls/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/2023/03/GettyImages-1456196862-e1679432208261-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="NEW YORK, NEW YORK - JANUARY 13: Manhattan District Attorney Alvin Bragg speaks at a press conference after the sentencing hearing of the Trump Organization at the New York Supreme Court on January 13, 2023 in New York City. A jury last month found the Trump Organization guilty and convicted the organization on charges of conspiracy, criminal tax fraud, falsifying business records, and filing false tax returns in a scheme to defraud the state. The organization was sentenced to pay the maximum fine of $1.6 million dollars. The case is unrelated to the civil case being brought by NY Attorney General Letitia James against the Trump Organization. (Photo by Michael M. Santiago/Getty Images)" decoding="async" loading="lazy" /></a>
+																							</figure>
+											<!-- end .post-featured-image -->
+																						<header class="entry-header">
+												<h2 class="entry-title">
+													<a title="GOP House conference chair: Prosecutor persecution of Trump helps his polls" href="https://www.oann.com/video/oan-contribution/gop-house-conference-chair-prosecutor-persecution-of-trump-helps-his-polls/">GOP House conference chair: Prosecutor persecution of Trump helps his polls</a>
+												</h2>
+												<!-- end.entry-title -->
+																							</header>
+											<!-- end .entry-header -->
+										</article>
+										<!-- end .post -->
+									</li>
+																	<li>
+										<article id="post-189988" class="post-189988 post type-post status-publish format-standard has-post-thumbnail hentry category-oan-contribution tag-2024-election tag-chanel-rion tag-gender-mutilation tag-gop tag-transgender-battle grow-content-body">
+											<a href="https://www.oann.com/video/oan-contribution/gop-leans-into-transgender-battle-leading-up-to-2024-election/">
+											<figure class="post-featured-image"></a>
+												<a title="GOP leans into transgender battle leading up to 2024 election" href="https://www.oann.com/video/oan-contribution/gop-leans-into-transgender-battle-leading-up-to-2024-election/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/2022/09/GettyImages-1243386476-e1679358988680-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="WASHINGTON, DC - SEPTEMBER 20: Rep. Marjorie Taylor Greene (R-GA) speaks during a news conference on Capitol Hill September 20, 2022 in Washington, DC. Greene discussed her legislation named the Protect Childrens Innocence Act, which would prohibit gender-affirming healthcare to transgender people under the age of 18. (Photo by Drew Angerer/Getty Images)" decoding="async" loading="lazy" /></a>
+																							</figure>
+											<!-- end .post-featured-image -->
+																						<header class="entry-header">
+												<h2 class="entry-title">
+													<a title="GOP leans into transgender battle leading up to 2024 election" href="https://www.oann.com/video/oan-contribution/gop-leans-into-transgender-battle-leading-up-to-2024-election/">GOP leans into transgender battle leading up to 2024 election</a>
+												</h2>
+												<!-- end.entry-title -->
+																							</header>
+											<!-- end .entry-header -->
+										</article>
+										<!-- end .post -->
+									</li>
+																	<li>
+										<article id="post-189979" class="post-189979 post type-post status-publish format-standard has-post-thumbnail hentry category-oan-contribution tag-george-w-bush tag-iraqi-war tag-rachel-acenas grow-content-body">
+											<a href="https://www.oann.com/video/oan-contribution/20-years-since-the-u-s-led-invasion-of-iraq/">
+											<figure class="post-featured-image"></a>
+												<a title="20 Years Since the U.S.-Led Invasion of Iraq" href="https://www.oann.com/video/oan-contribution/20-years-since-the-u-s-led-invasion-of-iraq/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/2023/03/GettyImages-1442090443-e1679361002408-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="DALLAS, TEXAS - NOVEMBER 16: Former President George W. Bush speaks during the Struggle for Freedom Conference at George W. Bush Presidential Center on November 16, 2022 in Dallas, Texas. The talk is part of a series hosted by the George W. Bush Institute. (Photo by Richard Rodriguez/Getty Images)" decoding="async" loading="lazy" /></a>
+																							</figure>
+											<!-- end .post-featured-image -->
+																						<header class="entry-header">
+												<h2 class="entry-title">
+													<a title="20 Years Since the U.S.-Led Invasion of Iraq" href="https://www.oann.com/video/oan-contribution/20-years-since-the-u-s-led-invasion-of-iraq/">20 Years Since the U.S.-Led Invasion of Iraq</a>
+												</h2>
+												<!-- end.entry-title -->
+																							</header>
+											<!-- end .entry-header -->
+										</article>
+										<!-- end .post -->
+									</li>
+																	<li>
+										<article id="post-189967" class="post-189967 post type-post status-publish format-standard has-post-thumbnail hentry category-oan-contribution tag-john-hines tag-manhattan-district-attorney tag-manhattan-district-attorney-alvin-bragg tag-national-legal-and-policy-center tag-paul-kamenar grow-content-body">
+											<a href="https://www.oann.com/video/oan-contribution/potential-trump-indictment-likely-a-clear-case/">
+											<figure class="post-featured-image"></a>
+												<a title="Potential Trump indictment likely a &#8216;clear case&#8217;" href="https://www.oann.com/video/oan-contribution/potential-trump-indictment-likely-a-clear-case/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportTechnologyNews/tagreuters.com2023binary_LYNXMPEJ2G0J5-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+																							</figure>
+											<!-- end .post-featured-image -->
+																						<header class="entry-header">
+												<h2 class="entry-title">
+													<a title="Potential Trump indictment likely a &#8216;clear case&#8217;" href="https://www.oann.com/video/oan-contribution/potential-trump-indictment-likely-a-clear-case/">Potential Trump indictment likely a &#8216;clear case&#8217;</a>
+												</h2>
+												<!-- end.entry-title -->
+																							</header>
+											<!-- end .entry-header -->
+										</article>
+										<!-- end .post -->
+									</li>
+																</ul>
+							</div>
+							<!-- end .feature-news-slider -->
+						</div>
+						<!-- end .wrap -->
+		</div> <!-- end .feature-news-box -->
+		<div class="wrap">
+		<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+			<section id="block-46" class="widget widget_block"><p><div id='div-gpt-ad-1663871513696-art-1' style='min-width: 320px; min-height: 50px; text-align: center;'>
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1663871513696-art-1'); });
+	</script>
+</div>
+</p>
+</section><!-- Category Box Widget ============================================= --><section id="magbook_category_box_widgets-2" class="widget widget-cat-box">						<div class="box-layout-1">
+							<h2 class="widget-title">
+											<a href="/category/business/" style="color: #000f3d;"><span>Business</span></a>
+
+					<a href="/category/business/" class="more-btn">Read More</a>
+									</h2><!-- end .widget-title -->
+							<div class="cat-box-wrap clearfix">
+										<div class="cat-box-primary">
+ 						<article id="post-190051" class="post-190051 post type-post status-publish format-standard has-post-thumbnail hentry category-business grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="EU proposes exception for e-fuel combustion engines from 2035" href="https://www.oann.com/business/eu-proposes-exception-for/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportBusinessNews/tagreuters.com2023binary_LYNXMPEJ2K0BN-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="EU proposes exception for e-fuel combustion engines from 2035" href="https://www.oann.com/business/eu-proposes-exception-for/">EU proposes exception for e-fuel combustion engines from 2035</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>BERLIN/BRUSSELS (Reuters) &#8211; The European Commission has proposed allowing the sale of new cars with internal combustion engines after 2035 if they&hellip; </p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+											<div class="cat-box-secondary">
+ 						<article id="post-190060" class="post-190060 post type-post status-publish format-standard has-post-thumbnail hentry category-business grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="EV charger makers brace for slowdown as new Made In America rules kick in" href="https://www.oann.com/business/ev-charger-makers-brace/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportBusinessNews/tagreuters.com2023binary_LYNXMPEJ2K0AZ-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="EV charger makers brace for slowdown as new Made In America rules kick in" href="https://www.oann.com/business/ev-charger-makers-brace/">EV charger makers brace for slowdown as new Made In America rules kick in</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>By Abhirup Roy and Hyunjoo Jin SAN FRANCISCO (Reuters) &#8211; Manufacturers and operators of electric vehicle chargers in the United States are&hellip; </p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+											<div class="cat-box-secondary">
+ 						<article id="post-190069" class="post-190069 post type-post status-publish format-standard has-post-thumbnail hentry category-business grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="Huge Phillips 66 biofuels project will test the industry’s green promises" href="https://www.oann.com/business/huge-phillips-66-biofuels/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportBusinessNews/tagreuters.com2023binary_LYNXMPEJ2K0BY-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="Huge Phillips 66 biofuels project will test the industry’s green promises" href="https://www.oann.com/business/huge-phillips-66-biofuels/">Huge Phillips 66 biofuels project will test the industry’s green promises</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>By Laila Kearney RODEO, California (Reuters) &#8211; In the oldest refining town in the American West, Phillips 66 is promising a greener&hellip; </p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+											<div class="cat-box-secondary">
+ 						<article id="post-190090" class="post-190090 post type-post status-publish format-standard has-post-thumbnail hentry category-business grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="Switzerland&#8217;s secretive Credit Suisse rescue rocks global finance" href="https://www.oann.com/business/switzerlands-secretive-credit-suisse/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportBusinessNews/tagreuters.com2023binary_LYNXMPEJ2K055-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="Switzerland&#8217;s secretive Credit Suisse rescue rocks global finance" href="https://www.oann.com/business/switzerlands-secretive-credit-suisse/">Switzerland&#8217;s secretive Credit Suisse rescue rocks global finance</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>By John O&#8217;Donnell and Andres Gonzalez ZURICH (Reuters) -Days before a hastily convened press conference late on Sunday that would make the&hellip; </p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+											<div class="cat-box-secondary">
+ 						<article id="post-190099" class="post-190099 post type-post status-publish format-standard has-post-thumbnail hentry category-business grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="Shares rise after Credit Suisse deal, but bank &#8216;whack-a-mole&#8217; not over" href="https://www.oann.com/business/shares-rise-after-credit/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportBusinessNews/tagreuters.com2023binary_LYNXMPEJ2K00W-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="Shares rise after Credit Suisse deal, but bank &#8216;whack-a-mole&#8217; not over" href="https://www.oann.com/business/shares-rise-after-credit/">Shares rise after Credit Suisse deal, but bank &#8216;whack-a-mole&#8217; not over</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>By Amanda Cooper and Tom Westbrook LONDON/SINGAPORE (Reuters) -Global shares rose on Tuesday, after the rescue of Credit Suisse arrested a rout&hellip; </p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+										</div>
+				<!-- end .cat-box-wrap -->
+			</div>
+			<!-- end .box-layout-1 -->
+	</section><!-- end .widget-cat-box --><section id="block-47" class="widget widget_block"><p><div id='div-gpt-ad-1663871513696-art-2' style='min-width: 320px; min-height: 50px; text-align: center;'>
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1663871513696-art-2'); });
+	</script>
+</div>
+</p>
+</section><!-- Category Box Widget Two Layout-1 ============================================= --><section id="magbook_category_box_two_column_widgets-2" class="widget widget-cat-box-2">
+
+			<div class="box-two-layout-1">
+				<div class="cat-box-two-wrap clearfix">
+					<div class="widget widget-cat-box-left">
+													<h2 class="widget-title">
+																	<a href="/category/entertainment/" style="color: #000f3d;"><span>Entertainment</span></a>
+
+								<a href="/category/entertainment/" class="more-btn">Read More</a>
+															</h2>
+						<div class="cat-box-two-primary">							<article id="post-190183" class="post-190183 post type-post status-publish format-standard has-post-thumbnail hentry category-entertainment grow-content-body">
+																	<div class="cat-box-two-image">
+										<figure class="post-featured-image">
+											<a title="&#8216;Succession&#8217; star Brian Cox gets into character at final season premiere" href="https://www.oann.com/entertainment/succession-star-brian-cox/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportEntertainmentNews/tagreuters.com2023binary_LYNXMPEJ2K0BU-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+										</figure> <!-- end .post-featured-image -->
+									</div> <!-- end .cat-box-two-image -->
+																<div class="cat-box-two-text">
+									<header class="entry-header">
+																					<h2 class="entry-title">
+												<a title="&#8216;Succession&#8217; star Brian Cox gets into character at final season premiere" href="https://www.oann.com/entertainment/succession-star-brian-cox/">&#8216;Succession&#8217; star Brian Cox gets into character at final season premiere</a>
+											</h2> <!-- end.entry-title -->
+																				</header>
+									<!-- end .entry-header -->
+									<div class="entry-content">
+										<p>By Alicia Powell NEW YORK (Reuters) &#8211; &#8220;Succession&#8221; actor Brian Cox briefly turned into his commanding patriarchal character Logan Roy on the&hellip; </p>
+									</div>
+									<!-- end .entry-content -->
+								</div> <!-- end .cat-box-text -->
+							</article> <!-- end .post -->
+							</div><div class="cat-box-two-secondary">							<article id="post-190192" class="post-190192 post type-post status-publish format-standard has-post-thumbnail hentry category-entertainment grow-content-body">
+																	<div class="cat-box-two-image">
+										<figure class="post-featured-image">
+											<a title="Screening of &#8220;Winnie the Pooh&#8221; horror film cancelled in Hong Kong" href="https://www.oann.com/entertainment/screening-of-winnie-the/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportEntertainmentNews/tagreuters.com2023binary_LYNXMPEJ2K079-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+										</figure> <!-- end .post-featured-image -->
+									</div> <!-- end .cat-box-two-image -->
+																<div class="cat-box-two-text">
+									<header class="entry-header">
+																					<h2 class="entry-title">
+												<a title="Screening of &#8220;Winnie the Pooh&#8221; horror film cancelled in Hong Kong" href="https://www.oann.com/entertainment/screening-of-winnie-the/">Screening of &#8220;Winnie the Pooh&#8221; horror film cancelled in Hong Kong</a>
+											</h2> <!-- end.entry-title -->
+																				</header>
+									<!-- end .entry-header -->
+									<div class="entry-content">
+										<p>By Jessie Pang and Farah Master HONG KONG (Reuters) &#8211; The screening of &#8220;Winnie the Pooh: Blood and Honey&#8221;, a British slasher&hellip; </p>
+									</div>
+									<!-- end .entry-content -->
+								</div> <!-- end .cat-box-text -->
+							</article> <!-- end .post -->
+							</div><div class="cat-box-two-secondary">							<article id="post-181030" class="post-181030 post type-post status-publish format-standard has-post-thumbnail hentry category-entertainment tag-updated grow-content-body">
+																	<div class="cat-box-two-image">
+										<figure class="post-featured-image">
+											<a title="Offbeat multiverse movie &#8216;Everything Everywhere&#8217; dominates the Oscars" href="https://www.oann.com/entertainment/offbeat-multiverse-movie-everything/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportEntertainmentNews/tagreuters.com2023binary_LYNXMPEJ2C040-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+										</figure> <!-- end .post-featured-image -->
+									</div> <!-- end .cat-box-two-image -->
+																<div class="cat-box-two-text">
+									<header class="entry-header">
+																					<h2 class="entry-title">
+												<a title="Offbeat multiverse movie &#8216;Everything Everywhere&#8217; dominates the Oscars" href="https://www.oann.com/entertainment/offbeat-multiverse-movie-everything/">Offbeat multiverse movie &#8216;Everything Everywhere&#8217; dominates the Oscars</a>
+											</h2> <!-- end.entry-title -->
+																				</header>
+									<!-- end .entry-header -->
+									<div class="entry-content">
+										<p>By Lisa Richwine LOS ANGELES (Reuters) -&#8220;Everything Everywhere All at Once&#8221; won the coveted best picture trophy at the Academy Awards on&hellip; </p>
+									</div>
+									<!-- end .entry-content -->
+								</div> <!-- end .cat-box-text -->
+							</article> <!-- end .post -->
+							</div>					</div> <!-- end .widget-cat-box-left -->
+
+					<div class="widget widget-cat-box-right">
+													<h2 class="widget-title">
+																	<a href="/category/tech/" style="color: #000f3d;"><span>Technology</span></a>
+
+								<a href="/category/tech/" class="more-btn">Read More</a>
+															</h2>
+						<div class="cat-box-two-primary">
+							<article id="post-190357" class="post-190357 post type-post status-publish format-standard has-post-thumbnail hentry category-tech grow-content-body">
+																	<div class="cat-box-two-image">
+										<figure class="post-featured-image">
+											<a title="Google suspends China&#8217;s Pinduoduo app on security concerns" href="https://www.oann.com/tech/google-suspends-chinas-pinduoduo/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportBusinessNews/tagreuters.com2023binary_LYNXMPEJ290WB-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+										</figure> <!-- end .post-featured-image -->
+									</div> <!-- end .cat-box-two-image -->
+																<div class="cat-box-two-text">
+									<header class="entry-header">
+																					<h2 class="entry-title">
+												<a title="Google suspends China&#8217;s Pinduoduo app on security concerns" href="https://www.oann.com/tech/google-suspends-chinas-pinduoduo/">Google suspends China&#8217;s Pinduoduo app on security concerns</a>
+											</h2> <!-- end.entry-title -->
+																				</header>
+									<!-- end .entry-header -->
+									<div class="entry-content">
+										<p>(Reuters) -Alphabet Inc&#8217;s Google suspended the Play version of PDD Holdings Inc&#8217;s Pinduoduo app for security concerns, after malware issues were found&hellip; </p>
+									</div>
+									<!-- end .entry-content -->
+								</div> <!-- end .cat-box-text -->
+							</article> <!-- end .post -->
+							</div><div class="cat-box-two-secondary">
+							<article id="post-190366" class="post-190366 post type-post status-publish format-standard has-post-thumbnail hentry category-tech grow-content-body">
+																	<div class="cat-box-two-image">
+										<figure class="post-featured-image">
+											<a title="Italy&#8217;s Antitrust probes TikTok over &#8216;French scar&#8217; dangerous content" href="https://www.oann.com/tech/italys-antitrust-probes-tiktok/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportTechnologyNews/tagreuters.com2023binary_LYNXMPEJ2K0BP-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+										</figure> <!-- end .post-featured-image -->
+									</div> <!-- end .cat-box-two-image -->
+																<div class="cat-box-two-text">
+									<header class="entry-header">
+																					<h2 class="entry-title">
+												<a title="Italy&#8217;s Antitrust probes TikTok over &#8216;French scar&#8217; dangerous content" href="https://www.oann.com/tech/italys-antitrust-probes-tiktok/">Italy&#8217;s Antitrust probes TikTok over &#8216;French scar&#8217; dangerous content</a>
+											</h2> <!-- end.entry-title -->
+																				</header>
+									<!-- end .entry-header -->
+									<div class="entry-content">
+										<p>MILAN (Reuters) &#8211; Italy&#8217;s antitrust authority said on Tuesday it had opened an investigation into the Chinese-owned app TikTok as it allegedly&hellip; </p>
+									</div>
+									<!-- end .entry-content -->
+								</div> <!-- end .cat-box-text -->
+							</article> <!-- end .post -->
+							</div><div class="cat-box-two-secondary">
+							<article id="post-190381" class="post-190381 post type-post status-publish format-standard has-post-thumbnail hentry category-tech grow-content-body">
+																	<div class="cat-box-two-image">
+										<figure class="post-featured-image">
+											<a title="India&#8217;s Karnataka govt approves $968 million investment from Foxconn unit" href="https://www.oann.com/tech/indias-karnataka-govt-approves/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportTechnologyNews/tagreuters.com2023binary_LYNXMPEJ2K0B6-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+										</figure> <!-- end .post-featured-image -->
+									</div> <!-- end .cat-box-two-image -->
+																<div class="cat-box-two-text">
+									<header class="entry-header">
+																					<h2 class="entry-title">
+												<a title="India&#8217;s Karnataka govt approves $968 million investment from Foxconn unit" href="https://www.oann.com/tech/indias-karnataka-govt-approves/">India&#8217;s Karnataka govt approves $968 million investment from Foxconn unit</a>
+											</h2> <!-- end.entry-title -->
+																				</header>
+									<!-- end .entry-header -->
+									<div class="entry-content">
+										<p>BENGALURU (Reuters) &#8211; The southern Indian state of Karnataka has approved an 80 billion rupee ($967.91 million) investment in the state by&hellip; </p>
+									</div>
+									<!-- end .entry-content -->
+								</div> <!-- end .cat-box-text -->
+							</article> <!-- end .post -->
+							</div>					</div> <!-- end .widget-cat-box-right -->
+				</div> <!-- end .cat-box-wrap -->
+			</div><!-- end .box-two-layout-1 -->
+
+	</section><!-- end .widget-cat-box --><!-- Category Box Widget ============================================= --><section id="magbook_category_box_widgets-4" class="widget widget-cat-box">						<div class="box-layout-3">
+							<h2 class="widget-title">
+											<a href="/category/sports/" style="color: #000f3d;"><span>Sports</span></a>
+
+					<a href="/category/sports/" class="more-btn">Read More</a>
+									</h2><!-- end .widget-title -->
+							<div class="cat-box-wrap clearfix">
+										<div class="cat-box-primary">
+ 						<article id="post-190204" class="post-190204 post type-post status-publish format-standard has-post-thumbnail hentry category-sports grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="EXCLUSIVE-Olympics-Paris 2024 plans Games relay changes, fewer torches-source" href="https://www.oann.com/sports/exclusive-olympics-paris-2024-plans-games/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportSportsNews/tagreuters.com2023binary_LYNXMPEJ2K0BM-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="EXCLUSIVE-Olympics-Paris 2024 plans Games relay changes, fewer torches-source" href="https://www.oann.com/sports/exclusive-olympics-paris-2024-plans-games/">EXCLUSIVE-Olympics-Paris 2024 plans Games relay changes, fewer torches-source</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>BERLIN (Reuters) &#8211; Paris 2024 Olympic torchbearers may not all get to keep their torches as a cherished memento of the Games&hellip; </p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+											<div class="cat-box-primary">
+ 						<article id="post-190231" class="post-190231 post type-post status-publish format-standard has-post-thumbnail hentry category-sports grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="NHL roundup: Aleksander Barkov sets Panthers&#8217; scoring record" href="https://www.oann.com/sports/nhl-roundup-aleksander-barkov/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportSportsNews/tagreuters.com2023binary_LYNXMPEJ2K09G-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="NHL roundup: Aleksander Barkov sets Panthers&#8217; scoring record" href="https://www.oann.com/sports/nhl-roundup-aleksander-barkov/">NHL roundup: Aleksander Barkov sets Panthers&#8217; scoring record</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>Carter Verhaeghe scored two goals to lead the Florida Panthers to a 5-2 road win over the Detroit Red Wings on Monday.&hellip; </p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+											<div class="cat-box-primary">
+ 						<article id="post-190270" class="post-190270 post type-post status-publish format-standard has-post-thumbnail hentry category-sports grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="Women&#8217;s NCAA roundup: Ohio State sinks UNC at buzzer" href="https://www.oann.com/sports/womens-ncaa-roundup-ohio/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/Reuters_Direct_Media/USOnlineReportSportsNews/tagreuters.com2023binary_LYNXMPEJ2K00Y-BASEIMAGE-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="Women&#8217;s NCAA roundup: Ohio State sinks UNC at buzzer" href="https://www.oann.com/sports/womens-ncaa-roundup-ohio/">Women&#8217;s NCAA roundup: Ohio State sinks UNC at buzzer</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>Destiny Harden&#8217;s jumper from the paint rolled in off the rim with 3.3 seconds left, allowing ninth-seeded Miami to stun top-seeded Indiana&hellip; </p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+										</div>
+				<!-- end .cat-box-wrap -->
+			</div>
+			<!-- end .box-layout-1 -->
+	</section><!-- end .widget-cat-box -->		</main><!-- end #main -->
+	</div> <!-- end #primary -->
+
+				<aside id="secondary" class="widget-area" role="complementary" aria-label="Side Sidebar">
+			<section id="block-50" class="widget widget_block"><p><div id='div-gpt-ad-1663871513696-side-1' style='min-width: 300px; min-height: 250px; text-align: center;'>
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1663871513696-side-1'); });
+	</script>
+</div>
+</p>
+</section><section id="block-5" class="widget widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="/category/pearsonsharpreports"><img decoding="async" loading="lazy" width="300" height="150" src="https://c3.oann.com/wp-content/uploads/2022/04/pearson-sharp-reports.jpg" alt="Pearson Sharp Reports" class="wp-image-10016"/></a></figure></div></section><!-- Category Box Widget ============================================= --><section id="magbook_category_box_widgets-25" class="widget widget-cat-box">						<div class="box-layout-1">
+							<h2 class="widget-title">
+											<a href="/category/commentary" style="color: #000f3d;"><span>Guest Commentary</span></a>
+
+					<a href="/category/commentary" class="more-btn">Read More</a>
+									</h2><!-- end .widget-title -->
+							<div class="cat-box-wrap clearfix">
+										<div class="cat-box-primary">
+ 						<article id="post-184534" class="post-184534 post type-post status-publish format-standard has-post-thumbnail hentry category-commentary tag-commentary tag-guest tag-guest-commentary tag-john-whitehead tag-nisha-whitehead tag-opinion grow-content-body">
+														<div class="cat-box-image">
+								<figure class="post-featured-image">
+									<a title="Geofence Surveillance: First, They Spied on Protesters. Then Churches. You’re Next." href="https://www.oann.com/commentary/geofence-surveillance-first-they-spied-on-protesters-then-churches-youre-next/"><img width="700" height="496" src="https://c3.oann.com/wp-content/uploads/2023/03/GettyImages-2716431-e1678898340427-700x496.jpg" class="attachment-magbook-featured-image size-magbook-featured-image wp-post-image" alt="A spectator looking through binoculars at the Derby horse races, Epsom, Surrey, June 1923. (Photo by Topical Press Agency/Hulton Archive/Getty Images)" decoding="async" loading="lazy" /></a>
+								</figure>
+								<!-- end .post-featured-image -->
+							</div>
+							<!-- end .cat-box-image -->
+														<div class="cat-box-text">
+								<header class="entry-header">
+																		<h2 class="entry-title">
+										<a title="Geofence Surveillance: First, They Spied on Protesters. Then Churches. You’re Next." href="https://www.oann.com/commentary/geofence-surveillance-first-they-spied-on-protesters-then-churches-youre-next/">Geofence Surveillance: First, They Spied on Protesters. Then Churches. You’re Next.</a>
+									</h2>
+									<!-- end.entry-title -->
+																	</header>
+								<!-- end .entry-header -->
+								<div class="entry-content">
+									<p>By <a href="/tag/john-whitehead">John Whitehead</a> and <a href="/tag/nisha-whitehead">Nisha Whitehead</a><br />
+March 15, 2023</p>
+<p class="has-small-font-size"><em>(Views expressed by guest commentators may not reflect the views of OAN or its affiliates.)</em></p>
+								</div>
+								<!-- end .entry-content -->
+							</div>
+							<!-- end .cat-box-text -->
+						</article>
+						<!-- end .post -->
+					</div> <!-- end .cat-box-primary/ secondary -->
+										</div>
+				<!-- end .cat-box-wrap -->
+			</div>
+			<!-- end .box-layout-1 -->
+	</section><!-- end .widget-cat-box --><section id="block-74" class="widget widget_block"><p><div id='div-gpt-ad-1663871513696-side-2' style='min-width: 300px; min-height: 250px; text-align: center;'>
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1663871513696-side-2'); });
+	</script>
+</div></p>
+</section><section id="block-15" class="widget widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="/alerts"><img decoding="async" loading="lazy" width="300" height="150" src="https://c3.oann.com/wp-content/uploads/2022/06/newsalerts.gif" alt="Click here to subscribe to our news alerts!" class="wp-image-29822"/></a></figure></div></section>		</aside> <!-- end #secondary -->
+
+</div><!-- end .wrap -->
+
+
+</div><!-- end #content -->
+<!-- Footer Start ============================================= -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="widget-wrap" style="background-image:url('https://c3.oann.com/wp-content/uploads/2022/07/footerbg.jpg');" >
+		<div class="wrap">
+			<div class="widget-area">
+			<div class="column-4"><aside id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widget-title">CORPORATE</h3><div class="menu-about-nav-footer-container"><ul id="menu-about-nav-footer" class="menu"><li id="menu-item-611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-611"><a href="https://www.oann.com/about/">About OAN</a></li>
+<li id="menu-item-610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-610"><a href="https://www.oann.com/affiliaterelations/">Affiliate Relations</a></li>
+<li id="menu-item-608" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-608"><a href="https://www.oann.com/presskit/">Press Kit</a></li>
+<li id="menu-item-609" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-609"><a href="https://www.oann.com/certifications/">Certifications</a></li>
+</ul></div></aside></div><!-- end .column4  --><div class="column-4"><aside id="nav_menu-4" class="widget widget_nav_menu"><h3 class="widget-title">NEWS</h3><div class="menu-news-nav-footer-container"><ul id="menu-news-nav-footer" class="menu"><li id="menu-item-602" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-602 cl-5"><a href="https://www.oann.com/category/business/">Business</a></li>
+<li id="menu-item-738" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-738 cl-9"><a href="https://www.oann.com/category/tech/">Technology</a></li>
+<li id="menu-item-606" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606 cl-4"><a href="https://www.oann.com/category/entertainment/">Entertainment</a></li>
+<li id="menu-item-603" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-603 cl-8"><a href="https://www.oann.com/category/sports/">Sports</a></li>
+</ul></div></aside></div><!--end .column4  --><div class="column-4"><aside id="nav_menu-6" class="widget widget_nav_menu"><h3 class="widget-title">TELEVISION</h3><div class="menu-television-nav-footer-container"><ul id="menu-television-nav-footer" class="menu"><li id="menu-item-613" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-613 cl-7"><a href="https://www.oann.com/category/shows/">Shows</a></li>
+<li id="menu-item-612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612"><a href="https://www.oann.com/schedule/">TV Schedule</a></li>
+<li id="menu-item-614" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-614"><a href="https://live.oann.com">Watch LIVE TV</a></li>
+</ul></div></aside></div><!--end .column4  --><div class="column-4"><aside id="nav_menu-8" class="widget widget_nav_menu"><h3 class="widget-title">GET IN TOUCH</h3><div class="menu-contact-nav-footer-container"><ul id="menu-contact-nav-footer" class="menu"><li id="menu-item-754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754"><a href="https://www.oann.com/contact/">Contact OAN</a></li>
+<li id="menu-item-616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-616"><a href="https://www.oann.com/careers/">Careers</a></li>
+<li id="menu-item-623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-623"><a href="https://www.oann.com/content/">Submit Content</a></li>
+<li id="menu-item-30948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30948"><a href="https://www.oann.com/alerts/">Subscribe to News Alerts</a></li>
+</ul></div></aside></div><!--end .column4-->			</div> <!-- end .widget-area -->
+		</div><!-- end .wrap -->
+	</div> <!-- end .widget-wrap -->
+		<div class="site-info">
+		<div class="wrap">
+				<div class="social-links clearfix">
+	<ul><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-196"><a href="https://www.facebook.com/OneAmericaNewsNetwork"><span class="screen-reader-text">facebook</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-197"><a href="https://twitter.com/OANN"><span class="screen-reader-text">twitter</span></a></li>
+</ul>	</div><!-- end .social-links -->
+				<div class="copyright-wrap clearfix">
+				<nav id="footer-navigation" role="navigation" aria-label="Footer Menu"><ul><li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-323 current_page_item menu-item-193"><a href="https://www.oann.com/" aria-current="page">One America News</a></li>
+<li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633"><a href="https://www.oann.com/terms/">Terms of Use</a></li>
+<li id="menu-item-632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-632"><a href="https://www.oann.com/privacy/">Privacy Policy</a></li>
+<li id="menu-item-15250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15250"><a href="https://www.oann.com/opt-out-preferences/">Cookie Policy</a></li>
+</ul></nav><!-- end #footer-navigation --><div class="copyright">       2023 &copy; Herring Networks, Inc. All Rights Reserved. 	</div>
+							</div> <!-- end .copyright-wrap -->
+			<div style="clear:both;"></div>
+		</div> <!-- end .wrap -->
+	</div> <!-- end .site-info -->
+		<div class="page-overlay"></div>
+</footer> <!-- end #colophon -->
+</div><!-- end .site-content-contain -->
+</div><!-- end #page -->
+<div id="mv-grow-data" data-settings='{&quot;general&quot;:{&quot;contentSelector&quot;:false,&quot;show_count&quot;:{&quot;content&quot;:false,&quot;sidebar&quot;:false},&quot;isTrellis&quot;:false},&quot;post&quot;:null,&quot;shareCounts&quot;:[],&quot;shouldRun&quot;:true,&quot;buttonSVG&quot;:{&quot;share&quot;:{&quot;height&quot;:32,&quot;width&quot;:26,&quot;paths&quot;:[&quot;M20.8 20.8q1.984 0 3.392 1.376t1.408 3.424q0 1.984-1.408 3.392t-3.392 1.408-3.392-1.408-1.408-3.392q0-0.192 0.032-0.448t0.032-0.384l-8.32-4.992q-1.344 1.024-2.944 1.024-1.984 0-3.392-1.408t-1.408-3.392 1.408-3.392 3.392-1.408q1.728 0 2.944 0.96l8.32-4.992q0-0.128-0.032-0.384t-0.032-0.384q0-1.984 1.408-3.392t3.392-1.408 3.392 1.376 1.408 3.424q0 1.984-1.408 3.392t-3.392 1.408q-1.664 0-2.88-1.024l-8.384 4.992q0.064 0.256 0.064 0.832 0 0.512-0.064 0.768l8.384 4.992q1.152-0.96 2.88-0.96z&quot;]},&quot;facebook&quot;:{&quot;height&quot;:32,&quot;width&quot;:18,&quot;paths&quot;:[&quot;M17.12 0.224v4.704h-2.784q-1.536 0-2.080 0.64t-0.544 1.92v3.392h5.248l-0.704 5.28h-4.544v13.568h-5.472v-13.568h-4.544v-5.28h4.544v-3.904q0-3.328 1.856-5.152t4.96-1.824q2.624 0 4.064 0.224z&quot;]},&quot;twitter&quot;:{&quot;height&quot;:32,&quot;width&quot;:30,&quot;paths&quot;:[&quot;M28.928 7.296q-1.184 1.728-2.88 2.976 0 0.256 0 0.736 0 2.336-0.672 4.64t-2.048 4.448-3.296 3.744-4.608 2.624-5.792 0.96q-4.832 0-8.832-2.592 0.608 0.064 1.376 0.064 4.032 0 7.168-2.464-1.888-0.032-3.36-1.152t-2.048-2.848q0.608 0.096 1.088 0.096 0.768 0 1.536-0.192-2.016-0.416-3.328-1.984t-1.312-3.68v-0.064q1.216 0.672 2.624 0.736-1.184-0.8-1.888-2.048t-0.704-2.752q0-1.568 0.8-2.912 2.176 2.656 5.248 4.256t6.656 1.76q-0.16-0.672-0.16-1.312 0-2.4 1.696-4.064t4.064-1.696q2.528 0 4.224 1.824 1.952-0.384 3.68-1.408-0.672 2.048-2.56 3.2 1.664-0.192 3.328-0.896z&quot;]},&quot;email&quot;:{&quot;height&quot;:32,&quot;width&quot;:28,&quot;paths&quot;:[&quot;M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z&quot;]}}}'></div>
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 optout cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optout" aria-describedby="cmplz-message-1-optout">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optout">Manage Cookie Consent</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="close-dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optout">To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Functional</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optout"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optout" tabindex="0"><span class="screen-reader-text">Functional</span></label>
+								</span>
+								Always active							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferences</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optout"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optout" tabindex="0"><span class="screen-reader-text">Preferences</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistics</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optout"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optout" tabindex="0"><span class="screen-reader-text">Statistics</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
+					<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optout"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optout" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Manage options</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Manage services</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Manage vendors</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Read more about these purposes</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accept</button>
+		<button class="cmplz-btn cmplz-deny">Deny</button>
+		<button class="cmplz-btn cmplz-view-preferences">View preferences</button>
+		<button class="cmplz-btn cmplz-save-preferences">Save preferences</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">View preferences</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Manage consent</button>
+
+</div><script type='text/javascript' src='https://c3.oann.com/wp-content/plugins/constant-contact-forms/assets/js/ctct-plugin-recaptcha-v2.min.js?ver=1.14.0' id='recaptcha-v2-js'></script>
+<script async="async" defer type='text/javascript' src='//www.google.com/recaptcha/api.js?onload=renderReCaptcha&#038;render=explicit&#038;ver=1.14.0' id='recaptcha-lib-v2-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/plugins/constant-contact-forms/assets/js/ctct-plugin-frontend.min.js?ver=1.14.0' id='ctct_frontend_forms-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.4' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.oann.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.4' id='contact-form-7-js'></script>
+<script type='text/javascript' async data-noptimize src='https://c3.oann.com/wp-content/plugins/social-pug/assets/dist/front-end-free.1.20.3.js?ver=1.20.3' id='dpsp-frontend-js-pro-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/themes/magbook/js/magbook-main.js?ver=6.1.1' id='magbook-main-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/themes/magbook/assets/sticky/jquery.sticky.min.js?ver=6.1.1' id='jquery-sticky-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/themes/magbook/assets/sticky/sticky-settings.js?ver=6.1.1' id='magbook-sticky-settings-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/themes/magbook/js/navigation.js?ver=6.1.1' id='magbook-navigation-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/themes/magbook/js/jquery.flexslider-min.js?ver=6.1.1' id='jquery-flexslider-js'></script>
+<script type='text/javascript' id='magbook-slider-js-extra'>
+/* <![CDATA[ */
+var magbook_slider_value = {"magbook_animation_effect":"fade","magbook_slideshowSpeed":"5000","magbook_animationSpeed":"700"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/themes/magbook/js/flexslider-setting.js?ver=6.1.1' id='magbook-slider-js'></script>
+<script type='text/javascript' src='https://c3.oann.com/wp-content/themes/magbook/js/skip-link-focus-fix.js?ver=6.1.1' id='magbook-skip-link-focus-fix-js'></script>
+<script type='text/javascript' id='cmplz-cookiebanner-js-extra'>
+/* <![CDATA[ */
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"66","version":"6.4.2.1","store_consent":"","do_not_track_enabled":"","consenttype":"optout","region":"us","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/www.oann.com\/wp-json\/complianz\/v1\/","locale":"lang=en&locale=en_US","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"15","cookie_path":"\/","categories":{"statistics":"statistics","marketing":"marketing"},"tcf_active":"","placeholdertext":"Click to accept {category} cookies and enable this content","css_file":"https:\/\/www.oann.com\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=66","page_links":{"us":{"cookie-statement":{"title":"Opt-out preferences","url":"https:\/\/www.oann.com\/opt-out-preferences\/"},"privacy-statement":{"title":"Privacy Policy","url":"https:\/\/www.oann.com\/privacy\/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":""};
+/* ]]> */
+</script>
+<script defer type='text/javascript' src='https://c3.oann.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=6.4.2.1' id='cmplz-cookiebanner-js'></script>
+				<script type="text/plain" data-service="google-analytics" async data-category="statistics" data-cmplz-src="https://www.googletagmanager.com/gtag/js?id="></script>		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.13.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script data-service="google-analytics" data-category="statistics" data-cmplz-src="//www.googletagmanager.com/gtag/js?id=G-6LWF9Z40Z6"  data-cfasync="false" data-wpfc-render="false" type="text/plain" async></script>
+			<script data-service="google-analytics" data-category="statistics" data-cfasync="false" data-wpfc-render="false" type="text/plain">
+				var mi_version = '8.13.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+
+								var disableStrs = [
+										'ga-disable-G-6LWF9Z40Z6',
+														];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+										__gtagTracker('config', 'G-6LWF9Z40Z6', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-d628c1a2702dbc7e719","applicationID":"1094749666","transactionName":"NlwHYhRZXUYCBxAMWQ8WMEQPF1pbBwEcS0YJSQ==","queueTime":0,"applicationTime":7,"atts":"GhsEFFxDTkg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 546/561 objects using memcached
+Page Caching using nginx + memcached
+Content Delivery Network via Amazon Web Services: CloudFront: c3.oann.com
+Database Caching 2/25 queries in 0.026 seconds using memcached
+Fragment Caching 12/12 fragments using memcached
+
+Served from: _ @ 2023-03-21 15:33:23 by W3 Total Cache
+-->

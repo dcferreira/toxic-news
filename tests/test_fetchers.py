@@ -4,6 +4,7 @@ from datetime import datetime
 
 import aiohttp
 import pytest
+from aiohttp import ClientResponse
 from fastapi.encoders import jsonable_encoder
 
 from toxic_news.fetchers import (
@@ -97,11 +98,12 @@ def test_parse_live(assets, snapshot, newspaper):
     # check live version of the website, and see if the xpath we have configured
     # still outputs around the same number of headlines
     fetcher = Fetcher(newspaper)
-    live_len = len(fetcher.fetch())
+    live_headlines = fetcher.fetch()
 
+    print(list(map(lambda x: x[0], live_headlines)))
     assert (
         newspaper.expected_headlines * 0.6
-        <= live_len
+        <= len(live_headlines)
         <= newspaper.expected_headlines * 1.4
     )
 
@@ -171,9 +173,12 @@ async def test_wayback_integration():
 
         assert len(results) == 2
         for r in results:
-            assert r.status == 200
+            assert r is not None
+            assert isinstance(r, bytes)
+            assert len(r) > 0  # type: ignore
         for f in fetchers:
-            assert f._response is not None
+            assert isinstance(f._response, ClientResponse)
+            assert f._response.status == 200
             assert isinstance(await f.get_async_content(), bytes)
 
 
