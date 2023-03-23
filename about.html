@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toxic News</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!--Regular Datatables CSS-->
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
+          rel="stylesheet">
+    <!--Responsive Extension Datatables CSS-->
+    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"
+          rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+
+
+</head>
+<body class="bg-gray-900 text-gray-300 tracking-wider leading-normal">
+
+<nav class="bg-gray-800">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                <!-- Mobile menu button-->
+                <button type="button"
+                        class="inline-flex items-center justify-center rounded-md p-2 text-gray-300 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <!--
+                      Icon when menu is closed.
+
+                      Menu open: "hidden", Menu closed: "block"
+                    -->
+                    <svg id="menu-button" class="block h-6 w-6" fill="none"
+                         viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                         aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+                    </svg>
+                    <!--
+                      Icon when menu is open.
+
+                      Menu open: "block", Menu closed: "hidden"
+                    -->
+                    <svg id="menu-close-button" class="hidden h-6 w-6" fill="none"
+                         viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                         aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div class="flex flex-shrink-0 items-center">
+                    <img class="block h-8 w-auto lg:hidden"
+                         src="logo.svg"
+                         alt="Your Company">
+                    <img class="hidden h-8 w-auto lg:block"
+                         src="logo.svg"
+                         alt="Your Company">
+                </div>
+                <div class="hidden sm:ml-6 sm:block">
+                    <div class="flex space-x-4">
+                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                        
+                        
+                        <a href="/index.html"
+                           class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">All Days</a>
+                        
+                        
+                        
+                        <a href="/daily.html"
+                           class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Daily</a>
+                        
+                        
+                        
+                        <a href="/about.html"
+                           class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                           aria-current="page">About</a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="hidden" id="mobile-menu">
+        <div class="space-y-1 px-2 pt-2 pb-3">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            
+            
+            <a href="/index.html"
+               class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">All Days</a>
+            
+            
+            
+            <a href="/daily.html"
+               class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Daily</a>
+            
+            
+            
+            <a href="/about.html"
+               class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+               aria-current="page">About</a>
+            
+            
+        </div>
+    </div>
+</nav>
+
+<div class="container w-full md:w-4/5 xl:w-3/5  mx-auto px-2">
+
+<article class="prose prose-invert lg:prose-xl mx-auto mt-10">
+    <h1>Why is this important?</h1>
+    <p>
+        Comparing toxicity in headlines between different media outlets is important
+        for several reasons. Firstly, toxic headlines can perpetuate negative
+        stereotypes and fuel prejudice against certain groups of people. By comparing
+        the level of toxicity in headlines across different newspapers, we can identify
+        patterns and trends in the media's portrayal of certain groups and hold them
+        accountable for perpetuating harmful narratives.
+    </p>
+    <p>
+        Secondly, toxic headlines can have a significant impact on people's mental
+        health and well-being. Constant exposure to negative news and toxic headlines
+        can lead to increased stress, anxiety, and even depression.
+        To make matters worse, media outlets are encouraged to provide negative news
+        due to humans' <a href="https://www.youtube.com/watch?v=89FoKRtpAy4">negativity
+        bias</a>.
+        By comparing the level of toxicity in headlines across different newspapers, we
+        can identify which newspapers are potentially causing harm to their readers and
+        push for more responsible reporting.
+    </p>
+    <p>
+        Finally, comparing toxicity in headlines can also shed light on the biases and
+        agendas of different newspapers. Some newspapers may have a political or
+        ideological leaning that affects their reporting (see <a
+            href="https://www.allsides.com/media-bias">the work of AllSides</a>), while
+        others may prioritize
+        sensationalism and clicks over accuracy and ethics. By comparing toxicity in
+        headlines, we can gain a better understanding of the motives behind different
+        newspapers' reporting and make more informed decisions about which sources to
+        trust.
+    </p>
+    <h1>Methodology</h1>
+    <p>
+        Each website in <a href="">our list</a> is fetched once per day (at around 12pm
+        UTC), and all the headlines in the frontpage are saved.
+        The headlines then go through our machine learning models, which will output a
+        score between 0 and 1 for each headline.
+        In the <a href="/daily.html">daily page</a>, the average of these scores are
+        displayed.
+        Then the average of the numbers shown in the daily page are displayed in the <a
+            href="/index.html">main page</a>.
+    </p>
+    <p>
+        Currently the only model running is <a
+            href="https://github.com/unitaryai/detoxify">Unitary's Detoxify model</a>,
+        which was trained on <a
+            href="https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification/data">online
+        comments</a>.
+        Such comments are usually very different from headlines of media articles, so
+        these numbers should be taken with a grain of salt.
+        Further models are planned to be included in the future.
+    </p>
+    <p>
+        To collect the list of media outlets, we started by looking at the most popular
+        US online media.
+        Some popular examples were skipped for now due to being harder to parse the
+        website, but are planned to be included in the future.
+        Other countries and languages are also planned for the future.
+        Please see the <a href="#contributing">contributing section</a> if you want to
+        help!
+    </p>
+    <h1 id="contributing">Contributing</h1>
+    <p>
+        This project is completely open source and is hosted on github: <a
+            href="https://github.com/dcferreira/toxic-news">https://github.com/dcferreira/toxic-news</a>
+    </p>
+    <p>
+        If you want to help, these are the most pressing topics at the moment:
+    <ul>
+        <li>adding more media outlets</li>
+        <li>adding more interesting models</li>
+        <li>improving the UI to get more interesting insights</li>
+    </ul>
+    </p>
+
+</article>
+
+</div>
+<!--/container-->
+
+<!--Show/hide mobile menu-->
+<script>
+    const button = document.querySelector('#menu-button'); // Hamburger Icon
+    const closeButton = document.querySelector('#menu-close-button')
+    const menu = document.querySelector('#mobile-menu'); // Menu
+
+    const toggle = () => {
+        button.classList.toggle('hidden');
+        button.classList.toggle('block');
+
+        closeButton.classList.toggle('hidden');
+        closeButton.classList.toggle('block');
+
+        menu.classList.toggle('hidden');
+    };
+
+    button.addEventListener('click', toggle);
+    closeButton.addEventListener('click', toggle);
+</script>
+
+</body>
+
+</html>
