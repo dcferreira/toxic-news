@@ -1,7 +1,9 @@
 name: Daily Update Frontend
 on:
-  schedule:
-    - cron: "30 12 * * *"
+  push:
+    branch: main
+#  schedule:
+#    - cron: "30 12 * * *"
 
 jobs:
   update-frontend-today-job:
@@ -35,6 +37,7 @@ jobs:
 
       - name: Commit Changes
         run: |
+          cd public
           git config --global user.email "github.actions@toxicnews.dcferreira.com"
           git config --global user.name "Daily Update"
           git add .
