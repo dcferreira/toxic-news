@@ -445,13 +445,22 @@ def render_pages(out_dir: Path):
         loader=PackageLoader("toxic_news"),
         autoescape=select_autoescape(),
     )
+    logger.debug("Writing index...")
     template = env.get_template("index.html")
     with (out_dir / "index.html").open("w+") as fd:
         fd.write(template.render(selected="/index.html", today=datetime.today()))
 
+    logger.debug("Writing daily...")
     template = env.get_template("daily.html")
     with (out_dir / "daily.html").open("w+") as fd:
         fd.write(template.render(selected="/daily.html", today=datetime.today()))
+
+    logger.debug("Writing about...")
+    template = env.get_template("about.html")
+    with (out_dir / "about.html").open("w+") as fd:
+        fd.write(template.render(selected="/about.html"))
+
+    logger.debug("Finished rendering!")
 
 
 @app.command()

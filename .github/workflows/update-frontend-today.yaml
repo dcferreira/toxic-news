@@ -1,13 +1,14 @@
 name: Daily Update Frontend
 on:
-  push:
-    branch: main
-#  schedule:
-#    - cron: "30 12 * * *"
+  schedule:
+    - cron: "30 12 * * *"
 
 jobs:
   update-frontend-today-job:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout Main Source
         uses: actions/checkout@v3
@@ -34,12 +35,11 @@ jobs:
           MONGODB_URL: ${{ secrets.MONGODB_URL }}
           DATABASE_NAME: ${{ vars.DATABASE_NAME }}
 
-
       - name: Commit Changes
         run: |
           cd public
-          git config --global user.email "github.actions@toxicnews.dcferreira.com"
-          git config --global user.name "Daily Update"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add .
           git commit -m "daily update $(date +%Y-%m-%d)"
           git push origin public

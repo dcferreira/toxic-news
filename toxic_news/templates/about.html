@@ -1,0 +1,81 @@
+{% include 'header.html' %}
+
+<article class="prose prose-invert lg:prose-xl mx-auto mt-10">
+    <h1>Why is this important?</h1>
+    <p>
+        Comparing toxicity in headlines between different media outlets is important
+        for several reasons. Firstly, toxic headlines can perpetuate negative
+        stereotypes and fuel prejudice against certain groups of people. By comparing
+        the level of toxicity in headlines across different newspapers, we can identify
+        patterns and trends in the media's portrayal of certain groups and hold them
+        accountable for perpetuating harmful narratives.
+    </p>
+    <p>
+        Secondly, toxic headlines can have a significant impact on people's mental
+        health and well-being. Constant exposure to negative news and toxic headlines
+        can lead to increased stress, anxiety, and even depression.
+        To make matters worse, media outlets are encouraged to provide negative news
+        due to humans' <a href="https://www.youtube.com/watch?v=89FoKRtpAy4">negativity
+        bias</a>.
+        By comparing the level of toxicity in headlines across different newspapers, we
+        can identify which newspapers are potentially causing harm to their readers and
+        push for more responsible reporting.
+    </p>
+    <p>
+        Finally, comparing toxicity in headlines can also shed light on the biases and
+        agendas of different newspapers. Some newspapers may have a political or
+        ideological leaning that affects their reporting (see <a
+            href="https://www.allsides.com/media-bias">the work of AllSides</a>), while
+        others may prioritize
+        sensationalism and clicks over accuracy and ethics. By comparing toxicity in
+        headlines, we can gain a better understanding of the motives behind different
+        newspapers' reporting and make more informed decisions about which sources to
+        trust.
+    </p>
+    <h1>Methodology</h1>
+    <p>
+        Each website in <a href="">our list</a> is fetched once per day (at around 12pm
+        UTC), and all the headlines in the frontpage are saved.
+        The headlines then go through our machine learning models, which will output a
+        score between 0 and 1 for each headline.
+        In the <a href="/daily.html">daily page</a>, the average of these scores are
+        displayed.
+        Then the average of the numbers shown in the daily page are displayed in the <a
+            href="/index.html">main page</a>.
+    </p>
+    <p>
+        Currently the only model running is <a
+            href="https://github.com/unitaryai/detoxify">Unitary's Detoxify model</a>,
+        which was trained on <a
+            href="https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification/data">online
+        comments</a>.
+        Such comments are usually very different from headlines of media articles, so
+        these numbers should be taken with a grain of salt.
+        Further models are planned to be included in the future.
+    </p>
+    <p>
+        To collect the list of media outlets, we started by looking at the most popular
+        US online media.
+        Some popular examples were skipped for now due to being harder to parse the
+        website, but are planned to be included in the future.
+        Other countries and languages are also planned for the future.
+        Please see the <a href="#contributing">contributing section</a> if you want to
+        help!
+    </p>
+    <h1 id="contributing">Contributing</h1>
+    <p>
+        This project is completely open source and is hosted on github: <a
+            href="https://github.com/dcferreira/toxic-news">https://github.com/dcferreira/toxic-news</a>
+    </p>
+    <p>
+        If you want to help, these are the most pressing topics at the moment:
+    <ul>
+        <li>adding more media outlets</li>
+        <li>adding more interesting models</li>
+        <li>improving the UI to get more interesting insights</li>
+    </ul>
+    </p>
+
+</article>
+
+{% include 'footer.html' %}
