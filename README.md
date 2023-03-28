@@ -1,7 +1,5 @@
 # <img src="./toxic_news/templates/logo.svg" alt="Toxic News logo" height="40"/> Toxic News
 
------
-
 This repo contains the code for https://toxicnews.dcferreira.com,
 a website enabling automatic ranking of online media outlets
 using machine learning models.
