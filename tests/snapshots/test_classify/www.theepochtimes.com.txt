@@ -3,7 +3,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "How Do They Defy Death? Secrets of Cancer Survivors Unveiled",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00261,
       "severe_toxicity": 0.00005,
@@ -19,7 +18,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Conflicts of Interest: Pfizer\u2019s Secret Collusion With the NIH",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00040,
       "severe_toxicity": 0.00003,
@@ -35,7 +33,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Depression: 4 Major Symptoms, Treatment, and Natural Therapies (Infographics)",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00029,
       "severe_toxicity": 0.00008,
@@ -51,7 +48,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Texas AG Ken Paxton\u2019s Legal Opinion Could Help Clear Way For School Choice",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00035,
       "severe_toxicity": 0.00002,
@@ -67,7 +63,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Los Angeles Public Schools Closed as Unions Launch 3-Day Strike",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00051,
       "severe_toxicity": 0.00008,
@@ -83,7 +78,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Topple or Kneel to the Patriarchy?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00106,
       "severe_toxicity": 0.00002,
@@ -99,7 +93,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "DOJ Asks SCOTUS to Quickly Restore Ban on Guns in Domestic Violence Cases",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00100,
       "severe_toxicity": 0.00003,
@@ -115,7 +108,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "The Boot of the State\u2014Mark Chenoweth on Suing Federal Agencies and Ensuring the Separation of Powers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00068,
       "severe_toxicity": 0.00002,
@@ -131,7 +123,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Hillary Clinton Memes Test Limits of First Amendment in Online Speech Trial",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00520,
       "severe_toxicity": 0.00006,
@@ -147,7 +138,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "China Not \u2018Impartial\u2019 Actor in Russia-Ukraine War: White House",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00182,
       "severe_toxicity": 0.00017,
@@ -163,7 +153,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Biden Signs Bill to Declassify COVID Origins Intelligence on Wuhan Lab",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00079,
       "severe_toxicity": 0.00003,
@@ -179,7 +168,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Memories of Pre-Dawn Raids at Gunpoint Haunt Pro-Life Activists, Friends, and Family",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00043,
       "severe_toxicity": 0.00002,
@@ -195,7 +183,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "\u2018The Country Wants a Change\u2019: DeSantis Details How He Can Beat Biden in 2024",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00070,
       "severe_toxicity": 0.00002,
@@ -211,7 +198,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "GOP Panel Chair Demands Action to Fix \u2018Dire\u2019 Border Situation",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00122,
       "severe_toxicity": 0.00004,
@@ -227,7 +213,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Senate Votes to Begin Debate on Bill Repealing Iraq War Authorizations",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00023,
       "severe_toxicity": 0.00005,
@@ -243,7 +228,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "CDC Bought Phone Data to Monitor Americans\u2019 Compliance With Lockdowns, Contracts Show",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00053,
       "severe_toxicity": 0.00002,
@@ -259,7 +243,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "COVID-19 Vaccines Can Cause \u2018Permanent Disabilities\u2019: German Health Minister",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00066,
       "severe_toxicity": 0.00003,
@@ -275,7 +258,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Texas Judge Grants Injunction Against Biden\u2019s \u2018Waters of the United States\u2019 Rule in Texas, Idaho",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00058,
       "severe_toxicity": 0.00002,
@@ -291,7 +273,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "McCarthy Urges Senate to Form China Committee",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00059,
       "severe_toxicity": 0.00002,
@@ -307,7 +288,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Bipartisan Group Renews Push to Ban Lawmakers From Owning and Trading Stocks",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00097,
       "severe_toxicity": 0.00002,
@@ -323,7 +303,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Physician Assistant Fired for Reporting COVID-19 Vaccine Adverse Events to VAERS",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00044,
       "severe_toxicity": 0.00003,
@@ -339,7 +318,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "EXCLUSIVE: ATF Gains Financial Information on Potential Gun Buyers for Warrantless Tracking, Documents Show",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00003,
@@ -355,7 +333,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Southern California Hit by More Rainfall Amid Growing Damages From Flooding",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00239,
       "severe_toxicity": 0.00004,
@@ -371,7 +348,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Biden Signs Bill to Declassify Virus Origin",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00048,
       "severe_toxicity": 0.00006,
@@ -387,7 +363,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Capitol Report: Biden Approves Releasing COVID Intel, Blocks DC Crime Reform",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00045,
       "severe_toxicity": 0.00002,
@@ -403,7 +378,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "California Bill Would Protect Doctors Who Mail Abortion Pills to Out-of-State Patients",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00152,
       "severe_toxicity": 0.00002,
@@ -419,7 +393,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "UN Cultural Agency Under Fire Over CCP Atrocities",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00126,
       "severe_toxicity": 0.00007,
@@ -435,7 +408,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Another Former Trans Teen to Sue Medical Provider Over Double Mastectomy at 13",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00119,
       "severe_toxicity": 0.00003,
@@ -451,7 +423,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Vermont League Kicks Out School\u2019s Sports Teams Over Refusal to Pit Girls Against Transgender Basketballer",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.17349,
       "severe_toxicity": 0.00014,
@@ -467,7 +438,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Los Angeles DA Gasc\u00f3n\u2019s Office Provides Free Shuttle for Staff Amid Rising Crime",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00065,
       "severe_toxicity": 0.00002,
@@ -483,7 +453,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "House Oversight Committee Probes FDA\u2019s Response to Baby Formula Shortage",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00003,
@@ -499,7 +468,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "US Not Considering Fighter Jets for Ukraine After Poland, Slovakia Pledge More Than a Dozen MiGs",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00066,
       "severe_toxicity": 0.00003,
@@ -515,7 +483,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Two American Children Reported Missing in Mexico as US Embassy Issues Alert to Spring Breakers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00082,
       "severe_toxicity": 0.00002,
@@ -531,7 +498,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "State Department Faces Deadline to Provide Documents on Afghanistan Withdrawal",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00072,
       "severe_toxicity": 0.00003,
@@ -547,7 +513,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Google Pulls Chinese Pinduoduo App Off Play Store Over Security Concerns",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00120,
       "severe_toxicity": 0.00004,
@@ -563,7 +528,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Willis Reed, Leader on Knicks\u2019 2 Title Teams, Dies at 80",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00047,
       "severe_toxicity": 0.00005,
@@ -579,7 +543,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "I Hear Ghosts",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00065,
       "severe_toxicity": 0.00003,
@@ -595,7 +558,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Home Prices Drop, Breaking 11-Year Streak of Increases",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00045,
       "severe_toxicity": 0.00002,
@@ -611,7 +573,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "4 Menopause Symptoms You Might Not Realize You\u2019re Experiencing",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00062,
       "severe_toxicity": 0.00020,
@@ -627,7 +588,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Shen Yun Represents the Values That Made China Great, Says Company Owner",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00071,
       "severe_toxicity": 0.00002,
@@ -643,7 +603,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Shen Yun Moved Me to Tears, Says Brazilian Doctor to the Stars",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00288,
       "severe_toxicity": 0.00003,
@@ -659,7 +618,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Earthing Might Have Therapeutic Effect on COVID-19, 2 Simple Ways to Do It",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00030,
       "severe_toxicity": 0.00005,
@@ -675,7 +633,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Hypertension Medications Can Increase Stroke Risk: Pressing 2 Acupoints May Effectively Control High Blood Pressure",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00042,
       "severe_toxicity": 0.00004,
@@ -691,7 +648,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Crypto Exchange Coinbase Asks Supreme Court to Compel Disgruntled Customers to Pursue Arbitration",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00059,
       "severe_toxicity": 0.00002,
@@ -707,7 +663,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "World Stocks Cautiously Higher Ahead of High Stakes Fed Decision",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00047,
       "severe_toxicity": 0.00003,
@@ -723,7 +678,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "This Unique Castle Has Been One Family\u2019s Home Through 34 Generations and for Over 800 Years",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00038,
       "severe_toxicity": 0.00003,
@@ -739,7 +693,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Obese Young Man Weighed 820 Pounds Now Unrecognizable After Dropping 600 Pounds",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00135,
       "severe_toxicity": 0.00009,
@@ -755,7 +708,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Webcam Captures Mama Bald Eagle Who Won\u2019t Leave Nest Covered in Over Foot of Snow After Winter Storm",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00138,
       "severe_toxicity": 0.00007,
@@ -771,7 +723,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "SCOTUS Overturns Appeals Court Upholding Abortion Without Parental Consent",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00060,
       "severe_toxicity": 0.00003,
@@ -787,7 +738,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "CDC Warns of Dangerous Fungal Infection Spreading Through US at \u2018Alarming Rate\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00076,
       "severe_toxicity": 0.00003,
@@ -803,7 +753,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "IRS Issues Fresh Warning in \u2018Dirty Dozen\u2019 List of Tax Scams",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00193,
       "severe_toxicity": 0.00001,
@@ -819,7 +768,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "House Republicans Demand Testimony From Manhattan DA Behind Potential Trump Arrest",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00074,
       "severe_toxicity": 0.00002,
@@ -835,7 +783,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "DeSantis Criticizes Manhattan DA, Calls Trump Investigation a \u2018Manufactured Circus\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00113,
       "severe_toxicity": 0.00002,
@@ -851,7 +798,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "County\u2019s First Veteran Housing Moves Ahead in Port Jervis",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00042,
       "severe_toxicity": 0.00002,
@@ -867,7 +813,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Philly Agrees to $9.2 Million Payout Over Police Response to 2020 Protests",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00029,
       "severe_toxicity": 0.00002,
@@ -883,7 +828,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Alan Dershowitz: Trump Can Serve as President \u2018From Prison\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00301,
       "severe_toxicity": 0.00001,
@@ -899,7 +843,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Haley Defends Trump as 2024 GOP Rival Faces Possible Arrest",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00064,
       "severe_toxicity": 0.00003,
@@ -915,7 +858,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Man Found Insane When He Killed Father in Laguna Niguel",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02914,
       "severe_toxicity": 0.00029,
@@ -931,7 +873,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "USA Water Polo Facility, Concert Venue, Botanical Garden Approved for Irvine\u2019s Great Park",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00031,
       "severe_toxicity": 0.00004,
@@ -947,7 +888,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Judge Blocks 1999 California Law Requiring Specific Safety Features for Handguns",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00046,
       "severe_toxicity": 0.00004,
@@ -963,7 +903,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "The Role of Newsom\u2019s Diversity Mandates in SVB\u2019s Failure",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00042,
       "severe_toxicity": 0.00002,
@@ -979,7 +918,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Proposed GOP Legislation to Block Gas Stove Ban Supported by Industry",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00053,
       "severe_toxicity": 0.00003,
@@ -995,7 +933,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "\u2018Defamation of a Beloved Teacher\u2019: Community Backs Teacher Charged With Assaulting Student",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01359,
       "severe_toxicity": 0.00005,
@@ -1011,7 +948,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Former US Marine Arrested in Australia for Training Chinese Military Pilots",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00096,
       "severe_toxicity": 0.00002,
@@ -1027,7 +963,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Taiwan President to Visit US but No Word on House Speaker Meeting",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00051,
       "severe_toxicity": 0.00002,
@@ -1043,7 +978,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "PREMIERING at  Mar. 22 10AM ET: Troubled US Bank\u2019s Ties to China Raise More Red Flags",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00068,
       "severe_toxicity": 0.00003,
@@ -1059,7 +993,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Clashes Erupt Outside Sydney Church Over \u2018Anti-Trans\u2019 Speech",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02273,
       "severe_toxicity": 0.00005,
@@ -1075,7 +1008,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Soaring Electricity Prices Push Up EV Charging Fees in Australia",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00049,
       "severe_toxicity": 0.00002,
@@ -1091,7 +1023,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Federal Decision to Shut Down BC Salmon Farms Prompts Company Court Challenge",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00083,
       "severe_toxicity": 0.00003,
@@ -1107,7 +1038,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Toronto Mayoral Race Shapes up as Former Police Chief, City Councillor Announce Bids",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00113,
       "severe_toxicity": 0.00002,
@@ -1123,7 +1053,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Swiss Suspend Bonus Payouts to Credit Suisse Staffers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00036,
       "severe_toxicity": 0.00004,
@@ -1139,7 +1068,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "US Probes Reports of Steering Glitch on Newer Honda Civics",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00038,
       "severe_toxicity": 0.00004,
@@ -1155,7 +1083,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Microsoft Wins Dismissal of Gamers\u2019 Suit Over $69 Billion Activision Deal",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00002,
@@ -1171,7 +1098,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Gargantuan Seaweed \u2018Island\u2019 Crossing Atlantic, Headed Toward Florida\u2019s Gulf Coast",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00053,
       "severe_toxicity": 0.00003,
@@ -1187,7 +1113,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Film Review: \u2018Gotham: The Fall and Rise of New York\u2019: Saving America\u2019s Biggest City From Itself",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00003,
@@ -1203,7 +1128,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Lessons From Epictetus: On Mastering the Will",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00041,
       "severe_toxicity": 0.00012,
@@ -1219,7 +1143,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Rewind, Review, and Re-Rate: \u2018Cheaper by the Dozen\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00138,
       "severe_toxicity": 0.00003,
@@ -1235,7 +1158,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Book Review: \u2018An Immense World: How Animal Senses Reveal the Hidden Realms Around Us\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00002,
@@ -1251,7 +1173,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "New Show \u2018Mysteries of Life\u2019 Explores the Big Questions of Human Existence",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00003,
@@ -1267,7 +1188,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Profiles in History: W.W. Keen: The President\u2019s Surgeon",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00049,
       "severe_toxicity": 0.00002,
@@ -1283,7 +1203,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Roast Loin of Pork Is a Family Favorite for Easter",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00610,
       "severe_toxicity": 0.00002,
@@ -1299,7 +1218,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Restaurant Wine Prices and Obscurity",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00029,
       "severe_toxicity": 0.00012,
@@ -1315,7 +1233,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Smoked Salmon in a Cozy Chowder Is Perfect on Cool, Rainy Days",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00160,
       "severe_toxicity": 0.00003,
@@ -1331,7 +1248,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Eating This Vegetable Can Lower Blood Pressure and Prevent Cancer",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00065,
       "severe_toxicity": 0.00006,
@@ -1347,7 +1263,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "This Delicious \u2018Kit Kat\u2019 Recipe Is Passover-Approved",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00091,
       "severe_toxicity": 0.00002,
@@ -1363,7 +1278,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Pucker Up With a Zesty Lemon Bar",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00816,
       "severe_toxicity": 0.00010,
@@ -1379,7 +1293,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Hoffmeister: Viola Concerto in D | William Coleman",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00056,
       "severe_toxicity": 0.00656,
@@ -1395,7 +1308,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Gwyneth Paltrow\u2019s Trial Begins for Deer Valley Ski Crash",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00052,
       "severe_toxicity": 0.00004,
@@ -1411,7 +1323,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "How the Waning of Religious Belief Impacts America: Sam Sorbo",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00197,
       "severe_toxicity": 0.00003,
@@ -1427,7 +1338,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "\u2018Mister Scoutmaster\u2019 (1953): A Tribute to the Boy Scouts of America",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00003,
@@ -1443,7 +1353,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Bad Boys | I Married Joan Season 1, Ep.8",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00020,
       "severe_toxicity": 0.00045,
@@ -1459,7 +1368,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Saving and Sharing Good Memories Is Easy, Healthy, and Fun",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00004,
@@ -1475,7 +1383,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Mother Prays to Heal Relationship With Family",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00023,
       "severe_toxicity": 0.00003,
@@ -1491,7 +1398,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Dear Next Generation: The Essence of True Love",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00028,
       "severe_toxicity": 0.00008,
@@ -1507,7 +1413,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "\u2018The Parenting Map\u2019: A Conversation With Dr. Shefali",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00026,
       "severe_toxicity": 0.00005,
@@ -1523,7 +1428,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "5 Reasons to Give Kids an Allowance",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00032,
       "severe_toxicity": 0.00002,
@@ -1539,7 +1443,6 @@
     "newspaper": "The Epoch Times",
     "language": "en",
     "text": "Public Etiquette",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00014,

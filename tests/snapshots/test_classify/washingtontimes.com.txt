@@ -3,7 +3,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "U.S.-South Korean drills kick off, reviving North Korean fears",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00159,
       "severe_toxicity": 0.00004,
@@ -19,7 +18,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "White House calls Pence \u2018homophobic\u2019 over joke about Buttigieg\u2019s maternity leave",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.09547,
       "severe_toxicity": 0.00025,
@@ -35,7 +33,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Trump heads to Iowa, DeSantis to headline major N.H. event in early primary start",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00055,
       "severe_toxicity": 0.00002,
@@ -51,7 +48,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Biden\u2019s border \u2018parole\u2019 program in peril as congressional GOP plans vote to overturn",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00054,
       "severe_toxicity": 0.00002,
@@ -67,7 +63,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Biden defends \u2018safe\u2019 banking system amid biggest collapses since 2008",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00002,
@@ -83,7 +78,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "WATCH: Biden proposes a major tax increase. \u2018Top of the Times\u2019 with Haris Alic",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00077,
       "severe_toxicity": 0.00002,
@@ -99,7 +93,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Congress shows seismic shift on Wuhan lab likely causing the pandemic",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00236,
       "severe_toxicity": 0.00004,
@@ -115,7 +108,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Priests could be allowed to marry, Pope Francis says",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00254,
       "severe_toxicity": 0.00004,
@@ -131,7 +123,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Oscar winner Michelle Yeoh takes dig at CNN\u2019s Don Lemon in acceptance speech",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00079,
       "severe_toxicity": 0.00002,
@@ -147,7 +138,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Elon Musk calls for release of \u2018QAnon Shaman\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00073,
       "severe_toxicity": 0.00003,
@@ -163,7 +153,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "9th grader sues over Pledge of Allegiance confrontation",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00742,
       "severe_toxicity": 0.00005,
@@ -179,7 +168,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "\u2018Everything\u2019 wins best picture, is everywhere at Oscars",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00045,
       "severe_toxicity": 0.00002,
@@ -195,7 +183,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Biden greenlights major Alaska oil drilling project as climate activists seethe",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00063,
       "severe_toxicity": 0.00003,
@@ -211,7 +198,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Vice President Harris snubs Elizabeth Warren\u2019s attempt to apologize",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01400,
       "severe_toxicity": 0.00013,
@@ -227,7 +213,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Fewer community college students transferring to four-year schools: Report",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00049,
       "severe_toxicity": 0.00004,
@@ -243,7 +228,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Lay Catholics campaign to deny Communion for pro-abortion politicians",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00841,
       "severe_toxicity": 0.00008,
@@ -259,7 +243,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Schools say American kids are hungry and it\u2019s hard to focus",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.07318,
       "severe_toxicity": 0.00004,
@@ -275,7 +258,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Biden admin guarantees Silicon Valley Bank deposits, shutters N.Y. bank in bid to head off crisis",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00071,
       "severe_toxicity": 0.00002,
@@ -291,7 +273,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Former CDC director says COVID-19 \u2018more likely\u2019 came from Chinese lab leak",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00221,
       "severe_toxicity": 0.00002,
@@ -307,7 +288,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Twitter Files journalists warn of social media\u2019s censorship web ensnaring Americans",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00139,
       "severe_toxicity": 0.00002,
@@ -323,7 +303,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "IRS audit finds 42,000 feds cheating on taxes",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00126,
       "severe_toxicity": 0.00001,
@@ -339,7 +318,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Choir song from jailed Capitol rioters reaches top of iTunes chart",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00387,
       "severe_toxicity": 0.00002,
@@ -355,7 +333,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Pfizer buys Seagen for $43B, boosts access to cancer drugs",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00090,
       "severe_toxicity": 0.00003,
@@ -371,7 +348,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Goldman Sachs doesn\u2019t expect Fed to raise rates in March, citing bank chaos",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00003,
@@ -387,7 +363,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "New Pentagon budget targets ammo, weapons shortages after Ukraine",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00087,
       "severe_toxicity": 0.00003,
@@ -403,7 +378,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Nepal to implement countrywide ban on solo hikes",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00060,
       "severe_toxicity": 0.00003,
@@ -419,7 +393,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Danny Johnson re-sign with Commanders on two-year deal",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00049,
       "severe_toxicity": 0.00003,
@@ -435,7 +408,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "March Madness betting guide: Not just about brackets",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00077,
       "severe_toxicity": 0.00005,
@@ -451,7 +423,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Commanders, Daron Payne reach four-year, $90 million deal",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00050,
       "severe_toxicity": 0.00003,
@@ -467,7 +438,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Alabama, Houston, Kansas, Purdue earn No. 1 seeds in NCAA Tournament",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00053,
       "severe_toxicity": 0.00003,
@@ -483,7 +453,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "GOP Sen. John Kennedy accuses Biden of \u2018demagoguing\u2019 Social Security funding",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00105,
       "severe_toxicity": 0.00001,
@@ -499,7 +468,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Home Depot founder knocks \u2018woke\u2019 Silicon Valley Bank going bust: Americans need to \u2018wake up\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00155,
       "severe_toxicity": 0.00002,
@@ -515,7 +483,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Rich Russians spared as Putin sends poor, ethnic minorities to front lines in Ukraine",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.05215,
       "severe_toxicity": 0.00003,
@@ -531,7 +498,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "McCarthy vows to \u2018slowly roll out\u2019 Jan. 6 tapes to news outlets after blowback",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00282,
       "severe_toxicity": 0.00004,
@@ -547,7 +513,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "Sen. Cramer: DeSantis has a place among GOP candidates vying for 2024 presidential race nomination",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00055,
       "severe_toxicity": 0.00002,
@@ -563,7 +528,6 @@
     "newspaper": "The Washington Times",
     "language": "en",
     "text": "House Republicans step up pressure on State Department over funding for \u2018disinformation\u2019 index",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00052,
       "severe_toxicity": 0.00002,

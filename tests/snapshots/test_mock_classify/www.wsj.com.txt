@@ -3,7 +3,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Markets Quiet Ahead of Federal Reserve Rate Decision",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -19,7 +18,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Trump Grand Jury to Reconvene as Potential Indictment Looms",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -35,7 +33,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Apple, Microsoft Dominate U.S. Markets After FAANG Trade Fizzles",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -51,7 +48,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Insurer Chubb Demands Energy Producers Cut Methane Emissions for Coverage",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -67,7 +63,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Moderna to Price Its Covid-19 Vaccine at $130 a Dose",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -83,7 +78,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Home Prices Post First Drop in Over a Decade",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -99,7 +93,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Who Is Shou Zi Chew, the TikTok CEO Trying to Reassure America?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -115,7 +108,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Russia-Ukraine War Threatens to Trigger New Nuclear Arms Race",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -131,7 +123,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Work Travel Is Suddenly a Lot More Work",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -147,7 +138,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "The Unraveling of the U.S. News College Rankings",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -163,7 +153,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Taylor Swift Fans Prepare for Marathon-Length Shows",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -179,7 +168,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "The World Baseball Classic Gets Its Fantasy Finale: Ohtani vs. Trout",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -195,7 +183,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "China Has a New Vision for Itself: Global Power",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -211,7 +198,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "It\u2019s More Than a Fluffy Headband. On TikTok, It\u2019s a Status Symbol.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -227,7 +213,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Kansas Hunts for Water as Aquifer Levels Fall",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -243,7 +228,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "\u2018Greenwashing\u2019 Targeted in Latest European Regulatory Push",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -259,7 +243,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Biden\u2019s Push to Counter China Steers EV Investments to Canada",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -275,7 +258,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "In Green Hydrogen Race With the U.S., Europe Is Hobbled",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -291,7 +273,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Give ChatGPT All the Boring Tasks, Employees Say",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -307,7 +288,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Google Launches Bard AI Chatbot to Counter ChatGPT",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -323,7 +303,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "A Psychologist Explains How AI and Algorithms Are Changing Our Lives",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -339,7 +318,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "How Nintendo Competes Differently Than Sony and Microsoft",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -355,7 +333,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Huawei Bets on Another Premium 4G Phone",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -371,7 +348,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Tencent\u2019s Sales Growth Lifted by Digital-Ad Recovery",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -387,7 +363,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Nancy Pelosi on How Women Can Succeed in Politics, Business",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -403,7 +378,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Taliban Leader Faces Blowback Over Girls\u2019 School Ban\u2014From Own Movement",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -419,7 +393,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "U.K. Inflation Resumes Its Rise, Defying Expectations",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -435,7 +408,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "These Commuter Backpacks Deliver on Function and Style",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -451,7 +423,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "The 38 Best Deals to Shop Online Right Now",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -467,7 +438,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "What Are the New Tax Brackets for 2023?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -483,7 +453,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "New FTC Order Pressures Tech Platforms Over Fraudulent Ads",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -499,7 +468,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Have the Ads in Your Twitter Feed Changed? There\u2019s a Reason for That",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -515,7 +483,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Five Things Marketers Should Know About Generative AI in Advertising",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -531,7 +498,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Generative AI Makes Headway in Healthcare",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -547,7 +513,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Data Deluge: Businesses Struggle With TMI",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -563,7 +528,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "SVB Collapse Could Trigger More Corporate M&A, Tech Leaders Say",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -579,7 +543,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "As Ford Carves Out Its EV Unit, Reporting by Region Gets Ditched",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -595,7 +558,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Banks, Investors Revive Push for Changes to Securities Accounting After SVB Collapse",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -611,7 +573,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "SVB Collapse Spurs Finance Executives to Re-Evaluate Cash Strategies",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -627,7 +588,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Missteps by Ericsson and Its Lawyers Led to New Sanctions Against Company",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -643,7 +603,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "ChipMixer Is Shut Down for Allegedly Laundering $3 Billion in Crypto",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -659,7 +618,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "The Morning Risk Report",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -675,7 +633,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Trucking Giant Knight-Swift Transportation to Buy U.S. Xpress",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -691,7 +648,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Labor Tensions Rise in Stalled West Coast Port Contract Talks",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -707,7 +663,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Today\u2019s Logistics Report: Knight Growing by the Truckload; Expanding Port Cyber Safeguards",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -723,7 +678,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Companies Face Another Packed Year of Sustainability Shareholder Votes",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -739,7 +693,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Nestl\u00e9 Says Less Than Half of Its Main Portfolio Is Ranked as Healthy",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -755,7 +708,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Corporate Climate Targets Get Lift Under Rosier U.S. Government Emissions Outlook",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -771,7 +723,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "India\u2019s EV Dreams Face a Reality Check",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -787,7 +738,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Eli Lilly Is Priced for Perfection in the Obesity Market",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -803,7 +753,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Credit Suisse\u2019s \u2018Bail-In\u2019 Bonds Gave Politicians Easy Target",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -819,7 +768,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Meta Gets Third Upgrade of the Week\u2014and It's Only Wednesday",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -835,7 +783,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "PacWest Bancorp Stock Tumbles After Bank Opts Against Capital Raise",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -851,7 +798,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Fungus Endangers Patients in Hospitals, Long-Term Care",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -867,7 +813,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "U.S. stocks open lower ahead of Fed rate decision",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -883,7 +828,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "GameStop surges on surprise earnings beat, lifting meme stocks AMC and Bed Bath & Beyond",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -899,7 +843,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Fed likely to follow ECB's playbook and hike interest rates this week",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -915,7 +858,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "One of the Priciest Homes for Sale in the Dominican Republic Is This $25 Million Penthouse",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -931,7 +873,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Dubai\u2019s Latest Luxury Developments Include Man-Made Islands and Rooftop Opera Pavilions",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -947,7 +888,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "How to Mix Bedroom Patterns Like a Maximalist Pro",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -963,7 +903,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "A Horological Road Trip In Switzerland\u2019s Watch Valley",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -979,7 +918,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Asia Week New York Returns With a Series of Auctions and Exhibitions",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -995,7 +933,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "The 2023 Porsche 911 Carrera T Offers a Heart-Clutching Drive",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1011,7 +948,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "What Is a Digital Twin? And How Can It Make Companies\u2014and Cities\u2014More Efficient?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1027,7 +963,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "The Technology Skills Every Employee Should Have Today",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1043,7 +978,6 @@
     "newspaper": "The Wall Street Journal",
     "language": "en",
     "text": "Why It Matters Whether a Robot Is Given a Gender",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,

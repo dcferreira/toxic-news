@@ -3,7 +3,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "The Hill\u2019s Morning Report \u2014 Will Trump be indicted today?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -19,7 +18,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Trump fights claims he misled attorney as court weighs effort to force testimony",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -35,7 +33,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "House Republicans pressured to take sides between Trump, DeSantis",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -51,7 +48,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "White House steps up attacks on GOP budget",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -67,7 +63,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Trump shares possibility of no indictment in hush money case",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -83,7 +78,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Young Americans are once again switching up how they date",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -99,7 +93,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Democrats brace for fight over SNAP benefits in farm bill",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -115,7 +108,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Tucker Carlson \u2018enraged\u2019 private texts revealed; \u2018I love Trump\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -131,7 +123,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Why millions of people could lose Medicaid next month",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -147,7 +138,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Biden designates new national monuments in Nevada, Texas",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -163,7 +153,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Trump lawyer: If he\u2019s indicted \u2018this is an all-out war\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -179,7 +168,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Van Jones says Bragg may \u2018step back from the brink\u2019 on charging Trump",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -195,7 +183,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Rand Paul tweets NY DA \u2018should be put in jail\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -211,7 +198,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Jackson pens solo dissent as Supreme Court vacates abortion ruling",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -227,7 +213,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Trump plunges GOP into more turmoil with legal troubles",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -243,7 +228,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Bomb threat disrupts NY court where Trump case is being heard",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -259,7 +243,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Georgia attorney convicted on Jan. 6 charges",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -275,7 +258,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "ChatGPT sends shockwaves across college campuses",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -291,7 +273,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Graham warns Trump arrest would \u2018blow up our country\u2019\u00a0",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -307,7 +288,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "White House, reporters push back on disruptive journalist at press briefing",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -323,7 +303,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "ESPN\u2019s Stephen A. Smith rips Tucker Carlson\u2019s Jan. 6 framing: \u2018That\u2019s ...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -339,7 +318,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Large majority in new poll says Trump hush money allegations are believable",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -355,7 +333,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Pence calls for \u2018common sense\u2019 reforms to Social Security, Medicare",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -371,7 +348,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Republicans seize on transgender rights ahead of 2024",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -387,7 +363,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "NY DA Alvin Bragg could eye various charges in Trump prosecution",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -403,7 +378,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Pentagon will expedite delivery of tanks, Patriot systems to Ukraine",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -419,7 +393,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Comer agrees it could be politically unsustainable to investigate Kushner",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -435,7 +408,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Bipartisan lawmakers introduce bill to ban members from owning, trading stocks",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -451,7 +423,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Democrats worry about Trump protest calls over possible indictment",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -467,7 +438,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Trump fundraises off possible indictment\u00a0",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -483,7 +453,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Oklahoma court OK\u2019s abortion to preserve mother\u2019s life",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -499,7 +468,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Will Manhattan DA Bragg charge Trump? Should he?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -515,7 +483,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Florida\u2019s education foes resort to \u2018horror fiction\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -531,7 +498,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Americans who survived Mexico kidnapping \u2018continue to recover,\u2019 attorneys say",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -547,7 +513,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "California bill could ban the sale of Skittles, Hot Tamales, and more",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -563,7 +528,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Video: Security guards take down gunman in devil mask at famed Florida strip club",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -579,7 +543,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Case of teen\u2019s 2015 death, reopened during Murdaugh investigation, now ruled a homicide",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -595,7 +558,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Some Android users should turn off Wi-Fi calling due to security concerns, Google team warns",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -611,7 +573,6 @@
     "newspaper": "The Hill",
     "language": "en",
     "text": "Child mortality is rising at the fastest rate in 50 years",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,

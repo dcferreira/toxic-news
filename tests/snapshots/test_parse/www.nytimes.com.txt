@@ -240,27 +240,7 @@
     "https://theathletic.com/4326353/2023/03/20/odell-beckham-jets-nfl-free-agency/"
   ],
   [
-    "Wordle",
-    "https://www.nytimes.com/games/wordle/index.html"
-  ],
-  [
     "The Best First Wordle Words",
     "https://www.nytimes.com/2022/09/01/crosswords/wordle-starting-words-adieu.html"
-  ],
-  [
-    "Spelling Bee",
-    "https://www.nytimes.com/puzzles/spelling-bee"
-  ],
-  [
-    "The Crossword",
-    "https://www.nytimes.com/crosswords"
-  ],
-  [
-    "Letter Boxed",
-    "https://www.nytimes.com/puzzles/letter-boxed"
-  ],
-  [
-    "Tiles",
-    "https://www.nytimes.com/puzzles/tiles"
   ]
 ]

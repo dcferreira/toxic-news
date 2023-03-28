@@ -1,6 +1,7 @@
 import asyncio
 import json
 from datetime import datetime
+from typing import Union
 
 import aiohttp
 import pytest
@@ -10,13 +11,14 @@ from fastapi.encoders import jsonable_encoder
 from toxic_news.fetchers import (
     DetoxifyResults,
     Fetcher,
+    Headline,
     Newspaper,
     Scores,
     WaybackFetcher,
     clean_url,
-    newspapers,
     parse_detoxify_scores,
 )
+from toxic_news.newspapers import newspapers
 
 
 def _clean_newspaper(n: Newspaper) -> str:
@@ -65,12 +67,12 @@ def make_mock_fetcher(monkeypatch, url, assets):
         monkeypatch.setattr(Fetcher, "content", fd.read())
 
     # set request time to a fixed value
-    monkeypatch.setattr(Fetcher, "request_time", datetime(2000, 1, 1))
+    monkeypatch.setattr(Fetcher, "request_time", datetime(2023, 3, 27))
 
 
 def test_fetcher_save_load(tmp_path, monkeypatch, assets):
     newspaper = newspapers[0]
-    fake_time = datetime(2000, 1, 1)
+    fake_time = datetime(2023, 3, 27)
 
     fetcher = Fetcher(newspaper=newspaper, cache_dir=tmp_path)
     with open(assets / "html" / f"{clean_url(newspaper.url)}.html", "rb") as fd:
@@ -112,6 +114,19 @@ def test_parse_live(assets, snapshot, newspaper):
     )
 
 
+def _remove_dates(
+    headlines: list[Headline],
+) -> list[dict[str, Union[str, float, dict[str, float]]]]:
+    return [
+        {
+            k: v
+            for k, v in headline.items()
+            if k != "date"  # ignore date so it generalizes for the future
+        }
+        for headline in jsonable_encoder(headlines)
+    ]
+
+
 @pytest.mark.parametrize("newspaper", newspapers, ids=_clean_newspaper)
 def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
     make_mock_fetcher(monkeypatch, newspaper.url, assets)
@@ -136,7 +151,10 @@ def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
     fetcher = Fetcher(newspaper)
     snapshot.snapshot_dir = assets / "../snapshots/test_mock_classify"
     snapshot.assert_match(
-        json.dumps(jsonable_encoder(fetcher.classify()), indent=2),
+        json.dumps(
+            _remove_dates(headlines=fetcher.classify()),
+            indent=2,
+        ),
         f"{clean_url(newspaper.url)}.txt",
     )
 
@@ -156,7 +174,7 @@ def test_classify(assets, snapshot, monkeypatch, newspaper):
     fetcher = Fetcher(newspaper)
     snapshot.snapshot_dir = assets / "../snapshots/test_classify"
     snapshot.assert_match(
-        json.dumps(jsonable_encoder(fetcher.classify()), indent=2),
+        json.dumps(_remove_dates(fetcher.classify()), indent=2),
         f"{clean_url(newspaper.url)}.txt",
     )
 
@@ -164,16 +182,7 @@ def test_classify(assets, snapshot, monkeypatch, newspaper):
 @pytest.mark.integration
 @pytest.mark.asyncio
 async def test_wayback_integration():
-    newspaper = Newspaper.parse_obj(
-        {
-            "name": "BBC",
-            "language": "en",
-            "url": "https://bbc.com",
-            "title_xpath": "//h3[@class='media__title']",
-            "relative_href_xpath": "/a",
-            "expected_headlines": 47,
-        }
-    )
+    newspaper = newspapers[0]
     async with aiohttp.ClientSession() as session:
         fetchers = [
             WaybackFetcher(date=date, newspaper=newspaper, session=session)
@@ -195,16 +204,7 @@ async def test_wayback_integration():
 
 @pytest.mark.integration
 def test_wayback_sync():
-    newspaper = Newspaper.parse_obj(
-        {
-            "name": "BBC",
-            "language": "en",
-            "url": "https://bbc.com",
-            "title_xpath": "//h3[@class='media__title']",
-            "relative_href_xpath": "/a",
-            "expected_headlines": 47,
-        }
-    )
+    newspaper = newspapers[0]
     fetchers = [
         WaybackFetcher(date=date, newspaper=newspaper)
         for date in [datetime(2023, 1, 1), datetime(2023, 1, 2)]

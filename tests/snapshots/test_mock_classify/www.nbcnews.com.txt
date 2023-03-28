@@ -3,7 +3,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Major climate report issues a dire outlook for human life on Earth",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -19,7 +18,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Carbon dioxide emissions reached a record high in 2022",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -35,7 +33,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "NASA and NOAA find 2022 was one of the hottest years on record",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -51,7 +48,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Xi joins Putin in Russia in an even greater show of solidarity",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -67,7 +63,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "White House seeks softer tone on China ahead of Putin-Xi meeting",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -83,7 +78,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "VIDEO: Here's what Xi hopes to get out of his trip to Russia",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -99,7 +93,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "DeSantis attacks Manhattan 'Soros-funded' prosecutor in first comments on possible Trump indictment",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -115,7 +108,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "House GOP chairmen ask Manhattan D.A. Alvin Bragg to testify on Trump probe",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -131,7 +123,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "McCarthy says Americans should not protest if Trump is indicted",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -147,7 +138,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Jury convicts 3 men of murder in rapper XXXTentacion\u2019s death",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -163,7 +153,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "XXXTentacion's friend describes rapper's fatal shooting",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -179,7 +168,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Buster Murdaugh says he had nothing to do with teen's hit-and-run death",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -195,7 +183,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Body of teenager in hit-and-run death near Murdaugh estate to be exhumed",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -211,7 +198,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "American aid worker held captive for over 6 years in West Africa is released, officials say",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -227,7 +213,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Protesters bloodied and arrested at NYC Drag Story Hour",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -243,7 +228,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "2 students injured, 1 critically, in shooting outside a Texas high school",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -259,7 +243,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Colorado dentist is charged with fatally poisoning his wife in 'complex and calculated murder'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -275,7 +258,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "5 children dead after SUV veers off a N.Y. highway and catches fire; boy, 9, survives",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -291,7 +273,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Search on for Florida boaters missing in lake near Legoland",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -307,7 +288,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Cuban protests and celebrations mark World Baseball Classic semifinal against the U.S.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -323,7 +303,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Trump isn't giving up on Fox News even after Dominion revelations",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -339,7 +318,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "White House to counter GOP's soft-on-crime attacks by targeting far-right budget plan",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -355,7 +333,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Supreme Court wrestles with Navajo Nation water rights dispute",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -371,7 +348,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Justice Dan Kelly launches his first ad of Wisconsin Supreme Court campaign",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -387,7 +363,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Candidates who support psychedelics as medicine get a political action committee",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -403,7 +378,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Amazon to lay off 9,000 more workers after earlier cuts",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -419,7 +393,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Here's how to secure your Twitter account without text message verification",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -435,7 +408,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "New York Community Bank to buy failed Signature Bank",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -451,7 +423,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "UBS buys Credit Suisse for $3.2 billion as regulators look to shore up the global banking system",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -467,7 +438,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Elizabeth Holmes owes over $25 million to Theranos creditors, lawsuit says",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -483,7 +453,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Macron's government faces no-confidence vote over contentious pension plan",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -499,7 +468,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "North Korea's Kim oversees simulated nuclear counterattack against U.S. and South Korea",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -515,7 +483,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Netanyahu softens government's judicial overhaul after Biden call",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -531,7 +498,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Millions of dead fish wash up amid heat wave in Australia",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -547,7 +513,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Defiant Putin visits Mariupol in first trip to occupied eastern Ukraine",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -563,7 +528,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Bruce Willis' family opens up about 'grief' they feel on his 68th birthday",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -579,7 +543,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Adam Sandler takes home Mark Twain Prize for American Humor",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -595,7 +558,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Jason Sudeikis and 'Ted Lasso' cast members to visit White House",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -611,7 +573,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Andrew Lloyd Webber reveals his eldest son is critically ill with stomach cancer",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -627,7 +588,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Mikaela Shiffrin ties Lindsey Vonn's all-time podium record at World Cup Finals",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -643,7 +603,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Exclusive: Buster Murdaugh speaks out over Stephen Smith death",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -659,7 +618,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "KCAL meteorologist Alissa Carlton faints and collapses live on air",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -675,7 +633,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Disturbing history of negative health outcomes for Black pregnant women, study reveals",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -691,7 +648,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "7-year-old boy is \u2018real-life superhero,\u2019 donating bone marrow to older brother",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -707,7 +663,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "How Midwest roots shaped Ron DeSantis' political values and perspective",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -723,7 +678,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "The high price of Ozempic is pushing many to unregulated, copycat drugs for weight loss",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -739,7 +693,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Putin is a wanted man \u2014 a trial isn't imminent, but the world is closing in",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -755,7 +708,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Utah is flush with snow and money. It might not be enough to save the Great Salt Lake.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -771,7 +723,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "PrEP's promise to change the course of HIV has succeeded \u2014 but only for white gay men",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -787,7 +738,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Frozen fruit recalled at Costco and Trader Joe's due to risk of hepatitis A contamination",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -803,7 +753,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "New Covid origins data suggests pandemic linked to raccoon dogs at Wuhan market",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -819,7 +768,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Mexico says fentanyl is America's problem. How did drug war relations reach such a low?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -835,7 +783,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Deadly earthquake in Ecuador brings grief and fear",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -851,7 +798,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Nuclear power plant leaks 400,000 gallons of radioactive water",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -867,7 +813,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Scorpion tamales and grasshopper tacos are on the menu at one of America\u2019s best restaurants",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -883,7 +828,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Mexico's president: Fentanyl crisis caused by 'lack of hugs' among U.S. families",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -899,7 +843,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Farmworkers lead 5-day march to pressure companies on wages, work conditions",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -915,7 +858,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Posthumous album set from \u2018Gangsta\u2019s Paradise\u2019 rapper Coolio",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -931,7 +873,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "'Great British Bake Off' taps Alison Hammond to cohost next season",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -947,7 +888,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Ex-NFL player's family says he died from excessive force in L.A. County custody",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -963,7 +903,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Black veterans were more often denied VA benefits for PTSD than white counterparts, newly surfaced study shows",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -979,7 +918,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "'Drag Race' star Jinkx Monsoon slams wave of anti-drag laws",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -995,7 +933,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Kentucky lawmakers pass ban on youth gender-affirming care",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1011,7 +948,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Sikh community organizer says he was denied entry to NBA game for wearing religious article",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1027,7 +963,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "Biden commemorates the anniversary of Atlanta deadly spa shootings",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1043,7 +978,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "East Asians more likely to develop stomach cancer because of lower alcohol tolerance, new study says",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1059,7 +993,6 @@
     "newspaper": "NBC News",
     "language": "en",
     "text": "'American Born Chinese' producers discuss the 'next phase' of on-screen diversity",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,

@@ -22,7 +22,8 @@ from pymongo.database import Database
 from pymongo.server_api import ServerApi
 from tqdm import tqdm
 
-from toxic_news.fetchers import Headline, Newspaper, Scores, WaybackFetcher, newspapers
+from toxic_news.fetchers import Headline, Newspaper, Scores, WaybackFetcher
+from toxic_news.newspapers import newspapers
 
 app = typer.Typer()
 
@@ -186,14 +187,18 @@ def insert_daily_table(
 ) -> list[DailyRow]:
     out = []
     for n in newspapers:
-        out.append(
-            DailyRow(
-                name=n.name,
-                scores=query_average_headline_scores(n.name, date, db),
-                count=query_headlines_count(n.name, date, db),
-                date=date,
+        try:
+            out.append(
+                DailyRow(
+                    name=n.name,
+                    scores=query_average_headline_scores(n.name, date, db),
+                    count=query_headlines_count(n.name, date, db),
+                    date=date,
+                )
             )
-        )
+        except IndexError:
+            logger.warning(f"{n.url} was not found on {date.strftime(date_fmt)}")
+            continue
 
     logger.debug(f"First row to be inserted: {out[:1]}")
     if autosave or typer.confirm(f"Insert {len(out)} results into table?"):
@@ -265,12 +270,7 @@ async def _fetch_single(
     url: str, headers: dict, newspaper: Newspaper, session: ClientSession
 ) -> bytes:
     payload = {
-        "name": newspaper.name,
         "url": str(newspaper.url),
-        "language": newspaper.language,
-        "title_xpath": newspaper.title_xpath,
-        "relative_href_xpath": newspaper.relative_href_xpath,
-        "expected_headlines": newspaper.expected_headlines,
     }
     result = await session.post(url, headers=headers, json=payload)
     content = await result.content.read()
@@ -302,6 +302,8 @@ async def _fetch_daily(url: str, auth_bearer: str, endpoint: str):
             )
 
         await asyncio.gather(*pending, return_exceptions=False)
+        # ensure all requests are launched, even if one of them fails
+        await asyncio.sleep(20)
 
 
 @app.command()
@@ -369,10 +371,6 @@ def fetch_wayback(
         "allows for #headlines between 70 and 130, "
         "and errors if there's too many/few headlines.",
     ),
-    title_xpath: Optional[str] = None,
-    href_xpath: str = typer.Option(
-        ".", help="Xpath, relative to the title_xpath, for the url of the article"
-    ),
     auto_save: bool = False,
     cache_dir: Path = Path(".requests_cache"),
     use_cache: bool = True,
@@ -389,9 +387,6 @@ def fetch_wayback(
 
     date_list = get_date_range(start_date, end_date)
     newspaper = find_newspaper(url)
-    if title_xpath is not None:  # might need a different xpath for historic websites
-        newspaper.title_xpath = title_xpath
-        newspaper.relative_href_xpath = href_xpath
     headlines_list = asyncio.run(
         _fetch_wayback(newspaper, date_list, cache_dir if use_cache else None)
     )
@@ -412,7 +407,7 @@ def fetch_wayback(
             bad_dates.append((d, len(h)))
     for d, n in bad_dates:
         logger.warning(
-            f"Bad date: {d} with {n} headlines "
+            f"Bad date: {d.strftime(date_fmt)} with {n} headlines "
             f"(expected {newspaper.expected_headlines} ± "
             f"{allowed_difference_headlines * newspaper.expected_headlines:.2f})"
         )
@@ -432,10 +427,25 @@ def fetch_wayback(
                     name="headlines-unique-idx",
                     unique=True,
                 )
-            res = table.insert_many(
-                [h.dict() for day in headlines_to_insert for h in day], ordered=False
-            )
-            logger.debug(f"Inserted {len(res.inserted_ids)} records in the collection")
+            inserted_records = 0
+            for day in tqdm(headlines_to_insert):
+                try:
+                    res = table.insert_many([h.dict() for h in day], ordered=False)
+                    inserted_records += len(res.inserted_ids)
+                except pymongo.errors.BulkWriteError as e:
+                    # ignore errors with duplicate index, simply don't re-insert those
+                    panic_list = [
+                        x for x in e.details["writeErrors"] if x["code"] != 11000
+                    ]
+                    # if any of the errors was something different, raise it
+                    if len(panic_list) > 0:
+                        raise e
+                    logger.warning(
+                        f"Found duplicates on {day[0].date.strftime(date_fmt)}, "
+                        f"skipping that day"
+                    )
+
+            logger.debug(f"Inserted {inserted_records} records in the collection")
     else:
         logger.info("No results saved to database.")
 

@@ -118,6 +118,7 @@ profile = "black"
 
 [tool.mypy]
 check_untyped_defs = true
+plugins = ["pydantic.mypy"]
 
 [[tool.mypy.overrides]]
 module = [
@@ -132,3 +133,10 @@ markers = [
     "slow: slow and heavy tests, not sure if these can run in the CI pipeline",
     "integration: slow tests, shouldn't be run so often"
 ]
+
+[tool.pydantic-pycharm-plugin.parsable-types]
+HttpUrl = ["str"]
+
+[tool.pydantic-pycharm-plugin]
+parsable-type-highlight = "warning"
+acceptable-type-highlight = "disable"

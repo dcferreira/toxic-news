@@ -25,5 +25,5 @@ repos:
     rev: 'v1.1.1'  # Use the sha / tag you want to point at
     hooks:
       - id: mypy
-        additional_dependencies: [types-requests, lxml-stubs]
+        additional_dependencies: [types-requests, lxml-stubs, pydantic]
 exclude: 'tests/snapshots/'

@@ -3,7 +3,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Parents sue over 'high crime area' after football player star son brutally gunned down in parking lot",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -19,7 +18,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "CBP staffer questioned if rancher was 'crazy' when calling about alleged traffickers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -35,7 +33,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "VP Harris reportedly won't speak to Elizabeth Warren after 'pretty insulting' snub",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -51,7 +48,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Video of student goes viral after being 'deprogrammed' about White privilege",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -67,7 +63,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Biden tries softening banking system blow after historic SVB collapse",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -83,7 +78,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Angela Bassett accused of being 'sore loser' after Jamie Lee Curtis wins Oscar",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -99,7 +93,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "'Wheel of Fortune' host apologizes to contestant after mocking phobia on game show",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -115,7 +108,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "LIVE UPDATES: Stocks volatile as Silicon Valley Bank collapse rattles Wall Street",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -131,7 +123,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Woman finds dead husband in their home months after his disappearance",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -147,7 +138,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Man reportedly shot over 70 times while on porch of home",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -163,7 +153,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Emily Ratajkowski shows off mostly naked body at Vanity Fair Oscars party",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -179,7 +168,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Gov. Whitmer blasted for 'gaslighting' residents on COVID-19 restrictions",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -195,7 +183,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Ex-UFC star gives fans a look at her steamy content on social media",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -211,7 +198,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "House committee subpoenas bank for records related to Hunter Biden dealings",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -227,7 +213,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Virgin Islands officials mum on US swim champ autopsy results as spring break vacations begin",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -243,7 +228,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Manhunt underway after two officers are shot, one of them killed",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -259,7 +243,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Nursery school under fire for advising parents to not call daughters 'pretty'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -275,7 +258,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Researchers identify this mammal as latest potential cause of climate change",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -291,7 +273,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "NYC ICE office reportedly backed up until 2032 amid massive migrant influx",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -307,7 +288,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Florida Democrat forgets the Pledge of Allegiance at first public meeting",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -323,7 +303,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "XFL accidentally shows half-naked player on broadcast",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -339,7 +318,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Mayorkas under fire after 1,000 migrants rush El Paso border: 'Resign immediately'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -355,7 +333,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Don Lemon seemingly roasted at Oscars by lead actress winner",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -371,7 +348,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Xi Jinping to reportedly speak with Zelenskyy after meeting Putin in Moscow",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -387,7 +363,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "\u2018White Lotus\u2019 actor claims agent dropped him for refusing to reveal sexuality",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -403,7 +378,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Suspect killed in shooting was \u2018waiting\u2019 for deputies before opening fire",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -419,7 +393,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Chiefs\u2019 Chris Jones vows he \u2018will not play for another franchise\u2019 ahead free agency",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -435,7 +408,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Man catches fish with bare hands in flooded street",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -451,7 +423,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Doctor warns against 'dangerous' DEI agenda exposed at medical school",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -467,7 +438,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Faith and science take center stage on space shuttle flight in new book",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -483,7 +453,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "iPhone owners outraged over forced clean energy usage setting",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -499,7 +468,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Large alligator gets stuck in metal fence in Florida",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -515,7 +483,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "On this day in history, US Army K-9 Corps begins training dogs to fight in WWII",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -531,7 +498,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "PLAY HERE: Check out the latest edition of the Fox News Daily Crossword Puzzle",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -547,7 +513,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Political cartoons of the day",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -563,7 +528,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Scientist says nature's 'skeleton key' could be solution to toxic chemical spills and save East Palestine",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -579,7 +543,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "International Church of Cannabis spars with liberal city \u2014 but it's not because of drugs",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -595,7 +558,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Why Jimmy Kimmel will flop as host of the Oscars: Jimmy Failla",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -611,7 +573,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Treasury rejects complaint that it 'excluded' Senate GOP from Silicon Valley Bank briefing",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -627,7 +588,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Thousands of junior doctors go on strike across England to demand better pay",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -643,7 +603,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Biden says Americans should 'feel confident' in banking system after federal response to SVB collapse",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -659,7 +618,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Biden admin's response to Silicon Valley Bank collapse is the 'greatest form of corporate cronyism': Tim Scott",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -675,7 +633,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "SVB collapse only 'the tip of the iceberg' under Biden spending policies, economist warns",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -691,7 +648,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "First-year medical school students exposed to woke 'sex and gender primer' lesson",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -707,7 +663,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Video of White college student goes viral after being 'deprogrammed' about White privilege",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -723,7 +678,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Trump makes first stop in Iowa this cycle just days after DeSantis, expands 2024 campaign ground game",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -739,7 +693,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Hunter Biden: Subpoenaed Bank of America records opened 'new avenues' of investigation, House Oversight says",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -755,7 +708,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "GOP midterm candidate sounds off on 'criminal' request of his private military records by Dem-aligned group",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -771,7 +723,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Dave McCormick\u2019s new book could serve as a \u2018battle plan\u2019 for a 2024 GOP Senate run in Pennsylvania",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -787,7 +738,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "China's quiet land grab threatens our most valuable resource",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -803,7 +753,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Patriot remembered: Military mom memorializes son who died in National Guard helicopter crash with new book",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -819,7 +768,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "US Merchant Marine Academy rescinds vaccine mandate days after accusations of 'iIlegal attack'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -835,7 +783,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Mayor Eric Adams' church and state remarks 'surprising' but 'encouraging,' says religious liberty group",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -851,7 +798,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "UN commission claims international community, Syrian government didn't react to earthquake quickly enough",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -867,7 +813,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Former Haiti mayor accused of torturing, killing his political opponents heads to court in Boston",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -883,7 +828,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Xi Jinping to speak with Zelenskyy after meeting Putin in Moscow: report",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -899,7 +843,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Nursery school under fire for advising parents to not call daughters 'pretty' or 'princess': 'Daft advice'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -915,7 +858,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "What became of 20 babies Paris Hilton left behind?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -931,7 +873,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "5 ways Biden is still coming for your gas stove",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -947,7 +888,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Elizabeth Warren's shocking Spirit folly will hurt all air travelers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -963,7 +903,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "China's thought police may already be at work in America",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -979,7 +918,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Be well: Why it's wise to ditch the elevator and take the stairs",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -995,7 +933,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Mediterranean, MIND diets shown to reduce signs of Alzheimer\u2019s in the brain, study finds",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1011,7 +948,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Most men diagnosed with prostate cancer don't need to rush to surgery, radiation treatments: study",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1027,7 +963,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Prince Harry says psychedelic drugs helped him \u2014 but what about the risks and dangers?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1043,7 +978,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Border Patrol staffer questioned whether Ariz. rancher was \u2018crazy\u2019 when calling about alleged drug traffickers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1059,7 +993,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Florida suspect killed in shooting was \u2018waiting\u2019 for deputies before opening fire, wounding officer: police",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1075,7 +1008,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Ohio judge to determine validity of insanity defense submitted by man who killed 2 children",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1091,7 +1023,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Black history through the years: Rosa Parks, Sojourner Truth, MLK Jr. and other famous figures in the US",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1107,7 +1038,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "How to send Valentines to kids in hospitals, nursing home residents and more",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1123,7 +1053,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "In memory of World War II veteran Lester Tanner: 'We are all Jewish'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1139,7 +1068,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Why does so much of Gen-Z hate America? Here's why we can't give up on them",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1155,7 +1083,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "China flexes muscles in Latin America in latest security challenge to US",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1171,7 +1098,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "On this day in history, March 13, 1942, US Army K-9 Corps begins training dogs to fight in World War II",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1187,7 +1113,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "David Blaine dislocates shoulder, continues Las Vegas performance: \u2018Wow that hurt\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1203,7 +1128,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Angela Bassett accused of being 'sore loser' in viral Oscar moment after Jamie Lee Curtis' win",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1219,7 +1143,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "'Wheel of Fortune' host Pat Sajak apologizes to contestant after mocking phobia",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1235,7 +1158,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Bruce Springsteen postpones 3 shows due to illness a month into first major tour in 6 years",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1251,7 +1173,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Jason Kelce announces plans to return to Eagles in 2023: 'I ain\u2019t f---ing done yet!'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1267,7 +1188,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Chargers star Austin Ekeler requests permission to seek trade after stellar year: reports",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1283,7 +1203,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Patriots start offseason wheeling and dealing with Jonathan Jones deal, Jonnu Smith trade: reports",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1299,7 +1218,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Rehabilitated bald eagle released in Mississippi after getting struck by car",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1315,7 +1233,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "10 safety tips to remember if you're traveling out of the country for spring break",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1331,7 +1248,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Prince Harry, Meghan Markle's children have yet to be invited to King Charles' coronation: report",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1347,7 +1263,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Husky dog who was called 'ugly' for crooked smile finds family who drives 2.6K miles to adopt him",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1363,7 +1278,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Personal loan interest rates tumble below 15% for 5-year fixed-rate loans",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1379,7 +1293,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Savings window opens: Today's 30-year mortgage rates fall to lowest levels in 26 days | March 13, 2023",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1395,7 +1308,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Inflation, recession fears dampen financial health outlook for many: survey",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1411,7 +1323,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "How to file your 2023 taxes and get the most out of your return",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1427,7 +1338,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Beware of rise in short-term vacation rental scams",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1443,7 +1353,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Stop! This mistake is loading your device with adware and trackers!",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1459,7 +1368,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Now you can add ChatGPT to your browser",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1475,7 +1383,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Woody Harrelson's \u2018Champions\u2019 turns spotlight on actors with disabilities: It's our 'superpower'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1491,7 +1398,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Don Lemon seemingly roasted at Oscars by Michelle Yeoh: 'Don't let anybody tell you you're past your prime'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1507,7 +1413,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Ke Huy Quan embraced onstage by presenter Harrison Ford as 'Everything Everywhere All At Once' wins Oscar",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1523,7 +1428,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Rent growth had smallest gain in two years: Redfin",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1539,7 +1443,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Charles Schwab shares head for worst day ever, CFO defends firm",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1555,7 +1458,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "First Republic shares plunge on SVB contagion fears",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1571,7 +1473,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "'Jesus in Space': Faith and science take center stage on space shuttle flight in new book",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1587,7 +1488,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Biblical drama centering around 'controversial' passage in Scripture enjoys crowdfunding success",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1603,7 +1503,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Russell Brand shares faith's role in overcoming addiction: 'I need God, or I cannot cope in this world'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1619,7 +1518,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Drowsy drivers just won't stop soon enough, AAA study finds",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1635,7 +1533,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "William Byron wins second consecutive race, holds off Ryan Blaney in Phoenix",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1651,7 +1548,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Sammy Smith, 18-year-old high schooler, picks up first Xfinity Series win",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1667,7 +1563,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Amelia Earhart's once-lost 1937 Cord added to National Historic Vehicle Register",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1683,7 +1578,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Coconuts being incorporated into shoreline protection projects across the world",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1699,7 +1593,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Shakira says she 'put up with so much crap' as she talks 'rough year' after split with Gerard Piqu\u00e9",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1715,7 +1608,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Paulina Porizkova, 57, reveals she\u2019s dating again despite \u2018trust issues\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1731,7 +1623,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Cher, 76, and Alexander Edwards, 37, share passionate kiss as they make their red carpet debut",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1747,7 +1638,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "The popular cereal that debuted the decade you were born",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1763,7 +1653,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Celebrate National Margarita Day with these sweet and savory cocktail recipes",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1779,7 +1668,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "American Heart Month: Add these heart-healthy foods recommended by experts to your grocery list",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1795,7 +1683,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "5 homemade Valentine\u2019s Day dinner recipe ideas",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1811,7 +1698,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Nor'easter to rapidly intensify as it blasts East Coast with heavy snow, rain, high winds, coastal flooding",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1827,7 +1713,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "California again besieged by atmospheric river's flooding rains, triggering 'roofalanche' concerns",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1843,7 +1728,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Remember all that snow? Here are the most memorable nor'easters over the years",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1859,7 +1743,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Yosemite National Park extends park closure as another atmospheric river storm slams California",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1875,7 +1758,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Arkansas student dresses as her 2nd-grade teacher for school 'Superhero Day': 'Melted my heart'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1891,7 +1773,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Short questions with Dana Perino",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1907,7 +1788,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Tampa woman who fought attacker inside apartment gym honored by sheriff's office: 'Strength and Courage'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1923,7 +1803,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "The Salvation Army offers emotional, spiritual support after Ohio train derailment: 'Providing hope'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1939,7 +1818,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "The Next Revolution w/ Steve Hilton - Sunday, March 12",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1955,7 +1833,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Life, Liberty & Levin - Sunday, March 12",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1971,7 +1848,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "Sunday Night in America with Trey Gowdy - Sunday, March 12",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1987,7 +1863,6 @@
     "newspaper": "Fox News",
     "language": "en",
     "text": "The Big Sunday Show - Sunday, March 12",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,

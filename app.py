@@ -3,11 +3,13 @@ import os
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from loguru import logger
+from pydantic import HttpUrl
 from pymongo import MongoClient
 from pymongo.database import Database
 from pymongo.server_api import ServerApi
 
-from toxic_news.fetchers import Fetcher, Newspaper
+from toxic_news.fetchers import Fetcher
+from toxic_news.newspapers import newspapers_dict
 
 app = FastAPI()
 
@@ -20,7 +22,8 @@ db: Database = client[os.environ["DATABASE_NAME"]]
 
 
 @app.post("/fetch")
-async def fetch(newspaper: Newspaper) -> int:
+async def fetch(url: HttpUrl) -> int:
+    newspaper = newspapers_dict[url]
     fetcher = Fetcher(newspaper)
     headlines = fetcher.classify()
     logger.info(f"Inserting {len(headlines)} rows in the database...")

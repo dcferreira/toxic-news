@@ -3,7 +3,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "UBS buys back nearly $3 billion in bonds issued under a week ago",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00044,
       "severe_toxicity": 0.00002,
@@ -19,7 +18,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Jack Daniel's trademark fight over dog toy goes to U.S. Supreme Court",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.04193,
       "severe_toxicity": 0.00001,
@@ -35,7 +33,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "As AI booms, EU lawmakers wrangle over new rules",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00045,
       "severe_toxicity": 0.00002,
@@ -51,7 +48,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Nvidia tweaks flagship H100 chip for export to China as H800",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00036,
       "severe_toxicity": 0.00004,
@@ -67,7 +63,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Microsoft wins dismissal of gamers' suit over $69 billion Activision deal",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00042,
       "severe_toxicity": 0.00002,
@@ -83,7 +78,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Exclusive: Virgin Orbit near deal to raise $200 mln from Matthew Brown",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00026,
       "severe_toxicity": 0.00005,
@@ -99,7 +93,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Australia's Latitude at all-time low on more evidence of large-scale data theft",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00072,
       "severe_toxicity": 0.00003,
@@ -115,7 +108,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Trump hush-money charges would bring 'zombie case' back to life",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.04233,
       "severe_toxicity": 0.00002,
@@ -131,7 +123,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "US authorities focused on stability, First Republic as Fed meets",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00003,
@@ -147,7 +138,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Morning Bid: Leaning back to Fed hike, UK inflation jolt",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00260,
       "severe_toxicity": 0.00002,
@@ -163,7 +153,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Storm-weary California lashed with 12th 'atmospheric river' cloudbursts",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00121,
       "severe_toxicity": 0.00002,
@@ -179,7 +168,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Uganda passes a law making it a crime to identify as LGBTQ",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.07033,
       "severe_toxicity": 0.00012,
@@ -195,7 +183,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Xi and Putin pledge to shape new world order, no peace in sight for Ukraine",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00050,
       "severe_toxicity": 0.00003,
@@ -211,7 +198,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "At what cost? UK PM Sunak to win post-Brexit trade vote in parliament",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00051,
       "severe_toxicity": 0.00002,
@@ -227,7 +213,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Austrian minister says Russia will remain important for Europe",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00004,
@@ -243,7 +228,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Boris Johnson fights to save career in testimony on UK lockdown parties",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00073,
       "severe_toxicity": 0.00003,
@@ -259,7 +243,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "EU to propose clampdown on companies using fake 'green' claims",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00094,
       "severe_toxicity": 0.00003,
@@ -275,7 +258,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "'Weakened' Macron sticks with pension bill, eyes new reforms",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00097,
       "severe_toxicity": 0.00001,
@@ -291,7 +273,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Marcos says new military bases with US to be 'scattered' around the Philippines",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00078,
       "severe_toxicity": 0.00002,
@@ -307,7 +288,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Taiwan says it has contingency plans for China moves while president abroad",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00045,
       "severe_toxicity": 0.00002,
@@ -323,7 +303,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Fans rejoice in Tokyo as Japan's WBC victory accompanies cherry blossom bloom",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00072,
       "severe_toxicity": 0.00003,
@@ -339,7 +318,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Sri Lanka to start next round of talks with creditors in April",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00031,
       "severe_toxicity": 0.00003,
@@ -355,7 +333,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "China firm wins Solomon Islands port project as Australia watches on",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00038,
       "severe_toxicity": 0.00003,
@@ -371,7 +348,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "China OKs its first mRNA vaccine, from drugmaker CSPC",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00114,
       "severe_toxicity": 0.00003,
@@ -387,7 +363,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "China capital Beijing experiences first population decline since 2003",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00041,
       "severe_toxicity": 0.00004,
@@ -403,7 +378,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Thick sandstorms shroud Beijing and several provinces in China",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00267,
       "severe_toxicity": 0.00003,
@@ -419,7 +393,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "One-third of Americans would consider EV purchase - Reuters/Ipsos poll",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00031,
       "severe_toxicity": 0.00003,
@@ -435,7 +408,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Explainer: What are e-fuels, and can they help make cars CO2-free?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00041,
       "severe_toxicity": 0.00004,
@@ -451,7 +423,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Oxbotica, Goggo team up for autonomous middle-mile delivery",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00040,
       "severe_toxicity": 0.00002,
@@ -467,7 +438,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Mexico makes lots of electric cars, but few Mexicans drive them",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01115,
       "severe_toxicity": 0.00002,
@@ -483,7 +453,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Trump hush-money probe expected to resume in New York grand jury",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.05336,
       "severe_toxicity": 0.00002,
@@ -499,7 +468,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Los Angeles education strike cancels school for 420,000 students",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00131,
       "severe_toxicity": 0.00003,
@@ -515,7 +483,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Arkansas enacts law restricting school bathroom use by transgender people",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.54470,
       "severe_toxicity": 0.00010,
@@ -531,7 +498,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Scranton to Biden: Love ya, Joe. But a 2024 run?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00002,
@@ -547,7 +513,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Trapped and jobless, Gaza youths look for a way out",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.10807,
       "severe_toxicity": 0.00005,
@@ -563,7 +528,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Donations and despair: Syria's north-west tries to rebuild after quake",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00084,
       "severe_toxicity": 0.00002,
@@ -579,7 +543,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Explainer: What's at stake in Turkey's upcoming elections?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00008,
@@ -595,7 +558,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Israeli strike hits near Aleppo airport - Syrian officials",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.04579,
       "severe_toxicity": 0.00030,
@@ -611,7 +573,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "NBA roundup: Paul George gets hurt in Clippers' loss",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00186,
       "severe_toxicity": 0.00006,
@@ -627,7 +588,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Japan's Ohtani strikes out Trout to seal World Baseball Classic win",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00066,
       "severe_toxicity": 0.00004,
@@ -643,7 +603,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Spring training roundup: A's yield inside-the-park HR, rally past Angels",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00003,
@@ -659,7 +618,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "NHL roundup: Alex Ovechkin hits 40 goals for record 13th time",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00064,
       "severe_toxicity": 0.00004,
@@ -675,7 +633,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Our top photos of the day",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00030,
       "severe_toxicity": 0.00011,
@@ -691,7 +648,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Iconic images from the Iraq War, 20 years after it began",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00036,
       "severe_toxicity": 0.00007,
@@ -707,7 +663,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Trump supporters rally at Mar-a-Lago",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00198,
       "severe_toxicity": 0.00002,
@@ -723,7 +678,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Fears for orangutans, dolphins as Indonesia presses on with new capital",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.15520,
       "severe_toxicity": 0.00003,
@@ -739,7 +693,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Streaming boosts recorded music revenue, China market growing",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00040,
       "severe_toxicity": 0.00004,
@@ -755,7 +708,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "Asteroid discovery suggests ingredients for life on Earth came from space",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00031,
       "severe_toxicity": 0.00005,
@@ -771,7 +723,6 @@
     "newspaper": "Reuters",
     "language": "en",
     "text": "'Succession' star Brian Cox gets into character at final season premiere",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00079,
       "severe_toxicity": 0.00003,

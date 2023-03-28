@@ -3,7 +3,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Troubled U.S. organ transplant system targeted for overhaul",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -19,7 +18,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Trump campaign prepares for \u2018new normal\u2019: Running while in legal peril",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -35,7 +33,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Who is Alvin Bragg, the Manhattan DA who could charge Trump?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -51,7 +48,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "DeSantis sharpens criticism of Trump, attacks his character",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -67,7 +63,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Weighing bank distress and inflation, Fed faces next rate hike",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -83,7 +78,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Feel like a slug? You may have the wrong exercise mind-set.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -99,7 +93,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Here\u2019s the real lesson from the showy Xi-Putin meeting",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -115,7 +108,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Only one thing will solve the fentanyl crisis",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -131,7 +123,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Jim Jordan\u2019s sordid attack on possible Trump charges demands an answer",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -147,7 +138,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "But could this be good news for Trump?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -163,7 +153,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "How government casually violates the letter and spirit of the First Amendment",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -179,7 +168,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Expanding child labor is exactly what America\u2019s kids don\u2019t need",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -195,7 +183,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Moderna hearing shows government should drive harder bargain",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -211,7 +198,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Macron defends move to raise retirement age as protests roil France",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -227,7 +213,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "More than 200,000 without power as deadly storm slams California",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -243,7 +228,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Idaho hospital to stop delivering babies, partly due to \u2018political climate\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -259,7 +243,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "U.S. will speed transfer of Abrams tanks to Ukraine, Pentagon says",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -275,7 +258,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Senate hearing to focus on Norfolk Southern\u2019s safety record",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -291,7 +273,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "5 colorful DIY projects you can tackle with one gallon of paint",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -307,7 +288,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Sign up for expert home advice delivered right to your phone",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -323,7 +303,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Carolyn Hax: Is it wrong not to accommodate niece\u2019s fear of dogs?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -339,7 +318,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Gwyneth Paltrow\u2019s ski accident trial has begun. Here\u2019s what to know.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -355,7 +333,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Working in the ER used to be a cool job. Now medical students shun it.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -371,7 +348,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Why are so many Americans poor? Because we allow it, two books argue.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -387,7 +363,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Mauritania\u2019s ancient libraries could be lost to the expanding desert",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -403,7 +378,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Is Sean Hannity a journalist? Role of hosts is key in Fox News lawsuit.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -419,7 +393,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "After political fury, Newsmax will return to DirecTV",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -435,7 +408,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "House GOP tries to avoid Trump talk at retreat while targeting Bragg",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -451,7 +423,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "McConnell phones Senate Republicans, who say he\u2019s \u2018eager\u2019 to be back",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -467,7 +438,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "A president has never been indicted. But one was arrested.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -483,7 +453,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Judge sounds skeptical of some Fox arguments in Dominion lawsuit",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -499,7 +468,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "How to make the most of duty-free airport stores",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -515,7 +483,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Kids these days! Why do they talk back, argue, disrespect elders?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -531,7 +498,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Filed an amended tax return with the IRS? You have a 20-week wait.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -547,7 +513,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Miss Manners: My friend dropped me and I don\u2019t know why",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -563,7 +528,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Ask Amy: My boyfriend\u2019s adult daughter won\u2019t accept our relationship",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -579,7 +543,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Why Americans should eat lentils every day",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -595,7 +558,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Can dogs talk by pressing buttons? What science says about the debate.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -611,7 +573,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Four 80-year-old men finished a 100-mile race. Here\u2019s how they did it.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -627,7 +588,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "What to know about kefir, one of the original gut-friendly foods",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -643,7 +603,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Allergy season is here: the U.S. cities where pollen is the worst",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -659,7 +618,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "They survived terrible Kentucky floods. Now they are living through another crisis.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -675,7 +633,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "With El Ni\u00f1o expected, unusually warm current ocean temps are worrisome sign",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -691,7 +648,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Why seniors protested outside the four largest U.S. banks",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -707,7 +663,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "One U.N. graphic shows how climate change will affect your generation",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -723,7 +678,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "How a state analysis derailed a green amendment in New Mexico",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -739,7 +693,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "AI isn\u2019t magic or evil. Here\u2019s how to spot AI myths.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -755,7 +708,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "What is Bard good for? Our tech columnist finds out",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -771,7 +723,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Buying coffee with your phone is easy. Paying for the subway is a pain.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -787,7 +738,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "End of BreachForums could take a bite out of cybercrime",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -803,7 +753,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Amid flurry of legal challenges, Google and Meta fund litigation center",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -819,7 +768,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "The Elon Musk request that left Tesla engineers aghast, and the fallout that followed",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -835,7 +783,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Zelensky visits Bakhmut; China\u2019s Xi leaves Russia with no clear progress on ending war",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -851,7 +798,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Costa Rica, laid-back land of \u2018pura vida,\u2019 succumbing to drug violence",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -867,7 +813,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Boris Johnson to be grilled on whether he lied to Parliament over Partygate",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -883,7 +828,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Xi\u2019s cocoon in Moscow: A Chinese-owned hotel over Red Square opulence",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -899,7 +843,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "11 killed as strong earthquake rattles Pakistan, Afghanistan",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -915,7 +858,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "The sandwich generation is changing. The stress remains.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -931,7 +873,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Woman, 92, has grown tomatoes from the same seed lineage since 1965",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -947,7 +888,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Louisiana backs off, lets family keep invasive rodent as a pet",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -963,7 +903,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Fed up with her town\u2019s recycling, she collected two tons of trash on her own",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -979,7 +918,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "A pet cockatiel escaped. Billy Joel songs helped return him to his owner.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -995,7 +933,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Homeland Security launches \u2018Operation Blue Lotus\u2019 to target fentanyl",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1011,7 +948,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Supreme Court rules for deaf student who says school district failed him",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1027,7 +963,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "A tree fell, killing two children. Their parents are now warning others.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1043,7 +978,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "A Winnie the Pooh horror film was pulled in Hong Kong. No one will explain why.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1059,7 +993,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "\u2018The Lost King\u2019: True story of the search for the grave of Richard III",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1075,7 +1008,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Nashville singers band together in support of LGBTQ rights",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1091,7 +1023,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "At Georgia lawmaker\u2019s office, statehood advocates say \u2018hands off DC\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1107,7 +1038,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Montgomery County schools report increase in arrests, decrease in calls for service",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1123,7 +1053,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Inmates dig out of jail with toothbrush, get caught at IHOP, officials say",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1139,7 +1068,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "James Madison\u2019s Montpelier receives $5.8 million for memorial to enslaved",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1155,7 +1083,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Strapped for more housing, Alexandria looks to rework zoning rules",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1171,7 +1098,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "A deadly fungus is spreading in U.S. health facilities. It has exposed a broader problem.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1187,7 +1113,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Minnesota advances abortion bill to protect out-of-state patients",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1203,7 +1128,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Martina Navratilova says she is cancer-free, describes \u2018total panic\u2019 of diagnosis",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1219,7 +1143,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Vivid images capture sounds that soothe and nurture \u2014 and some that jar",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1235,7 +1158,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "The surfer, the scientist and the big-wave beach at a breaking point",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1251,7 +1173,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "With an epic ending, Shohei Ohtani and Japan reclaim the World Baseball Classic crown",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1267,7 +1188,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Wizards\u2019 troubles don\u2019t disappear in a deflating loss to the Magic",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1283,7 +1203,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "After honoring Alex Ovechkin, Caps blow three-goal lead, lose in overtime",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1299,7 +1218,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "How one cognitive test could help NFL teams find the next elite quarterback",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1315,7 +1233,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Deeply, truly, very sorry: How tech CEOs talk when they lay off workers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1331,7 +1248,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "A surprising (and growing) gender gap in the most dangerous jobs",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1347,7 +1263,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Settlement will wipe $6B in student loan debt \u2014 but not for these borrowers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1363,7 +1278,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Electric cars are creating a new economy \u2014 and leaving some towns behind",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1379,7 +1293,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Buyers pour into housing market as prices drop for first time since 2012",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1395,7 +1308,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "New Yorkers bond over new city logo: They hate it",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1411,7 +1323,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Mountain lion attacks tourist in a pool at Colorado vacation rental",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -1427,7 +1338,6 @@
     "newspaper": "The Washington Post",
     "language": "en",
     "text": "Everything you need to know about traveling to Japan this year",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,

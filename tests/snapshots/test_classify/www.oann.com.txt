@@ -3,7 +3,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Idaho aims to reinstate the firing squad",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.19951,
       "severe_toxicity": 0.00040,
@@ -19,7 +18,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "LAUSD schools close",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00078,
       "severe_toxicity": 0.00004,
@@ -35,7 +33,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "5 Connecticut kids killed in car accident on NY trip",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00161,
       "severe_toxicity": 0.00002,
@@ -51,7 +48,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Manhattan DA issues response to GOP on possible Trump indictment",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00066,
       "severe_toxicity": 0.00002,
@@ -67,7 +63,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Xi invites Putin to China",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00053,
       "severe_toxicity": 0.00002,
@@ -83,7 +78,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "FTC continues to investigate Amazon",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00043,
       "severe_toxicity": 0.00003,
@@ -99,7 +93,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "DeSantis bashes \u2018Soros-funded\u2019 Manhattan DA",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.06761,
       "severe_toxicity": 0.00013,
@@ -115,7 +108,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Diversity, equity and inclusion at colleges and universities raises concerns of free speech",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00038,
       "severe_toxicity": 0.00004,
@@ -131,7 +123,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "One-on-one with Randy Sevcik, President of Elite Group Retirement Services",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00051,
       "severe_toxicity": 0.00004,
@@ -147,7 +138,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "GOP House conference chair: Prosecutor persecution of Trump helps his polls",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00301,
       "severe_toxicity": 0.00001,
@@ -163,7 +153,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "GOP leans into transgender battle leading up to 2024 election",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.07203,
       "severe_toxicity": 0.00005,
@@ -179,7 +168,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "20 Years Since the U.S.-Led Invasion of Iraq",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00068,
       "severe_toxicity": 0.00003,
@@ -195,7 +183,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Potential Trump indictment likely a \u2018clear case\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00076,
       "severe_toxicity": 0.00002,
@@ -211,7 +198,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "EU proposes exception for e-fuel combustion engines from 2035",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00027,
       "severe_toxicity": 0.00005,
@@ -227,7 +213,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "EV charger makers brace for slowdown as new Made In America rules kick in",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00081,
       "severe_toxicity": 0.00002,
@@ -243,7 +228,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Huge Phillips 66 biofuels project will test the industry\u2019s green promises",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00042,
       "severe_toxicity": 0.00003,
@@ -259,7 +243,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Switzerland\u2019s secretive Credit Suisse rescue rocks global finance",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00050,
       "severe_toxicity": 0.00003,
@@ -275,7 +258,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Shares rise after Credit Suisse deal, but bank \u2018whack-a-mole\u2019 not over",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00120,
       "severe_toxicity": 0.00004,
@@ -291,7 +273,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "\u2018Succession\u2019 star Brian Cox gets into character at final season premiere",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00070,
       "severe_toxicity": 0.00003,
@@ -307,7 +288,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Screening of \u201cWinnie the Pooh\u201d horror film cancelled in Hong Kong",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00060,
       "severe_toxicity": 0.00007,
@@ -323,7 +303,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Offbeat multiverse movie \u2018Everything Everywhere\u2019 dominates the Oscars",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00099,
       "severe_toxicity": 0.00004,
@@ -339,7 +318,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Google suspends China\u2019s Pinduoduo app on security concerns",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00065,
       "severe_toxicity": 0.00003,
@@ -355,7 +333,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Italy\u2019s Antitrust probes TikTok over \u2018French scar\u2019 dangerous content",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00076,
       "severe_toxicity": 0.00002,
@@ -371,7 +348,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "India\u2019s Karnataka govt approves $968 million investment from Foxconn unit",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00003,
@@ -387,7 +363,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "EXCLUSIVE-Olympics-Paris 2024 plans Games relay changes, fewer torches-source",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00068,
       "severe_toxicity": 0.00235,
@@ -403,7 +378,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "NHL roundup: Aleksander Barkov sets Panthers\u2019 scoring record",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00031,
       "severe_toxicity": 0.00009,
@@ -419,7 +393,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Women\u2019s NCAA roundup: Ohio State sinks UNC at buzzer",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01212,
       "severe_toxicity": 0.00020,
@@ -435,7 +408,6 @@
     "newspaper": "One America News Network (OAN)",
     "language": "en",
     "text": "Geofence Surveillance: First, They Spied on Protesters. Then Churches. You\u2019re Next.",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01340,
       "severe_toxicity": 0.00005,

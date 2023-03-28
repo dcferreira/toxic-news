@@ -3,7 +3,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Judge upholds Supreme Court precedent by blocking California handgun safety rule",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00052,
       "severe_toxicity": 0.00002,
@@ -19,7 +18,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Using sedition and domestic terrorism laws against rioters is overkill",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01159,
       "severe_toxicity": 0.00003,
@@ -35,7 +33,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "What the Manhattan DA's Office taught us about a Trump vs. DeSantis 2024",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00040,
       "severe_toxicity": 0.00002,
@@ -51,7 +48,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "DOJ watchdog threatened obstruction of justice probe against Obama-era FBI",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00076,
       "severe_toxicity": 0.00002,
@@ -67,7 +63,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Trump attorney may be limited after texts with Stormy handed over to DA",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00082,
       "severe_toxicity": 0.00002,
@@ -83,7 +78,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Democratic city's school unions are COVIDing children all over again",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.03625,
       "severe_toxicity": 0.00007,
@@ -99,7 +93,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Democrat billionaire trying to force\u00a0Trump out of GOP\u00a0primary",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00203,
       "severe_toxicity": 0.00001,
@@ -115,7 +108,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Follow the money: GOP recruiting very specific candidates to take back Senate",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00051,
       "severe_toxicity": 0.00002,
@@ -131,7 +123,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Trump\u2019s Stormy saga shows he's a cad, not a convict",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.70774,
       "severe_toxicity": 0.00006,
@@ -147,7 +138,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Trump says getting shot during arrest would win him 2024",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.32204,
       "severe_toxicity": 0.00049,
@@ -163,7 +153,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Inability to repair electric car batteries presents problems",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00069,
       "severe_toxicity": 0.00003,
@@ -179,7 +168,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Donald Trump indictment: What to watch if former president is arrested",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00271,
       "severe_toxicity": 0.00002,
@@ -195,7 +183,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "TikTok CEO promises Congress a firewall against CCP access",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00048,
       "severe_toxicity": 0.00003,
@@ -211,7 +198,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Trump campaign shifts strategy under indictment threat: 'New normal'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00078,
       "severe_toxicity": 0.00001,
@@ -227,7 +213,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "GOP senators say Biden pushing unrelated agenda in semiconductor law",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00056,
       "severe_toxicity": 0.00002,
@@ -243,7 +228,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Arkansas law requires students to use restroom according to biological sex",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.08066,
       "severe_toxicity": 0.00011,
@@ -259,7 +243,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "White House hopes to keep potential Trump indictment at arm's-length",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00790,
       "severe_toxicity": 0.00005,
@@ -275,7 +258,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Supreme Court takes up Jack Daniel's bid to toss chew toy parody",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02466,
       "severe_toxicity": 0.00004,
@@ -291,7 +273,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Five things to remember about a 'zombie' Trump indictment",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.05479,
       "severe_toxicity": 0.00002,
@@ -307,7 +288,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Trump's Melania defense is back in play",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00152,
       "severe_toxicity": 0.00002,
@@ -323,7 +303,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "NHL players courageously lead charge against gender indoctrination",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00641,
       "severe_toxicity": 0.00003,
@@ -339,7 +318,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Jerome Powell's Paul Volcker moment?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00052,
       "severe_toxicity": 0.00004,
@@ -355,7 +333,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Saddam Hussein was there too",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00050,
       "severe_toxicity": 0.00003,
@@ -371,7 +348,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "A new book that has the lottery's number",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00040,
       "severe_toxicity": 0.00003,
@@ -387,7 +363,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Middlebrow's big night",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00221,
       "severe_toxicity": 0.00003,
@@ -403,7 +378,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Here's which Big Tech rivals would benefit from a crackdown on TikTok",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.05803,
       "severe_toxicity": 0.00026,
@@ -419,7 +393,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Saudi Arabia releases dual Saudi-US national jailed for critical tweets",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00159,
       "severe_toxicity": 0.00002,
@@ -435,7 +408,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "'Two sexes, and that\u2019s all there is to it': Biologist defends JK Rowling\u2019s comments",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00685,
       "severe_toxicity": 0.00007,
@@ -451,7 +423,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "WATCH: Jim Jordan says the Left wants Trump mugshot for political distraction",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02024,
       "severe_toxicity": 0.00009,
@@ -467,7 +438,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "District attorneys in crime-ridden cities want cars to be harder to steal",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00088,
       "severe_toxicity": 0.00002,
@@ -483,7 +453,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Dodge announces final gas-powered muscle car",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00101,
       "severe_toxicity": 0.00003,
@@ -499,7 +468,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Alex Murdaugh's son linked to suspicious death of former classmate",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00615,
       "severe_toxicity": 0.00003,
@@ -515,7 +483,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "China's ambassador to the Netherlands has a meltdown over chip ban",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00061,
       "severe_toxicity": 0.00002,
@@ -531,7 +498,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Alvin Bragg responds to Republican calls for him to testify before Congress",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00048,
       "severe_toxicity": 0.00002,
@@ -547,7 +513,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Trump allies anticipate Mar-a-Lago raid-like boost from indictment",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00057,
       "severe_toxicity": 0.00002,
@@ -563,7 +528,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Excess CHIPS: GOP senators say Biden pushing unrelated agenda in semiconductor law",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00053,
       "severe_toxicity": 0.00002,
@@ -579,7 +543,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Home prices down year over year, breaking record 131-month streak of increases",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00003,
@@ -595,7 +558,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Virginia Foxx demands answers from DC children's hospital over gender procedures",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00373,
       "severe_toxicity": 0.00002,
@@ -611,7 +573,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Cuban baseball player abandons team, becomes first to defect during World Baseball Classic",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00327,
       "severe_toxicity": 0.00004,
@@ -627,7 +588,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Hybrid workers get paid more than in-person and remote workers: Report",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00036,
       "severe_toxicity": 0.00003,
@@ -643,7 +603,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Japan\u2019s Kishida shames China by visiting Ukraine as Xi meets Putin: \u2018Pure antagonism\u2019",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00209,
       "severe_toxicity": 0.00002,
@@ -659,7 +618,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "China not an \u2018impartial\u2019 actor in Ukraine conflict, White House says",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00186,
       "severe_toxicity": 0.00004,
@@ -675,7 +633,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Putin says Russia supports 'many of the provisions' in China's Ukraine peace plan",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00002,
@@ -691,7 +648,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "How Putin's rare pageantry and promptness show his immense value for Xi",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00306,
       "severe_toxicity": 0.00001,
@@ -707,7 +663,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Russia says it scrambled fighter jet to intercept two US bombers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01307,
       "severe_toxicity": 0.00007,
@@ -723,7 +678,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Irvo Otieno death: Virginia officers and hospital staff indicted hours after footage released",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00051,
       "severe_toxicity": 0.00004,
@@ -739,7 +693,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Oklahoma Supreme Court rules partial 'right to abortion' enshrined in state constitution",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00084,
       "severe_toxicity": 0.00002,
@@ -755,7 +708,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "COVID-19 origins: Why the State Department\u2019s testimony to Congress is crucial to finding answers",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00033,
       "severe_toxicity": 0.00005,
@@ -771,7 +723,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Deadly fungal infection is spreading in US hospitals, CDC says",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00315,
       "severe_toxicity": 0.00004,
@@ -787,7 +738,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Idaho hospital terminating labor and delivery services due to political climate",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00058,
       "severe_toxicity": 0.00003,
@@ -803,7 +753,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Biden's fake nod to energy production in Alaska",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00132,
       "severe_toxicity": 0.00001,
@@ -819,7 +768,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Daily on Energy: Biden goes head to head with green allies in court",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00083,
       "severe_toxicity": 0.00002,
@@ -835,7 +783,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Don\u2019t fall for Biden\u2019s centrist head fake",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.47308,
       "severe_toxicity": 0.00009,
@@ -851,7 +798,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "SVB collapse: Yellen says US could backstop small banks if problems grow",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00056,
       "severe_toxicity": 0.00003,
@@ -867,7 +813,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "How Biden is worsening the labor shortage and inflation",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00072,
       "severe_toxicity": 0.00002,
@@ -883,7 +828,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "SVB collapse: Influential lawmakers call to lift $250,000 cap on FDIC deposit insurance",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00040,
       "severe_toxicity": 0.00002,
@@ -899,7 +843,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Inside LA's out-of-control juvenile jails where violence rules in the Newsom era",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00106,
       "severe_toxicity": 0.00002,
@@ -915,7 +858,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Twenty years after the US invasion of Iraq",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00057,
       "severe_toxicity": 0.00004,
@@ -931,7 +873,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Tom Cotton sounds the alarm on China \u2014 is anybody listening?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00114,
       "severe_toxicity": 0.00002,
@@ -947,7 +888,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "Richard Viguerie opens new blog with call for next MAGA motto",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00003,
@@ -963,7 +903,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "'Woke' Silicon Valley \u2014 Sand Hill Road and Stanford Law \u2014 get off scot-free",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00137,
       "severe_toxicity": 0.00003,
@@ -979,7 +918,6 @@
     "newspaper": "Washington Examiner",
     "language": "en",
     "text": "The Stormy Daniels story is a lot of things, but it\u2019s primarily a reminder of how unfit Trump is",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.52994,
       "severe_toxicity": 0.00003,

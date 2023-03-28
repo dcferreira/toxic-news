@@ -3,7 +3,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Terrifying video shows execution-style Miami Beach shooting in the midst of spring break",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -19,7 +18,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "'Miss y'all'\nShaquille O'Neal sparks concern with hospital photo",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -35,7 +33,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "'Against the law': Credit Suisse bondholders blast 'insane' UBS takeover",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -51,7 +48,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Wendy Williams spotted drinking at NYC gay bar Townhouse after rehab",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -67,7 +63,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Company killer\nInsane, 130-year-old state law poses huge new threat to New York jobs",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -83,7 +78,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Stuffed\nFlorida Atlantic coach apologizes for player's rude dunk at end of win over FDU",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -99,7 +93,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Bettors react in disbelief to brutal March Madness bad beat",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -115,7 +108,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "CBS reporter saved March Madness star in profane interview",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -131,7 +123,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Playing favorites\nPaulina Gretzky fan sends clear message to Dustin Johnson at LIV Golf event",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -147,7 +138,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Rocking the boat\nChris Rock calls lawmakers 'stupid' for wanting Trump arrested",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -163,7 +153,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Kevin McCarthy calls for calm after Trump tells backers to 'protest' arrest",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -179,7 +168,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "A potential Trump indictment is a sideshow gift to the Biden family",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -195,7 +183,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Big Apple beatdown\nBrutal video shows man attacked by neighbors over NYC parking spot",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -211,7 +198,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Hits close to home\nChicago family in battle with 'professional squatter' in dead mom's house",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -227,7 +213,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Dear Abby: I don't want to get stuck raising my nephew",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -243,7 +228,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Fans spot Bruce Willis' missing front tooth as star celebrates birthday",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -259,7 +243,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Point of sail\nInside fashion designer Tommy Hilfiger\u2019s $46M mega yacht for sale",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -275,7 +258,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "What a drag\nNYC 'Drag Story Hour' sparks protests, draws cops, City Council guards to LGBTQA facility",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -291,7 +273,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "The good, the bad and the ugly\nAll the possibilities for Aaron Rodgers experiment",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -307,7 +288,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "How sweet it is\nUConn coach celebrates Sweet 16 berth from his efforts since youth",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -323,7 +303,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Trea Turner's homers fuel Team USA laugher to reach WBC final",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -339,7 +318,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Mets infielder, post ACL surgery, swats leadoff homer",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -355,7 +333,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Heir grievances\nWilliam, Kate in 'argument' about George's coronation role: report",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -371,7 +348,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Missing pieces\nSister of Idaho victim mourns loss in heartbreaking videos",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -387,7 +363,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Why this superfruit could help you burn body fat: study",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -403,7 +378,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Gift your bunny a bouquet: Celebrate Easter with flower delivery",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -419,7 +393,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Trial and Eras\nJohn Mulaney's ex gets backlash after accusing Taylor Swift of copying art",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -435,7 +408,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Bridal wave\nKourtney Kardashian reveals NSFW inspiration behind her wedding dress",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -451,7 +423,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Karreuche Tran cuts hair and releases it into ocean with dad's ashes",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -467,7 +438,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Single influencer sick of waiting for the 'perfect partner' enjoys solo honeymoon",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -483,7 +453,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Hot to trot\nAmy Robach, T.J. Holmes run NYC Half Marathon together as romance heats up",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -499,7 +468,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Buck' it\nHoward Schultz exits as Starbucks CEO 2 weeks early amid unionization turmoil",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -515,7 +483,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "These 15 dresses are so perfect for Easter, and we're *hopping* right to them",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -531,7 +498,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "We tested 12 hair mousses, and these are the best we reviewed in 2023",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -547,7 +513,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "The 25 best everyday items to buy on Amazon for under $25",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -563,7 +528,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "\u2018Boston Strangler\u2019 Director Wanted Keira Knightley and Carrie Coon to \"Stay Away\" From Boston Accents",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -579,7 +543,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "Bill Maher Compares \"National Divorce\" Concept To Ireland's Partition On 'Real Time'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -595,7 +558,6 @@
     "newspaper": "New York Post",
     "language": "en",
     "text": "'Good Burger' Sequel Starring Kenan & Kel Greenlit By Paramount+",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,

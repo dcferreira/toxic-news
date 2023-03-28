@@ -3,7 +3,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "What to know about Alvin Bragg, the Manhattan DA investigating Trump",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -19,7 +18,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Fed facing a blurrier outlook as it meets to weigh rate hike",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -35,7 +33,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Ohtani fans Trout, Japan tops US 3-2 for WBC championship",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -51,7 +48,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Arkansas restricts school bathroom use by transgender people",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -67,7 +63,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "China, Japan leaders end visits to warring capitals",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -83,7 +78,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Doctors expected to testify in Gwyneth Paltrow\u2019s ski trial",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -99,7 +93,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Effort to recall New Orleans\u2019 first female mayor fails",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -115,7 +108,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Kurds remain biggest winners from US-led invasion of Iraq",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -131,7 +123,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "South Korea says North Korea test-fires cruise missiles",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -147,7 +138,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "March Madness Mix: Dominant Gamecocks amid Sweet 16 parity",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -163,7 +153,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "'Winnie the Pooh' film pulled from Hong Kong cinemas",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -179,7 +168,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Morant apologizes again after NBA suspension for mistakes",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -195,7 +183,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Messi mania in Argentina as soccer star mobbed at restaurant",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -211,7 +198,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Def Leppard drummer recovering from attack outside hotel",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -227,7 +213,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Sleepless night after Pakistan, Afghanistan quake kills 13",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -243,7 +228,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Ignoring experts, China's sudden zero-COVID exit cost lives",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -259,7 +243,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "School library book bans are seen as targeting LGBTQ content",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -275,7 +258,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Digital literacy: Can the republic 'survive an algorithm'?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -291,7 +273,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Ski resorts are embracing a new role: climate activist",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -307,7 +288,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Pro-Moscow voices tried to steer Ohio train disaster debate",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -323,7 +303,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Super seniors lead the way into March Madness Sweet 16",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -339,7 +318,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Transfer portal provided boost for most March Madness teams",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -355,7 +333,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "March Madness allows Vols to showcase SEC's rugged style",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -371,7 +348,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Tobin Anderson leaving FDU to replace Rick Pitino at Iona",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -387,7 +363,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Jerome Tang has rising Kansas State feeling sweet again",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -403,7 +378,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Ukraine, IMF agree on $15.6 billion loan package",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -419,7 +393,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Ukraine, Russia trade claims after blast rocks Crimean town",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -435,7 +408,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Putin hosts Xi in the Kremlin with imperial palace pageantry",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -451,7 +423,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Russia's reliance on China rises amid Ukraine sanctions",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -467,7 +438,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Japan's Kishida in Poland for talks after visit to Ukraine",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -483,7 +453,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "UK inflation jumps to 10.4%, surprising analysts",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -499,7 +468,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Asian shares advance on back of Wall Street rally",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -515,7 +483,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "AP PHOTOS: Marseille carnival melds resistance with revelry",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -531,7 +498,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Boris Johnson faces high-stakes grilling over 'partygate'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -547,7 +513,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "After Greek rail disaster, trains gradually restart",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -563,7 +528,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "US speeds up Abrams tank delivery to Ukraine war zone",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -579,7 +543,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Yellen says bank situation stabilizing, different from 2008",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -595,7 +558,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Pence seeks 'common sense' Social Security, Medicare reform",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -611,7 +573,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "UN: 26% of world lacks clean drinking water, 46% sanitation",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -627,7 +588,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Springsteen, Kaling, Louis-Dreyfus among 22 honored by Biden",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -643,7 +603,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Review: John Wick gets even more stylish in fourth episode",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -659,7 +618,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Reborn Ringling Bros. circus to leap on tour \u2014 minus animals",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -675,7 +633,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "'John Wick' stars honor late co-star Lance Reddick",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -691,7 +648,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Paul Newman's camp for sick kids rises from the ashes",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -707,7 +663,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "'Succession' star Sarah Snook pregnant with 1st child",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -723,7 +678,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "All-Stars of Team USA outmatched, outpitched in WBC final",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -739,7 +693,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "George leaves with injury as Clippers lose to Thunder",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -755,7 +708,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "Willis Reed, leader on Knicks' 2 title teams, dies at 80",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -771,7 +723,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "WBC returns in March 2026, retaining spring training slot",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,
@@ -787,7 +738,6 @@
     "newspaper": "Associated Press",
     "language": "en",
     "text": "MLB plans to announce rules tweaks, week before opening day",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.5,
       "severe_toxicity": 0.5,

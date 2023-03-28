@@ -1,34 +1,28 @@
 import asyncio
 import atexit
-import csv
-import importlib.resources as pkg_resources
 import os
 import pickle
 import re
 import time
-import urllib.parse
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, cast
 
 import aiohttp
-import lxml.html
 import nest_asyncio
 from aiohttp import ClientResponse, ClientSession
 from detoxify import Detoxify
 from loguru import logger
-from lxml.html import HtmlElement
 from pydantic import BaseModel, HttpUrl, ValidationError
-from tenacity import RetryError, retry, stop_after_attempt, wait_fixed, wait_random
+from tenacity import RetryError, retry, stop_after_attempt, wait_exponential
 from waybackpy import WaybackMachineAvailabilityAPI
 
-from toxic_news import assets
+from toxic_news.newspapers import Newspaper
 
 # allow nesting of loops
 # removing this fails the test `test_wayback_sync`
 # with `RuntimeError: Timeout context manager should be used inside a task`
 nest_asyncio.apply()
-
 
 user_agent = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -39,13 +33,13 @@ HEADERS = {
 }
 
 
-class Newspaper(BaseModel):
-    name: str
-    language: str
-    url: HttpUrl
-    title_xpath: str
-    relative_href_xpath: str
-    expected_headlines: int
+# class Newspaper(BaseModel):
+#     name: str
+#     language: str
+#     url: HttpUrl
+#     title_xpath: str
+#     relative_href_xpath: str
+#     expected_headlines: int
 
 
 class Scores(BaseModel):
@@ -191,23 +185,26 @@ class Fetcher:
             self._request()
         return cast(datetime, self._request_time)
 
-    def _extract_title_and_url(self, element: HtmlElement) -> tuple[str, str]:
-        title = "".join(element.itertext()).strip(" \t\n\r|")
-        res = element.xpath(self.newspaper.relative_href_xpath)
-        url = res[0].get("href")
-        absolute_url = urllib.parse.urljoin(self.newspaper.url, url)
-        return title, absolute_url
+    # def _extract_title_and_url(self, element: HtmlElement) -> tuple[str, str]:
+    #     title = "".join(element.itertext()).strip(" \t\n\r|")
+    #     res = element.xpath(self.newspaper.relative_href_xpath)
+    #     url = res[0].get("href")
+    #     absolute_url = urllib.parse.urljoin(self.newspaper.url, url)
+    #     return title, absolute_url
 
     def parse(self, content: str) -> list[tuple[str, str]]:
-        tree: HtmlElement = lxml.html.fromstring(content)
-        headlines = [
-            self._extract_title_and_url(x)
-            for x in tree.xpath(self.newspaper.title_xpath)
-        ]
-        # often the same headline appears multiple times in the page
-        deduped_headlines = set(headlines)
-        # sort by order in which they appear in the page
-        return sorted(deduped_headlines, key=lambda x: headlines.index(x))
+        return self.newspaper.get_headlines(
+            content=content, request_date=self.request_time
+        )
+        # tree: HtmlElement = lxml.html.fromstring(content)
+        # headlines = [
+        #     self._extract_title_and_url(x)
+        #     for x in tree.xpath(self.newspaper.title_xpath)
+        # ]
+        # # often the same headline appears multiple times in the page
+        # deduped_headlines = set(headlines)
+        # # sort by order in which they appear in the page
+        # return sorted(deduped_headlines, key=lambda x: headlines.index(x))
 
     def fetch(self) -> list[tuple[str, str]]:
         return self.parse(self.content)
@@ -258,7 +255,9 @@ class WaybackFetcher(Fetcher):
     def _close_session(self):
         asyncio.run(self.session.close())
 
-    @retry(wait=wait_fixed(5), stop=stop_after_attempt(5))
+    @retry(
+        wait=wait_exponential(multiplier=1, min=10, max=100), stop=stop_after_attempt(8)
+    )
     def get_wayback_url(self) -> str:
         if self.wayback_url is None:
             archive = self.availability_api.near(
@@ -272,7 +271,9 @@ class WaybackFetcher(Fetcher):
             self.wayback_url = archive.archive_url.replace("/http", "id_/http")
         return cast(str, self.wayback_url)
 
-    @retry(wait=wait_fixed(3) + wait_random(0, 2), stop=stop_after_attempt(5))
+    @retry(
+        wait=wait_exponential(multiplier=1, min=10, max=100), stop=stop_after_attempt(8)
+    )
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
         url = self.get_wayback_url()
         logger.debug(f"Fetching (async) {url!r}...")
@@ -315,23 +316,6 @@ class WaybackFetcher(Fetcher):
         response = cast(ClientResponse, self._response)
         result = await response.content.read()
         return result
-
-
-# load newspapers from the CSV file
-newspapers_text = pkg_resources.read_text(assets, "newspapers.csv")
-newspapers: list[Newspaper] = [
-    Newspaper.parse_obj(
-        {
-            "name": row[0],
-            "language": row[1],
-            "url": row[2],
-            "title_xpath": row[3],
-            "relative_href_xpath": row[4],
-            "expected_headlines": row[5],
-        }
-    )
-    for row in csv.reader(newspapers_text.strip().split("\n"))
-]
 
 
 def clean_url(url: str) -> str:

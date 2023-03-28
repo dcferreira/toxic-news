@@ -3,7 +3,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "US government approves Alaska Willow oil project",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00029,
       "severe_toxicity": 0.00003,
@@ -19,7 +18,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Biden pledges 'whatever is needed' amid bank fears",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00055,
       "severe_toxicity": 0.00002,
@@ -35,7 +33,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "TikTok users shrug at China fears: 'It's hard to care'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00130,
       "severe_toxicity": 0.00002,
@@ -51,7 +48,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "'A slap in the face for Hollywood'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.64370,
       "severe_toxicity": 0.00182,
@@ -67,7 +63,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Why burnout may never end",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00063,
       "severe_toxicity": 0.00003,
@@ -83,7 +78,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Heavy losses reported as battle for Bakhmut rages",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00082,
       "severe_toxicity": 0.00011,
@@ -99,7 +93,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Michelle Yeoh's mum in tears after Oscars win",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01187,
       "severe_toxicity": 0.00002,
@@ -115,7 +108,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Biden seeks to reassure US after two banks collapse",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00062,
       "severe_toxicity": 0.00002,
@@ -131,7 +123,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "New Zealand beat Sri Lanka in final-ball thriller",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00027,
       "severe_toxicity": 0.00013,
@@ -147,7 +138,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "What has gone wrong for England - and what next?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00060,
       "severe_toxicity": 0.00004,
@@ -163,7 +153,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Gary Lineker to return as BBC denies climbdown",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00084,
       "severe_toxicity": 0.00002,
@@ -179,7 +168,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "7 best moments from this year's Oscars",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00005,
@@ -195,7 +183,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "The best fashion looks at the Oscars",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00005,
@@ -211,7 +198,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Five quotes from backstage at the 95th Oscars",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00065,
       "severe_toxicity": 0.00018,
@@ -227,7 +213,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "The 'sleeping giant' of sea level rise",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00176,
       "severe_toxicity": 0.00003,
@@ -243,7 +228,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "The Last of Us finale is darkly knotty",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00969,
       "severe_toxicity": 0.00005,
@@ -259,7 +243,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "The young workers in a post-Me Too era",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00003,
@@ -275,7 +258,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "How to survive in the wilderness",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00053,
       "severe_toxicity": 0.00004,
@@ -291,7 +273,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "How a dictator's daughter built \u00a3200m property empire",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00879,
       "severe_toxicity": 0.00002,
@@ -307,7 +288,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Scientists track iceberg the size of London",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00059,
       "severe_toxicity": 0.00003,
@@ -323,7 +303,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "'You can rebuild Mariupol - you can't bring back the dead'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00175,
       "severe_toxicity": 0.00007,
@@ -339,7 +318,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "The tech helping women manage the menopause",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00795,
       "severe_toxicity": 0.00032,
@@ -355,7 +333,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Is there a better way to insulate our draughty homes?",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00084,
       "severe_toxicity": 0.00003,
@@ -371,7 +348,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "'Not affected by one party or other' - BBC boss denies Tory pressure",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00002,
@@ -387,7 +363,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "'Not affected by one party or other' - BBC...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00028,
       "severe_toxicity": 0.00005,
@@ -403,7 +378,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Lineker: The BBC director general's interview...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00047,
       "severe_toxicity": 0.00002,
@@ -419,7 +393,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Chancellor on HSBC buying UK arm of Silicon...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00036,
       "severe_toxicity": 0.00003,
@@ -435,7 +408,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Best Oscars acceptance speeches... in 61...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00003,
@@ -451,7 +423,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "I can't say anything at the moment, I'm sorry...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00041,
       "severe_toxicity": 0.00013,
@@ -467,7 +438,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "A weekend of BBC football show chaos... in 90...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00070,
       "severe_toxicity": 0.00002,
@@ -483,7 +453,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Looks like Lineker broke rules on a...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00087,
       "severe_toxicity": 0.00003,
@@ -499,7 +468,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Watch: Murder suspect flees US courtroom",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00627,
       "severe_toxicity": 0.00004,
@@ -515,7 +483,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "How a tummy-tuck kidnap ended in cartel...",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02952,
       "severe_toxicity": 0.00010,
@@ -531,7 +498,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "'I rarely saw people who looked like me'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00083,
       "severe_toxicity": 0.00004,
@@ -547,7 +513,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Lineker 'delighted' to return as BBC reviews social media rules",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00002,
@@ -563,7 +528,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Vasectomies even safer than reported, doctors say",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01522,
       "severe_toxicity": 0.00013,
@@ -579,7 +543,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Li Qiang takes centre stage as China's new premier",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00003,
@@ -595,7 +558,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Still time to save Our Wild Isles, say campaigners",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00053,
       "severe_toxicity": 0.00002,
@@ -611,7 +573,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Lessons learned from failed 'tech bank' SVB",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00088,
       "severe_toxicity": 0.00002,
@@ -627,7 +588,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "New Attenborough series: Three must-watch moments",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00004,
@@ -643,7 +603,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "UK microchip firms call for millions in investment",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00038,
       "severe_toxicity": 0.00003,
@@ -659,7 +618,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "'We cut our website's carbon emissions by 520kg in a year'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00055,
       "severe_toxicity": 0.00004,
@@ -675,7 +633,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Tributes paid to acclaimed documentary photographer",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00003,
@@ -691,7 +648,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Africa's top shots: Cool frames and gold nuggets",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00172,
       "severe_toxicity": 0.00009,
@@ -707,7 +663,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Robert Blake: From Hollywood to murder accused",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00544,
       "severe_toxicity": 0.00003,
@@ -723,7 +678,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Photographers capture March's 'worm moon'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00051,
       "severe_toxicity": 0.00002,
@@ -739,7 +693,6 @@
     "newspaper": "BBC",
     "language": "en",
     "text": "Turkish women defy protest ban to march in Istanbul",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02906,
       "severe_toxicity": 0.00023,

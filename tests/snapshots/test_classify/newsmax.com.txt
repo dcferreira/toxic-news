@@ -3,7 +3,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Biden on Collapsed Banks: 'Your Deposits Will Be There'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00046,
       "severe_toxicity": 0.00003,
@@ -19,7 +18,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Biden Blasts Trump's Rollback of Bank Restraints",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02636,
       "severe_toxicity": 0.00015,
@@ -35,7 +33,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "GOP Targets Vulnerable House Dems for 2024",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00109,
       "severe_toxicity": 0.00002,
@@ -51,7 +48,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Grenell to Newsmax: NewsGuard Demonetizing 'Dissent'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00829,
       "severe_toxicity": 0.00013,
@@ -67,7 +63,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "US Repels Migrants as Asylum App Frustration Grows in Mexico",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.23239,
       "severe_toxicity": 0.00005,
@@ -83,7 +78,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Casualties Rise in Ukraine, Russia Bakhmut Battle",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00222,
       "severe_toxicity": 0.00028,
@@ -99,7 +93,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Proposed SCOTUS Ethics 'Model' Targets Justice Thomas, Wife",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00073,
       "severe_toxicity": 0.00005,
@@ -115,7 +108,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Iran-Saudi Arabia Deal 'Huge Win' for China",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00072,
       "severe_toxicity": 0.00003,
@@ -131,7 +123,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Ramaswamy to Newsmax: Biden's 'Crony Capitalism'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00236,
       "severe_toxicity": 0.00001,
@@ -147,7 +138,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "US Must Treat Mexican Cartels Like 'Terrorists'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.95547,
       "severe_toxicity": 0.00049,
@@ -163,7 +153,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Biden Admin. Approves Alaska Willow Oil Project",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00061,
       "severe_toxicity": 0.00008,
@@ -179,7 +168,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Attorney: Trump Won't Participate in Hush-Money Probe",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00089,
       "severe_toxicity": 0.00002,
@@ -195,7 +183,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Iran Claims Leader Pardoned 22,000 Jailed Protesters",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00084,
       "severe_toxicity": 0.00003,
@@ -211,7 +198,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Trump Praises Horowitz's 'Final Battle' as 'Great'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00125,
       "severe_toxicity": 0.00004,
@@ -227,7 +213,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Jews Protest Israeli Finance Minister in Washington",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02644,
       "severe_toxicity": 0.00163,
@@ -243,7 +228,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "'Robot Lawyer' Sued for Practicing Without License",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00099,
       "severe_toxicity": 0.00001,
@@ -259,7 +243,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "'Everything Everywhere' Wins Oscars' Best Picture",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00028,
       "severe_toxicity": 0.00006,
@@ -275,7 +258,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Gov. Murphy: 1,000 Percent Behind Biden in '24",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00035,
       "severe_toxicity": 0.00003,
@@ -291,7 +273,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "March Madness: Bama, Houston, Kansas, Purdue Top Seeds",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00056,
       "severe_toxicity": 0.00016,
@@ -307,7 +288,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Signature Bank Closes After SVB Collapse",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00056,
       "severe_toxicity": 0.00004,
@@ -323,7 +303,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Suspended Crematorium Hid Bodies in Warehouse",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00456,
       "severe_toxicity": 0.00020,
@@ -339,7 +318,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Russia Loses 1,090 Troops in 1 Day",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00137,
       "severe_toxicity": 0.00003,
@@ -355,7 +333,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Gallup Poll: 90 Percent of US Rebukes Russia",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00253,
       "severe_toxicity": 0.00002,
@@ -371,7 +348,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Transgender Teens Disproportionately Autistic",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.85106,
       "severe_toxicity": 0.00110,
@@ -387,7 +363,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "McCarthy: Jan. 6 Footage to Roll Out 'Slowly'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00052,
       "severe_toxicity": 0.00002,
@@ -403,7 +378,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Bernie Marcus: Justice Dept Won't Go After 'Woke' SVB",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00044,
       "severe_toxicity": 0.00002,
@@ -419,7 +393,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Nicaragua Closing Vatican-Related Embassies",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00800,
       "severe_toxicity": 0.00020,
@@ -435,7 +408,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Dr. Rich Besser: We're Not Ready For Next Pandemic",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00049,
       "severe_toxicity": 0.00002,
@@ -451,7 +423,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Lieberman Urges US to Facilitate Mideast Talks",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00133,
       "severe_toxicity": 0.00003,
@@ -467,7 +438,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "McCaul: Pence Avoided 'Constitutional Crisis'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00109,
       "severe_toxicity": 0.00002,
@@ -483,7 +453,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Texas Man Sues Women for Getting His Ex-Wife Abortion Pills",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.08218,
       "severe_toxicity": 0.00043,
@@ -499,7 +468,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "China's Xi to Speak With Ukraine's Zelenskyy: WSJ",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00033,
       "severe_toxicity": 0.00006,
@@ -515,7 +483,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "VP Harris to Visit Africa in Latest US Outreach",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00049,
       "severe_toxicity": 0.00003,
@@ -531,7 +498,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "IDF Chief: Military Can Only Function in 'Jewish, Democratic State'",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.04060,
       "severe_toxicity": 0.00109,
@@ -547,7 +513,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Global Union Leader Fired in EU Graft Scandal",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00150,
       "severe_toxicity": 0.00019,
@@ -563,7 +528,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Italy Says 30 Migrants Missing after Boat Capsizes off Libya",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.02055,
       "severe_toxicity": 0.00004,
@@ -579,7 +543,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Seoul: North Korea Conducts Missile Test",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00080,
       "severe_toxicity": 0.00005,
@@ -595,7 +558,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Suspected Islamist Militants Kill 19 in Congo",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.43662,
       "severe_toxicity": 0.00031,
@@ -611,7 +573,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Zelenskyy: More Than 1,100 Russian Dead in Less Than a Week",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.04135,
       "severe_toxicity": 0.00012,
@@ -627,7 +588,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Bolton: China Increasingly in 'Catbird' Seat",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00071,
       "severe_toxicity": 0.00004,
@@ -643,7 +603,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Israel Stocks Slide on SVB Collapse",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00025,
       "severe_toxicity": 0.00008,
@@ -659,7 +618,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "French Senate Adopts Pension Bill Despite Mass Protests",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00040,
       "severe_toxicity": 0.00003,
@@ -675,7 +633,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Iran Says Deal Reached With US for Prisoner Swap",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00174,
       "severe_toxicity": 0.00002,
@@ -691,7 +648,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "BBC Under Fire After Host's 'Nazi' Comments",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.12776,
       "severe_toxicity": 0.00013,
@@ -707,7 +663,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "China Surprisingly Retains Central Bank Chief",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00254,
       "severe_toxicity": 0.00003,
@@ -723,7 +678,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "WHO Chief: Finding COVID's Origins a Moral Imperative",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00002,
@@ -739,7 +693,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Pope Francis at 10 Years: A Reformer's Learning Curve, Plans",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00087,
       "severe_toxicity": 0.00005,
@@ -755,7 +708,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "Marines Prep for Ambush Operations Against China",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.01837,
       "severe_toxicity": 0.00012,
@@ -771,7 +723,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "US Should Embrace 'Sunlight' of Nord Stream Probe",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00045,
       "severe_toxicity": 0.00004,
@@ -787,7 +738,6 @@
     "newspaper": "Newsmax",
     "language": "en",
     "text": "US Lacks 'Urgency' as China Readies for War",
-    "date": "2000-01-01T00:00:00",
     "scores": {
       "toxicity": 0.00185,
       "severe_toxicity": 0.00002,
