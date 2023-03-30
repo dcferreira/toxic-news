@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.10"]
-        os: ["ubuntu-latest"]
+        os: ["ubuntu-22.04"]
 
     steps:
       - uses: actions/checkout@v3
@@ -27,6 +27,13 @@ jobs:
 
       - name: Lint
         run: hatch run lint
+
+      - name: Install Mongo daemon
+        run: |
+          wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+          echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+          sudo apt-get update
+          sudo apt-get install -y mongodb-org
 
       - name: Test
         run: hatch run cov

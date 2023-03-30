@@ -7,237 +7,32 @@ from pathlib import Path
 from typing import Optional
 
 import aiohttp
-import pymongo
-import pymongo.errors
 import typer
 from aiohttp import ClientSession
 from detoxify import Detoxify
 from dotenv import load_dotenv
 from jinja2 import Environment, PackageLoader, select_autoescape
 from loguru import logger
-from pydantic import BaseModel
-from pymongo import MongoClient
-from pymongo.collection import Collection
+from pydantic import HttpUrl, parse_obj_as
 from pymongo.database import Database
-from pymongo.server_api import ServerApi
+from requests import PreparedRequest
 from tqdm import tqdm
 
 from toxic_news.fetchers import Headline, Newspaper, Scores, WaybackFetcher
-from toxic_news.newspapers import newspapers
+from toxic_news.newspapers import newspapers, newspapers_dict
+from toxic_news.queries import (
+    date_fmt,
+    db_insert_daily,
+    db_insert_headlines,
+    get_database,
+    query_average_daily,
+    query_average_headline_scores_per_day,
+    query_daily_rows,
+)
 
 app = typer.Typer()
 
 load_dotenv()
-
-date_fmt = "%Y/%m/%d"
-
-
-class DailyRow(BaseModel):
-    name: str
-    scores: Scores
-    count: int
-    date: datetime
-
-
-class AllTimeRow(BaseModel):
-    name: str
-    scores: Scores
-    count: int
-
-
-def get_database(url: str, name: str) -> Database:
-    client: MongoClient = MongoClient(
-        url,
-        server_api=ServerApi("1"),
-    )
-    db: Database = client[name]
-    return db
-
-
-def query_average_headline_scores(name: str, date: datetime, db: Database) -> Scores:
-    cursor = db.headlines.aggregate(
-        [
-            {
-                "$project": {
-                    "dateStr": {
-                        "$dateToString": {"format": "%Y/%m/%d", "date": "$date"}
-                    },
-                    "newspaper": 1,
-                    "text": 1,
-                    "scores": 1,
-                }
-            },
-            {
-                "$match": {
-                    "dateStr": date.strftime(date_fmt),
-                    "newspaper": name,
-                }
-            },
-            {"$addFields": {"scores": {"$objectToArray": "$scores"}}},
-            {"$unwind": {"path": "$scores"}},
-            {"$group": {"_id": "$scores.k", "average": {"$avg": "$scores.v"}}},
-            {"$addFields": {"score": "$_id", "_id": 0}},
-            {
-                "$group": {
-                    "_id": "score",
-                    "scores": {"$push": {"k": "$score", "v": "$average"}},
-                }
-            },
-            {
-                "$addFields": {
-                    "name": "$_id",
-                    "scores": {"$arrayToObject": "$scores"},
-                    "_id": 0,
-                }
-            },
-        ]
-    )
-    results = list(cursor)
-    return results[0]["scores"]
-
-
-def query_average_daily_scores(
-    name: str, start_date: datetime, end_date: datetime, db: Database
-) -> Scores:
-    cursor = db.daily.aggregate(
-        [
-            {"$match": {"name": name, "date": {"$gte": start_date, "$lte": end_date}}},
-            {"$addFields": {"scores": {"$objectToArray": "$scores"}}},
-            {"$unwind": {"path": "$scores"}},
-            {"$group": {"_id": "$scores.k", "average": {"$avg": "$scores.v"}}},
-            {"$addFields": {"score": "$_id", "_id": 0}},
-            {
-                "$group": {
-                    "_id": "score",
-                    "scores": {"$push": {"k": "$score", "v": "$average"}},
-                }
-            },
-            {
-                "$addFields": {
-                    "name": "$_id",
-                    "scores": {"$arrayToObject": "$scores"},
-                    "_id": 0,
-                }
-            },
-        ]
-    )
-    results = list(cursor)
-    return results[0]["scores"]
-
-
-def query_daily_count(
-    name: str, start_date: datetime, end_date: datetime, db: Database
-) -> int:
-    cursor = db.daily.aggregate(
-        [
-            {"$match": {"name": name, "date": {"$gte": start_date, "$lte": end_date}}},
-            {"$count": "count"},
-        ]
-    )
-    results = list(cursor)
-    return results[0]["count"]
-
-
-def get_alltime_rows(
-    start_date: datetime, end_date: datetime, db: Database
-) -> list[AllTimeRow]:
-    out = []
-    for n in newspapers:
-        scores = query_average_daily_scores(n.name, start_date, end_date, db)
-        count = query_daily_count(n.name, start_date, end_date, db)
-        out.append(AllTimeRow(name=n.name, scores=scores, count=count))
-    return out
-
-
-def query_headlines_count(name: str, date: datetime, db: Database) -> int:
-    cursor = db.headlines.aggregate(
-        [
-            {
-                "$project": {
-                    "dateStr": {
-                        "$dateToString": {"format": "%Y/%m/%d", "date": "$date"}
-                    },
-                    "newspaper": 1,
-                    "text": 1,
-                    "scores": 1,
-                }
-            },
-            {
-                "$match": {
-                    "dateStr": date.strftime(date_fmt),
-                    "newspaper": name,
-                }
-            },
-            {"$count": "count"},
-        ]
-    )
-    results = list(cursor)
-    return results[0]["count"]
-
-
-def check_index_exists(collection: Collection, index_name: str) -> bool:
-    for idx in collection.list_indexes():
-        if idx["name"] == index_name:
-            return True
-    return False
-
-
-def insert_daily_table(
-    date: datetime, db: Database, autosave: bool = True
-) -> list[DailyRow]:
-    out = []
-    for n in newspapers:
-        try:
-            out.append(
-                DailyRow(
-                    name=n.name,
-                    scores=query_average_headline_scores(n.name, date, db),
-                    count=query_headlines_count(n.name, date, db),
-                    date=date,
-                )
-            )
-        except IndexError:
-            logger.warning(f"{n.url} was not found on {date.strftime(date_fmt)}")
-            continue
-
-    logger.debug(f"First row to be inserted: {out[:1]}")
-    if autosave or typer.confirm(f"Insert {len(out)} results into table?"):
-        if len(out) > 0:
-            table: Collection = db.daily
-            if not check_index_exists(table, "daily-unique-idx"):
-                # make sure there's a `unique` index, to avoid duplicates
-                table.create_index(
-                    [
-                        ("name", pymongo.ASCENDING),
-                        ("date", pymongo.DESCENDING),
-                    ],
-                    name="daily-unique-idx",
-                    unique=True,
-                )
-            try:
-                table.insert_many([r.dict() for r in out], ordered=False)
-            except pymongo.errors.BulkWriteError as e:
-                # ignore errors with duplicate index, simply don't re-insert those
-                panic_list = [x for x in e.details["writeErrors"] if x["code"] != 11000]
-                if len(panic_list) > 0:
-                    raise e
-    else:
-        logger.info("Results not inserted")
-    return out
-
-
-def query_daily_rows(date: datetime, db: Database) -> list[DailyRow]:
-    table: Collection = db.daily
-    cursor = table.find({"date": {"$gte": date, "$lt": date + timedelta(days=1)}})
-    return [
-        DailyRow(
-            name=res["name"],
-            scores=Scores.parse_obj(res["scores"]),
-            date=date,
-            count=res["count"],
-        )
-        for res in cursor
-    ]
 
 
 @app.command()
@@ -258,21 +53,24 @@ def update_daily_db(
     """
     db = get_database(mongodb_url, database_name)
 
-    if end_date is not None:
-        date_range = get_date_range(date, end_date)
-    else:
-        date_range = [date]
-    for d in date_range:
-        insert_daily_table(d, db, autosave=auto_save)
+    end_date_value = end_date if end_date is not None else date + timedelta(days=1)
+    results = query_average_headline_scores_per_day(
+        start_date=date, end_date=end_date_value, db=db
+    )
+    if auto_save or typer.confirm(f"Insert {len(results)} results into table?"):
+        db_insert_daily(results, db=db)
 
 
 async def _fetch_single(
     url: str, headers: dict, newspaper: Newspaper, session: ClientSession
 ) -> bytes:
-    payload = {
+    params = {
         "url": str(newspaper.url),
     }
-    result = await session.post(url, headers=headers, json=payload)
+    req = PreparedRequest()
+    req.prepare_url(url, params)  # put params in URL
+
+    result = await session.post(req.url, headers=headers)
     content = await result.content.read()
     if result.status >= 300:
         logger.error(
@@ -301,9 +99,9 @@ async def _fetch_daily(url: str, auth_bearer: str, endpoint: str):
                 create_task(_fetch_single(request_url, headers, newspaper, session))
             )
 
-        await asyncio.gather(*pending, return_exceptions=False)
-        # ensure all requests are launched, even if one of them fails
         await asyncio.sleep(20)
+        # wait a bit after sending the requests, but don't wait for replies
+        logger.info("Terminating process...")
 
 
 @app.command()
@@ -344,13 +142,6 @@ async def _fetch_wayback(
         return [f.classify() for f in tqdm(fetchers)]
 
 
-def find_newspaper(url: str) -> Newspaper:
-    for n in newspapers:
-        if n.url == url:
-            return n
-    raise ValueError(f"No newspaper found with {url=}")
-
-
 def get_date_range(start_date: datetime, end_date: datetime) -> list[datetime]:
     numdays = (end_date - start_date).days
     date_list = [start_date + timedelta(days=x) for x in range(numdays)]
@@ -386,7 +177,7 @@ def fetch_wayback(
     db = get_database(mongodb_url, database_name)
 
     date_list = get_date_range(start_date, end_date)
-    newspaper = find_newspaper(url)
+    newspaper = newspapers_dict[parse_obj_as(HttpUrl, url)]
     headlines_list = asyncio.run(
         _fetch_wayback(newspaper, date_list, cache_dir if use_cache else None)
     )
@@ -398,11 +189,11 @@ def fetch_wayback(
             <= newspaper.expected_headlines * (1 + allowed_difference_headlines)
         )
 
-    headlines_to_insert = []
+    headlines_with_good_dates = []
     bad_dates = []
     for h, d in zip(headlines_list, date_list):
         if check_nr(len(h)):
-            headlines_to_insert.append(h)
+            headlines_with_good_dates.append(h)
         else:
             bad_dates.append((d, len(h)))
     for d, n in bad_dates:
@@ -413,36 +204,19 @@ def fetch_wayback(
         )
 
     if auto_save or typer.confirm("Save these results?"):
+        headlines_to_insert = headlines_with_good_dates
+        if not auto_save or typer.confirm("Save also the bad dates?"):
+            headlines_to_insert = headlines_list
         if len(headlines_to_insert) > 0:
-            table: Collection = db.headlines
-            if not check_index_exists(table, "headlines-unique-idx"):
-                # make sure there's a `unique` index, to avoid duplicates
-                table.create_index(
-                    [
-                        ("url", pymongo.ASCENDING),
-                        ("date", pymongo.DESCENDING),
-                        ("newspaper", pymongo.ASCENDING),
-                        ("text", pymongo.ASCENDING),
-                    ],
-                    name="headlines-unique-idx",
-                    unique=True,
-                )
             inserted_records = 0
-            for day in tqdm(headlines_to_insert):
-                try:
-                    res = table.insert_many([h.dict() for h in day], ordered=False)
-                    inserted_records += len(res.inserted_ids)
-                except pymongo.errors.BulkWriteError as e:
-                    # ignore errors with duplicate index, simply don't re-insert those
-                    panic_list = [
-                        x for x in e.details["writeErrors"] if x["code"] != 11000
-                    ]
-                    # if any of the errors was something different, raise it
-                    if len(panic_list) > 0:
-                        raise e
+            for one_day_headlines in tqdm(headlines_to_insert):
+                n_records = db_insert_headlines(one_day_headlines, db=db)
+                inserted_records += n_records
+                if n_records == 0:
                     logger.warning(
-                        f"Found duplicates on {day[0].date.strftime(date_fmt)}, "
-                        f"skipping that day"
+                        f"No records inserted for "
+                        f"{one_day_headlines[0].date.strftime(date_fmt)}; "
+                        f"probably there are duplicates on that day."
                     )
 
             logger.debug(f"Inserted {inserted_records} records in the collection")
@@ -539,7 +313,7 @@ def generate_averages_csv(
         writer = csv.DictWriter(fd, fieldnames=headers)
         writer.writeheader()
 
-        rows = get_alltime_rows(start_date, end_date, db)
+        rows = query_average_daily(start_date, end_date, db)
         for r in rows:
             writer.writerow(
                 {

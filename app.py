@@ -10,6 +10,7 @@ from pymongo.server_api import ServerApi
 
 from toxic_news.fetchers import Fetcher
 from toxic_news.newspapers import newspapers_dict
+from toxic_news.queries import db_insert_headlines
 
 app = FastAPI()
 
@@ -27,6 +28,6 @@ async def fetch(url: HttpUrl) -> int:
     fetcher = Fetcher(newspaper)
     headlines = fetcher.classify()
     logger.info(f"Inserting {len(headlines)} rows in the database...")
-    db.headlines.insert_many(h.dict() for h in headlines)
+    db_insert_headlines(headlines, db=db)
 
     return len(headlines)
