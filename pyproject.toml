@@ -59,6 +59,7 @@ dependencies = [
     "pytest-xprocess",
     "pytest-asyncio",
     "pytest-xdist",
+    "pytest-mongo",
     "black",
     "isort",
     "ruff",
