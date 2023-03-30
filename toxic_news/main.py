@@ -13,11 +13,13 @@ from detoxify import Detoxify
 from dotenv import load_dotenv
 from jinja2 import Environment, PackageLoader, select_autoescape
 from loguru import logger
+from pydantic import HttpUrl, parse_obj_as
 from pymongo.database import Database
+from requests import PreparedRequest
 from tqdm import tqdm
 
 from toxic_news.fetchers import Headline, Newspaper, Scores, WaybackFetcher
-from toxic_news.newspapers import newspapers
+from toxic_news.newspapers import newspapers, newspapers_dict
 from toxic_news.queries import (
     date_fmt,
     db_insert_daily,
@@ -62,10 +64,13 @@ def update_daily_db(
 async def _fetch_single(
     url: str, headers: dict, newspaper: Newspaper, session: ClientSession
 ) -> bytes:
-    payload = {
+    params = {
         "url": str(newspaper.url),
     }
-    result = await session.post(url, headers=headers, json=payload)
+    req = PreparedRequest()
+    req.prepare_url(url, params)  # put params in URL
+
+    result = await session.post(req.url, headers=headers)
     content = await result.content.read()
     if result.status >= 300:
         logger.error(
@@ -94,9 +99,9 @@ async def _fetch_daily(url: str, auth_bearer: str, endpoint: str):
                 create_task(_fetch_single(request_url, headers, newspaper, session))
             )
 
-        await asyncio.gather(*pending, return_exceptions=False)
-        # ensure all requests are launched, even if one of them fails
         await asyncio.sleep(20)
+        # wait a bit after sending the requests, but don't wait for replies
+        logger.info("Terminating process...")
 
 
 @app.command()
@@ -137,13 +142,6 @@ async def _fetch_wayback(
         return [f.classify() for f in tqdm(fetchers)]
 
 
-def find_newspaper(url: str) -> Newspaper:
-    for n in newspapers:
-        if n.url == url:
-            return n
-    raise ValueError(f"No newspaper found with {url=}")
-
-
 def get_date_range(start_date: datetime, end_date: datetime) -> list[datetime]:
     numdays = (end_date - start_date).days
     date_list = [start_date + timedelta(days=x) for x in range(numdays)]
@@ -179,7 +177,7 @@ def fetch_wayback(
     db = get_database(mongodb_url, database_name)
 
     date_list = get_date_range(start_date, end_date)
-    newspaper = find_newspaper(url)
+    newspaper = newspapers_dict[parse_obj_as(HttpUrl, url)]
     headlines_list = asyncio.run(
         _fetch_wayback(newspaper, date_list, cache_dir if use_cache else None)
     )
