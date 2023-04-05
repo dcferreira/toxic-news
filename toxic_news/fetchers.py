@@ -261,7 +261,11 @@ class WaybackFetcher(Fetcher):
     def get_wayback_url(self) -> str:
         if self.wayback_url is None:
             archive = self.availability_api.near(
-                year=self.date.year, month=self.date.month, day=self.date.day, hour=12
+                year=self.date.year,
+                month=self.date.month,
+                day=self.date.day,
+                hour=self.date.hour,
+                minute=self.date.minute,
             )
             self._request_time = archive.timestamp()
             time.sleep(1)  # blocking sleep, to not spam the API

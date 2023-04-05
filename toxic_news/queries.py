@@ -1,8 +1,10 @@
-from datetime import datetime, timedelta
+import datetime
+from datetime import timedelta
 from typing import Optional, Union
 
 import pymongo
 import pymongo.errors
+from loguru import logger
 from pydantic import BaseModel
 from pymongo import MongoClient
 from pymongo.collection import Collection
@@ -12,6 +14,10 @@ from pymongo.server_api import ServerApi
 from toxic_news.fetchers import Headline, Scores
 
 date_fmt = "%Y/%m/%d"
+
+
+def get_midnight_datetime(date: datetime.date) -> datetime.datetime:
+    return datetime.datetime.combine(date, datetime.datetime.min.time())
 
 
 def get_database(url: str, name: str, port: Optional[int] = None) -> Database:
@@ -34,7 +40,7 @@ class DailyRow(BaseModel):
     name: str
     scores: Scores
     count: int
-    date: datetime
+    date: datetime.datetime
 
 
 def db_insert_headlines(headlines: list[Headline], db: Database) -> int:
@@ -87,14 +93,14 @@ def _get_daily_collection(db: Database) -> Collection:
 
 
 def _get_average_headline_scores_per_day_query(
-    start_date: datetime, end_date: datetime
+    start_date: datetime.date, end_date: datetime.date
 ) -> list[dict]:
     return [
         {
             "$match": {
                 "date": {
-                    "$gte": start_date,
-                    "$lt": end_date,
+                    "$gte": get_midnight_datetime(start_date),
+                    "$lt": get_midnight_datetime(end_date),
                 }
             }
         },
@@ -112,16 +118,18 @@ def _get_average_headline_scores_per_day_query(
 
 
 def query_average_headline_scores_per_day(
-    start_date: datetime, end_date: datetime, db: Database
+    start_date: datetime.date, end_date: datetime.date, db: Database
 ) -> list[DailyRow]:
     headlines_coll = _get_headlines_collection(db)
+    pipeline = _get_average_headline_scores_per_day_query(start_date, end_date)
+    logger.debug(f"Executing pipeline: {pipeline}")
     results = headlines_coll.aggregate(
-        _get_average_headline_scores_per_day_query(start_date, end_date),
+        pipeline,
         hint="date",
     )
 
     def parse_row(
-        _id: dict[str, Union[str, datetime]], count: int, **kwargs
+        _id: dict[str, Union[str, datetime.datetime]], count: int, **kwargs
     ) -> DailyRow:
         return DailyRow(
             name=_id["newspaper"], count=count, date=_id["day"], scores=Scores(**kwargs)
@@ -145,14 +153,14 @@ def db_insert_daily(rows: list[DailyRow], db: Database) -> int:
 
 
 def _get_average_daily_scores_query(
-    start_date: datetime, end_date: datetime
+    start_date: datetime.date, end_date: datetime.date
 ) -> list[dict]:
     return [
         {
             "$match": {
                 "date": {
-                    "$gte": start_date,
-                    "$lt": end_date,
+                    "$gte": get_midnight_datetime(start_date),
+                    "$lt": get_midnight_datetime(end_date),
                 }
             }
         },
@@ -167,7 +175,7 @@ def _get_average_daily_scores_query(
 
 
 def query_average_daily(
-    start_date: datetime, end_date: datetime, db: Database
+    start_date: datetime.date, end_date: datetime.date, db: Database
 ) -> list[AllTimeRow]:
     daily_coll = _get_daily_collection(db)
     results = daily_coll.aggregate(
@@ -176,7 +184,7 @@ def query_average_daily(
     )
 
     def parse_row(
-        _id: dict[str, Union[str, datetime]], count: int, **kwargs
+        _id: dict[str, Union[str, datetime.datetime]], count: int, **kwargs
     ) -> AllTimeRow:
         return AllTimeRow(name=_id, count=count, scores=Scores(**kwargs))
 
@@ -184,16 +192,22 @@ def query_average_daily(
     return list(parsed_results)
 
 
-def query_daily_rows(date: datetime, db: Database) -> list[DailyRow]:
+def query_daily_rows(date: datetime.date, db: Database) -> list[DailyRow]:
     daily_coll = _get_daily_collection(db)
     cursor = daily_coll.find(
-        {"date": {"$gte": date, "$lt": date + timedelta(days=1)}}, hint="date"
+        {
+            "date": {
+                "$gte": get_midnight_datetime(date),
+                "$lt": get_midnight_datetime(date) + timedelta(days=1),
+            }
+        },
+        hint="date",
     )
     return [
         DailyRow(
             name=res["name"],
             scores=Scores.parse_obj(res["scores"]),
-            date=date,
+            date=get_midnight_datetime(date),
             count=res["count"],
         )
         for res in cursor

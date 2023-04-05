@@ -1,8 +1,8 @@
 import asyncio
 import csv
+import datetime
 import os
 from asyncio import create_task
-from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
@@ -35,10 +35,29 @@ app = typer.Typer()
 load_dotenv()
 
 
+def update_daily_db_w_date(
+    date: datetime.date,
+    end_date: Optional[datetime.date],
+    mongodb_url: str,
+    database_name: str,
+    auto_save: bool,
+):
+    db = get_database(mongodb_url, database_name)
+
+    end_date_value = (
+        end_date if end_date is not None else date + datetime.timedelta(days=1)
+    )
+    results = query_average_headline_scores_per_day(
+        start_date=date, end_date=end_date_value, db=db
+    )
+    if auto_save or typer.confirm(f"Insert {len(results)} results into table?"):
+        db_insert_daily(results, db=db)
+
+
 @app.command()
 def update_daily_db(
-    date: datetime = typer.Argument(..., help="Date in YYYY/MM/DD format"),
-    end_date: Optional[datetime] = typer.Option(
+    date: datetime.datetime = typer.Argument(..., help="Date in YYYY/MM/DD format"),
+    end_date: Optional[datetime.datetime] = typer.Option(
         None,
         help="If a `end_date` is provided, "
         "all the dates in [`date`, `end_date`[ will be inserted.",
@@ -51,14 +70,13 @@ def update_daily_db(
     Queries rows from the `headlines` collection, and stores the averages
     per day per newspaper to the `daily` collection.
     """
-    db = get_database(mongodb_url, database_name)
-
-    end_date_value = end_date if end_date is not None else date + timedelta(days=1)
-    results = query_average_headline_scores_per_day(
-        start_date=date, end_date=end_date_value, db=db
+    update_daily_db_w_date(
+        date=date.date(),
+        end_date=end_date.date() if end_date is not None else None,
+        mongodb_url=mongodb_url,
+        database_name=database_name,
+        auto_save=auto_save,
     )
-    if auto_save or typer.confirm(f"Insert {len(results)} results into table?"):
-        db_insert_daily(results, db=db)
 
 
 async def _fetch_single(
@@ -69,6 +87,9 @@ async def _fetch_single(
     }
     req = PreparedRequest()
     req.prepare_url(url, params)  # put params in URL
+
+    if req.url is None:
+        raise RuntimeError(f"Couldn't prepare the url to query. {url=}; {params=}")
 
     result = await session.post(req.url, headers=headers)
     content = await result.content.read()
@@ -118,41 +139,43 @@ def fetch_today(
 
 
 async def _fetch_wayback(
-    newspaper: Newspaper, date_range: list[datetime], cache_dir: Optional[Path]
+    newspaper: Newspaper, timestamps: list[datetime.datetime], cache_dir: Optional[Path]
 ) -> list[list[Headline]]:
     model = Detoxify("multilingual")
     async with aiohttp.ClientSession() as session:
         fetchers = [
             WaybackFetcher(
-                date=date,
+                date=ts,
                 newspaper=newspaper,
                 session=session,
                 cache_dir=cache_dir,
                 model=model,
             )
-            for date in date_range
+            for ts in timestamps
         ]
         tasks = [
             create_task(f.run_request_coroutine())
-            for f, d in zip(fetchers, date_range)
-            if not f.load(d)  # check if there's cache before making a task
+            for f, ts in zip(fetchers, timestamps)
+            if not f.load(ts)  # check if there's cache before making a task
         ]
         await asyncio.gather(*tasks)
 
         return [f.classify() for f in tqdm(fetchers)]
 
 
-def get_date_range(start_date: datetime, end_date: datetime) -> list[datetime]:
+def get_date_range(
+    start_date: datetime.date, end_date: datetime.date
+) -> list[datetime.date]:
     numdays = (end_date - start_date).days
-    date_list = [start_date + timedelta(days=x) for x in range(numdays)]
+    date_list = [start_date + datetime.timedelta(days=x) for x in range(numdays)]
     return date_list
 
 
 @app.command()
 def fetch_wayback(
     url: str,
-    start_date: datetime,
-    end_date: datetime,
+    start_date: datetime.datetime,
+    end_date: datetime.datetime,
     mongodb_url: str = typer.Option(..., envvar="MONGODB_URL"),
     database_name: str = typer.Option(..., envvar="DATABASE_NAME"),
     allowed_difference_headlines: float = typer.Option(
@@ -176,10 +199,15 @@ def fetch_wayback(
 
     db = get_database(mongodb_url, database_name)
 
-    date_list = get_date_range(start_date, end_date)
+    date_list = get_date_range(start_date.date(), end_date.date())
     newspaper = newspapers_dict[parse_obj_as(HttpUrl, url)]
     headlines_list = asyncio.run(
-        _fetch_wayback(newspaper, date_list, cache_dir if use_cache else None)
+        _fetch_wayback(
+            newspaper,
+            # get one timestamp per day at 12 o'clock
+            [datetime.datetime(d.year, d.month, d.day, 12, 0) for d in date_list],
+            cache_dir if use_cache else None,
+        )
     )
 
     def check_nr(nr: int) -> bool:
@@ -232,12 +260,12 @@ def render_pages(out_dir: Path):
     logger.debug("Writing index...")
     template = env.get_template("index.html")
     with (out_dir / "index.html").open("w+") as fd:
-        fd.write(template.render(selected="/index.html", today=datetime.today()))
+        fd.write(template.render(selected="/index.html", today=datetime.date.today()))
 
     logger.debug("Writing daily...")
     template = env.get_template("daily.html")
     with (out_dir / "daily.html").open("w+") as fd:
-        fd.write(template.render(selected="/daily.html", today=datetime.today()))
+        fd.write(template.render(selected="/daily.html", today=datetime.date.today()))
 
     logger.debug("Writing about...")
     template = env.get_template("about.html")
@@ -255,13 +283,12 @@ def render_html(out_dir: Path = Path("public/")):
     render_pages(out_dir)
 
 
-@app.command()
-def generate_daily_csv(
-    start_date: datetime,
-    end_date: Optional[datetime] = None,
-    out_dir: Path = Path("public") / "daily",
-    mongodb_url: str = typer.Option(..., envvar="MONGODB_URL"),
-    database_name: str = typer.Option(..., envvar="DATABASE_NAME"),
+def generate_daily_csv_w_date(
+    start_date: datetime.date,
+    end_date: Optional[datetime.date],
+    out_dir: Path,
+    mongodb_url: str,
+    database_name: str,
 ):
     db = get_database(mongodb_url, database_name)
     if end_date is None:
@@ -286,7 +313,7 @@ def generate_daily_csv(
 
             rows = query_daily_rows(d, db)
             logger.debug(f"{len(rows)} rows for {d.strftime(date_fmt)}")
-            for r in rows:
+            for r in sorted(rows, key=lambda x: x.name):
                 writer.writerow(
                     {
                         "name": r.name,
@@ -300,9 +327,26 @@ def generate_daily_csv(
                 )
 
 
+@app.command()
+def generate_daily_csv(
+    start_date: datetime.datetime,
+    end_date: Optional[datetime.datetime] = None,
+    out_dir: Path = Path("public") / "daily",
+    mongodb_url: str = typer.Option(..., envvar="MONGODB_URL"),
+    database_name: str = typer.Option(..., envvar="DATABASE_NAME"),
+):
+    generate_daily_csv_w_date(
+        start_date=start_date.date(),
+        end_date=end_date.date() if end_date is not None else None,
+        out_dir=out_dir,
+        mongodb_url=mongodb_url,
+        database_name=database_name,
+    )
+
+
 def generate_averages_csv(
-    start_date: datetime,
-    end_date: datetime,
+    start_date: datetime.date,
+    end_date: datetime.date,
     filename: Path,
     db: Database,
 ):
@@ -346,10 +390,10 @@ def generate_averages(
         try:
             full_fname = out_dir / fname
             logger.info(f"Generating {full_fname}...")
-            today = datetime.today()
+            today = datetime.date.today()
             generate_averages_csv(
-                start_date=today - timedelta(days=ndays),
-                end_date=today + timedelta(days=1),
+                start_date=today - datetime.timedelta(days=ndays),
+                end_date=today + datetime.timedelta(days=1),
                 # query for tomorrow, to make sure today's data is included
                 filename=full_fname,
                 db=db,
@@ -373,9 +417,9 @@ def update_frontend_today(
     """
     Updates all the HTML and CSV in the frontend.
     """
-    today = datetime.today()
+    today = datetime.date.today()
     if update_db:
-        update_daily_db(
+        update_daily_db_w_date(
             today,
             end_date=None,
             auto_save=True,
@@ -383,7 +427,7 @@ def update_frontend_today(
             database_name=database_name,
         )
     if daily:
-        generate_daily_csv(
+        generate_daily_csv_w_date(
             today,
             end_date=None,
             out_dir=out_dir / "daily",
