@@ -274,10 +274,19 @@ newspapers = [
         name="Newsweek",
         language="en",
         url="https://www.newsweek.com",
-        get_headlines_fn=get_xpath_fn(
-            "//article//*[self::h1 or self::h3 or self::h4 or self::li]/a "
-            "| //div[@class='title' or @class='info']/a",
-            href_xpath=".",
+        get_headlines_fn=get_dated_xpath_fn(
+            DatedXpath(
+                from_date=datetime(2023, 4, 3),
+                headline_xpath="//div[@class='news-title']/a",
+                href_xpath=".",
+            ),
+            DatedXpath(
+                from_date=None,
+                headline_xpath="//article//*[self::h1 or self::h3 "
+                "  or self::h4 or self::li]/a "
+                "| //div[@class='title' or @class='info']/a",
+                href_xpath=".",
+            ),
         ),
         expected_headlines=102,
     ),
