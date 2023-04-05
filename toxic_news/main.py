@@ -238,6 +238,8 @@ def fetch_wayback(
         if len(headlines_to_insert) > 0:
             inserted_records = 0
             for one_day_headlines in tqdm(headlines_to_insert):
+                if len(one_day_headlines) == 0:
+                    continue
                 n_records = db_insert_headlines(one_day_headlines, db=db)
                 inserted_records += n_records
                 if n_records == 0:
@@ -358,7 +360,7 @@ def generate_averages_csv(
         writer.writeheader()
 
         rows = query_average_daily(start_date, end_date, db)
-        for r in rows:
+        for r in sorted(rows, key=lambda x: x.name):
             writer.writerow(
                 {
                     "name": r.name,

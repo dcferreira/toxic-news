@@ -44,6 +44,8 @@ class DailyRow(BaseModel):
 
 
 def db_insert_headlines(headlines: list[Headline], db: Database) -> int:
+    if len(headlines) == 0:
+        return 0
     headlines_coll = _get_headlines_collection(db)
     try:
         res = headlines_coll.insert_many(h.dict() for h in headlines)
