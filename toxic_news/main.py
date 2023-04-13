@@ -18,7 +18,8 @@ from pymongo.database import Database
 from requests import PreparedRequest
 from tqdm import tqdm
 
-from toxic_news.fetchers import Headline, Newspaper, Scores, WaybackFetcher
+from toxic_news.fetchers import Headline, Newspaper, WaybackFetcher
+from toxic_news.models import Scores
 from toxic_news.newspapers import newspapers, newspapers_dict
 from toxic_news.queries import (
     date_fmt,

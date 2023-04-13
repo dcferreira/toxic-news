@@ -11,12 +11,12 @@ from typing import Optional, cast
 import aiohttp
 import nest_asyncio
 from aiohttp import ClientResponse, ClientSession
-from detoxify import Detoxify
 from loguru import logger
 from pydantic import BaseModel, HttpUrl, ValidationError
 from tenacity import RetryError, retry, stop_after_attempt, wait_exponential
 from waybackpy import WaybackMachineAvailabilityAPI
 
+from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import Newspaper
 
 # allow nesting of loops
@@ -33,25 +33,6 @@ HEADERS = {
 }
 
 
-# class Newspaper(BaseModel):
-#     name: str
-#     language: str
-#     url: HttpUrl
-#     title_xpath: str
-#     relative_href_xpath: str
-#     expected_headlines: int
-
-
-class Scores(BaseModel):
-    toxicity: float
-    severe_toxicity: float
-    obscene: float
-    identity_attack: float
-    insult: float
-    threat: float
-    sexual_explicit: float
-
-
 class Headline(BaseModel):
     newspaper: str
     language: str
@@ -59,16 +40,6 @@ class Headline(BaseModel):
     date: datetime
     scores: Scores
     url: Optional[HttpUrl]
-
-
-class DetoxifyResults(BaseModel):
-    toxicity: list[float]
-    severe_toxicity: list[float]
-    obscene: list[float]
-    identity_attack: list[float]
-    insult: list[float]
-    threat: list[float]
-    sexual_explicit: list[float]
 
 
 def validate_url(url: str) -> bool:
@@ -82,28 +53,16 @@ def validate_url(url: str) -> bool:
         return False
 
 
-def parse_detoxify_scores(scores: DetoxifyResults) -> list[Scores]:
-    scores_dict = scores.dict()
-    keys = scores_dict.keys()
-    vals = zip(*scores_dict.values())
-
-    # create a list of dictionaries
-    scores_list = [dict(zip(keys, v)) for v in vals]
-
-    return [Scores.parse_obj(s) for s in scores_list]
-
-
 class Fetcher:
     def __init__(
         self,
         newspaper: Newspaper,
         cache_dir: Optional[Path] = None,
-        model: Optional[Detoxify] = None,
     ):
         self.newspaper = newspaper
         self.cache_dir = cache_dir
 
-        self._model: Optional[Detoxify] = model
+        self._model: Optional[AllModels] = None
         self._response: Optional[ClientResponse] = None
         self._content: Optional[bytes] = None
         self._request_time: Optional[datetime] = None
@@ -149,9 +108,9 @@ class Fetcher:
         return False
 
     @property
-    def model(self) -> Detoxify:
+    def model(self) -> AllModels:
         if self._model is None:
-            self._model = Detoxify("multilingual")
+            self._model = AllModels()
         return self._model
 
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
@@ -185,42 +144,19 @@ class Fetcher:
             self._request()
         return cast(datetime, self._request_time)
 
-    # def _extract_title_and_url(self, element: HtmlElement) -> tuple[str, str]:
-    #     title = "".join(element.itertext()).strip(" \t\n\r|")
-    #     res = element.xpath(self.newspaper.relative_href_xpath)
-    #     url = res[0].get("href")
-    #     absolute_url = urllib.parse.urljoin(self.newspaper.url, url)
-    #     return title, absolute_url
-
     def parse(self, content: str) -> list[tuple[str, str]]:
         return self.newspaper.get_headlines(
             content=content, request_date=self.request_time
         )
-        # tree: HtmlElement = lxml.html.fromstring(content)
-        # headlines = [
-        #     self._extract_title_and_url(x)
-        #     for x in tree.xpath(self.newspaper.title_xpath)
-        # ]
-        # # often the same headline appears multiple times in the page
-        # deduped_headlines = set(headlines)
-        # # sort by order in which they appear in the page
-        # return sorted(deduped_headlines, key=lambda x: headlines.index(x))
 
     def fetch(self) -> list[tuple[str, str]]:
         return self.parse(self.content)
-
-    def _predict(self, texts: list[str]) -> dict[str, list[float]]:
-        return self.model.predict(texts)
-
-    def predict(self, texts: list[str]) -> DetoxifyResults:
-        return DetoxifyResults.parse_obj(self._predict(texts))
 
     def classify(self) -> list[Headline]:
         content = self.fetch()
         if len(content) == 0:  # no content was found
             return []
-        results = self.predict([x[0] for x in content])
-        scores = parse_detoxify_scores(results)
+        scores_list = self.model.predict([x[0] for x in content])
         return [
             Headline(
                 newspaper=self.newspaper.name,
@@ -230,7 +166,7 @@ class Fetcher:
                 scores=s,
                 url=cast(HttpUrl, u) if validate_url(u) else None,
             )
-            for s, (t, u) in zip(scores, content)
+            for s, (t, u) in zip(scores_list, content)
         ]
 
 

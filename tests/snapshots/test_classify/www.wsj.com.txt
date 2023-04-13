@@ -10,7 +10,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00019,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.27325,
+      "neutral": 0.57288,
+      "negative": 0.15387
     },
     "url": "https://www.wsj.com/livecoverage/federal-reserve-meeting-interest-rate-march-2023"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00082,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05081,
+      "neutral": 0.44127,
+      "negative": 0.50792
     },
     "url": "https://www.wsj.com/articles/donald-trump-grand-jury-to-reconvene-as-potential-indictment-looms-629d1773?mod=hp_lead_pos1"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00038,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.36929,
+      "neutral": 0.58381,
+      "negative": 0.04690
     },
     "url": "https://www.wsj.com/articles/apple-microsoft-dominate-u-s-markets-after-faang-trade-fizzles-d6f10309?mod=hp_lead_pos2"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00038,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.13867,
+      "neutral": 0.67928,
+      "negative": 0.18205
     },
     "url": "https://www.wsj.com/articles/insurer-chubb-demands-energy-producers-cut-methane-emissions-for-coverage-52251222?mod=hp_lead_pos3"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00023,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.07663,
+      "neutral": 0.83161,
+      "negative": 0.09176
     },
     "url": "https://www.wsj.com/articles/moderna-to-price-its-covid-19-vaccine-at-130-a-dose-d7f4a956?mod=hp_lead_pos4"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00018,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.19382,
+      "neutral": 0.67784,
+      "negative": 0.12834
     },
     "url": "https://www.wsj.com/articles/home-prices-fell-in-february-for-first-time-in-11-years-73df0107?mod=hp_lead_pos5"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00029,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04286,
+      "neutral": 0.31149,
+      "negative": 0.64565
     },
     "url": "https://www.wsj.com/articles/tiktok-ceo-shou-zi-chew-congress-8ed38010?mod=hp_lead_pos6"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.00195,
       "insult": 0.00096,
       "threat": 0.00031,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.02065,
+      "neutral": 0.14699,
+      "negative": 0.83236
     },
     "url": "https://www.wsj.com/articles/ukraine-war-threatens-to-trigger-new-nuclear-arms-race-8e630514?mod=hp_lead_pos7"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00028,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.22739,
+      "neutral": 0.59336,
+      "negative": 0.17924
     },
     "url": "https://www.wsj.com/articles/airfare-prices-business-travel-flights-38cc33c9?mod=hp_lead_pos10"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00027,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03503,
+      "neutral": 0.62672,
+      "negative": 0.33825
     },
     "url": "https://www.wsj.com/articles/u-s-news-college-rankings-yale-law-fe24f0b2?mod=hp_lead_pos11"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.00238,
       "insult": 0.01084,
       "threat": 0.00051,
-      "sexual_explicit": 0.00067
+      "sexual_explicit": 0.00067,
+      "positive": 0.34705,
+      "neutral": 0.63306,
+      "negative": 0.01990
     },
     "url": "https://www.wsj.com/articles/taylor-swift-fans-prepare-wardrobe-hydration-strategies-for-marathon-length-shows-2123930c?mod=hp_lead_pos12"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.00149,
       "insult": 0.00480,
       "threat": 0.00053,
-      "sexual_explicit": 0.00034
+      "sexual_explicit": 0.00034,
+      "positive": 0.14661,
+      "neutral": 0.80420,
+      "negative": 0.04919
     },
     "url": "https://www.wsj.com/articles/ohtani-trout-japan-usa-world-baseball-classic-a84f6656?mod=hp_featst_pos3"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00017,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.70940,
+      "neutral": 0.26869,
+      "negative": 0.02190
     },
     "url": "https://www.wsj.com/articles/china-has-a-new-vision-for-itself-global-power-da8dc559?mod=hp_featst_pos4"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00073,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.11215,
+      "neutral": 0.80682,
+      "negative": 0.08103
     },
     "url": "https://www.wsj.com/articles/tiktok-headband-versed-1d6484e5?mod=hp_featst_pos5"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00020,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.10305,
+      "neutral": 0.62705,
+      "negative": 0.26990
     },
     "url": "https://www.wsj.com/articles/kansas-hunts-for-water-as-aquifer-levels-fall-41d10313?mod=hp_lista_pos1"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00030,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05609,
+      "neutral": 0.79009,
+      "negative": 0.15381
     },
     "url": "https://www.wsj.com/articles/greenwashing-targeted-in-latest-european-regulatory-push-13fbac3?mod=hp_lista_pos2"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.18458,
+      "neutral": 0.67207,
+      "negative": 0.14335
     },
     "url": "https://www.wsj.com/articles/joe-bidens-push-to-counter-china-steers-ev-investments-to-canada-a3095936?mod=hp_lista_pos3"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.00025,
       "insult": 0.00036,
       "threat": 0.00011,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.31117,
+      "neutral": 0.45849,
+      "negative": 0.23034
     },
     "url": "https://www.wsj.com/articles/in-green-hydrogen-race-with-the-u-s-europe-is-hobbled-a47ee572?mod=hp_lista_pos4"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.00046,
       "insult": 0.00090,
       "threat": 0.00007,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.13904,
+      "neutral": 0.54617,
+      "negative": 0.31478
     },
     "url": "https://www.wsj.com/articles/despite-office-bans-some-workers-still-want-to-use-chatgpt-778da50e?mod=lead_feature_below_a_pos1"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00037,
       "threat": 0.00008,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.25241,
+      "neutral": 0.70277,
+      "negative": 0.04482
     },
     "url": "https://www.wsj.com/articles/google-launches-bard-ai-chatbot-to-counter-chatgpt-2200c357?mod=lead_feature_below_a_pos1"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00025,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.49378,
+      "neutral": 0.46100,
+      "negative": 0.04523
     },
     "url": "https://www.wsj.com/articles/algorithms-ai-humanity-psychology-ebf1364c?mod=lead_feature_below_a_pos1"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.00124,
       "insult": 0.00334,
       "threat": 0.00021,
-      "sexual_explicit": 0.00015
+      "sexual_explicit": 0.00015,
+      "positive": 0.07357,
+      "neutral": 0.60421,
+      "negative": 0.32222
     },
     "url": "https://www.wsj.com/video/series/the-economics-of/how-nintendo-competes-differently-than-sony-and-microsoft/8F0D4A33-FD22-45D7-A7CC-6A2F1A0BBE06?mod=hp_listb_pos1"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00019,
       "threat": 0.00007,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.44950,
+      "neutral": 0.53243,
+      "negative": 0.01807
     },
     "url": "https://www.wsj.com/articles/huawei-bets-on-another-premium-4g-phone-86a7a60c?mod=hp_listb_pos2"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00018,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.57392,
+      "neutral": 0.39771,
+      "negative": 0.02838
     },
     "url": "https://www.wsj.com/articles/tencent-posts-surprise-profit-growth-despite-economic-slowdown-dde00140?mod=hp_listb_pos3"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.00258,
       "insult": 0.00160,
       "threat": 0.00024,
-      "sexual_explicit": 0.00045
+      "sexual_explicit": 0.00045,
+      "positive": 0.50201,
+      "neutral": 0.46364,
+      "negative": 0.03436
     },
     "url": "https://www.wsj.com/articles/nancy-pelosi-to-be-interviewed-at-journals-women-in-the-workplace-forum-b6cb4a9c?mod=hp_listc_pos1"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.00219,
       "insult": 0.00285,
       "threat": 0.00040,
-      "sexual_explicit": 0.00060
+      "sexual_explicit": 0.00060,
+      "positive": 0.02768,
+      "neutral": 0.38020,
+      "negative": 0.59212
     },
     "url": "https://www.wsj.com/articles/taliban-girls-school-ban-leader-blowback-secret-education-b1e9ab7f?mod=hp_listc_pos2"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00022,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05279,
+      "neutral": 0.26245,
+      "negative": 0.68475
     },
     "url": "https://www.wsj.com/articles/u-k-inflation-resumes-its-rise-defying-expectations-b23e6aa0?mod=hp_listc_pos3"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00051,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.71903,
+      "neutral": 0.26504,
+      "negative": 0.01592
     },
     "url": "https://www.wsj.com/buyside/style/best-commuter-backpacks-01653427565?mod=wsj_hp_buyside_pos1"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00020,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.62057,
+      "neutral": 0.35613,
+      "negative": 0.02330
     },
     "url": "https://www.wsj.com/buyside/shopping-holidays/best-deals-right-now-4e77f8d6?mod=wsj_hp_buyside_pos2"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00015,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06065,
+      "neutral": 0.88473,
+      "negative": 0.05462
     },
     "url": "https://www.wsj.com/buyside/personal-finance/tax-bracket-changes-01666448477?mod=wsj_hp_buyside_pos3"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00045,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02879,
+      "neutral": 0.34232,
+      "negative": 0.62888
     },
     "url": "https://www.wsj.com/articles/new-ftc-order-pressures-tech-platforms-over-fraudulent-ads-72a6df4e?mod=hp_minor_pos1"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00024,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.23651,
+      "neutral": 0.67348,
+      "negative": 0.09000
     },
     "url": "https://www.wsj.com/articles/have-the-ads-in-your-twitter-feed-changed-theres-a-reason-for-that-1772f9f3?mod=hp_minor_pos2"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00015,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.28410,
+      "neutral": 0.65824,
+      "negative": 0.05766
     },
     "url": "https://www.wsj.com/articles/five-things-marketers-should-know-about-generative-ai-in-advertising-5381c1d0?mod=hp_minor_pos3"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00020,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.54530,
+      "neutral": 0.34880,
+      "negative": 0.10590
     },
     "url": "https://www.wsj.com/articles/generative-ai-makes-headway-in-healthcare-cb5d4ee2?mod=hp_minor_pos4"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00059,
       "threat": 0.00010,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.02099,
+      "neutral": 0.22400,
+      "negative": 0.75501
     },
     "url": "https://www.wsj.com/articles/data-deluge-businesses-struggle-with-tmi-5e41cca1?mod=hp_minor_pos5"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03882,
+      "neutral": 0.35726,
+      "negative": 0.60392
     },
     "url": "https://www.wsj.com/articles/svb-collapse-could-trigger-more-corporate-m-a-tech-leaders-say-baff7734?mod=hp_minor_pos6"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00020,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01791,
+      "neutral": 0.30710,
+      "negative": 0.67499
     },
     "url": "https://www.wsj.com/articles/as-ford-carves-out-its-ev-unit-reporting-by-region-gets-ditched-11a8c7b1?mod=hp_minor_pos7"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00016,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.14230,
+      "neutral": 0.65258,
+      "negative": 0.20513
     },
     "url": "https://www.wsj.com/articles/banks-investors-revive-push-for-changes-to-securities-accounting-after-svb-collapse-99caa9ce?mod=hp_minor_pos8"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.12256,
+      "neutral": 0.51220,
+      "negative": 0.36524
     },
     "url": "https://www.wsj.com/articles/svb-collapse-spurs-finance-executives-to-re-evaluate-cash-strategies-62cb3083?mod=hp_minor_pos9"
   },
@@ -595,7 +712,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00036,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01775,
+      "neutral": 0.11581,
+      "negative": 0.86645
     },
     "url": "https://www.wsj.com/articles/missteps-by-ericsson-and-its-lawyers-led-to-new-sanctions-against-company-a0e70f80?mod=hp_minor_pos10"
   },
@@ -610,7 +730,10 @@
       "identity_attack": 0.00020,
       "insult": 0.00350,
       "threat": 0.00007,
-      "sexual_explicit": 0.00009
+      "sexual_explicit": 0.00009,
+      "positive": 0.01847,
+      "neutral": 0.13768,
+      "negative": 0.84385
     },
     "url": "https://www.wsj.com/articles/chipmixer-is-shut-down-for-allegedly-laundering-3-billion-in-crypto-325a55ee?mod=hp_minor_pos11"
   },
@@ -625,7 +748,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00018,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06211,
+      "neutral": 0.77998,
+      "negative": 0.15790
     },
     "url": "https://createsend.com/t/d-124F53EF6669129F2540EF23F30FEDED?mod=hp_minor_pos12"
   },
@@ -640,7 +766,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00029,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.20822,
+      "neutral": 0.76424,
+      "negative": 0.02753
     },
     "url": "https://www.wsj.com/articles/trucking-giant-knight-swift-transportation-to-buy-u-s-xpress-c763d424?mod=hp_minor_pos13"
   },
@@ -655,7 +784,10 @@
       "identity_attack": 0.00016,
       "insult": 0.00033,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05668,
+      "neutral": 0.62853,
+      "negative": 0.31479
     },
     "url": "https://www.wsj.com/articles/labor-tensions-rise-in-stalled-west-coast-port-contract-talks-cb031b7c?mod=hp_minor_pos14"
   },
@@ -670,7 +802,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.08951,
+      "neutral": 0.73544,
+      "negative": 0.17505
     },
     "url": "https://createsend.com/t/d-E91BE92DC5B7A1672540EF23F30FEDED?mod=hp_minor_pos15"
   },
@@ -685,7 +820,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00021,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.42166,
+      "neutral": 0.46618,
+      "negative": 0.11216
     },
     "url": "https://www.wsj.com/articles/companies-face-another-packed-year-of-sustainability-shareholder-votes-94c2c8bb?mod=hp_minor_pos16"
   },
@@ -700,7 +838,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00027,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.24530,
+      "neutral": 0.65361,
+      "negative": 0.10110
     },
     "url": "https://www.wsj.com/articles/nestle-says-less-than-half-of-its-main-portfolio-is-ranked-as-healthy-53778554?mod=hp_minor_pos17"
   },
@@ -715,7 +856,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.10212,
+      "neutral": 0.79765,
+      "negative": 0.10023
     },
     "url": "https://www.wsj.com/articles/corporate-climate-targets-get-lift-under-rosier-u-s-government-emissions-outlook-fb6b154?mod=hp_minor_pos18"
   },
@@ -730,7 +874,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00014,
       "threat": 0.00006,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.23283,
+      "neutral": 0.68811,
+      "negative": 0.07906
     },
     "url": "https://www.wsj.com/articles/indias-ev-dreams-face-a-reality-check-bda1db82?mod=hp_minor_pos19"
   },
@@ -745,7 +892,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00817,
       "threat": 0.00007,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.21505,
+      "neutral": 0.56693,
+      "negative": 0.21802
     },
     "url": "https://www.wsj.com/articles/eli-lilly-is-priced-for-perfection-in-the-obesity-market-4b3e2363?mod=hp_minor_pos20"
   },
@@ -760,7 +910,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00039,
       "threat": 0.00005,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.19882,
+      "neutral": 0.61092,
+      "negative": 0.19027
     },
     "url": "https://www.wsj.com/articles/credit-suisses-bail-in-bonds-made-an-easy-target-for-politicians-2a821441?mod=hp_minor_pos21"
   },
@@ -775,7 +928,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00021,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.41713,
+      "neutral": 0.54244,
+      "negative": 0.04043
     },
     "url": "https://www.barrons.com/articles/meta-stock-upgrade-alphabet-pinterest-cbd36e59?mod=hp_minor_pos22"
   },
@@ -790,7 +946,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00023,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02790,
+      "neutral": 0.32873,
+      "negative": 0.64337
     },
     "url": "https://www.barrons.com/articles/pacwest-bancorp-stock-capital-f8653a7a?mod=hp_minor_pos23"
   },
@@ -805,7 +964,10 @@
       "identity_attack": 0.00030,
       "insult": 0.00199,
       "threat": 0.00007,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.04537,
+      "neutral": 0.66839,
+      "negative": 0.28623
     },
     "url": "https://www.barrons.com/articles/new-deadly-fungus-candida-auris-194db099?mod=hp_minor_pos24"
   },
@@ -820,7 +982,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00013,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.19209,
+      "neutral": 0.59294,
+      "negative": 0.21498
     },
     "url": "https://www.marketwatch.com/story/u-s-stock-futures-dip-ahead-of-fed-rate-decision-1a03174a?mod=hp_minor_pos25"
   },
@@ -835,7 +1000,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00018,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.44415,
+      "neutral": 0.49600,
+      "negative": 0.05985
     },
     "url": "https://www.marketwatch.com/story/amc-bed-bath-beyond-stocks-get-a-big-lift-as-meme-peer-gamestop-shares-soar-ba31beb?mod=hp_minor_pos26"
   },
@@ -850,7 +1018,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.26041,
+      "neutral": 0.62559,
+      "negative": 0.11400
     },
     "url": "https://www.marketwatch.com/story/fed-likely-to-follow-ecbs-playbook-and-hike-interest-rates-next-week-b465a0d9?mod=hp_minor_pos27"
   },
@@ -865,7 +1036,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00016,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.39480,
+      "neutral": 0.53963,
+      "negative": 0.06557
     },
     "url": "https://www.mansionglobal.com/articles/one-of-the-priciest-homes-for-sale-in-the-dominican-republic-is-this-25-million-penthouse-47701d1a?mod=hp_minor_pos28"
   },
@@ -880,7 +1054,10 @@
       "identity_attack": 0.00025,
       "insult": 0.00092,
       "threat": 0.00017,
-      "sexual_explicit": 0.00011
+      "sexual_explicit": 0.00011,
+      "positive": 0.46902,
+      "neutral": 0.50660,
+      "negative": 0.02438
     },
     "url": "https://www.mansionglobal.com/articles/dubais-latest-luxury-developments-include-man-made-islands-and-rooftop-opera-pavilions-138df4fe?mod=hp_minor_pos29"
   },
@@ -895,7 +1072,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00028,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.29248,
+      "neutral": 0.66813,
+      "negative": 0.03939
     },
     "url": "https://www.mansionglobal.com/articles/how-to-mix-bedroom-patterns-like-a-maximalist-pro-45d75378?mod=hp_minor_pos30"
   },
@@ -910,7 +1090,10 @@
       "identity_attack": 0.00062,
       "insult": 0.00085,
       "threat": 0.00033,
-      "sexual_explicit": 0.00052
+      "sexual_explicit": 0.00052,
+      "positive": 0.12706,
+      "neutral": 0.81402,
+      "negative": 0.05892
     },
     "url": "https://www.barrons.com/articles/a-horological-road-trip-in-switzerlands-watch-valley-10d2a8c8?mod=hp_minor_pos31"
   },
@@ -925,7 +1108,10 @@
       "identity_attack": 0.00033,
       "insult": 0.00065,
       "threat": 0.00009,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.27632,
+      "neutral": 0.70838,
+      "negative": 0.01531
     },
     "url": "https://www.barrons.com/articles/asia-week-new-york-returns-with-a-series-of-auctions-and-exhibitions-8e518546?mod=hp_minor_pos32"
   },
@@ -940,7 +1126,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00044,
       "threat": 0.00013,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.67948,
+      "neutral": 0.30677,
+      "negative": 0.01375
     },
     "url": "https://www.barrons.com/articles/the-2023-porsche-911-carrera-t-offers-a-heart-clutching-drive-7fd5a2?mod=hp_minor_pos33"
   },
@@ -955,7 +1144,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00021,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.21056,
+      "neutral": 0.71252,
+      "negative": 0.07691
     },
     "url": "https://www.wsj.com/articles/what-is-digital-twin-making-companies-cities-more-efficient-92e551b6?mod=hp_jr_pos1"
   },
@@ -970,7 +1162,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00021,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.36890,
+      "neutral": 0.53631,
+      "negative": 0.09480
     },
     "url": "https://www.wsj.com/articles/technology-skills-employees-should-have-fdc6c0ba?mod=hp_jr_pos2"
   },
@@ -985,7 +1180,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00016,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.09234,
+      "neutral": 0.72093,
+      "negative": 0.18673
     },
     "url": "https://www.wsj.com/articles/benefits-drawbacks-of-giving-ai-gender-4f1b2a2b?mod=hp_jr_pos3"
   }

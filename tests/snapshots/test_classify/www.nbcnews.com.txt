@@ -10,7 +10,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00015,
       "threat": 0.00005,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.03813,
+      "neutral": 0.38651,
+      "negative": 0.57535
     },
     "url": "https://www.nbcnews.com/science/environment/climate-change-un-ipcc-rcna75670"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00014,
       "threat": 0.00007,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.23961,
+      "neutral": 0.63124,
+      "negative": 0.12915
     },
     "url": "https://www.nbcnews.com/science/environment/carbon-dioxide-emissions-reached-record-high-2022-rcna73108"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00031,
       "threat": 0.00006,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.88326,
+      "neutral": 0.08526,
+      "negative": 0.03148
     },
     "url": "https://www.nbcnews.com/science/environment/nasa-noaa-find-2022-was-one-hottest-years-record-rcna65086"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00020,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.60861,
+      "neutral": 0.26416,
+      "negative": 0.12723
     },
     "url": "https://www.nbcnews.com/news/world/russia-ukraine-war-china-xi-jinping-vladimir-putin-meeting-us-moscow-rcna74613"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.00029,
       "insult": 0.00020,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.17359,
+      "neutral": 0.60704,
+      "negative": 0.21937
     },
     "url": "https://www.nbcnews.com/politics/white-house-seeks-softer-tone-china-ahead-putin-xi-meeting-rcna75549"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.00020,
       "insult": 0.00027,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.24879,
+      "neutral": 0.65293,
+      "negative": 0.09828
     },
     "url": "https://www.nbcnews.com/now/video/chinese-president-xi-arrives-in-russia-ahead-of-meeting-with-president-putin-165729349691"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00033,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01584,
+      "neutral": 0.13409,
+      "negative": 0.85008
     },
     "url": "https://www.nbcnews.com/politics/2024-election/ron-desantis-breaks-silence-possible-trump-indictment-rcna75747"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00026,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06464,
+      "neutral": 0.56272,
+      "negative": 0.37263
     },
     "url": "https://www.nbcnews.com/politics/congress/house-gop-chairmen-ask-manhattan-d-alvin-bragg-testify-trump-probe-rcna75754"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00024,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04133,
+      "neutral": 0.23579,
+      "negative": 0.72288
     },
     "url": "https://www.nbcnews.com/politics/congress/mccarthy-says-americans-not-protest-trump-indicted-rcna75679"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.00056,
       "insult": 0.00185,
       "threat": 0.00024,
-      "sexual_explicit": 0.00047
+      "sexual_explicit": 0.00047,
+      "positive": 0.02366,
+      "neutral": 0.21697,
+      "negative": 0.75937
     },
     "url": "https://www.nbcnews.com/news/us-news/jury-returns-verdict-trial-3-men-accused-killing-rapper-xxxten-rcna74121"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.00034,
       "insult": 0.00526,
       "threat": 0.00031,
-      "sexual_explicit": 0.00040
+      "sexual_explicit": 0.00040,
+      "positive": 0.02435,
+      "neutral": 0.22833,
+      "negative": 0.74733
     },
     "url": "https://www.nbcnews.com/news/us-news/xxxtentacions-friend-describes-rappers-fatal-shooting-rcna69681"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00245,
       "threat": 0.00089,
-      "sexual_explicit": 0.00024
+      "sexual_explicit": 0.00024,
+      "positive": 0.04103,
+      "neutral": 0.44466,
+      "negative": 0.51431
     },
     "url": "https://www.nbcnews.com/news/crime-courts/buster-murdaugh-says-nothing-teens-2015-hit-run-death-rcna75683"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.00097,
       "insult": 0.00296,
       "threat": 0.01787,
-      "sexual_explicit": 0.02035
+      "sexual_explicit": 0.02035,
+      "positive": 0.02706,
+      "neutral": 0.22360,
+      "negative": 0.74934
     },
     "url": "https://www.nbcnews.com/news/us-news/body-teenager-hit-run-death-murdaugh-estate-exhumed-rcna75480"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00020,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04531,
+      "neutral": 0.52834,
+      "negative": 0.42635
     },
     "url": "https://www.nbcnews.com/news/us-news/american-aid-worker-jeff-woodke-kidnapped-west-africa-released-6-years-rcna75744"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.00112,
       "insult": 0.00596,
       "threat": 0.01161,
-      "sexual_explicit": 0.00110
+      "sexual_explicit": 0.00110,
+      "positive": 0.02209,
+      "neutral": 0.20402,
+      "negative": 0.77389
     },
     "url": "https://www.nbcnews.com/nbc-out/out-news/protesters-bloodied-arrested-nyc-drag-story-hour-rcna75724"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00013,
       "threat": 0.00015,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.02654,
+      "neutral": 0.24049,
+      "negative": 0.73297
     },
     "url": "https://www.nbcnews.com/news/us-news/2-students-injured-shooting-lamar-high-school-texas-rcna75759"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.00112,
       "insult": 0.00037,
       "threat": 0.00095,
-      "sexual_explicit": 0.00045
+      "sexual_explicit": 0.00045,
+      "positive": 0.01856,
+      "neutral": 0.10263,
+      "negative": 0.87881
     },
     "url": "https://www.nbcnews.com/news/us-news/colorado-dentist-charged-poisoning-wife-was-declared-brain-dead-days-h-rcna75716"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00021,
       "threat": 0.00016,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.03311,
+      "neutral": 0.21074,
+      "negative": 0.75615
     },
     "url": "https://www.nbcnews.com/news/us-news/5-connecticut-children-dead-fiery-new-york-boy-9-survives-rcna75719"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03192,
+      "neutral": 0.31969,
+      "negative": 0.64838
     },
     "url": "https://www.nbcnews.com/news/us-news/search-florida-boaters-missing-lake-legoland-rcna75687"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00021,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.32700,
+      "neutral": 0.49040,
+      "negative": 0.18261
     },
     "url": "https://www.nbcnews.com/news/us-news/protesters-gather-miami-run-field-cuba-us-world-baseball-classic-semif-rcna75696"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00023,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06060,
+      "neutral": 0.45594,
+      "negative": 0.48346
     },
     "url": "https://www.nbcnews.com/politics/2024-election/trump-fox-news-dominion-revelations-ron-desantis-rcna75646"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.00072,
       "insult": 0.00062,
       "threat": 0.00011,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.03369,
+      "neutral": 0.15283,
+      "negative": 0.81348
     },
     "url": "https://www.nbcnews.com/politics/white-house/white-house-counter-gops-soft-crime-attacks-targeting-far-right-budget-rcna75700"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00022,
       "threat": 0.00006,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.03150,
+      "neutral": 0.37496,
+      "negative": 0.59355
     },
     "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-weighs-navajo-nation-water-rights-dispute-rcna75433"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.22342,
+      "neutral": 0.75091,
+      "negative": 0.02567
     },
     "url": "https://www.nbcnews.com/meet-the-press/meetthepressblog/justice-dan-kelly-launches-first-ad-wisconsin-supreme-court-campaign-rcna75713"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.24734,
+      "neutral": 0.62360,
+      "negative": 0.12906
     },
     "url": "https://www.nbcnews.com/news/us-news/candidates-support-psychedelics-medicine-get-political-action-committe-rcna75295"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00018,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.15640,
+      "neutral": 0.52672,
+      "negative": 0.31688
     },
     "url": "https://www.nbcnews.com/business/business-news/amazon-lay-9000-workers-earlier-cuts-rcna75745"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00020,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.14460,
+      "neutral": 0.78510,
+      "negative": 0.07030
     },
     "url": "https://www.nbcnews.com/tech/security/twitter-authenticator-secure-account-free-rcna74850"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00036,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02981,
+      "neutral": 0.29318,
+      "negative": 0.67701
     },
     "url": "https://www.nbcnews.com/business/business-news/new-york-community-bank-buy-failed-signature-bank-rcna75681"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00016,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.43666,
+      "neutral": 0.49311,
+      "negative": 0.07024
     },
     "url": "https://www.nbcnews.com/business/ubs-reportedly-offers-buy-credit-suisse-1-billion-rcna75653"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00020,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05640,
+      "neutral": 0.54381,
+      "negative": 0.39979
     },
     "url": "https://www.nbcnews.com/news/us-news/elizabeth-holmes-owes-25-million-theranos-creditors-lawsuit-says-rcna75393"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.00007,
       "insult": 0.00021,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04534,
+      "neutral": 0.20181,
+      "negative": 0.75285
     },
     "url": "https://www.nbcnews.com/news/world/france-pension-reform-emmanuel-macron-no-confidence-vote-borne-rcna75690"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.00057,
       "insult": 0.00033,
       "threat": 0.00091,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.03104,
+      "neutral": 0.25354,
+      "negative": 0.71542
     },
     "url": "https://www.nbcnews.com/news/world/north-korea-kim-oversees-simulated-nuclear-counterattack-us-south-rcna75686"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00023,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02264,
+      "neutral": 0.13282,
+      "negative": 0.84455
     },
     "url": "https://www.nbcnews.com/news/world/israel-judicial-reforms-benjamin-netanyahu-joe-biden-phone-call-rcna75698"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00032,
       "threat": 0.00006,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02699,
+      "neutral": 0.14917,
+      "negative": 0.82384
     },
     "url": "https://www.nbcnews.com/news/world/millions-dead-fish-wash-heat-wave-australia-rcna75620"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00029,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.40212,
+      "neutral": 0.43281,
+      "negative": 0.16507
     },
     "url": "https://www.nbcnews.com/news/world/russia-ukraine-war-putin-mariupol-visit-arrest-warrant-war-crimes-rcna75621"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00107,
       "threat": 0.00008,
-      "sexual_explicit": 0.00027
+      "sexual_explicit": 0.00027,
+      "positive": 0.02617,
+      "neutral": 0.17819,
+      "negative": 0.79564
     },
     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/bruce-willis-family-opens-grief-feel-68th-birthday-rcna75701"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00030,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.70653,
+      "neutral": 0.26806,
+      "negative": 0.02541
     },
     "url": "https://www.nbcnews.com/news/us-news/adam-sandler-takes-home-mark-twain-prize-american-humor-rcna75694"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.00035,
       "insult": 0.00055,
       "threat": 0.00005,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.15577,
+      "neutral": 0.79254,
+      "negative": 0.05170
     },
     "url": "https://www.nbcnews.com/politics/joe-biden/jason-sudeikis-ted-lasso-cast-members-visit-white-house-rcna75677"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.00020,
       "insult": 0.00512,
       "threat": 0.00037,
-      "sexual_explicit": 0.00018
+      "sexual_explicit": 0.00018,
+      "positive": 0.02142,
+      "neutral": 0.23477,
+      "negative": 0.74382
     },
     "url": "https://www.nbcnews.com/news/us-news/andrew-lloyd-webber-reveals-eldest-son-critically-ill-stomach-cancer-rcna75663"
   },
@@ -595,7 +712,10 @@
       "identity_attack": 0.00041,
       "insult": 0.00157,
       "threat": 0.00017,
-      "sexual_explicit": 0.00014
+      "sexual_explicit": 0.00014,
+      "positive": 0.57851,
+      "neutral": 0.38169,
+      "negative": 0.03980
     },
     "url": "https://olympics.nbcsports.com/2023/03/18/mikaela-shiffrin-lindsey-vonn-world-cup-podiums-alpine-skiing/"
   },
@@ -610,7 +730,10 @@
       "identity_attack": 0.00191,
       "insult": 0.01155,
       "threat": 0.00127,
-      "sexual_explicit": 0.00058
+      "sexual_explicit": 0.00058,
+      "positive": 0.04544,
+      "neutral": 0.55927,
+      "negative": 0.39530
     },
     "url": "https://www.today.com/video/buster-murdaugh-denies-involvement-in-death-of-stephen-smith-165730373925"
   },
@@ -625,7 +748,10 @@
       "identity_attack": 0.00026,
       "insult": 0.01096,
       "threat": 0.00021,
-      "sexual_explicit": 0.00032
+      "sexual_explicit": 0.00032,
+      "positive": 0.01654,
+      "neutral": 0.15097,
+      "negative": 0.83249
     },
     "url": "https://www.today.com/video/kcal-meteorologist-alissa-carlton-faints-and-collapses-live-on-air-165733445690"
   },
@@ -640,7 +766,10 @@
       "identity_attack": 0.10687,
       "insult": 0.01332,
       "threat": 0.00258,
-      "sexual_explicit": 0.00426
+      "sexual_explicit": 0.00426,
+      "positive": 0.01829,
+      "neutral": 0.11166,
+      "negative": 0.87005
     },
     "url": "https://www.nbcnews.com/nightly-news/video/disturbing-history-of-negative-health-outcomes-for-black-pregnant-women-study-reveals-165685317737"
   },
@@ -655,7 +784,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00094,
       "threat": 0.00008,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.76384,
+      "neutral": 0.20455,
+      "negative": 0.03160
     },
     "url": "https://www.nbcnews.com/nightly-news/video/7-year-old-boy-is-real-life-superhero-donating-bone-marrow-to-older-brother-165686341664"
   },
@@ -670,7 +802,10 @@
       "identity_attack": 0.00016,
       "insult": 0.00030,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.08263,
+      "neutral": 0.78091,
+      "negative": 0.13646
     },
     "url": "https://www.nbcnews.com/politics/2024-election/midwest-roots-shaped-ron-desantis-political-values-youngstown-ohio-rcna73797"
   },
@@ -685,7 +820,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00028,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03248,
+      "neutral": 0.18844,
+      "negative": 0.77909
     },
     "url": "https://www.nbcnews.com/health/health-news/ozempic-wegovy-semaglutide-compounding-weight-loss-safe-rcna72990"
   },
@@ -700,7 +838,10 @@
       "identity_attack": 0.00061,
       "insult": 0.01859,
       "threat": 0.00052,
-      "sexual_explicit": 0.00051
+      "sexual_explicit": 0.00051,
+      "positive": 0.05621,
+      "neutral": 0.31128,
+      "negative": 0.63251
     },
     "url": "https://www.nbcnews.com/news/world/vladimir-putin-war-crimes-arrest-warrant-international-criminal-court-rcna75526"
   },
@@ -715,7 +856,10 @@
       "identity_attack": 0.00028,
       "insult": 0.00259,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01487,
+      "neutral": 0.07389,
+      "negative": 0.91123
     },
     "url": "https://www.nbcnews.com/science/environment/great-salt-lake-still-risk-influx-snow-cash-rcna74949"
   },
@@ -730,7 +874,10 @@
       "identity_attack": 0.78624,
       "insult": 0.07364,
       "threat": 0.01199,
-      "sexual_explicit": 0.02014
+      "sexual_explicit": 0.02014,
+      "positive": 0.56405,
+      "neutral": 0.33197,
+      "negative": 0.10397
     },
     "url": "https://www.nbcnews.com/nbc-out/out-health-and-wellness/preps-promise-change-course-hiv-succeeded-only-white-gay-men-rcna75438"
   },
@@ -745,7 +892,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00035,
       "threat": 0.00006,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.03040,
+      "neutral": 0.24190,
+      "negative": 0.72771
     },
     "url": "https://www.nbcnews.com/health/health-news/frozen-fruit-recalled-costco-trader-joes-hepatitis-rcna75520"
   },
@@ -760,7 +910,10 @@
       "identity_attack": 0.00016,
       "insult": 0.00071,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03587,
+      "neutral": 0.41264,
+      "negative": 0.55149
     },
     "url": "https://www.nbcnews.com/health/health-news/covid-origins-data-links-pandemic-raccoon-dogs-wuhan-market-rcna75437"
   },
@@ -775,7 +928,10 @@
       "identity_attack": 0.00188,
       "insult": 0.00060,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.01369,
+      "neutral": 0.11592,
+      "negative": 0.87039
     },
     "url": "https://www.nbcnews.com/politics/national-security/no-cooperation-us-mexico-drug-war-rcna75093"
   },
@@ -790,7 +946,10 @@
       "identity_attack": 0.00045,
       "insult": 0.00038,
       "threat": 0.00122,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.01494,
+      "neutral": 0.06040,
+      "negative": 0.92465
     },
     "url": "https://www.nbcnews.com/news/latino/deadly-earthquake-ecuador-brings-grief-fear-rcna75761"
   },
@@ -805,7 +964,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00025,
       "threat": 0.00013,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.09793,
+      "neutral": 0.58413,
+      "negative": 0.31794
     },
     "url": "https://www.nbcnews.com/news/us-news/nuclear-power-plant-leaks-400000-gallons-radioactive-water-rcna75406"
   },
@@ -820,7 +982,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00044,
       "threat": 0.00005,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.85782,
+      "neutral": 0.12358,
+      "negative": 0.01859
     },
     "url": "https://www.nbcnews.com/news/latino/scorpion-insects-mexican-chef-jose-avila-denver-restaurant-rcna75445"
   },
@@ -835,7 +1000,10 @@
       "identity_attack": 0.00051,
       "insult": 0.00638,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.01751,
+      "neutral": 0.18290,
+      "negative": 0.79958
     },
     "url": "https://www.nbcnews.com/news/latino/mexico-president-fentanyl-crisis-lack-of-hugs-us-families-rcna75533"
   },
@@ -850,7 +1018,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00018,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.14043,
+      "neutral": 0.53963,
+      "negative": 0.31994
     },
     "url": "https://www.nbcnews.com/news/latino/farmworkers-lead-5-day-march-pressure-companies-wages-work-conditions-rcna75500"
   },
@@ -865,7 +1036,10 @@
       "identity_attack": 0.00027,
       "insult": 0.00485,
       "threat": 0.00005,
-      "sexual_explicit": 0.00010
+      "sexual_explicit": 0.00010,
+      "positive": 0.21267,
+      "neutral": 0.68226,
+      "negative": 0.10507
     },
     "url": "https://www.nbcnews.com/news/nbcblk/posthumous-album-set-gangstas-paradise-rapper-coolio-rcna75470"
   },
@@ -880,7 +1054,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00021,
       "threat": 0.00004,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.36516,
+      "neutral": 0.41621,
+      "negative": 0.21863
     },
     "url": "https://www.nbcnews.com/news/nbcblk/great-british-bake-taps-alison-hammond-cohost-season-rcna75452"
   },
@@ -895,7 +1072,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00020,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02647,
+      "neutral": 0.30435,
+      "negative": 0.66917
     },
     "url": "https://www.nbcnews.com/news/nbcblk/ex-nfl-players-family-says-died-excessive-force-custody-l-county-rcna75149"
   },
@@ -910,7 +1090,10 @@
       "identity_attack": 0.20116,
       "insult": 0.00991,
       "threat": 0.00173,
-      "sexual_explicit": 0.00176
+      "sexual_explicit": 0.00176,
+      "positive": 0.02978,
+      "neutral": 0.33465,
+      "negative": 0.63557
     },
     "url": "https://www.nbcnews.com/health/mental-health/black-veterans-denied-va-benefits-ptsd-more-often-whites-rcna75334"
   },
@@ -925,7 +1108,10 @@
       "identity_attack": 0.00023,
       "insult": 0.00083,
       "threat": 0.00006,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.40147,
+      "neutral": 0.53037,
+      "negative": 0.06816
     },
     "url": "https://www.nbcnews.com/nbc-out/out-pop-culture/drag-race-star-jinkx-monsoon-slams-wave-anti-drag-laws-rcna75484"
   },
@@ -940,7 +1126,10 @@
       "identity_attack": 0.00061,
       "insult": 0.00024,
       "threat": 0.00007,
-      "sexual_explicit": 0.00017
+      "sexual_explicit": 0.00017,
+      "positive": 0.11192,
+      "neutral": 0.52460,
+      "negative": 0.36347
     },
     "url": "https://www.nbcnews.com/nbc-out/out-politics-and-policy/kentucky-lawmakers-pass-ban-youth-gender-affirming-care-rcna75429"
   },
@@ -955,7 +1144,10 @@
       "identity_attack": 0.00341,
       "insult": 0.00118,
       "threat": 0.00007,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.01608,
+      "neutral": 0.16300,
+      "negative": 0.82092
     },
     "url": "https://www.nbcnews.com/news/asian-america/sikh-community-organizer-says-was-denied-entry-nba-game-wearing-religi-rcna75518"
   },
@@ -970,7 +1162,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00051,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.03105,
+      "neutral": 0.21370,
+      "negative": 0.75525
     },
     "url": "https://www.nbcnews.com/news/asian-america/biden-commemorates-anniversary-atlanta-deadly-spa-shootings-rcna75489"
   },
@@ -985,7 +1180,10 @@
       "identity_attack": 0.00556,
       "insult": 0.00056,
       "threat": 0.00041,
-      "sexual_explicit": 0.00012
+      "sexual_explicit": 0.00012,
+      "positive": 0.05392,
+      "neutral": 0.37184,
+      "negative": 0.57424
     },
     "url": "https://www.nbcnews.com/news/asian-america/east-asians-likely-develop-stomach-cancer-lower-alcohol-tolerance-new-rcna75329"
   },
@@ -1000,7 +1198,10 @@
       "identity_attack": 0.00031,
       "insult": 0.00027,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.21545,
+      "neutral": 0.73712,
+      "negative": 0.04743
     },
     "url": "https://www.nbcnews.com/news/asian-america/american-born-chinese-producers-discuss-phase-screen-diversity-rcna75096"
   }

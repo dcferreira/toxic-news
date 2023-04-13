@@ -2,7 +2,8 @@ from datetime import datetime
 
 import pytest
 
-from toxic_news.fetchers import Headline, Scores
+from toxic_news.fetchers import Headline
+from toxic_news.models import Scores
 from toxic_news.queries import (
     DailyRow,
     _get_average_daily_scores_query,

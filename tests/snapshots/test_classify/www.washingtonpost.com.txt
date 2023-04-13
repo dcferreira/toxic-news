@@ -10,7 +10,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00029,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03329,
+      "neutral": 0.31675,
+      "negative": 0.64996
     },
     "url": "https://www.washingtonpost.com/health/2023/03/22/transplant-system-overhaul-unos/"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00024,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.11657,
+      "neutral": 0.41419,
+      "negative": 0.46924
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/21/trump-2024-ny-case-republicans/"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00045,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03971,
+      "neutral": 0.44332,
+      "negative": 0.51697
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/22/alvin-bragg-da-trump-investigation/"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.00037,
       "insult": 0.00993,
       "threat": 0.00173,
-      "sexual_explicit": 0.00009
+      "sexual_explicit": 0.00009,
+      "positive": 0.02105,
+      "neutral": 0.08777,
+      "negative": 0.89118
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/22/ron-desantis-trump-piers-morgan-interview/"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04562,
+      "neutral": 0.30020,
+      "negative": 0.65418
     },
     "url": "https://www.washingtonpost.com/business/2023/03/22/fed-rate-hike-svb/"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.00085,
       "insult": 0.57563,
       "threat": 0.00037,
-      "sexual_explicit": 0.00021
+      "sexual_explicit": 0.00021,
+      "positive": 0.01817,
+      "neutral": 0.08645,
+      "negative": 0.89538
     },
     "url": "https://www.washingtonpost.com/wellness/2023/03/22/exercise-mindset-counting-steps/"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00336,
       "threat": 0.00009,
-      "sexual_explicit": 0.00013
+      "sexual_explicit": 0.00013,
+      "positive": 0.18026,
+      "neutral": 0.66722,
+      "negative": 0.15252
     },
     "url": "https://www.washingtonpost.com/opinions/2023/03/21/xi-putin-summit-alliance-danger/"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00023,
       "threat": 0.00015,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.18779,
+      "neutral": 0.43280,
+      "negative": 0.37941
     },
     "url": "https://www.washingtonpost.com/opinions/2023/03/21/fentanyl-methamphetamine-us-mexico-diplomacy/"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00264,
       "threat": 0.00008,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.02259,
+      "neutral": 0.15905,
+      "negative": 0.81837
     },
     "url": "https://www.washingtonpost.com/opinions/2023/03/22/jim-jordan-alvin-bragg-trump-indictment-possible/"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00023,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.22139,
+      "neutral": 0.35258,
+      "negative": 0.42603
     },
     "url": "https://www.washingtonpost.com/opinions/2023/03/22/trump-indictment-supporters-protest-satire/"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00039,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02017,
+      "neutral": 0.08689,
+      "negative": 0.89294
     },
     "url": "https://www.washingtonpost.com/opinions/2023/03/22/supreme-court-case-government-speech-laws/"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.00068,
       "insult": 0.00084,
       "threat": 0.00015,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.05163,
+      "neutral": 0.27787,
+      "negative": 0.67050
     },
     "url": "https://www.washingtonpost.com/opinions/2023/03/22/expand-child-labor-republicans/"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00031,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.24807,
+      "neutral": 0.51546,
+      "negative": 0.23647
     },
     "url": "https://www.washingtonpost.com/opinions/2023/03/22/moderna-prices-hearing-federal-research-funding/"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00020,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.21146,
+      "neutral": 0.45558,
+      "negative": 0.33295
     },
     "url": "https://www.washingtonpost.com/world/2023/03/22/france-macron-interview-retirement-strikes/"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.00054,
       "insult": 0.00085,
       "threat": 0.00086,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.01439,
+      "neutral": 0.11538,
+      "negative": 0.87023
     },
     "url": "https://www.washingtonpost.com/weather/2023/03/21/california-storm-flooding-avalanches-wind/"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.00020,
       "insult": 0.00016,
       "threat": 0.00007,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.01794,
+      "neutral": 0.15434,
+      "negative": 0.82771
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/21/idaho-hospital-baby-delivery-abortion/"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.00030,
       "insult": 0.00013,
       "threat": 0.00011,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.26765,
+      "neutral": 0.63381,
+      "negative": 0.09854
     },
     "url": "https://www.washingtonpost.com/national-security/2023/03/21/abrams-tanks-ukraine/"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00014,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.23938,
+      "neutral": 0.68502,
+      "negative": 0.07560
     },
     "url": "https://www.washingtonpost.com/transportation/2023/03/22/ohio-derailment-senate-hearing-norfolk-southern/"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00024,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.42835,
+      "neutral": 0.52674,
+      "negative": 0.04491
     },
     "url": "https://www.washingtonpost.com/home/2023/03/22/diy-paint-projects/"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00018,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.27412,
+      "neutral": 0.70861,
+      "negative": 0.01726
     },
     "url": "https://www.washingtonpost.com/home/2023/03/21/expert-home-advice-texts-sign-up/"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.00024,
       "insult": 0.00083,
       "threat": 0.00005,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.03451,
+      "neutral": 0.24690,
+      "negative": 0.71859
     },
     "url": "https://www.washingtonpost.com/advice/2023/03/22/carolyn-hax-accommodate-niece-fear-dogs/"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00027,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.16804,
+      "neutral": 0.75996,
+      "negative": 0.07200
     },
     "url": "https://www.washingtonpost.com/lifestyle/2023/03/21/gwyneth-paltrow-ski-trial/"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.00025,
       "insult": 0.00270,
       "threat": 0.00012,
-      "sexual_explicit": 0.00026
+      "sexual_explicit": 0.00026,
+      "positive": 0.06342,
+      "neutral": 0.07196,
+      "negative": 0.86462
     },
     "url": "https://www.washingtonpost.com/health/2023/03/17/match-day-emergency-medicine-doctor/"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.03425,
       "insult": 0.01260,
       "threat": 0.00014,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.02069,
+      "neutral": 0.13806,
+      "negative": 0.84125
     },
     "url": "https://www.washingtonpost.com/books/2023/03/16/poverty-desmond-paradox-rank-essay/"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00021,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02977,
+      "neutral": 0.16029,
+      "negative": 0.80994
     },
     "url": "https://www.washingtonpost.com/world/interactive/2023/mauritania-libraries-desert/"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00036,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06384,
+      "neutral": 0.69996,
+      "negative": 0.23621
     },
     "url": "https://www.washingtonpost.com/media/2023/03/20/fox-lawsuit-hosts-journalists-hannity-dominion/"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00089,
       "threat": 0.00005,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.16848,
+      "neutral": 0.61001,
+      "negative": 0.22151
     },
     "url": "https://www.washingtonpost.com/media/2023/03/22/newsmax-directv/"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00030,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.03785,
+      "neutral": 0.19839,
+      "negative": 0.76376
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/21/trump-house-republicans/"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00021,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.40980,
+      "neutral": 0.48924,
+      "negative": 0.10097
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/21/mcconnell-phones-senate-republicans-who-say-hes-eager-be-back/"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.00006,
       "insult": 0.00034,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.05047,
+      "neutral": 0.50289,
+      "negative": 0.44664
     },
     "url": "https://www.washingtonpost.com/history/2023/03/21/president-arrested-ulysses-grant-speeding/"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00025,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03008,
+      "neutral": 0.23531,
+      "negative": 0.73461
     },
     "url": "https://www.washingtonpost.com/media/2023/03/21/judge-sounds-skeptical-some-fox-arguments-dominion-lawsuit/"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00020,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.30779,
+      "neutral": 0.62797,
+      "negative": 0.06424
     },
     "url": "https://www.washingtonpost.com/travel/tips/duty-free-shopping-tips/"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.00077,
       "insult": 0.00236,
       "threat": 0.00018,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.01437,
+      "neutral": 0.08154,
+      "negative": 0.90409
     },
     "url": "https://www.washingtonpost.com/parenting/2023/03/22/children-respect-elders/"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00023,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03652,
+      "neutral": 0.30578,
+      "negative": 0.65769
     },
     "url": "https://www.washingtonpost.com/business/2023/03/22/amended-tax-return-irs/"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00026,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02803,
+      "neutral": 0.31939,
+      "negative": 0.65258
     },
     "url": "https://www.washingtonpost.com/advice/2023/03/22/miss-manners-friend-suddenly-ignores/"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.00023,
       "insult": 0.00232,
       "threat": 0.00010,
-      "sexual_explicit": 0.00014
+      "sexual_explicit": 0.00014,
+      "positive": 0.01856,
+      "neutral": 0.26649,
+      "negative": 0.71496
     },
     "url": "https://www.washingtonpost.com/advice/2023/03/22/ask-amy-boyfriend-daughter-hates-me/"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.00497,
       "insult": 0.00093,
       "threat": 0.00016,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.25630,
+      "neutral": 0.45528,
+      "negative": 0.28842
     },
     "url": "https://www.washingtonpost.com/climate-environment/2023/03/21/lentils-are-just-waiting-their-hummus-moment/"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.00007,
       "insult": 0.00053,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06966,
+      "neutral": 0.74348,
+      "negative": 0.18686
     },
     "url": "https://www.washingtonpost.com/wellness/2023/03/21/dog-talking-buttons-communication-research/"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.00055,
       "insult": 0.00063,
       "threat": 0.00025,
-      "sexual_explicit": 0.00017
+      "sexual_explicit": 0.00017,
+      "positive": 0.33458,
+      "neutral": 0.63017,
+      "negative": 0.03525
     },
     "url": "https://www.washingtonpost.com/wellness/2023/03/20/octogenarian-older-runners-ultramarathons-100-miles/"
   },
@@ -595,7 +712,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00063,
       "threat": 0.00004,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.62778,
+      "neutral": 0.31859,
+      "negative": 0.05363
     },
     "url": "https://www.washingtonpost.com/wellness/2023/03/20/kefir-good-for-gut-drink/"
   },
@@ -610,7 +730,10 @@
       "identity_attack": 0.00016,
       "insult": 0.00036,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02253,
+      "neutral": 0.09677,
+      "negative": 0.88070
     },
     "url": "https://www.washingtonpost.com/climate-environment/2023/03/16/allergy-season-pollen-count-climate/"
   },
@@ -625,7 +748,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00023,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01532,
+      "neutral": 0.07943,
+      "negative": 0.90524
     },
     "url": "https://www.washingtonpost.com/climate-environment/2023/03/22/kentucky-flooding-disasters-housing/"
   },
@@ -640,7 +766,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00024,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01346,
+      "neutral": 0.04122,
+      "negative": 0.94532
     },
     "url": "https://www.washingtonpost.com/weather/2023/03/21/ocean-temperatures-record-warm-climate/"
   },
@@ -655,7 +784,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00022,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01443,
+      "neutral": 0.12881,
+      "negative": 0.85676
     },
     "url": "https://www.washingtonpost.com/climate-environment/2023/03/21/climate-banks-protest-fossil-fuels/"
   },
@@ -670,7 +802,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00015,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.17234,
+      "neutral": 0.76642,
+      "negative": 0.06124
     },
     "url": "https://www.washingtonpost.com/climate-environment/2023/03/21/climate-ipcc-report-temperatures-graphic/"
   },
@@ -685,7 +820,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00018,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01710,
+      "neutral": 0.11221,
+      "negative": 0.87070
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/22/how-state-analysis-derailed-green-amendment-new-mexico/"
   },
@@ -700,7 +838,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00015,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.20282,
+      "neutral": 0.63260,
+      "negative": 0.16458
     },
     "url": "https://www.washingtonpost.com/technology/2023/03/22/ai-red-flags-misinformation/"
   },
@@ -715,7 +856,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00025,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.39211,
+      "neutral": 0.53239,
+      "negative": 0.07550
     },
     "url": "https://www.washingtonpost.com/technology/2023/03/21/google-bard/"
   },
@@ -730,7 +874,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00067,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03001,
+      "neutral": 0.16084,
+      "negative": 0.80915
     },
     "url": "https://www.washingtonpost.com/technology/2023/03/21/wageworks-edenred-mta-digital-wallets/"
   },
@@ -745,7 +892,10 @@
       "identity_attack": 0.00048,
       "insult": 0.00188,
       "threat": 0.00380,
-      "sexual_explicit": 0.00029
+      "sexual_explicit": 0.00029,
+      "positive": 0.01108,
+      "neutral": 0.05468,
+      "negative": 0.93423
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/22/end-breachforums-could-take-bite-out-cybercrime/"
   },
@@ -760,7 +910,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00025,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06063,
+      "neutral": 0.50610,
+      "negative": 0.43327
     },
     "url": "https://www.washingtonpost.com/technology/2023/03/21/netchoice-tech-litigation-center/"
   },
@@ -775,7 +928,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00162,
       "threat": 0.00004,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.01713,
+      "neutral": 0.07485,
+      "negative": 0.90801
     },
     "url": "https://www.washingtonpost.com/technology/2023/03/19/elon-musk-tesla-driving/"
   },
@@ -790,7 +946,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00021,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02239,
+      "neutral": 0.27373,
+      "negative": 0.70389
     },
     "url": "https://www.washingtonpost.com/world/2023/03/22/russia-ukraine-war-news/"
   },
@@ -805,7 +964,10 @@
       "identity_attack": 0.08242,
       "insult": 0.18570,
       "threat": 0.00098,
-      "sexual_explicit": 0.00141
+      "sexual_explicit": 0.00141,
+      "positive": 0.01024,
+      "neutral": 0.09182,
+      "negative": 0.89794
     },
     "url": "https://www.washingtonpost.com/world/2023/03/22/costa-rica-violence-crime-drugs/"
   },
@@ -820,7 +982,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00065,
       "threat": 0.00021,
-      "sexual_explicit": 0.00016
+      "sexual_explicit": 0.00016,
+      "positive": 0.02575,
+      "neutral": 0.19053,
+      "negative": 0.78371
     },
     "url": "https://www.washingtonpost.com/world/2023/03/22/boris-johnson-partygate-parliament/"
   },
@@ -835,7 +1000,10 @@
       "identity_attack": 0.00045,
       "insult": 0.00078,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02153,
+      "neutral": 0.16824,
+      "negative": 0.81023
     },
     "url": "https://www.washingtonpost.com/world/2023/03/21/xi-moscow-hotel-motorcade/"
   },
@@ -850,7 +1018,10 @@
       "identity_attack": 0.00135,
       "insult": 0.00044,
       "threat": 0.00101,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.01766,
+      "neutral": 0.14753,
+      "negative": 0.83481
     },
     "url": "https://www.washingtonpost.com/world/2023/03/21/pakistan-earthquake-islamabad/3417ba3c-c80b-11ed-9cc5-a58a4f6d84cd_story.html"
   },
@@ -865,7 +1036,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00056,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02373,
+      "neutral": 0.15332,
+      "negative": 0.82295
     },
     "url": "https://www.washingtonpost.com/parenting/2023/03/22/caregivers-sandwich-generation/"
   },
@@ -880,7 +1054,10 @@
       "identity_attack": 0.00097,
       "insult": 0.00132,
       "threat": 0.00021,
-      "sexual_explicit": 0.00051
+      "sexual_explicit": 0.00051,
+      "positive": 0.21963,
+      "neutral": 0.69310,
+      "negative": 0.08726
     },
     "url": "https://www.washingtonpost.com/lifestyle/2023/03/22/tomato-heirloom-sybil-gorby-garden/"
   },
@@ -895,7 +1072,10 @@
       "identity_attack": 0.00134,
       "insult": 0.11876,
       "threat": 0.00061,
-      "sexual_explicit": 0.00021
+      "sexual_explicit": 0.00021,
+      "positive": 0.04905,
+      "neutral": 0.26689,
+      "negative": 0.68406
     },
     "url": "https://www.washingtonpost.com/nation/2023/03/21/neuty-neutria-pet-new-orleans/"
   },
@@ -910,7 +1090,10 @@
       "identity_attack": 0.00019,
       "insult": 0.02022,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02087,
+      "neutral": 0.15892,
+      "negative": 0.82021
     },
     "url": "https://www.washingtonpost.com/lifestyle/2023/03/21/recycling-drop-off-site-telford-terracycle/"
   },
@@ -925,7 +1108,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00504,
       "threat": 0.00007,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.26983,
+      "neutral": 0.44703,
+      "negative": 0.28314
     },
     "url": "https://www.washingtonpost.com/lifestyle/2023/03/21/cockatiel-pet-myrtle-beach-skywheel/"
   },
@@ -940,7 +1126,10 @@
       "identity_attack": 0.00025,
       "insult": 0.00024,
       "threat": 0.00017,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.18306,
+      "neutral": 0.68121,
+      "negative": 0.13573
     },
     "url": "https://www.washingtonpost.com/nation/2023/03/21/border-fentanyl-mayorkas/"
   },
@@ -955,7 +1144,10 @@
       "identity_attack": 0.00034,
       "insult": 0.08027,
       "threat": 0.00016,
-      "sexual_explicit": 0.00010
+      "sexual_explicit": 0.00010,
+      "positive": 0.02382,
+      "neutral": 0.13965,
+      "negative": 0.83654
     },
     "url": "https://www.washingtonpost.com/politics/2023/03/21/supreme-court-deaf-student-ada/"
   },
@@ -970,7 +1162,10 @@
       "identity_attack": 0.00108,
       "insult": 0.00041,
       "threat": 0.00318,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.01970,
+      "neutral": 0.14450,
+      "negative": 0.83580
     },
     "url": "https://www.washingtonpost.com/nation/2023/03/22/indiana-children-billboard-trees-deaths/"
   },
@@ -985,7 +1180,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00043,
       "threat": 0.00007,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.04884,
+      "neutral": 0.49239,
+      "negative": 0.45876
     },
     "url": "https://www.washingtonpost.com/world/2023/03/22/winnie-the-pooh-horror-hong-kong/"
   },
@@ -1000,7 +1198,10 @@
       "identity_attack": 0.00007,
       "insult": 0.00037,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.05385,
+      "neutral": 0.59293,
+      "negative": 0.35321
     },
     "url": "https://www.washingtonpost.com/movies/2023/03/21/the-lost-king-movie-review/"
   },
@@ -1015,7 +1216,10 @@
       "identity_attack": 0.00157,
       "insult": 0.00078,
       "threat": 0.00010,
-      "sexual_explicit": 0.00020
+      "sexual_explicit": 0.00020,
+      "positive": 0.47955,
+      "neutral": 0.45982,
+      "negative": 0.06063
     },
     "url": "https://www.washingtonpost.com/music/2023/03/21/nashville-concert-country-lgbtq/"
   },
@@ -1030,7 +1234,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00023,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.04874,
+      "neutral": 0.25016,
+      "negative": 0.70109
     },
     "url": "https://www.washingtonpost.com/dc-md-va/2023/03/21/dc-statehood-advocates-georgia-congressman-andrew-clyde/"
   },
@@ -1045,7 +1252,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00016,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.08592,
+      "neutral": 0.59726,
+      "negative": 0.31682
     },
     "url": "https://www.washingtonpost.com/education/2023/03/22/montgomery-county-schools-safety/"
   },
@@ -1060,7 +1270,10 @@
       "identity_attack": 0.00257,
       "insult": 0.00193,
       "threat": 0.00551,
-      "sexual_explicit": 0.00016
+      "sexual_explicit": 0.00016,
+      "positive": 0.05130,
+      "neutral": 0.43310,
+      "negative": 0.51560
     },
     "url": "https://www.washingtonpost.com/dc-md-va/2023/03/22/toothbrush-jail-escape-virginia-ihop/"
   },
@@ -1075,7 +1288,10 @@
       "identity_attack": 0.00022,
       "insult": 0.01071,
       "threat": 0.00031,
-      "sexual_explicit": 0.00053
+      "sexual_explicit": 0.00053,
+      "positive": 0.14462,
+      "neutral": 0.56425,
+      "negative": 0.29113
     },
     "url": "https://www.washingtonpost.com/history/2023/03/21/madison-montpelier-history-enslaved-mellon/"
   },
@@ -1090,7 +1306,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00015,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.47843,
+      "neutral": 0.42219,
+      "negative": 0.09938
     },
     "url": "https://www.washingtonpost.com/dc-md-va/2023/03/21/alexandria-zoning-affordable-housing-planning/"
   },
@@ -1105,7 +1324,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00017,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02056,
+      "neutral": 0.11150,
+      "negative": 0.86794
     },
     "url": "https://www.washingtonpost.com/health/2023/03/21/deadly-fungus-infection-hospital-nursing-home/"
   },
@@ -1120,7 +1342,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00013,
       "threat": 0.00007,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.32134,
+      "neutral": 0.58071,
+      "negative": 0.09795
     },
     "url": "https://www.washingtonpost.com/nation/2023/03/21/minnesota-abortion-bill/"
   },
@@ -1135,7 +1360,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00037,
       "threat": 0.00006,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.09594,
+      "neutral": 0.49739,
+      "negative": 0.40666
     },
     "url": "https://www.washingtonpost.com/sports/2023/03/21/martina-navratilova-cancer/"
   },
@@ -1150,7 +1378,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00050,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.75035,
+      "neutral": 0.21238,
+      "negative": 0.03727
     },
     "url": "https://www.washingtonpost.com/science/interactive/2023/nature-audio-pictures/"
   },
@@ -1165,7 +1396,10 @@
       "identity_attack": 0.00007,
       "insult": 0.00095,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02924,
+      "neutral": 0.20781,
+      "negative": 0.76295
     },
     "url": "https://www.washingtonpost.com/sports/2023/03/22/mavericks-surfing-climate-change/"
   },
@@ -1180,7 +1414,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00020,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.89168,
+      "neutral": 0.07481,
+      "negative": 0.03351
     },
     "url": "https://www.washingtonpost.com/sports/2023/03/21/world-baseball-classic-final-shohei-ohtani-mike-trout/"
   },
@@ -1195,7 +1432,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00047,
       "threat": 0.00005,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.03136,
+      "neutral": 0.11430,
+      "negative": 0.85433
     },
     "url": "https://www.washingtonpost.com/sports/2023/03/21/wizards-magic-losing-streak/"
   },
@@ -1210,7 +1450,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00052,
       "threat": 0.00008,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.55805,
+      "neutral": 0.35403,
+      "negative": 0.08792
     },
     "url": "https://www.washingtonpost.com/sports/2023/03/21/capitals-blue-jackets-alex-ovechkin/"
   },
@@ -1225,7 +1468,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00027,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.38646,
+      "neutral": 0.51596,
+      "negative": 0.09758
     },
     "url": "https://www.washingtonpost.com/sports/2023/03/21/nfl-s2-cognition-quarterbacks/"
   },
@@ -1240,7 +1486,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00039,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.01275,
+      "neutral": 0.05220,
+      "negative": 0.93505
     },
     "url": "https://www.washingtonpost.com/business/interactive/2023/tech-layoffs-company-memos/"
   },
@@ -1255,7 +1504,10 @@
       "identity_attack": 0.00075,
       "insult": 0.00044,
       "threat": 0.00007,
-      "sexual_explicit": 0.00011
+      "sexual_explicit": 0.00011,
+      "positive": 0.08430,
+      "neutral": 0.22907,
+      "negative": 0.68663
     },
     "url": "https://www.washingtonpost.com/business/2023/03/17/work-injuries-violence-women/"
   },
@@ -1270,7 +1522,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00023,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.07642,
+      "neutral": 0.36249,
+      "negative": 0.56109
     },
     "url": "https://www.washingtonpost.com/education/2023/03/22/sweet-cardona-private-student-loans/"
   },
@@ -1285,7 +1540,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.60327,
+      "neutral": 0.28213,
+      "negative": 0.11460
     },
     "url": "https://www.washingtonpost.com/business/2023/03/22/auto-factory-closing-ev/"
   },
@@ -1300,7 +1558,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00015,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.40743,
+      "neutral": 0.47716,
+      "negative": 0.11540
     },
     "url": "https://www.washingtonpost.com/business/2023/03/21/housing-prices/"
   },
@@ -1315,7 +1576,10 @@
       "identity_attack": 0.00144,
       "insult": 0.00594,
       "threat": 0.00052,
-      "sexual_explicit": 0.00028
+      "sexual_explicit": 0.00028,
+      "positive": 0.02139,
+      "neutral": 0.06034,
+      "negative": 0.91827
     },
     "url": "https://www.washingtonpost.com/travel/2023/03/21/we-heart-nyc-new-logo/"
   },
@@ -1330,7 +1594,10 @@
       "identity_attack": 0.00023,
       "insult": 0.00027,
       "threat": 0.00017,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.02841,
+      "neutral": 0.15708,
+      "negative": 0.81451
     },
     "url": "https://www.washingtonpost.com/travel/2023/03/21/mountain-lion-attack-colorado/"
   },
@@ -1345,7 +1612,10 @@
       "identity_attack": 0.00024,
       "insult": 0.00025,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.20592,
+      "neutral": 0.74646,
+      "negative": 0.04761
     },
     "url": "https://www.washingtonpost.com/travel/tips/japan-restrictions-tokyo-rail-pass/"
   }

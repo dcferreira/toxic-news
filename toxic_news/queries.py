@@ -10,8 +10,10 @@ from pymongo import MongoClient
 from pymongo.collection import Collection
 from pymongo.database import Database
 from pymongo.server_api import ServerApi
+from tqdm import tqdm
 
-from toxic_news.fetchers import Headline, Scores
+from toxic_news.fetchers import Headline
+from toxic_news.models import AllModels, Scores
 
 date_fmt = "%Y/%m/%d"
 
@@ -214,3 +216,30 @@ def query_daily_rows(date: datetime.date, db: Database) -> list[DailyRow]:
         )
         for res in cursor
     ]
+
+
+def update_all_headlines_scores(db: Database):
+    """
+    Updates all the scores in the headlines. Useful when adding/changing models.
+    This is a very expensive operation, shouldn't be executed often.
+    The function isn't made available in `main.py` to the CLI, precisely because
+    running it should be avoided.
+
+    Example of how to run this:
+    ```python
+    import os
+    from toxic_news.main import get_database
+    from toxic_news.queries import update_all_headlines_scores
+
+    db = get_database(os.environ["MONGODB_URL"], "test_database")
+    update_all_headlines_scores(db)
+    ```
+    """
+    headlines_coll = _get_headlines_collection(db)
+    model = AllModels()
+    for doc in tqdm(
+        headlines_coll.find(), total=headlines_coll.estimated_document_count()
+    ):
+        del doc["scores"]
+        new_headline = Headline(scores=model.predict([doc["text"]])[0], **doc)
+        headlines_coll.replace_one({"_id": doc["_id"]}, new_headline.dict())
