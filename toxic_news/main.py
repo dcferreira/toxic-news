@@ -322,7 +322,7 @@ def generate_daily_csv_w_date(
                         "count": r.count,
                         "date": r.date.strftime(date_fmt),
                         **{
-                            k: f"{v:.5f}"  # export only 5 decimal places
+                            k: f"{v:.4}"  # export only 4 precision digits
                             for k, v in r.scores.dict().items()
                         },
                     }
@@ -366,7 +366,7 @@ def generate_averages_csv(
                     "name": r.name,
                     "count": r.count,
                     **{
-                        k: f"{v:.5f}"  # export only 5 decimal places
+                        k: f"{v:.4}"  # export only 4 precision digits
                         for k, v in r.scores.dict().items()
                     },
                 }

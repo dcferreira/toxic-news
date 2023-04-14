@@ -74,8 +74,13 @@ class SAModel:
             "negative": [],
         }
         for prediction in outputs:
-            for single_score in prediction:
-                results[single_score.label].append(single_score.score)
+            # give 100% to the most predicted class, 0% to the others
+            # when these percentages are averaged, they will correspond to the ratio
+            # of positive/neutral/negative headlines instead of avgs of scores
+            sorted_preds = sorted(prediction, key=lambda x: x.score, reverse=True)
+            results[sorted_preds[0].label].append(100)  # 100%
+            for single_score in sorted_preds[1:]:
+                results[single_score.label].append(0)  # 0%
 
         return SentimentAnalysisResults.parse_obj(results)
 
