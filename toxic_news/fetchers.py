@@ -58,11 +58,12 @@ class Fetcher:
         self,
         newspaper: Newspaper,
         cache_dir: Optional[Path] = None,
+        model: Optional[AllModels] = None,
     ):
         self.newspaper = newspaper
         self.cache_dir = cache_dir
 
-        self._model: Optional[AllModels] = None
+        self._model: Optional[AllModels] = model
         self._response: Optional[ClientResponse] = None
         self._content: Optional[bytes] = None
         self._request_time: Optional[datetime] = None

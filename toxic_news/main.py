@@ -9,7 +9,6 @@ from typing import Optional
 import aiohttp
 import typer
 from aiohttp import ClientSession
-from detoxify import Detoxify
 from dotenv import load_dotenv
 from jinja2 import Environment, PackageLoader, select_autoescape
 from loguru import logger
@@ -19,7 +18,7 @@ from requests import PreparedRequest
 from tqdm import tqdm
 
 from toxic_news.fetchers import Headline, Newspaper, WaybackFetcher
-from toxic_news.models import Scores
+from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import newspapers, newspapers_dict
 from toxic_news.queries import (
     date_fmt,
@@ -142,7 +141,7 @@ def fetch_today(
 async def _fetch_wayback(
     newspaper: Newspaper, timestamps: list[datetime.datetime], cache_dir: Optional[Path]
 ) -> list[list[Headline]]:
-    model = Detoxify("multilingual")
+    model = AllModels()
     async with aiohttp.ClientSession() as session:
         fetchers = [
             WaybackFetcher(
