@@ -10,7 +10,10 @@
       "identity_attack": 0.00304,
       "insult": 0.00264,
       "threat": 0.17029,
-      "sexual_explicit": 0.00049
+      "sexual_explicit": 0.00049,
+      "positive": 0.21816,
+      "neutral": 0.52630,
+      "negative": 0.25554
     },
     "url": "https://www.oann.com/newsroom/idaho-aims-to-reinstate-the-firing-squad/"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.00024,
       "insult": 0.00024,
       "threat": 0.00012,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.06448,
+      "neutral": 0.74286,
+      "negative": 0.19266
     },
     "url": "https://www.oann.com/newsroom/lausd-schools-close/"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.00041,
       "insult": 0.00015,
       "threat": 0.00006,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03536,
+      "neutral": 0.28776,
+      "negative": 0.67688
     },
     "url": "https://www.oann.com/newsroom/5-connecticut-kids-killed-in-car-accident-on-ny-trip/"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00024,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.05129,
+      "neutral": 0.61272,
+      "negative": 0.33599
     },
     "url": "https://www.oann.com/newsroom/manhattan-da-issues-response-to-gop-on-possible-trump-indictment/"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00022,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.22076,
+      "neutral": 0.52407,
+      "negative": 0.25516
     },
     "url": "https://www.oann.com/newsroom/xi-invites-putin-to-china/"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00024,
       "threat": 0.00005,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.10834,
+      "neutral": 0.68640,
+      "negative": 0.20526
     },
     "url": "https://www.oann.com/newsroom/ftc-continues-to-investigate-amazon/"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.00073,
       "insult": 0.05671,
       "threat": 0.00043,
-      "sexual_explicit": 0.00097
+      "sexual_explicit": 0.00097,
+      "positive": 0.02950,
+      "neutral": 0.31292,
+      "negative": 0.65758
     },
     "url": "https://www.oann.com/newsroom/desantis-bashes-soros-funded-manhattan-da/"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00020,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.31496,
+      "neutral": 0.57751,
+      "negative": 0.10753
     },
     "url": "https://www.oann.com/video/oan-contribution/diversity-equity-and-inclusion-at-colleges-and-universities-raises-concerns-of-free-speech/"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00029,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.09997,
+      "neutral": 0.88243,
+      "negative": 0.01761
     },
     "url": "https://www.oann.com/video/oan-contribution/one-on-one-with-randy-sevcik-president-of-elite-group-retirement-services/"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00107,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.14611,
+      "neutral": 0.46800,
+      "negative": 0.38589
     },
     "url": "https://www.oann.com/video/oan-contribution/gop-house-conference-chair-prosecutor-persecution-of-trump-helps-his-polls/"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.04966,
       "insult": 0.00518,
       "threat": 0.00028,
-      "sexual_explicit": 0.00018
+      "sexual_explicit": 0.00018,
+      "positive": 0.16980,
+      "neutral": 0.73784,
+      "negative": 0.09236
     },
     "url": "https://www.oann.com/video/oan-contribution/gop-leans-into-transgender-battle-leading-up-to-2024-election/"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.00023,
       "insult": 0.00023,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02444,
+      "neutral": 0.32403,
+      "negative": 0.65154
     },
     "url": "https://www.oann.com/video/oan-contribution/20-years-since-the-u-s-led-invasion-of-iraq/"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.00007,
       "insult": 0.00033,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04009,
+      "neutral": 0.55112,
+      "negative": 0.40878
     },
     "url": "https://www.oann.com/video/oan-contribution/potential-trump-indictment-likely-a-clear-case/"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00026,
       "threat": 0.00006,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.27305,
+      "neutral": 0.64555,
+      "negative": 0.08140
     },
     "url": "https://www.oann.com/business/eu-proposes-exception-for/"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00019,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05840,
+      "neutral": 0.42959,
+      "negative": 0.51200
     },
     "url": "https://www.oann.com/business/ev-charger-makers-brace/"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.63038,
+      "neutral": 0.33830,
+      "negative": 0.03132
     },
     "url": "https://www.oann.com/business/huge-phillips-66-biofuels/"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00029,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.29541,
+      "neutral": 0.41264,
+      "negative": 0.29195
     },
     "url": "https://www.oann.com/business/switzerlands-secretive-credit-suisse/"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00046,
       "threat": 0.00010,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.07992,
+      "neutral": 0.35277,
+      "negative": 0.56731
     },
     "url": "https://www.oann.com/business/shares-rise-after-credit/"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00042,
       "threat": 0.00004,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.81062,
+      "neutral": 0.16850,
+      "negative": 0.02088
     },
     "url": "https://www.oann.com/entertainment/succession-star-brian-cox/"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00041,
       "threat": 0.00006,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.02410,
+      "neutral": 0.25698,
+      "negative": 0.71891
     },
     "url": "https://www.oann.com/entertainment/screening-of-winnie-the/"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00071,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.85415,
+      "neutral": 0.12505,
+      "negative": 0.02080
     },
     "url": "https://www.oann.com/entertainment/offbeat-multiverse-movie-everything/"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00031,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.01855,
+      "neutral": 0.16229,
+      "negative": 0.81916
     },
     "url": "https://www.oann.com/tech/google-suspends-chinas-pinduoduo/"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00039,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01386,
+      "neutral": 0.15489,
+      "negative": 0.83125
     },
     "url": "https://www.oann.com/tech/italys-antitrust-probes-tiktok/"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00019,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.49356,
+      "neutral": 0.41960,
+      "negative": 0.08683
     },
     "url": "https://www.oann.com/tech/indias-karnataka-govt-approves/"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.00398,
       "insult": 0.01361,
       "threat": 0.00122,
-      "sexual_explicit": 0.00053
+      "sexual_explicit": 0.00053,
+      "positive": 0.09344,
+      "neutral": 0.86188,
+      "negative": 0.04468
     },
     "url": "https://www.oann.com/sports/exclusive-olympics-paris-2024-plans-games/"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.00020,
       "insult": 0.00046,
       "threat": 0.00008,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.37878,
+      "neutral": 0.56377,
+      "negative": 0.05745
     },
     "url": "https://www.oann.com/sports/nhl-roundup-aleksander-barkov/"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.00217,
       "insult": 0.00319,
       "threat": 0.00070,
-      "sexual_explicit": 0.00097
+      "sexual_explicit": 0.00097,
+      "positive": 0.15649,
+      "neutral": 0.69127,
+      "negative": 0.15225
     },
     "url": "https://www.oann.com/sports/womens-ncaa-roundup-ohio/"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.00263,
       "insult": 0.00102,
       "threat": 0.00043,
-      "sexual_explicit": 0.00018
+      "sexual_explicit": 0.00018,
+      "positive": 0.03745,
+      "neutral": 0.54029,
+      "negative": 0.42226
     },
     "url": "https://www.oann.com/commentary/geofence-surveillance-first-they-spied-on-protesters-then-churches-youre-next/"
   }

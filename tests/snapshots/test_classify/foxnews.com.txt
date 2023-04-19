@@ -10,7 +10,10 @@
       "identity_attack": 0.00030,
       "insult": 0.00029,
       "threat": 0.00033,
-      "sexual_explicit": 0.00009
+      "sexual_explicit": 0.00009,
+      "positive": 0.01880,
+      "neutral": 0.10594,
+      "negative": 0.87527
     },
     "url": "https://www.foxnews.com/us/georgia-high-school-football-stars-alleged-killer-pleads-not-guilty-family-sues-high-crime-area"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.00074,
       "insult": 0.09232,
       "threat": 0.00005,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.01777,
+      "neutral": 0.15956,
+      "negative": 0.82267
     },
     "url": "https://www.foxnews.com/us/border-patrol-questioned-arizona-rancher-crazy-calling-alleged-drug-traffickers"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.00045,
       "insult": 0.10003,
       "threat": 0.00043,
-      "sexual_explicit": 0.00212
+      "sexual_explicit": 0.00212,
+      "positive": 0.01583,
+      "neutral": 0.10431,
+      "negative": 0.87986
     },
     "url": "https://www.foxnews.com/media/kamala-harris-wont-speak-elizabeth-warren-after-pretty-insulting-2024-snub-report"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.02209,
       "insult": 0.00181,
       "threat": 0.00034,
-      "sexual_explicit": 0.00025
+      "sexual_explicit": 0.00025,
+      "positive": 0.03952,
+      "neutral": 0.30442,
+      "negative": 0.65606
     },
     "url": "https://www.foxnews.com/media/video-white-college-student-goes-viral-deprogrammed-about-white-privilege"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00027,
       "threat": 0.00017,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.03369,
+      "neutral": 0.15131,
+      "negative": 0.81500
     },
     "url": "https://www.foxnews.com/politics/biden-americans-confidence-banking-system-federal-response-svb-collapse"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.00023,
       "insult": 0.68251,
       "threat": 0.00025,
-      "sexual_explicit": 0.00032
+      "sexual_explicit": 0.00032,
+      "positive": 0.01935,
+      "neutral": 0.12161,
+      "negative": 0.85904
     },
     "url": "https://www.foxnews.com/entertainment/angela-bassett-accused-being-sore-loser-viral-oscar-moment-jamie-lee-curtis-win"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.00041,
       "insult": 0.00324,
       "threat": 0.00004,
-      "sexual_explicit": 0.00009
+      "sexual_explicit": 0.00009,
+      "positive": 0.02911,
+      "neutral": 0.10665,
+      "negative": 0.86424
     },
     "url": "https://www.foxnews.com/entertainment/wheel-of-fortune-host-pat-sajak-apologizes-contestant-after-mocking-phobia"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00020,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03978,
+      "neutral": 0.32592,
+      "negative": 0.63430
     },
     "url": "https://www.foxbusiness.com/live-news/stock-market-news-today-march-13-2023"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.00267,
       "insult": 0.00093,
       "threat": 0.00048,
-      "sexual_explicit": 0.00076
+      "sexual_explicit": 0.00076,
+      "positive": 0.03120,
+      "neutral": 0.28140,
+      "negative": 0.68740
     },
     "url": "https://www.foxnews.com/us/illinois-woman-discovers-dead-husband-closet-months-disappearance"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.00922,
       "insult": 0.00259,
       "threat": 0.01753,
-      "sexual_explicit": 0.00239
+      "sexual_explicit": 0.00239,
+      "positive": 0.04933,
+      "neutral": 0.34636,
+      "negative": 0.60430
     },
     "url": "https://www.foxnews.com/us/philadelphia-man-shot-70-times-porch-home-report"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.00051,
       "insult": 0.01611,
       "threat": 0.00066,
-      "sexual_explicit": 0.02319
+      "sexual_explicit": 0.02319,
+      "positive": 0.16630,
+      "neutral": 0.77130,
+      "negative": 0.06240
     },
     "url": "https://www.foxnews.com/entertainment/emily-ratajkowski-shows-off-mostly-naked-body-vanity-fair-oscars-party-nsfw-pictures"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.00020,
       "insult": 0.00042,
       "threat": 0.00012,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.01642,
+      "neutral": 0.12529,
+      "negative": 0.85830
     },
     "url": "https://www.foxnews.com/politics/gov-whitmer-blasted-gaslighting-residents-covid-19-restrictions-admitting-didnt-make-sense"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00079,
       "threat": 0.00003,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.58079,
+      "neutral": 0.38463,
+      "negative": 0.03458
     },
     "url": "https://www.foxnews.com/sports/ex-ufc-star-paige-vanzant-gives-fans-behind-scenes-look-her-steamy-content-social-media"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00032,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.03763,
+      "neutral": 0.34203,
+      "negative": 0.62034
     },
     "url": "https://www.foxnews.com/politics/hunter-biden-subpoenaed-bank-america-records-opened-new-avenues-investigation-house-oversight"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00024,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.15134,
+      "neutral": 0.76492,
+      "negative": 0.08374
     },
     "url": "https://www.foxnews.com/us/virgin-islands-officials-mum-us-swim-champ-autopsy-results-spring-break-vacations-begin"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.00102,
       "insult": 0.00080,
       "threat": 0.04679,
-      "sexual_explicit": 0.00025
+      "sexual_explicit": 0.00025,
+      "positive": 0.03718,
+      "neutral": 0.31711,
+      "negative": 0.64571
     },
     "url": "https://www.foxnews.com/us/manhunt-unfolds-missouri-2-officers-shot-1-killed"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.00030,
       "insult": 0.00084,
       "threat": 0.00012,
-      "sexual_explicit": 0.00023
+      "sexual_explicit": 0.00023,
+      "positive": 0.01517,
+      "neutral": 0.07907,
+      "negative": 0.90576
     },
     "url": "https://www.foxnews.com/world/nursery-school-under-fire-advising-parents-not-call-daughters-pretty-princess-daft-advice"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.00005,
       "insult": 0.00031,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.24929,
+      "neutral": 0.57583,
+      "negative": 0.17488
     },
     "url": "https://www.foxnews.com/politics/researchers-identify-mammal-latest-potential-cause-climate-change-suggest-balancing-species"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.00023,
       "insult": 0.00038,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.05954,
+      "neutral": 0.53469,
+      "negative": 0.40577
     },
     "url": "https://www.foxnews.com/us/new-york-city-ice-office-reportedly-backed-2032-massive-migrant-influx-border"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00030,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02541,
+      "neutral": 0.19396,
+      "negative": 0.78063
     },
     "url": "https://www.foxnews.com/politics/democrat-forgets-pledge-allegiance-first-miami-city-commission-meeting"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.00031,
       "insult": 0.00577,
       "threat": 0.00256,
-      "sexual_explicit": 0.00052
+      "sexual_explicit": 0.00052,
+      "positive": 0.01818,
+      "neutral": 0.15106,
+      "negative": 0.83076
     },
     "url": "https://www.foxnews.com/sports/xfl-accidentally-shows-half-naked-player-broadcast"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.00051,
       "insult": 0.00032,
       "threat": 0.00074,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.01689,
+      "neutral": 0.11305,
+      "negative": 0.87006
     },
     "url": "https://www.foxnews.com/media/mayorkas-under-fire-1000-migrants-rush-el-paso-border-resign-immediately"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.00028,
       "insult": 0.00179,
       "threat": 0.00015,
-      "sexual_explicit": 0.00042
+      "sexual_explicit": 0.00042,
+      "positive": 0.31529,
+      "neutral": 0.37367,
+      "negative": 0.31104
     },
     "url": "https://www.foxnews.com/media/don-lemon-seemed-roasted-oscars-michelle-yeoh-dont-let-anybody-tell-you-youre-ever-past-your-prime"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00025,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.11433,
+      "neutral": 0.82505,
+      "negative": 0.06062
     },
     "url": "https://www.foxnews.com/world/xi-jinping-speak-zelenskyy-meeting-putin-moscow-report"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.00318,
       "insult": 0.00313,
       "threat": 0.00028,
-      "sexual_explicit": 0.00300
+      "sexual_explicit": 0.00300,
+      "positive": 0.01725,
+      "neutral": 0.17030,
+      "negative": 0.81245
     },
     "url": "https://www.foxnews.com/media/white-lotus-actor-claims-agent-dropped-him-refusing-reveal-sexuality-pick-lane"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00039,
       "threat": 0.00150,
-      "sexual_explicit": 0.00010
+      "sexual_explicit": 0.00010,
+      "positive": 0.04859,
+      "neutral": 0.42579,
+      "negative": 0.52562
     },
     "url": "https://www.foxnews.com/us/florida-suspect-killed-shooting-waiting-deputies-opening-fire-wounding-officer-police"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00019,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.08290,
+      "neutral": 0.74729,
+      "negative": 0.16981
     },
     "url": "https://www.foxnews.com/sports/chiefs-chris-jones-vows-he-will-not-play-another-franchise-ahead-free-agency"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.00171,
       "insult": 0.00145,
       "threat": 0.00062,
-      "sexual_explicit": 0.00045
+      "sexual_explicit": 0.00045,
+      "positive": 0.03196,
+      "neutral": 0.16350,
+      "negative": 0.80454
     },
     "url": "https://www.foxnews.com/us/man-catches-fish-bare-hands-flooded-california-street-dinner-tonight"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00231,
       "threat": 0.00004,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.02269,
+      "neutral": 0.15537,
+      "negative": 0.82194
     },
     "url": "https://www.foxnews.com/media/first-year-medical-school-students-exposed-woke-sex-gender-primer-lesson"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00015,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.32738,
+      "neutral": 0.61903,
+      "negative": 0.05358
     },
     "url": "https://www.foxnews.com/lifestyle/jesus-space-faith-science-center-stage-space-shuttle-book"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00021,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02460,
+      "neutral": 0.19951,
+      "negative": 0.77589
     },
     "url": "https://www.foxnews.com/tech/iphone-owners-outraged-forced-clean-energy-usage-setting"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00045,
       "threat": 0.00029,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.02572,
+      "neutral": 0.14528,
+      "negative": 0.82900
     },
     "url": "https://www.foxnews.com/video/6322493874112"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00088,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.43160,
+      "neutral": 0.50174,
+      "negative": 0.06666
     },
     "url": "https://www.foxnews.com/lifestyle/this-day-history-march-13-1942-us-army-k-9-corps-begins-training-dogs-fight-world-war-ii"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00041,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.25754,
+      "neutral": 0.72629,
+      "negative": 0.01617
     },
     "url": "https://www.foxnews.com/daily-crossword-puzzle"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.00016,
       "insult": 0.00042,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.29240,
+      "neutral": 0.56722,
+      "negative": 0.14037
     },
     "url": "https://www.foxnews.com/politics/cartoons-slideshow"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00022,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.47371,
+      "neutral": 0.35925,
+      "negative": 0.16705
     },
     "url": "https://www.foxnews.com/us/scientist-says-natures-skeleton-key-solution-toxic-chemical-spills-save-east-palestine"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.00075,
       "insult": 0.00095,
       "threat": 0.00007,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.09493,
+      "neutral": 0.61825,
+      "negative": 0.28682
     },
     "url": "https://www.foxnews.com/politics/international-church-cannabis-spars-liberal-city-not-drugs"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.00050,
       "insult": 0.00490,
       "threat": 0.00019,
-      "sexual_explicit": 0.00017
+      "sexual_explicit": 0.00017,
+      "positive": 0.01625,
+      "neutral": 0.09504,
+      "negative": 0.88871
     },
     "url": "https://www.foxnews.com/entertainment/jimmy-kimmel-flop-host-oscars-jimmy-failla"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00024,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02753,
+      "neutral": 0.24062,
+      "negative": 0.73185
     },
     "url": "https://www.foxnews.com/politics/treasury-rejects-complaint-excluded-senate-gop-silicon-valley-bank-briefing"
   },
@@ -595,7 +712,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00066,
       "threat": 0.00008,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.16477,
+      "neutral": 0.51709,
+      "negative": 0.31814
     },
     "url": "https://www.foxnews.com/world/thousands-uk-doctors-strike-across-england-demand-better-pay"
   },
@@ -610,7 +730,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00014,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.43784,
+      "neutral": 0.34258,
+      "negative": 0.21958
     },
     "url": "https://www.foxnews.com/politics/biden-americans-confidence-banking-system-federal-response-svb-collapse"
   },
@@ -625,7 +748,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00026,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01356,
+      "neutral": 0.04910,
+      "negative": 0.93734
     },
     "url": "https://www.foxnews.com/media/biden-administration-silicon-valley-bank-collapse-corporate-cronyism-tim-scott"
   },
@@ -640,7 +766,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00017,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01516,
+      "neutral": 0.11426,
+      "negative": 0.87058
     },
     "url": "https://www.foxnews.com/media/svb-collapse-tip-iceberg-biden-spending-policies-economist-warns"
   },
@@ -655,7 +784,10 @@
       "identity_attack": 0.00225,
       "insult": 0.00224,
       "threat": 0.00110,
-      "sexual_explicit": 0.26687
+      "sexual_explicit": 0.26687,
+      "positive": 0.23117,
+      "neutral": 0.61291,
+      "negative": 0.15592
     },
     "url": "https://www.foxnews.com/media/first-year-medical-school-students-exposed-woke-sex-gender-primer-lesson"
   },
@@ -670,7 +802,10 @@
       "identity_attack": 0.05401,
       "insult": 0.00355,
       "threat": 0.00050,
-      "sexual_explicit": 0.00036
+      "sexual_explicit": 0.00036,
+      "positive": 0.03611,
+      "neutral": 0.26776,
+      "negative": 0.69613
     },
     "url": "https://www.foxnews.com/media/video-white-college-student-goes-viral-deprogrammed-about-white-privilege"
   },
@@ -685,7 +820,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.17741,
+      "neutral": 0.77129,
+      "negative": 0.05130
     },
     "url": "https://www.foxnews.com/politics/trump-makes-first-stop-iowa-cycle-just-days-after-desantis-expands-2024-campaign-ground-game"
   },
@@ -700,7 +838,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00018,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.13379,
+      "neutral": 0.58017,
+      "negative": 0.28604
     },
     "url": "https://www.foxnews.com/politics/hunter-biden-subpoenaed-bank-america-records-opened-new-avenues-investigation-house-oversight"
   },
@@ -715,7 +856,10 @@
       "identity_attack": 0.00032,
       "insult": 0.00292,
       "threat": 0.00004,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.02623,
+      "neutral": 0.23664,
+      "negative": 0.73713
     },
     "url": "https://www.foxnews.com/politics/gop-midterm-candidate-sounds-criminal-request-private-military-records-dem-aligned-group"
   },
@@ -730,7 +874,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00018,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.37338,
+      "neutral": 0.53900,
+      "negative": 0.08762
     },
     "url": "https://www.foxnews.com/politics/dave-mccormicks-new-book-serve-battle-plan-2024-gop-senate-run-pennsylvania"
   },
@@ -745,7 +892,10 @@
       "identity_attack": 0.00030,
       "insult": 0.00024,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01506,
+      "neutral": 0.06085,
+      "negative": 0.92409
     },
     "url": "https://www.foxnews.com/opinion/china-quiet-land-grab-threatens-most-valuable-resource"
   },
@@ -760,7 +910,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00016,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.15921,
+      "neutral": 0.38017,
+      "negative": 0.46063
     },
     "url": "https://www.foxnews.com/lifestyle/patriot-remembered-military-mom-memorializes-son-died-national-guard-helicopter-crash-book"
   },
@@ -775,7 +928,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00021,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02389,
+      "neutral": 0.18119,
+      "negative": 0.79492
     },
     "url": "https://www.foxnews.com/us/us-merchant-marine-academy-rescinds-vaccine-mandate-days-after-accusations-legal-attack"
   },
@@ -790,7 +946,10 @@
       "identity_attack": 0.00028,
       "insult": 0.00041,
       "threat": 0.00003,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.58195,
+      "neutral": 0.24910,
+      "negative": 0.16895
     },
     "url": "https://www.foxnews.com/politics/mayor-eric-adams-church-state-remarks-surprising-encouraging-says-pro-religious-liberty-group"
   },
@@ -805,7 +964,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00023,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.01834,
+      "neutral": 0.16086,
+      "negative": 0.82080
     },
     "url": "https://www.foxnews.com/world/un-commission-claims-international-community-syrian-government-earthquake-quickly"
   },
@@ -820,7 +982,10 @@
       "identity_attack": 0.00530,
       "insult": 0.00265,
       "threat": 0.03506,
-      "sexual_explicit": 0.00048
+      "sexual_explicit": 0.00048,
+      "positive": 0.02325,
+      "neutral": 0.14577,
+      "negative": 0.83098
     },
     "url": "https://www.foxnews.com/world/former-haiti-mayor-accused-torturing-killing-political-opponents-heads-court-boston"
   },
@@ -835,7 +1000,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00026,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.13519,
+      "neutral": 0.81576,
+      "negative": 0.04905
     },
     "url": "https://www.foxnews.com/world/xi-jinping-speak-zelenskyy-meeting-putin-moscow-report"
   },
@@ -850,7 +1018,10 @@
       "identity_attack": 0.00103,
       "insult": 0.14197,
       "threat": 0.00071,
-      "sexual_explicit": 0.00125
+      "sexual_explicit": 0.00125,
+      "positive": 0.02741,
+      "neutral": 0.10721,
+      "negative": 0.86538
     },
     "url": "https://www.foxnews.com/world/nursery-school-under-fire-advising-parents-not-call-daughters-pretty-princess-daft-advice"
   },
@@ -865,7 +1036,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00106,
       "threat": 0.00008,
-      "sexual_explicit": 0.00021
+      "sexual_explicit": 0.00021,
+      "positive": 0.02400,
+      "neutral": 0.47487,
+      "negative": 0.50113
     },
     "url": "https://www.foxnews.com/opinion/what-became-20-babies-paris-hilton-left-behind"
   },
@@ -880,7 +1054,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00048,
       "threat": 0.00008,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04367,
+      "neutral": 0.50196,
+      "negative": 0.45437
     },
     "url": "https://www.foxnews.com/opinion/5-ways-biden-still-coming-your-gas-stove"
   },
@@ -895,7 +1072,10 @@
       "identity_attack": 0.00083,
       "insult": 0.01074,
       "threat": 0.00303,
-      "sexual_explicit": 0.00023
+      "sexual_explicit": 0.00023,
+      "positive": 0.01153,
+      "neutral": 0.04758,
+      "negative": 0.94089
     },
     "url": "https://www.foxnews.com/opinion/elizabeth-warrens-shocking-spirit-folly-will-hurt-all-air-travelers"
   },
@@ -910,7 +1090,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02881,
+      "neutral": 0.35593,
+      "negative": 0.61527
     },
     "url": "https://www.foxnews.com/opinion/chinas-thought-police-may-already-work-america"
   },
@@ -925,7 +1108,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00023,
       "threat": 0.00008,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.14332,
+      "neutral": 0.53264,
+      "negative": 0.32404
     },
     "url": "https://www.foxnews.com/health/be-well-wise-ditch-elevator-take-stairs"
   },
@@ -940,7 +1126,10 @@
       "identity_attack": 0.00188,
       "insult": 0.00141,
       "threat": 0.00112,
-      "sexual_explicit": 0.00070
+      "sexual_explicit": 0.00070,
+      "positive": 0.21972,
+      "neutral": 0.63171,
+      "negative": 0.14858
     },
     "url": "https://www.foxnews.com/health/mediterranean-mind-diets-shown-reduce-signs-alzheimers-brain-study-finds"
   },
@@ -955,7 +1144,10 @@
       "identity_attack": 0.00197,
       "insult": 0.00131,
       "threat": 0.00090,
-      "sexual_explicit": 0.00078
+      "sexual_explicit": 0.00078,
+      "positive": 0.11167,
+      "neutral": 0.65354,
+      "negative": 0.23480
     },
     "url": "https://www.foxnews.com/health/most-men-diagnosed-prostate-cancer-dont-need-rush-surgery-radiation-treatments-study"
   },
@@ -970,7 +1162,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00112,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.28205,
+      "neutral": 0.52020,
+      "negative": 0.19775
     },
     "url": "https://www.foxnews.com/health/prince-harry-psychedelic-drugs-helped-him-what-risks-dangers"
   },
@@ -985,7 +1180,10 @@
       "identity_attack": 0.00130,
       "insult": 0.11481,
       "threat": 0.00009,
-      "sexual_explicit": 0.00013
+      "sexual_explicit": 0.00013,
+      "positive": 0.01552,
+      "neutral": 0.16671,
+      "negative": 0.81778
     },
     "url": "https://www.foxnews.com/us/border-patrol-questioned-arizona-rancher-crazy-calling-alleged-drug-traffickers"
   },
@@ -1000,7 +1198,10 @@
       "identity_attack": 0.00060,
       "insult": 0.00093,
       "threat": 0.00390,
-      "sexual_explicit": 0.00014
+      "sexual_explicit": 0.00014,
+      "positive": 0.03937,
+      "neutral": 0.25709,
+      "negative": 0.70354
     },
     "url": "https://www.foxnews.com/us/florida-suspect-killed-shooting-waiting-deputies-opening-fire-wounding-officer-police"
   },
@@ -1015,7 +1216,10 @@
       "identity_attack": 0.00070,
       "insult": 0.00279,
       "threat": 0.00050,
-      "sexual_explicit": 0.00036
+      "sexual_explicit": 0.00036,
+      "positive": 0.03393,
+      "neutral": 0.25265,
+      "negative": 0.71341
     },
     "url": "https://www.foxnews.com/us/ohio-judge-determine-validity-insanity-defense-submitted-killed-2-children"
   },
@@ -1030,7 +1234,10 @@
       "identity_attack": 0.00394,
       "insult": 0.00171,
       "threat": 0.00045,
-      "sexual_explicit": 0.00031
+      "sexual_explicit": 0.00031,
+      "positive": 0.15633,
+      "neutral": 0.74076,
+      "negative": 0.10291
     },
     "url": "https://www.foxnews.com/lifestyle/black-history-10-famous-figures-us"
   },
@@ -1045,7 +1252,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00021,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.23059,
+      "neutral": 0.71179,
+      "negative": 0.05762
     },
     "url": "https://www.foxnews.com/lifestyle/send-valentines-children-hospitals-nursing-homes-shelters"
   },
@@ -1060,7 +1270,10 @@
       "identity_attack": 0.01470,
       "insult": 0.00227,
       "threat": 0.00123,
-      "sexual_explicit": 0.00048
+      "sexual_explicit": 0.00048,
+      "positive": 0.11554,
+      "neutral": 0.73325,
+      "negative": 0.15122
     },
     "url": "https://www.foxnews.com/lifestyle/memory-wwii-veteran-lester-tanner-we-all-jewish"
   },
@@ -1075,7 +1288,10 @@
       "identity_attack": 0.00404,
       "insult": 0.00089,
       "threat": 0.00018,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.01416,
+      "neutral": 0.04961,
+      "negative": 0.93622
     },
     "url": "https://www.foxnews.com/opinion/why-gen-z-hate-america-why-cant-give-up-them"
   },
@@ -1090,7 +1306,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.20897,
+      "neutral": 0.40409,
+      "negative": 0.38694
     },
     "url": "https://www.foxnews.com/world/china-flexes-muscles-latin-america-latest-security-challenge-us"
   },
@@ -1105,7 +1324,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00081,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.36200,
+      "neutral": 0.57172,
+      "negative": 0.06628
     },
     "url": "https://www.foxnews.com/lifestyle/this-day-history-march-13-1942-us-army-k-9-corps-begins-training-dogs-fight-world-war-ii"
   },
@@ -1120,7 +1342,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00061,
       "threat": 0.00015,
-      "sexual_explicit": 0.00011
+      "sexual_explicit": 0.00011,
+      "positive": 0.02011,
+      "neutral": 0.10594,
+      "negative": 0.87395
     },
     "url": "https://www.foxnews.com/entertainment/david-blaine-dislocates-shoulder-continues-las-vegas-performance-wow-hurt"
   },
@@ -1135,7 +1360,10 @@
       "identity_attack": 0.00019,
       "insult": 0.59321,
       "threat": 0.00019,
-      "sexual_explicit": 0.00023
+      "sexual_explicit": 0.00023,
+      "positive": 0.01729,
+      "neutral": 0.11471,
+      "negative": 0.86799
     },
     "url": "https://www.foxnews.com/entertainment/angela-bassett-accused-being-sore-loser-viral-oscar-moment-jamie-lee-curtis-win"
   },
@@ -1150,7 +1378,10 @@
       "identity_attack": 0.00030,
       "insult": 0.00136,
       "threat": 0.00004,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.04202,
+      "neutral": 0.14006,
+      "negative": 0.81791
     },
     "url": "https://www.foxnews.com/entertainment/wheel-of-fortune-host-pat-sajak-apologizes-contestant-after-mocking-phobia"
   },
@@ -1165,7 +1396,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00029,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02185,
+      "neutral": 0.23811,
+      "negative": 0.74003
     },
     "url": "https://www.foxnews.com/entertainment/bruce-springsteen-postpones-3-shows-illness-month-first-major-tour-6-years"
   },
@@ -1180,7 +1414,10 @@
       "identity_attack": 0.00122,
       "insult": 0.00704,
       "threat": 0.00094,
-      "sexual_explicit": 0.00277
+      "sexual_explicit": 0.00277,
+      "positive": 0.42645,
+      "neutral": 0.53729,
+      "negative": 0.03626
     },
     "url": "https://www.foxnews.com/sports/jason-kelce-announces-plans-return-eagles-2023-done-yet"
   },
@@ -1195,7 +1432,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00027,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.40727,
+      "neutral": 0.54777,
+      "negative": 0.04496
     },
     "url": "https://www.foxnews.com/sports/chargers-star-austin-ekeler-requests-permission-seek-trade-stellar-year-reports"
   },
@@ -1210,7 +1450,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00028,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.22248,
+      "neutral": 0.74661,
+      "negative": 0.03091
     },
     "url": "https://www.foxnews.com/sports/patriots-start-offseason-wheeling-dealing-jonathan-jones-deal-jonnu-smith-trade-reports"
   },
@@ -1225,7 +1468,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00237,
       "threat": 0.00008,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.03327,
+      "neutral": 0.21503,
+      "negative": 0.75170
     },
     "url": "https://www.foxnews.com/us/rehabilitated-bald-eagle-released-mississippi-getting-struck-car"
   },
@@ -1240,7 +1486,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00022,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.19669,
+      "neutral": 0.61682,
+      "negative": 0.18650
     },
     "url": "https://www.foxnews.com/lifestyle/10-safety-tips-remember-traveling-out-country-spring-break"
   },
@@ -1255,7 +1504,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00031,
       "threat": 0.00005,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.10665,
+      "neutral": 0.71118,
+      "negative": 0.18216
     },
     "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markles-children-invited-king-charles-coronation-report"
   },
@@ -1270,7 +1522,10 @@
       "identity_attack": 0.00052,
       "insult": 0.23229,
       "threat": 0.00012,
-      "sexual_explicit": 0.00013
+      "sexual_explicit": 0.00013,
+      "positive": 0.07896,
+      "neutral": 0.27111,
+      "negative": 0.64993
     },
     "url": "https://www.foxnews.com/lifestyle/husky-dog-called-ugly-crooked-smile-finds-family-drives-2-6k-miles-adopt-him"
   },
@@ -1285,7 +1540,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00019,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06579,
+      "neutral": 0.74724,
+      "negative": 0.18697
     },
     "url": "https://www.foxbusiness.com/personal-finance/personal-loan-rates-march-13-2023"
   },
@@ -1300,7 +1558,10 @@
       "identity_attack": 0.00024,
       "insult": 0.00068,
       "threat": 0.00009,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.24935,
+      "neutral": 0.63896,
+      "negative": 0.11169
     },
     "url": "https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-march-13-2023"
   },
@@ -1315,7 +1576,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00021,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.01705,
+      "neutral": 0.13787,
+      "negative": 0.84508
     },
     "url": "https://www.foxbusiness.com/personal-finance/inflation-costs-americans-struggling-get-by-2023"
   },
@@ -1330,7 +1594,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00015,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.30161,
+      "neutral": 0.64269,
+      "negative": 0.05571
     },
     "url": "https://www.foxbusiness.com/personal-finance/how-file-2023-taxes-get-most-return"
   },
@@ -1345,7 +1612,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00034,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03784,
+      "neutral": 0.29122,
+      "negative": 0.67094
     },
     "url": "https://www.foxnews.com/tech/beware-rise-short-term-vacation-rental-scams"
   },
@@ -1360,7 +1630,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00068,
       "threat": 0.00015,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.02070,
+      "neutral": 0.11631,
+      "negative": 0.86298
     },
     "url": "https://www.foxnews.com/tech/stop-this-mistake-is-loading-your-device-with-adware-and-trackers"
   },
@@ -1375,7 +1648,10 @@
       "identity_attack": 0.00016,
       "insult": 0.00022,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.40827,
+      "neutral": 0.56885,
+      "negative": 0.02288
     },
     "url": "https://www.foxnews.com/tech/add-chatgpt-browser"
   },
@@ -1390,7 +1666,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00073,
       "threat": 0.00008,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.82495,
+      "neutral": 0.14307,
+      "negative": 0.03198
     },
     "url": "https://www.foxnews.com/entertainment/woody-harrelsons-champions-turns-spotlight-actors-disabilities-our-superpower"
   },
@@ -1405,7 +1684,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00025,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.15069,
+      "neutral": 0.46065,
+      "negative": 0.38866
     },
     "url": "https://www.foxnews.com/media/don-lemon-seemed-roasted-oscars-michelle-yeoh-dont-let-anybody-tell-you-youre-ever-past-your-prime"
   },
@@ -1420,7 +1702,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00027,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.58932,
+      "neutral": 0.34266,
+      "negative": 0.06802
     },
     "url": "https://www.foxnews.com/entertainment/ke-huy-quan-embraced-onstage-presenter-harrison-ford-everything-everywhere-all-at-once-wins-oscar"
   },
@@ -1435,7 +1720,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00032,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.28488,
+      "neutral": 0.47857,
+      "negative": 0.23655
     },
     "url": "https://www.foxbusiness.com/lifestyle/rent-growth-posts-smallest-increase-two-years-redfin"
   },
@@ -1450,7 +1738,10 @@
       "identity_attack": 0.00007,
       "insult": 0.01148,
       "threat": 0.00009,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.03124,
+      "neutral": 0.15725,
+      "negative": 0.81151
     },
     "url": "https://www.foxbusiness.com/markets/charles-schwab-shares-head-for-worst-day-ever-cfo-defends-firm"
   },
@@ -1465,7 +1756,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00036,
       "threat": 0.00019,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.01971,
+      "neutral": 0.12193,
+      "negative": 0.85835
     },
     "url": "https://www.foxbusiness.com/markets/first-republic-shares-plunge-svb-contagion-fears"
   },
@@ -1480,7 +1774,10 @@
       "identity_attack": 0.00040,
       "insult": 0.00028,
       "threat": 0.00011,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.37333,
+      "neutral": 0.59301,
+      "negative": 0.03367
     },
     "url": "https://www.foxnews.com/lifestyle/jesus-space-faith-science-center-stage-space-shuttle-book"
   },
@@ -1495,7 +1792,10 @@
       "identity_attack": 0.00027,
       "insult": 0.00052,
       "threat": 0.00007,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.53324,
+      "neutral": 0.38451,
+      "negative": 0.08224
     },
     "url": "https://www.foxnews.com/media/biblical-drama-centering-controversial-passage-scripture-enjoys-crowdfunding-success"
   },
@@ -1510,7 +1810,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00026,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.15437,
+      "neutral": 0.50826,
+      "negative": 0.33738
     },
     "url": "https://www.foxnews.com/media/russell-brand-shares-faith-role-overcoming-addiction-need-god-cannot-cope-world"
   },
@@ -1525,7 +1828,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00160,
       "threat": 0.00006,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.02587,
+      "neutral": 0.18647,
+      "negative": 0.78766
     },
     "url": "https://www.foxnews.com/auto/drowsy-drivers-stop-soon-aaa-study"
   },
@@ -1540,7 +1846,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00035,
       "threat": 0.00006,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.44630,
+      "neutral": 0.49456,
+      "negative": 0.05914
     },
     "url": "https://www.foxnews.com/sports/william-byron-wins-second-consecutive-race-holds-off-ryan-blaney-in-phoenix"
   },
@@ -1555,7 +1864,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00056,
       "threat": 0.00004,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.65367,
+      "neutral": 0.31727,
+      "negative": 0.02906
     },
     "url": "https://www.foxnews.com/sports/sammy-smith-18-year-old-high-schooler-picks-up-first-xfinity-series-win"
   },
@@ -1570,7 +1882,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00021,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.06033,
+      "neutral": 0.75209,
+      "negative": 0.18757
     },
     "url": "https://www.foxnews.com/auto/amelia-earharts-cord-national-historic-vehicle-register"
   },
@@ -1585,7 +1900,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00016,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.37474,
+      "neutral": 0.55272,
+      "negative": 0.07255
     },
     "url": "https://www.foxnews.com/us/coconuts-incorporate-shoreline-protection-projects-across-world"
   },
@@ -1600,7 +1918,10 @@
       "identity_attack": 0.00161,
       "insult": 0.35304,
       "threat": 0.00051,
-      "sexual_explicit": 0.00216
+      "sexual_explicit": 0.00216,
+      "positive": 0.07135,
+      "neutral": 0.35921,
+      "negative": 0.56945
     },
     "url": "https://www.foxnews.com/entertainment/shakira-says-she-put-up-with-so-much-crap-she-talks-rough-year-split-gerard-pique"
   },
@@ -1615,7 +1936,10 @@
       "identity_attack": 0.00036,
       "insult": 0.00027,
       "threat": 0.00006,
-      "sexual_explicit": 0.00018
+      "sexual_explicit": 0.00018,
+      "positive": 0.08219,
+      "neutral": 0.75556,
+      "negative": 0.16226
     },
     "url": "https://www.foxnews.com/entertainment/paulina-porizkova-57-reveals-dating-trust-issues"
   },
@@ -1630,7 +1954,10 @@
       "identity_attack": 0.00054,
       "insult": 0.00127,
       "threat": 0.00045,
-      "sexual_explicit": 0.01455
+      "sexual_explicit": 0.01455,
+      "positive": 0.55417,
+      "neutral": 0.40417,
+      "negative": 0.04166
     },
     "url": "https://www.foxnews.com/entertainment/cher-76-alexander-edwards-37-share-passionate-kiss-red-carpet-debut"
   },
@@ -1645,7 +1972,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00126,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.27805,
+      "neutral": 0.65096,
+      "negative": 0.07099
     },
     "url": "https://www.foxnews.com/food-drink/popular-cereal-released-decade"
   },
@@ -1660,7 +1990,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00026,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.81578,
+      "neutral": 0.17140,
+      "negative": 0.01281
     },
     "url": "https://www.foxnews.com/food-drink/margarita-recipes-perfect-national-margarita-day"
   },
@@ -1675,7 +2008,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00023,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.45087,
+      "neutral": 0.51656,
+      "negative": 0.03257
     },
     "url": "https://www.foxnews.com/food-drink/best-foods-heart-health-experts"
   },
@@ -1690,7 +2026,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00025,
       "threat": 0.00005,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.49035,
+      "neutral": 0.46981,
+      "negative": 0.03983
     },
     "url": "https://www.foxnews.com/food-drink/homemade-valentines-day-dinner-recipes"
   },
@@ -1705,7 +2044,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00019,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.14151,
+      "neutral": 0.28273,
+      "negative": 0.57576
     },
     "url": "https://www.foxweather.com/weather-news/noreaster-forecast-winter-storm-northeast-snow-rain-wind-coastal-flooding"
   },
@@ -1720,7 +2062,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00018,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02056,
+      "neutral": 0.07879,
+      "negative": 0.90065
     },
     "url": "https://www.foxweather.com/weather-news/california-atmospheric-river-flood-rain-sierra-snow-roofalanche-concerns"
   },
@@ -1735,7 +2080,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00021,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.64785,
+      "neutral": 0.25274,
+      "negative": 0.09942
     },
     "url": "https://www.foxweather.com/learn/most-memorable-noreasters"
   },
@@ -1750,7 +2098,10 @@
       "identity_attack": 0.00016,
       "insult": 0.00020,
       "threat": 0.00006,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.28476,
+      "neutral": 0.35112,
+      "negative": 0.36413
     },
     "url": "https://www.foxweather.com/weather-news/yosemite-national-park-extends-closure"
   },
@@ -1765,7 +2116,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00104,
       "threat": 0.00006,
-      "sexual_explicit": 0.00012
+      "sexual_explicit": 0.00012,
+      "positive": 0.36315,
+      "neutral": 0.40802,
+      "negative": 0.22884
     },
     "url": "https://www.foxnews.com/lifestyle/arkansas-student-dresses-2nd-grade-teacher-school-superhero-day-melted-my-heart"
   },
@@ -1780,7 +2134,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00068,
       "threat": 0.00010,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.07645,
+      "neutral": 0.89240,
+      "negative": 0.03115
     },
     "url": "https://www.foxnews.com/lifestyle/short-questions-dana-perino-jesse-watters"
   },
@@ -1795,7 +2152,10 @@
       "identity_attack": 0.00114,
       "insult": 0.00310,
       "threat": 0.00014,
-      "sexual_explicit": 0.00044
+      "sexual_explicit": 0.00044,
+      "positive": 0.48865,
+      "neutral": 0.31267,
+      "negative": 0.19868
     },
     "url": "https://www.foxnews.com/us/tampa-woman-fought-attacker-inside-apartment-gym-honored-sheriffs-office-strength-courage"
   },
@@ -1810,7 +2170,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00016,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.65327,
+      "neutral": 0.26691,
+      "negative": 0.07982
     },
     "url": "https://www.foxnews.com/lifestyle/the-salvation-army-offers-emotional-spiritual-support-ohio-train-derailment-providing-hope"
   },
@@ -1825,7 +2188,10 @@
       "identity_attack": 0.00073,
       "insult": 0.00353,
       "threat": 0.00026,
-      "sexual_explicit": 0.00015
+      "sexual_explicit": 0.00015,
+      "positive": 0.16023,
+      "neutral": 0.82237,
+      "negative": 0.01741
     },
     "url": "https://www.foxnews.com/video/6322461954112"
   },
@@ -1840,7 +2206,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00073,
       "threat": 0.00009,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.22039,
+      "neutral": 0.74823,
+      "negative": 0.03138
     },
     "url": "https://www.foxnews.com/video/6322459668112"
   },
@@ -1855,7 +2224,10 @@
       "identity_attack": 0.00028,
       "insult": 0.00116,
       "threat": 0.00010,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.17712,
+      "neutral": 0.80383,
+      "negative": 0.01905
     },
     "url": "https://www.foxnews.com/video/6322458665112"
   },
@@ -1870,7 +2242,10 @@
       "identity_attack": 0.00037,
       "insult": 0.00176,
       "threat": 0.00015,
-      "sexual_explicit": 0.00010
+      "sexual_explicit": 0.00010,
+      "positive": 0.10289,
+      "neutral": 0.87117,
+      "negative": 0.02594
     },
     "url": "https://www.foxnews.com/video/6322453315112"
   }

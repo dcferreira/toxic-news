@@ -166,7 +166,18 @@ newspapers = [
         name="Fox News",
         language="en",
         url="https://foxnews.com",
-        get_headlines_fn=get_xpath_fn("//article//h3[a]", href_xpath="a"),
+        get_headlines_fn=get_dated_xpath_fn(
+            DatedXpath(
+                from_date=None,
+                headline_xpath="//article//h2[@class='title' and a]",
+                href_xpath="a",
+            ),
+            DatedXpath(
+                from_date=datetime(2023, 3, 1),
+                headline_xpath="//article//h3[a]",
+                href_xpath="a",
+            ),
+        ),
         expected_headlines=125,
     ),
     Newspaper(
@@ -310,6 +321,9 @@ newspapers = [
         url="https://www.reuters.com",
         get_headlines_fn=get_dated_xpath_fn(
             DatedXpath(
+                # at this time the content was generated dynamically (with javascript)
+                # we need to upgrade the website fetcher to have a headless browser
+                # instead of using the requests library
                 from_date=None,
                 headline_xpath="//a[contains(@class, 'heading__')]",
                 href_xpath=".",

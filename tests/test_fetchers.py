@@ -8,57 +8,13 @@ import pytest
 from aiohttp import ClientResponse
 from fastapi.encoders import jsonable_encoder
 
-from toxic_news.fetchers import (
-    DetoxifyResults,
-    Fetcher,
-    Headline,
-    Newspaper,
-    Scores,
-    WaybackFetcher,
-    clean_url,
-    parse_detoxify_scores,
-)
+from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher, clean_url
+from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import newspapers
 
 
 def _clean_newspaper(n: Newspaper) -> str:
     return clean_url(n.url)
-
-
-def test_parse_detoxify_scores():
-    scores = DetoxifyResults(
-        toxicity=[1, 2],
-        severe_toxicity=[3, 4],
-        obscene=[5, 6],
-        identity_attack=[7, 8],
-        insult=[9, 10],
-        threat=[11, 12],
-        sexual_explicit=[13, 14],
-    )
-    result = parse_detoxify_scores(scores)
-
-    expected = [
-        Scores(
-            toxicity=1,
-            severe_toxicity=3,
-            obscene=5,
-            identity_attack=7,
-            insult=9,
-            threat=11,
-            sexual_explicit=13,
-        ),
-        Scores(
-            toxicity=2,
-            severe_toxicity=4,
-            obscene=6,
-            identity_attack=8,
-            insult=10,
-            threat=12,
-            sexual_explicit=14,
-        ),
-    ]
-
-    assert result == expected
 
 
 def make_mock_fetcher(monkeypatch, url, assets):
@@ -131,22 +87,12 @@ def _remove_dates(
 def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
     make_mock_fetcher(monkeypatch, newspaper.url, assets)
 
-    class MockModel:
-        def predict(self, texts):
-            return {
-                k: [0.5] * len(texts)
-                for k in [
-                    "toxicity",
-                    "severe_toxicity",
-                    "obscene",
-                    "identity_attack",
-                    "insult",
-                    "threat",
-                    "sexual_explicit",
-                ]
-            }
+    def mock_predict(self, texts):
+        return [Scores(**{k: 0.5 for k in Scores.__fields__}) for _ in texts]
 
-    monkeypatch.setattr(Fetcher, "model", MockModel())
+    # avoid initializing models
+    monkeypatch.setattr(AllModels, "__init__", lambda x: None)
+    monkeypatch.setattr(AllModels, "predict", mock_predict)
 
     fetcher = Fetcher(newspaper)
     snapshot.snapshot_dir = assets / "../snapshots/test_mock_classify"

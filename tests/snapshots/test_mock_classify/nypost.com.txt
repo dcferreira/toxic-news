@@ -10,7 +10,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/video-shows-execution-style-miami-beach-shooting/"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/shaq-sparks-concern-with-hospital-photo/"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/credit-suisse-bondholders-blast-insane-ubs-takeover/"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://pagesix.com/2023/03/20/wendy-williams-spotted-drinking-at-nyc-gay-bar-after-rehab/"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/19/insane-state-law-poses-huge-new-threat-to-new-york-jobs/"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/fau-coach-dusty-may-apologizes-for-players-dunk-against-fdu/"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/bettors-react-to-march-madness-bad-beat-in-tcu-gonzaga/"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/jamie-erdahl-saves-faus-johnell-davis-after-march-madness-flub/"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/paulina-gretzky-fan-sends-message-to-dustin-johnson-at-liv-tucson/"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/chris-rock-calls-lawmakers-stupid-for-wanting-trump-arrested/"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/republicans-allay-trumps-calls-for-protest-of-his-possible-arrest/"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/19/a-potential-trump-indictment-is-a-sideshow-gift-to-the-biden-family/"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/video-shows-man-woman-brutally-attack-neighbor-over-nyc-parking-dispute/"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/chicago-family-battles-to-evict-professional-squatter/"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/dear-abby-i-dont-want-to-get-stuck-raising-my-nephew/"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/bruce-willis-reportedly-missing-tooth-in-b-day-video/"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/meet-flag-inside-fashion-designer-tommy-hilfigers-46m-mega-yacht-for-sale/"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/19/nyc-drag-story-hour-draws-protesters-cops-even-city-council-guards/"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/the-good-bad-and-ugly-possibilities-for-jets-aaron-rodgers-experiment/"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/19/dan-hurley-earns-his-validation-upon-sweet-sixteen-berth/"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/19/trea-turner-fuels-team-usa-to-world-baseball-classic-final/"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/metsdanny-mendick-post-acl-surgery-swats-leadoff-homer/"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/william-kate-in-argument-about-georges-coronation-role/"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/idaho-victim-kaylee-goncalves-sister-says-she-will-be-in-denial-forever/"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/blueberries-could-help-you-burn-body-fat-study/"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/article/best-places-to-order-and-send-flowers-online/"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://pagesix.com/2023/03/20/anna-marie-tendler-defends-accusing-taylor-swift-of-copying-art/"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://pagesix.com/2023/03/20/kourtney-kardashian-reveals-nsfw-inspiration-behind-wedding-dress/"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://pagesix.com/2023/03/20/karreuche-tran-cuts-hair-releases-it-into-ocean-with-dads-ashes/"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/19/37-year-old-single-influencer-sick-of-waiting-for-the-perfect-partner-enjoys-solo-honeymoon/"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://pagesix.com/2023/03/19/amy-robach-t-j-holmes-run-2023-nyc-half-marathon-together/"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/2023/03/20/howard-schultz-exits-as-starbucks-ceo-2-weeks-early-amid-unionization-turmoil/"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/article/best-easter-dresses-for-women/"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/article/best-hair-mousses-reviews/"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://nypost.com/article/best-items-under-25-on-amazon/"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://decider.com/2023/03/18/keira-knightley-american-accent-boston-strangler/"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://decider.com/2023/03/18/bill-maher-compares-national-divorce-concept-to-irelands-partition-on-real-time/"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://decider.com/2023/03/18/good-burger-sequel-starring-kenan-kel-greenlit-by-paramount/"
   }

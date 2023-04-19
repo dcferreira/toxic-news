@@ -10,7 +10,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00016,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.24020,
+      "neutral": 0.68816,
+      "negative": 0.07164
     },
     "url": "https://www.nytimes.com/live/2023/03/20/world/russia-ukraine-xi-putin-news"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.00066,
       "insult": 0.00035,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.25198,
+      "neutral": 0.34557,
+      "negative": 0.40245
     },
     "url": "https://www.nytimes.com/2023/03/20/world/asia/china-russia-ties.html"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.00065,
       "insult": 0.00021,
       "threat": 0.00043,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.26642,
+      "neutral": 0.51709,
+      "negative": 0.21649
     },
     "url": "https://www.nytimes.com/live/2023/03/20/world/russia-ukraine-xi-putin-news/european-officials-agree-to-supply-more-artillery-shells-to-ukraine"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00030,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.07149,
+      "neutral": 0.58067,
+      "negative": 0.34784
     },
     "url": "https://www.nytimes.com/2023/03/20/us/politics/trump-indictment-republicans.html"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00027,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03955,
+      "neutral": 0.33556,
+      "negative": 0.62489
     },
     "url": "https://www.nytimes.com/2023/03/20/us/trumps-georgia-special-grand-jury.html"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.00070,
       "insult": 0.00254,
       "threat": 0.05758,
-      "sexual_explicit": 0.00038
+      "sexual_explicit": 0.00038,
+      "positive": 0.05761,
+      "neutral": 0.66370,
+      "negative": 0.27869
     },
     "url": "https://www.nytimes.com/2023/03/20/nyregion/trump-arrest-indictment-nypd.html"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00012,
       "threat": 0.00012,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.28032,
+      "neutral": 0.65677,
+      "negative": 0.06291
     },
     "url": "https://www.nytimes.com/2023/03/20/climate/global-warming-ipcc-earth.html"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00133,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.11960,
+      "neutral": 0.75288,
+      "negative": 0.12752
     },
     "url": "https://www.nytimes.com/2023/03/20/us/carbon-dioxide-ethanol-underground-midwest.html"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.10199,
+      "neutral": 0.83508,
+      "negative": 0.06293
     },
     "url": "https://www.nytimes.com/interactive/2023/climate/climate-change-faq.html"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.00016,
       "insult": 0.00032,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01766,
+      "neutral": 0.34659,
+      "negative": 0.63576
     },
     "url": "https://www.nytimes.com/2023/03/20/business/first-republic-bank.html"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00042,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02752,
+      "neutral": 0.25857,
+      "negative": 0.71390
     },
     "url": "https://www.nytimes.com/2023/03/20/business/markets-today.html"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.00020,
       "insult": 0.00045,
       "threat": 0.00009,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.13666,
+      "neutral": 0.40666,
+      "negative": 0.45668
     },
     "url": "https://www.nytimes.com/2023/03/20/sports/olympics/jennifer-fox-sexual-abuse-the-tale.html"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00030,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02941,
+      "neutral": 0.23274,
+      "negative": 0.73785
     },
     "url": "https://www.nytimes.com/live/2023/03/20/world/france-macron-no-confidence-vote"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.00279,
       "insult": 0.00143,
       "threat": 0.00015,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.01561,
+      "neutral": 0.06464,
+      "negative": 0.91976
     },
     "url": "https://www.nytimes.com/2023/03/20/us/politics/iraq-20-years.html"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00168,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03423,
+      "neutral": 0.26415,
+      "negative": 0.70162
     },
     "url": "https://www.nytimes.com/2023/03/20/world/middleeast/iraq-war-anniversary-youth.html"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.00050,
       "insult": 0.00070,
       "threat": 0.00015,
-      "sexual_explicit": 0.00032
+      "sexual_explicit": 0.00032,
+      "positive": 0.13462,
+      "neutral": 0.83491,
+      "negative": 0.03047
     },
     "url": "https://www.nytimes.com/2023/03/20/sports/ncaabasketball/march-madness-monday.html"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00022,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05511,
+      "neutral": 0.50361,
+      "negative": 0.44128
     },
     "url": "https://theathletic.com/4325496/2023/03/20/march-madness-vermont-cinderella/"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.00095,
       "insult": 0.00084,
       "threat": 0.00044,
-      "sexual_explicit": 0.00029
+      "sexual_explicit": 0.00029,
+      "positive": 0.06619,
+      "neutral": 0.86502,
+      "negative": 0.06878
     },
     "url": "https://theathletic.com/4326239/2023/03/20/ncaa-tournament-sweet-16-seth-davis/"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00039,
       "threat": 0.00009,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.07495,
+      "neutral": 0.76090,
+      "negative": 0.16415
     },
     "url": "https://www.nytimes.com/2023/03/17/headway/spray-bottle-clorox-plastic-refillable-recycle.html"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.00022,
       "insult": 0.00792,
       "threat": 0.00013,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.06295,
+      "neutral": 0.31067,
+      "negative": 0.62638
     },
     "url": "https://www.nytimes.com/2023/03/18/business/roxane-gay-work-advice-work-wardrobe.html"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00203,
       "threat": 0.00040,
-      "sexual_explicit": 0.00068
+      "sexual_explicit": 0.00068,
+      "positive": 0.21159,
+      "neutral": 0.55455,
+      "negative": 0.23385
     },
     "url": "https://www.nytimes.com/2023/03/17/dining/easy-carrot-cake-recipe.html"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00023,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.08919,
+      "neutral": 0.75237,
+      "negative": 0.15844
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/ron-desantis-trump-silicon-valley-bank.html"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00027,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.05861,
+      "neutral": 0.57653,
+      "negative": 0.36486
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/donald-trump-friendship-with-robert-morgenthau.html"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.00053,
       "insult": 0.00034,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02750,
+      "neutral": 0.24459,
+      "negative": 0.72791
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/iraq-war-20th-anniversary.html"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00028,
       "threat": 0.00009,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02478,
+      "neutral": 0.12916,
+      "negative": 0.84606
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/bill-gates-pandemic-preparedness-covid.html"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.00026,
       "insult": 0.00033,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.03644,
+      "neutral": 0.16348,
+      "negative": 0.80008
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/multiverse-danger.html"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.00016,
       "insult": 0.01027,
       "threat": 0.00006,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.03062,
+      "neutral": 0.19482,
+      "negative": 0.77456
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/colorado-river-lake-powell-glen-canyon-dam.html"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00062,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.08796,
+      "neutral": 0.72974,
+      "negative": 0.18230
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/ron-desantis-donald-trump-courage-free.html"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00034,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02029,
+      "neutral": 0.17351,
+      "negative": 0.80621
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/tiktok-ban-big-tech-china.html"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.00020,
       "insult": 0.00031,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02094,
+      "neutral": 0.25305,
+      "negative": 0.72602
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/teen-adult-depression-anxiety.html"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.01534,
       "insult": 0.01204,
       "threat": 0.00301,
-      "sexual_explicit": 0.00094
+      "sexual_explicit": 0.00094,
+      "positive": 0.58182,
+      "neutral": 0.35503,
+      "negative": 0.06315
     },
     "url": "https://www.nytimes.com/2023/03/18/opinion/topol-tevye-fiddler-tradition.html"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.00053,
       "insult": 0.00037,
       "threat": 0.00646,
-      "sexual_explicit": 0.00018
+      "sexual_explicit": 0.00018,
+      "positive": 0.09083,
+      "neutral": 0.33406,
+      "negative": 0.57510
     },
     "url": "https://www.nytimes.com/2023/03/18/opinion/svb-banks-change.html"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00034,
       "threat": 0.00004,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.18949,
+      "neutral": 0.76847,
+      "negative": 0.04205
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/pets-dogs-love.html"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00023,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.04032,
+      "neutral": 0.19379,
+      "negative": 0.76589
     },
     "url": "https://www.nytimes.com/interactive/2023/03/14/opinion/middle-age-millennials.html"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00143,
       "threat": 0.00005,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.05576,
+      "neutral": 0.26810,
+      "negative": 0.67615
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/myanmar-military-coup-resistance.html"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00023,
       "threat": 0.00015,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.06015,
+      "neutral": 0.52958,
+      "negative": 0.41027
     },
     "url": "https://www.nytimes.com/2023/03/18/opinion/cancer-brain-mind-body.html"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00020,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.01259,
+      "neutral": 0.06322,
+      "negative": 0.92419
     },
     "url": "https://www.nytimes.com/2023/03/18/opinion/world-bank-climate-change.html"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.33711,
+      "neutral": 0.54988,
+      "negative": 0.11301
     },
     "url": "https://www.nytimes.com/2023/03/20/briefing/donald-trump-indictment.html"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00017,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.14757,
+      "neutral": 0.81781,
+      "negative": 0.03463
     },
     "url": "https://www.nytimes.com/2023/03/20/podcasts/the-daily/how-tiktok-became-a-matter-of-national-security.html"
   },
@@ -595,7 +712,10 @@
       "identity_attack": 0.36997,
       "insult": 0.07533,
       "threat": 0.00085,
-      "sexual_explicit": 0.00027
+      "sexual_explicit": 0.00027,
+      "positive": 0.01643,
+      "neutral": 0.09761,
+      "negative": 0.88596
     },
     "url": "https://www.nytimes.com/2023/03/20/world/car-batteries-lead-mexico.html"
   },
@@ -610,7 +730,10 @@
       "identity_attack": 0.00038,
       "insult": 0.00021,
       "threat": 0.00010,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03001,
+      "neutral": 0.40212,
+      "negative": 0.56787
     },
     "url": "https://www.nytimes.com/2023/03/20/world/africa/somalia-drought-death-famine.html"
   },
@@ -625,7 +748,10 @@
       "identity_attack": 0.00035,
       "insult": 0.22103,
       "threat": 0.00013,
-      "sexual_explicit": 0.00018
+      "sexual_explicit": 0.00018,
+      "positive": 0.04669,
+      "neutral": 0.53067,
+      "negative": 0.42264
     },
     "url": "https://www.nytimes.com/2023/03/20/nyregion/douglass-mackey-twitter-misinformation-trial.html"
   },
@@ -640,7 +766,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00023,
       "threat": 0.00018,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.21951,
+      "neutral": 0.64608,
+      "negative": 0.13441
     },
     "url": "https://www.nytimes.com/2023/03/20/technology/crypto-rebranding-marketing.html"
   },
@@ -655,7 +784,10 @@
       "identity_attack": 0.00040,
       "insult": 0.00031,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.04451,
+      "neutral": 0.32471,
+      "negative": 0.63078
     },
     "url": "https://www.nytimes.com/2023/03/20/world/middleeast/israel-judicial-overhaul-changes.html"
   },
@@ -670,7 +802,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00019,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.14150,
+      "neutral": 0.37454,
+      "negative": 0.48396
     },
     "url": "https://www.nytimes.com/2023/03/20/us/politics/hostage-jeffery-woodke-freed.html"
   },
@@ -685,7 +820,10 @@
       "identity_attack": 0.00100,
       "insult": 0.00128,
       "threat": 0.00049,
-      "sexual_explicit": 0.00015
+      "sexual_explicit": 0.00015,
+      "positive": 0.01608,
+      "neutral": 0.25206,
+      "negative": 0.73186
     },
     "url": "https://www.nytimes.com/2023/03/20/world/europe/greece-spyware-hacking-meta.html"
   },
@@ -700,7 +838,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00027,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.62640,
+      "neutral": 0.31749,
+      "negative": 0.05611
     },
     "url": "https://www.nytimes.com/2023/03/19/movies/adam-sandler-mark-twain-prize.html"
   },
@@ -715,7 +856,10 @@
       "identity_attack": 0.00617,
       "insult": 0.00266,
       "threat": 0.00064,
-      "sexual_explicit": 0.00011
+      "sexual_explicit": 0.00011,
+      "positive": 0.02349,
+      "neutral": 0.19936,
+      "negative": 0.77714
     },
     "url": "https://www.nytimes.com/2023/03/20/world/australia/melbourne-nazi-salute.html"
   },
@@ -730,7 +874,10 @@
       "identity_attack": 0.00048,
       "insult": 0.00029,
       "threat": 0.00034,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.04034,
+      "neutral": 0.27659,
+      "negative": 0.68306
     },
     "url": "https://www.nytimes.com/2023/03/19/nyregion/connecticut-children-car-crash-westchester.html"
   },
@@ -745,7 +892,10 @@
       "identity_attack": 0.00024,
       "insult": 0.00055,
       "threat": 0.00008,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.80692,
+      "neutral": 0.17300,
+      "negative": 0.02008
     },
     "url": "https://www.nytimes.com/2023/03/17/arts/music/american-opera-directors-ted-huffman-lydia-steier-rb-schlather.html"
   },
@@ -760,7 +910,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00019,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.10723,
+      "neutral": 0.57075,
+      "negative": 0.32202
     },
     "url": "https://www.nytimes.com/2023/03/17/style/extrapolations-fashion-climate-change.html"
   },
@@ -775,7 +928,10 @@
       "identity_attack": 0.00035,
       "insult": 0.00056,
       "threat": 0.00009,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.13159,
+      "neutral": 0.82204,
+      "negative": 0.04636
     },
     "url": "https://www.nytimes.com/2023/03/16/arts/dance/maqoma-sibisi-broken-chord.html"
   },
@@ -790,7 +946,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00024,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04871,
+      "neutral": 0.82823,
+      "negative": 0.12306
     },
     "url": "https://www.nytimes.com/2023/03/17/arts/television/swarm-review.html"
   },
@@ -805,7 +964,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00024,
       "threat": 0.00009,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.43882,
+      "neutral": 0.53785,
+      "negative": 0.02333
     },
     "url": "https://www.nytimes.com/2023/03/17/movies/rye-lane.html"
   },
@@ -820,7 +982,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00025,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.09749,
+      "neutral": 0.74461,
+      "negative": 0.15789
     },
     "url": "https://theathletic.com/4317268/2023/03/20/jerod-mayo-patriots-bill-belichick/"
   },
@@ -835,7 +1000,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00169,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.10475,
+      "neutral": 0.42406,
+      "negative": 0.47119
     },
     "url": "https://theathletic.com/4324804/2023/03/20/dusty-baker-astros-world-series/"
   },
@@ -850,7 +1018,10 @@
       "identity_attack": 0.00033,
       "insult": 0.06023,
       "threat": 0.00013,
-      "sexual_explicit": 0.00013
+      "sexual_explicit": 0.00013,
+      "positive": 0.01079,
+      "neutral": 0.03332,
+      "negative": 0.95589
     },
     "url": "https://theathletic.com/4325731/2023/03/20/fulham-manchester-united-aleksandar-mitrovic-red-card/"
   },
@@ -865,7 +1036,10 @@
       "identity_attack": 0.00028,
       "insult": 0.00158,
       "threat": 0.00012,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.08197,
+      "neutral": 0.43776,
+      "negative": 0.48026
     },
     "url": "https://theathletic.com/4325452/2023/03/20/lamar-jackson-contract-ravens-free-agency/"
   },
@@ -880,7 +1054,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00119,
       "threat": 0.00006,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.01797,
+      "neutral": 0.20055,
+      "negative": 0.78148
     },
     "url": "https://theathletic.com/4323108/2023/03/20/taylor-call-detroit-pistons-dietitian/"
   },
@@ -895,7 +1072,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00016,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.16486,
+      "neutral": 0.75353,
+      "negative": 0.08161
     },
     "url": "https://theathletic.com/4326353/2023/03/20/odell-beckham-jets-nfl-free-agency/"
   },
@@ -910,7 +1090,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00018,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.73230,
+      "neutral": 0.22140,
+      "negative": 0.04630
     },
     "url": "https://www.nytimes.com/2022/09/01/crosswords/wordle-starting-words-adieu.html"
   }

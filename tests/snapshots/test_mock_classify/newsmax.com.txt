@@ -10,7 +10,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/us/biden-banking/2023/03/13/id/1112018/"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/joe-biden-banks-collapse/2023/03/13/id/1112058/"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/republicans-democrats-seats/2023/03/13/id/1112060/"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsmax-tv/ric-grenell-newsguard-bias-against-conservative/2023/03/12/id/1111964/"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/migrants-bridge-el-paso-mexico-customs/2023/03/13/id/1112054/"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/russia-attacks-ukraine/2023/03/13/id/1112024/"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/supreme-court-ethics-code-justice-thomas/2023/03/13/id/1112052/"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/platinum/iran-saudi-arabia-deal/2023/03/13/id/1112004/"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/vivek-ramaswamy-joe-biden-svb/2023/03/13/id/1112045/"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/platinum/mexican-cartels-drugs-traffickers/2023/03/13/id/1112002/"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/us/willow-oil-alaska/2023/03/13/id/1112032/"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/joe-tacopina-donald-trump-hush-money/2023/03/13/id/1112029/"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/iran-protests-arrested/2023/03/13/id/1112019/"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/donald-trump-david-horowitz-book/2023/03/09/id/1111679/"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/protest-washington-israel/2023/03/13/id/1112011/"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/ia-chatbot-robot/2023/03/13/id/1112017/"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/oscars-best-picture/2023/03/13/id/1112001/"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/phil-murphy-biden-presidential-election/2023/03/12/id/1111998/"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/us/march-madness-bracket-kansas-alabama/2023/03/12/id/1111996/"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/finance/streettalk/signature-bank-failure/2023/03/13/id/1112003/"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/crematorium-investigation-california/2023/03/12/id/1111994/"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/russia-ukraine-wagner-group/2023/03/13/id/1112039/"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/gallup-survey-america/2023/03/13/id/1112042/"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/transgender-children-autistic/2023/03/12/id/1111990/"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/kevin-mccarthy-tucker-carlson-jan-6/2023/03/12/id/1111988/"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/silicon-valley-bank-woke/2023/03/12/id/1111950/"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/world/globaltalk/nicaragua-ortega-vatican/2023/03/12/id/1111984/"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/pandemic-covid-preparedness/2023/03/12/id/1111981/"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/joe-lieberman-israel-saudi-arabia/2023/03/12/id/1111979/"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/michael-mccaul-pence-jan-6/2023/03/12/id/1111976/"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/man-sues-abortion/2023/03/12/id/1111971/"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/world/globaltalk/china-xi-ukraine/2023/03/13/id/1112026/"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/politics/kamala-harris-africa-u-s/2023/03/13/id/1112021/"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/world/globaltalk/idf-chief-herzi-halevi/2023/03/13/id/1112016/"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/ituc-bribery-luca-visentini/2023/03/12/id/1111992/"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/migrants-italy-capsized/2023/03/12/id/1111989/"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/south-korea-north-korea-chiefs-of-staff/2023/03/12/id/1111982/"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/world/globaltalk/congo-islamist-militants-un/2023/03/12/id/1111980/"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/world/globaltalk/ukraine-russia-war/2023/03/12/id/1111975/"
   },
@@ -595,7 +712,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/john-bolton-china-saudi-arabia/2023/03/12/id/1111965/"
   },
@@ -610,7 +730,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/world/globaltalk/israel-svb-bank/2023/03/12/id/1111961/"
   },
@@ -625,7 +748,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/france-retirement-age-vote-pension-reform/2023/03/12/id/1111957/"
   },
@@ -640,7 +766,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/iran-hostages-us/2023/03/12/id/1111955/"
   },
@@ -655,7 +784,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/bbc-lineker-tweet-asylum-migrants-suspension-british-government-motd-motd2/2023/03/12/id/1111954/"
   },
@@ -670,7 +802,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/world/globaltalk/china-yi-gang/2023/03/12/id/1111949/"
   },
@@ -685,7 +820,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/newsfront/who-covid-origins/2023/03/12/id/1111946/"
   },
@@ -700,7 +838,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/world/globaltalk/pope-francis-vatican-anniversary-abuse-lgbt/2023/03/12/id/1111943/"
   },
@@ -715,7 +856,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/platinum/u-s-marines-china/2023/03/10/id/1111777/"
   },
@@ -730,7 +874,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/platinum/u-s-nord-stream-pipelines/2023/03/10/id/1111779/"
   },
@@ -745,7 +892,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://newsmax.com/platinum/u-s-china-war/2023/03/09/id/1111645/"
   }

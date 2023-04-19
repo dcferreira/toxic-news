@@ -9,7 +9,6 @@ from typing import Optional
 import aiohttp
 import typer
 from aiohttp import ClientSession
-from detoxify import Detoxify
 from dotenv import load_dotenv
 from jinja2 import Environment, PackageLoader, select_autoescape
 from loguru import logger
@@ -18,7 +17,8 @@ from pymongo.database import Database
 from requests import PreparedRequest
 from tqdm import tqdm
 
-from toxic_news.fetchers import Headline, Newspaper, Scores, WaybackFetcher
+from toxic_news.fetchers import Headline, Newspaper, WaybackFetcher
+from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import newspapers, newspapers_dict
 from toxic_news.queries import (
     date_fmt,
@@ -141,7 +141,7 @@ def fetch_today(
 async def _fetch_wayback(
     newspaper: Newspaper, timestamps: list[datetime.datetime], cache_dir: Optional[Path]
 ) -> list[list[Headline]]:
-    model = Detoxify("multilingual")
+    model = AllModels()
     async with aiohttp.ClientSession() as session:
         fetchers = [
             WaybackFetcher(
@@ -238,6 +238,8 @@ def fetch_wayback(
         if len(headlines_to_insert) > 0:
             inserted_records = 0
             for one_day_headlines in tqdm(headlines_to_insert):
+                if len(one_day_headlines) == 0:
+                    continue
                 n_records = db_insert_headlines(one_day_headlines, db=db)
                 inserted_records += n_records
                 if n_records == 0:
@@ -319,10 +321,7 @@ def generate_daily_csv_w_date(
                         "name": r.name,
                         "count": r.count,
                         "date": r.date.strftime(date_fmt),
-                        **{
-                            k: f"{v:.5f}"  # export only 5 decimal places
-                            for k, v in r.scores.dict().items()
-                        },
+                        **{k: _export_float(v) for k, v in r.scores.dict().items()},
                     }
                 )
 
@@ -344,6 +343,14 @@ def generate_daily_csv(
     )
 
 
+def _export_float(value: float) -> str:
+    if value > 1.0:
+        # export only 4 precision digits
+        return f"{value:.4}"
+    # export 5 decimal places for small values
+    return f"{value:.5f}"
+
+
 def generate_averages_csv(
     start_date: datetime.date,
     end_date: datetime.date,
@@ -358,15 +365,12 @@ def generate_averages_csv(
         writer.writeheader()
 
         rows = query_average_daily(start_date, end_date, db)
-        for r in rows:
+        for r in sorted(rows, key=lambda x: x.name):
             writer.writerow(
                 {
                     "name": r.name,
                     "count": r.count,
-                    **{
-                        k: f"{v:.5f}"  # export only 5 decimal places
-                        for k, v in r.scores.dict().items()
-                    },
+                    **{k: _export_float(v) for k, v in r.scores.dict().items()},
                 }
             )
 

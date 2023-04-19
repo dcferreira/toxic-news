@@ -10,8 +10,10 @@ from pymongo import MongoClient
 from pymongo.collection import Collection
 from pymongo.database import Database
 from pymongo.server_api import ServerApi
+from tqdm import tqdm
 
-from toxic_news.fetchers import Headline, Scores
+from toxic_news.fetchers import Headline
+from toxic_news.models import AllModels, Scores
 
 date_fmt = "%Y/%m/%d"
 
@@ -44,6 +46,8 @@ class DailyRow(BaseModel):
 
 
 def db_insert_headlines(headlines: list[Headline], db: Database) -> int:
+    if len(headlines) == 0:
+        return 0
     headlines_coll = _get_headlines_collection(db)
     try:
         res = headlines_coll.insert_many(h.dict() for h in headlines)
@@ -212,3 +216,73 @@ def query_daily_rows(date: datetime.date, db: Database) -> list[DailyRow]:
         )
         for res in cursor
     ]
+
+
+def update_all_headlines_scores(
+    db: Database,
+    write_coll_name: Optional[str] = None,
+    batch_size: int = 128,
+    replace: bool = True,
+):
+    """
+    Updates all the scores in the headlines. Useful when adding/changing models.
+    This is a very expensive operation, shouldn't be executed often.
+    The function isn't made available in `main.py` to the CLI, precisely because
+    running it should be avoided.
+
+    Example of how to run this:
+    ```python
+    import os
+    from toxic_news.main import get_database
+    from toxic_news.queries import update_all_headlines_scores
+
+    db = get_database(os.environ["MONGODB_URL"], "test_database")
+    update_all_headlines_scores(db)
+    ```
+
+    It's probably better to write to a different collection (with `replace=False`)
+    and then change the name of the new collection to the same name as the old one.
+    This can be done in MongoDB's shell:
+    ```
+    > use admin
+    > db.runCommand({ renameCollection: "main.headlines", to: "main.headlines_old" })
+    > db.runCommand({ renameCollection: "main.transformed_headlines",
+                      to: "main.headlines" })
+    ```
+    """
+    headlines_coll = _get_headlines_collection(db)
+    write_coll = (
+        headlines_coll
+        if write_coll_name is None
+        else db.get_collection(write_coll_name)
+    )
+    model = AllModels()
+
+    def insert(buf):
+        if replace:
+            # replace one by one, slow but sometimes needed
+            for write_doc in buf:
+                new_headline = Headline(
+                    scores=model.predict([write_doc["text"]])[0], **write_doc
+                )
+                write_coll.replace_one({"_id": write_doc["_id"]}, new_headline.dict())
+        else:
+            # replace multiple at once. a bit faster when writing
+            scores = model.predict([x["text"] for x in buf])
+            headlines = [
+                dict(Headline(scores=s, **write_doc).dict(), _id=write_doc["_id"])
+                for s, write_doc in zip(scores, buf)
+            ]
+            write_coll.insert_many(headlines)
+
+    buffer: list[dict] = []
+    for read_doc in tqdm(
+        headlines_coll.find(),
+        total=headlines_coll.estimated_document_count(),
+    ):
+        del read_doc["scores"]
+        buffer.append(read_doc)
+        if len(buffer) == batch_size:
+            insert(buffer)
+            buffer = []
+    insert(buffer)

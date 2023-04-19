@@ -10,7 +10,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00023,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04599,
+      "neutral": 0.81054,
+      "negative": 0.14347
     },
     "url": "https://thehill.com/newsletters/morning-report/3911746-the-hills-morning-report-will-trump-be-indicted-today/"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.00007,
       "insult": 0.00037,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02420,
+      "neutral": 0.14180,
+      "negative": 0.83399
     },
     "url": "https://thehill.com/policy/national-security/3911884-trump-fights-claims-he-misled-attorney-as-court-weighs-effort-to-force-testimony/"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00237,
       "threat": 0.00010,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.04135,
+      "neutral": 0.37412,
+      "negative": 0.58453
     },
     "url": "https://thehill.com/homenews/house/3911108-house-republicans-pressured-to-take-sides-between-trump-desantis/"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.00075,
       "insult": 0.00060,
       "threat": 0.00031,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.02974,
+      "neutral": 0.18966,
+      "negative": 0.78060
     },
     "url": "https://thehill.com/homenews/administration/3910990-white-house-steps-up-attacks-on-gop-budget/"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00035,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.10440,
+      "neutral": 0.56594,
+      "negative": 0.32966
     },
     "url": "https://thehill.com/regulation/court-battles/3911856-trump-shares-possibility-of-no-indictment-in-hush-money-case/"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.00026,
       "insult": 0.00030,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02955,
+      "neutral": 0.18314,
+      "negative": 0.78731
     },
     "url": "https://thehill.com/changing-america/enrichment/arts-culture/3910904-young-americans-are-once-again-switching-up-how-they-date/"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00023,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.41634,
+      "neutral": 0.45234,
+      "negative": 0.13132
     },
     "url": "https://thehill.com/policy/future-of-farming/3903833-democrats-brace-for-fight-over-snap-benefits-in-farm-bill/"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00025,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.52462,
+      "neutral": 0.35037,
+      "negative": 0.12500
     },
     "url": "https://thehill.com/homenews/media/3911174-tucker-carlson-enraged-private-texts-revealed-i-love-trump/"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00029,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.01845,
+      "neutral": 0.13584,
+      "negative": 0.84572
     },
     "url": "https://thehill.com/policy/healthcare/3911215-why-millions-of-people-could-lose-medicaid-next-month/"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00024,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.44312,
+      "neutral": 0.49771,
+      "negative": 0.05917
     },
     "url": "https://thehill.com/policy/energy-environment/3910332-biden-designates-new-national-monuments-in-nevada-texas/"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00031,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02620,
+      "neutral": 0.18611,
+      "negative": 0.78769
     },
     "url": "https://thehill.com/regulation/court-battles/3910289-trump-lawyer-if-hes-indicted-this-is-an-all-out-war/"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00069,
       "threat": 0.00123,
-      "sexual_explicit": 0.00010
+      "sexual_explicit": 0.00010,
+      "positive": 0.08239,
+      "neutral": 0.59394,
+      "negative": 0.32368
     },
     "url": "https://thehill.com/media/3910806-van-jones-says-bragg-may-step-back-from-the-brink-on-charging-trump/"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.00123,
       "insult": 0.00083,
       "threat": 0.00019,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.01934,
+      "neutral": 0.10225,
+      "negative": 0.87840
     },
     "url": "https://thehill.com/homenews/senate/3910156-rand-paul-tweets-ny-da-should-be-put-in-jail/"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00028,
       "threat": 0.00007,
-      "sexual_explicit": 0.00018
+      "sexual_explicit": 0.00018,
+      "positive": 0.06951,
+      "neutral": 0.57738,
+      "negative": 0.35311
     },
     "url": "https://thehill.com/regulation/court-battles/3909352-jackson-pens-solo-dissent-as-supreme-court-vacates-abortion-ruling/"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00058,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.01693,
+      "neutral": 0.08745,
+      "negative": 0.89562
     },
     "url": "https://thehill.com/homenews/senate/3911176-trump-plunges-gop-into-more-turmoil-with-legal-troubles/"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.00040,
       "insult": 0.00071,
       "threat": 0.00538,
-      "sexual_explicit": 0.00011
+      "sexual_explicit": 0.00011,
+      "positive": 0.01666,
+      "neutral": 0.15479,
+      "negative": 0.82855
     },
     "url": "https://thehill.com/homenews/state-watch/3910708-bomb-threat-disrupts-ny-court-where-trump-case-is-being-heard/"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00023,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05923,
+      "neutral": 0.53298,
+      "negative": 0.40778
     },
     "url": "https://thehill.com/homenews/state-watch/3910628-georgia-attorney-convicted-on-jan-6-charges/"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.00017,
       "insult": 0.00028,
       "threat": 0.00009,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.13216,
+      "neutral": 0.46448,
+      "negative": 0.40336
     },
     "url": "https://thehill.com/policy/technology/3905672-chatgpt-sends-shockwaves-across-college-campuses/"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00021,
       "threat": 0.00009,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02317,
+      "neutral": 0.13416,
+      "negative": 0.84267
     },
     "url": "https://thehill.com/homenews/senate/3910819-graham-warns-trump-arrest-would-blow-up-our-country/"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.00026,
       "insult": 0.00159,
       "threat": 0.00004,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.32535,
+      "neutral": 0.51654,
+      "negative": 0.15811
     },
     "url": "https://thehill.com/homenews/administration/3909243-white-house-reporters-push-back-on-disruptive-journalist-at-press-briefing/"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00031,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05476,
+      "neutral": 0.66335,
+      "negative": 0.28189
     },
     "url": "https://thehill.com/homenews/media/3908950-espns-stephen-a-smith-rips-tucker-carlsons-jan-6-framing-thats-bulls-that-youre-spewing/"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.00034,
       "insult": 0.01492,
       "threat": 0.00004,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.10397,
+      "neutral": 0.54028,
+      "negative": 0.35575
     },
     "url": "https://thehill.com/blogs/blog-briefing-room/3911915-large-majority-in-new-poll-says-trump-hush-money-allegations-are-believable/"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00020,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.43944,
+      "neutral": 0.46356,
+      "negative": 0.09700
     },
     "url": "https://thehill.com/homenews/campaign/3911898-pence-calls-for-common-sense-reforms-to-social-security-medicare/"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.04968,
       "insult": 0.00273,
       "threat": 0.00038,
-      "sexual_explicit": 0.00036
+      "sexual_explicit": 0.00036,
+      "positive": 0.12368,
+      "neutral": 0.57673,
+      "negative": 0.29959
     },
     "url": "https://thehill.com/homenews/campaign/3911157-republicans-seize-on-transgender-rights-ahead-of-2024/"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00034,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.10372,
+      "neutral": 0.66970,
+      "negative": 0.22658
     },
     "url": "https://thehill.com/regulation/court-battles/3910851-nyda-alvin-bragg-could-eye-various-charges-in-trump-prosecution/"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.00024,
       "insult": 0.00015,
       "threat": 0.00011,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.32930,
+      "neutral": 0.61101,
+      "negative": 0.05968
     },
     "url": "https://thehill.com/policy/defense/3910935-pentagon-will-expedite-delivery-of-tanks-patriot-systems-to-ukraine/"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00022,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.22077,
+      "neutral": 0.35538,
+      "negative": 0.42384
     },
     "url": "https://thehill.com/homenews/house/3910467-comer-agrees-it-could-be-politically-unsustainable-to-investigate-kushner/"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00025,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.11530,
+      "neutral": 0.47954,
+      "negative": 0.40516
     },
     "url": "https://thehill.com/homenews/house/3911300-bipartisan-lawmakers-introduce-bill-to-ban-members-from-owning-trading-stocks/"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00027,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02580,
+      "neutral": 0.22635,
+      "negative": 0.74785
     },
     "url": "https://thehill.com/homenews/senate/3911385-democrats-worry-about-trump-protest-calls-over-possible-indictment/"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00071,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.07060,
+      "neutral": 0.39532,
+      "negative": 0.53407
     },
     "url": "https://thehill.com/homenews/campaign/3911468-trump-fundraises-off-possible-indictment/"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.00044,
       "insult": 0.00022,
       "threat": 0.00023,
-      "sexual_explicit": 0.00028
+      "sexual_explicit": 0.00028,
+      "positive": 0.20255,
+      "neutral": 0.61689,
+      "negative": 0.18056
     },
     "url": "https://thehill.com/homenews/ap/ap-u-s-news/oklahoma-court-oks-abortion-to-preserve-mothers-life/"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00030,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.03712,
+      "neutral": 0.49015,
+      "negative": 0.47274
     },
     "url": "https://thehill.com/opinion/white-house/3910970-will-manhattan-da-bragg-charge-trump-should-he/"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.00143,
       "insult": 0.03710,
       "threat": 0.00008,
-      "sexual_explicit": 0.00010
+      "sexual_explicit": 0.00010,
+      "positive": 0.02574,
+      "neutral": 0.16659,
+      "negative": 0.80767
     },
     "url": "https://thehill.com/opinion/education/3901470-floridas-education-foes-resort-to-horror-fiction/"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.00063,
       "insult": 0.00016,
       "threat": 0.00006,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.09918,
+      "neutral": 0.53614,
+      "negative": 0.36467
     },
     "url": "https://thehill.com/homenews/3911052-americans-who-survived-mexico-kidnapping-continue-to-recover-attorneys-say/"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00026,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.17804,
+      "neutral": 0.59666,
+      "negative": 0.22530
     },
     "url": "https://thehill.com/homenews/3911092-california-bill-could-ban-the-sale-of-skittles-hot-tamales-and-more/"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.00023,
       "insult": 0.00312,
       "threat": 0.00023,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.04961,
+      "neutral": 0.22227,
+      "negative": 0.72811
     },
     "url": "https://thehill.com/homenews/3911202-video-security-guards-take-down-gunman-in-devil-mask-at-famed-florida-strip-club/"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.00037,
       "insult": 0.00018,
       "threat": 0.00011,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02513,
+      "neutral": 0.21139,
+      "negative": 0.76349
     },
     "url": "https://thehill.com/homenews/3911508-case-of-teens-2015-death-reopened-during-murdaugh-investigation-now-ruled-a-homicide/"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00016,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.06917,
+      "neutral": 0.59207,
+      "negative": 0.33876
     },
     "url": "https://thehill.com/homenews/3911346-some-android-users-should-turn-off-wi-fi-calling-due-to-security-concerns-google-team-warns/"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00047,
       "threat": 0.00017,
-      "sexual_explicit": 0.00009
+      "sexual_explicit": 0.00009,
+      "positive": 0.13747,
+      "neutral": 0.40733,
+      "negative": 0.45520
     },
     "url": "https://thehill.com/policy/healthcare/3910940-child-mortality-is-rising-at-the-fastest-rate-in-50-years/"
   }

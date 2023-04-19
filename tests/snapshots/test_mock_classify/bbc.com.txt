@@ -10,7 +10,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/world-us-canada-64943603"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/world-us-canada-64935170"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/business-64827885"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/culture/article/20230313-oscars-2023-a-slap-in-the-face-for-hollywood"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/worklife/article/20230309-is-it-impossible-to-end-burnout"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/world-europe-64935449"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/entertainment-arts-64942684"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/live/business-64940883"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/sport/cricket/64937730"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/sport/rugby-union/64938583"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-64936917"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64935925"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64935067"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64936405"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/future/article/20230309-climate-change-the-sea-level-rise-locked-in-east-antarctica"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/culture/article/20230309-the-last-of-us-finale-review-a-knotty-violent-ending"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/worklife/article/20230307-did-me-too-change-the-workplace-for-gen-z"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/travel/article/20230312-why-bushcraft-is-booming-again"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/world-64915348"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/science-environment-64919341"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/world-europe-64887890"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/business-64899189"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/business-64636384"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-64937660"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-64937660"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-64937658"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/business-64937654"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/entertainment-arts-64935382"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-64932702"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-64929759"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-64931367"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/world-us-canada-64929190"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/world-us-canada-64753595"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-england-merseyside-64881091"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/live/entertainment-arts-64938252"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/health-64899943"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/world-asia-china-64936125"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/science-environment-64903069"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/technology-64939556"
   },
@@ -595,7 +712,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/science-environment-64867517"
   },
@@ -610,7 +730,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.com/news/business-64872465"
   },
@@ -625,7 +748,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://www.bbc.co.uk/news/business-64623955"
   },
@@ -640,7 +766,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-england-tyne-64918073"
   },
@@ -655,7 +784,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/world-africa-64902352"
   },
@@ -670,7 +802,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/world-us-canada-64911059"
   },
@@ -685,7 +820,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/uk-england-york-north-yorkshire-64887992"
   },
@@ -700,7 +838,10 @@
       "identity_attack": 0.5,
       "insult": 0.5,
       "threat": 0.5,
-      "sexual_explicit": 0.5
+      "sexual_explicit": 0.5,
+      "positive": 0.5,
+      "neutral": 0.5,
+      "negative": 0.5
     },
     "url": "https://bbc.com/news/world-europe-64897655"
   }

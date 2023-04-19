@@ -10,7 +10,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00040,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.05643,
+      "neutral": 0.81093,
+      "negative": 0.13264
     },
     "url": "https://apnews.com/article/who-is-alvin-bragg-trump-manhattan-da-d77a4ec8df9a2b2b35f6e8bb9a52a5a7?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_01"
   },
@@ -25,7 +28,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00017,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.04132,
+      "neutral": 0.30228,
+      "negative": 0.65640
     },
     "url": "https://apnews.com/article/federal-reserve-inflation-banks-interest-rates-jobs-91a9185ebce972bbf5ab1f46654f1a53?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_03"
   },
@@ -40,7 +46,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00043,
       "threat": 0.00008,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.72833,
+      "neutral": 0.23130,
+      "negative": 0.04037
     },
     "url": "https://apnews.com/article/world-baseball-classic-japan-us-ohtani-trout-09c620b87260f7d8e8736ccc8fd950a6?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_04"
   },
@@ -55,7 +64,10 @@
       "identity_attack": 0.64027,
       "insult": 0.05114,
       "threat": 0.00200,
-      "sexual_explicit": 0.00126
+      "sexual_explicit": 0.00126,
+      "positive": 0.02761,
+      "neutral": 0.23301,
+      "negative": 0.73938
     },
     "url": "https://apnews.com/article/huckabee-sanders-schools-bathroom-transgender-lgbtq-6fc56daa21e1ce7f8189248dcc37588b?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_05"
   },
@@ -70,7 +82,10 @@
       "identity_attack": 0.00045,
       "insult": 0.00018,
       "threat": 0.00007,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.14635,
+      "neutral": 0.36902,
+      "negative": 0.48463
     },
     "url": "https://apnews.com/article/russia-ukraine-war-xi-china-japan-kishida-summit-07af10f35b16472d12549875af420d08?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_06"
   },
@@ -85,7 +100,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00020,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.05559,
+      "neutral": 0.73863,
+      "negative": 0.20578
     },
     "url": "https://apnews.com/article/gwyneth-paltrow-utah-ski-collision-trial-8bca6c9d5e8a1eb41fc0264effead79e?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_07"
   },
@@ -100,7 +118,10 @@
       "identity_attack": 0.00065,
       "insult": 0.00191,
       "threat": 0.00022,
-      "sexual_explicit": 0.00030
+      "sexual_explicit": 0.00030,
+      "positive": 0.01982,
+      "neutral": 0.13974,
+      "negative": 0.84045
     },
     "url": "https://apnews.com/article/new-orleans-mayor-recall-fails-latoya-cantrell-e0d405e7defa27bb2c098c1d840c0997?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_08"
   },
@@ -115,7 +136,10 @@
       "identity_attack": 0.00048,
       "insult": 0.00024,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.21722,
+      "neutral": 0.28980,
+      "negative": 0.49298
     },
     "url": "https://apnews.com/article/iraq-us-invasion-kurds-3223a368f3ad26fbe6760de477d6b973?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_09"
   },
@@ -130,7 +154,10 @@
       "identity_attack": 0.00070,
       "insult": 0.00034,
       "threat": 0.00157,
-      "sexual_explicit": 0.00011
+      "sexual_explicit": 0.00011,
+      "positive": 0.05289,
+      "neutral": 0.42036,
+      "negative": 0.52675
     },
     "url": "https://apnews.com/article/north-korea-missiles-f7584ba0845643c1e5892720092ccebf?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_10"
   },
@@ -145,7 +172,10 @@
       "identity_attack": 0.00059,
       "insult": 0.00518,
       "threat": 0.00016,
-      "sexual_explicit": 0.00011
+      "sexual_explicit": 0.00011,
+      "positive": 0.43536,
+      "neutral": 0.49740,
+      "negative": 0.06724
     },
     "url": "https://apnews.com/article/march-madness-undefeated-south-carolina-staley-c8ef02da16d3a4c390779374db48e0d0?utm_source=homepage&utm_medium=TopNews&utm_campaign=position_11"
   },
@@ -160,7 +190,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00055,
       "threat": 0.00007,
-      "sexual_explicit": 0.00007
+      "sexual_explicit": 0.00007,
+      "positive": 0.18078,
+      "neutral": 0.78297,
+      "negative": 0.03625
     },
     "url": "https://apnews.com/article/hong-kong-winnie-pooh-censorship-film-613ba02ab3cd453635f851bf1fbb071e"
   },
@@ -175,7 +208,10 @@
       "identity_attack": 0.00018,
       "insult": 0.10301,
       "threat": 0.00009,
-      "sexual_explicit": 0.00011
+      "sexual_explicit": 0.00011,
+      "positive": 0.02809,
+      "neutral": 0.13966,
+      "negative": 0.83224
     },
     "url": "https://apnews.com/article/grizzlies-ja-morant-21a9869c39dcff8d0ca2ca0c8c1ff10c"
   },
@@ -190,7 +226,10 @@
       "identity_attack": 0.00241,
       "insult": 0.00678,
       "threat": 0.00069,
-      "sexual_explicit": 0.00035
+      "sexual_explicit": 0.00035,
+      "positive": 0.02132,
+      "neutral": 0.14492,
+      "negative": 0.83375
     },
     "url": "https://apnews.com/article/messi-argentina-don-julio-restaurant-5c6cd0fa9f4b928fac909560395d4b61"
   },
@@ -205,7 +244,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00113,
       "threat": 0.00005,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.03934,
+      "neutral": 0.48994,
+      "negative": 0.47072
     },
     "url": "https://apnews.com/article/def-leppard-drummer-rick-allen-attacked-florida-074028cc3498d239cfccfc172b48f28a"
   },
@@ -220,7 +262,10 @@
       "identity_attack": 0.01673,
       "insult": 0.00466,
       "threat": 0.00432,
-      "sexual_explicit": 0.00026
+      "sexual_explicit": 0.00026,
+      "positive": 0.01334,
+      "neutral": 0.09968,
+      "negative": 0.88698
     },
     "url": "https://apnews.com/article/earthquake-pakistan-afghanistan-taliban-4dce3d7302ef95f3691afc4df7c025a1"
   },
@@ -235,7 +280,10 @@
       "identity_attack": 0.00028,
       "insult": 0.03877,
       "threat": 0.00007,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.01700,
+      "neutral": 0.11562,
+      "negative": 0.86738
     },
     "url": "https://apnews.com/article/zero-covid-exit-china-reopening-investigation-05e1bf6d14e3b77ade26b719093ac43b"
   },
@@ -250,7 +298,10 @@
       "identity_attack": 0.00318,
       "insult": 0.00102,
       "threat": 0.00023,
-      "sexual_explicit": 0.00040
+      "sexual_explicit": 0.00040,
+      "positive": 0.02196,
+      "neutral": 0.19256,
+      "negative": 0.78548
     },
     "url": "https://apnews.com/article/lgbtq-book-bans-91b2d4c086eb082cbecfdda2800ef29a"
   },
@@ -265,7 +316,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00022,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.09032,
+      "neutral": 0.57639,
+      "negative": 0.33329
     },
     "url": "https://apnews.com/article/misinformation-education-election-vaccine-canada-finland-e7d6eed63f3db289bf887605c99ab5c5"
   },
@@ -280,7 +334,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00021,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.59606,
+      "neutral": 0.35224,
+      "negative": 0.05170
     },
     "url": "https://apnews.com/article/climate-change-activism-ski-industry-028d83e19543db5d7633ea83932bdde3"
   },
@@ -295,7 +352,10 @@
       "identity_attack": 0.00018,
       "insult": 0.00023,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02025,
+      "neutral": 0.12706,
+      "negative": 0.85269
     },
     "url": "https://apnews.com/article/ohio-train-derailment-russia-disinformation-twitter-musk-49af27699727d6f4157a5d6d5f35819b"
   },
@@ -310,7 +370,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00024,
       "threat": 0.00003,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.81425,
+      "neutral": 0.17331,
+      "negative": 0.01244
     },
     "url": "https://apnews.com/article/march-madness-sweet-16-e2864238342a12a51c6659da4841d050"
   },
@@ -325,7 +388,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00027,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.63640,
+      "neutral": 0.33651,
+      "negative": 0.02710
     },
     "url": "https://apnews.com/article/march-madness-transfer-portal-0b9862a4e4e4b6da08ce56b3eb2c443a"
   },
@@ -340,7 +406,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00298,
       "threat": 0.00005,
-      "sexual_explicit": 0.00006
+      "sexual_explicit": 0.00006,
+      "positive": 0.72421,
+      "neutral": 0.24388,
+      "negative": 0.03191
     },
     "url": "https://apnews.com/article/march-madness-tennessee-volunteers-sweet-16-6101a6abb9002fc8a4fd525f710d9748"
   },
@@ -355,7 +424,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00032,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.04356,
+      "neutral": 0.73414,
+      "negative": 0.22230
     },
     "url": "https://apnews.com/article/march-madness-iona-fdu-anderson-pitino-dae6ca2272dddfbbd8e39dce02d3ae96"
   },
@@ -370,7 +442,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00048,
       "threat": 0.00005,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.79708,
+      "neutral": 0.16398,
+      "negative": 0.03894
     },
     "url": "https://apnews.com/article/march-madness-sweet-16-kansas-tang-63e449c8d08c70b3726732c7246bb7a5"
   },
@@ -385,7 +460,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00024,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.35362,
+      "neutral": 0.59133,
+      "negative": 0.05505
     },
     "url": "https://apnews.com/article/ukraine-imf-loan-package-russia-war-a88adb2e9778337d8655eeb268826ff8"
   },
@@ -400,7 +478,10 @@
       "identity_attack": 0.00051,
       "insult": 0.00026,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.02526,
+      "neutral": 0.21057,
+      "negative": 0.76417
     },
     "url": "https://apnews.com/article/drone-strike-crimea-missile-ukraine-russia-51bc8b2f20592382d843395ea269e3df"
   },
@@ -415,7 +496,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00037,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.16037,
+      "neutral": 0.70524,
+      "negative": 0.13439
     },
     "url": "https://apnews.com/article/xi-putin-russia-china-summit-06b296bc6b1c0c73634ed6329d9d2015"
   },
@@ -430,7 +514,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00019,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.05772,
+      "neutral": 0.24226,
+      "negative": 0.70002
     },
     "url": "https://apnews.com/article/china-russia-putin-jinping-oil-9b72c07fe4738998f5142389506fd35f"
   },
@@ -445,7 +532,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00024,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.13579,
+      "neutral": 0.79478,
+      "negative": 0.06943
     },
     "url": "https://apnews.com/article/poland-japan-kishida-visit-russia-ukraine-war-4ebb62eeabf6503ee3209d7cbdd4312a"
   },
@@ -460,7 +550,10 @@
       "identity_attack": 0.00009,
       "insult": 0.00016,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.27030,
+      "neutral": 0.52981,
+      "negative": 0.19990
     },
     "url": "https://apnews.com/article/britain-inflation-f254e30ff0dab3fc52c0dd59992d9c66"
   },
@@ -475,7 +568,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00017,
       "threat": 0.00005,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.22105,
+      "neutral": 0.57650,
+      "negative": 0.20245
     },
     "url": "https://apnews.com/article/shares-stocks-markets-federal-yellen-suisse-264e76ad84ece33bf1d06b8a0adfbf75"
   },
@@ -490,7 +586,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00135,
       "threat": 0.00012,
-      "sexual_explicit": 0.00009
+      "sexual_explicit": 0.00009,
+      "positive": 0.18454,
+      "neutral": 0.45032,
+      "negative": 0.36514
     },
     "url": "https://apnews.com/article/france-carnival-marseille-protests-police-fd4af3f39914ce4e209bf53ffc4c0fcf"
   },
@@ -505,7 +604,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00081,
       "threat": 0.00109,
-      "sexual_explicit": 0.00050
+      "sexual_explicit": 0.00050,
+      "positive": 0.03835,
+      "neutral": 0.29553,
+      "negative": 0.66612
     },
     "url": "https://apnews.com/article/boris-johnson-partygate-coronavirus-rules-uk-parliament-dec689d91755940254e94c2d23704298"
   },
@@ -520,7 +622,10 @@
       "identity_attack": 0.00019,
       "insult": 0.00020,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.10875,
+      "neutral": 0.30964,
+      "negative": 0.58161
     },
     "url": "https://apnews.com/article/greece-train-collision-elections-33c69746079f78092de616dba00ed1d9"
   },
@@ -535,7 +640,10 @@
       "identity_attack": 0.00021,
       "insult": 0.00017,
       "threat": 0.00011,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.41409,
+      "neutral": 0.48541,
+      "negative": 0.10050
     },
     "url": "https://apnews.com/article/ukraine-russia-war-abrams-tanks-94294a9c1e1acc50098afa440bcb4d40"
   },
@@ -550,7 +658,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00020,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.46290,
+      "neutral": 0.42513,
+      "negative": 0.11197
     },
     "url": "https://apnews.com/article/yellen-bank-collapse-silicon-valley-first-republic-6f5537524e1883c04e9488bae83a0345"
   },
@@ -565,7 +676,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00025,
       "threat": 0.00003,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.36317,
+      "neutral": 0.55619,
+      "negative": 0.08064
     },
     "url": "https://apnews.com/article/pence-social-security-medicare-president-2024-fc87ee66f6da6bc97413231efddfaf06"
   },
@@ -580,7 +694,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00025,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.02358,
+      "neutral": 0.29077,
+      "negative": 0.68565
     },
     "url": "https://apnews.com/article/un-water-sanitation-conference-7a3671dc74f788e36adff9ef9879ed91"
   },
@@ -595,7 +712,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00039,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.44861,
+      "neutral": 0.46841,
+      "negative": 0.08298
     },
     "url": "https://apnews.com/article/biden-arts-humanities-63742a82542683ebf0c3ed818cb572bb"
   },
@@ -610,7 +730,10 @@
       "identity_attack": 0.00011,
       "insult": 0.00035,
       "threat": 0.00004,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.84693,
+      "neutral": 0.12346,
+      "negative": 0.02961
     },
     "url": "https://apnews.com/article/john-wick-4-movie-review-d6350c7f8ceda029dd033bb60998f5c8"
   },
@@ -625,7 +748,10 @@
       "identity_attack": 0.00024,
       "insult": 0.00141,
       "threat": 0.00017,
-      "sexual_explicit": 0.00008
+      "sexual_explicit": 0.00008,
+      "positive": 0.30920,
+      "neutral": 0.53722,
+      "negative": 0.15358
     },
     "url": "https://apnews.com/article/circus-ringling-feld-bailey-tour-e55f8ee37e9b645a5d9c72e58992e9c2"
   },
@@ -640,7 +766,10 @@
       "identity_attack": 0.00015,
       "insult": 0.00088,
       "threat": 0.00004,
-      "sexual_explicit": 0.00005
+      "sexual_explicit": 0.00005,
+      "positive": 0.35088,
+      "neutral": 0.58529,
+      "negative": 0.06383
     },
     "url": "https://apnews.com/article/lance-reddick-john-wick-4-tributes-ff6cd68e124bd84892862c691d043fe2"
   },
@@ -655,7 +784,10 @@
       "identity_attack": 0.00087,
       "insult": 0.09692,
       "threat": 0.00048,
-      "sexual_explicit": 0.00027
+      "sexual_explicit": 0.00027,
+      "positive": 0.05015,
+      "neutral": 0.37060,
+      "negative": 0.57925
     },
     "url": "https://apnews.com/article/paul-newman-camp-fire-29dda4e2da432496c28366764ca2dde2"
   },
@@ -670,7 +802,10 @@
       "identity_attack": 0.00008,
       "insult": 0.00052,
       "threat": 0.00006,
-      "sexual_explicit": 0.00025
+      "sexual_explicit": 0.00025,
+      "positive": 0.22528,
+      "neutral": 0.68590,
+      "negative": 0.08881
     },
     "url": "https://apnews.com/article/sarah-snook-pregnant-succession-c520d613214d642244be0933a931f2c3"
   },
@@ -685,7 +820,10 @@
       "identity_attack": 0.00014,
       "insult": 0.00040,
       "threat": 0.00005,
-      "sexual_explicit": 0.00003
+      "sexual_explicit": 0.00003,
+      "positive": 0.22201,
+      "neutral": 0.29010,
+      "negative": 0.48789
     },
     "url": "https://apnews.com/article/team-usa-trout-betts-wbc-miami-5292eeb5d05713092092e497567279a4"
   },
@@ -700,7 +838,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00050,
       "threat": 0.00055,
-      "sexual_explicit": 0.00019
+      "sexual_explicit": 0.00019,
+      "positive": 0.03556,
+      "neutral": 0.34067,
+      "negative": 0.62378
     },
     "url": "https://apnews.com/article/thunder-clippers-nba-a4b32b5a8346a1ed6bd724bacfdac524"
   },
@@ -715,7 +856,10 @@
       "identity_attack": 0.00012,
       "insult": 0.00042,
       "threat": 0.00012,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.06751,
+      "neutral": 0.49712,
+      "negative": 0.43537
     },
     "url": "https://apnews.com/article/willis-reed-dies-knicks-7a86a451386ef4a2d65372d7919d930d"
   },
@@ -730,7 +874,10 @@
       "identity_attack": 0.00013,
       "insult": 0.00030,
       "threat": 0.00007,
-      "sexual_explicit": 0.00004
+      "sexual_explicit": 0.00004,
+      "positive": 0.37104,
+      "neutral": 0.60727,
+      "negative": 0.02169
     },
     "url": "https://apnews.com/article/world-baseball-classic-wbc-manfred-japan-us-4497d5f9ac9ce59e00777a799d1f4e1b"
   },
@@ -745,7 +892,10 @@
       "identity_attack": 0.00010,
       "insult": 0.00020,
       "threat": 0.00004,
-      "sexual_explicit": 0.00002
+      "sexual_explicit": 0.00002,
+      "positive": 0.21546,
+      "neutral": 0.75591,
+      "negative": 0.02863
     },
     "url": "https://apnews.com/article/pitch-clock-defensive-shifts-mlb-manfred-1721a4f0c7c05b1ad511a20dd57018bd"
   }
