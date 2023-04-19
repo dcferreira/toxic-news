@@ -15,6 +15,9 @@
     <!--Responsive Extension Datatables CSS-->
     <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"
           rel="stylesheet">
+    <!--Buttons Extension Datatables CSS-->
+    <link href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css"
+          rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
 
 
@@ -134,6 +137,7 @@
         Furthermore, they might be subject to human bias (although both the examples
         above have taken extensive measures to avoid that!).
     </p>
+
     <h1>Why is this important?</h1>
     <p>
         Comparing toxicity in headlines between different media outlets is important
@@ -165,26 +169,38 @@
         newspapers' reporting and make more informed decisions about which sources to
         trust.
     </p>
+
     <h1>Methodology</h1>
     <p>
-        Each website in <a href="">our list</a> is fetched once per day (at around 12pm
-        UTC), and all the headlines in the frontpage are saved.
-        The headlines then go through our machine learning models, which will output a
-        score between 0 and 1 for each headline.
+        Each website in
+        <a href="https://github.com/dcferreira/toxic-news/blob/main/toxic_news/newspapers.py">
+        our list</a> is fetched once per day (at around 12pm UTC),
+        and all the headlines in the frontpage are saved.
+        The headlines then go through our machine learning models: one for toxicity,
+        and one for sentiment analysis.
+    </p>
+    <p>
+        The toxicity model we're using is <a
+            href="https://github.com/unitaryai/detoxify">Unitary's Detoxify model</a>,
+        which was trained on <a
+            href="https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification/data">
+        online comments</a>, and output a score between 0 and 1 for various types of
+        toxicity (see the dataset for more details).
         In the <a href="/daily.html">daily page</a>, the average of these scores are
-        displayed.
-        Then the average of the numbers shown in the daily page are displayed in the <a
+        displayed for all the headlines in a particular days.
+        Those numbers are then averaged over a time period and displayed in the <a
             href="/index.html">main page</a>.
     </p>
     <p>
-        Currently the only model running is <a
-            href="https://github.com/unitaryai/detoxify">Unitary's Detoxify model</a>,
-        which was trained on <a
-            href="https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification/data">online
-        comments</a>.
-        Such comments are usually very different from headlines of media articles, so
-        these numbers should be taken with a grain of salt.
-        Further models are planned to be included in the future.
+        The sentiment analysis model we're using is
+        <a href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment">
+            CardiffNLP's twitter-XLM-roBERTa-base for Sentiment Analysis
+        </a>, which was trained on almost 200 million tweets.
+        The model outputs for each headline one of "positive", "neutral", or "negative".
+        In the <a href="/daily.html">daily page</a>, you can find the percentage of
+        "positive"/"neutral"/"negative" headlines for that particular day.
+        Those percentages are then averaged over a time period and displayed in the
+        <a href="/index.html">main page</a>.
     </p>
     <p>
         To collect the list of media outlets, we started by looking at the most popular
@@ -195,6 +211,29 @@
         Please see the <a href="#contributing">contributing section</a> if you want to
         help!
     </p>
+
+    <h1>Limitations</h1>
+    <p>
+        The biggest limitation is that, while this website is meant to automatically
+        rank online newspapers based on toxicity/negativity, those attributes are not
+        objective.
+        The Machine Learning models used here are likely to have similar biases as
+        humans, but due to the subjectivity of the topic, most likely will never
+        agree 100% with you.
+        Therefore, these numbers should <em>never</em> be used as the definite truth,
+        but only as one possible indicator.
+    </p>
+    <p>
+        The other main issue is that the models used were not trained on headlines.
+        The toxicity model was trained on comments from social media, and the
+        sentiment analysis model was trained on tweets.
+        The text in social media posts is very different to that found in headlines,
+        and as such the models are likely less accurate than when used for social
+        media comments.
+        But again, the models seem to be good enough in the headlines domain
+        to be useful, even if not perfect.
+    </p>
+
     <h1 id="contributing">Contributing</h1>
     <p>
         This project is completely open source and is hosted on GitHub: <a
@@ -208,6 +247,14 @@
         <li>adding more interesting models</li>
         <li>improving the UI to get more interesting insights</li>
     </ul>
+
+    <h1>Data</h1>
+    <p>
+        If you're interested in the data we've collected for this project
+        (namely headlines from many newspapers, with scores from our ML models),
+        please reach out to <a href="https://dcferreira.com">Daniel</a>.
+        We're happy to share the raw data if it's useful for anyone else!
+    </p>
 
 </article>
 

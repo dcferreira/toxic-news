@@ -15,6 +15,9 @@
     <!--Responsive Extension Datatables CSS-->
     <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"
           rel="stylesheet">
+    <!--Buttons Extension Datatables CSS-->
+    <link href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css"
+          rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
 
 
@@ -122,11 +125,13 @@
 <div class="px-2 text-sm md:pb-6">
 <p>
     The table below quantifies how toxic the headlines in the main page of each news website are.
-    For each day, all the headlines are run through
-    <a href="https://github.com/unitaryai/detoxify" class="text-blue-500 hover:underline">
-        Unitary's Detoxify model</a>
-    and the scores are averaged.
-    The numbers in this table are the averages of those scores.
+    Once per day, the headlines of these online newspapers are run through Machine Learning
+    models, in an attempt to quantify toxicity.
+    The table below contains the averages of the daily results over the selected time period.
+    Check out the <a href="daily.html" class="text-blue-500 hover:underline">Daily</a>
+    page for the results in a particular day, and the
+    <a href="about.html" class="text-blue-500 hover:underline">About</a> page for
+    methodology.
 </p>
 </div>
 <div id='recipients'
@@ -155,6 +160,8 @@
 <!--Datatables -->
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
 <script>const DataFrame = dfjs.DataFrame;
 
 const updateTable = (table, fname) => {
@@ -173,7 +180,9 @@ const updateTable = (table, fname) => {
 
 const columns = [{title: "Name"}, {title: "Toxicity"},
     {title: "Severe Toxicity"}, {title: "Obscene"}, {title: "Identity Attack"},
-    {title: "Insult"}, {title: "Threat"}, {title: "Sexually Explicit"}, {title: "#Days"},]
+    {title: "Insult"}, {title: "Threat"}, {title: "Sexually Explicit"},
+    {title: "Positive (%)"}, {title: "Neutral (%)"}, {title: "Negative (%)"},
+    {title: "#Days"},]
 
 const deselectBtn = (btn) => {
     btn.classList.add("bg-gray-800", "text-gray-300");
@@ -187,9 +196,13 @@ const selectBtn = (btn) => {
 
 $(document).ready(() => {
     const table = $('#example').DataTable({
+        dom: 'Bfrtip',
         columns: columns,
         scrollX: true,
+        buttons: ['colvis'],
     });
+    // table.buttons().container().appendTo( $('.col-sm-6:eq(0)', table.table().container() ) );
+    console.log(table.buttons());
     updateTable(table, "averages/all.csv");
 
     // buttons
