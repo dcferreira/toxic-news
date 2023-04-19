@@ -218,7 +218,12 @@ def query_daily_rows(date: datetime.date, db: Database) -> list[DailyRow]:
     ]
 
 
-def update_all_headlines_scores(db: Database):
+def update_all_headlines_scores(
+    db: Database,
+    write_coll_name: Optional[str] = None,
+    batch_size: int = 128,
+    replace: bool = True,
+):
     """
     Updates all the scores in the headlines. Useful when adding/changing models.
     This is a very expensive operation, shouldn't be executed often.
@@ -234,12 +239,50 @@ def update_all_headlines_scores(db: Database):
     db = get_database(os.environ["MONGODB_URL"], "test_database")
     update_all_headlines_scores(db)
     ```
+
+    It's probably better to write to a different collection (with `replace=False`)
+    and then change the name of the new collection to the same name as the old one.
+    This can be done in MongoDB's shell:
+    ```
+    > use admin
+    > db.runCommand({ renameCollection: "main.headlines", to: "main.headlines_old" })
+    > db.runCommand({ renameCollection: "main.transformed_headlines",
+                      to: "main.headlines" })
+    ```
     """
     headlines_coll = _get_headlines_collection(db)
+    write_coll = (
+        headlines_coll
+        if write_coll_name is None
+        else db.get_collection(write_coll_name)
+    )
     model = AllModels()
-    for doc in tqdm(
-        headlines_coll.find(), total=headlines_coll.estimated_document_count()
+
+    def insert(buf):
+        if replace:
+            # replace one by one, slow but sometimes needed
+            for write_doc in buf:
+                new_headline = Headline(
+                    scores=model.predict([write_doc["text"]])[0], **write_doc
+                )
+                write_coll.replace_one({"_id": write_doc["_id"]}, new_headline.dict())
+        else:
+            # replace multiple at once. a bit faster when writing
+            scores = model.predict([x["text"] for x in buf])
+            headlines = [
+                dict(Headline(scores=s, **write_doc).dict(), _id=write_doc["_id"])
+                for s, write_doc in zip(scores, buf)
+            ]
+            write_coll.insert_many(headlines)
+
+    buffer: list[dict] = []
+    for read_doc in tqdm(
+        headlines_coll.find(),
+        total=headlines_coll.estimated_document_count(),
     ):
-        del doc["scores"]
-        new_headline = Headline(scores=model.predict([doc["text"]])[0], **doc)
-        headlines_coll.replace_one({"_id": doc["_id"]}, new_headline.dict())
+        del read_doc["scores"]
+        buffer.append(read_doc)
+        if len(buffer) == batch_size:
+            insert(buffer)
+            buffer = []
+    insert(buffer)
