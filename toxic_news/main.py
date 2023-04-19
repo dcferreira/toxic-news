@@ -321,10 +321,7 @@ def generate_daily_csv_w_date(
                         "name": r.name,
                         "count": r.count,
                         "date": r.date.strftime(date_fmt),
-                        **{
-                            k: f"{v:.4}"  # export only 4 precision digits
-                            for k, v in r.scores.dict().items()
-                        },
+                        **{k: _export_float(v) for k, v in r.scores.dict().items()},
                     }
                 )
 
@@ -346,6 +343,14 @@ def generate_daily_csv(
     )
 
 
+def _export_float(value: float) -> str:
+    if value > 1.0:
+        # export only 4 precision digits
+        return f"{value:.4}"
+    # export 5 decimal places for small values
+    return f"{value:.5f}"
+
+
 def generate_averages_csv(
     start_date: datetime.date,
     end_date: datetime.date,
@@ -365,10 +370,7 @@ def generate_averages_csv(
                 {
                     "name": r.name,
                     "count": r.count,
-                    **{
-                        k: f"{v:.4}"  # export only 4 precision digits
-                        for k, v in r.scores.dict().items()
-                    },
+                    **{k: _export_float(v) for k, v in r.scores.dict().items()},
                 }
             )
 
