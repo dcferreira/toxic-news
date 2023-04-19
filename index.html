@@ -15,9 +15,6 @@
     <!--Responsive Extension Datatables CSS-->
     <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"
           rel="stylesheet">
-    <!--Buttons Extension Datatables CSS-->
-    <link href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css"
-          rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
 
 
@@ -160,8 +157,6 @@
 <!--Datatables -->
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
 <script>const DataFrame = dfjs.DataFrame;
 
 const updateTable = (table, fname) => {
@@ -196,13 +191,9 @@ const selectBtn = (btn) => {
 
 $(document).ready(() => {
     const table = $('#example').DataTable({
-        dom: 'Bfrtip',
         columns: columns,
         scrollX: true,
-        buttons: ['colvis'],
     });
-    // table.buttons().container().appendTo( $('.col-sm-6:eq(0)', table.table().container() ) );
-    console.log(table.buttons());
     updateTable(table, "averages/all.csv");
 
     // buttons
