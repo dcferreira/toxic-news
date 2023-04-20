@@ -43,8 +43,7 @@
         src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 <!--Datatables -->
-<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.13.4/b-2.3.6/b-colvis-2.3.6/r-2.4.1/datatables.min.js"></script>
 <script>
     const DataFrame = dfjs.DataFrame;
 
@@ -60,16 +59,32 @@
         );
     }
 
-    const columns = [{title: "Name"}, {title: "Toxicity"},
-        {title: "Severe Toxicity"}, {title: "Obscene"}, {title: "Identity Attack"},
-        {title: "Insult"}, {title: "Threat"}, {title: "Sexually Explicit"},
-        {title: "Positive (%)"}, {title: "Neutral (%)"}, {title: "Negative (%)"},
-        {title: "#Headlines"}, {title: "Date"}]
+    const columns = [
+        {title: "Name"},
+        {title: "Toxicity"},
+        {title: "Severe Toxicity", visible: false},
+        {title: "Obscene", visible: false},
+        {title: "Identity Attack"},
+        {title: "Insult"},
+        {title: "Threat", visible: false},
+        {title: "Sexually Explicit", visible: false},
+        {title: "Positive (%)", visible: false},
+        {title: "Neutral (%)"},
+        {title: "Negative (%)"},
+        {title: "#Headlines"},
+        {title: "Date"},
+    ]
 
     $(document).ready(() => {
         const table = $('#example').DataTable({
+            dom: 'Bfrtlip',
             columns: columns,
             scrollX: true,
+            buttons: [{
+                extend: 'colvis',
+                text: 'Columns',
+                columns: Array(columns.length - 1).fill().map((_, i) => i + 1),
+            }],
         });
         updateTable(table, "daily/{{ today.strftime('%Y/%m/%d') }}.csv");
 
