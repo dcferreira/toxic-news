@@ -196,10 +196,19 @@ newspapers = [
         name="The Washington Times",
         language="en",
         url="https://washingtontimes.com",
-        get_headlines_fn=get_xpath_fn(
-            "//div[@class='homeholding']//article/h2/a", href_xpath="."
+        get_headlines_fn=get_dated_xpath_fn(
+            DatedXpath(
+                from_date=datetime(2023, 5, 17),
+                headline_xpath="//article//*[@class='article-headline']/a",
+                href_xpath=".",
+            ),
+            DatedXpath(
+                from_date=None,
+                headline_xpath="//div[@class='homeholding']//article/h2/a",
+                href_xpath=".",
+            ),
         ),
-        expected_headlines=46,
+        expected_headlines=73,
     ),
     Newspaper(
         name="The New York Times",
@@ -288,7 +297,8 @@ newspapers = [
         get_headlines_fn=get_dated_xpath_fn(
             DatedXpath(
                 from_date=datetime(2023, 4, 3),
-                headline_xpath="//div[@class='news-title']/a",
+                # headline_xpath="//div[@class='news-title']/a",
+                headline_xpath="//article/div[@class='news-title']/a",
                 href_xpath=".",
             ),
             DatedXpath(
@@ -299,7 +309,7 @@ newspapers = [
                 href_xpath=".",
             ),
         ),
-        expected_headlines=102,
+        expected_headlines=75,
     ),
     Newspaper(
         name="One America News Network (OAN)",

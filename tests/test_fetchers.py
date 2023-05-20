@@ -12,6 +12,8 @@ from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher, cl
 from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import newspapers
 
+DATE = datetime(2023, 5, 20)
+
 
 def _clean_newspaper(n: Newspaper) -> str:
     return clean_url(n.url)
@@ -23,12 +25,12 @@ def make_mock_fetcher(monkeypatch, url, assets):
         monkeypatch.setattr(Fetcher, "content", fd.read())
 
     # set request time to a fixed value
-    monkeypatch.setattr(Fetcher, "request_time", datetime(2023, 3, 27))
+    monkeypatch.setattr(Fetcher, "request_time", DATE)
 
 
 def test_fetcher_save_load(tmp_path, monkeypatch, assets):
     newspaper = newspapers[0]
-    fake_time = datetime(2023, 3, 27)
+    fake_time = DATE
 
     fetcher = Fetcher(newspaper=newspaper, cache_dir=tmp_path)
     with open(assets / "html" / f"{clean_url(newspaper.url)}.html", "rb") as fd:
@@ -49,8 +51,9 @@ def test_parse(assets, snapshot, monkeypatch, newspaper):
 
     fetcher = Fetcher(newspaper)
     snapshot.snapshot_dir = assets / "../snapshots/test_parse"
+    content = fetcher.fetch()
     snapshot.assert_match(
-        json.dumps(fetcher.fetch(), indent=2), f"{clean_url(newspaper.url)}.txt"
+        json.dumps(content, indent=2), f"{clean_url(newspaper.url)}.txt"
     )
 
 

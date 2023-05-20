@@ -1,146 +1,294 @@
 [
   [
-    "U.S.-South Korean drills kick off, reviving North Korean fears",
-    "https://washingtontimes.com/news/2023/mar/13/us-south-korean-drills-kick-reviving-north-korean-/"
+    "NEW: Making predictions in the Sabbath challenge",
+    "https://washingtontimes.com/specials/court-watch-alex-swoyer-podcast/"
   ],
   [
-    "White House calls Pence \u2018homophobic\u2019 over joke about Buttigieg\u2019s maternity leave",
-    "https://washingtontimes.com/news/2023/mar/13/white-house-calls-pence-homophobic-over-joke-about/"
+    "Beware, there\u2019s a new climate change scheme afoot",
+    "https://washingtontimes.com/specials/bold-blunt-podcast/"
   ],
   [
-    "Trump heads to Iowa, DeSantis to headline major N.H. event in early primary start",
-    "https://washingtontimes.com/news/2023/mar/13/donald-trump-heads-to-iowa-ron-desantis-to-headlin/"
+    "The U.S., China\u2026 and Seoul",
+    "https://washingtontimes.com/specials/history-happens-podcast/"
   ],
   [
-    "Biden\u2019s border \u2018parole\u2019 program in peril as congressional GOP plans vote to overturn",
-    "https://washingtontimes.com/news/2023/mar/13/congressional-gop-plans-vote-overturn-bidens-borde/"
+    "Federal wildlife agency says eco-grief training done; now \u2018racial equity\u2019 work draws scrutiny",
+    "https://washingtontimes.com/news/2023/may/19/federal-wildlife-agency-says-eco-grief-training-do/"
   ],
   [
-    "Biden defends \u2018safe\u2019 banking system amid biggest collapses since 2008",
-    "https://washingtontimes.com/news/2023/mar/13/joe-biden-says-banking-system-safe-after-silicon-v/"
+    "Sen. Tim Scott files paperwork for 2024 GOP presidential bid",
+    "https://washingtontimes.com/news/2023/may/19/sen-tim-scott-files-paperwork-2024-gop-presidentia/"
   ],
   [
-    "WATCH: Biden proposes a major tax increase. \u2018Top of the Times\u2019 with Haris Alic",
-    "https://washingtontimes.com/news/2023/mar/13/top-times-biden-proposes-major-tax-increase/"
+    "Comer says the rising number of terrorism suspects at the border is a \u2018clear national security risk\u2019",
+    "https://washingtontimes.com/news/2023/may/19/comer-says-rising-number-of-terrorism-suspects-at-/"
   ],
   [
-    "Congress shows seismic shift on Wuhan lab likely causing the pandemic",
-    "https://washingtontimes.com/news/2023/mar/12/congress-shows-seismic-shift-wuhan-lab-likely-caus/"
+    "House probe: More foreign deals suggest Biden was planning a well-heeled retirement, says Comer",
+    "https://washingtontimes.com/news/2023/may/18/house-probe-digs-more-foreign-deals-suggest-joe-bi/"
   ],
   [
-    "Priests could be allowed to marry, Pope Francis says",
-    "https://washingtontimes.com/news/2023/mar/13/pope-francis-priests-could-be-allowed-marry/"
+    "Biden approves plan to let Ukrainians train on U.S.-made F-16s and other fighters",
+    "https://washingtontimes.com/news/2023/may/19/biden-approves-plan-let-ukrainians-train-us-made-f/"
   ],
   [
-    "Oscar winner Michelle Yeoh takes dig at CNN\u2019s Don Lemon in acceptance speech",
-    "https://washingtontimes.com/news/2023/mar/13/michelle-yeoh-takes-dig-cnns-don-lemon-oscars-acce/"
+    "Nebraska passes 12-week abortion limit, bans transgender surgeries for minors",
+    "https://washingtontimes.com/news/2023/may/19/nebraska-passes-12-week-abortion-limit-bans-transg/"
   ],
   [
-    "Elon Musk calls for release of \u2018QAnon Shaman\u2019",
-    "https://washingtontimes.com/news/2023/mar/10/elon-musk-calls-release-qanon-shaman-jacob-chansle/"
+    "How To Entirely Empty Your Bowels Every Morning - Top Surgeon Explains How",
+    "http://gundrymd.com/cmd.php?ad=972729"
   ],
   [
-    "9th grader sues over Pledge of Allegiance confrontation",
-    "https://washingtontimes.com/news/2023/mar/10/9th-grader-sues-over-pledge-of-allegiance-confront/"
+    "Biden, McCarthy restart debt negotiations after snafu over spending cuts",
+    "https://washingtontimes.com/news/2023/may/19/biden-kevin-mccarthy-restart-debt-negotiations-aft/"
   ],
   [
-    "\u2018Everything\u2019 wins best picture, is everywhere at Oscars",
-    "https://washingtontimes.com/news/2023/mar/12/best-picture-oscar-winner-everything-everywhere-al/"
+    "\u2018Impasse\u2019: House GOP walk out of debt limit talks with White House citing no progress",
+    "https://washingtontimes.com/news/2023/may/19/impasse-debt-talks-pause-amid-failure-make-progres/"
   ],
   [
-    "Biden greenlights major Alaska oil drilling project as climate activists seethe",
-    "https://washingtontimes.com/news/2023/mar/13/joe-biden-greenlights-major-alaska-oil-drilling-pr/"
+    "Let the impeachments begin",
+    "https://washingtontimes.com/news/2023/may/19/let-impeachments-begin/"
   ],
   [
-    "Vice President Harris snubs Elizabeth Warren\u2019s attempt to apologize",
-    "https://washingtontimes.com/news/2023/mar/13/kamala-harris-snubs-elizabeth-warrens-attempt-apol/"
+    "Retribution for Crossfire Hurricane is in order",
+    "https://washingtontimes.com/news/2023/may/18/retribution-for-crossfire-hurricane-is-in-order/"
   ],
   [
-    "Fewer community college students transferring to four-year schools: Report",
-    "https://washingtontimes.com/news/2023/mar/9/fewer-community-college-students-transferring-four/"
+    "Medal of Honor recipient missing 73 years to be buried Memorial Day",
+    "https://washingtontimes.com/news/2023/may/19/medal-of-honor-recipient-missing-73-years-to-be-bu/"
   ],
   [
-    "Lay Catholics campaign to deny Communion for pro-abortion politicians",
-    "https://washingtontimes.com/news/2023/mar/8/lay-catholics-campaign-deny-communion-pro-abortion/"
+    "Hot dog! Oscar Mayer rolls out Frankmobile",
+    "https://washingtontimes.com/news/2023/may/19/hot-dog-oscar-mayer-rolls-out-frankmobile-former-w/"
   ],
   [
-    "Schools say American kids are hungry and it\u2019s hard to focus",
-    "https://washingtontimes.com/news/2023/mar/11/schools-say-american-kids-are-hungry-and-its-hard-/"
+    "What is a woman? Tennessee has the answer, with Gov. Bill Lee signing bill defining sex in state law",
+    "https://washingtontimes.com/news/2023/may/18/what-woman-tennessee-has-answer-gov-bill-lee-signi/"
   ],
   [
-    "Biden admin guarantees Silicon Valley Bank deposits, shutters N.Y. bank in bid to head off crisis",
-    "https://washingtontimes.com/news/2023/mar/12/silicon-valley-bank-collapse-rise-woke-financial-s/"
+    "Brittney Griner set for first WNBA game since detainment in Russia",
+    "https://washingtontimes.com/news/2023/may/19/brittney-griner-set-for-first-wnba-game-since-deta/"
   ],
   [
-    "Former CDC director says COVID-19 \u2018more likely\u2019 came from Chinese lab leak",
-    "https://washingtontimes.com/news/2023/mar/8/no-smoking-gun-covid-19-lab-leak-theory-barrel-war/"
+    "Border Patrol agents shot at from Mexico while rescuing 4-year-old migrant",
+    "https://washingtontimes.com/news/2023/may/19/border-patrol-agents-shot-mexico-while-rescuing-4-/"
   ],
   [
-    "Twitter Files journalists warn of social media\u2019s censorship web ensnaring Americans",
-    "https://washingtontimes.com/news/2023/mar/9/twitter-files-journalists-warn-web-censorship-test/"
+    "Barr says Durham probe shouldn\u2019t be measured by prosecutions",
+    "https://washingtontimes.com/news/2023/may/19/bill-barr-says-durham-probe-shouldnt-be-measured-p/"
   ],
   [
-    "IRS audit finds 42,000 feds cheating on taxes",
-    "https://washingtontimes.com/news/2023/mar/10/irs-audit-finds-42000-feds-cheating-on-taxes/"
+    "\u2018Reason for God\u2019 author Timothy Keller dies after years of cancer battle",
+    "https://washingtontimes.com/news/2023/may/19/reason-for-god-author-timothy-keller-dies-after-ye/"
   ],
   [
-    "Choir song from jailed Capitol rioters reaches top of iTunes chart",
-    "https://washingtontimes.com/news/2023/mar/13/choir-song-jailed-capitol-rioters-reaches-top-itun/"
+    "Did Facebook just censor Jesus? Bizarre \u2018hate speech\u2019 message sparks concern",
+    "https://washingtontimes.com/news/2023/may/18/did-facebook-just-censor-jesus-bizarre-hate-speech/"
   ],
   [
-    "Pfizer buys Seagen for $43B, boosts access to cancer drugs",
-    "https://washingtontimes.com/news/2023/mar/13/pfizer-buys-seagen-for-43b-boosts-access-to-cancer/"
+    "FTC accuses fertility tracking app with sharing data with China, Google",
+    "https://washingtontimes.com/news/2023/may/18/ftc-accuses-fertility-tracking-app-sharing-data-ch/"
   ],
   [
-    "Goldman Sachs doesn\u2019t expect Fed to raise rates in March, citing bank chaos",
-    "https://washingtontimes.com/news/2023/mar/13/goldman-sachs-doesnt-expect-fed-raise-rates-march-/"
+    "FBI whistleblowers describe retaliation by bureau brass against rank and file who speak out",
+    "https://washingtontimes.com/news/2023/may/18/fbi-whistleblowers-describe-retaliation-bureau-bra/"
   ],
   [
-    "New Pentagon budget targets ammo, weapons shortages after Ukraine",
-    "https://washingtontimes.com/news/2023/mar/13/new-pentagon-budget-targets-ammo-weapons-shortages/"
+    "National Institutes of Health cuts off Wuhan Institute of Virology from taxpayer funding",
+    "https://washingtontimes.com/news/2023/may/17/national-institutes-health-cuts-wuhan-institute-vi/"
   ],
   [
-    "Nepal to implement countrywide ban on solo hikes",
-    "https://washingtontimes.com/news/2023/mar/13/nepal-implement-countrywide-ban-solo-hikes/"
+    "Libraries struggle with shrinking budgets, bitter book battles, influx of homeless",
+    "https://washingtontimes.com/news/2023/may/17/libraries-struggle-shrinking-budgets-bitter-book-b/"
   ],
   [
-    "Danny Johnson re-sign with Commanders on two-year deal",
-    "https://washingtontimes.com/news/2023/mar/13/danny-johnson-re-sign-commanders-two-year-deal/"
+    "Distracted: Biden\u2019s Quad summit no-show rattles U.S. allies in Pacific",
+    "https://washingtontimes.com/news/2023/may/17/distracted-joe-bidens-quad-summit-no-show-rattles-/"
   ],
   [
-    "March Madness betting guide: Not just about brackets",
-    "https://washingtontimes.com/news/2023/mar/13/march-madness-betting-guide-not-just-about-bracket/"
+    "Texas militia member sentenced to nearly 5 years in prison for attacking police during Capitol riot",
+    "https://washingtontimes.com/news/2023/may/19/texas-militia-member-sentenced-to-nearly-5-years-i/"
   ],
   [
-    "Commanders, Daron Payne reach four-year, $90 million deal",
-    "https://washingtontimes.com/news/2023/mar/12/commanders-daron-payne-reach-four-year-90-million-/"
+    "FBI broke rules in scouring foreign intelligence on Jan. 6 riot, racial justice protests, court says",
+    "https://washingtontimes.com/news/2023/may/19/fbi-broke-rules-scouring-foreign-intelligence-jan-/"
   ],
   [
-    "Alabama, Houston, Kansas, Purdue earn No. 1 seeds in NCAA Tournament",
-    "https://washingtontimes.com/news/2023/mar/12/march-madness-alabama-houston-kansas-purdue-1-seed/"
+    "4th death, more vision loss cases linked to tainted eyedrops",
+    "https://washingtontimes.com/news/2023/may/19/4th-death-more-vision-loss-cases-linked-to-tainted/"
   ],
   [
-    "GOP Sen. John Kennedy accuses Biden of \u2018demagoguing\u2019 Social Security funding",
-    "https://washingtontimes.com/news/2023/mar/13/gop-sen-john-kennedy-accuses-biden-demagoguing-soc/"
+    "Jordan Neely, NYC subway rider choked to death, is mourned at Manhattan church",
+    "https://washingtontimes.com/news/2023/may/19/jordan-neely-nyc-subway-rider-choked-death-mourned/"
   ],
   [
-    "Home Depot founder knocks \u2018woke\u2019 Silicon Valley Bank going bust: Americans need to \u2018wake up\u2019",
-    "https://washingtontimes.com/news/2023/mar/12/home-depot-founder-bernie-marcus-knocks-woke-silic/"
+    "Earthquake in the South Pacific causes small tsunamis",
+    "https://washingtontimes.com/news/2023/may/19/earthquake-south-pacific-causes-small-tsunamis/"
   ],
   [
-    "Rich Russians spared as Putin sends poor, ethnic minorities to front lines in Ukraine",
-    "https://washingtontimes.com/news/2023/mar/12/rich-russians-spared-vladimir-putin-sends-poor-eth/"
+    "Biden, G7 leaders visit Hiroshima site, offer prayer and warning to Russia",
+    "https://washingtontimes.com/news/2023/may/19/joe-biden-g-7-leaders-visit-hiroshima-site-offer-p/"
   ],
   [
-    "McCarthy vows to \u2018slowly roll out\u2019 Jan. 6 tapes to news outlets after blowback",
-    "https://washingtontimes.com/news/2023/mar/12/kevin-mccarthy-vows-slowly-roll-out-jan-6-tapes-ne/"
+    "Zelenskyy to attend G-7 summit Sunday as world leaders tighten sanctions against Russia over Ukraine",
+    "https://washingtontimes.com/news/2023/may/18/zelenskyy-to-attend-g-7-summit-sunday-as-world-lea/"
   ],
   [
-    "Sen. Cramer: DeSantis has a place among GOP candidates vying for 2024 presidential race nomination",
-    "https://washingtontimes.com/news/2023/mar/12/kevin-cramer-ron-desantis-has-earned-right-be-head/"
+    "All-time NFL great running back, social activist Jim Brown dead at 87",
+    "https://washingtontimes.com/news/2023/may/19/all-time-nfl-great-running-back-social-activist-ji/"
   ],
   [
-    "House Republicans step up pressure on State Department over funding for \u2018disinformation\u2019 index",
-    "https://washingtontimes.com/news/2023/mar/11/house-republicans-step-pressure-state-department-o/"
+    "NFL: No vote on Commanders sale at Minneapolis meetings",
+    "https://washingtontimes.com/news/2023/may/18/nfl-no-vote-commanders-sale-minneapolis-meetings/"
+  ],
+  [
+    "After 27 years, NASCAR returns to once-abandoned North Wilkesboro Speedway for All-Star race",
+    "https://washingtontimes.com/news/2023/may/19/after-27-years-nascar-returns-to-once-abandoned-no/"
+  ],
+  [
+    "Connecting and competing: An insider's guide to Infrastructure in 2023",
+    "https://washingtontimes.com/specials/infrastructure-2023/"
+  ],
+  [
+    "Celebrating 70 Years: The United States & South Korea Alliance",
+    "https://washingtontimes.com/specials/celebrating-70-years-us-south-korea-alliance/"
+  ],
+  [
+    "Energy & Environment: An exploration of American sources, security & sustainability",
+    "https://washingtontimes.com/specials/energy-environment-2023/"
+  ],
+  [
+    "ESG Investments: Prudent or Perilously Political?",
+    "https://washingtontimes.com/specials/esg-investments/"
+  ],
+  [
+    "In the absence of U.S. leadership, China is filling the void in Latin America",
+    "https://washingtontimes.com/news/2023/may/19/in-absence-of-us-leadership-china-is-filling-void-/"
+  ],
+  [
+    "May God bless our military",
+    "https://washingtontimes.com/news/2023/may/19/may-god-bless-our-military/"
+  ],
+  [
+    "CPAC Hungary to gather world conservatives in Budapest",
+    "https://washingtontimes.com/news/2023/may/19/cpac-hungary-gather-world-conservatives-budapest/"
+  ],
+  [
+    "Ukraine\u2019s Kalinina dedicates win to homeland after beating a Russian to reach Rome final",
+    "https://washingtontimes.com/news/2023/may/19/ukraines-anhelina-kalinina-dedicates-win-to-homela/"
+  ],
+  [
+    "COVID emergency orders are among `greatest intrusions on civil liberties,\u2019 Justice Gorsuch says",
+    "https://washingtontimes.com/news/2023/may/19/gorsuch-covid-emergency-orders-are-among-greatest-/"
+  ],
+  [
+    "Biden to meet with Quad leaders in Japan, makes amends for snubbing allies",
+    "https://washingtontimes.com/news/2023/may/19/joe-biden-now-to-meet-with-quad-leaders-in-japan-m/"
+  ],
+  [
+    "Marsha Blackburn, Ted Cruz probe Bud Light\u2019s Dylan Mulvaney ad for targeting underage drinkers",
+    "https://washingtontimes.com/news/2023/may/19/marsha-blackburn-ted-cruz-probe-bud-lights-dylan-m/"
+  ],
+  [
+    "G7 leaders unveil new Russia sanctions, prepare for Zelenskyy visit",
+    "https://washingtontimes.com/news/2023/may/19/g7-leaders-unveil-new-russia-sanctions-prepare-zel/"
+  ],
+  [
+    "Colombian President Petro retracts tweet announcing missing children had been found",
+    "https://washingtontimes.com/news/2023/may/19/colombian-president-petro-retracts-tweet-announcin/"
+  ],
+  [
+    "AOC warns Democrats against banking on anti-Trump coalition delivering second term for Biden",
+    "https://washingtontimes.com/news/2023/may/19/alexandria-ocasio-cortez-dems-cant-bank-anti-trump/"
+  ],
+  [
+    "Supreme Court Justice Gorsuch scolds Americans over handling of pandemic emergencies",
+    "https://washingtontimes.com/news/2023/may/18/neil-gorsuch-scolds-americans-over-handling-pandem/"
+  ],
+  [
+    "Trump escalates attacks ahead of DeSantis\u2019 campaign launch",
+    "https://washingtontimes.com/news/2023/may/18/trump-escalates-attacks-ahead-desantis-campaign-la/"
+  ],
+  [
+    "Building a \u2018superhuman\u2019: Focus on mind, body, soul drives evolution of America\u2019s warfighters",
+    "https://washingtontimes.com/news/2023/may/17/building-superhuman-focus-mind-body-soul-drives-ev/"
+  ],
+  [
+    "Let the impeachments begin",
+    "https://www.washingtontimes.com/news/2023/may/19/let-impeachments-begin/"
+  ],
+  [
+    "Retribution for Crossfire Hurricane is in order",
+    "https://www.washingtontimes.com/news/2023/may/18/retribution-for-crossfire-hurricane-is-in-order/"
+  ],
+  [
+    "LOVERRO: Commanders housecleaning needs to extend beyond Snyder",
+    "https://www.washingtontimes.com/news/2023/may/18/loverro-commanders-housecleaning-needs-extend-beyo/"
+  ],
+  [
+    "Border Patrol agents shot at from Mexico while rescuing 4-year-old migrant",
+    "https://www.washingtontimes.com/news/2023/may/19/border-patrol-agents-shot-mexico-while-rescuing-4-/"
+  ],
+  [
+    "Americans tell Gallup they're fed up with federal income taxes",
+    "https://www.washingtontimes.com/news/2023/may/19/americans-tell-gallup-theyre-fed-federal-income-ta/"
+  ],
+  [
+    "Inside The Beltway",
+    "https://washingtontimes.com/news/inside-the-beltway/"
+  ],
+  [
+    "Inside The Ring",
+    "https://washingtontimes.com/news/inside-the-ring/"
+  ],
+  [
+    "Nuclear Option",
+    "https://washingtontimes.com/opinion/nuclear-option/"
+  ],
+  [
+    "Can you pass a U.S. state capitals test?",
+    "https://washingtontimes.com/quiz/2019/apr/11/can-you-pass-us-state-capitals-test/"
+  ],
+  [
+    "Can you pass a world history test?",
+    "https://washingtontimes.com/quiz/2018/jun/14/can-you-pass-world-history-test/"
+  ],
+  [
+    "How well do you know The Golden Girls' Betty White?",
+    "https://washingtontimes.com/quiz/2017/oct/17/how-well-do-you-know-golden-girls-b/"
+  ],
+  [
+    "Tom Basile",
+    "https://washingtontimes.com/staff/tom-basile/"
+  ],
+  [
+    "Charles Hurt",
+    "https://washingtontimes.com/staff/charles-hurt/"
+  ],
+  [
+    "Bud Light \u2014 sorry: \u2018Queer beer\u2019 tag here to stay",
+    "https://washingtontimes.com/news/2023/may/18/bud-light-sorry-queer-beer-tag-here-to-stay/"
+  ],
+  [
+    "Durham confirms: FBI targeted Trump for witch hunt",
+    "https://washingtontimes.com/news/2023/may/16/john-durham-confirms-fbi-targeted-donald-trump-for/"
+  ],
+  [
+    "Life after Tucker: Lachlan Murdoch says Fox does \u2018best thing for the company in long term\u2019",
+    "https://washingtontimes.com/news/2023/may/18/life-after-tucker-carlson-lachlan-murdoch-says-fox/"
+  ],
+  [
+    "CNN names Kaitlan Collins to fill prime-time vacancy in Chris Cuomo\u2019s old slot",
+    "https://washingtontimes.com/news/2023/may/17/cnn-names-kaitlan-collins-fill-prime-time-vacancy-/"
+  ],
+  [
+    "ABC News crew spends year in Uvalde, documents journey of survivors, families of shooting victims",
+    "https://washingtontimes.com/news/2023/may/18/abc-news-crew-spends-year-uvalde-texas-documenting/"
+  ],
+  [
+    "Sign up for delivery",
+    "https://washingtontimes.com/subscribe/?subscribe_signup_home"
   ]
 ]
