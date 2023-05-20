@@ -2,6 +2,7 @@ public/
 db/
 .requests_cache/
 notebooks/_*
+.hatch
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

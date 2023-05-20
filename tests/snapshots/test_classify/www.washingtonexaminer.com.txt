@@ -11,9 +11,9 @@
       "insult": 0.00018,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.24851,
-      "neutral": 0.39215,
-      "negative": 0.35935
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/faith-freedom-self-reliance/judge-upholds-scotus-precedent-by-blocking-california-handgun-rule"
   },
@@ -22,16 +22,16 @@
     "language": "en",
     "text": "Using sedition and domestic terrorism laws against rioters is overkill",
     "scores": {
-      "toxicity": 0.01159,
+      "toxicity": 0.01148,
       "severe_toxicity": 0.00003,
       "obscene": 0.00014,
-      "identity_attack": 0.00141,
+      "identity_attack": 0.00139,
       "insult": 0.00092,
-      "threat": 0.00086,
+      "threat": 0.00085,
       "sexual_explicit": 0.00009,
-      "positive": 0.01080,
-      "neutral": 0.04048,
-      "negative": 0.94873
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/fairness-justice/using-sedition-domestic-terrorism-laws-is-overkill"
   },
@@ -47,9 +47,9 @@
       "insult": 0.00018,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.07523,
-      "neutral": 0.64898,
-      "negative": 0.27579
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/campaigns/indictment-trump-vs-desantis-2024-contest"
   },
@@ -58,16 +58,16 @@
     "language": "en",
     "text": "DOJ watchdog threatened obstruction of justice probe against Obama-era FBI",
     "scores": {
-      "toxicity": 0.00076,
+      "toxicity": 0.00075,
       "severe_toxicity": 0.00002,
       "obscene": 0.00016,
       "identity_attack": 0.00010,
       "insult": 0.00037,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02120,
-      "neutral": 0.14143,
-      "negative": 0.83737
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/justice/doj-watchdog-threatened-obstruction-justice-investigation-obama-era-fbi"
   },
@@ -83,9 +83,9 @@
       "insult": 0.00033,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.04182,
-      "neutral": 0.56785,
-      "negative": 0.39032
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/courts/texts-between-stormy-daniels-trump-attorney-handed-over"
   },
@@ -94,16 +94,16 @@
     "language": "en",
     "text": "Democratic city's school unions are COVIDing children all over again",
     "scores": {
-      "toxicity": 0.03625,
-      "severe_toxicity": 0.00007,
-      "obscene": 0.00192,
+      "toxicity": 0.03553,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00190,
       "identity_attack": 0.00022,
-      "insult": 0.01147,
+      "insult": 0.01127,
       "threat": 0.00034,
       "sexual_explicit": 0.00024,
-      "positive": 0.01376,
-      "neutral": 0.09180,
-      "negative": 0.89444
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/editorials/las-school-unions-are-coviding-children-all-over-again"
   },
@@ -112,16 +112,16 @@
     "language": "en",
     "text": "Democrat billionaire trying to force\u00a0Trump out of GOP\u00a0primary",
     "scores": {
-      "toxicity": 0.00203,
+      "toxicity": 0.00200,
       "severe_toxicity": 0.00001,
       "obscene": 0.00010,
       "identity_attack": 0.00010,
-      "insult": 0.00063,
+      "insult": 0.00062,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.03037,
-      "neutral": 0.19395,
-      "negative": 0.77568
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/campaigns/reid-hoffman-efforts-edge-trump-out-primary"
   },
@@ -137,9 +137,9 @@
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.30725,
-      "neutral": 0.63931,
-      "negative": 0.05344
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/campaigns/republicans-seek-independently-wealthy-candidates-for-senate"
   },
@@ -148,16 +148,16 @@
     "language": "en",
     "text": "Trump\u2019s Stormy saga shows he's a cad, not a convict",
     "scores": {
-      "toxicity": 0.70774,
+      "toxicity": 0.70651,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00201,
+      "obscene": 0.00202,
       "identity_attack": 0.00044,
-      "insult": 0.61364,
+      "insult": 0.61219,
       "threat": 0.00022,
       "sexual_explicit": 0.00054,
-      "positive": 0.02352,
-      "neutral": 0.20316,
-      "negative": 0.77332
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/fairness-justice/trumps-stormy-daniels-saga-shows-hes-a-cad-not-a-convict"
   },
@@ -166,16 +166,16 @@
     "language": "en",
     "text": "Trump says getting shot during arrest would win him 2024",
     "scores": {
-      "toxicity": 0.32204,
-      "severe_toxicity": 0.00049,
-      "obscene": 0.00101,
-      "identity_attack": 0.00339,
-      "insult": 0.00268,
-      "threat": 0.21863,
-      "sexual_explicit": 0.00090,
-      "positive": 0.20505,
-      "neutral": 0.47360,
-      "negative": 0.32135
+      "toxicity": 0.31833,
+      "severe_toxicity": 0.00048,
+      "obscene": 0.00100,
+      "identity_attack": 0.00335,
+      "insult": 0.00266,
+      "threat": 0.21632,
+      "sexual_explicit": 0.00089,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/white-house/trump-getting-shot-win-presidency-2024"
   },
@@ -184,16 +184,16 @@
     "language": "en",
     "text": "Inability to repair electric car batteries presents problems",
     "scores": {
-      "toxicity": 0.00069,
+      "toxicity": 0.00068,
       "severe_toxicity": 0.00003,
       "obscene": 0.00019,
       "identity_attack": 0.00013,
       "insult": 0.00022,
       "threat": 0.00009,
       "sexual_explicit": 0.00003,
-      "positive": 0.01660,
-      "neutral": 0.13289,
-      "negative": 0.85051
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/energy-environment/damaged-electric-vehicle-batteries-sustainability-problems"
   },
@@ -202,16 +202,16 @@
     "language": "en",
     "text": "Donald Trump indictment: What to watch if former president is arrested",
     "scores": {
-      "toxicity": 0.00271,
+      "toxicity": 0.00266,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
       "identity_attack": 0.00011,
-      "insult": 0.00060,
+      "insult": 0.00059,
       "threat": 0.00011,
       "sexual_explicit": 0.00003,
-      "positive": 0.03945,
-      "neutral": 0.54100,
-      "negative": 0.41956
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/courts/donald-trump-indictment-what-watch"
   },
@@ -227,9 +227,9 @@
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.13320,
-      "neutral": 0.55230,
-      "negative": 0.31449
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/technology/tiktok-ceo-firewall-chinese-access"
   },
@@ -245,9 +245,9 @@
       "insult": 0.00037,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.04281,
-      "neutral": 0.38466,
-      "negative": 0.57254
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/campaigns/trump-campaign-shifts-strategy-under-indictment-threat"
   },
@@ -263,9 +263,9 @@
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.04745,
-      "neutral": 0.48906,
-      "negative": 0.46349
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/white-house/excess-chips-biden"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "Arkansas law requires students to use restroom according to biological sex",
     "scores": {
-      "toxicity": 0.08066,
+      "toxicity": 0.08017,
       "severe_toxicity": 0.00011,
       "obscene": 0.00033,
-      "identity_attack": 0.01519,
-      "insult": 0.00195,
+      "identity_attack": 0.01523,
+      "insult": 0.00194,
       "threat": 0.00086,
-      "sexual_explicit": 0.00901,
-      "positive": 0.11112,
-      "neutral": 0.72423,
-      "negative": 0.16465
+      "sexual_explicit": 0.00884,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/education/arkansas-law-public-school-restroom-biological-sex"
   },
@@ -292,16 +292,16 @@
     "language": "en",
     "text": "White House hopes to keep potential Trump indictment at arm's-length",
     "scores": {
-      "toxicity": 0.00790,
+      "toxicity": 0.00794,
       "severe_toxicity": 0.00005,
       "obscene": 0.00020,
       "identity_attack": 0.00061,
-      "insult": 0.00150,
+      "insult": 0.00151,
       "threat": 0.00030,
       "sexual_explicit": 0.00008,
-      "positive": 0.32096,
-      "neutral": 0.51932,
-      "negative": 0.15972
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/white-house/trump-indictment-white-house-hopes-to-keep-at-arms-length"
   },
@@ -310,16 +310,16 @@
     "language": "en",
     "text": "Supreme Court takes up Jack Daniel's bid to toss chew toy parody",
     "scores": {
-      "toxicity": 0.02466,
+      "toxicity": 0.02438,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00081,
+      "obscene": 0.00079,
       "identity_attack": 0.00011,
-      "insult": 0.01394,
-      "threat": 0.00032,
-      "sexual_explicit": 0.00022,
-      "positive": 0.05641,
-      "neutral": 0.37518,
-      "negative": 0.56841
+      "insult": 0.01382,
+      "threat": 0.00031,
+      "sexual_explicit": 0.00021,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/courts/supreme-court-takes-up-jack-daniels-bid-to-toss-chew-toy-parody"
   },
@@ -328,16 +328,16 @@
     "language": "en",
     "text": "Five things to remember about a 'zombie' Trump indictment",
     "scores": {
-      "toxicity": 0.05479,
+      "toxicity": 0.05463,
       "severe_toxicity": 0.00002,
       "obscene": 0.00043,
       "identity_attack": 0.00016,
-      "insult": 0.03616,
+      "insult": 0.03603,
       "threat": 0.00006,
       "sexual_explicit": 0.00006,
-      "positive": 0.04357,
-      "neutral": 0.23698,
-      "negative": 0.71945
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/five-things-to-remember-about-a-zombie-trump-indictment"
   },
@@ -346,16 +346,16 @@
     "language": "en",
     "text": "Trump's Melania defense is back in play",
     "scores": {
-      "toxicity": 0.00152,
+      "toxicity": 0.00150,
       "severe_toxicity": 0.00002,
       "obscene": 0.00016,
       "identity_attack": 0.00009,
-      "insult": 0.00048,
+      "insult": 0.00047,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.19563,
-      "neutral": 0.58867,
-      "negative": 0.21570
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/trumps-melania-defense-is-back-in-play"
   },
@@ -364,16 +364,16 @@
     "language": "en",
     "text": "NHL players courageously lead charge against gender indoctrination",
     "scores": {
-      "toxicity": 0.00641,
+      "toxicity": 0.00633,
       "severe_toxicity": 0.00003,
       "obscene": 0.00010,
-      "identity_attack": 0.00066,
-      "insult": 0.00045,
+      "identity_attack": 0.00065,
+      "insult": 0.00044,
       "threat": 0.00019,
-      "sexual_explicit": 0.00053,
-      "positive": 0.65581,
-      "neutral": 0.24401,
-      "negative": 0.10018
+      "sexual_explicit": 0.00052,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/nhl-players-courageously-lead-charge-against-gender-propaganda-indoctrination"
   },
@@ -384,14 +384,14 @@
     "scores": {
       "toxicity": 0.00052,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00041,
+      "obscene": 0.00040,
       "identity_attack": 0.00011,
       "insult": 0.00047,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
-      "positive": 0.05388,
-      "neutral": 0.78924,
-      "negative": 0.15689
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/jerome-powells-paul-volcker-moment"
   },
@@ -400,16 +400,16 @@
     "language": "en",
     "text": "Saddam Hussein was there too",
     "scores": {
-      "toxicity": 0.00050,
+      "toxicity": 0.00049,
       "severe_toxicity": 0.00003,
       "obscene": 0.00022,
       "identity_attack": 0.00012,
       "insult": 0.00029,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.05848,
-      "neutral": 0.49173,
-      "negative": 0.44979
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/politics/saddam-hussein-was-there-too"
   },
@@ -425,9 +425,9 @@
       "insult": 0.00033,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.13745,
-      "neutral": 0.81426,
-      "negative": 0.04829
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/for-a-dollar-and-a-dream-state-lotteries-in-modern-america-the-book-sheds-vital-light-on-americans-who-waste-far-too-much-money-pursuing-an-unreachable-jackpot"
   },
@@ -436,16 +436,16 @@
     "language": "en",
     "text": "Middlebrow's big night",
     "scores": {
-      "toxicity": 0.00221,
+      "toxicity": 0.00217,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00037,
+      "obscene": 0.00036,
       "identity_attack": 0.00012,
-      "insult": 0.00106,
+      "insult": 0.00103,
       "threat": 0.00008,
       "sexual_explicit": 0.00006,
-      "positive": 0.43171,
-      "neutral": 0.41628,
-      "negative": 0.15201
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/the-death-of-the-monoculture-has-been-greatly-exaggerated"
   },
@@ -454,16 +454,16 @@
     "language": "en",
     "text": "Here's which Big Tech rivals would benefit from a crackdown on TikTok",
     "scores": {
-      "toxicity": 0.05803,
+      "toxicity": 0.05647,
       "severe_toxicity": 0.00026,
-      "obscene": 0.00102,
+      "obscene": 0.00101,
       "identity_attack": 0.00075,
-      "insult": 0.00145,
-      "threat": 0.04070,
-      "sexual_explicit": 0.00054,
-      "positive": 0.02816,
-      "neutral": 0.22920,
-      "negative": 0.74264
+      "insult": 0.00142,
+      "threat": 0.03945,
+      "sexual_explicit": 0.00053,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/technology/tiktok-ban-revenue-bump-big-tech"
   },
@@ -472,16 +472,16 @@
     "language": "en",
     "text": "Saudi Arabia releases dual Saudi-US national jailed for critical tweets",
     "scores": {
-      "toxicity": 0.00159,
+      "toxicity": 0.00158,
       "severe_toxicity": 0.00002,
       "obscene": 0.00016,
       "identity_attack": 0.00032,
       "insult": 0.00060,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.03403,
-      "neutral": 0.19685,
-      "negative": 0.76912
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/foreign/saudi-arabia-releases-jailed-dual-us-citizen"
   },
@@ -490,16 +490,16 @@
     "language": "en",
     "text": "'Two sexes, and that\u2019s all there is to it': Biologist defends JK Rowling\u2019s comments",
     "scores": {
-      "toxicity": 0.00685,
-      "severe_toxicity": 0.00007,
+      "toxicity": 0.00663,
+      "severe_toxicity": 0.00006,
       "obscene": 0.00038,
-      "identity_attack": 0.00222,
-      "insult": 0.00041,
-      "threat": 0.00026,
-      "sexual_explicit": 0.00109,
-      "positive": 0.17491,
-      "neutral": 0.59004,
-      "negative": 0.23505
+      "identity_attack": 0.00213,
+      "insult": 0.00040,
+      "threat": 0.00025,
+      "sexual_explicit": 0.00106,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/two-sexes-biologist-jk-rowling-anti-transgender-comments"
   },
@@ -508,16 +508,16 @@
     "language": "en",
     "text": "WATCH: Jim Jordan says the Left wants Trump mugshot for political distraction",
     "scores": {
-      "toxicity": 0.02024,
+      "toxicity": 0.01938,
       "severe_toxicity": 0.00009,
-      "obscene": 0.00082,
+      "obscene": 0.00080,
       "identity_attack": 0.00023,
-      "insult": 0.00255,
-      "threat": 0.00391,
-      "sexual_explicit": 0.00055,
-      "positive": 0.04989,
-      "neutral": 0.44137,
-      "negative": 0.50874
+      "insult": 0.00249,
+      "threat": 0.00366,
+      "sexual_explicit": 0.00053,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/jim-jordan-donald-trump-mugshot-political-distraction"
   },
@@ -533,9 +533,9 @@
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.03617,
-      "neutral": 0.23343,
-      "negative": 0.73040
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/twenty-three-ags-tell-automakers-to-make-cars-harder-to-steal-thefts"
   },
@@ -544,16 +544,16 @@
     "language": "en",
     "text": "Dodge announces final gas-powered muscle car",
     "scores": {
-      "toxicity": 0.00101,
+      "toxicity": 0.00099,
       "severe_toxicity": 0.00003,
       "obscene": 0.00023,
       "identity_attack": 0.00010,
       "insult": 0.00027,
       "threat": 0.00009,
       "sexual_explicit": 0.00004,
-      "positive": 0.56930,
-      "neutral": 0.41165,
-      "negative": 0.01905
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/dodge-announces-final-gas-powered-muscle-car"
   },
@@ -562,16 +562,16 @@
     "language": "en",
     "text": "Alex Murdaugh's son linked to suspicious death of former classmate",
     "scores": {
-      "toxicity": 0.00615,
+      "toxicity": 0.00601,
       "severe_toxicity": 0.00003,
       "obscene": 0.00022,
       "identity_attack": 0.00019,
-      "insult": 0.00115,
-      "threat": 0.00033,
+      "insult": 0.00113,
+      "threat": 0.00032,
       "sexual_explicit": 0.00006,
-      "positive": 0.03793,
-      "neutral": 0.34695,
-      "negative": 0.61512
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/crime/stephen-smith-death-considered-homicide"
   },
@@ -580,16 +580,16 @@
     "language": "en",
     "text": "China's ambassador to the Netherlands has a meltdown over chip ban",
     "scores": {
-      "toxicity": 0.00061,
+      "toxicity": 0.00060,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
-      "identity_attack": 0.00016,
+      "identity_attack": 0.00015,
       "insult": 0.00020,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.00975,
-      "neutral": 0.09301,
-      "negative": 0.89724
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/china-ambassador-netherlands-has-meltdown-chip-ban"
   },
@@ -598,16 +598,16 @@
     "language": "en",
     "text": "Alvin Bragg responds to Republican calls for him to testify before Congress",
     "scores": {
-      "toxicity": 0.00048,
+      "toxicity": 0.00047,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
       "identity_attack": 0.00008,
       "insult": 0.00028,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.14341,
-      "neutral": 0.64227,
-      "negative": 0.21432
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/courts/alvin-bragg-responds-republican-calls-testify-before-congress"
   },
@@ -616,16 +616,16 @@
     "language": "en",
     "text": "Trump allies anticipate Mar-a-Lago raid-like boost from indictment",
     "scores": {
-      "toxicity": 0.00057,
+      "toxicity": 0.00056,
       "severe_toxicity": 0.00002,
       "obscene": 0.00010,
       "identity_attack": 0.00009,
       "insult": 0.00024,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.09135,
-      "neutral": 0.41173,
-      "negative": 0.49692
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/campaigns/trump-allies-anticipate-mar-a-lago-raid-like-boost-from-indictment"
   },
@@ -634,16 +634,16 @@
     "language": "en",
     "text": "Excess CHIPS: GOP senators say Biden pushing unrelated agenda in semiconductor law",
     "scores": {
-      "toxicity": 0.00053,
+      "toxicity": 0.00052,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00010,
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.04054,
-      "neutral": 0.50881,
-      "negative": 0.45065
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/white-house/excess-chips-biden"
   },
@@ -659,9 +659,9 @@
       "insult": 0.00016,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.30395,
-      "neutral": 0.49102,
-      "negative": 0.20503
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/economy/existing-home-prices-decline-decade"
   },
@@ -670,16 +670,16 @@
     "language": "en",
     "text": "Virginia Foxx demands answers from DC children's hospital over gender procedures",
     "scores": {
-      "toxicity": 0.00373,
+      "toxicity": 0.00366,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
-      "identity_attack": 0.00039,
-      "insult": 0.00062,
+      "identity_attack": 0.00038,
+      "insult": 0.00061,
       "threat": 0.00006,
-      "sexual_explicit": 0.00020,
-      "positive": 0.06529,
-      "neutral": 0.77540,
-      "negative": 0.15931
+      "sexual_explicit": 0.00019,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/community-family/virginia-foxx-dc-childrens-hospital-gender-procedures"
   },
@@ -688,16 +688,16 @@
     "language": "en",
     "text": "Cuban baseball player abandons team, becomes first to defect during World Baseball Classic",
     "scores": {
-      "toxicity": 0.00327,
+      "toxicity": 0.00323,
       "severe_toxicity": 0.00004,
       "obscene": 0.00028,
-      "identity_attack": 0.00096,
+      "identity_attack": 0.00095,
       "insult": 0.00035,
       "threat": 0.00017,
       "sexual_explicit": 0.00005,
-      "positive": 0.00874,
-      "neutral": 0.09134,
-      "negative": 0.89992
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/sports/ivan-prieto-baseball-defect-cuba-world-baseball-classic"
   },
@@ -713,9 +713,9 @@
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.17982,
-      "neutral": 0.71890,
-      "negative": 0.10128
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/economy/who-makes-the-most-money-in-person-remote-hybrid-workers"
   },
@@ -724,16 +724,16 @@
     "language": "en",
     "text": "Japan\u2019s Kishida shames China by visiting Ukraine as Xi meets Putin: \u2018Pure antagonism\u2019",
     "scores": {
-      "toxicity": 0.00209,
+      "toxicity": 0.00208,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
       "identity_attack": 0.00048,
       "insult": 0.00052,
       "threat": 0.00006,
-      "sexual_explicit": 0.00003,
-      "positive": 0.01185,
-      "neutral": 0.04897,
-      "negative": 0.93917
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/defense-national-security/japan-kishida-shames-china-ukraine-xi-meets-putin"
   },
@@ -742,16 +742,16 @@
     "language": "en",
     "text": "China not an \u2018impartial\u2019 actor in Ukraine conflict, White House says",
     "scores": {
-      "toxicity": 0.00186,
+      "toxicity": 0.00185,
       "severe_toxicity": 0.00004,
       "obscene": 0.00015,
       "identity_attack": 0.00085,
       "insult": 0.00029,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.02635,
-      "neutral": 0.34373,
-      "negative": 0.62992
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/defense-national-security/china-not-impartial-russia-war-ukraine-white-house"
   },
@@ -767,9 +767,9 @@
       "insult": 0.00016,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.56192,
-      "neutral": 0.35887,
-      "negative": 0.07921
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/defense-national-security/russia-supports-china-ukraine-peace-plan"
   },
@@ -778,16 +778,16 @@
     "language": "en",
     "text": "How Putin's rare pageantry and promptness show his immense value for Xi",
     "scores": {
-      "toxicity": 0.00306,
+      "toxicity": 0.00304,
       "severe_toxicity": 0.00001,
       "obscene": 0.00014,
       "identity_attack": 0.00009,
-      "insult": 0.00173,
+      "insult": 0.00172,
       "threat": 0.00002,
       "sexual_explicit": 0.00002,
-      "positive": 0.61795,
-      "neutral": 0.20956,
-      "negative": 0.17249
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/putins-pageantry-promptness-immense-value-for-xi"
   },
@@ -796,16 +796,16 @@
     "language": "en",
     "text": "Russia says it scrambled fighter jet to intercept two US bombers",
     "scores": {
-      "toxicity": 0.01307,
+      "toxicity": 0.01264,
       "severe_toxicity": 0.00007,
-      "obscene": 0.00022,
-      "identity_attack": 0.00205,
+      "obscene": 0.00021,
+      "identity_attack": 0.00201,
       "insult": 0.00039,
-      "threat": 0.00248,
+      "threat": 0.00239,
       "sexual_explicit": 0.00009,
-      "positive": 0.03847,
-      "neutral": 0.24234,
-      "negative": 0.71918
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/defense-national-security/russia-scrambled-fighter-jet-to-intercept-us-bombers"
   },
@@ -814,16 +814,16 @@
     "language": "en",
     "text": "Irvo Otieno death: Virginia officers and hospital staff indicted hours after footage released",
     "scores": {
-      "toxicity": 0.00051,
+      "toxicity": 0.00050,
       "severe_toxicity": 0.00004,
       "obscene": 0.00026,
       "identity_attack": 0.00012,
       "insult": 0.00024,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.02213,
-      "neutral": 0.26630,
-      "negative": 0.71157
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/crime/irvo-otieno-death-virginia-officers-indicted-footage-released"
   },
@@ -839,9 +839,9 @@
       "insult": 0.00018,
       "threat": 0.00005,
       "sexual_explicit": 0.00010,
-      "positive": 0.08910,
-      "neutral": 0.70117,
-      "negative": 0.20973
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/courts/oklahoma-supreme-court-partial-right-abortion-state-constitution"
   },
@@ -852,14 +852,14 @@
     "scores": {
       "toxicity": 0.00033,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00031,
+      "obscene": 0.00030,
       "identity_attack": 0.00013,
       "insult": 0.00031,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.13897,
-      "neutral": 0.72501,
-      "negative": 0.13602
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/fairness-justice/covid-19-origins-why-the-state-departments-testimony-to-congress-is-crucial-to-finding-answers"
   },
@@ -868,16 +868,16 @@
     "language": "en",
     "text": "Deadly fungal infection is spreading in US hospitals, CDC says",
     "scores": {
-      "toxicity": 0.00315,
+      "toxicity": 0.00310,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00030,
+      "obscene": 0.00029,
       "identity_attack": 0.00015,
-      "insult": 0.00052,
+      "insult": 0.00051,
       "threat": 0.00029,
       "sexual_explicit": 0.00009,
-      "positive": 0.02685,
-      "neutral": 0.22352,
-      "negative": 0.74963
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/healthcare/deadly-fungal-infection-hospitals-cdc-says"
   },
@@ -886,16 +886,16 @@
     "language": "en",
     "text": "Idaho hospital terminating labor and delivery services due to political climate",
     "scores": {
-      "toxicity": 0.00058,
+      "toxicity": 0.00057,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
       "identity_attack": 0.00016,
       "insult": 0.00022,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.02646,
-      "neutral": 0.33437,
-      "negative": 0.63917
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/news/idaho-hospital-terminating-labor-delivery-services-abortion"
   },
@@ -904,16 +904,16 @@
     "language": "en",
     "text": "Biden's fake nod to energy production in Alaska",
     "scores": {
-      "toxicity": 0.00132,
+      "toxicity": 0.00131,
       "severe_toxicity": 0.00001,
       "obscene": 0.00011,
       "identity_attack": 0.00008,
-      "insult": 0.00058,
+      "insult": 0.00057,
       "threat": 0.00002,
       "sexual_explicit": 0.00002,
-      "positive": 0.03992,
-      "neutral": 0.28488,
-      "negative": 0.67520
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/op-eds/bidens-fake-nod-to-energy-production-in-alaska"
   },
@@ -929,9 +929,9 @@
       "insult": 0.00027,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.11615,
-      "neutral": 0.78011,
-      "negative": 0.10374
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/energy-environment/daily-on-energy-biden-goes-head-to-head-with-green-allies-in-court"
   },
@@ -940,16 +940,16 @@
     "language": "en",
     "text": "Don\u2019t fall for Biden\u2019s centrist head fake",
     "scores": {
-      "toxicity": 0.47308,
+      "toxicity": 0.47131,
       "severe_toxicity": 0.00009,
-      "obscene": 0.00175,
+      "obscene": 0.00174,
       "identity_attack": 0.00049,
-      "insult": 0.39192,
-      "threat": 0.00085,
+      "insult": 0.39059,
+      "threat": 0.00084,
       "sexual_explicit": 0.00035,
-      "positive": 0.02255,
-      "neutral": 0.10499,
-      "negative": 0.87246
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/editorials/dont-fall-for-bidens-centrist-head-fake"
   },
@@ -965,9 +965,9 @@
       "insult": 0.00018,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.10208,
-      "neutral": 0.37797,
-      "negative": 0.51995
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/economy/svb-yellen-backstop-more-deposits-banking-trouble-grows"
   },
@@ -983,9 +983,9 @@
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.01845,
-      "neutral": 0.07871,
-      "negative": 0.90284
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/patriotism-unity/how-biden-is-worsening-labor-shortage-inflation"
   },
@@ -1001,9 +1001,9 @@
       "insult": 0.00018,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.12877,
-      "neutral": 0.44473,
-      "negative": 0.42649
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/policy/economy/svb-lawmakers-raise-fdic-insurance-cap"
   },
@@ -1019,9 +1019,9 @@
       "insult": 0.00036,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.01617,
-      "neutral": 0.13235,
-      "negative": 0.85148
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/fairness-justice/inside-las-out-of-control-juvenile-jails-where-violence-rules-in-the-newsom-era"
   },
@@ -1037,9 +1037,9 @@
       "insult": 0.00022,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.04422,
-      "neutral": 0.58208,
-      "negative": 0.37370
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/twenty-years-after-the-us-invasion-of-iraq"
   },
@@ -1048,16 +1048,16 @@
     "language": "en",
     "text": "Tom Cotton sounds the alarm on China \u2014 is anybody listening?",
     "scores": {
-      "toxicity": 0.00114,
+      "toxicity": 0.00113,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
-      "identity_attack": 0.00020,
+      "identity_attack": 0.00019,
       "insult": 0.00031,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.08154,
-      "neutral": 0.70384,
-      "negative": 0.21462
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/tom-cotton-sounds-the-alarm-on-china-is-anybody-listening"
   },
@@ -1071,11 +1071,11 @@
       "obscene": 0.00017,
       "identity_attack": 0.00009,
       "insult": 0.00020,
-      "threat": 0.00004,
+      "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.36034,
-      "neutral": 0.60264,
-      "negative": 0.03702
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/news/washington-secrets/richard-viguerie-opens-new-blog-with-call-for-next-maga-motto"
   },
@@ -1084,16 +1084,16 @@
     "language": "en",
     "text": "'Woke' Silicon Valley \u2014 Sand Hill Road and Stanford Law \u2014 get off scot-free",
     "scores": {
-      "toxicity": 0.00137,
+      "toxicity": 0.00136,
       "severe_toxicity": 0.00003,
       "obscene": 0.00036,
       "identity_attack": 0.00008,
       "insult": 0.00071,
       "threat": 0.00006,
       "sexual_explicit": 0.00006,
-      "positive": 0.07780,
-      "neutral": 0.49251,
-      "negative": 0.42969
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.washingtonexaminer.com/restoring-america/fairness-justice/woke-silicon-valley-sand-hill-road-and-stanford-law-get-off-scot-free"
   },
@@ -1102,16 +1102,16 @@
     "language": "en",
     "text": "The Stormy Daniels story is a lot of things, but it\u2019s primarily a reminder of how unfit Trump is",
     "scores": {
-      "toxicity": 0.52994,
+      "toxicity": 0.52905,
       "severe_toxicity": 0.00003,
       "obscene": 0.00067,
-      "identity_attack": 0.00027,
-      "insult": 0.48385,
+      "identity_attack": 0.00026,
+      "insult": 0.48279,
       "threat": 0.00008,
       "sexual_explicit": 0.00010,
-      "positive": 0.01997,
-      "neutral": 0.11097,
-      "negative": 0.86906
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.washingtonexaminer.com/opinion/the-stormy-daniels-story-is-a-lot-of-things-but-its-primarily-a-reminder-of-how-unfit-trump-is"
   }

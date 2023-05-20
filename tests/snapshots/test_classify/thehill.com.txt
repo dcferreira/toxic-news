@@ -11,9 +11,9 @@
       "insult": 0.00023,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.04599,
-      "neutral": 0.81054,
-      "negative": 0.14347
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/newsletters/morning-report/3911746-the-hills-morning-report-will-trump-be-indicted-today/"
   },
@@ -22,16 +22,16 @@
     "language": "en",
     "text": "Trump fights claims he misled attorney as court weighs effort to force testimony",
     "scores": {
-      "toxicity": 0.00089,
+      "toxicity": 0.00088,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00007,
-      "insult": 0.00037,
+      "insult": 0.00036,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02420,
-      "neutral": 0.14180,
-      "negative": 0.83399
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/policy/national-security/3911884-trump-fights-claims-he-misled-attorney-as-court-weighs-effort-to-force-testimony/"
   },
@@ -40,16 +40,16 @@
     "language": "en",
     "text": "House Republicans pressured to take sides between Trump, DeSantis",
     "scores": {
-      "toxicity": 0.00571,
+      "toxicity": 0.00562,
       "severe_toxicity": 0.00002,
       "obscene": 0.00015,
       "identity_attack": 0.00013,
-      "insult": 0.00237,
+      "insult": 0.00233,
       "threat": 0.00010,
       "sexual_explicit": 0.00004,
-      "positive": 0.04135,
-      "neutral": 0.37412,
-      "negative": 0.58453
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/house/3911108-house-republicans-pressured-to-take-sides-between-trump-desantis/"
   },
@@ -58,16 +58,16 @@
     "language": "en",
     "text": "White House steps up attacks on GOP budget",
     "scores": {
-      "toxicity": 0.00379,
+      "toxicity": 0.00374,
       "severe_toxicity": 0.00008,
       "obscene": 0.00031,
-      "identity_attack": 0.00075,
+      "identity_attack": 0.00074,
       "insult": 0.00060,
-      "threat": 0.00031,
+      "threat": 0.00030,
       "sexual_explicit": 0.00007,
-      "positive": 0.02974,
-      "neutral": 0.18966,
-      "negative": 0.78060
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/administration/3910990-white-house-steps-up-attacks-on-gop-budget/"
   },
@@ -83,9 +83,9 @@
       "insult": 0.00035,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.10440,
-      "neutral": 0.56594,
-      "negative": 0.32966
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/regulation/court-battles/3911856-trump-shares-possibility-of-no-indictment-in-hush-money-case/"
   },
@@ -94,16 +94,16 @@
     "language": "en",
     "text": "Young Americans are once again switching up how they date",
     "scores": {
-      "toxicity": 0.00122,
+      "toxicity": 0.00120,
       "severe_toxicity": 0.00003,
       "obscene": 0.00018,
       "identity_attack": 0.00026,
-      "insult": 0.00030,
+      "insult": 0.00029,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02955,
-      "neutral": 0.18314,
-      "negative": 0.78731
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/changing-america/enrichment/arts-culture/3910904-young-americans-are-once-again-switching-up-how-they-date/"
   },
@@ -119,9 +119,9 @@
       "insult": 0.00023,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.41634,
-      "neutral": 0.45234,
-      "negative": 0.13132
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/policy/future-of-farming/3903833-democrats-brace-for-fight-over-snap-benefits-in-farm-bill/"
   },
@@ -130,16 +130,16 @@
     "language": "en",
     "text": "Tucker Carlson \u2018enraged\u2019 private texts revealed; \u2018I love Trump\u2019",
     "scores": {
-      "toxicity": 0.00061,
+      "toxicity": 0.00060,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
       "identity_attack": 0.00010,
       "insult": 0.00025,
       "threat": 0.00002,
       "sexual_explicit": 0.00002,
-      "positive": 0.52462,
-      "neutral": 0.35037,
-      "negative": 0.12500
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/media/3911174-tucker-carlson-enraged-private-texts-revealed-i-love-trump/"
   },
@@ -148,16 +148,16 @@
     "language": "en",
     "text": "Why millions of people could lose Medicaid next month",
     "scores": {
-      "toxicity": 0.00073,
+      "toxicity": 0.00072,
       "severe_toxicity": 0.00003,
       "obscene": 0.00016,
       "identity_attack": 0.00013,
-      "insult": 0.00029,
+      "insult": 0.00028,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.01845,
-      "neutral": 0.13584,
-      "negative": 0.84572
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/policy/healthcare/3911215-why-millions-of-people-could-lose-medicaid-next-month/"
   },
@@ -168,14 +168,14 @@
     "scores": {
       "toxicity": 0.00038,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00024,
+      "obscene": 0.00023,
       "identity_attack": 0.00010,
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.44312,
-      "neutral": 0.49771,
-      "negative": 0.05917
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/policy/energy-environment/3910332-biden-designates-new-national-monuments-in-nevada-texas/"
   },
@@ -191,9 +191,9 @@
       "insult": 0.00031,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02620,
-      "neutral": 0.18611,
-      "negative": 0.78769
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/regulation/court-battles/3910289-trump-lawyer-if-hes-indicted-this-is-an-all-out-war/"
   },
@@ -202,16 +202,16 @@
     "language": "en",
     "text": "Van Jones says Bragg may \u2018step back from the brink\u2019 on charging Trump",
     "scores": {
-      "toxicity": 0.00666,
+      "toxicity": 0.00661,
       "severe_toxicity": 0.00004,
       "obscene": 0.00024,
       "identity_attack": 0.00019,
-      "insult": 0.00069,
-      "threat": 0.00123,
+      "insult": 0.00068,
+      "threat": 0.00122,
       "sexual_explicit": 0.00010,
-      "positive": 0.08239,
-      "neutral": 0.59394,
-      "negative": 0.32368
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/media/3910806-van-jones-says-bragg-may-step-back-from-the-brink-on-charging-trump/"
   },
@@ -220,16 +220,16 @@
     "language": "en",
     "text": "Rand Paul tweets NY DA \u2018should be put in jail\u2019",
     "scores": {
-      "toxicity": 0.00658,
-      "severe_toxicity": 0.00004,
+      "toxicity": 0.00641,
+      "severe_toxicity": 0.00003,
       "obscene": 0.00016,
-      "identity_attack": 0.00123,
-      "insult": 0.00083,
-      "threat": 0.00019,
+      "identity_attack": 0.00119,
+      "insult": 0.00081,
+      "threat": 0.00018,
       "sexual_explicit": 0.00008,
-      "positive": 0.01934,
-      "neutral": 0.10225,
-      "negative": 0.87840
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/senate/3910156-rand-paul-tweets-ny-da-should-be-put-in-jail/"
   },
@@ -238,16 +238,16 @@
     "language": "en",
     "text": "Jackson pens solo dissent as Supreme Court vacates abortion ruling",
     "scores": {
-      "toxicity": 0.00108,
+      "toxicity": 0.00107,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
       "identity_attack": 0.00010,
       "insult": 0.00028,
       "threat": 0.00007,
-      "sexual_explicit": 0.00018,
-      "positive": 0.06951,
-      "neutral": 0.57738,
-      "negative": 0.35311
+      "sexual_explicit": 0.00017,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/regulation/court-battles/3909352-jackson-pens-solo-dissent-as-supreme-court-vacates-abortion-ruling/"
   },
@@ -256,16 +256,16 @@
     "language": "en",
     "text": "Trump plunges GOP into more turmoil with legal troubles",
     "scores": {
-      "toxicity": 0.00188,
+      "toxicity": 0.00186,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00010,
       "insult": 0.00058,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.01693,
-      "neutral": 0.08745,
-      "negative": 0.89562
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/senate/3911176-trump-plunges-gop-into-more-turmoil-with-legal-troubles/"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "Bomb threat disrupts NY court where Trump case is being heard",
     "scores": {
-      "toxicity": 0.01655,
+      "toxicity": 0.01604,
       "severe_toxicity": 0.00009,
       "obscene": 0.00027,
       "identity_attack": 0.00040,
-      "insult": 0.00071,
-      "threat": 0.00538,
+      "insult": 0.00070,
+      "threat": 0.00517,
       "sexual_explicit": 0.00011,
-      "positive": 0.01666,
-      "neutral": 0.15479,
-      "negative": 0.82855
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/state-watch/3910708-bomb-threat-disrupts-ny-court-where-trump-case-is-being-heard/"
   },
@@ -299,9 +299,9 @@
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.05923,
-      "neutral": 0.53298,
-      "negative": 0.40778
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/state-watch/3910628-georgia-attorney-convicted-on-jan-6-charges/"
   },
@@ -310,16 +310,16 @@
     "language": "en",
     "text": "ChatGPT sends shockwaves across college campuses",
     "scores": {
-      "toxicity": 0.00111,
+      "toxicity": 0.00110,
       "severe_toxicity": 0.00003,
       "obscene": 0.00016,
       "identity_attack": 0.00017,
       "insult": 0.00028,
       "threat": 0.00009,
       "sexual_explicit": 0.00003,
-      "positive": 0.13216,
-      "neutral": 0.46448,
-      "negative": 0.40336
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/policy/technology/3905672-chatgpt-sends-shockwaves-across-college-campuses/"
   },
@@ -328,16 +328,16 @@
     "language": "en",
     "text": "Graham warns Trump arrest would \u2018blow up our country\u2019\u00a0",
     "scores": {
-      "toxicity": 0.00154,
+      "toxicity": 0.00147,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
-      "identity_attack": 0.00021,
+      "identity_attack": 0.00020,
       "insult": 0.00021,
       "threat": 0.00009,
       "sexual_explicit": 0.00002,
-      "positive": 0.02317,
-      "neutral": 0.13416,
-      "negative": 0.84267
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/senate/3910819-graham-warns-trump-arrest-would-blow-up-our-country/"
   },
@@ -346,16 +346,16 @@
     "language": "en",
     "text": "White House, reporters push back on disruptive journalist at press briefing",
     "scores": {
-      "toxicity": 0.00321,
+      "toxicity": 0.00317,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00029,
+      "obscene": 0.00028,
       "identity_attack": 0.00026,
-      "insult": 0.00159,
+      "insult": 0.00157,
       "threat": 0.00004,
       "sexual_explicit": 0.00005,
-      "positive": 0.32535,
-      "neutral": 0.51654,
-      "negative": 0.15811
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/administration/3909243-white-house-reporters-push-back-on-disruptive-journalist-at-press-briefing/"
   },
@@ -371,9 +371,9 @@
       "insult": 0.00031,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.05476,
-      "neutral": 0.66335,
-      "negative": 0.28189
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/media/3908950-espns-stephen-a-smith-rips-tucker-carlsons-jan-6-framing-thats-bulls-that-youre-spewing/"
   },
@@ -382,16 +382,16 @@
     "language": "en",
     "text": "Large majority in new poll says Trump hush money allegations are believable",
     "scores": {
-      "toxicity": 0.03337,
+      "toxicity": 0.03340,
       "severe_toxicity": 0.00001,
       "obscene": 0.00039,
       "identity_attack": 0.00034,
-      "insult": 0.01492,
+      "insult": 0.01496,
       "threat": 0.00004,
       "sexual_explicit": 0.00006,
-      "positive": 0.10397,
-      "neutral": 0.54028,
-      "negative": 0.35575
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/blogs/blog-briefing-room/3911915-large-majority-in-new-poll-says-trump-hush-money-allegations-are-believable/"
   },
@@ -407,9 +407,9 @@
       "insult": 0.00020,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.43944,
-      "neutral": 0.46356,
-      "negative": 0.09700
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/campaign/3911898-pence-calls-for-common-sense-reforms-to-social-security-medicare/"
   },
@@ -418,16 +418,16 @@
     "language": "en",
     "text": "Republicans seize on transgender rights ahead of 2024",
     "scores": {
-      "toxicity": 0.06023,
+      "toxicity": 0.05982,
       "severe_toxicity": 0.00006,
       "obscene": 0.00029,
-      "identity_attack": 0.04968,
-      "insult": 0.00273,
+      "identity_attack": 0.04929,
+      "insult": 0.00272,
       "threat": 0.00038,
-      "sexual_explicit": 0.00036,
-      "positive": 0.12368,
-      "neutral": 0.57673,
-      "negative": 0.29959
+      "sexual_explicit": 0.00035,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/campaign/3911157-republicans-seize-on-transgender-rights-ahead-of-2024/"
   },
@@ -436,16 +436,16 @@
     "language": "en",
     "text": "NY DA Alvin Bragg could eye various charges in Trump prosecution",
     "scores": {
-      "toxicity": 0.00101,
+      "toxicity": 0.00100,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
       "identity_attack": 0.00009,
       "insult": 0.00034,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.10372,
-      "neutral": 0.66970,
-      "negative": 0.22658
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/regulation/court-battles/3910851-nyda-alvin-bragg-could-eye-various-charges-in-trump-prosecution/"
   },
@@ -457,13 +457,13 @@
       "toxicity": 0.00067,
       "severe_toxicity": 0.00004,
       "obscene": 0.00016,
-      "identity_attack": 0.00024,
+      "identity_attack": 0.00023,
       "insult": 0.00015,
       "threat": 0.00011,
       "sexual_explicit": 0.00003,
-      "positive": 0.32930,
-      "neutral": 0.61101,
-      "negative": 0.05968
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/policy/defense/3910935-pentagon-will-expedite-delivery-of-tanks-patriot-systems-to-ukraine/"
   },
@@ -479,9 +479,9 @@
       "insult": 0.00022,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.22077,
-      "neutral": 0.35538,
-      "negative": 0.42384
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/house/3910467-comer-agrees-it-could-be-politically-unsustainable-to-investigate-kushner/"
   },
@@ -497,9 +497,9 @@
       "insult": 0.00025,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.11530,
-      "neutral": 0.47954,
-      "negative": 0.40516
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/house/3911300-bipartisan-lawmakers-introduce-bill-to-ban-members-from-owning-trading-stocks/"
   },
@@ -508,16 +508,16 @@
     "language": "en",
     "text": "Democrats worry about Trump protest calls over possible indictment",
     "scores": {
-      "toxicity": 0.00078,
+      "toxicity": 0.00077,
       "severe_toxicity": 0.00002,
       "obscene": 0.00010,
       "identity_attack": 0.00011,
       "insult": 0.00027,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02580,
-      "neutral": 0.22635,
-      "negative": 0.74785
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/senate/3911385-democrats-worry-about-trump-protest-calls-over-possible-indictment/"
   },
@@ -526,16 +526,16 @@
     "language": "en",
     "text": "Trump fundraises off possible indictment\u00a0",
     "scores": {
-      "toxicity": 0.00181,
+      "toxicity": 0.00217,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00013,
-      "identity_attack": 0.00009,
-      "insult": 0.00071,
+      "obscene": 0.00012,
+      "identity_attack": 0.00010,
+      "insult": 0.00087,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.07060,
-      "neutral": 0.39532,
-      "negative": 0.53407
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/campaign/3911468-trump-fundraises-off-possible-indictment/"
   },
@@ -544,16 +544,16 @@
     "language": "en",
     "text": "Oklahoma court OK\u2019s abortion to preserve mother\u2019s life",
     "scores": {
-      "toxicity": 0.00261,
+      "toxicity": 0.00259,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00016,
+      "obscene": 0.00015,
       "identity_attack": 0.00044,
       "insult": 0.00022,
       "threat": 0.00023,
       "sexual_explicit": 0.00028,
-      "positive": 0.20255,
-      "neutral": 0.61689,
-      "negative": 0.18056
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/ap/ap-u-s-news/oklahoma-court-oks-abortion-to-preserve-mothers-life/"
   },
@@ -569,9 +569,9 @@
       "insult": 0.00030,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.03712,
-      "neutral": 0.49015,
-      "negative": 0.47274
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/opinion/white-house/3910970-will-manhattan-da-bragg-charge-trump-should-he/"
   },
@@ -580,16 +580,16 @@
     "language": "en",
     "text": "Florida\u2019s education foes resort to \u2018horror fiction\u2019",
     "scores": {
-      "toxicity": 0.07227,
+      "toxicity": 0.07174,
       "severe_toxicity": 0.00002,
       "obscene": 0.00036,
-      "identity_attack": 0.00143,
-      "insult": 0.03710,
+      "identity_attack": 0.00142,
+      "insult": 0.03685,
       "threat": 0.00008,
       "sexual_explicit": 0.00010,
-      "positive": 0.02574,
-      "neutral": 0.16659,
-      "negative": 0.80767
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/opinion/education/3901470-floridas-education-foes-resort-to-horror-fiction/"
   },
@@ -598,16 +598,16 @@
     "language": "en",
     "text": "Americans who survived Mexico kidnapping \u2018continue to recover,\u2019 attorneys say",
     "scores": {
-      "toxicity": 0.00152,
+      "toxicity": 0.00151,
       "severe_toxicity": 0.00002,
       "obscene": 0.00008,
       "identity_attack": 0.00063,
       "insult": 0.00016,
       "threat": 0.00006,
       "sexual_explicit": 0.00002,
-      "positive": 0.09918,
-      "neutral": 0.53614,
-      "negative": 0.36467
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/3911052-americans-who-survived-mexico-kidnapping-continue-to-recover-attorneys-say/"
   },
@@ -616,16 +616,16 @@
     "language": "en",
     "text": "California bill could ban the sale of Skittles, Hot Tamales, and more",
     "scores": {
-      "toxicity": 0.00077,
+      "toxicity": 0.00076,
       "severe_toxicity": 0.00003,
       "obscene": 0.00016,
       "identity_attack": 0.00015,
       "insult": 0.00026,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.17804,
-      "neutral": 0.59666,
-      "negative": 0.22530
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/3911092-california-bill-could-ban-the-sale-of-skittles-hot-tamales-and-more/"
   },
@@ -634,16 +634,16 @@
     "language": "en",
     "text": "Video: Security guards take down gunman in devil mask at famed Florida strip club",
     "scores": {
-      "toxicity": 0.01538,
+      "toxicity": 0.01514,
       "severe_toxicity": 0.00002,
       "obscene": 0.00020,
       "identity_attack": 0.00023,
-      "insult": 0.00312,
-      "threat": 0.00023,
+      "insult": 0.00309,
+      "threat": 0.00022,
       "sexual_explicit": 0.00006,
-      "positive": 0.04961,
-      "neutral": 0.22227,
-      "negative": 0.72811
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/3911202-video-security-guards-take-down-gunman-in-devil-mask-at-famed-florida-strip-club/"
   },
@@ -652,16 +652,16 @@
     "language": "en",
     "text": "Case of teen\u2019s 2015 death, reopened during Murdaugh investigation, now ruled a homicide",
     "scores": {
-      "toxicity": 0.00177,
+      "toxicity": 0.00175,
       "severe_toxicity": 0.00003,
       "obscene": 0.00013,
-      "identity_attack": 0.00037,
+      "identity_attack": 0.00036,
       "insult": 0.00018,
       "threat": 0.00011,
       "sexual_explicit": 0.00003,
-      "positive": 0.02513,
-      "neutral": 0.21139,
-      "negative": 0.76349
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/homenews/3911508-case-of-teens-2015-death-reopened-during-murdaugh-investigation-now-ruled-a-homicide/"
   },
@@ -677,9 +677,9 @@
       "insult": 0.00016,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.06917,
-      "neutral": 0.59207,
-      "negative": 0.33876
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://thehill.com/homenews/3911346-some-android-users-should-turn-off-wi-fi-calling-due-to-security-concerns-google-team-warns/"
   },
@@ -688,16 +688,16 @@
     "language": "en",
     "text": "Child mortality is rising at the fastest rate in 50 years",
     "scores": {
-      "toxicity": 0.00260,
-      "severe_toxicity": 0.00004,
+      "toxicity": 0.00258,
+      "severe_toxicity": 0.00003,
       "obscene": 0.00032,
       "identity_attack": 0.00011,
       "insult": 0.00047,
-      "threat": 0.00017,
+      "threat": 0.00016,
       "sexual_explicit": 0.00009,
-      "positive": 0.13747,
-      "neutral": 0.40733,
-      "negative": 0.45520
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://thehill.com/policy/healthcare/3910940-child-mortality-is-rising-at-the-fastest-rate-in-50-years/"
   }

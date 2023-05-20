@@ -11,9 +11,9 @@
       "insult": 0.00014,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.62047,
-      "neutral": 0.30823,
-      "negative": 0.07129
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/world-us-canada-64943603"
   },
@@ -29,9 +29,9 @@
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.08659,
-      "neutral": 0.55287,
-      "negative": 0.36053
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/news/world-us-canada-64935170"
   },
@@ -40,16 +40,16 @@
     "language": "en",
     "text": "TikTok users shrug at China fears: 'It's hard to care'",
     "scores": {
-      "toxicity": 0.00130,
+      "toxicity": 0.00129,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
       "identity_attack": 0.00026,
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.01607,
-      "neutral": 0.10587,
-      "negative": 0.87806
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.bbc.com/news/business-64827885"
   },
@@ -58,16 +58,16 @@
     "language": "en",
     "text": "'A slap in the face for Hollywood'",
     "scores": {
-      "toxicity": 0.64370,
-      "severe_toxicity": 0.00182,
-      "obscene": 0.00781,
-      "identity_attack": 0.00191,
-      "insult": 0.00867,
-      "threat": 0.55782,
-      "sexual_explicit": 0.00799,
-      "positive": 0.03609,
-      "neutral": 0.09040,
-      "negative": 0.87351
+      "toxicity": 0.64015,
+      "severe_toxicity": 0.00180,
+      "obscene": 0.00770,
+      "identity_attack": 0.00189,
+      "insult": 0.00858,
+      "threat": 0.55467,
+      "sexual_explicit": 0.00790,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.bbc.com/culture/article/20230313-oscars-2023-a-slap-in-the-face-for-hollywood"
   },
@@ -83,9 +83,9 @@
       "insult": 0.00023,
       "threat": 0.00007,
       "sexual_explicit": 0.00004,
-      "positive": 0.01929,
-      "neutral": 0.08445,
-      "negative": 0.89626
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.bbc.com/worklife/article/20230309-is-it-impossible-to-end-burnout"
   },
@@ -94,16 +94,16 @@
     "language": "en",
     "text": "Heavy losses reported as battle for Bakhmut rages",
     "scores": {
-      "toxicity": 0.00082,
+      "toxicity": 0.00081,
       "severe_toxicity": 0.00011,
-      "obscene": 0.00110,
+      "obscene": 0.00109,
       "identity_attack": 0.00024,
       "insult": 0.00080,
       "threat": 0.00014,
       "sexual_explicit": 0.00008,
-      "positive": 0.01890,
-      "neutral": 0.15800,
-      "negative": 0.82310
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/world-europe-64935449"
   },
@@ -112,16 +112,16 @@
     "language": "en",
     "text": "Michelle Yeoh's mum in tears after Oscars win",
     "scores": {
-      "toxicity": 0.01187,
+      "toxicity": 0.01175,
       "severe_toxicity": 0.00002,
       "obscene": 0.00034,
       "identity_attack": 0.00017,
-      "insult": 0.00409,
-      "threat": 0.00006,
+      "insult": 0.00404,
+      "threat": 0.00005,
       "sexual_explicit": 0.00020,
-      "positive": 0.03035,
-      "neutral": 0.16486,
-      "negative": 0.80480
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/entertainment-arts-64942684"
   },
@@ -130,16 +130,16 @@
     "language": "en",
     "text": "Biden seeks to reassure US after two banks collapse",
     "scores": {
-      "toxicity": 0.00062,
+      "toxicity": 0.00061,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00014,
       "insult": 0.00018,
       "threat": 0.00006,
       "sexual_explicit": 0.00002,
-      "positive": 0.23077,
-      "neutral": 0.34648,
-      "negative": 0.42275
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/live/business-64940883"
   },
@@ -155,9 +155,9 @@
       "insult": 0.00036,
       "threat": 0.00016,
       "sexual_explicit": 0.00010,
-      "positive": 0.37002,
-      "neutral": 0.50571,
-      "negative": 0.12427
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/sport/cricket/64937730"
   },
@@ -166,16 +166,16 @@
     "language": "en",
     "text": "What has gone wrong for England - and what next?",
     "scores": {
-      "toxicity": 0.00060,
+      "toxicity": 0.00059,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00027,
+      "obscene": 0.00026,
       "identity_attack": 0.00018,
       "insult": 0.00022,
       "threat": 0.00006,
       "sexual_explicit": 0.00004,
-      "positive": 0.01073,
-      "neutral": 0.09347,
-      "negative": 0.89579
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/sport/rugby-union/64938583"
   },
@@ -184,16 +184,16 @@
     "language": "en",
     "text": "Gary Lineker to return as BBC denies climbdown",
     "scores": {
-      "toxicity": 0.00084,
+      "toxicity": 0.00083,
       "severe_toxicity": 0.00002,
       "obscene": 0.00015,
       "identity_attack": 0.00012,
       "insult": 0.00026,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.05051,
-      "neutral": 0.47002,
-      "negative": 0.47947
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/uk-64936917"
   },
@@ -204,14 +204,14 @@
     "scores": {
       "toxicity": 0.00037,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00038,
+      "obscene": 0.00037,
       "identity_attack": 0.00013,
       "insult": 0.00028,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
-      "positive": 0.88706,
-      "neutral": 0.09156,
-      "negative": 0.02139
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64935925"
   },
@@ -222,14 +222,14 @@
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00030,
+      "obscene": 0.00029,
       "identity_attack": 0.00014,
       "insult": 0.00023,
       "threat": 0.00006,
       "sexual_explicit": 0.00005,
-      "positive": 0.84802,
-      "neutral": 0.13031,
-      "negative": 0.02167
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64935067"
   },
@@ -240,14 +240,14 @@
     "scores": {
       "toxicity": 0.00065,
       "severe_toxicity": 0.00018,
-      "obscene": 0.00200,
+      "obscene": 0.00197,
       "identity_attack": 0.00039,
-      "insult": 0.00217,
+      "insult": 0.00214,
       "threat": 0.00012,
       "sexual_explicit": 0.00009,
-      "positive": 0.23714,
-      "neutral": 0.65287,
-      "negative": 0.10999
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/news/entertainment-arts-64936405"
   },
@@ -256,16 +256,16 @@
     "language": "en",
     "text": "The 'sleeping giant' of sea level rise",
     "scores": {
-      "toxicity": 0.00176,
+      "toxicity": 0.00175,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00044,
+      "obscene": 0.00043,
       "identity_attack": 0.00011,
-      "insult": 0.00068,
+      "insult": 0.00067,
       "threat": 0.00006,
       "sexual_explicit": 0.00006,
-      "positive": 0.23626,
-      "neutral": 0.50073,
-      "negative": 0.26301
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/future/article/20230309-climate-change-the-sea-level-rise-locked-in-east-antarctica"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "The Last of Us finale is darkly knotty",
     "scores": {
-      "toxicity": 0.00969,
+      "toxicity": 0.00956,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00041,
-      "identity_attack": 0.00031,
-      "insult": 0.00133,
-      "threat": 0.00102,
+      "obscene": 0.00040,
+      "identity_attack": 0.00030,
+      "insult": 0.00131,
+      "threat": 0.00100,
       "sexual_explicit": 0.00013,
-      "positive": 0.02507,
-      "neutral": 0.10680,
-      "negative": 0.86813
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.bbc.com/culture/article/20230309-the-last-of-us-finale-review-a-knotty-violent-ending"
   },
@@ -292,16 +292,16 @@
     "language": "en",
     "text": "The young workers in a post-Me Too era",
     "scores": {
-      "toxicity": 0.00034,
+      "toxicity": 0.00033,
       "severe_toxicity": 0.00003,
       "obscene": 0.00017,
       "identity_attack": 0.00008,
       "insult": 0.00017,
       "threat": 0.00003,
       "sexual_explicit": 0.00004,
-      "positive": 0.06953,
-      "neutral": 0.53633,
-      "negative": 0.39414
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/worklife/article/20230307-did-me-too-change-the-workplace-for-gen-z"
   },
@@ -317,9 +317,9 @@
       "insult": 0.00027,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.14876,
-      "neutral": 0.63399,
-      "negative": 0.21725
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/travel/article/20230312-why-bushcraft-is-booming-again"
   },
@@ -328,16 +328,16 @@
     "language": "en",
     "text": "How a dictator's daughter built \u00a3200m property empire",
     "scores": {
-      "toxicity": 0.00879,
+      "toxicity": 0.00888,
       "severe_toxicity": 0.00002,
       "obscene": 0.00025,
       "identity_attack": 0.00026,
-      "insult": 0.00370,
+      "insult": 0.00375,
       "threat": 0.00006,
       "sexual_explicit": 0.00009,
-      "positive": 0.08026,
-      "neutral": 0.25812,
-      "negative": 0.66162
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.bbc.com/news/world-64915348"
   },
@@ -349,13 +349,13 @@
       "toxicity": 0.00059,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
-      "identity_attack": 0.00016,
-      "insult": 0.00023,
+      "identity_attack": 0.00015,
+      "insult": 0.00022,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.08013,
-      "neutral": 0.42832,
-      "negative": 0.49155
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.bbc.com/news/science-environment-64919341"
   },
@@ -364,16 +364,16 @@
     "language": "en",
     "text": "'You can rebuild Mariupol - you can't bring back the dead'",
     "scores": {
-      "toxicity": 0.00175,
+      "toxicity": 0.00173,
       "severe_toxicity": 0.00007,
       "obscene": 0.00022,
       "identity_attack": 0.00014,
       "insult": 0.00033,
       "threat": 0.00048,
-      "sexual_explicit": 0.00010,
-      "positive": 0.08201,
-      "neutral": 0.37879,
-      "negative": 0.53920
+      "sexual_explicit": 0.00009,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.bbc.com/news/world-europe-64887890"
   },
@@ -384,14 +384,14 @@
     "scores": {
       "toxicity": 0.00795,
       "severe_toxicity": 0.00032,
-      "obscene": 0.00087,
+      "obscene": 0.00086,
       "identity_attack": 0.00577,
       "insult": 0.00159,
       "threat": 0.00077,
-      "sexual_explicit": 0.00101,
-      "positive": 0.49515,
-      "neutral": 0.44858,
-      "negative": 0.05627
+      "sexual_explicit": 0.00100,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/news/business-64899189"
   },
@@ -407,9 +407,9 @@
       "insult": 0.00025,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.14555,
-      "neutral": 0.37973,
-      "negative": 0.47472
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.bbc.com/news/business-64636384"
   },
@@ -425,9 +425,9 @@
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.03176,
-      "neutral": 0.32856,
-      "negative": 0.63968
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/uk-64937660"
   },
@@ -443,9 +443,9 @@
       "insult": 0.00031,
       "threat": 0.00007,
       "sexual_explicit": 0.00004,
-      "positive": 0.03196,
-      "neutral": 0.67989,
-      "negative": 0.28815
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/uk-64937660"
   },
@@ -458,12 +458,12 @@
       "severe_toxicity": 0.00002,
       "obscene": 0.00016,
       "identity_attack": 0.00008,
-      "insult": 0.00030,
+      "insult": 0.00029,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.07163,
-      "neutral": 0.87671,
-      "negative": 0.05166
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/uk-64937658"
   },
@@ -479,9 +479,9 @@
       "insult": 0.00018,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.09024,
-      "neutral": 0.84572,
-      "negative": 0.06404
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/business-64937654"
   },
@@ -497,9 +497,9 @@
       "insult": 0.00021,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.62009,
-      "neutral": 0.29024,
-      "negative": 0.08967
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/entertainment-arts-64935382"
   },
@@ -508,16 +508,16 @@
     "language": "en",
     "text": "I can't say anything at the moment, I'm sorry...",
     "scores": {
-      "toxicity": 0.00041,
+      "toxicity": 0.00040,
       "severe_toxicity": 0.00013,
-      "obscene": 0.00095,
-      "identity_attack": 0.00039,
-      "insult": 0.00087,
+      "obscene": 0.00093,
+      "identity_attack": 0.00038,
+      "insult": 0.00086,
       "threat": 0.00012,
       "sexual_explicit": 0.00006,
-      "positive": 0.02461,
-      "neutral": 0.13557,
-      "negative": 0.83982
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/uk-64932702"
   },
@@ -533,9 +533,9 @@
       "insult": 0.00027,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.01555,
-      "neutral": 0.06656,
-      "negative": 0.91789
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/uk-64929759"
   },
@@ -544,16 +544,16 @@
     "language": "en",
     "text": "Looks like Lineker broke rules on a...",
     "scores": {
-      "toxicity": 0.00087,
+      "toxicity": 0.00086,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
       "identity_attack": 0.00012,
       "insult": 0.00024,
       "threat": 0.00007,
       "sexual_explicit": 0.00004,
-      "positive": 0.02465,
-      "neutral": 0.18748,
-      "negative": 0.78788
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/uk-64931367"
   },
@@ -562,16 +562,16 @@
     "language": "en",
     "text": "Watch: Murder suspect flees US courtroom",
     "scores": {
-      "toxicity": 0.00627,
+      "toxicity": 0.00635,
       "severe_toxicity": 0.00004,
       "obscene": 0.00044,
       "identity_attack": 0.00012,
-      "insult": 0.00395,
+      "insult": 0.00401,
       "threat": 0.00013,
       "sexual_explicit": 0.00008,
-      "positive": 0.03174,
-      "neutral": 0.30116,
-      "negative": 0.66711
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/world-us-canada-64929190"
   },
@@ -580,16 +580,16 @@
     "language": "en",
     "text": "How a tummy-tuck kidnap ended in cartel...",
     "scores": {
-      "toxicity": 0.02952,
+      "toxicity": 0.02915,
       "severe_toxicity": 0.00010,
-      "obscene": 0.00202,
+      "obscene": 0.00200,
       "identity_attack": 0.00017,
-      "insult": 0.00741,
-      "threat": 0.00339,
-      "sexual_explicit": 0.00093,
-      "positive": 0.01462,
-      "neutral": 0.12933,
-      "negative": 0.85606
+      "insult": 0.00735,
+      "threat": 0.00331,
+      "sexual_explicit": 0.00092,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/world-us-canada-64753595"
   },
@@ -605,9 +605,9 @@
       "insult": 0.00047,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.10929,
-      "neutral": 0.44664,
-      "negative": 0.44406
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/uk-england-merseyside-64881091"
   },
@@ -623,9 +623,9 @@
       "insult": 0.00022,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.78034,
-      "neutral": 0.17793,
-      "negative": 0.04173
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/live/entertainment-arts-64938252"
   },
@@ -634,16 +634,16 @@
     "language": "en",
     "text": "Vasectomies even safer than reported, doctors say",
     "scores": {
-      "toxicity": 0.01522,
+      "toxicity": 0.01476,
       "severe_toxicity": 0.00013,
-      "obscene": 0.00079,
-      "identity_attack": 0.00045,
-      "insult": 0.00069,
-      "threat": 0.00052,
-      "sexual_explicit": 0.01440,
-      "positive": 0.61288,
-      "neutral": 0.30706,
-      "negative": 0.08006
+      "obscene": 0.00078,
+      "identity_attack": 0.00044,
+      "insult": 0.00068,
+      "threat": 0.00051,
+      "sexual_explicit": 0.01380,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/health-64899943"
   },
@@ -659,9 +659,9 @@
       "insult": 0.00023,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.34988,
-      "neutral": 0.58665,
-      "negative": 0.06347
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/world-asia-china-64936125"
   },
@@ -677,9 +677,9 @@
       "insult": 0.00015,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.49245,
-      "neutral": 0.37303,
-      "negative": 0.13452
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/science-environment-64903069"
   },
@@ -692,12 +692,12 @@
       "severe_toxicity": 0.00002,
       "obscene": 0.00017,
       "identity_attack": 0.00008,
-      "insult": 0.00057,
+      "insult": 0.00056,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.05226,
-      "neutral": 0.28094,
-      "negative": 0.66680
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/technology-64939556"
   },
@@ -713,9 +713,9 @@
       "insult": 0.00029,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.79748,
-      "neutral": 0.18604,
-      "negative": 0.01647
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/science-environment-64867517"
   },
@@ -731,9 +731,9 @@
       "insult": 0.00020,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.42302,
-      "neutral": 0.51061,
-      "negative": 0.06637
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.com/news/business-64872465"
   },
@@ -742,16 +742,16 @@
     "language": "en",
     "text": "'We cut our website's carbon emissions by 520kg in a year'",
     "scores": {
-      "toxicity": 0.00055,
+      "toxicity": 0.00054,
       "severe_toxicity": 0.00004,
       "obscene": 0.00013,
       "identity_attack": 0.00013,
       "insult": 0.00015,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.21661,
-      "neutral": 0.62459,
-      "negative": 0.15880
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.bbc.co.uk/news/business-64623955"
   },
@@ -767,9 +767,9 @@
       "insult": 0.00026,
       "threat": 0.00003,
       "sexual_explicit": 0.00004,
-      "positive": 0.36892,
-      "neutral": 0.40785,
-      "negative": 0.22323
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/uk-england-tyne-64918073"
   },
@@ -778,16 +778,16 @@
     "language": "en",
     "text": "Africa's top shots: Cool frames and gold nuggets",
     "scores": {
-      "toxicity": 0.00172,
+      "toxicity": 0.00169,
       "severe_toxicity": 0.00009,
-      "obscene": 0.00065,
-      "identity_attack": 0.00166,
+      "obscene": 0.00064,
+      "identity_attack": 0.00163,
       "insult": 0.00040,
       "threat": 0.00012,
       "sexual_explicit": 0.00008,
-      "positive": 0.75701,
-      "neutral": 0.20275,
-      "negative": 0.04024
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/world-africa-64902352"
   },
@@ -796,16 +796,16 @@
     "language": "en",
     "text": "Robert Blake: From Hollywood to murder accused",
     "scores": {
-      "toxicity": 0.00544,
+      "toxicity": 0.00538,
       "severe_toxicity": 0.00003,
       "obscene": 0.00015,
       "identity_attack": 0.00036,
-      "insult": 0.00045,
+      "insult": 0.00044,
       "threat": 0.00023,
       "sexual_explicit": 0.00004,
-      "positive": 0.03269,
-      "neutral": 0.63388,
-      "negative": 0.33344
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/world-us-canada-64911059"
   },
@@ -821,9 +821,9 @@
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.38022,
-      "neutral": 0.51718,
-      "negative": 0.10260
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://bbc.com/news/uk-england-york-north-yorkshire-64887992"
   },
@@ -832,16 +832,16 @@
     "language": "en",
     "text": "Turkish women defy protest ban to march in Istanbul",
     "scores": {
-      "toxicity": 0.02906,
+      "toxicity": 0.02900,
       "severe_toxicity": 0.00023,
       "obscene": 0.00062,
-      "identity_attack": 0.01972,
-      "insult": 0.00242,
+      "identity_attack": 0.01964,
+      "insult": 0.00243,
       "threat": 0.00074,
-      "sexual_explicit": 0.00083,
-      "positive": 0.12450,
-      "neutral": 0.34662,
-      "negative": 0.52888
+      "sexual_explicit": 0.00082,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://bbc.com/news/world-europe-64897655"
   }

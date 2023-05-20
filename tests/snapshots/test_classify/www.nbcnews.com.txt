@@ -11,9 +11,9 @@
       "insult": 0.00015,
       "threat": 0.00005,
       "sexual_explicit": 0.00005,
-      "positive": 0.03813,
-      "neutral": 0.38651,
-      "negative": 0.57535
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/science/environment/climate-change-un-ipcc-rcna75670"
   },
@@ -24,14 +24,14 @@
     "scores": {
       "toxicity": 0.00041,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00022,
+      "obscene": 0.00021,
       "identity_attack": 0.00011,
       "insult": 0.00014,
       "threat": 0.00007,
       "sexual_explicit": 0.00004,
-      "positive": 0.23961,
-      "neutral": 0.63124,
-      "negative": 0.12915
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/science/environment/carbon-dioxide-emissions-reached-record-high-2022-rcna73108"
   },
@@ -42,14 +42,14 @@
     "scores": {
       "toxicity": 0.00034,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00046,
+      "obscene": 0.00045,
       "identity_attack": 0.00015,
-      "insult": 0.00031,
+      "insult": 0.00030,
       "threat": 0.00006,
       "sexual_explicit": 0.00005,
-      "positive": 0.88326,
-      "neutral": 0.08526,
-      "negative": 0.03148
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/science/environment/nasa-noaa-find-2022-was-one-hottest-years-record-rcna65086"
   },
@@ -65,9 +65,9 @@
       "insult": 0.00020,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.60861,
-      "neutral": 0.26416,
-      "negative": 0.12723
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/world/russia-ukraine-war-china-xi-jinping-vladimir-putin-meeting-us-moscow-rcna74613"
   },
@@ -76,16 +76,16 @@
     "language": "en",
     "text": "White House seeks softer tone on China ahead of Putin-Xi meeting",
     "scores": {
-      "toxicity": 0.00078,
+      "toxicity": 0.00077,
       "severe_toxicity": 0.00003,
       "obscene": 0.00013,
-      "identity_attack": 0.00029,
+      "identity_attack": 0.00028,
       "insult": 0.00020,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.17359,
-      "neutral": 0.60704,
-      "negative": 0.21937
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/politics/white-house-seeks-softer-tone-china-ahead-putin-xi-meeting-rcna75549"
   },
@@ -94,16 +94,16 @@
     "language": "en",
     "text": "VIDEO: Here's what Xi hopes to get out of his trip to Russia",
     "scores": {
-      "toxicity": 0.00093,
+      "toxicity": 0.00092,
       "severe_toxicity": 0.00003,
       "obscene": 0.00019,
       "identity_attack": 0.00020,
       "insult": 0.00027,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.24879,
-      "neutral": 0.65293,
-      "negative": 0.09828
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/now/video/chinese-president-xi-arrives-in-russia-ahead-of-meeting-with-president-putin-165729349691"
   },
@@ -119,9 +119,9 @@
       "insult": 0.00033,
       "threat": 0.00002,
       "sexual_explicit": 0.00002,
-      "positive": 0.01584,
-      "neutral": 0.13409,
-      "negative": 0.85008
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/politics/2024-election/ron-desantis-breaks-silence-possible-trump-indictment-rcna75747"
   },
@@ -130,16 +130,16 @@
     "language": "en",
     "text": "House GOP chairmen ask Manhattan D.A. Alvin Bragg to testify on Trump probe",
     "scores": {
-      "toxicity": 0.00063,
+      "toxicity": 0.00062,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
       "identity_attack": 0.00009,
       "insult": 0.00026,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.06464,
-      "neutral": 0.56272,
-      "negative": 0.37263
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/politics/congress/house-gop-chairmen-ask-manhattan-d-alvin-bragg-testify-trump-probe-rcna75754"
   },
@@ -148,16 +148,16 @@
     "language": "en",
     "text": "McCarthy says Americans should not protest if Trump is indicted",
     "scores": {
-      "toxicity": 0.00102,
+      "toxicity": 0.00101,
       "severe_toxicity": 0.00002,
       "obscene": 0.00009,
       "identity_attack": 0.00017,
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.04133,
-      "neutral": 0.23579,
-      "negative": 0.72288
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/politics/congress/mccarthy-says-americans-not-protest-trump-indicted-rcna75679"
   },
@@ -166,16 +166,16 @@
     "language": "en",
     "text": "Jury convicts 3 men of murder in rapper XXXTentacion\u2019s death",
     "scores": {
-      "toxicity": 0.00712,
+      "toxicity": 0.00707,
       "severe_toxicity": 0.00011,
-      "obscene": 0.00103,
+      "obscene": 0.00102,
       "identity_attack": 0.00056,
-      "insult": 0.00185,
+      "insult": 0.00184,
       "threat": 0.00024,
-      "sexual_explicit": 0.00047,
-      "positive": 0.02366,
-      "neutral": 0.21697,
-      "negative": 0.75937
+      "sexual_explicit": 0.00046,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/jury-returns-verdict-trial-3-men-accused-killing-rapper-xxxten-rcna74121"
   },
@@ -184,16 +184,16 @@
     "language": "en",
     "text": "XXXTentacion's friend describes rapper's fatal shooting",
     "scores": {
-      "toxicity": 0.02127,
-      "severe_toxicity": 0.00006,
-      "obscene": 0.00061,
-      "identity_attack": 0.00034,
-      "insult": 0.00526,
-      "threat": 0.00031,
-      "sexual_explicit": 0.00040,
-      "positive": 0.02435,
-      "neutral": 0.22833,
-      "negative": 0.74733
+      "toxicity": 0.02099,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00060,
+      "identity_attack": 0.00033,
+      "insult": 0.00520,
+      "threat": 0.00030,
+      "sexual_explicit": 0.00039,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/xxxtentacions-friend-describes-rappers-fatal-shooting-rcna69681"
   },
@@ -202,16 +202,16 @@
     "language": "en",
     "text": "Buster Murdaugh says he had nothing to do with teen's hit-and-run death",
     "scores": {
-      "toxicity": 0.01362,
+      "toxicity": 0.01345,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00060,
-      "identity_attack": 0.00013,
-      "insult": 0.00245,
-      "threat": 0.00089,
+      "obscene": 0.00059,
+      "identity_attack": 0.00012,
+      "insult": 0.00243,
+      "threat": 0.00087,
       "sexual_explicit": 0.00024,
-      "positive": 0.04103,
-      "neutral": 0.44466,
-      "negative": 0.51431
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/crime-courts/buster-murdaugh-says-nothing-teens-2015-hit-run-death-rcna75683"
   },
@@ -220,16 +220,16 @@
     "language": "en",
     "text": "Body of teenager in hit-and-run death near Murdaugh estate to be exhumed",
     "scores": {
-      "toxicity": 0.19972,
-      "severe_toxicity": 0.00030,
-      "obscene": 0.00185,
-      "identity_attack": 0.00097,
-      "insult": 0.00296,
-      "threat": 0.01787,
-      "sexual_explicit": 0.02035,
-      "positive": 0.02706,
-      "neutral": 0.22360,
-      "negative": 0.74934
+      "toxicity": 0.19814,
+      "severe_toxicity": 0.00029,
+      "obscene": 0.00184,
+      "identity_attack": 0.00096,
+      "insult": 0.00295,
+      "threat": 0.01785,
+      "sexual_explicit": 0.02018,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/body-teenager-hit-run-death-murdaugh-estate-exhumed-rcna75480"
   },
@@ -245,9 +245,9 @@
       "insult": 0.00020,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.04531,
-      "neutral": 0.52834,
-      "negative": 0.42635
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/american-aid-worker-jeff-woodke-kidnapped-west-africa-released-6-years-rcna75744"
   },
@@ -256,16 +256,16 @@
     "language": "en",
     "text": "Protesters bloodied and arrested at NYC Drag Story Hour",
     "scores": {
-      "toxicity": 0.09698,
+      "toxicity": 0.09565,
       "severe_toxicity": 0.00015,
-      "obscene": 0.00255,
-      "identity_attack": 0.00112,
-      "insult": 0.00596,
-      "threat": 0.01161,
-      "sexual_explicit": 0.00110,
-      "positive": 0.02209,
-      "neutral": 0.20402,
-      "negative": 0.77389
+      "obscene": 0.00253,
+      "identity_attack": 0.00111,
+      "insult": 0.00590,
+      "threat": 0.01136,
+      "sexual_explicit": 0.00109,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/nbc-out/out-news/protesters-bloodied-arrested-nyc-drag-story-hour-rcna75724"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "2 students injured, 1 critically, in shooting outside a Texas high school",
     "scores": {
-      "toxicity": 0.00145,
+      "toxicity": 0.00144,
       "severe_toxicity": 0.00003,
       "obscene": 0.00012,
       "identity_attack": 0.00018,
       "insult": 0.00013,
       "threat": 0.00015,
       "sexual_explicit": 0.00006,
-      "positive": 0.02654,
-      "neutral": 0.24049,
-      "negative": 0.73297
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/2-students-injured-shooting-lamar-high-school-texas-rcna75759"
   },
@@ -292,16 +292,16 @@
     "language": "en",
     "text": "Colorado dentist is charged with fatally poisoning his wife in 'complex and calculated murder'",
     "scores": {
-      "toxicity": 0.01247,
+      "toxicity": 0.01241,
       "severe_toxicity": 0.00007,
       "obscene": 0.00014,
       "identity_attack": 0.00112,
       "insult": 0.00037,
-      "threat": 0.00095,
+      "threat": 0.00094,
       "sexual_explicit": 0.00045,
-      "positive": 0.01856,
-      "neutral": 0.10263,
-      "negative": 0.87881
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/colorado-dentist-charged-poisoning-wife-was-declared-brain-dead-days-h-rcna75716"
   },
@@ -310,16 +310,16 @@
     "language": "en",
     "text": "5 children dead after SUV veers off a N.Y. highway and catches fire; boy, 9, survives",
     "scores": {
-      "toxicity": 0.00129,
+      "toxicity": 0.00128,
       "severe_toxicity": 0.00003,
       "obscene": 0.00019,
       "identity_attack": 0.00009,
       "insult": 0.00021,
       "threat": 0.00016,
       "sexual_explicit": 0.00004,
-      "positive": 0.03311,
-      "neutral": 0.21074,
-      "negative": 0.75615
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/5-connecticut-children-dead-fiery-new-york-boy-9-survives-rcna75719"
   },
@@ -335,9 +335,9 @@
       "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.03192,
-      "neutral": 0.31969,
-      "negative": 0.64838
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/search-florida-boaters-missing-lake-legoland-rcna75687"
   },
@@ -346,16 +346,16 @@
     "language": "en",
     "text": "Cuban protests and celebrations mark World Baseball Classic semifinal against the U.S.",
     "scores": {
-      "toxicity": 0.00052,
+      "toxicity": 0.00051,
       "severe_toxicity": 0.00003,
       "obscene": 0.00017,
       "identity_attack": 0.00015,
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.32700,
-      "neutral": 0.49040,
-      "negative": 0.18261
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/protesters-gather-miami-run-field-cuba-us-world-baseball-classic-semif-rcna75696"
   },
@@ -371,9 +371,9 @@
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.06060,
-      "neutral": 0.45594,
-      "negative": 0.48346
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/politics/2024-election/trump-fox-news-dominion-revelations-ron-desantis-rcna75646"
   },
@@ -382,16 +382,16 @@
     "language": "en",
     "text": "White House to counter GOP's soft-on-crime attacks by targeting far-right budget plan",
     "scores": {
-      "toxicity": 0.00230,
+      "toxicity": 0.00227,
       "severe_toxicity": 0.00006,
       "obscene": 0.00021,
-      "identity_attack": 0.00072,
+      "identity_attack": 0.00071,
       "insult": 0.00062,
       "threat": 0.00011,
       "sexual_explicit": 0.00004,
-      "positive": 0.03369,
-      "neutral": 0.15283,
-      "negative": 0.81348
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/politics/white-house/white-house-counter-gops-soft-crime-attacks-targeting-far-right-budget-rcna75700"
   },
@@ -400,16 +400,16 @@
     "language": "en",
     "text": "Supreme Court wrestles with Navajo Nation water rights dispute",
     "scores": {
-      "toxicity": 0.00071,
+      "toxicity": 0.00070,
       "severe_toxicity": 0.00003,
       "obscene": 0.00022,
       "identity_attack": 0.00011,
       "insult": 0.00022,
       "threat": 0.00006,
       "sexual_explicit": 0.00004,
-      "positive": 0.03150,
-      "neutral": 0.37496,
-      "negative": 0.59355
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-weighs-navajo-nation-water-rights-dispute-rcna75433"
   },
@@ -425,9 +425,9 @@
       "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.22342,
-      "neutral": 0.75091,
-      "negative": 0.02567
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/meet-the-press/meetthepressblog/justice-dan-kelly-launches-first-ad-wisconsin-supreme-court-campaign-rcna75713"
   },
@@ -440,12 +440,12 @@
       "severe_toxicity": 0.00002,
       "obscene": 0.00014,
       "identity_attack": 0.00010,
-      "insult": 0.00019,
+      "insult": 0.00018,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.24734,
-      "neutral": 0.62360,
-      "negative": 0.12906
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/candidates-support-psychedelics-medicine-get-political-action-committe-rcna75295"
   },
@@ -461,9 +461,9 @@
       "insult": 0.00018,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.15640,
-      "neutral": 0.52672,
-      "negative": 0.31688
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/business/business-news/amazon-lay-9000-workers-earlier-cuts-rcna75745"
   },
@@ -479,9 +479,9 @@
       "insult": 0.00020,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.14460,
-      "neutral": 0.78510,
-      "negative": 0.07030
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/tech/security/twitter-authenticator-secure-account-free-rcna74850"
   },
@@ -497,9 +497,9 @@
       "insult": 0.00036,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02981,
-      "neutral": 0.29318,
-      "negative": 0.67701
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/business/business-news/new-york-community-bank-buy-failed-signature-bank-rcna75681"
   },
@@ -515,9 +515,9 @@
       "insult": 0.00016,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.43666,
-      "neutral": 0.49311,
-      "negative": 0.07024
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/business/ubs-reportedly-offers-buy-credit-suisse-1-billion-rcna75653"
   },
@@ -533,9 +533,9 @@
       "insult": 0.00020,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.05640,
-      "neutral": 0.54381,
-      "negative": 0.39979
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/elizabeth-holmes-owes-25-million-theranos-creditors-lawsuit-says-rcna75393"
   },
@@ -551,9 +551,9 @@
       "insult": 0.00021,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.04534,
-      "neutral": 0.20181,
-      "negative": 0.75285
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/world/france-pension-reform-emmanuel-macron-no-confidence-vote-borne-rcna75690"
   },
@@ -562,16 +562,16 @@
     "language": "en",
     "text": "North Korea's Kim oversees simulated nuclear counterattack against U.S. and South Korea",
     "scores": {
-      "toxicity": 0.00436,
+      "toxicity": 0.00428,
       "severe_toxicity": 0.00006,
       "obscene": 0.00023,
       "identity_attack": 0.00057,
       "insult": 0.00033,
-      "threat": 0.00091,
+      "threat": 0.00089,
       "sexual_explicit": 0.00007,
-      "positive": 0.03104,
-      "neutral": 0.25354,
-      "negative": 0.71542
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/world/north-korea-kim-oversees-simulated-nuclear-counterattack-us-south-rcna75686"
   },
@@ -587,9 +587,9 @@
       "insult": 0.00023,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02264,
-      "neutral": 0.13282,
-      "negative": 0.84455
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/world/israel-judicial-reforms-benjamin-netanyahu-joe-biden-phone-call-rcna75698"
   },
@@ -605,9 +605,9 @@
       "insult": 0.00032,
       "threat": 0.00006,
       "sexual_explicit": 0.00002,
-      "positive": 0.02699,
-      "neutral": 0.14917,
-      "negative": 0.82384
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/world/millions-dead-fish-wash-heat-wave-australia-rcna75620"
   },
@@ -623,9 +623,9 @@
       "insult": 0.00029,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.40212,
-      "neutral": 0.43281,
-      "negative": 0.16507
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/world/russia-ukraine-war-putin-mariupol-visit-arrest-warrant-war-crimes-rcna75621"
   },
@@ -634,16 +634,16 @@
     "language": "en",
     "text": "Bruce Willis' family opens up about 'grief' they feel on his 68th birthday",
     "scores": {
-      "toxicity": 0.00434,
+      "toxicity": 0.00429,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00064,
+      "obscene": 0.00063,
       "identity_attack": 0.00017,
-      "insult": 0.00107,
+      "insult": 0.00106,
       "threat": 0.00008,
-      "sexual_explicit": 0.00027,
-      "positive": 0.02617,
-      "neutral": 0.17819,
-      "negative": 0.79564
+      "sexual_explicit": 0.00026,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/bruce-willis-family-opens-grief-feel-68th-birthday-rcna75701"
   },
@@ -659,9 +659,9 @@
       "insult": 0.00030,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.70653,
-      "neutral": 0.26806,
-      "negative": 0.02541
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/adam-sandler-takes-home-mark-twain-prize-american-humor-rcna75694"
   },
@@ -670,16 +670,16 @@
     "language": "en",
     "text": "Jason Sudeikis and 'Ted Lasso' cast members to visit White House",
     "scores": {
-      "toxicity": 0.00134,
+      "toxicity": 0.00133,
       "severe_toxicity": 0.00005,
       "obscene": 0.00030,
       "identity_attack": 0.00035,
       "insult": 0.00055,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
-      "positive": 0.15577,
-      "neutral": 0.79254,
-      "negative": 0.05170
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/politics/joe-biden/jason-sudeikis-ted-lasso-cast-members-visit-white-house-rcna75677"
   },
@@ -688,16 +688,16 @@
     "language": "en",
     "text": "Andrew Lloyd Webber reveals his eldest son is critically ill with stomach cancer",
     "scores": {
-      "toxicity": 0.02160,
+      "toxicity": 0.02132,
       "severe_toxicity": 0.00006,
       "obscene": 0.00030,
       "identity_attack": 0.00020,
-      "insult": 0.00512,
-      "threat": 0.00037,
+      "insult": 0.00506,
+      "threat": 0.00036,
       "sexual_explicit": 0.00018,
-      "positive": 0.02142,
-      "neutral": 0.23477,
-      "negative": 0.74382
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/andrew-lloyd-webber-reveals-eldest-son-critically-ill-stomach-cancer-rcna75663"
   },
@@ -707,15 +707,15 @@
     "text": "Mikaela Shiffrin ties Lindsey Vonn's all-time podium record at World Cup Finals",
     "scores": {
       "toxicity": 0.00019,
-      "severe_toxicity": 0.00031,
-      "obscene": 0.00196,
-      "identity_attack": 0.00041,
-      "insult": 0.00157,
-      "threat": 0.00017,
+      "severe_toxicity": 0.00030,
+      "obscene": 0.00189,
+      "identity_attack": 0.00040,
+      "insult": 0.00152,
+      "threat": 0.00016,
       "sexual_explicit": 0.00014,
-      "positive": 0.57851,
-      "neutral": 0.38169,
-      "negative": 0.03980
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://olympics.nbcsports.com/2023/03/18/mikaela-shiffrin-lindsey-vonn-world-cup-podiums-alpine-skiing/"
   },
@@ -724,16 +724,16 @@
     "language": "en",
     "text": "Exclusive: Buster Murdaugh speaks out over Stephen Smith death",
     "scores": {
-      "toxicity": 0.00065,
-      "severe_toxicity": 0.00189,
-      "obscene": 0.01549,
-      "identity_attack": 0.00191,
-      "insult": 0.01155,
-      "threat": 0.00127,
-      "sexual_explicit": 0.00058,
-      "positive": 0.04544,
-      "neutral": 0.55927,
-      "negative": 0.39530
+      "toxicity": 0.00064,
+      "severe_toxicity": 0.00186,
+      "obscene": 0.01525,
+      "identity_attack": 0.00188,
+      "insult": 0.01140,
+      "threat": 0.00125,
+      "sexual_explicit": 0.00057,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.today.com/video/buster-murdaugh-denies-involvement-in-death-of-stephen-smith-165730373925"
   },
@@ -742,16 +742,16 @@
     "language": "en",
     "text": "KCAL meteorologist Alissa Carlton faints and collapses live on air",
     "scores": {
-      "toxicity": 0.01798,
+      "toxicity": 0.01806,
       "severe_toxicity": 0.00005,
       "obscene": 0.00205,
       "identity_attack": 0.00026,
-      "insult": 0.01096,
-      "threat": 0.00021,
+      "insult": 0.01101,
+      "threat": 0.00022,
       "sexual_explicit": 0.00032,
-      "positive": 0.01654,
-      "neutral": 0.15097,
-      "negative": 0.83249
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.today.com/video/kcal-meteorologist-alissa-carlton-faints-and-collapses-live-on-air-165733445690"
   },
@@ -760,16 +760,16 @@
     "language": "en",
     "text": "Disturbing history of negative health outcomes for Black pregnant women, study reveals",
     "scores": {
-      "toxicity": 0.09401,
+      "toxicity": 0.09440,
       "severe_toxicity": 0.00268,
-      "obscene": 0.00531,
-      "identity_attack": 0.10687,
-      "insult": 0.01332,
+      "obscene": 0.00530,
+      "identity_attack": 0.10746,
+      "insult": 0.01331,
       "threat": 0.00258,
       "sexual_explicit": 0.00426,
-      "positive": 0.01829,
-      "neutral": 0.11166,
-      "negative": 0.87005
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/nightly-news/video/disturbing-history-of-negative-health-outcomes-for-black-pregnant-women-study-reveals-165685317737"
   },
@@ -778,16 +778,16 @@
     "language": "en",
     "text": "7-year-old boy is \u2018real-life superhero,\u2019 donating bone marrow to older brother",
     "scores": {
-      "toxicity": 0.00216,
+      "toxicity": 0.00215,
       "severe_toxicity": 0.00003,
       "obscene": 0.00018,
       "identity_attack": 0.00011,
       "insult": 0.00094,
       "threat": 0.00008,
       "sexual_explicit": 0.00004,
-      "positive": 0.76384,
-      "neutral": 0.20455,
-      "negative": 0.03160
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/nightly-news/video/7-year-old-boy-is-real-life-superhero-donating-bone-marrow-to-older-brother-165686341664"
   },
@@ -798,14 +798,14 @@
     "scores": {
       "toxicity": 0.00039,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00026,
-      "identity_attack": 0.00016,
+      "obscene": 0.00025,
+      "identity_attack": 0.00015,
       "insult": 0.00030,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.08263,
-      "neutral": 0.78091,
-      "negative": 0.13646
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/politics/2024-election/midwest-roots-shaped-ron-desantis-political-values-youngstown-ohio-rcna73797"
   },
@@ -814,16 +814,16 @@
     "language": "en",
     "text": "The high price of Ozempic is pushing many to unregulated, copycat drugs for weight loss",
     "scores": {
-      "toxicity": 0.00080,
+      "toxicity": 0.00079,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
       "identity_attack": 0.00011,
-      "insult": 0.00028,
+      "insult": 0.00027,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.03248,
-      "neutral": 0.18844,
-      "negative": 0.77909
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/health/health-news/ozempic-wegovy-semaglutide-compounding-weight-loss-safe-rcna72990"
   },
@@ -832,16 +832,16 @@
     "language": "en",
     "text": "Putin is a wanted man \u2014 a trial isn't imminent, but the world is closing in",
     "scores": {
-      "toxicity": 0.02987,
+      "toxicity": 0.02965,
       "severe_toxicity": 0.00012,
-      "obscene": 0.00106,
+      "obscene": 0.00105,
       "identity_attack": 0.00061,
-      "insult": 0.01859,
+      "insult": 0.01845,
       "threat": 0.00052,
       "sexual_explicit": 0.00051,
-      "positive": 0.05621,
-      "neutral": 0.31128,
-      "negative": 0.63251
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/world/vladimir-putin-war-crimes-arrest-warrant-international-criminal-court-rcna75526"
   },
@@ -857,9 +857,9 @@
       "insult": 0.00259,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.01487,
-      "neutral": 0.07389,
-      "negative": 0.91123
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/science/environment/great-salt-lake-still-risk-influx-snow-cash-rcna74949"
   },
@@ -868,16 +868,16 @@
     "language": "en",
     "text": "PrEP's promise to change the course of HIV has succeeded \u2014 but only for white gay men",
     "scores": {
-      "toxicity": 0.66169,
-      "severe_toxicity": 0.01016,
-      "obscene": 0.00731,
-      "identity_attack": 0.78624,
-      "insult": 0.07364,
-      "threat": 0.01199,
-      "sexual_explicit": 0.02014,
-      "positive": 0.56405,
-      "neutral": 0.33197,
-      "negative": 0.10397
+      "toxicity": 0.66013,
+      "severe_toxicity": 0.01012,
+      "obscene": 0.00726,
+      "identity_attack": 0.78532,
+      "insult": 0.07283,
+      "threat": 0.01194,
+      "sexual_explicit": 0.01997,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/nbc-out/out-health-and-wellness/preps-promise-change-course-hiv-succeeded-only-white-gay-men-rcna75438"
   },
@@ -893,9 +893,9 @@
       "insult": 0.00035,
       "threat": 0.00006,
       "sexual_explicit": 0.00004,
-      "positive": 0.03040,
-      "neutral": 0.24190,
-      "negative": 0.72771
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/health/health-news/frozen-fruit-recalled-costco-trader-joes-hepatitis-rcna75520"
   },
@@ -904,16 +904,16 @@
     "language": "en",
     "text": "New Covid origins data suggests pandemic linked to raccoon dogs at Wuhan market",
     "scores": {
-      "toxicity": 0.00132,
+      "toxicity": 0.00131,
       "severe_toxicity": 0.00002,
       "obscene": 0.00017,
       "identity_attack": 0.00016,
-      "insult": 0.00071,
+      "insult": 0.00070,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.03587,
-      "neutral": 0.41264,
-      "negative": 0.55149
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/health/health-news/covid-origins-data-links-pandemic-raccoon-dogs-wuhan-market-rcna75437"
   },
@@ -922,16 +922,16 @@
     "language": "en",
     "text": "Mexico says fentanyl is America's problem. How did drug war relations reach such a low?",
     "scores": {
-      "toxicity": 0.00533,
+      "toxicity": 0.00531,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
-      "identity_attack": 0.00188,
+      "identity_attack": 0.00187,
       "insult": 0.00060,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.01369,
-      "neutral": 0.11592,
-      "negative": 0.87039
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/politics/national-security/no-cooperation-us-mexico-drug-war-rcna75093"
   },
@@ -940,16 +940,16 @@
     "language": "en",
     "text": "Deadly earthquake in Ecuador brings grief and fear",
     "scores": {
-      "toxicity": 0.00336,
+      "toxicity": 0.00329,
       "severe_toxicity": 0.00009,
       "obscene": 0.00034,
-      "identity_attack": 0.00045,
-      "insult": 0.00038,
-      "threat": 0.00122,
+      "identity_attack": 0.00044,
+      "insult": 0.00037,
+      "threat": 0.00118,
       "sexual_explicit": 0.00008,
-      "positive": 0.01494,
-      "neutral": 0.06040,
-      "negative": 0.92465
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/latino/deadly-earthquake-ecuador-brings-grief-fear-rcna75761"
   },
@@ -958,16 +958,16 @@
     "language": "en",
     "text": "Nuclear power plant leaks 400,000 gallons of radioactive water",
     "scores": {
-      "toxicity": 0.00106,
+      "toxicity": 0.00105,
       "severe_toxicity": 0.00006,
       "obscene": 0.00033,
       "identity_attack": 0.00017,
       "insult": 0.00025,
       "threat": 0.00013,
       "sexual_explicit": 0.00004,
-      "positive": 0.09793,
-      "neutral": 0.58413,
-      "negative": 0.31794
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/us-news/nuclear-power-plant-leaks-400000-gallons-radioactive-water-rcna75406"
   },
@@ -976,16 +976,16 @@
     "language": "en",
     "text": "Scorpion tamales and grasshopper tacos are on the menu at one of America\u2019s best restaurants",
     "scores": {
-      "toxicity": 0.00080,
+      "toxicity": 0.00079,
       "severe_toxicity": 0.00006,
       "obscene": 0.00058,
       "identity_attack": 0.00022,
       "insult": 0.00044,
       "threat": 0.00005,
       "sexual_explicit": 0.00006,
-      "positive": 0.85782,
-      "neutral": 0.12358,
-      "negative": 0.01859
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/latino/scorpion-insects-mexican-chef-jose-avila-denver-restaurant-rcna75445"
   },
@@ -994,16 +994,16 @@
     "language": "en",
     "text": "Mexico's president: Fentanyl crisis caused by 'lack of hugs' among U.S. families",
     "scores": {
-      "toxicity": 0.01517,
+      "toxicity": 0.01504,
       "severe_toxicity": 0.00002,
       "obscene": 0.00015,
       "identity_attack": 0.00051,
-      "insult": 0.00638,
+      "insult": 0.00629,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.01751,
-      "neutral": 0.18290,
-      "negative": 0.79958
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/latino/mexico-president-fentanyl-crisis-lack-of-hugs-us-families-rcna75533"
   },
@@ -1019,9 +1019,9 @@
       "insult": 0.00018,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.14043,
-      "neutral": 0.53963,
-      "negative": 0.31994
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/latino/farmworkers-lead-5-day-march-pressure-companies-wages-work-conditions-rcna75500"
   },
@@ -1030,16 +1030,16 @@
     "language": "en",
     "text": "Posthumous album set from \u2018Gangsta\u2019s Paradise\u2019 rapper Coolio",
     "scores": {
-      "toxicity": 0.00317,
+      "toxicity": 0.00315,
       "severe_toxicity": 0.00008,
-      "obscene": 0.00115,
+      "obscene": 0.00112,
       "identity_attack": 0.00027,
-      "insult": 0.00485,
+      "insult": 0.00476,
       "threat": 0.00005,
       "sexual_explicit": 0.00010,
-      "positive": 0.21267,
-      "neutral": 0.68226,
-      "negative": 0.10507
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/nbcblk/posthumous-album-set-gangstas-paradise-rapper-coolio-rcna75470"
   },
@@ -1048,16 +1048,16 @@
     "language": "en",
     "text": "'Great British Bake Off' taps Alison Hammond to cohost next season",
     "scores": {
-      "toxicity": 0.00057,
+      "toxicity": 0.00056,
       "severe_toxicity": 0.00002,
       "obscene": 0.00018,
       "identity_attack": 0.00009,
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00004,
-      "positive": 0.36516,
-      "neutral": 0.41621,
-      "negative": 0.21863
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/nbcblk/great-british-bake-taps-alison-hammond-cohost-season-rcna75452"
   },
@@ -1073,9 +1073,9 @@
       "insult": 0.00020,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02647,
-      "neutral": 0.30435,
-      "negative": 0.66917
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/nbcblk/ex-nfl-players-family-says-died-excessive-force-custody-l-county-rcna75149"
   },
@@ -1084,16 +1084,16 @@
     "language": "en",
     "text": "Black veterans were more often denied VA benefits for PTSD than white counterparts, newly surfaced study shows",
     "scores": {
-      "toxicity": 0.18476,
-      "severe_toxicity": 0.00144,
+      "toxicity": 0.18475,
+      "severe_toxicity": 0.00143,
       "obscene": 0.00234,
-      "identity_attack": 0.20116,
-      "insult": 0.00991,
+      "identity_attack": 0.20124,
+      "insult": 0.00985,
       "threat": 0.00173,
       "sexual_explicit": 0.00176,
-      "positive": 0.02978,
-      "neutral": 0.33465,
-      "negative": 0.63557
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/health/mental-health/black-veterans-denied-va-benefits-ptsd-more-often-whites-rcna75334"
   },
@@ -1102,16 +1102,16 @@
     "language": "en",
     "text": "'Drag Race' star Jinkx Monsoon slams wave of anti-drag laws",
     "scores": {
-      "toxicity": 0.00179,
+      "toxicity": 0.00178,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00038,
+      "obscene": 0.00037,
       "identity_attack": 0.00023,
       "insult": 0.00083,
       "threat": 0.00006,
       "sexual_explicit": 0.00005,
-      "positive": 0.40147,
-      "neutral": 0.53037,
-      "negative": 0.06816
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/nbc-out/out-pop-culture/drag-race-star-jinkx-monsoon-slams-wave-anti-drag-laws-rcna75484"
   },
@@ -1120,16 +1120,16 @@
     "language": "en",
     "text": "Kentucky lawmakers pass ban on youth gender-affirming care",
     "scores": {
-      "toxicity": 0.00255,
+      "toxicity": 0.00253,
       "severe_toxicity": 0.00003,
       "obscene": 0.00011,
       "identity_attack": 0.00061,
       "insult": 0.00024,
       "threat": 0.00007,
       "sexual_explicit": 0.00017,
-      "positive": 0.11192,
-      "neutral": 0.52460,
-      "negative": 0.36347
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/nbc-out/out-politics-and-policy/kentucky-lawmakers-pass-ban-youth-gender-affirming-care-rcna75429"
   },
@@ -1138,16 +1138,16 @@
     "language": "en",
     "text": "Sikh community organizer says he was denied entry to NBA game for wearing religious article",
     "scores": {
-      "toxicity": 0.00710,
+      "toxicity": 0.00703,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00055,
-      "identity_attack": 0.00341,
-      "insult": 0.00118,
+      "obscene": 0.00054,
+      "identity_attack": 0.00337,
+      "insult": 0.00117,
       "threat": 0.00007,
       "sexual_explicit": 0.00007,
-      "positive": 0.01608,
-      "neutral": 0.16300,
-      "negative": 0.82092
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/asian-america/sikh-community-organizer-says-was-denied-entry-nba-game-wearing-religi-rcna75518"
   },
@@ -1156,16 +1156,16 @@
     "language": "en",
     "text": "Biden commemorates the anniversary of Atlanta deadly spa shootings",
     "scores": {
-      "toxicity": 0.00196,
+      "toxicity": 0.00193,
       "severe_toxicity": 0.00003,
       "obscene": 0.00027,
-      "identity_attack": 0.00017,
+      "identity_attack": 0.00016,
       "insult": 0.00051,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.03105,
-      "neutral": 0.21370,
-      "negative": 0.75525
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/asian-america/biden-commemorates-anniversary-atlanta-deadly-spa-shootings-rcna75489"
   },
@@ -1174,16 +1174,16 @@
     "language": "en",
     "text": "East Asians more likely to develop stomach cancer because of lower alcohol tolerance, new study says",
     "scores": {
-      "toxicity": 0.01616,
+      "toxicity": 0.01608,
       "severe_toxicity": 0.00003,
       "obscene": 0.00010,
-      "identity_attack": 0.00556,
+      "identity_attack": 0.00555,
       "insult": 0.00056,
       "threat": 0.00041,
       "sexual_explicit": 0.00012,
-      "positive": 0.05392,
-      "neutral": 0.37184,
-      "negative": 0.57424
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nbcnews.com/news/asian-america/east-asians-likely-develop-stomach-cancer-lower-alcohol-tolerance-new-rcna75329"
   },
@@ -1192,16 +1192,16 @@
     "language": "en",
     "text": "'American Born Chinese' producers discuss the 'next phase' of on-screen diversity",
     "scores": {
-      "toxicity": 0.00070,
+      "toxicity": 0.00069,
       "severe_toxicity": 0.00003,
       "obscene": 0.00018,
-      "identity_attack": 0.00031,
-      "insult": 0.00027,
+      "identity_attack": 0.00030,
+      "insult": 0.00026,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.21545,
-      "neutral": 0.73712,
-      "negative": 0.04743
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nbcnews.com/news/asian-america/american-born-chinese-producers-discuss-phase-screen-diversity-rcna75096"
   }

@@ -4,16 +4,16 @@
     "language": "en",
     "text": "Idaho aims to reinstate the firing squad",
     "scores": {
-      "toxicity": 0.19951,
+      "toxicity": 0.19658,
       "severe_toxicity": 0.00040,
-      "obscene": 0.00071,
-      "identity_attack": 0.00304,
-      "insult": 0.00264,
-      "threat": 0.17029,
+      "obscene": 0.00070,
+      "identity_attack": 0.00300,
+      "insult": 0.00262,
+      "threat": 0.16782,
       "sexual_explicit": 0.00049,
-      "positive": 0.21816,
-      "neutral": 0.52630,
-      "negative": 0.25554
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/newsroom/idaho-aims-to-reinstate-the-firing-squad/"
   },
@@ -22,16 +22,16 @@
     "language": "en",
     "text": "LAUSD schools close",
     "scores": {
-      "toxicity": 0.00078,
+      "toxicity": 0.00077,
       "severe_toxicity": 0.00004,
       "obscene": 0.00019,
       "identity_attack": 0.00024,
       "insult": 0.00024,
       "threat": 0.00012,
       "sexual_explicit": 0.00004,
-      "positive": 0.06448,
-      "neutral": 0.74286,
-      "negative": 0.19266
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/newsroom/lausd-schools-close/"
   },
@@ -47,9 +47,9 @@
       "insult": 0.00015,
       "threat": 0.00006,
       "sexual_explicit": 0.00002,
-      "positive": 0.03536,
-      "neutral": 0.28776,
-      "negative": 0.67688
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.oann.com/newsroom/5-connecticut-kids-killed-in-car-accident-on-ny-trip/"
   },
@@ -65,9 +65,9 @@
       "insult": 0.00024,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.05129,
-      "neutral": 0.61272,
-      "negative": 0.33599
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/newsroom/manhattan-da-issues-response-to-gop-on-possible-trump-indictment/"
   },
@@ -76,16 +76,16 @@
     "language": "en",
     "text": "Xi invites Putin to China",
     "scores": {
-      "toxicity": 0.00053,
+      "toxicity": 0.00052,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
       "identity_attack": 0.00013,
       "insult": 0.00022,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.22076,
-      "neutral": 0.52407,
-      "negative": 0.25516
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/newsroom/xi-invites-putin-to-china/"
   },
@@ -101,9 +101,9 @@
       "insult": 0.00024,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
-      "positive": 0.10834,
-      "neutral": 0.68640,
-      "negative": 0.20526
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/newsroom/ftc-continues-to-investigate-amazon/"
   },
@@ -112,16 +112,16 @@
     "language": "en",
     "text": "DeSantis bashes \u2018Soros-funded\u2019 Manhattan DA",
     "scores": {
-      "toxicity": 0.06761,
+      "toxicity": 0.06730,
       "severe_toxicity": 0.00013,
-      "obscene": 0.00683,
+      "obscene": 0.00684,
       "identity_attack": 0.00073,
-      "insult": 0.05671,
+      "insult": 0.05648,
       "threat": 0.00043,
       "sexual_explicit": 0.00097,
-      "positive": 0.02950,
-      "neutral": 0.31292,
-      "negative": 0.65758
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.oann.com/newsroom/desantis-bashes-soros-funded-manhattan-da/"
   },
@@ -137,9 +137,9 @@
       "insult": 0.00020,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.31496,
-      "neutral": 0.57751,
-      "negative": 0.10753
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/video/oan-contribution/diversity-equity-and-inclusion-at-colleges-and-universities-raises-concerns-of-free-speech/"
   },
@@ -155,9 +155,9 @@
       "insult": 0.00029,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.09997,
-      "neutral": 0.88243,
-      "negative": 0.01761
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/video/oan-contribution/one-on-one-with-randy-sevcik-president-of-elite-group-retirement-services/"
   },
@@ -166,16 +166,16 @@
     "language": "en",
     "text": "GOP House conference chair: Prosecutor persecution of Trump helps his polls",
     "scores": {
-      "toxicity": 0.00301,
+      "toxicity": 0.00299,
       "severe_toxicity": 0.00001,
       "obscene": 0.00016,
       "identity_attack": 0.00010,
       "insult": 0.00107,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.14611,
-      "neutral": 0.46800,
-      "negative": 0.38589
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/video/oan-contribution/gop-house-conference-chair-prosecutor-persecution-of-trump-helps-his-polls/"
   },
@@ -184,16 +184,16 @@
     "language": "en",
     "text": "GOP leans into transgender battle leading up to 2024 election",
     "scores": {
-      "toxicity": 0.07203,
+      "toxicity": 0.07240,
       "severe_toxicity": 0.00005,
       "obscene": 0.00029,
-      "identity_attack": 0.04966,
-      "insult": 0.00518,
+      "identity_attack": 0.04991,
+      "insult": 0.00521,
       "threat": 0.00028,
       "sexual_explicit": 0.00018,
-      "positive": 0.16980,
-      "neutral": 0.73784,
-      "negative": 0.09236
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/video/oan-contribution/gop-leans-into-transgender-battle-leading-up-to-2024-election/"
   },
@@ -209,9 +209,9 @@
       "insult": 0.00023,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.02444,
-      "neutral": 0.32403,
-      "negative": 0.65154
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.oann.com/video/oan-contribution/20-years-since-the-u-s-led-invasion-of-iraq/"
   },
@@ -227,9 +227,9 @@
       "insult": 0.00033,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.04009,
-      "neutral": 0.55112,
-      "negative": 0.40878
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/video/oan-contribution/potential-trump-indictment-likely-a-clear-case/"
   },
@@ -242,12 +242,12 @@
       "severe_toxicity": 0.00005,
       "obscene": 0.00031,
       "identity_attack": 0.00012,
-      "insult": 0.00026,
+      "insult": 0.00025,
       "threat": 0.00006,
       "sexual_explicit": 0.00004,
-      "positive": 0.27305,
-      "neutral": 0.64555,
-      "negative": 0.08140
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/business/eu-proposes-exception-for/"
   },
@@ -256,16 +256,16 @@
     "language": "en",
     "text": "EV charger makers brace for slowdown as new Made In America rules kick in",
     "scores": {
-      "toxicity": 0.00081,
+      "toxicity": 0.00079,
       "severe_toxicity": 0.00002,
       "obscene": 0.00015,
-      "identity_attack": 0.00011,
+      "identity_attack": 0.00010,
       "insult": 0.00019,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.05840,
-      "neutral": 0.42959,
-      "negative": 0.51200
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.oann.com/business/ev-charger-makers-brace/"
   },
@@ -281,9 +281,9 @@
       "insult": 0.00017,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.63038,
-      "neutral": 0.33830,
-      "negative": 0.03132
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/business/huge-phillips-66-biofuels/"
   },
@@ -299,9 +299,9 @@
       "insult": 0.00029,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.29541,
-      "neutral": 0.41264,
-      "negative": 0.29195
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/business/switzerlands-secretive-credit-suisse/"
   },
@@ -310,16 +310,16 @@
     "language": "en",
     "text": "Shares rise after Credit Suisse deal, but bank \u2018whack-a-mole\u2019 not over",
     "scores": {
-      "toxicity": 0.00120,
+      "toxicity": 0.00121,
       "severe_toxicity": 0.00004,
       "obscene": 0.00049,
       "identity_attack": 0.00012,
       "insult": 0.00046,
       "threat": 0.00010,
       "sexual_explicit": 0.00007,
-      "positive": 0.07992,
-      "neutral": 0.35277,
-      "negative": 0.56731
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.oann.com/business/shares-rise-after-credit/"
   },
@@ -328,16 +328,16 @@
     "language": "en",
     "text": "\u2018Succession\u2019 star Brian Cox gets into character at final season premiere",
     "scores": {
-      "toxicity": 0.00070,
+      "toxicity": 0.00069,
       "severe_toxicity": 0.00003,
       "obscene": 0.00022,
       "identity_attack": 0.00008,
       "insult": 0.00042,
       "threat": 0.00004,
       "sexual_explicit": 0.00004,
-      "positive": 0.81062,
-      "neutral": 0.16850,
-      "negative": 0.02088
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/entertainment/succession-star-brian-cox/"
   },
@@ -348,14 +348,14 @@
     "scores": {
       "toxicity": 0.00060,
       "severe_toxicity": 0.00007,
-      "obscene": 0.00051,
+      "obscene": 0.00052,
       "identity_attack": 0.00022,
       "insult": 0.00041,
       "threat": 0.00006,
       "sexual_explicit": 0.00005,
-      "positive": 0.02410,
-      "neutral": 0.25698,
-      "negative": 0.71891
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.oann.com/entertainment/screening-of-winnie-the/"
   },
@@ -364,16 +364,16 @@
     "language": "en",
     "text": "Offbeat multiverse movie \u2018Everything Everywhere\u2019 dominates the Oscars",
     "scores": {
-      "toxicity": 0.00099,
+      "toxicity": 0.00098,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00038,
+      "obscene": 0.00037,
       "identity_attack": 0.00014,
-      "insult": 0.00071,
+      "insult": 0.00070,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.85415,
-      "neutral": 0.12505,
-      "negative": 0.02080
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/entertainment/offbeat-multiverse-movie-everything/"
   },
@@ -386,12 +386,12 @@
       "severe_toxicity": 0.00003,
       "obscene": 0.00023,
       "identity_attack": 0.00022,
-      "insult": 0.00031,
+      "insult": 0.00030,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.01855,
-      "neutral": 0.16229,
-      "negative": 0.81916
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.oann.com/tech/google-suspends-chinas-pinduoduo/"
   },
@@ -407,9 +407,9 @@
       "insult": 0.00039,
       "threat": 0.00002,
       "sexual_explicit": 0.00002,
-      "positive": 0.01386,
-      "neutral": 0.15489,
-      "negative": 0.83125
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.oann.com/tech/italys-antitrust-probes-tiktok/"
   },
@@ -425,9 +425,9 @@
       "insult": 0.00019,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.49356,
-      "neutral": 0.41960,
-      "negative": 0.08683
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/tech/indias-karnataka-govt-approves/"
   },
@@ -437,15 +437,15 @@
     "text": "EXCLUSIVE-Olympics-Paris 2024 plans Games relay changes, fewer torches-source",
     "scores": {
       "toxicity": 0.00068,
-      "severe_toxicity": 0.00235,
-      "obscene": 0.01777,
-      "identity_attack": 0.00398,
-      "insult": 0.01361,
-      "threat": 0.00122,
+      "severe_toxicity": 0.00231,
+      "obscene": 0.01757,
+      "identity_attack": 0.00393,
+      "insult": 0.01348,
+      "threat": 0.00120,
       "sexual_explicit": 0.00053,
-      "positive": 0.09344,
-      "neutral": 0.86188,
-      "negative": 0.04468
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/sports/exclusive-olympics-paris-2024-plans-games/"
   },
@@ -454,16 +454,16 @@
     "language": "en",
     "text": "NHL roundup: Aleksander Barkov sets Panthers\u2019 scoring record",
     "scores": {
-      "toxicity": 0.00031,
+      "toxicity": 0.00030,
       "severe_toxicity": 0.00009,
       "obscene": 0.00066,
       "identity_attack": 0.00020,
       "insult": 0.00046,
       "threat": 0.00008,
       "sexual_explicit": 0.00006,
-      "positive": 0.37878,
-      "neutral": 0.56377,
-      "negative": 0.05745
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/sports/nhl-roundup-aleksander-barkov/"
   },
@@ -472,16 +472,16 @@
     "language": "en",
     "text": "Women\u2019s NCAA roundup: Ohio State sinks UNC at buzzer",
     "scores": {
-      "toxicity": 0.01212,
+      "toxicity": 0.01201,
       "severe_toxicity": 0.00020,
-      "obscene": 0.00096,
-      "identity_attack": 0.00217,
-      "insult": 0.00319,
-      "threat": 0.00070,
-      "sexual_explicit": 0.00097,
-      "positive": 0.15649,
-      "neutral": 0.69127,
-      "negative": 0.15225
+      "obscene": 0.00095,
+      "identity_attack": 0.00215,
+      "insult": 0.00317,
+      "threat": 0.00069,
+      "sexual_explicit": 0.00096,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/sports/womens-ncaa-roundup-ohio/"
   },
@@ -490,16 +490,16 @@
     "language": "en",
     "text": "Geofence Surveillance: First, They Spied on Protesters. Then Churches. You\u2019re Next.",
     "scores": {
-      "toxicity": 0.01340,
+      "toxicity": 0.01298,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00040,
-      "identity_attack": 0.00263,
-      "insult": 0.00102,
-      "threat": 0.00043,
+      "obscene": 0.00039,
+      "identity_attack": 0.00254,
+      "insult": 0.00100,
+      "threat": 0.00042,
       "sexual_explicit": 0.00018,
-      "positive": 0.03745,
-      "neutral": 0.54029,
-      "negative": 0.42226
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.oann.com/commentary/geofence-surveillance-first-they-spied-on-protesters-then-churches-youre-next/"
   }

@@ -4,16 +4,16 @@
     "language": "en",
     "text": "Xi Meets Putin in Moscow on State Visit Highlighting China\u2019s Ties to Russia",
     "scores": {
-      "toxicity": 0.00032,
+      "toxicity": 0.00031,
       "severe_toxicity": 0.00004,
       "obscene": 0.00017,
       "identity_attack": 0.00014,
       "insult": 0.00016,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.24020,
-      "neutral": 0.68816,
-      "negative": 0.07164
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/live/2023/03/20/world/russia-ukraine-xi-putin-news"
   },
@@ -22,16 +22,16 @@
     "language": "en",
     "text": "Here\u2019s why China and Russia are closer than ever.",
     "scores": {
-      "toxicity": 0.00245,
+      "toxicity": 0.00243,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
-      "identity_attack": 0.00066,
+      "identity_attack": 0.00065,
       "insult": 0.00035,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.25198,
-      "neutral": 0.34557,
-      "negative": 0.40245
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/world/asia/china-russia-ties.html"
   },
@@ -40,16 +40,16 @@
     "language": "en",
     "text": "European officials agreed to supply more artillery shells to Ukraine.",
     "scores": {
-      "toxicity": 0.00236,
+      "toxicity": 0.00230,
       "severe_toxicity": 0.00005,
       "obscene": 0.00017,
-      "identity_attack": 0.00065,
+      "identity_attack": 0.00064,
       "insult": 0.00021,
-      "threat": 0.00043,
+      "threat": 0.00042,
       "sexual_explicit": 0.00005,
-      "positive": 0.26642,
-      "neutral": 0.51709,
-      "negative": 0.21649
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/live/2023/03/20/world/russia-ukraine-xi-putin-news/european-officials-agree-to-supply-more-artillery-shells-to-ukraine"
   },
@@ -65,9 +65,9 @@
       "insult": 0.00030,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.07149,
-      "neutral": 0.58067,
-      "negative": 0.34784
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/us/politics/trump-indictment-republicans.html"
   },
@@ -83,9 +83,9 @@
       "insult": 0.00027,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.03955,
-      "neutral": 0.33556,
-      "negative": 0.62489
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/us/trumps-georgia-special-grand-jury.html"
   },
@@ -94,16 +94,16 @@
     "language": "en",
     "text": "Fingerprints and a mug shot: how a Trump arrest would proceed.",
     "scores": {
-      "toxicity": 0.09844,
+      "toxicity": 0.09579,
       "severe_toxicity": 0.00016,
-      "obscene": 0.00041,
+      "obscene": 0.00040,
       "identity_attack": 0.00070,
-      "insult": 0.00254,
-      "threat": 0.05758,
-      "sexual_explicit": 0.00038,
-      "positive": 0.05761,
-      "neutral": 0.66370,
-      "negative": 0.27869
+      "insult": 0.00249,
+      "threat": 0.05598,
+      "sexual_explicit": 0.00037,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/nyregion/trump-arrest-indictment-nypd.html"
   },
@@ -115,13 +115,13 @@
       "toxicity": 0.00070,
       "severe_toxicity": 0.00004,
       "obscene": 0.00017,
-      "identity_attack": 0.00015,
+      "identity_attack": 0.00014,
       "insult": 0.00012,
       "threat": 0.00012,
       "sexual_explicit": 0.00003,
-      "positive": 0.28032,
-      "neutral": 0.65677,
-      "negative": 0.06291
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/climate/global-warming-ipcc-earth.html"
   },
@@ -130,16 +130,16 @@
     "language": "en",
     "text": "A Different Kind of Pipeline Project Scrambles Midwest Politics",
     "scores": {
-      "toxicity": 0.00208,
+      "toxicity": 0.00205,
       "severe_toxicity": 0.00004,
       "obscene": 0.00044,
       "identity_attack": 0.00022,
-      "insult": 0.00133,
+      "insult": 0.00131,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.11960,
-      "neutral": 0.75288,
-      "negative": 0.12752
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/us/carbon-dioxide-ethanol-underground-midwest.html"
   },
@@ -155,9 +155,9 @@
       "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.10199,
-      "neutral": 0.83508,
-      "negative": 0.06293
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/interactive/2023/climate/climate-change-faq.html"
   },
@@ -173,9 +173,9 @@
       "insult": 0.00032,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.01766,
-      "neutral": 0.34659,
-      "negative": 0.63576
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/business/first-republic-bank.html"
   },
@@ -184,16 +184,16 @@
     "language": "en",
     "text": "Choppy trading in markets suggested that investors remained nervous about some banks after moves to shore them up.",
     "scores": {
-      "toxicity": 0.00123,
+      "toxicity": 0.00124,
       "severe_toxicity": 0.00002,
       "obscene": 0.00014,
       "identity_attack": 0.00012,
       "insult": 0.00042,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.02752,
-      "neutral": 0.25857,
-      "negative": 0.71390
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/business/markets-today.html"
   },
@@ -202,16 +202,16 @@
     "language": "en",
     "text": "For Years She Said a Coach Abused Her. Now She Has Named a Legend.",
     "scores": {
-      "toxicity": 0.00258,
+      "toxicity": 0.00255,
       "severe_toxicity": 0.00002,
       "obscene": 0.00014,
       "identity_attack": 0.00020,
-      "insult": 0.00045,
+      "insult": 0.00044,
       "threat": 0.00009,
       "sexual_explicit": 0.00006,
-      "positive": 0.13666,
-      "neutral": 0.40666,
-      "negative": 0.45668
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/sports/olympics/jennifer-fox-sexual-abuse-the-tale.html"
   },
@@ -224,12 +224,12 @@
       "severe_toxicity": 0.00002,
       "obscene": 0.00017,
       "identity_attack": 0.00010,
-      "insult": 0.00030,
+      "insult": 0.00029,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.02941,
-      "neutral": 0.23274,
-      "negative": 0.73785
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/live/2023/03/20/world/france-macron-no-confidence-vote"
   },
@@ -238,16 +238,16 @@
     "language": "en",
     "text": "Missteps From Iraq Retain the Power to Haunt America",
     "scores": {
-      "toxicity": 0.01244,
+      "toxicity": 0.01229,
       "severe_toxicity": 0.00003,
       "obscene": 0.00016,
-      "identity_attack": 0.00279,
-      "insult": 0.00143,
-      "threat": 0.00015,
+      "identity_attack": 0.00276,
+      "insult": 0.00142,
+      "threat": 0.00014,
       "sexual_explicit": 0.00004,
-      "positive": 0.01561,
-      "neutral": 0.06464,
-      "negative": 0.91976
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/us/politics/iraq-20-years.html"
   },
@@ -256,16 +256,16 @@
     "language": "en",
     "text": "Children of the Iraq War Have Grown Up, but Some Wounds Don\u2019t Heal",
     "scores": {
-      "toxicity": 0.00468,
+      "toxicity": 0.00475,
       "severe_toxicity": 0.00001,
       "obscene": 0.00014,
       "identity_attack": 0.00014,
-      "insult": 0.00168,
+      "insult": 0.00171,
       "threat": 0.00002,
-      "sexual_explicit": 0.00002,
-      "positive": 0.03423,
-      "neutral": 0.26415,
-      "negative": 0.70162
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/world/middleeast/iraq-war-anniversary-youth.html"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "Monday\u2019s Matchups to Watch in the Women\u2019s N.C.A.A. Tournament",
     "scores": {
-      "toxicity": 0.00133,
+      "toxicity": 0.00132,
       "severe_toxicity": 0.00010,
       "obscene": 0.00056,
-      "identity_attack": 0.00050,
-      "insult": 0.00070,
-      "threat": 0.00015,
+      "identity_attack": 0.00049,
+      "insult": 0.00069,
+      "threat": 0.00014,
       "sexual_explicit": 0.00032,
-      "positive": 0.13462,
-      "neutral": 0.83491,
-      "negative": 0.03047
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/sports/ncaabasketball/march-madness-monday.html"
   },
@@ -299,9 +299,9 @@
       "insult": 0.00022,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.05511,
-      "neutral": 0.50361,
-      "negative": 0.44128
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://theathletic.com/4325496/2023/03/20/march-madness-vermont-cinderella/"
   },
@@ -310,16 +310,16 @@
     "language": "en",
     "text": "Here are the key questions facing each team in the men\u2019s Sweet 16 field.",
     "scores": {
-      "toxicity": 0.00201,
+      "toxicity": 0.00200,
       "severe_toxicity": 0.00018,
       "obscene": 0.00053,
-      "identity_attack": 0.00095,
-      "insult": 0.00084,
+      "identity_attack": 0.00094,
+      "insult": 0.00083,
       "threat": 0.00044,
       "sexual_explicit": 0.00029,
-      "positive": 0.06619,
-      "neutral": 0.86502,
-      "negative": 0.06878
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://theathletic.com/4326239/2023/03/20/ncaa-tournament-sweet-16-seth-davis/"
   },
@@ -335,9 +335,9 @@
       "insult": 0.00039,
       "threat": 0.00009,
       "sexual_explicit": 0.00004,
-      "positive": 0.07495,
-      "neutral": 0.76090,
-      "negative": 0.16415
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/17/headway/spray-bottle-clorox-plastic-refillable-recycle.html"
   },
@@ -346,16 +346,16 @@
     "language": "en",
     "text": "Work Friend: Don\u2019t be the dress code police.",
     "scores": {
-      "toxicity": 0.01370,
+      "toxicity": 0.01342,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00024,
+      "obscene": 0.00023,
       "identity_attack": 0.00022,
-      "insult": 0.00792,
+      "insult": 0.00773,
       "threat": 0.00013,
       "sexual_explicit": 0.00006,
-      "positive": 0.06295,
-      "neutral": 0.31067,
-      "negative": 0.62638
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/18/business/roxane-gay-work-advice-work-wardrobe.html"
   },
@@ -364,16 +364,16 @@
     "language": "en",
     "text": "This carrot cake doesn\u2019t require any grating.",
     "scores": {
-      "toxicity": 0.00740,
+      "toxicity": 0.00736,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00106,
+      "obscene": 0.00105,
       "identity_attack": 0.00011,
-      "insult": 0.00203,
+      "insult": 0.00202,
       "threat": 0.00040,
-      "sexual_explicit": 0.00068,
-      "positive": 0.21159,
-      "neutral": 0.55455,
-      "negative": 0.23385
+      "sexual_explicit": 0.00067,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/17/dining/easy-carrot-cake-recipe.html"
   },
@@ -382,16 +382,16 @@
     "language": "en",
     "text": "Never Mind About Ron DeSantis",
     "scores": {
-      "toxicity": 0.00047,
+      "toxicity": 0.00046,
       "severe_toxicity": 0.00003,
       "obscene": 0.00022,
       "identity_attack": 0.00014,
       "insult": 0.00023,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.08919,
-      "neutral": 0.75237,
-      "negative": 0.15844
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/ron-desantis-trump-silicon-valley-bank.html"
   },
@@ -400,16 +400,16 @@
     "language": "en",
     "text": "Before His Death, I Asked the Manhattan D.A. What His Greatest Fear Was. He Answered: \u2018Trump.\u2019",
     "scores": {
-      "toxicity": 0.00161,
+      "toxicity": 0.00159,
       "severe_toxicity": 0.00002,
       "obscene": 0.00010,
       "identity_attack": 0.00011,
-      "insult": 0.00027,
+      "insult": 0.00026,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.05861,
-      "neutral": 0.57653,
-      "negative": 0.36486
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/donald-trump-friendship-with-robert-morgenthau.html"
   },
@@ -418,16 +418,16 @@
     "language": "en",
     "text": "Americans Have Mostly Forgotten the Iraq War. I Haven\u2019t.",
     "scores": {
-      "toxicity": 0.00204,
+      "toxicity": 0.00202,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
-      "identity_attack": 0.00053,
+      "identity_attack": 0.00052,
       "insult": 0.00034,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.02750,
-      "neutral": 0.24459,
-      "negative": 0.72791
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/iraq-war-20th-anniversary.html"
   },
@@ -436,16 +436,16 @@
     "language": "en",
     "text": "Bill Gates: \u2018I Worry We\u2019re Making the Same Mistakes Again\u2019",
     "scores": {
-      "toxicity": 0.00132,
+      "toxicity": 0.00131,
       "severe_toxicity": 0.00003,
       "obscene": 0.00015,
-      "identity_attack": 0.00019,
+      "identity_attack": 0.00018,
       "insult": 0.00028,
       "threat": 0.00009,
       "sexual_explicit": 0.00003,
-      "positive": 0.02478,
-      "neutral": 0.12916,
-      "negative": 0.84606
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/bill-gates-pandemic-preparedness-covid.html"
   },
@@ -454,16 +454,16 @@
     "language": "en",
     "text": "I Fantasized About Multiple Timelines, and It Nearly Ruined My Life",
     "scores": {
-      "toxicity": 0.00125,
+      "toxicity": 0.00124,
       "severe_toxicity": 0.00004,
       "obscene": 0.00035,
       "identity_attack": 0.00026,
-      "insult": 0.00033,
+      "insult": 0.00032,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.03644,
-      "neutral": 0.16348,
-      "negative": 0.80008
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/multiverse-danger.html"
   },
@@ -472,16 +472,16 @@
     "language": "en",
     "text": "The Colorado River Is Running Dry, but Nobody Wants to Talk About the Mud",
     "scores": {
-      "toxicity": 0.01740,
+      "toxicity": 0.01741,
       "severe_toxicity": 0.00002,
       "obscene": 0.00064,
       "identity_attack": 0.00016,
       "insult": 0.01027,
       "threat": 0.00006,
       "sexual_explicit": 0.00007,
-      "positive": 0.03062,
-      "neutral": 0.19482,
-      "negative": 0.77456
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/colorado-river-lake-powell-glen-canyon-dam.html"
   },
@@ -490,16 +490,16 @@
     "language": "en",
     "text": "Ron DeSantis Has a Secret Theory of Trump",
     "scores": {
-      "toxicity": 0.00182,
+      "toxicity": 0.00181,
       "severe_toxicity": 0.00001,
       "obscene": 0.00011,
       "identity_attack": 0.00011,
-      "insult": 0.00062,
+      "insult": 0.00061,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.08796,
-      "neutral": 0.72974,
-      "negative": 0.18230
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/ron-desantis-donald-trump-courage-free.html"
   },
@@ -515,9 +515,9 @@
       "insult": 0.00034,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02029,
-      "neutral": 0.17351,
-      "negative": 0.80621
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/opinion/tiktok-ban-big-tech-china.html"
   },
@@ -533,9 +533,9 @@
       "insult": 0.00031,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02094,
-      "neutral": 0.25305,
-      "negative": 0.72602
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/teen-adult-depression-anxiety.html"
   },
@@ -544,16 +544,16 @@
     "language": "en",
     "text": "The Man Who Changed Everything for American Jewish Audiences",
     "scores": {
-      "toxicity": 0.03099,
-      "severe_toxicity": 0.00373,
-      "obscene": 0.00606,
-      "identity_attack": 0.01534,
-      "insult": 0.01204,
-      "threat": 0.00301,
+      "toxicity": 0.03075,
+      "severe_toxicity": 0.00370,
+      "obscene": 0.00602,
+      "identity_attack": 0.01523,
+      "insult": 0.01194,
+      "threat": 0.00299,
       "sexual_explicit": 0.00094,
-      "positive": 0.58182,
-      "neutral": 0.35503,
-      "negative": 0.06315
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/18/opinion/topol-tevye-fiddler-tradition.html"
   },
@@ -562,16 +562,16 @@
     "language": "en",
     "text": "Can We Slow This All Down, Please?",
     "scores": {
-      "toxicity": 0.01282,
+      "toxicity": 0.01272,
       "severe_toxicity": 0.00011,
       "obscene": 0.00034,
       "identity_attack": 0.00053,
       "insult": 0.00037,
-      "threat": 0.00646,
+      "threat": 0.00642,
       "sexual_explicit": 0.00018,
-      "positive": 0.09083,
-      "neutral": 0.33406,
-      "negative": 0.57510
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/18/opinion/svb-banks-change.html"
   },
@@ -580,16 +580,16 @@
     "language": "en",
     "text": "On Pets, Moral Logic and Love",
     "scores": {
-      "toxicity": 0.00062,
+      "toxicity": 0.00061,
       "severe_toxicity": 0.00003,
       "obscene": 0.00026,
       "identity_attack": 0.00009,
-      "insult": 0.00034,
+      "insult": 0.00033,
       "threat": 0.00004,
       "sexual_explicit": 0.00004,
-      "positive": 0.18949,
-      "neutral": 0.76847,
-      "negative": 0.04205
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/pets-dogs-love.html"
   },
@@ -605,9 +605,9 @@
       "insult": 0.00023,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.04032,
-      "neutral": 0.19379,
-      "negative": 0.76589
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/interactive/2023/03/14/opinion/middle-age-millennials.html"
   },
@@ -616,16 +616,16 @@
     "language": "en",
     "text": "My Dangerous, Lonely Life on the Run",
     "scores": {
-      "toxicity": 0.00440,
+      "toxicity": 0.00441,
       "severe_toxicity": 0.00003,
       "obscene": 0.00064,
       "identity_attack": 0.00019,
       "insult": 0.00143,
       "threat": 0.00005,
       "sexual_explicit": 0.00005,
-      "positive": 0.05576,
-      "neutral": 0.26810,
-      "negative": 0.67615
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/19/opinion/myanmar-military-coup-resistance.html"
   },
@@ -641,9 +641,9 @@
       "insult": 0.00023,
       "threat": 0.00015,
       "sexual_explicit": 0.00004,
-      "positive": 0.06015,
-      "neutral": 0.52958,
-      "negative": 0.41027
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/18/opinion/cancer-brain-mind-body.html"
   },
@@ -652,16 +652,16 @@
     "language": "en",
     "text": "Humanity Is Facing a Great Injustice. The World Bank Must Respond.",
     "scores": {
-      "toxicity": 0.00049,
+      "toxicity": 0.00048,
       "severe_toxicity": 0.00003,
       "obscene": 0.00013,
       "identity_attack": 0.00011,
       "insult": 0.00020,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.01259,
-      "neutral": 0.06322,
-      "negative": 0.92419
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/18/opinion/world-bank-climate-change.html"
   },
@@ -677,9 +677,9 @@
       "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.33711,
-      "neutral": 0.54988,
-      "negative": 0.11301
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/briefing/donald-trump-indictment.html"
   },
@@ -692,12 +692,12 @@
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00009,
-      "insult": 0.00017,
+      "insult": 0.00018,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.14757,
-      "neutral": 0.81781,
-      "negative": 0.03463
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/podcasts/the-daily/how-tiktok-became-a-matter-of-national-security.html"
   },
@@ -706,16 +706,16 @@
     "language": "en",
     "text": "Americans\u2019 Old Car Batteries Are Making Mexican Workers Sick",
     "scores": {
-      "toxicity": 0.48800,
+      "toxicity": 0.48658,
       "severe_toxicity": 0.00009,
       "obscene": 0.00073,
-      "identity_attack": 0.36997,
-      "insult": 0.07533,
+      "identity_attack": 0.36884,
+      "insult": 0.07515,
       "threat": 0.00085,
       "sexual_explicit": 0.00027,
-      "positive": 0.01643,
-      "neutral": 0.09761,
-      "negative": 0.88596
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/world/car-batteries-lead-mexico.html"
   },
@@ -724,16 +724,16 @@
     "language": "en",
     "text": "First Official Estimate of Somalia\u2019s Drought Shows 43,000 Dead",
     "scores": {
-      "toxicity": 0.00165,
+      "toxicity": 0.00166,
       "severe_toxicity": 0.00003,
       "obscene": 0.00011,
-      "identity_attack": 0.00038,
+      "identity_attack": 0.00039,
       "insult": 0.00021,
       "threat": 0.00010,
       "sexual_explicit": 0.00002,
-      "positive": 0.03001,
-      "neutral": 0.40212,
-      "negative": 0.56787
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/world/africa/somalia-drought-death-famine.html"
   },
@@ -742,16 +742,16 @@
     "language": "en",
     "text": "Trial of 2016 Twitter Troll to Test Limits of Online Speech",
     "scores": {
-      "toxicity": 0.23214,
+      "toxicity": 0.23260,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00076,
+      "obscene": 0.00075,
       "identity_attack": 0.00035,
-      "insult": 0.22103,
+      "insult": 0.22125,
       "threat": 0.00013,
       "sexual_explicit": 0.00018,
-      "positive": 0.04669,
-      "neutral": 0.53067,
-      "negative": 0.42264
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/nyregion/douglass-mackey-twitter-misinformation-trial.html"
   },
@@ -760,16 +760,16 @@
     "language": "en",
     "text": "Crypto Wants Its Shine Back",
     "scores": {
-      "toxicity": 0.00133,
+      "toxicity": 0.00129,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00027,
-      "identity_attack": 0.00017,
-      "insult": 0.00023,
-      "threat": 0.00018,
+      "obscene": 0.00026,
+      "identity_attack": 0.00016,
+      "insult": 0.00022,
+      "threat": 0.00017,
       "sexual_explicit": 0.00007,
-      "positive": 0.21951,
-      "neutral": 0.64608,
-      "negative": 0.13441
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/technology/crypto-rebranding-marketing.html"
   },
@@ -781,13 +781,13 @@
       "toxicity": 0.00072,
       "severe_toxicity": 0.00005,
       "obscene": 0.00027,
-      "identity_attack": 0.00040,
-      "insult": 0.00031,
+      "identity_attack": 0.00039,
+      "insult": 0.00030,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.04451,
-      "neutral": 0.32471,
-      "negative": 0.63078
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/world/middleeast/israel-judicial-overhaul-changes.html"
   },
@@ -803,9 +803,9 @@
       "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.14150,
-      "neutral": 0.37454,
-      "negative": 0.48396
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/us/politics/hostage-jeffery-woodke-freed.html"
   },
@@ -814,16 +814,16 @@
     "language": "en",
     "text": "Meta Manager Was Hacked With Spyware and Wiretapped in Greece",
     "scores": {
-      "toxicity": 0.00198,
-      "severe_toxicity": 0.00038,
-      "obscene": 0.00155,
-      "identity_attack": 0.00100,
-      "insult": 0.00128,
-      "threat": 0.00049,
+      "toxicity": 0.00195,
+      "severe_toxicity": 0.00037,
+      "obscene": 0.00151,
+      "identity_attack": 0.00098,
+      "insult": 0.00126,
+      "threat": 0.00048,
       "sexual_explicit": 0.00015,
-      "positive": 0.01608,
-      "neutral": 0.25206,
-      "negative": 0.73186
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/world/europe/greece-spyware-hacking-meta.html"
   },
@@ -839,9 +839,9 @@
       "insult": 0.00027,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.62640,
-      "neutral": 0.31749,
-      "negative": 0.05611
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/19/movies/adam-sandler-mark-twain-prize.html"
   },
@@ -850,16 +850,16 @@
     "language": "en",
     "text": "Australian State Moves to Ban Nazi Salute After Clashes at Rally",
     "scores": {
-      "toxicity": 0.05819,
-      "severe_toxicity": 0.00010,
-      "obscene": 0.00074,
-      "identity_attack": 0.00617,
-      "insult": 0.00266,
+      "toxicity": 0.05741,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00073,
+      "identity_attack": 0.00608,
+      "insult": 0.00264,
       "threat": 0.00064,
       "sexual_explicit": 0.00011,
-      "positive": 0.02349,
-      "neutral": 0.19936,
-      "negative": 0.77714
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/20/world/australia/melbourne-nazi-salute.html"
   },
@@ -868,16 +868,16 @@
     "language": "en",
     "text": "5 Young People Are Killed in Car Crash in Westchester County",
     "scores": {
-      "toxicity": 0.00361,
+      "toxicity": 0.00357,
       "severe_toxicity": 0.00007,
       "obscene": 0.00026,
-      "identity_attack": 0.00048,
+      "identity_attack": 0.00047,
       "insult": 0.00029,
-      "threat": 0.00034,
-      "sexual_explicit": 0.00007,
-      "positive": 0.04034,
-      "neutral": 0.27659,
-      "negative": 0.68306
+      "threat": 0.00033,
+      "sexual_explicit": 0.00006,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.nytimes.com/2023/03/19/nyregion/connecticut-children-car-crash-westchester.html"
   },
@@ -886,16 +886,16 @@
     "language": "en",
     "text": "American Directors Bring Fresh Visions to Europe\u2019s Opera Stages",
     "scores": {
-      "toxicity": 0.00031,
-      "severe_toxicity": 0.00009,
+      "toxicity": 0.00030,
+      "severe_toxicity": 0.00008,
       "obscene": 0.00056,
-      "identity_attack": 0.00024,
+      "identity_attack": 0.00023,
       "insult": 0.00055,
       "threat": 0.00008,
       "sexual_explicit": 0.00006,
-      "positive": 0.80692,
-      "neutral": 0.17300,
-      "negative": 0.02008
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/17/arts/music/american-opera-directors-ted-huffman-lydia-steier-rb-schlather.html"
   },
@@ -911,9 +911,9 @@
       "insult": 0.00019,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.10723,
-      "neutral": 0.57075,
-      "negative": 0.32202
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/17/style/extrapolations-fashion-climate-change.html"
   },
@@ -929,9 +929,9 @@
       "insult": 0.00056,
       "threat": 0.00009,
       "sexual_explicit": 0.00004,
-      "positive": 0.13159,
-      "neutral": 0.82204,
-      "negative": 0.04636
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/16/arts/dance/maqoma-sibisi-broken-chord.html"
   },
@@ -947,9 +947,9 @@
       "insult": 0.00024,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.04871,
-      "neutral": 0.82823,
-      "negative": 0.12306
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/17/arts/television/swarm-review.html"
   },
@@ -958,16 +958,16 @@
     "language": "en",
     "text": "\u2018Rye Lane\u2019 Aims to Show You a Real London Love Story",
     "scores": {
-      "toxicity": 0.00124,
+      "toxicity": 0.00120,
       "severe_toxicity": 0.00003,
       "obscene": 0.00021,
       "identity_attack": 0.00019,
       "insult": 0.00024,
       "threat": 0.00009,
       "sexual_explicit": 0.00008,
-      "positive": 0.43882,
-      "neutral": 0.53785,
-      "negative": 0.02333
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2023/03/17/movies/rye-lane.html"
   },
@@ -983,9 +983,9 @@
       "insult": 0.00025,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.09749,
-      "neutral": 0.74461,
-      "negative": 0.15789
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://theathletic.com/4317268/2023/03/20/jerod-mayo-patriots-bill-belichick/"
   },
@@ -994,16 +994,16 @@
     "language": "en",
     "text": "Dusty Baker on Life, Baseball and Becoming an American Icon",
     "scores": {
-      "toxicity": 0.00393,
+      "toxicity": 0.00379,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00040,
-      "identity_attack": 0.00021,
-      "insult": 0.00169,
+      "obscene": 0.00039,
+      "identity_attack": 0.00020,
+      "insult": 0.00163,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.10475,
-      "neutral": 0.42406,
-      "negative": 0.47119
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://theathletic.com/4324804/2023/03/20/dusty-baker-astros-world-series/"
   },
@@ -1012,16 +1012,16 @@
     "language": "en",
     "text": "How Shameful Self-Sabotage Destroyed One Soccer Club\u2019s Special Season",
     "scores": {
-      "toxicity": 0.09275,
+      "toxicity": 0.09173,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00169,
+      "obscene": 0.00167,
       "identity_attack": 0.00033,
-      "insult": 0.06023,
+      "insult": 0.05956,
       "threat": 0.00013,
       "sexual_explicit": 0.00013,
-      "positive": 0.01079,
-      "neutral": 0.03332,
-      "negative": 0.95589
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://theathletic.com/4325731/2023/03/20/fulham-manchester-united-aleksandar-mitrovic-red-card/"
   },
@@ -1032,14 +1032,14 @@
     "scores": {
       "toxicity": 0.00073,
       "severe_toxicity": 0.00013,
-      "obscene": 0.00126,
+      "obscene": 0.00125,
       "identity_attack": 0.00028,
-      "insult": 0.00158,
+      "insult": 0.00157,
       "threat": 0.00012,
       "sexual_explicit": 0.00008,
-      "positive": 0.08197,
-      "neutral": 0.43776,
-      "negative": 0.48026
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://theathletic.com/4325452/2023/03/20/lamar-jackson-contract-ravens-free-agency/"
   },
@@ -1050,14 +1050,14 @@
     "scores": {
       "toxicity": 0.00120,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00070,
-      "identity_attack": 0.00021,
-      "insult": 0.00119,
+      "obscene": 0.00069,
+      "identity_attack": 0.00020,
+      "insult": 0.00118,
       "threat": 0.00006,
-      "sexual_explicit": 0.00006,
-      "positive": 0.01797,
-      "neutral": 0.20055,
-      "negative": 0.78148
+      "sexual_explicit": 0.00005,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://theathletic.com/4323108/2023/03/20/taylor-call-detroit-pistons-dietitian/"
   },
@@ -1066,16 +1066,16 @@
     "language": "en",
     "text": "The Jets Are Likely to Land Aaron Rodgers. Odell Beckham Jr. Could Be Next.",
     "scores": {
-      "toxicity": 0.00059,
+      "toxicity": 0.00058,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00011,
       "insult": 0.00016,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.16486,
-      "neutral": 0.75353,
-      "negative": 0.08161
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://theathletic.com/4326353/2023/03/20/odell-beckham-jets-nfl-free-agency/"
   },
@@ -1091,9 +1091,9 @@
       "insult": 0.00018,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.73230,
-      "neutral": 0.22140,
-      "negative": 0.04630
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.nytimes.com/2022/09/01/crosswords/wordle-starting-words-adieu.html"
   }
