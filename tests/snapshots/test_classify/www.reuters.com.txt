@@ -11,9 +11,9 @@
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.31001,
-      "neutral": 0.61409,
-      "negative": 0.07590
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/markets/ubs-buys-back-nearly-3-bln-bonds-issued-under-week-ago-2023-03-22/"
   },
@@ -22,16 +22,16 @@
     "language": "en",
     "text": "Jack Daniel's trademark fight over dog toy goes to U.S. Supreme Court",
     "scores": {
-      "toxicity": 0.04193,
+      "toxicity": 0.04209,
       "severe_toxicity": 0.00001,
-      "obscene": 0.00019,
+      "obscene": 0.00020,
       "identity_attack": 0.00012,
-      "insult": 0.02423,
+      "insult": 0.02437,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
-      "positive": 0.08538,
-      "neutral": 0.55620,
-      "negative": 0.35842
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/legal/jack-daniels-trademark-fight-over-dog-toy-goes-us-supreme-court-2023-03-22/"
   },
@@ -40,16 +40,16 @@
     "language": "en",
     "text": "As AI booms, EU lawmakers wrangle over new rules",
     "scores": {
-      "toxicity": 0.00045,
+      "toxicity": 0.00044,
       "severe_toxicity": 0.00002,
       "obscene": 0.00016,
       "identity_attack": 0.00010,
       "insult": 0.00019,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.39424,
-      "neutral": 0.44330,
-      "negative": 0.16246
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/technology/ai-booms-eu-lawmakers-wrangle-over-new-rules-2023-03-22/"
   },
@@ -65,9 +65,9 @@
       "insult": 0.00022,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.20481,
-      "neutral": 0.76166,
-      "negative": 0.03353
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/technology/nvidia-tweaks-flagship-h100-chip-export-china-h800-2023-03-21/"
   },
@@ -83,9 +83,9 @@
       "insult": 0.00021,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.35855,
-      "neutral": 0.48008,
-      "negative": 0.16137
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/legal/microsoft-wins-dismissal-gamers-suit-over-69-bln-activision-deal-2023-03-21/"
   },
@@ -101,9 +101,9 @@
       "insult": 0.00025,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
-      "positive": 0.28001,
-      "neutral": 0.69144,
-      "negative": 0.02855
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/markets/deals/virgin-orbit-talks-raise-200-mln-matthew-brown-term-sheet-2023-03-22/"
   },
@@ -119,9 +119,9 @@
       "insult": 0.00023,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02728,
-      "neutral": 0.22397,
-      "negative": 0.74875
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/technology/australias-latitude-slumps-more-evidence-large-scale-information-theft-2023-03-22/"
   },
@@ -130,16 +130,16 @@
     "language": "en",
     "text": "Trump hush-money charges would bring 'zombie case' back to life",
     "scores": {
-      "toxicity": 0.04233,
+      "toxicity": 0.04250,
       "severe_toxicity": 0.00002,
       "obscene": 0.00042,
       "identity_attack": 0.00010,
-      "insult": 0.01899,
+      "insult": 0.01911,
       "threat": 0.00013,
       "sexual_explicit": 0.00018,
-      "positive": 0.05318,
-      "neutral": 0.16943,
-      "negative": 0.77739
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/legal/trump-hush-money-charges-would-bring-zombie-case-back-life-2023-03-22/"
   },
@@ -155,9 +155,9 @@
       "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.34550,
-      "neutral": 0.55739,
-      "negative": 0.09711
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/business/finance/us-banks-face-scrutiny-fed-rate-decision-looms-2023-03-22/"
   },
@@ -173,9 +173,9 @@
       "insult": 0.00107,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.17168,
-      "neutral": 0.51977,
-      "negative": 0.30855
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/markets/global-markets-view-usa-pix-2023-03-22/"
   },
@@ -184,16 +184,16 @@
     "language": "en",
     "text": "Storm-weary California lashed with 12th 'atmospheric river' cloudbursts",
     "scores": {
-      "toxicity": 0.00121,
+      "toxicity": 0.00120,
       "severe_toxicity": 0.00002,
       "obscene": 0.00025,
       "identity_attack": 0.00011,
-      "insult": 0.00050,
+      "insult": 0.00049,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.07430,
-      "neutral": 0.37564,
-      "negative": 0.55007
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/us/california-braces-next-bout-heavy-rain-snow-high-winds-2023-03-21/"
   },
@@ -202,16 +202,16 @@
     "language": "en",
     "text": "Uganda passes a law making it a crime to identify as LGBTQ",
     "scores": {
-      "toxicity": 0.07033,
+      "toxicity": 0.06935,
       "severe_toxicity": 0.00012,
       "obscene": 0.00049,
-      "identity_attack": 0.06657,
-      "insult": 0.00462,
-      "threat": 0.00038,
+      "identity_attack": 0.06567,
+      "insult": 0.00456,
+      "threat": 0.00037,
       "sexual_explicit": 0.00036,
-      "positive": 0.04054,
-      "neutral": 0.26098,
-      "negative": 0.69849
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/africa/uganda-passes-bill-banning-identifying-lgbtq-2023-03-21/"
   },
@@ -220,16 +220,16 @@
     "language": "en",
     "text": "Xi and Putin pledge to shape new world order, no peace in sight for Ukraine",
     "scores": {
-      "toxicity": 0.00050,
+      "toxicity": 0.00049,
       "severe_toxicity": 0.00003,
       "obscene": 0.00014,
       "identity_attack": 0.00014,
       "insult": 0.00015,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.01903,
-      "neutral": 0.09970,
-      "negative": 0.88127
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/europe/putin-meets-dear-friend-xi-kremlin-ukraine-war-grinds-2023-03-20/"
   },
@@ -245,9 +245,9 @@
       "insult": 0.00024,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.21796,
-      "neutral": 0.55502,
-      "negative": 0.22702
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/uk/what-cost-uk-pm-sunak-win-post-brexit-trade-vote-parliament-2023-03-22/"
   },
@@ -263,9 +263,9 @@
       "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.51402,
-      "neutral": 0.37874,
-      "negative": 0.10724
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/europe/austrian-minister-says-russia-will-remain-important-europe-2023-03-22/"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "Boris Johnson fights to save career in testimony on UK lockdown parties",
     "scores": {
-      "toxicity": 0.00073,
+      "toxicity": 0.00072,
       "severe_toxicity": 0.00003,
       "obscene": 0.00017,
       "identity_attack": 0.00011,
       "insult": 0.00024,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.28829,
-      "neutral": 0.43025,
-      "negative": 0.28146
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/uk/ex-uk-pm-boris-johnson-fights-career-testimony-lockdown-parties-2023-03-22/"
   },
@@ -292,16 +292,16 @@
     "language": "en",
     "text": "EU to propose clampdown on companies using fake 'green' claims",
     "scores": {
-      "toxicity": 0.00094,
+      "toxicity": 0.00092,
       "severe_toxicity": 0.00003,
       "obscene": 0.00014,
       "identity_attack": 0.00018,
       "insult": 0.00025,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.02210,
-      "neutral": 0.16063,
-      "negative": 0.81728
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/business/sustainable-business/eu-propose-clampdown-companies-using-fake-green-claims-2023-03-22/"
   },
@@ -310,16 +310,16 @@
     "language": "en",
     "text": "'Weakened' Macron sticks with pension bill, eyes new reforms",
     "scores": {
-      "toxicity": 0.00097,
+      "toxicity": 0.00096,
       "severe_toxicity": 0.00001,
       "obscene": 0.00011,
       "identity_attack": 0.00008,
       "insult": 0.00045,
       "threat": 0.00002,
       "sexual_explicit": 0.00002,
-      "positive": 0.24690,
-      "neutral": 0.35615,
-      "negative": 0.39695
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/europe/dozens-arrested-french-protests-after-government-survives-no-confidence-vote-2023-03-21/"
   },
@@ -328,16 +328,16 @@
     "language": "en",
     "text": "Marcos says new military bases with US to be 'scattered' around the Philippines",
     "scores": {
-      "toxicity": 0.00078,
+      "toxicity": 0.00077,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
       "identity_attack": 0.00022,
       "insult": 0.00016,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.04935,
-      "neutral": 0.48893,
-      "negative": 0.46172
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/asia-pacific/marcos-says-new-military-bases-with-us-be-scattered-around-philippines-2023-03-22/"
   },
@@ -353,9 +353,9 @@
       "insult": 0.00024,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.29839,
-      "neutral": 0.63305,
-      "negative": 0.06856
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/asia-pacific/taiwan-says-it-has-contingency-plans-china-moves-while-president-abroad-2023-03-22/"
   },
@@ -371,9 +371,9 @@
       "insult": 0.00026,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.82919,
-      "neutral": 0.12439,
-      "negative": 0.04642
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/lifestyle/sports/fans-rejoice-tokyo-japans-wbc-victory-accompanies-cherry-blossom-bloom-2023-03-22/"
   },
@@ -389,9 +389,9 @@
       "insult": 0.00015,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.18606,
-      "neutral": 0.76827,
-      "negative": 0.04567
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/markets/asia/sri-lanka-receives-first-tranche-imf-bailout-2023-03-22/"
   },
@@ -405,11 +405,11 @@
       "obscene": 0.00014,
       "identity_attack": 0.00014,
       "insult": 0.00014,
-      "threat": 0.00005,
+      "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.55018,
-      "neutral": 0.38167,
-      "negative": 0.06815
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/asia-pacific/chinese-company-wins-tender-redevelop-solomon-islands-port-official-2023-03-22/"
   },
@@ -418,16 +418,16 @@
     "language": "en",
     "text": "China OKs its first mRNA vaccine, from drugmaker CSPC",
     "scores": {
-      "toxicity": 0.00114,
+      "toxicity": 0.00113,
       "severe_toxicity": 0.00003,
       "obscene": 0.00028,
       "identity_attack": 0.00016,
       "insult": 0.00037,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.17905,
-      "neutral": 0.74161,
-      "negative": 0.07933
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/china-approves-its-first-mrna-vaccine-domestic-drugmaker-cspc-2023-03-22/"
   },
@@ -443,9 +443,9 @@
       "insult": 0.00018,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.14206,
-      "neutral": 0.58884,
-      "negative": 0.26910
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/china/china-capital-beijing-experiences-first-population-decline-since-2003-2023-03-21/"
   },
@@ -454,16 +454,16 @@
     "language": "en",
     "text": "Thick sandstorms shroud Beijing and several provinces in China",
     "scores": {
-      "toxicity": 0.00267,
+      "toxicity": 0.00266,
       "severe_toxicity": 0.00003,
       "obscene": 0.00039,
-      "identity_attack": 0.00039,
+      "identity_attack": 0.00038,
       "insult": 0.00084,
       "threat": 0.00011,
       "sexual_explicit": 0.00005,
-      "positive": 0.01749,
-      "neutral": 0.08140,
-      "negative": 0.90111
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/china/thick-sandstorms-shroud-beijing-several-provinces-china-2023-03-22/"
   },
@@ -476,12 +476,12 @@
       "severe_toxicity": 0.00003,
       "obscene": 0.00015,
       "identity_attack": 0.00011,
-      "insult": 0.00017,
+      "insult": 0.00016,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.19487,
-      "neutral": 0.73468,
-      "negative": 0.07045
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/technology/one-third-americans-would-consider-ev-purchase-reutersipsos-poll-2023-03-21/"
   },
@@ -497,9 +497,9 @@
       "insult": 0.00023,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.18005,
-      "neutral": 0.76224,
-      "negative": 0.05771
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/business/autos-transportation/what-are-e-fuels-can-they-help-make-cars-co2-free-2023-03-07/"
   },
@@ -515,9 +515,9 @@
       "insult": 0.00021,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.42843,
-      "neutral": 0.54669,
-      "negative": 0.02488
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/technology/oxbotica-goggo-team-up-autonomous-middle-mile-delivery-2023-03-22/"
   },
@@ -526,16 +526,16 @@
     "language": "en",
     "text": "Mexico makes lots of electric cars, but few Mexicans drive them",
     "scores": {
-      "toxicity": 0.01115,
+      "toxicity": 0.01096,
       "severe_toxicity": 0.00002,
       "obscene": 0.00014,
-      "identity_attack": 0.00650,
-      "insult": 0.00078,
+      "identity_attack": 0.00640,
+      "insult": 0.00077,
       "threat": 0.00010,
       "sexual_explicit": 0.00004,
-      "positive": 0.11774,
-      "neutral": 0.65363,
-      "negative": 0.22863
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/business/autos-transportation/mexico-makes-lots-electric-cars-few-mexicans-drive-them-2023-03-21/"
   },
@@ -544,16 +544,16 @@
     "language": "en",
     "text": "Trump hush-money probe expected to resume in New York grand jury",
     "scores": {
-      "toxicity": 0.05336,
+      "toxicity": 0.05353,
       "severe_toxicity": 0.00002,
       "obscene": 0.00032,
       "identity_attack": 0.00012,
-      "insult": 0.03899,
-      "threat": 0.00015,
+      "insult": 0.03924,
+      "threat": 0.00014,
       "sexual_explicit": 0.00008,
-      "positive": 0.08219,
-      "neutral": 0.63649,
-      "negative": 0.28132
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/legal/trump-hush-money-probe-expected-resume-new-york-grand-jury-2023-03-22/"
   },
@@ -562,16 +562,16 @@
     "language": "en",
     "text": "Los Angeles education strike cancels school for 420,000 students",
     "scores": {
-      "toxicity": 0.00131,
+      "toxicity": 0.00130,
       "severe_toxicity": 0.00003,
       "obscene": 0.00016,
       "identity_attack": 0.00017,
       "insult": 0.00026,
       "threat": 0.00009,
       "sexual_explicit": 0.00003,
-      "positive": 0.01526,
-      "neutral": 0.16352,
-      "negative": 0.82122
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/us/los-angeles-education-workers-strike-canceling-school-420000-students-2023-03-21/"
   },
@@ -580,16 +580,16 @@
     "language": "en",
     "text": "Arkansas enacts law restricting school bathroom use by transgender people",
     "scores": {
-      "toxicity": 0.54470,
+      "toxicity": 0.54343,
       "severe_toxicity": 0.00010,
       "obscene": 0.00054,
-      "identity_attack": 0.41340,
-      "insult": 0.02406,
+      "identity_attack": 0.41313,
+      "insult": 0.02396,
       "threat": 0.00094,
       "sexual_explicit": 0.00049,
-      "positive": 0.11060,
-      "neutral": 0.52224,
-      "negative": 0.36715
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/us/arkansas-enacts-law-restricting-school-bathroom-use-by-transgender-people-2023-03-22/"
   },
@@ -605,9 +605,9 @@
       "insult": 0.00015,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.55636,
-      "neutral": 0.36926,
-      "negative": 0.07438
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/us/scranton-biden-love-ya-joe-2024-run-2023-03-22/"
   },
@@ -616,16 +616,16 @@
     "language": "en",
     "text": "Trapped and jobless, Gaza youths look for a way out",
     "scores": {
-      "toxicity": 0.10807,
+      "toxicity": 0.10789,
       "severe_toxicity": 0.00005,
       "obscene": 0.00056,
-      "identity_attack": 0.00518,
-      "insult": 0.05451,
+      "identity_attack": 0.00514,
+      "insult": 0.05444,
       "threat": 0.00030,
       "sexual_explicit": 0.00010,
-      "positive": 0.02218,
-      "neutral": 0.16912,
-      "negative": 0.80870
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/middle-east/trapped-jobless-gaza-youths-look-way-out-2023-03-22/"
   },
@@ -634,16 +634,16 @@
     "language": "en",
     "text": "Donations and despair: Syria's north-west tries to rebuild after quake",
     "scores": {
-      "toxicity": 0.00084,
+      "toxicity": 0.00083,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00016,
       "insult": 0.00032,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.04179,
-      "neutral": 0.16529,
-      "negative": 0.79292
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/middle-east/donations-despair-syrias-north-west-tries-rebuild-after-quake-2023-03-22/"
   },
@@ -653,15 +653,15 @@
     "text": "Explainer: What's at stake in Turkey's upcoming elections?",
     "scores": {
       "toxicity": 0.00037,
-      "severe_toxicity": 0.00008,
-      "obscene": 0.00059,
+      "severe_toxicity": 0.00007,
+      "obscene": 0.00058,
       "identity_attack": 0.00020,
-      "insult": 0.00055,
+      "insult": 0.00054,
       "threat": 0.00008,
       "sexual_explicit": 0.00005,
-      "positive": 0.03674,
-      "neutral": 0.84276,
-      "negative": 0.12050
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/world/middle-east/whats-stake-turkeys-upcoming-elections-2023-03-22/"
   },
@@ -670,16 +670,16 @@
     "language": "en",
     "text": "Israeli strike hits near Aleppo airport - Syrian officials",
     "scores": {
-      "toxicity": 0.04579,
-      "severe_toxicity": 0.00030,
+      "toxicity": 0.04547,
+      "severe_toxicity": 0.00029,
       "obscene": 0.00087,
-      "identity_attack": 0.00503,
-      "insult": 0.00074,
-      "threat": 0.01831,
+      "identity_attack": 0.00499,
+      "insult": 0.00073,
+      "threat": 0.01825,
       "sexual_explicit": 0.00043,
-      "positive": 0.02130,
-      "neutral": 0.25069,
-      "negative": 0.72802
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/middle-east/israeli-air-strike-targets-syrias-aleppo-airport-statement-2023-03-22/"
   },
@@ -688,16 +688,16 @@
     "language": "en",
     "text": "NBA roundup: Paul George gets hurt in Clippers' loss",
     "scores": {
-      "toxicity": 0.00186,
+      "toxicity": 0.00183,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00066,
+      "obscene": 0.00065,
       "identity_attack": 0.00012,
-      "insult": 0.00043,
-      "threat": 0.00018,
+      "insult": 0.00042,
+      "threat": 0.00017,
       "sexual_explicit": 0.00013,
-      "positive": 0.02488,
-      "neutral": 0.26875,
-      "negative": 0.70637
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/lifestyle/sports/nba-roundup-paul-george-gets-hurt-clippers-loss-2023-03-22/"
   },
@@ -711,11 +711,11 @@
       "obscene": 0.00021,
       "identity_attack": 0.00019,
       "insult": 0.00018,
-      "threat": 0.00009,
+      "threat": 0.00008,
       "sexual_explicit": 0.00004,
-      "positive": 0.67684,
-      "neutral": 0.27295,
-      "negative": 0.05021
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/lifestyle/sports/japans-ohtani-strikes-out-trout-seal-world-baseball-classic-win-2023-03-22/"
   },
@@ -731,9 +731,9 @@
       "insult": 0.00018,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.25012,
-      "neutral": 0.62496,
-      "negative": 0.12492
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/lifestyle/sports/spring-training-roundup-as-yield-inside-the-park-hr-rally-past-angels-2023-03-22/"
   },
@@ -744,14 +744,14 @@
     "scores": {
       "toxicity": 0.00064,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00034,
+      "obscene": 0.00033,
       "identity_attack": 0.00011,
-      "insult": 0.00036,
+      "insult": 0.00035,
       "threat": 0.00006,
       "sexual_explicit": 0.00004,
-      "positive": 0.52242,
-      "neutral": 0.42581,
-      "negative": 0.05177
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/lifestyle/sports/nhl-roundup-alex-ovechkin-hits-40-goals-record-13th-time-2023-03-22/"
   },
@@ -762,14 +762,14 @@
     "scores": {
       "toxicity": 0.00030,
       "severe_toxicity": 0.00011,
-      "obscene": 0.00065,
+      "obscene": 0.00064,
       "identity_attack": 0.00021,
-      "insult": 0.00040,
+      "insult": 0.00039,
       "threat": 0.00011,
       "sexual_explicit": 0.00006,
-      "positive": 0.71916,
-      "neutral": 0.25348,
-      "negative": 0.02736
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/lifestyle/sports/world-cup-2-2022-11-26/"
   },
@@ -780,14 +780,14 @@
     "scores": {
       "toxicity": 0.00036,
       "severe_toxicity": 0.00007,
-      "obscene": 0.00047,
+      "obscene": 0.00046,
       "identity_attack": 0.00018,
-      "insult": 0.00041,
+      "insult": 0.00040,
       "threat": 0.00007,
       "sexual_explicit": 0.00004,
-      "positive": 0.07448,
-      "neutral": 0.44879,
-      "negative": 0.47673
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/europe/monarch-butterfly-joins-global-endangered-species-list-2022-07-22/"
   },
@@ -796,16 +796,16 @@
     "language": "en",
     "text": "Trump supporters rally at Mar-a-Lago",
     "scores": {
-      "toxicity": 0.00198,
+      "toxicity": 0.00196,
       "severe_toxicity": 0.00002,
       "obscene": 0.00017,
       "identity_attack": 0.00015,
-      "insult": 0.00062,
+      "insult": 0.00061,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.06738,
-      "neutral": 0.76449,
-      "negative": 0.16814
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/lifestyle/sports/world-2-2022-11-26/"
   },
@@ -814,16 +814,16 @@
     "language": "en",
     "text": "Fears for orangutans, dolphins as Indonesia presses on with new capital",
     "scores": {
-      "toxicity": 0.15520,
+      "toxicity": 0.15311,
       "severe_toxicity": 0.00003,
       "obscene": 0.00033,
-      "identity_attack": 0.01859,
-      "insult": 0.08751,
-      "threat": 0.00026,
+      "identity_attack": 0.01807,
+      "insult": 0.08661,
+      "threat": 0.00025,
       "sexual_explicit": 0.00008,
-      "positive": 0.01175,
-      "neutral": 0.08331,
-      "negative": 0.90495
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.reuters.com/world/asia-pacific/fears-orangutans-dolphins-indonesia-presses-with-new-capital-2023-03-22/"
   },
@@ -832,16 +832,16 @@
     "language": "en",
     "text": "Streaming boosts recorded music revenue, China market growing",
     "scores": {
-      "toxicity": 0.00040,
+      "toxicity": 0.00039,
       "severe_toxicity": 0.00004,
       "obscene": 0.00017,
       "identity_attack": 0.00019,
       "insult": 0.00017,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.68629,
-      "neutral": 0.26906,
-      "negative": 0.04465
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/business/media-telecom/streaming-boosts-recorded-music-revenue-china-market-growing-2023-03-21/"
   },
@@ -857,9 +857,9 @@
       "insult": 0.00022,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.21665,
-      "neutral": 0.65556,
-      "negative": 0.12779
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/lifestyle/science/asteroid-discovery-suggests-ingredients-life-earth-came-space-2023-03-21/"
   },
@@ -868,16 +868,16 @@
     "language": "en",
     "text": "'Succession' star Brian Cox gets into character at final season premiere",
     "scores": {
-      "toxicity": 0.00079,
+      "toxicity": 0.00078,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00026,
+      "obscene": 0.00025,
       "identity_attack": 0.00008,
-      "insult": 0.00051,
+      "insult": 0.00050,
       "threat": 0.00004,
       "sexual_explicit": 0.00004,
-      "positive": 0.78142,
-      "neutral": 0.19307,
-      "negative": 0.02551
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.reuters.com/lifestyle/succession-star-brian-cox-gets-into-character-final-season-premiere-2023-03-21/"
   }

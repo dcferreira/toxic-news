@@ -1,14 +1,26 @@
+from enum import Enum
 from typing import Literal
 
-from detoxify import Detoxify
+from optimum.onnxruntime import ORTModelForSequenceClassification
+from optimum.pipelines import pipeline as opt_pipeline
 from pydantic import BaseModel, parse_obj_as
-from transformers import pipeline
+from transformers import AutoTokenizer, pipeline
 
 
 class SentimentAnalysisResults(BaseModel):
     positive: list[float]
     neutral: list[float]
     negative: list[float]
+
+
+class DetoxifyCategory(str, Enum):
+    toxicity = "toxicity"
+    severe_toxicity = "severe_toxicity"
+    obscene = "obscene"
+    identity_attack = "identity_attack"
+    insult = "insult"
+    threat = "threat"
+    sexual_explicit = "sexual_explicit"
 
 
 class DetoxifyResults(BaseModel):
@@ -52,6 +64,40 @@ def parse_results(
     return [Scores.parse_obj(s) for s in scores_list]
 
 
+class DetoxifyModel:
+    def __init__(self):
+        model_name = "dcferreira/detoxify-optimized"
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = ORTModelForSequenceClassification.from_pretrained(model_name)
+        self.model = opt_pipeline(
+            model=model,
+            task="text-classification",
+            function_to_apply="sigmoid",
+            accelerator="ort",
+            tokenizer=tokenizer,
+            return_all_scores=True,
+        )
+
+    def predict(self, texts: list[str]) -> DetoxifyResults:
+        class ModelOutput(BaseModel):
+            label: DetoxifyCategory
+            score: float
+
+        label_set = set(k.value for k in DetoxifyCategory)
+        preds = self.model(texts)
+        preds_without_identity_classes = [
+            list(filter(lambda x: x["label"] in label_set, p)) for p in preds
+        ]
+
+        outputs = parse_obj_as(list[list[ModelOutput]], preds_without_identity_classes)
+        results: dict[str, list[float]] = {k: [] for k in label_set}
+        for prediction in outputs:
+            for single_score in prediction:
+                results[single_score.label].append(single_score.score)
+
+        return DetoxifyResults.parse_obj(results)
+
+
 class SAModel:
     def __init__(self):
         model_name = "cardiffnlp/twitter-xlm-roberta-base-sentiment"
@@ -87,11 +133,11 @@ class SAModel:
 
 class AllModels:
     def __init__(self):
-        self.detoxify_model = Detoxify("multilingual")
+        self.detoxify_model = DetoxifyModel()
         self.sa_model = SAModel()
 
     def predict(self, texts: list[str]) -> list[Scores]:
-        detoxify_results = DetoxifyResults.parse_obj(self.detoxify_model.predict(texts))
+        detoxify_results = self.detoxify_model.predict(texts)
         sa_results = self.sa_model.predict(texts)
 
         return parse_results(detoxify_results, sa_results)

@@ -4,16 +4,16 @@
     "language": "en",
     "text": "Ex-president wants to be handcuffed for court appearance in Stormy Daniels case, sources say",
     "scores": {
-      "toxicity": 0.00538,
+      "toxicity": 0.00529,
       "severe_toxicity": 0.00007,
       "obscene": 0.00029,
-      "identity_attack": 0.00023,
+      "identity_attack": 0.00022,
       "insult": 0.00041,
-      "threat": 0.00131,
+      "threat": 0.00127,
       "sexual_explicit": 0.00011,
-      "positive": 0.04572,
-      "neutral": 0.42024,
-      "negative": 0.53404
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/22/trump-wants-to-be-handcuffed-for-court-appearance-in-stormy-daniels-case-sources-say"
   },
@@ -29,9 +29,9 @@
       "insult": 0.00023,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.16068,
-      "neutral": 0.76972,
-      "negative": 0.06960
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/22/investment-fund-links-atlanta-police-cop-city-project"
   },
@@ -40,16 +40,16 @@
     "language": "en",
     "text": "The US workers fighting back against union busting",
     "scores": {
-      "toxicity": 0.00129,
+      "toxicity": 0.00128,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
       "identity_attack": 0.00026,
       "insult": 0.00024,
       "threat": 0.00010,
-      "sexual_explicit": 0.00005,
-      "positive": 0.05661,
-      "neutral": 0.24078,
-      "negative": 0.70261
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/22/starbucks-amazon-workers-union-drive-retaliation"
   },
@@ -58,16 +58,16 @@
     "language": "en",
     "text": "A radical climate strategy emerges: charge big oil firms with homicide",
     "scores": {
-      "toxicity": 0.14802,
-      "severe_toxicity": 0.00037,
+      "toxicity": 0.14683,
+      "severe_toxicity": 0.00036,
       "obscene": 0.00076,
-      "identity_attack": 0.00320,
-      "insult": 0.00129,
-      "threat": 0.09730,
-      "sexual_explicit": 0.00071,
-      "positive": 0.02133,
-      "neutral": 0.11582,
-      "negative": 0.86285
+      "identity_attack": 0.00318,
+      "insult": 0.00128,
+      "threat": 0.09628,
+      "sexual_explicit": 0.00070,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/environment/2023/mar/22/big-oil-companies-homicide-harvard-environmental-law-review"
   },
@@ -79,13 +79,13 @@
       "toxicity": 0.00030,
       "severe_toxicity": 0.00005,
       "obscene": 0.00035,
-      "identity_attack": 0.00016,
+      "identity_attack": 0.00015,
       "insult": 0.00034,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.02861,
-      "neutral": 0.29180,
-      "negative": 0.67959
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/live/2023/mar/22/russia-ukraine-war-live-imf-and-ukraine-agree-15bn-funding-deal-us-rejects-chinas-impartiality-claim"
   },
@@ -101,9 +101,9 @@
       "insult": 0.00017,
       "threat": 0.00007,
       "sexual_explicit": 0.00002,
-      "positive": 0.03284,
-      "neutral": 0.32341,
-      "negative": 0.64375
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/business/2023/mar/22/decision-on-interest-rate-rise-on-knife-edge-amid-banking-crisis-fears"
   },
@@ -112,16 +112,16 @@
     "language": "en",
     "text": "Republican hits poll low as Trump tightens grip on primary",
     "scores": {
-      "toxicity": 0.00086,
+      "toxicity": 0.00085,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
       "identity_attack": 0.00009,
       "insult": 0.00028,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.20668,
-      "neutral": 0.47610,
-      "negative": 0.31722
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/22/desantis-polls-2024-trump-republican-nomination-latest"
   },
@@ -137,9 +137,9 @@
       "insult": 0.00022,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.08344,
-      "neutral": 0.70985,
-      "negative": 0.20670
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/politics/live/2023/mar/22/boris-johnson-partygate-inquiry-privileges-committee-brexit-rishi-sunak-uk-politics-latest-news"
   },
@@ -148,16 +148,16 @@
     "language": "en",
     "text": "Trudeau-Biden talks to tackle asylum seekers at migration hotspot",
     "scores": {
-      "toxicity": 0.00135,
+      "toxicity": 0.00133,
       "severe_toxicity": 0.00001,
       "obscene": 0.00007,
       "identity_attack": 0.00031,
       "insult": 0.00028,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.13946,
-      "neutral": 0.67109,
-      "negative": 0.18945
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/canada-asylum-seekers-biden-talks-immigration"
   },
@@ -166,16 +166,16 @@
     "language": "en",
     "text": "Pressures of extreme polygamy may be driving southern elephant seals to early death",
     "scores": {
-      "toxicity": 0.00672,
+      "toxicity": 0.00658,
       "severe_toxicity": 0.00006,
       "obscene": 0.00017,
       "identity_attack": 0.00055,
       "insult": 0.00036,
-      "threat": 0.00160,
+      "threat": 0.00154,
       "sexual_explicit": 0.00007,
-      "positive": 0.02228,
-      "neutral": 0.11999,
-      "negative": 0.85773
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/science/2023/mar/22/sex-on-the-beach-pressures-of-extreme-polygamy-may-be-driving-southern-elephant-seals-to-early-death"
   },
@@ -185,15 +185,15 @@
     "text": "Funk legend Sly Stone announces memoir",
     "scores": {
       "toxicity": 0.00067,
-      "severe_toxicity": 0.00101,
-      "obscene": 0.00705,
-      "identity_attack": 0.00137,
-      "insult": 0.00591,
-      "threat": 0.00060,
+      "severe_toxicity": 0.00102,
+      "obscene": 0.00709,
+      "identity_attack": 0.00138,
+      "insult": 0.00595,
+      "threat": 0.00061,
       "sexual_explicit": 0.00030,
-      "positive": 0.54986,
-      "neutral": 0.42437,
-      "negative": 0.02577
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/music/2023/mar/22/funk-legend-sly-stone-announces-memoir-thank-you-falettinme-be-mice-elf-agin"
   },
@@ -209,9 +209,9 @@
       "insult": 0.00028,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.01523,
-      "neutral": 0.07324,
-      "negative": 0.91153
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/technology/2023/mar/22/tiktok-ceo-shou-zi-chew-profile-congress-testimony"
   },
@@ -220,16 +220,16 @@
     "language": "en",
     "text": "Film highlights Germany\u2019s genocidal past in Namibia",
     "scores": {
-      "toxicity": 0.00310,
+      "toxicity": 0.00307,
       "severe_toxicity": 0.00004,
       "obscene": 0.00014,
       "identity_attack": 0.00147,
       "insult": 0.00029,
       "threat": 0.00010,
       "sexual_explicit": 0.00004,
-      "positive": 0.02208,
-      "neutral": 0.25365,
-      "negative": 0.72427
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/most-are-unaware-film-highlights-germanys-genocidal-past-in-namibia"
   },
@@ -238,16 +238,16 @@
     "language": "en",
     "text": "Japan topple USA for third ever title",
     "scores": {
-      "toxicity": 0.00071,
+      "toxicity": 0.00070,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
       "identity_attack": 0.00017,
       "insult": 0.00026,
       "threat": 0.00006,
       "sexual_explicit": 0.00004,
-      "positive": 0.62558,
-      "neutral": 0.27443,
-      "negative": 0.10000
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/sport/2023/mar/21/japan-usa-world-baseball-classic-final-shohei-ohtani"
   },
@@ -256,16 +256,16 @@
     "language": "en",
     "text": "Bali marks new year with day of silence",
     "scores": {
-      "toxicity": 0.00053,
+      "toxicity": 0.00052,
       "severe_toxicity": 0.00007,
       "obscene": 0.00055,
       "identity_attack": 0.00021,
-      "insult": 0.00039,
+      "insult": 0.00038,
       "threat": 0.00009,
       "sexual_explicit": 0.00006,
-      "positive": 0.46659,
-      "neutral": 0.39993,
-      "negative": 0.13348
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/im-happy-to-have-this-slow-day-bali-marks-new-year-with-day-of-silence"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "Putin\u2019s charm offensive with Xi underlines who\u2019s boss",
     "scores": {
-      "toxicity": 0.00250,
+      "toxicity": 0.00245,
       "severe_toxicity": 0.00001,
       "obscene": 0.00016,
       "identity_attack": 0.00009,
-      "insult": 0.00125,
+      "insult": 0.00122,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.09578,
-      "neutral": 0.25077,
-      "negative": 0.65345
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/21/putins-two-day-charm-offensive-with-xi-underlines-whos-boss"
   },
@@ -292,16 +292,16 @@
     "language": "en",
     "text": "Putin says Moscow \u2018will respond\u2019 if UK supplies depleted uranium shells to Ukraine",
     "scores": {
-      "toxicity": 0.00125,
+      "toxicity": 0.00123,
       "severe_toxicity": 0.00003,
       "obscene": 0.00011,
       "identity_attack": 0.00026,
       "insult": 0.00022,
       "threat": 0.00012,
       "sexual_explicit": 0.00003,
-      "positive": 0.07819,
-      "neutral": 0.41512,
-      "negative": 0.50669
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/21/putin-says-russia-will-respond-if-uk-supplies-depleted-uranium-shells-to-ukraine"
   },
@@ -317,9 +317,9 @@
       "insult": 0.00031,
       "threat": 0.00011,
       "sexual_explicit": 0.00005,
-      "positive": 0.03330,
-      "neutral": 0.53289,
-      "negative": 0.43381
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/russia-ukraine-war-at-a-glance-what-we-know-on-day-392-of-the-invasion"
   },
@@ -328,16 +328,16 @@
     "language": "en",
     "text": "She was one of Alabama\u2019s last abortion doctors. Then they came for everything she had",
     "scores": {
-      "toxicity": 0.00212,
+      "toxicity": 0.00210,
       "severe_toxicity": 0.00002,
       "obscene": 0.00021,
       "identity_attack": 0.00015,
-      "insult": 0.00073,
+      "insult": 0.00072,
       "threat": 0.00004,
       "sexual_explicit": 0.00013,
-      "positive": 0.10483,
-      "neutral": 0.67203,
-      "negative": 0.22314
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/alabama-last-abortion-doctor-leah-torres"
   },
@@ -350,12 +350,12 @@
       "severe_toxicity": 0.00002,
       "obscene": 0.00014,
       "identity_attack": 0.00010,
-      "insult": 0.00019,
+      "insult": 0.00018,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.54582,
-      "neutral": 0.24537,
-      "negative": 0.20882
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/books/2023/mar/22/the-peoples-hospital-book-ricardo-nuila-interview-ben-taub-houston"
   },
@@ -364,16 +364,16 @@
     "language": "en",
     "text": "The deadly war against Iraq\u2019s journalists",
     "scores": {
-      "toxicity": 0.00368,
+      "toxicity": 0.00358,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00122,
-      "identity_attack": 0.00049,
-      "insult": 0.00092,
+      "obscene": 0.00120,
+      "identity_attack": 0.00048,
+      "insult": 0.00091,
       "threat": 0.00016,
       "sexual_explicit": 0.00013,
-      "positive": 0.01382,
-      "neutral": 0.11449,
-      "negative": 0.87169
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/global-development/2023/mar/22/deadly-war-against-iraq-journalists-killed"
   },
@@ -383,15 +383,15 @@
     "text": "Kishida and Xi tread starkly different paths on Ukraine",
     "scores": {
       "toxicity": 0.00040,
-      "severe_toxicity": 0.00019,
-      "obscene": 0.00126,
+      "severe_toxicity": 0.00018,
+      "obscene": 0.00125,
       "identity_attack": 0.00042,
-      "insult": 0.00104,
+      "insult": 0.00103,
       "threat": 0.00016,
       "sexual_explicit": 0.00008,
-      "positive": 0.08341,
-      "neutral": 0.26986,
-      "negative": 0.64673
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/a-tale-of-two-visits-kishida-and-xi-tread-starkly-different-paths-on-ukraine"
   },
@@ -407,9 +407,9 @@
       "insult": 0.00023,
       "threat": 0.00005,
       "sexual_explicit": 0.00005,
-      "positive": 0.16231,
-      "neutral": 0.64528,
-      "negative": 0.19241
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/tv-and-radio/2023/mar/22/celeste-barber-netflix-tv-series-wellmania-interview-wellness-industry"
   },
@@ -418,16 +418,16 @@
     "language": "en",
     "text": "Can California's most notorious prison become a rehab center? Ex-residents weigh in",
     "scores": {
-      "toxicity": 0.00069,
+      "toxicity": 0.00068,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
       "identity_attack": 0.00009,
       "insult": 0.00027,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.06648,
-      "neutral": 0.44031,
-      "negative": 0.49322
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/21/san-quentin-transformation-rehab-center-thanh-tran-james-king-interview"
   },
@@ -436,16 +436,16 @@
     "language": "en",
     "text": "Ohtani closes in style as Japan edge USA for third title",
     "scores": {
-      "toxicity": 0.00047,
+      "toxicity": 0.00046,
       "severe_toxicity": 0.00004,
       "obscene": 0.00021,
       "identity_attack": 0.00015,
       "insult": 0.00023,
       "threat": 0.00006,
       "sexual_explicit": 0.00004,
-      "positive": 0.67750,
-      "neutral": 0.23567,
-      "negative": 0.08683
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/sport/2023/mar/21/japan-usa-world-baseball-classic-final-shohei-ohtani"
   },
@@ -454,16 +454,16 @@
     "language": "en",
     "text": "Knicks Hall of Famer who played through pain for title dies at 80",
     "scores": {
-      "toxicity": 0.00264,
+      "toxicity": 0.00259,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00052,
+      "obscene": 0.00051,
       "identity_attack": 0.00020,
       "insult": 0.00048,
-      "threat": 0.00012,
+      "threat": 0.00011,
       "sexual_explicit": 0.00006,
-      "positive": 0.03549,
-      "neutral": 0.29190,
-      "negative": 0.67261
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/sport/2023/mar/21/willis-reed-knicks-hall-of-famer-who-played-through-pain-for-title-dies-at-80"
   },
@@ -476,12 +476,12 @@
       "severe_toxicity": 0.00003,
       "obscene": 0.00018,
       "identity_attack": 0.00009,
-      "insult": 0.00020,
+      "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.45092,
-      "neutral": 0.47052,
-      "negative": 0.07856
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/football/who-scored-blog/2023/mar/22/liverpool-midfielders-sign-summer-jurgen-klopp"
   },
@@ -497,9 +497,9 @@
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.03585,
-      "neutral": 0.21955,
-      "negative": 0.74461
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/sport/2023/mar/21/the-yankees-are-worth-6bn-why-wont-they-pay-9-for-their-players-wifi"
   },
@@ -508,16 +508,16 @@
     "language": "en",
     "text": "Ream says Reyna is welcome in US squad after parents\u2019 Berhalter feud",
     "scores": {
-      "toxicity": 0.00085,
+      "toxicity": 0.00084,
       "severe_toxicity": 0.00001,
       "obscene": 0.00009,
       "identity_attack": 0.00011,
-      "insult": 0.00028,
+      "insult": 0.00027,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.58541,
-      "neutral": 0.33786,
-      "negative": 0.07673
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/football/2023/mar/21/ream-says-reyna-is-welcome-in-us-squad-after-parents-berhalter-feud"
   },
@@ -526,16 +526,16 @@
     "language": "en",
     "text": "H\u00f8jbjerg seeks more clarity from Conte after Spurs outburst",
     "scores": {
-      "toxicity": 0.00082,
+      "toxicity": 0.00081,
       "severe_toxicity": 0.00003,
       "obscene": 0.00015,
       "identity_attack": 0.00016,
       "insult": 0.00042,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.14068,
-      "neutral": 0.67321,
-      "negative": 0.18611
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/football/2023/mar/21/spurs-hojbjerg-seeks-more-clarity-from-conte-after-outburst"
   },
@@ -544,16 +544,16 @@
     "language": "en",
     "text": "Will a $120m moonshot find success in America?",
     "scores": {
-      "toxicity": 0.00080,
+      "toxicity": 0.00079,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
-      "identity_attack": 0.00011,
+      "identity_attack": 0.00010,
       "insult": 0.00024,
       "threat": 0.00007,
       "sexual_explicit": 0.00003,
-      "positive": 0.15555,
-      "neutral": 0.72797,
-      "negative": 0.11648
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/sport/2023/mar/21/major-league-cricket-will-a-120m-moonshot-find-success-in-america"
   },
@@ -562,16 +562,16 @@
     "language": "en",
     "text": "Tennis legend announces: 'I'm cancer-free'",
     "scores": {
-      "toxicity": 0.00169,
+      "toxicity": 0.00170,
       "severe_toxicity": 0.00002,
       "obscene": 0.00018,
       "identity_attack": 0.00015,
       "insult": 0.00037,
       "threat": 0.00007,
       "sexual_explicit": 0.00005,
-      "positive": 0.58137,
-      "neutral": 0.35110,
-      "negative": 0.06753
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/sport/2023/mar/20/martina-navratilova-reveals-she-is-cancer-free-after-throat-and-breast-diagnoses"
   },
@@ -580,16 +580,16 @@
     "language": "en",
     "text": "Trump keeps accusing Black prosecutors of being \u2018racist\u2019. Coincidence? I think not",
     "scores": {
-      "toxicity": 0.49593,
+      "toxicity": 0.49528,
       "severe_toxicity": 0.00062,
-      "obscene": 0.00240,
-      "identity_attack": 0.35159,
-      "insult": 0.05938,
+      "obscene": 0.00239,
+      "identity_attack": 0.35177,
+      "insult": 0.05904,
       "threat": 0.00158,
-      "sexual_explicit": 0.00106,
-      "positive": 0.02285,
-      "neutral": 0.15707,
-      "negative": 0.82008
+      "sexual_explicit": 0.00105,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/commentisfree/2023/mar/22/trump-black-procesutors-racism"
   },
@@ -598,16 +598,16 @@
     "language": "en",
     "text": "Western democracy is weaker in this new cold war than it was in the first one",
     "scores": {
-      "toxicity": 0.00224,
+      "toxicity": 0.00225,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
       "identity_attack": 0.00018,
-      "insult": 0.00072,
+      "insult": 0.00073,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02624,
-      "neutral": 0.09903,
-      "negative": 0.87473
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/commentisfree/2023/mar/22/power-russia-china-west-putin-xi-"
   },
@@ -616,16 +616,16 @@
     "language": "en",
     "text": "Some white artists, like Elvis, exploit Black culture. So celebrate Bobby Caldwell, who enriched it",
     "scores": {
-      "toxicity": 0.19991,
+      "toxicity": 0.19944,
       "severe_toxicity": 0.00096,
-      "obscene": 0.00186,
-      "identity_attack": 0.17814,
-      "insult": 0.01518,
+      "obscene": 0.00185,
+      "identity_attack": 0.17825,
+      "insult": 0.01508,
       "threat": 0.00116,
       "sexual_explicit": 0.00105,
-      "positive": 0.63025,
-      "neutral": 0.18906,
-      "negative": 0.18069
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/commentisfree/2023/mar/22/white-artists-elvis-exploit-black-culture-celebrate-bobby-caldwell"
   },
@@ -634,16 +634,16 @@
     "language": "en",
     "text": "The truth about Gwyneth Paltrow\u2019s diet? It is as strange as you\u2019d expect",
     "scores": {
-      "toxicity": 0.00272,
+      "toxicity": 0.00269,
       "severe_toxicity": 0.00001,
       "obscene": 0.00014,
       "identity_attack": 0.00010,
-      "insult": 0.00101,
+      "insult": 0.00100,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.02079,
-      "neutral": 0.14729,
-      "negative": 0.83192
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/commentisfree/2023/mar/21/the-truth-about-gwyneth-paltrows-diet-it-is-as-strange-as-youd-expect"
   },
@@ -652,16 +652,16 @@
     "language": "en",
     "text": "Until bankers have more to lose themselves, collapses like SVB and Credit Suisse will keep happening",
     "scores": {
-      "toxicity": 0.00108,
+      "toxicity": 0.00107,
       "severe_toxicity": 0.00002,
       "obscene": 0.00015,
       "identity_attack": 0.00009,
       "insult": 0.00037,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02657,
-      "neutral": 0.13624,
-      "negative": 0.83719
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/commentisfree/2023/mar/21/bankers-collapse-svb-credit-suisse"
   },
@@ -670,16 +670,16 @@
     "language": "en",
     "text": "Now the tide of money into the tech sector is ebbing, we can see who has no bathers on",
     "scores": {
-      "toxicity": 0.00258,
+      "toxicity": 0.00259,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00056,
+      "obscene": 0.00057,
       "identity_attack": 0.00013,
       "insult": 0.00061,
       "threat": 0.00010,
       "sexual_explicit": 0.00010,
-      "positive": 0.21193,
-      "neutral": 0.44891,
-      "negative": 0.33915
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/commentisfree/2023/mar/22/money-technology-sector-interest-rates-startups-svb"
   },
@@ -688,16 +688,16 @@
     "language": "en",
     "text": "One minute, I was in the sauna \u2013 the next, I was in a steamy panic",
     "scores": {
-      "toxicity": 0.00095,
+      "toxicity": 0.00094,
       "severe_toxicity": 0.00003,
       "obscene": 0.00021,
       "identity_attack": 0.00012,
       "insult": 0.00026,
       "threat": 0.00010,
       "sexual_explicit": 0.00005,
-      "positive": 0.03952,
-      "neutral": 0.26260,
-      "negative": 0.69789
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/commentisfree/2023/mar/22/one-minute-i-was-in-the-sauna-the-next-i-was-in-a-steamy-panic"
   },
@@ -706,16 +706,16 @@
     "language": "en",
     "text": "I learned a lot from making kimchi \u2013 about fermented shrimp, and about myself",
     "scores": {
-      "toxicity": 0.00173,
+      "toxicity": 0.00172,
       "severe_toxicity": 0.00008,
-      "obscene": 0.00164,
+      "obscene": 0.00163,
       "identity_attack": 0.00021,
       "insult": 0.00133,
       "threat": 0.00009,
       "sexual_explicit": 0.00011,
-      "positive": 0.50879,
-      "neutral": 0.43435,
-      "negative": 0.05686
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/commentisfree/2023/mar/21/i-learned-a-lot-from-making-kimchi-about-fermented-shrimp-and-about-myself"
   },
@@ -724,16 +724,16 @@
     "language": "en",
     "text": "Number of city dwellers lacking safe water to double by 2050",
     "scores": {
-      "toxicity": 0.00080,
+      "toxicity": 0.00079,
       "severe_toxicity": 0.00004,
       "obscene": 0.00017,
       "identity_attack": 0.00023,
       "insult": 0.00020,
       "threat": 0.00007,
-      "sexual_explicit": 0.00003,
-      "positive": 0.03953,
-      "neutral": 0.28814,
-      "negative": 0.67233
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/environment/2023/mar/22/number-city-dwellers-lacking-access-safe-water-double-2050"
   },
@@ -749,9 +749,9 @@
       "insult": 0.00016,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.06837,
-      "neutral": 0.59972,
-      "negative": 0.33191
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/science/audio/2023/mar/21/willow-project-what-could-the-carbon-bomb-mean-for-the-environment-podcast"
   },
@@ -760,16 +760,16 @@
     "language": "en",
     "text": "Britain\u2019s biggest police force is \u2018racist, sexist, and homophobic\u2019 \u2013 can it change?",
     "scores": {
-      "toxicity": 0.92297,
-      "severe_toxicity": 0.00043,
-      "obscene": 0.00380,
-      "identity_attack": 0.15278,
-      "insult": 0.60716,
+      "toxicity": 0.92206,
+      "severe_toxicity": 0.00042,
+      "obscene": 0.00375,
+      "identity_attack": 0.15110,
+      "insult": 0.60508,
       "threat": 0.00045,
-      "sexual_explicit": 0.00228,
-      "positive": 0.01376,
-      "neutral": 0.09229,
-      "negative": 0.89396
+      "sexual_explicit": 0.00223,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/news/audio/2023/mar/22/britains-biggest-police-force-is-racist-sexist-and-homophobic-can-it-change-podcast"
   },
@@ -785,9 +785,9 @@
       "insult": 0.00033,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.11198,
-      "neutral": 0.84157,
-      "negative": 0.04644
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/news/series/todayinfocus"
   },
@@ -797,15 +797,15 @@
     "text": "\u2018His legal problems are based on him being an idiot\u2019",
     "scores": {
       "toxicity": 0.99567,
-      "severe_toxicity": 0.00050,
-      "obscene": 0.01142,
-      "identity_attack": 0.00170,
+      "severe_toxicity": 0.00049,
+      "obscene": 0.01123,
+      "identity_attack": 0.00171,
       "insult": 0.99126,
       "threat": 0.00094,
-      "sexual_explicit": 0.00107,
-      "positive": 0.02110,
-      "neutral": 0.13655,
-      "negative": 0.84235
+      "sexual_explicit": 0.00106,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/culture/2023/mar/21/late-night-recap-jimmy-kimmel-donald-trump"
   },
@@ -814,16 +814,16 @@
     "language": "en",
     "text": "Even diehard fans will be glad the end is nigh",
     "scores": {
-      "toxicity": 0.37779,
-      "severe_toxicity": 0.00099,
-      "obscene": 0.03082,
-      "identity_attack": 0.03082,
-      "insult": 0.09577,
-      "threat": 0.01895,
-      "sexual_explicit": 0.01188,
-      "positive": 0.48180,
-      "neutral": 0.23843,
-      "negative": 0.27977
+      "toxicity": 0.37652,
+      "severe_toxicity": 0.00098,
+      "obscene": 0.03043,
+      "identity_attack": 0.03055,
+      "insult": 0.09532,
+      "threat": 0.01894,
+      "sexual_explicit": 0.01177,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/tv-and-radio/2023/mar/22/succession-season-four-review-even-diehard-fans-will-be-glad-the-end-is-nigh"
   },
@@ -832,16 +832,16 @@
     "language": "en",
     "text": "Gunfights, dying FBI agents \u2026 and zero analysis",
     "scores": {
-      "toxicity": 0.02467,
+      "toxicity": 0.02450,
       "severe_toxicity": 0.00009,
       "obscene": 0.00067,
       "identity_attack": 0.00045,
       "insult": 0.00147,
-      "threat": 0.00818,
+      "threat": 0.00806,
       "sexual_explicit": 0.00021,
-      "positive": 0.01680,
-      "neutral": 0.18700,
-      "negative": 0.79620
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/tv-and-radio/2023/mar/22/waco-american-apocalypse-review-netflix"
   },
@@ -850,16 +850,16 @@
     "language": "en",
     "text": "Nerve-jangling noir unpicks middle-class guilt of Pinochet era",
     "scores": {
-      "toxicity": 0.10025,
+      "toxicity": 0.09972,
       "severe_toxicity": 0.00045,
       "obscene": 0.00180,
-      "identity_attack": 0.04444,
-      "insult": 0.01772,
-      "threat": 0.00270,
-      "sexual_explicit": 0.00074,
-      "positive": 0.02037,
-      "neutral": 0.05773,
-      "negative": 0.92189
+      "identity_attack": 0.04438,
+      "insult": 0.01763,
+      "threat": 0.00267,
+      "sexual_explicit": 0.00073,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/film/2023/mar/22/1976-review-pinochet-manuela-martelli"
   },
@@ -870,14 +870,14 @@
     "scores": {
       "toxicity": 0.00260,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00036,
+      "obscene": 0.00035,
       "identity_attack": 0.00007,
       "insult": 0.00121,
       "threat": 0.00004,
       "sexual_explicit": 0.00005,
-      "positive": 0.03402,
-      "neutral": 0.07144,
-      "negative": 0.89454
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/film/2023/mar/22/a-good-person-review-zach-braff-florence-pugh"
   },
@@ -893,9 +893,9 @@
       "insult": 0.00022,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.04018,
-      "neutral": 0.32655,
-      "negative": 0.63327
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/books/2023/mar/22/poverty-by-america-by-matthew-desmond-review-how-the-rich-keep-the-poor-down"
   },
@@ -905,15 +905,15 @@
     "text": "The shocking true story of Bambi",
     "scores": {
       "toxicity": 0.00034,
-      "severe_toxicity": 0.00004,
+      "severe_toxicity": 0.00003,
       "obscene": 0.00024,
       "identity_attack": 0.00008,
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.01850,
-      "neutral": 0.10029,
-      "negative": 0.88122
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/books/2023/mar/21/gunned-down-burned-nazis-bambi-walt-disney-holocaust-allegory"
   },
@@ -922,16 +922,16 @@
     "language": "en",
     "text": "Unsettling rural noir is a Euro-arthouse twist on Straw Dogs",
     "scores": {
-      "toxicity": 0.04360,
+      "toxicity": 0.04332,
       "severe_toxicity": 0.00047,
-      "obscene": 0.00187,
-      "identity_attack": 0.03631,
-      "insult": 0.00572,
-      "threat": 0.00088,
-      "sexual_explicit": 0.00057,
-      "positive": 0.01093,
-      "neutral": 0.08964,
-      "negative": 0.89943
+      "obscene": 0.00184,
+      "identity_attack": 0.03608,
+      "insult": 0.00568,
+      "threat": 0.00087,
+      "sexual_explicit": 0.00056,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/film/2023/mar/22/the-beasts-review-unsettling-rural-noir-is-a-euro-arthouse-twist-on-straw-dogs"
   },
@@ -940,16 +940,16 @@
     "language": "en",
     "text": "Roadside Americana",
     "scores": {
-      "toxicity": 0.05088,
+      "toxicity": 0.05050,
       "severe_toxicity": 0.00012,
-      "obscene": 0.00177,
-      "identity_attack": 0.01150,
-      "insult": 0.01169,
+      "obscene": 0.00174,
+      "identity_attack": 0.01146,
+      "insult": 0.01152,
       "threat": 0.00225,
-      "sexual_explicit": 0.00029,
-      "positive": 0.10736,
-      "neutral": 0.74588,
-      "negative": 0.14676
+      "sexual_explicit": 0.00028,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/culture/2023/mar/21/roadside-americana-what-currently-brings-me-joy"
   },
@@ -958,16 +958,16 @@
     "language": "en",
     "text": "Singer \u2018didn\u2019t want to live any more\u2019 after deaths of friends Jamal Edwards and Shane Warne",
     "scores": {
-      "toxicity": 0.00298,
+      "toxicity": 0.00292,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00048,
-      "identity_attack": 0.00031,
-      "insult": 0.00108,
+      "obscene": 0.00047,
+      "identity_attack": 0.00030,
+      "insult": 0.00106,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
-      "positive": 0.02600,
-      "neutral": 0.19029,
-      "negative": 0.78371
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/music/2023/mar/21/ed-sheeran-didnt-want-to-live-jamal-edwards-shane-warne"
   },
@@ -976,16 +976,16 @@
     "language": "en",
     "text": "My wife told me all about her sexual past \u2013 and I am having mini panic attacks",
     "scores": {
-      "toxicity": 0.20052,
-      "severe_toxicity": 0.00054,
-      "obscene": 0.00221,
+      "toxicity": 0.19937,
+      "severe_toxicity": 0.00053,
+      "obscene": 0.00218,
       "identity_attack": 0.00357,
-      "insult": 0.00156,
-      "threat": 0.00407,
-      "sexual_explicit": 0.12073,
-      "positive": 0.07509,
-      "neutral": 0.37759,
-      "negative": 0.54732
+      "insult": 0.00155,
+      "threat": 0.00405,
+      "sexual_explicit": 0.12006,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/lifeandstyle/2023/mar/22/wife-told-me-sexual-past-mini-panic-attacks"
   },
@@ -1001,9 +1001,9 @@
       "insult": 0.00035,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.03473,
-      "neutral": 0.32008,
-      "negative": 0.64519
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/lifeandstyle/2023/mar/22/vibes-definition-slang-language-meaning"
   },
@@ -1014,14 +1014,14 @@
     "scores": {
       "toxicity": 0.00041,
       "severe_toxicity": 0.00004,
-      "obscene": 0.00025,
+      "obscene": 0.00024,
       "identity_attack": 0.00010,
       "insult": 0.00017,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.05525,
-      "neutral": 0.15839,
-      "negative": 0.78636
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/lifeandstyle/2023/mar/22/my-biggest-regret-why-did-i-avoid-the-camera-so-much-when-i-was-young"
   },
@@ -1030,16 +1030,16 @@
     "language": "en",
     "text": "Why the obsession with perfect kitchens has to stop",
     "scores": {
-      "toxicity": 0.00103,
+      "toxicity": 0.00102,
       "severe_toxicity": 0.00002,
       "obscene": 0.00018,
       "identity_attack": 0.00016,
-      "insult": 0.00038,
+      "insult": 0.00037,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.02581,
-      "neutral": 0.06132,
-      "negative": 0.91287
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/lifeandstyle/2023/mar/21/pantry-porn-why-the-obsession-with-perfect-kitchens-has-to-stop"
   },
@@ -1048,16 +1048,16 @@
     "language": "en",
     "text": "\u2018I could no longer cosplay the grownup to my little cousin\u2019",
     "scores": {
-      "toxicity": 0.01052,
+      "toxicity": 0.01053,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00042,
+      "obscene": 0.00041,
       "identity_attack": 0.00021,
-      "insult": 0.00328,
-      "threat": 0.00011,
+      "insult": 0.00330,
+      "threat": 0.00012,
       "sexual_explicit": 0.00019,
-      "positive": 0.03476,
-      "neutral": 0.27386,
-      "negative": 0.69138
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/lifeandstyle/2023/mar/22/a-moment-that-changed-me-i-could-no-longer-cosplay-the-grownup-to-my-little-cousin"
   },
@@ -1066,16 +1066,16 @@
     "language": "en",
     "text": "The orgasm gap - and how to close it",
     "scores": {
-      "toxicity": 0.82455,
-      "severe_toxicity": 0.00602,
-      "obscene": 0.03843,
-      "identity_attack": 0.00410,
-      "insult": 0.00845,
-      "threat": 0.02104,
-      "sexual_explicit": 0.81033,
-      "positive": 0.11513,
-      "neutral": 0.56515,
-      "negative": 0.31972
+      "toxicity": 0.82286,
+      "severe_toxicity": 0.00597,
+      "obscene": 0.03802,
+      "identity_attack": 0.00407,
+      "insult": 0.00836,
+      "threat": 0.02093,
+      "sexual_explicit": 0.80826,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/lifeandstyle/2023/mar/21/the-orgasm-gap-and-how-to-close-it-dont-equate-sex-and-penetration"
   },
@@ -1084,16 +1084,16 @@
     "language": "en",
     "text": "Residents of Louisiana\u2019s \u2018Cancer Alley\u2019 announce lawsuit against local officials",
     "scores": {
-      "toxicity": 0.00149,
+      "toxicity": 0.00148,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00017,
       "insult": 0.00034,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.03060,
-      "neutral": 0.18906,
-      "negative": 0.78034
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/21/louisiana-st-james-parish-cancer-alley-lawsuit"
   },
@@ -1109,9 +1109,9 @@
       "insult": 0.00022,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.01925,
-      "neutral": 0.15375,
-      "negative": 0.82700
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/media/2023/mar/21/fox-news-producer-dominion-case-misleading-testimony-abby-grossberg"
   },
@@ -1120,16 +1120,16 @@
     "language": "en",
     "text": "One person killed and another injured in \u2018remarkable\u2019 storm",
     "scores": {
-      "toxicity": 0.00372,
+      "toxicity": 0.00362,
       "severe_toxicity": 0.00006,
       "obscene": 0.00020,
       "identity_attack": 0.00019,
       "insult": 0.00029,
-      "threat": 0.00132,
+      "threat": 0.00127,
       "sexual_explicit": 0.00005,
-      "positive": 0.04950,
-      "neutral": 0.09179,
-      "negative": 0.85871
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/21/california-storms-atmospheric-rivers-spring"
   },
@@ -1138,16 +1138,16 @@
     "language": "en",
     "text": "Hospital video footage shows Irvo Otieno was held down before his death",
     "scores": {
-      "toxicity": 0.00595,
-      "severe_toxicity": 0.00021,
-      "obscene": 0.00238,
+      "toxicity": 0.00588,
+      "severe_toxicity": 0.00020,
+      "obscene": 0.00234,
       "identity_attack": 0.00020,
-      "insult": 0.00105,
-      "threat": 0.00128,
-      "sexual_explicit": 0.00071,
-      "positive": 0.03512,
-      "neutral": 0.57571,
-      "negative": 0.38918
+      "insult": 0.00104,
+      "threat": 0.00127,
+      "sexual_explicit": 0.00070,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/21/hospital-video-footage-shows-irvo-otieno-was-held-down-before-his-death"
   },
@@ -1163,9 +1163,9 @@
       "insult": 0.00021,
       "threat": 0.00015,
       "sexual_explicit": 0.00004,
-      "positive": 0.01659,
-      "neutral": 0.14132,
-      "negative": 0.84209
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/film/2023/mar/21/gwyneth-paltrow-ski-accident-trial-utah"
   },
@@ -1174,16 +1174,16 @@
     "language": "en",
     "text": "Deadly Candida auris infections spreading across US at \u2018worrisome\u2019 rate",
     "scores": {
-      "toxicity": 0.00067,
+      "toxicity": 0.00066,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
       "identity_attack": 0.00013,
       "insult": 0.00026,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.02853,
-      "neutral": 0.10887,
-      "negative": 0.86260
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/society/2023/mar/21/candida-auris-symptoms-fungal-infection-skin"
   },
@@ -1199,9 +1199,9 @@
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00004,
-      "positive": 0.20469,
-      "neutral": 0.77334,
-      "negative": 0.02197
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/technology/2023/mar/21/googles-bard-chatbot-launches-in-us-and-uk"
   },
@@ -1212,14 +1212,14 @@
     "scores": {
       "toxicity": 0.00030,
       "severe_toxicity": 0.00010,
-      "obscene": 0.00062,
+      "obscene": 0.00061,
       "identity_attack": 0.00023,
       "insult": 0.00043,
       "threat": 0.00009,
       "sexual_explicit": 0.00006,
-      "positive": 0.25108,
-      "neutral": 0.67086,
-      "negative": 0.07806
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/21/national-monuments-nevada-texas-hawaii-conservation"
   },
@@ -1228,16 +1228,16 @@
     "language": "en",
     "text": "Half a million kids out of class as school workers strike for better pay",
     "scores": {
-      "toxicity": 0.00079,
+      "toxicity": 0.00078,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00012,
       "insult": 0.00020,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.03810,
-      "neutral": 0.26019,
-      "negative": 0.70171
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/21/los-angeles-schools-shut-down-strike"
   },
@@ -1246,16 +1246,16 @@
     "language": "en",
     "text": "Concern over violence as Palestinians prepare for Ramadan",
     "scores": {
-      "toxicity": 0.13292,
+      "toxicity": 0.13224,
       "severe_toxicity": 0.00018,
       "obscene": 0.00087,
-      "identity_attack": 0.08437,
-      "insult": 0.00454,
-      "threat": 0.00823,
-      "sexual_explicit": 0.00050,
-      "positive": 0.01577,
-      "neutral": 0.16082,
-      "negative": 0.82341
+      "identity_attack": 0.08429,
+      "insult": 0.00452,
+      "threat": 0.00818,
+      "sexual_explicit": 0.00049,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/concern-over-violence-as-palestinians-prepare-for-ramadan-in-jerusalem"
   },
@@ -1264,16 +1264,16 @@
     "language": "en",
     "text": "Government launches campaign to help teens recover from break-ups",
     "scores": {
-      "toxicity": 0.00134,
+      "toxicity": 0.00133,
       "severe_toxicity": 0.00002,
       "obscene": 0.00015,
       "identity_attack": 0.00009,
-      "insult": 0.00043,
+      "insult": 0.00042,
       "threat": 0.00005,
       "sexual_explicit": 0.00005,
-      "positive": 0.39474,
-      "neutral": 0.48895,
-      "negative": 0.11632
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/love-better-nz-new-zealand-government-campaign-teens-teenagers-recover-from-breakups"
   },
@@ -1289,9 +1289,9 @@
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02577,
-      "neutral": 0.19363,
-      "negative": 0.78059
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/beijings-population-falls-for-first-time-since-2003-as-china-battles-low-birthrate"
   },
@@ -1300,16 +1300,16 @@
     "language": "en",
     "text": "K-pop star Chaeyoung apologises for wearing swastika logo",
     "scores": {
-      "toxicity": 0.00139,
+      "toxicity": 0.00137,
       "severe_toxicity": 0.00023,
-      "obscene": 0.00210,
+      "obscene": 0.00209,
       "identity_attack": 0.00080,
-      "insult": 0.00200,
+      "insult": 0.00199,
       "threat": 0.00013,
       "sexual_explicit": 0.00024,
-      "positive": 0.02985,
-      "neutral": 0.20755,
-      "negative": 0.76260
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/music/2023/mar/22/k-pop-star-chaeyoung-apologises-for-wearing-swastika-logo-twice"
   },
@@ -1325,9 +1325,9 @@
       "insult": 0.00020,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.04845,
-      "neutral": 0.32603,
-      "negative": 0.62552
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/21/protests-and-strikes-france--pensions-reform-emmanuel-macron"
   },
@@ -1337,15 +1337,15 @@
     "text": "Argentinian Luis Caffarelli wins Abel prize",
     "scores": {
       "toxicity": 0.00067,
-      "severe_toxicity": 0.00314,
-      "obscene": 0.02335,
-      "identity_attack": 0.00455,
-      "insult": 0.01898,
+      "severe_toxicity": 0.00312,
+      "obscene": 0.02322,
+      "identity_attack": 0.00453,
+      "insult": 0.01892,
       "threat": 0.00134,
       "sexual_explicit": 0.00080,
-      "positive": 0.64777,
-      "neutral": 0.29006,
-      "negative": 0.06217
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/science/2023/mar/22/the-messi-of-maths-argentinian-luis-caffarelli-wins-abel-prize"
   },
@@ -1354,16 +1354,16 @@
     "language": "en",
     "text": "Switzerland\u2019s national pride dealt heavy blow by the merger of its banking titans",
     "scores": {
-      "toxicity": 0.00085,
+      "toxicity": 0.00084,
       "severe_toxicity": 0.00002,
       "obscene": 0.00015,
       "identity_attack": 0.00015,
       "insult": 0.00025,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.20587,
-      "neutral": 0.27975,
-      "negative": 0.51438
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/22/switzerlands-national-pride-dealt-heavy-blow-by-the-merger-of-its-banking-titans"
   },
@@ -1379,9 +1379,9 @@
       "insult": 0.00017,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.18061,
-      "neutral": 0.41206,
-      "negative": 0.40733
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/business/2023/mar/22/uk-inflation-rate-rises-price-rises-interest-rates"
   },
@@ -1390,16 +1390,16 @@
     "language": "en",
     "text": "President heads to Latin America after partners switch ties to China",
     "scores": {
-      "toxicity": 0.00047,
+      "toxicity": 0.00046,
       "severe_toxicity": 0.00002,
       "obscene": 0.00010,
       "identity_attack": 0.00014,
       "insult": 0.00018,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.38143,
-      "neutral": 0.54992,
-      "negative": 0.06866
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/21/taiwan-president-to-visit-latin-america-us-stops"
   },
@@ -1415,9 +1415,9 @@
       "insult": 0.00016,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.02263,
-      "neutral": 0.32228,
-      "negative": 0.65509
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/global-development/2023/mar/22/i-skip-meals-to-make-insulin-last-cost-of-diabetes-in-global-south"
   },
@@ -1433,9 +1433,9 @@
       "insult": 0.00033,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02282,
-      "neutral": 0.14161,
-      "negative": 0.83557
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/21/federal-reserve-new-york-union-sodexo-food-service"
   },
@@ -1444,16 +1444,16 @@
     "language": "en",
     "text": "These tastemakers want Black food to be more than a side dish",
     "scores": {
-      "toxicity": 0.09508,
+      "toxicity": 0.09458,
       "severe_toxicity": 0.00014,
       "obscene": 0.00081,
-      "identity_attack": 0.03228,
-      "insult": 0.01357,
-      "threat": 0.00082,
-      "sexual_explicit": 0.00027,
-      "positive": 0.07442,
-      "neutral": 0.40623,
-      "negative": 0.51935
+      "identity_attack": 0.03217,
+      "insult": 0.01350,
+      "threat": 0.00081,
+      "sexual_explicit": 0.00026,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/business/2023/mar/21/buying-black-chefs-restaurateurs"
   },
@@ -1462,16 +1462,16 @@
     "language": "en",
     "text": "How H5N1 is killing thousands of sea lions in Peru",
     "scores": {
-      "toxicity": 0.00766,
-      "severe_toxicity": 0.00009,
+      "toxicity": 0.00749,
+      "severe_toxicity": 0.00008,
       "obscene": 0.00025,
-      "identity_attack": 0.00072,
-      "insult": 0.00034,
-      "threat": 0.00097,
+      "identity_attack": 0.00071,
+      "insult": 0.00033,
+      "threat": 0.00095,
       "sexual_explicit": 0.00007,
-      "positive": 0.01627,
-      "neutral": 0.10171,
-      "negative": 0.88202
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/environment/2023/mar/21/bird-flu-peru-sea-lions-suffer-death-beach-aoe-h5n1"
   },
@@ -1482,14 +1482,14 @@
     "scores": {
       "toxicity": 0.00042,
       "severe_toxicity": 0.00010,
-      "obscene": 0.00076,
-      "identity_attack": 0.00021,
-      "insult": 0.00058,
+      "obscene": 0.00075,
+      "identity_attack": 0.00020,
+      "insult": 0.00057,
       "threat": 0.00012,
       "sexual_explicit": 0.00007,
-      "positive": 0.15164,
-      "neutral": 0.81739,
-      "negative": 0.03097
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/music/gallery/2023/mar/22/designing-elton-john-final-tour-farewell-yellow-brick-road-in-pictures"
   },
@@ -1498,16 +1498,16 @@
     "language": "en",
     "text": "My life with Jewish retirees \u2013 in pictures",
     "scores": {
-      "toxicity": 0.01834,
-      "severe_toxicity": 0.00169,
-      "obscene": 0.00335,
+      "toxicity": 0.01831,
+      "severe_toxicity": 0.00168,
+      "obscene": 0.00333,
       "identity_attack": 0.01403,
-      "insult": 0.00364,
+      "insult": 0.00362,
       "threat": 0.00138,
       "sexual_explicit": 0.00053,
-      "positive": 0.09406,
-      "neutral": 0.77290,
-      "negative": 0.13304
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/artanddesign/gallery/2023/mar/22/i-became-their-surrogate-granddaughter-my-life-with-jewish-retirees-in-pictures"
   },
@@ -1516,16 +1516,16 @@
     "language": "en",
     "text": "Fighting with fire: Bali\u2019s new year\u2019s eve celebrations",
     "scores": {
-      "toxicity": 0.00168,
+      "toxicity": 0.00166,
       "severe_toxicity": 0.00006,
       "obscene": 0.00033,
       "identity_attack": 0.00023,
       "insult": 0.00031,
-      "threat": 0.00034,
+      "threat": 0.00033,
       "sexual_explicit": 0.00006,
-      "positive": 0.49929,
-      "neutral": 0.40391,
-      "negative": 0.09680
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/world/gallery/2023/mar/22/fighting-with-fire-balis-new-years-eve-celebrations-in-pictures"
   },
@@ -1541,9 +1541,9 @@
       "insult": 0.00020,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.01898,
-      "neutral": 0.10489,
-      "negative": 0.87613
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/21/protests-and-strikes-france--pensions-reform-emmanuel-macron"
   },
@@ -1552,16 +1552,16 @@
     "language": "en",
     "text": "Trump wants to be handcuffed for court appearance in Stormy Daniels case, sources say",
     "scores": {
-      "toxicity": 0.03154,
+      "toxicity": 0.03066,
       "severe_toxicity": 0.00010,
       "obscene": 0.00035,
-      "identity_attack": 0.00036,
-      "insult": 0.00176,
-      "threat": 0.01085,
+      "identity_attack": 0.00035,
+      "insult": 0.00173,
+      "threat": 0.01044,
       "sexual_explicit": 0.00026,
-      "positive": 0.05334,
-      "neutral": 0.45124,
-      "negative": 0.49542
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/22/trump-wants-to-be-handcuffed-for-court-appearance-in-stormy-daniels-case-sources-say"
   },
@@ -1570,16 +1570,16 @@
     "language": "en",
     "text": "DeSantis hits Republican poll low as Trump tightens grip on primary",
     "scores": {
-      "toxicity": 0.00097,
+      "toxicity": 0.00096,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00009,
       "insult": 0.00034,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.20055,
-      "neutral": 0.57446,
-      "negative": 0.22499
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/22/desantis-polls-2024-trump-republican-nomination-latest"
   },
@@ -1588,16 +1588,16 @@
     "language": "en",
     "text": "Putin says Russia \u2018will respond\u2019 if UK supplies depleted uranium shells to Ukraine",
     "scores": {
-      "toxicity": 0.00145,
+      "toxicity": 0.00142,
       "severe_toxicity": 0.00003,
       "obscene": 0.00011,
       "identity_attack": 0.00030,
       "insult": 0.00022,
-      "threat": 0.00014,
+      "threat": 0.00013,
       "sexual_explicit": 0.00003,
-      "positive": 0.06417,
-      "neutral": 0.38163,
-      "negative": 0.55420
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/21/putin-says-russia-will-respond-if-uk-supplies-depleted-uranium-shells-to-ukraine"
   },
@@ -1613,9 +1613,9 @@
       "insult": 0.00017,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.10880,
-      "neutral": 0.40178,
-      "negative": 0.48942
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://www.theguardian.com/us-news/2023/mar/21/sailing-crew-rescue-giant-whale-pacific-ocean"
   },
@@ -1624,16 +1624,16 @@
     "language": "en",
     "text": "\u2018I became their surrogate granddaughter!\u2019: my life with Jewish retirees \u2013 in pictures",
     "scores": {
-      "toxicity": 0.02082,
+      "toxicity": 0.02068,
       "severe_toxicity": 0.00114,
-      "obscene": 0.00212,
-      "identity_attack": 0.01366,
-      "insult": 0.00426,
+      "obscene": 0.00211,
+      "identity_attack": 0.01362,
+      "insult": 0.00424,
       "threat": 0.00096,
       "sexual_explicit": 0.00055,
-      "positive": 0.31975,
-      "neutral": 0.58007,
-      "negative": 0.10018
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/artanddesign/gallery/2023/mar/22/i-became-their-surrogate-granddaughter-my-life-with-jewish-retirees-in-pictures"
   },
@@ -1649,9 +1649,9 @@
       "insult": 0.00014,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.53137,
-      "neutral": 0.32755,
-      "negative": 0.14108
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://www.theguardian.com/world/2023/mar/21/putin-welcomes-chinas-controversial-proposals-for-peace-in-ukraine"
   }

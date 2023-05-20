@@ -4,16 +4,16 @@
     "language": "en",
     "text": "U.S.-South Korean drills kick off, reviving North Korean fears",
     "scores": {
-      "toxicity": 0.00159,
+      "toxicity": 0.00155,
       "severe_toxicity": 0.00004,
       "obscene": 0.00015,
-      "identity_attack": 0.00035,
+      "identity_attack": 0.00034,
       "insult": 0.00018,
-      "threat": 0.00021,
+      "threat": 0.00020,
       "sexual_explicit": 0.00004,
-      "positive": 0.11561,
-      "neutral": 0.35831,
-      "negative": 0.52609
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/us-south-korean-drills-kick-reviving-north-korean-/"
   },
@@ -22,16 +22,16 @@
     "language": "en",
     "text": "White House calls Pence \u2018homophobic\u2019 over joke about Buttigieg\u2019s maternity leave",
     "scores": {
-      "toxicity": 0.09547,
+      "toxicity": 0.09526,
       "severe_toxicity": 0.00025,
-      "obscene": 0.00156,
-      "identity_attack": 0.01069,
-      "insult": 0.03741,
+      "obscene": 0.00155,
+      "identity_attack": 0.01067,
+      "insult": 0.03742,
       "threat": 0.00029,
-      "sexual_explicit": 0.00315,
-      "positive": 0.02243,
-      "neutral": 0.18678,
-      "negative": 0.79079
+      "sexual_explicit": 0.00311,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/white-house-calls-pence-homophobic-over-joke-about/"
   },
@@ -47,9 +47,9 @@
       "insult": 0.00022,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.13914,
-      "neutral": 0.76007,
-      "negative": 0.10078
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/donald-trump-heads-to-iowa-ron-desantis-to-headlin/"
   },
@@ -65,9 +65,9 @@
       "insult": 0.00022,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02721,
-      "neutral": 0.15727,
-      "negative": 0.81551
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/congressional-gop-plans-vote-overturn-bidens-borde/"
   },
@@ -83,9 +83,9 @@
       "insult": 0.00015,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.09742,
-      "neutral": 0.27299,
-      "negative": 0.62959
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/joe-biden-says-banking-system-safe-after-silicon-v/"
   },
@@ -101,9 +101,9 @@
       "insult": 0.00031,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.23231,
-      "neutral": 0.72962,
-      "negative": 0.03807
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/top-times-biden-proposes-major-tax-increase/"
   },
@@ -112,16 +112,16 @@
     "language": "en",
     "text": "Congress shows seismic shift on Wuhan lab likely causing the pandemic",
     "scores": {
-      "toxicity": 0.00236,
+      "toxicity": 0.00230,
       "severe_toxicity": 0.00004,
       "obscene": 0.00013,
       "identity_attack": 0.00019,
-      "insult": 0.00047,
-      "threat": 0.00038,
-      "sexual_explicit": 0.00004,
-      "positive": 0.03527,
-      "neutral": 0.27216,
-      "negative": 0.69257
+      "insult": 0.00046,
+      "threat": 0.00037,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/congress-shows-seismic-shift-wuhan-lab-likely-caus/"
   },
@@ -130,16 +130,16 @@
     "language": "en",
     "text": "Priests could be allowed to marry, Pope Francis says",
     "scores": {
-      "toxicity": 0.00254,
+      "toxicity": 0.00250,
       "severe_toxicity": 0.00004,
       "obscene": 0.00017,
-      "identity_attack": 0.00092,
+      "identity_attack": 0.00091,
       "insult": 0.00035,
       "threat": 0.00012,
       "sexual_explicit": 0.00011,
-      "positive": 0.23501,
-      "neutral": 0.63936,
-      "negative": 0.12563
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/pope-francis-priests-could-be-allowed-marry/"
   },
@@ -152,12 +152,12 @@
       "severe_toxicity": 0.00002,
       "obscene": 0.00019,
       "identity_attack": 0.00008,
-      "insult": 0.00031,
+      "insult": 0.00030,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.36002,
-      "neutral": 0.57029,
-      "negative": 0.06969
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/michelle-yeoh-takes-dig-cnns-don-lemon-oscars-acce/"
   },
@@ -166,16 +166,16 @@
     "language": "en",
     "text": "Elon Musk calls for release of \u2018QAnon Shaman\u2019",
     "scores": {
-      "toxicity": 0.00073,
+      "toxicity": 0.00072,
       "severe_toxicity": 0.00003,
       "obscene": 0.00026,
       "identity_attack": 0.00013,
-      "insult": 0.00039,
+      "insult": 0.00038,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.08597,
-      "neutral": 0.72270,
-      "negative": 0.19133
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/10/elon-musk-calls-release-qanon-shaman-jacob-chansle/"
   },
@@ -184,16 +184,16 @@
     "language": "en",
     "text": "9th grader sues over Pledge of Allegiance confrontation",
     "scores": {
-      "toxicity": 0.00742,
+      "toxicity": 0.00736,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00110,
+      "obscene": 0.00109,
       "identity_attack": 0.00013,
-      "insult": 0.00188,
+      "insult": 0.00187,
       "threat": 0.00011,
-      "sexual_explicit": 0.00085,
-      "positive": 0.01868,
-      "neutral": 0.12045,
-      "negative": 0.86087
+      "sexual_explicit": 0.00083,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/10/9th-grader-sues-over-pledge-of-allegiance-confront/"
   },
@@ -209,9 +209,9 @@
       "insult": 0.00016,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.74622,
-      "neutral": 0.21602,
-      "negative": 0.03775
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/best-picture-oscar-winner-everything-everywhere-al/"
   },
@@ -220,16 +220,16 @@
     "language": "en",
     "text": "Biden greenlights major Alaska oil drilling project as climate activists seethe",
     "scores": {
-      "toxicity": 0.00063,
+      "toxicity": 0.00062,
       "severe_toxicity": 0.00003,
       "obscene": 0.00015,
       "identity_attack": 0.00014,
       "insult": 0.00019,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.26345,
-      "neutral": 0.49432,
-      "negative": 0.24223
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/joe-biden-greenlights-major-alaska-oil-drilling-pr/"
   },
@@ -238,16 +238,16 @@
     "language": "en",
     "text": "Vice President Harris snubs Elizabeth Warren\u2019s attempt to apologize",
     "scores": {
-      "toxicity": 0.01400,
+      "toxicity": 0.01390,
       "severe_toxicity": 0.00013,
-      "obscene": 0.00384,
+      "obscene": 0.00382,
       "identity_attack": 0.00032,
-      "insult": 0.00400,
-      "threat": 0.00038,
-      "sexual_explicit": 0.00108,
-      "positive": 0.02604,
-      "neutral": 0.13240,
-      "negative": 0.84156
+      "insult": 0.00397,
+      "threat": 0.00037,
+      "sexual_explicit": 0.00107,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/kamala-harris-snubs-elizabeth-warrens-attempt-apol/"
   },
@@ -263,9 +263,9 @@
       "insult": 0.00031,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.06240,
-      "neutral": 0.72545,
-      "negative": 0.21215
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/9/fewer-community-college-students-transferring-four/"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "Lay Catholics campaign to deny Communion for pro-abortion politicians",
     "scores": {
-      "toxicity": 0.00841,
+      "toxicity": 0.00839,
       "severe_toxicity": 0.00008,
       "obscene": 0.00042,
-      "identity_attack": 0.00403,
-      "insult": 0.00170,
+      "identity_attack": 0.00401,
+      "insult": 0.00169,
       "threat": 0.00029,
       "sexual_explicit": 0.00021,
-      "positive": 0.03982,
-      "neutral": 0.27163,
-      "negative": 0.68855
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/8/lay-catholics-campaign-deny-communion-pro-abortion/"
   },
@@ -292,16 +292,16 @@
     "language": "en",
     "text": "Schools say American kids are hungry and it\u2019s hard to focus",
     "scores": {
-      "toxicity": 0.07318,
+      "toxicity": 0.07269,
       "severe_toxicity": 0.00004,
       "obscene": 0.00023,
-      "identity_attack": 0.04790,
-      "insult": 0.00688,
+      "identity_attack": 0.04749,
+      "insult": 0.00684,
       "threat": 0.00029,
       "sexual_explicit": 0.00008,
-      "positive": 0.01286,
-      "neutral": 0.11719,
-      "negative": 0.86995
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/11/schools-say-american-kids-are-hungry-and-its-hard-/"
   },
@@ -317,9 +317,9 @@
       "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.12894,
-      "neutral": 0.37397,
-      "negative": 0.49708
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/silicon-valley-bank-collapse-rise-woke-financial-s/"
   },
@@ -328,16 +328,16 @@
     "language": "en",
     "text": "Former CDC director says COVID-19 \u2018more likely\u2019 came from Chinese lab leak",
     "scores": {
-      "toxicity": 0.00221,
+      "toxicity": 0.00219,
       "severe_toxicity": 0.00002,
       "obscene": 0.00009,
-      "identity_attack": 0.00052,
+      "identity_attack": 0.00051,
       "insult": 0.00053,
       "threat": 0.00006,
       "sexual_explicit": 0.00002,
-      "positive": 0.04907,
-      "neutral": 0.73799,
-      "negative": 0.21294
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/8/no-smoking-gun-covid-19-lab-leak-theory-barrel-war/"
   },
@@ -346,16 +346,16 @@
     "language": "en",
     "text": "Twitter Files journalists warn of social media\u2019s censorship web ensnaring Americans",
     "scores": {
-      "toxicity": 0.00139,
+      "toxicity": 0.00138,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
-      "identity_attack": 0.00028,
+      "identity_attack": 0.00027,
       "insult": 0.00030,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02601,
-      "neutral": 0.12187,
-      "negative": 0.85212
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/9/twitter-files-journalists-warn-web-censorship-test/"
   },
@@ -364,16 +364,16 @@
     "language": "en",
     "text": "IRS audit finds 42,000 feds cheating on taxes",
     "scores": {
-      "toxicity": 0.00126,
+      "toxicity": 0.00125,
       "severe_toxicity": 0.00001,
       "obscene": 0.00011,
       "identity_attack": 0.00010,
       "insult": 0.00048,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02249,
-      "neutral": 0.23504,
-      "negative": 0.74247
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/10/irs-audit-finds-42000-feds-cheating-on-taxes/"
   },
@@ -382,16 +382,16 @@
     "language": "en",
     "text": "Choir song from jailed Capitol rioters reaches top of iTunes chart",
     "scores": {
-      "toxicity": 0.00387,
+      "toxicity": 0.00382,
       "severe_toxicity": 0.00002,
       "obscene": 0.00018,
-      "identity_attack": 0.00038,
-      "insult": 0.00086,
+      "identity_attack": 0.00037,
+      "insult": 0.00085,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.46009,
-      "neutral": 0.34457,
-      "negative": 0.19534
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/choir-song-jailed-capitol-rioters-reaches-top-itun/"
   },
@@ -407,9 +407,9 @@
       "insult": 0.00030,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.62828,
-      "neutral": 0.33065,
-      "negative": 0.04108
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/pfizer-buys-seagen-for-43b-boosts-access-to-cancer/"
   },
@@ -425,9 +425,9 @@
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02106,
-      "neutral": 0.22081,
-      "negative": 0.75813
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/goldman-sachs-doesnt-expect-fed-raise-rates-march-/"
   },
@@ -436,16 +436,16 @@
     "language": "en",
     "text": "New Pentagon budget targets ammo, weapons shortages after Ukraine",
     "scores": {
-      "toxicity": 0.00087,
+      "toxicity": 0.00086,
       "severe_toxicity": 0.00003,
       "obscene": 0.00016,
-      "identity_attack": 0.00025,
+      "identity_attack": 0.00024,
       "insult": 0.00022,
       "threat": 0.00009,
       "sexual_explicit": 0.00003,
-      "positive": 0.03524,
-      "neutral": 0.30419,
-      "negative": 0.66056
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/new-pentagon-budget-targets-ammo-weapons-shortages/"
   },
@@ -461,9 +461,9 @@
       "insult": 0.00017,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.21238,
-      "neutral": 0.46270,
-      "negative": 0.32493
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/nepal-implement-countrywide-ban-solo-hikes/"
   },
@@ -479,9 +479,9 @@
       "insult": 0.00029,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.40499,
-      "neutral": 0.55929,
-      "negative": 0.03572
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/danny-johnson-re-sign-commanders-two-year-deal/"
   },
@@ -490,16 +490,16 @@
     "language": "en",
     "text": "March Madness betting guide: Not just about brackets",
     "scores": {
-      "toxicity": 0.00077,
+      "toxicity": 0.00076,
       "severe_toxicity": 0.00005,
-      "obscene": 0.00051,
+      "obscene": 0.00049,
       "identity_attack": 0.00010,
-      "insult": 0.00054,
-      "threat": 0.00011,
+      "insult": 0.00053,
+      "threat": 0.00010,
       "sexual_explicit": 0.00007,
-      "positive": 0.11118,
-      "neutral": 0.83843,
-      "negative": 0.05039
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/march-madness-betting-guide-not-just-about-bracket/"
   },
@@ -508,16 +508,16 @@
     "language": "en",
     "text": "Commanders, Daron Payne reach four-year, $90 million deal",
     "scores": {
-      "toxicity": 0.00050,
+      "toxicity": 0.00049,
       "severe_toxicity": 0.00003,
       "obscene": 0.00028,
       "identity_attack": 0.00008,
-      "insult": 0.00042,
+      "insult": 0.00041,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.34869,
-      "neutral": 0.62011,
-      "negative": 0.03120
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/commanders-daron-payne-reach-four-year-90-million-/"
   },
@@ -533,9 +533,9 @@
       "insult": 0.00021,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.59036,
-      "neutral": 0.37522,
-      "negative": 0.03442
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/march-madness-alabama-houston-kansas-purdue-1-seed/"
   },
@@ -548,12 +548,12 @@
       "severe_toxicity": 0.00001,
       "obscene": 0.00010,
       "identity_attack": 0.00010,
-      "insult": 0.00040,
-      "threat": 0.00003,
+      "insult": 0.00041,
+      "threat": 0.00002,
       "sexual_explicit": 0.00002,
-      "positive": 0.02926,
-      "neutral": 0.18756,
-      "negative": 0.78318
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/13/gop-sen-john-kennedy-accuses-biden-demagoguing-soc/"
   },
@@ -562,16 +562,16 @@
     "language": "en",
     "text": "Home Depot founder knocks \u2018woke\u2019 Silicon Valley Bank going bust: Americans need to \u2018wake up\u2019",
     "scores": {
-      "toxicity": 0.00155,
+      "toxicity": 0.00154,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
       "identity_attack": 0.00018,
       "insult": 0.00035,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.10704,
-      "neutral": 0.37204,
-      "negative": 0.52092
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/home-depot-founder-bernie-marcus-knocks-woke-silic/"
   },
@@ -580,16 +580,16 @@
     "language": "en",
     "text": "Rich Russians spared as Putin sends poor, ethnic minorities to front lines in Ukraine",
     "scores": {
-      "toxicity": 0.05215,
+      "toxicity": 0.05139,
       "severe_toxicity": 0.00003,
       "obscene": 0.00020,
-      "identity_attack": 0.02769,
-      "insult": 0.00633,
+      "identity_attack": 0.02724,
+      "insult": 0.00624,
       "threat": 0.00016,
       "sexual_explicit": 0.00005,
-      "positive": 0.01390,
-      "neutral": 0.07799,
-      "negative": 0.90811
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/rich-russians-spared-vladimir-putin-sends-poor-eth/"
   },
@@ -598,16 +598,16 @@
     "language": "en",
     "text": "McCarthy vows to \u2018slowly roll out\u2019 Jan. 6 tapes to news outlets after blowback",
     "scores": {
-      "toxicity": 0.00282,
+      "toxicity": 0.00274,
       "severe_toxicity": 0.00004,
       "obscene": 0.00028,
       "identity_attack": 0.00011,
       "insult": 0.00047,
-      "threat": 0.00028,
+      "threat": 0.00027,
       "sexual_explicit": 0.00007,
-      "positive": 0.10030,
-      "neutral": 0.69740,
-      "negative": 0.20230
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/kevin-mccarthy-vows-slowly-roll-out-jan-6-tapes-ne/"
   },
@@ -623,9 +623,9 @@
       "insult": 0.00026,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.37453,
-      "neutral": 0.56191,
-      "negative": 0.06356
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/12/kevin-cramer-ron-desantis-has-earned-right-be-head/"
   },
@@ -634,16 +634,16 @@
     "language": "en",
     "text": "House Republicans step up pressure on State Department over funding for \u2018disinformation\u2019 index",
     "scores": {
-      "toxicity": 0.00052,
+      "toxicity": 0.00051,
       "severe_toxicity": 0.00002,
       "obscene": 0.00010,
       "identity_attack": 0.00009,
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.07308,
-      "neutral": 0.37930,
-      "negative": 0.54762
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://washingtontimes.com/news/2023/mar/11/house-republicans-step-pressure-state-department-o/"
   }

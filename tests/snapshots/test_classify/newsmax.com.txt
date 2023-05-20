@@ -11,9 +11,9 @@
       "insult": 0.00021,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.06503,
-      "neutral": 0.76557,
-      "negative": 0.16940
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/us/biden-banking/2023/03/13/id/1112018/"
   },
@@ -22,16 +22,16 @@
     "language": "en",
     "text": "Biden Blasts Trump's Rollback of Bank Restraints",
     "scores": {
-      "toxicity": 0.02636,
-      "severe_toxicity": 0.00015,
-      "obscene": 0.00230,
+      "toxicity": 0.02543,
+      "severe_toxicity": 0.00014,
+      "obscene": 0.00223,
       "identity_attack": 0.00028,
-      "insult": 0.00242,
-      "threat": 0.00221,
-      "sexual_explicit": 0.00102,
-      "positive": 0.03977,
-      "neutral": 0.35618,
-      "negative": 0.60405
+      "insult": 0.00236,
+      "threat": 0.00211,
+      "sexual_explicit": 0.00097,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/joe-biden-banks-collapse/2023/03/13/id/1112058/"
   },
@@ -40,16 +40,16 @@
     "language": "en",
     "text": "GOP Targets Vulnerable House Dems for 2024",
     "scores": {
-      "toxicity": 0.00109,
+      "toxicity": 0.00108,
       "severe_toxicity": 0.00002,
       "obscene": 0.00014,
       "identity_attack": 0.00012,
       "insult": 0.00044,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.04641,
-      "neutral": 0.26588,
-      "negative": 0.68771
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/republicans-democrats-seats/2023/03/13/id/1112060/"
   },
@@ -58,16 +58,16 @@
     "language": "en",
     "text": "Grenell to Newsmax: NewsGuard Demonetizing 'Dissent'",
     "scores": {
-      "toxicity": 0.00829,
+      "toxicity": 0.00822,
       "severe_toxicity": 0.00013,
       "obscene": 0.00105,
-      "identity_attack": 0.00035,
-      "insult": 0.00129,
-      "threat": 0.00354,
+      "identity_attack": 0.00034,
+      "insult": 0.00130,
+      "threat": 0.00346,
       "sexual_explicit": 0.00016,
-      "positive": 0.02195,
-      "neutral": 0.27962,
-      "negative": 0.69843
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsmax-tv/ric-grenell-newsguard-bias-against-conservative/2023/03/12/id/1111964/"
   },
@@ -76,16 +76,16 @@
     "language": "en",
     "text": "US Repels Migrants as Asylum App Frustration Grows in Mexico",
     "scores": {
-      "toxicity": 0.23239,
+      "toxicity": 0.23328,
       "severe_toxicity": 0.00005,
       "obscene": 0.00046,
-      "identity_attack": 0.08452,
-      "insult": 0.03910,
+      "identity_attack": 0.08544,
+      "insult": 0.03956,
       "threat": 0.00041,
       "sexual_explicit": 0.00015,
-      "positive": 0.01533,
-      "neutral": 0.09549,
-      "negative": 0.88917
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/migrants-bridge-el-paso-mexico-customs/2023/03/13/id/1112054/"
   },
@@ -94,16 +94,16 @@
     "language": "en",
     "text": "Casualties Rise in Ukraine, Russia Bakhmut Battle",
     "scores": {
-      "toxicity": 0.00222,
+      "toxicity": 0.00217,
       "severe_toxicity": 0.00028,
-      "obscene": 0.00268,
-      "identity_attack": 0.00153,
-      "insult": 0.00325,
+      "obscene": 0.00267,
+      "identity_attack": 0.00150,
+      "insult": 0.00324,
       "threat": 0.00043,
       "sexual_explicit": 0.00015,
-      "positive": 0.03071,
-      "neutral": 0.31304,
-      "negative": 0.65625
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/russia-attacks-ukraine/2023/03/13/id/1112024/"
   },
@@ -116,12 +116,12 @@
       "severe_toxicity": 0.00005,
       "obscene": 0.00049,
       "identity_attack": 0.00015,
-      "insult": 0.00091,
+      "insult": 0.00090,
       "threat": 0.00005,
       "sexual_explicit": 0.00008,
-      "positive": 0.04824,
-      "neutral": 0.69682,
-      "negative": 0.25494
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/supreme-court-ethics-code-justice-thomas/2023/03/13/id/1112052/"
   },
@@ -137,9 +137,9 @@
       "insult": 0.00024,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.75414,
-      "neutral": 0.18959,
-      "negative": 0.05627
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/platinum/iran-saudi-arabia-deal/2023/03/13/id/1112004/"
   },
@@ -148,16 +148,16 @@
     "language": "en",
     "text": "Ramaswamy to Newsmax: Biden's 'Crony Capitalism'",
     "scores": {
-      "toxicity": 0.00236,
+      "toxicity": 0.00233,
       "severe_toxicity": 0.00001,
       "obscene": 0.00015,
       "identity_attack": 0.00013,
-      "insult": 0.00118,
+      "insult": 0.00116,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.02047,
-      "neutral": 0.18569,
-      "negative": 0.79384
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/vivek-ramaswamy-joe-biden-svb/2023/03/13/id/1112045/"
   },
@@ -166,16 +166,16 @@
     "language": "en",
     "text": "US Must Treat Mexican Cartels Like 'Terrorists'",
     "scores": {
-      "toxicity": 0.95547,
+      "toxicity": 0.95558,
       "severe_toxicity": 0.00049,
-      "obscene": 0.00328,
-      "identity_attack": 0.78966,
-      "insult": 0.80579,
-      "threat": 0.00692,
-      "sexual_explicit": 0.00107,
-      "positive": 0.01850,
-      "neutral": 0.12842,
-      "negative": 0.85307
+      "obscene": 0.00327,
+      "identity_attack": 0.78936,
+      "insult": 0.80622,
+      "threat": 0.00691,
+      "sexual_explicit": 0.00108,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/platinum/mexican-cartels-drugs-traffickers/2023/03/13/id/1112002/"
   },
@@ -184,16 +184,16 @@
     "language": "en",
     "text": "Biden Admin. Approves Alaska Willow Oil Project",
     "scores": {
-      "toxicity": 0.00061,
+      "toxicity": 0.00060,
       "severe_toxicity": 0.00008,
-      "obscene": 0.00061,
+      "obscene": 0.00060,
       "identity_attack": 0.00032,
-      "insult": 0.00074,
+      "insult": 0.00073,
       "threat": 0.00009,
       "sexual_explicit": 0.00004,
-      "positive": 0.31075,
-      "neutral": 0.60019,
-      "negative": 0.08906
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/us/willow-oil-alaska/2023/03/13/id/1112032/"
   },
@@ -209,9 +209,9 @@
       "insult": 0.00034,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.04867,
-      "neutral": 0.44733,
-      "negative": 0.50399
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/joe-tacopina-donald-trump-hush-money/2023/03/13/id/1112029/"
   },
@@ -223,13 +223,13 @@
       "toxicity": 0.00084,
       "severe_toxicity": 0.00003,
       "obscene": 0.00021,
-      "identity_attack": 0.00022,
+      "identity_attack": 0.00021,
       "insult": 0.00036,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.02833,
-      "neutral": 0.18965,
-      "negative": 0.78202
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/iran-protests-arrested/2023/03/13/id/1112019/"
   },
@@ -238,16 +238,16 @@
     "language": "en",
     "text": "Trump Praises Horowitz's 'Final Battle' as 'Great'",
     "scores": {
-      "toxicity": 0.00125,
+      "toxicity": 0.00123,
       "severe_toxicity": 0.00004,
       "obscene": 0.00025,
-      "identity_attack": 0.00011,
+      "identity_attack": 0.00010,
       "insult": 0.00026,
       "threat": 0.00018,
       "sexual_explicit": 0.00007,
-      "positive": 0.87041,
-      "neutral": 0.09721,
-      "negative": 0.03237
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/donald-trump-david-horowitz-book/2023/03/09/id/1111679/"
   },
@@ -256,16 +256,16 @@
     "language": "en",
     "text": "Jews Protest Israeli Finance Minister in Washington",
     "scores": {
-      "toxicity": 0.02644,
-      "severe_toxicity": 0.00163,
+      "toxicity": 0.02630,
+      "severe_toxicity": 0.00162,
       "obscene": 0.00265,
-      "identity_attack": 0.01886,
-      "insult": 0.00456,
-      "threat": 0.00166,
+      "identity_attack": 0.01874,
+      "insult": 0.00454,
+      "threat": 0.00165,
       "sexual_explicit": 0.00064,
-      "positive": 0.03404,
-      "neutral": 0.37551,
-      "negative": 0.59045
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/protest-washington-israel/2023/03/13/id/1112011/"
   },
@@ -274,16 +274,16 @@
     "language": "en",
     "text": "'Robot Lawyer' Sued for Practicing Without License",
     "scores": {
-      "toxicity": 0.00099,
+      "toxicity": 0.00098,
       "severe_toxicity": 0.00001,
       "obscene": 0.00011,
       "identity_attack": 0.00008,
-      "insult": 0.00048,
+      "insult": 0.00047,
       "threat": 0.00002,
       "sexual_explicit": 0.00002,
-      "positive": 0.01991,
-      "neutral": 0.21134,
-      "negative": 0.76875
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/ia-chatbot-robot/2023/03/13/id/1112017/"
   },
@@ -294,14 +294,14 @@
     "scores": {
       "toxicity": 0.00028,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00044,
+      "obscene": 0.00043,
       "identity_attack": 0.00016,
       "insult": 0.00038,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
-      "positive": 0.74171,
-      "neutral": 0.20859,
-      "negative": 0.04970
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/oscars-best-picture/2023/03/13/id/1112001/"
   },
@@ -317,9 +317,9 @@
       "insult": 0.00017,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.12322,
-      "neutral": 0.72994,
-      "negative": 0.14684
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/phil-murphy-biden-presidential-election/2023/03/12/id/1111998/"
   },
@@ -329,15 +329,15 @@
     "text": "March Madness: Bama, Houston, Kansas, Purdue Top Seeds",
     "scores": {
       "toxicity": 0.00056,
-      "severe_toxicity": 0.00016,
-      "obscene": 0.00159,
+      "severe_toxicity": 0.00015,
+      "obscene": 0.00156,
       "identity_attack": 0.00031,
-      "insult": 0.00161,
-      "threat": 0.00012,
+      "insult": 0.00158,
+      "threat": 0.00011,
       "sexual_explicit": 0.00010,
-      "positive": 0.08383,
-      "neutral": 0.87147,
-      "negative": 0.04470
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/us/march-madness-bracket-kansas-alabama/2023/03/12/id/1111996/"
   },
@@ -346,16 +346,16 @@
     "language": "en",
     "text": "Signature Bank Closes After SVB Collapse",
     "scores": {
-      "toxicity": 0.00056,
+      "toxicity": 0.00055,
       "severe_toxicity": 0.00004,
       "obscene": 0.00024,
       "identity_attack": 0.00016,
-      "insult": 0.00026,
+      "insult": 0.00025,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.05003,
-      "neutral": 0.43955,
-      "negative": 0.51042
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/finance/streettalk/signature-bank-failure/2023/03/13/id/1112003/"
   },
@@ -364,16 +364,16 @@
     "language": "en",
     "text": "Suspended Crematorium Hid Bodies in Warehouse",
     "scores": {
-      "toxicity": 0.00456,
+      "toxicity": 0.00450,
       "severe_toxicity": 0.00020,
-      "obscene": 0.00336,
+      "obscene": 0.00334,
       "identity_attack": 0.00048,
-      "insult": 0.00364,
+      "insult": 0.00363,
       "threat": 0.00030,
-      "sexual_explicit": 0.00041,
-      "positive": 0.02963,
-      "neutral": 0.43247,
-      "negative": 0.53790
+      "sexual_explicit": 0.00040,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/crematorium-investigation-california/2023/03/12/id/1111994/"
   },
@@ -383,15 +383,15 @@
     "text": "Russia Loses 1,090 Troops in 1 Day",
     "scores": {
       "toxicity": 0.00137,
-      "severe_toxicity": 0.00003,
+      "severe_toxicity": 0.00002,
       "obscene": 0.00014,
       "identity_attack": 0.00037,
       "insult": 0.00026,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.02591,
-      "neutral": 0.24306,
-      "negative": 0.73103
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/russia-ukraine-wagner-group/2023/03/13/id/1112039/"
   },
@@ -400,16 +400,16 @@
     "language": "en",
     "text": "Gallup Poll: 90 Percent of US Rebukes Russia",
     "scores": {
-      "toxicity": 0.00253,
+      "toxicity": 0.00252,
       "severe_toxicity": 0.00002,
       "obscene": 0.00012,
       "identity_attack": 0.00062,
       "insult": 0.00040,
       "threat": 0.00005,
       "sexual_explicit": 0.00003,
-      "positive": 0.07609,
-      "neutral": 0.45695,
-      "negative": 0.46696
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/gallup-survey-america/2023/03/13/id/1112042/"
   },
@@ -418,16 +418,16 @@
     "language": "en",
     "text": "Transgender Teens Disproportionately Autistic",
     "scores": {
-      "toxicity": 0.85106,
-      "severe_toxicity": 0.00110,
-      "obscene": 0.02699,
-      "identity_attack": 0.59242,
-      "insult": 0.22079,
-      "threat": 0.00225,
-      "sexual_explicit": 0.00703,
-      "positive": 0.02872,
-      "neutral": 0.16646,
-      "negative": 0.80482
+      "toxicity": 0.84982,
+      "severe_toxicity": 0.00109,
+      "obscene": 0.02677,
+      "identity_attack": 0.59063,
+      "insult": 0.21980,
+      "threat": 0.00222,
+      "sexual_explicit": 0.00682,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/transgender-children-autistic/2023/03/12/id/1111990/"
   },
@@ -443,9 +443,9 @@
       "insult": 0.00020,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
-      "positive": 0.08226,
-      "neutral": 0.87126,
-      "negative": 0.04648
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/kevin-mccarthy-tucker-carlson-jan-6/2023/03/12/id/1111988/"
   },
@@ -461,9 +461,9 @@
       "insult": 0.00020,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.03233,
-      "neutral": 0.46612,
-      "negative": 0.50155
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/silicon-valley-bank-woke/2023/03/12/id/1111950/"
   },
@@ -472,16 +472,16 @@
     "language": "en",
     "text": "Nicaragua Closing Vatican-Related Embassies",
     "scores": {
-      "toxicity": 0.00800,
+      "toxicity": 0.00794,
       "severe_toxicity": 0.00020,
-      "obscene": 0.00188,
+      "obscene": 0.00185,
       "identity_attack": 0.00334,
-      "insult": 0.00195,
+      "insult": 0.00193,
       "threat": 0.00077,
-      "sexual_explicit": 0.00055,
-      "positive": 0.01766,
-      "neutral": 0.23263,
-      "negative": 0.74971
+      "sexual_explicit": 0.00054,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/world/globaltalk/nicaragua-ortega-vatican/2023/03/12/id/1111984/"
   },
@@ -490,16 +490,16 @@
     "language": "en",
     "text": "Dr. Rich Besser: We're Not Ready For Next Pandemic",
     "scores": {
-      "toxicity": 0.00049,
+      "toxicity": 0.00048,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
       "identity_attack": 0.00011,
       "insult": 0.00019,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.02728,
-      "neutral": 0.39703,
-      "negative": 0.57569
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/pandemic-covid-preparedness/2023/03/12/id/1111981/"
   },
@@ -515,9 +515,9 @@
       "insult": 0.00035,
       "threat": 0.00006,
       "sexual_explicit": 0.00002,
-      "positive": 0.30569,
-      "neutral": 0.57788,
-      "negative": 0.11643
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/joe-lieberman-israel-saudi-arabia/2023/03/12/id/1111979/"
   },
@@ -528,14 +528,14 @@
     "scores": {
       "toxicity": 0.00109,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00018,
+      "obscene": 0.00017,
       "identity_attack": 0.00010,
       "insult": 0.00043,
       "threat": 0.00006,
       "sexual_explicit": 0.00003,
-      "positive": 0.04175,
-      "neutral": 0.37350,
-      "negative": 0.58475
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/michael-mccaul-pence-jan-6/2023/03/12/id/1111976/"
   },
@@ -544,16 +544,16 @@
     "language": "en",
     "text": "Texas Man Sues Women for Getting His Ex-Wife Abortion Pills",
     "scores": {
-      "toxicity": 0.08218,
-      "severe_toxicity": 0.00043,
-      "obscene": 0.00249,
-      "identity_attack": 0.00853,
-      "insult": 0.00476,
-      "threat": 0.00548,
-      "sexual_explicit": 0.01296,
-      "positive": 0.03802,
-      "neutral": 0.28198,
-      "negative": 0.68000
+      "toxicity": 0.08080,
+      "severe_toxicity": 0.00042,
+      "obscene": 0.00245,
+      "identity_attack": 0.00845,
+      "insult": 0.00472,
+      "threat": 0.00540,
+      "sexual_explicit": 0.01261,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/man-sues-abortion/2023/03/12/id/1111971/"
   },
@@ -564,14 +564,14 @@
     "scores": {
       "toxicity": 0.00033,
       "severe_toxicity": 0.00006,
-      "obscene": 0.00042,
-      "identity_attack": 0.00022,
+      "obscene": 0.00041,
+      "identity_attack": 0.00021,
       "insult": 0.00050,
       "threat": 0.00006,
       "sexual_explicit": 0.00004,
-      "positive": 0.08552,
-      "neutral": 0.81666,
-      "negative": 0.09782
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/world/globaltalk/china-xi-ukraine/2023/03/13/id/1112026/"
   },
@@ -587,9 +587,9 @@
       "insult": 0.00017,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.21975,
-      "neutral": 0.75277,
-      "negative": 0.02748
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/politics/kamala-harris-africa-u-s/2023/03/13/id/1112021/"
   },
@@ -598,16 +598,16 @@
     "language": "en",
     "text": "IDF Chief: Military Can Only Function in 'Jewish, Democratic State'",
     "scores": {
-      "toxicity": 0.04060,
+      "toxicity": 0.04041,
       "severe_toxicity": 0.00109,
-      "obscene": 0.00238,
-      "identity_attack": 0.02626,
-      "insult": 0.00718,
+      "obscene": 0.00236,
+      "identity_attack": 0.02611,
+      "insult": 0.00713,
       "threat": 0.00133,
       "sexual_explicit": 0.00042,
-      "positive": 0.04871,
-      "neutral": 0.68890,
-      "negative": 0.26239
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/world/globaltalk/idf-chief-herzi-halevi/2023/03/13/id/1112016/"
   },
@@ -616,16 +616,16 @@
     "language": "en",
     "text": "Global Union Leader Fired in EU Graft Scandal",
     "scores": {
-      "toxicity": 0.00150,
+      "toxicity": 0.00148,
       "severe_toxicity": 0.00019,
-      "obscene": 0.00202,
+      "obscene": 0.00201,
       "identity_attack": 0.00043,
-      "insult": 0.00197,
-      "threat": 0.00046,
+      "insult": 0.00196,
+      "threat": 0.00045,
       "sexual_explicit": 0.00013,
-      "positive": 0.01205,
-      "neutral": 0.11560,
-      "negative": 0.87235
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/ituc-bribery-luca-visentini/2023/03/12/id/1111992/"
   },
@@ -634,16 +634,16 @@
     "language": "en",
     "text": "Italy Says 30 Migrants Missing after Boat Capsizes off Libya",
     "scores": {
-      "toxicity": 0.02055,
-      "severe_toxicity": 0.00004,
+      "toxicity": 0.02019,
+      "severe_toxicity": 0.00003,
       "obscene": 0.00018,
-      "identity_attack": 0.00587,
-      "insult": 0.00114,
-      "threat": 0.00084,
+      "identity_attack": 0.00576,
+      "insult": 0.00113,
+      "threat": 0.00082,
       "sexual_explicit": 0.00008,
-      "positive": 0.02199,
-      "neutral": 0.24902,
-      "negative": 0.72900
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/migrants-italy-capsized/2023/03/12/id/1111989/"
   },
@@ -652,16 +652,16 @@
     "language": "en",
     "text": "Seoul: North Korea Conducts Missile Test",
     "scores": {
-      "toxicity": 0.00080,
+      "toxicity": 0.00079,
       "severe_toxicity": 0.00005,
       "obscene": 0.00022,
       "identity_attack": 0.00028,
       "insult": 0.00024,
       "threat": 0.00013,
       "sexual_explicit": 0.00005,
-      "positive": 0.05425,
-      "neutral": 0.72426,
-      "negative": 0.22149
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/south-korea-north-korea-chiefs-of-staff/2023/03/12/id/1111982/"
   },
@@ -670,16 +670,16 @@
     "language": "en",
     "text": "Suspected Islamist Militants Kill 19 in Congo",
     "scores": {
-      "toxicity": 0.43662,
+      "toxicity": 0.43749,
       "severe_toxicity": 0.00031,
       "obscene": 0.00085,
-      "identity_attack": 0.31697,
-      "insult": 0.02383,
-      "threat": 0.02404,
+      "identity_attack": 0.31649,
+      "insult": 0.02386,
+      "threat": 0.02431,
       "sexual_explicit": 0.00047,
-      "positive": 0.02533,
-      "neutral": 0.22588,
-      "negative": 0.74879
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/world/globaltalk/congo-islamist-militants-un/2023/03/12/id/1111980/"
   },
@@ -688,16 +688,16 @@
     "language": "en",
     "text": "Zelenskyy: More Than 1,100 Russian Dead in Less Than a Week",
     "scores": {
-      "toxicity": 0.04135,
+      "toxicity": 0.04086,
       "severe_toxicity": 0.00012,
       "obscene": 0.00033,
-      "identity_attack": 0.01523,
-      "insult": 0.00119,
-      "threat": 0.00271,
+      "identity_attack": 0.01510,
+      "insult": 0.00117,
+      "threat": 0.00267,
       "sexual_explicit": 0.00010,
-      "positive": 0.02003,
-      "neutral": 0.26812,
-      "negative": 0.71185
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/world/globaltalk/ukraine-russia-war/2023/03/12/id/1111975/"
   },
@@ -706,16 +706,16 @@
     "language": "en",
     "text": "Bolton: China Increasingly in 'Catbird' Seat",
     "scores": {
-      "toxicity": 0.00071,
+      "toxicity": 0.00070,
       "severe_toxicity": 0.00004,
       "obscene": 0.00027,
       "identity_attack": 0.00023,
       "insult": 0.00046,
       "threat": 0.00008,
       "sexual_explicit": 0.00004,
-      "positive": 0.16584,
-      "neutral": 0.63813,
-      "negative": 0.19603
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/john-bolton-china-saudi-arabia/2023/03/12/id/1111965/"
   },
@@ -729,11 +729,11 @@
       "obscene": 0.00044,
       "identity_attack": 0.00020,
       "insult": 0.00038,
-      "threat": 0.00008,
+      "threat": 0.00007,
       "sexual_explicit": 0.00004,
-      "positive": 0.02114,
-      "neutral": 0.26480,
-      "negative": 0.71406
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/world/globaltalk/israel-svb-bank/2023/03/12/id/1111961/"
   },
@@ -742,16 +742,16 @@
     "language": "en",
     "text": "French Senate Adopts Pension Bill Despite Mass Protests",
     "scores": {
-      "toxicity": 0.00040,
+      "toxicity": 0.00039,
       "severe_toxicity": 0.00003,
       "obscene": 0.00017,
       "identity_attack": 0.00012,
       "insult": 0.00023,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
-      "positive": 0.10780,
-      "neutral": 0.45859,
-      "negative": 0.43361
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/france-retirement-age-vote-pension-reform/2023/03/12/id/1111957/"
   },
@@ -760,16 +760,16 @@
     "language": "en",
     "text": "Iran Says Deal Reached With US for Prisoner Swap",
     "scores": {
-      "toxicity": 0.00174,
+      "toxicity": 0.00172,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
       "identity_attack": 0.00033,
       "insult": 0.00037,
       "threat": 0.00006,
       "sexual_explicit": 0.00002,
-      "positive": 0.17412,
-      "neutral": 0.58828,
-      "negative": 0.23760
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/iran-hostages-us/2023/03/12/id/1111955/"
   },
@@ -778,16 +778,16 @@
     "language": "en",
     "text": "BBC Under Fire After Host's 'Nazi' Comments",
     "scores": {
-      "toxicity": 0.12776,
+      "toxicity": 0.12680,
       "severe_toxicity": 0.00013,
-      "obscene": 0.00226,
-      "identity_attack": 0.02036,
-      "insult": 0.02480,
-      "threat": 0.00063,
-      "sexual_explicit": 0.00034,
-      "positive": 0.01185,
-      "neutral": 0.10425,
-      "negative": 0.88390
+      "obscene": 0.00225,
+      "identity_attack": 0.02025,
+      "insult": 0.02470,
+      "threat": 0.00062,
+      "sexual_explicit": 0.00033,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/newsfront/bbc-lineker-tweet-asylum-migrants-suspension-british-government-motd-motd2/2023/03/12/id/1111954/"
   },
@@ -796,16 +796,16 @@
     "language": "en",
     "text": "China Surprisingly Retains Central Bank Chief",
     "scores": {
-      "toxicity": 0.00254,
+      "toxicity": 0.00251,
       "severe_toxicity": 0.00003,
       "obscene": 0.00034,
-      "identity_attack": 0.00066,
+      "identity_attack": 0.00065,
       "insult": 0.00075,
       "threat": 0.00008,
       "sexual_explicit": 0.00006,
-      "positive": 0.75548,
-      "neutral": 0.15914,
-      "negative": 0.08538
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/world/globaltalk/china-yi-gang/2023/03/12/id/1111949/"
   },
@@ -821,9 +821,9 @@
       "insult": 0.00018,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.17275,
-      "neutral": 0.66641,
-      "negative": 0.16083
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/newsfront/who-covid-origins/2023/03/12/id/1111946/"
   },
@@ -839,9 +839,9 @@
       "insult": 0.00042,
       "threat": 0.00008,
       "sexual_explicit": 0.00007,
-      "positive": 0.15758,
-      "neutral": 0.79295,
-      "negative": 0.04947
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/world/globaltalk/pope-francis-vatican-anniversary-abuse-lgbt/2023/03/12/id/1111943/"
   },
@@ -850,16 +850,16 @@
     "language": "en",
     "text": "Marines Prep for Ambush Operations Against China",
     "scores": {
-      "toxicity": 0.01837,
+      "toxicity": 0.01783,
       "severe_toxicity": 0.00012,
-      "obscene": 0.00048,
-      "identity_attack": 0.00272,
-      "insult": 0.00074,
-      "threat": 0.00395,
+      "obscene": 0.00047,
+      "identity_attack": 0.00268,
+      "insult": 0.00073,
+      "threat": 0.00383,
       "sexual_explicit": 0.00015,
-      "positive": 0.06474,
-      "neutral": 0.49577,
-      "negative": 0.43949
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/platinum/u-s-marines-china/2023/03/10/id/1111777/"
   },
@@ -875,9 +875,9 @@
       "insult": 0.00015,
       "threat": 0.00009,
       "sexual_explicit": 0.00004,
-      "positive": 0.60746,
-      "neutral": 0.32761,
-      "negative": 0.06493
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
     },
     "url": "https://newsmax.com/platinum/u-s-nord-stream-pipelines/2023/03/10/id/1111779/"
   },
@@ -886,16 +886,16 @@
     "language": "en",
     "text": "US Lacks 'Urgency' as China Readies for War",
     "scores": {
-      "toxicity": 0.00185,
+      "toxicity": 0.00183,
       "severe_toxicity": 0.00002,
       "obscene": 0.00009,
       "identity_attack": 0.00037,
       "insult": 0.00035,
       "threat": 0.00005,
       "sexual_explicit": 0.00002,
-      "positive": 0.01732,
-      "neutral": 0.19074,
-      "negative": 0.79194
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
     "url": "https://newsmax.com/platinum/u-s-china-war/2023/03/09/id/1111645/"
   }

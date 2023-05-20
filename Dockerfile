@@ -15,7 +15,8 @@ COPY --from=builder /code/dist /code/dist
 RUN pip install --no-cache-dir --upgrade /code/dist/*
 
 # force download of models
-RUN python -c "from detoxify import Detoxify; Detoxify('multilingual').predict(['foobar'])"
+RUN python -c 'from optimum.onnxruntime import ORTModelForSequenceClassification;\
+    model = ORTModelForSequenceClassification.from_pretrained("dcferreira/detoxify-optimized")'
 RUN python -c 'from transformers import pipeline;\
     model_path = "cardiffnlp/twitter-xlm-roberta-base-sentiment";\
     sentiment_task = pipeline("sentiment-analysis", model=model_path, tokenizer=model_path);\
