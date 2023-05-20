@@ -19,8 +19,7 @@ RUN python -c 'from optimum.onnxruntime import ORTModelForSequenceClassification
     model = ORTModelForSequenceClassification.from_pretrained("dcferreira/detoxify-optimized")'
 RUN python -c 'from transformers import pipeline;\
     model_path = "cardiffnlp/twitter-xlm-roberta-base-sentiment";\
-    sentiment_task = pipeline("sentiment-analysis", model=model_path, tokenizer=model_path);\
-    print(sentiment_task("love you!"))'
+    sentiment_task = pipeline("sentiment-analysis", model=model_path, tokenizer=model_path)'
 
 # copy the serving code and our database
 COPY app.py /code

@@ -2,639 +2,441 @@
   {
     "newspaper": "The Washington Times",
     "language": "en",
-    "text": "U.S.-South Korean drills kick off, reviving North Korean fears",
+    "text": "NEW: Making predictions in the Sabbath challenge",
     "scores": {
-      "toxicity": 0.00155,
+      "toxicity": 0.00032,
+      "severe_toxicity": 0.00011,
+      "obscene": 0.00085,
+      "identity_attack": 0.00025,
+      "insult": 0.00076,
+      "threat": 0.00009,
+      "sexual_explicit": 0.00005,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/specials/court-watch-alex-swoyer-podcast/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Beware, there\u2019s a new climate change scheme afoot",
+    "scores": {
+      "toxicity": 0.00065,
       "severe_toxicity": 0.00004,
+      "obscene": 0.00016,
+      "identity_attack": 0.00009,
+      "insult": 0.00029,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/specials/bold-blunt-podcast/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "The U.S., China\u2026 and Seoul",
+    "scores": {
+      "toxicity": 0.00043,
+      "severe_toxicity": 0.00003,
       "obscene": 0.00015,
-      "identity_attack": 0.00034,
+      "identity_attack": 0.00016,
+      "insult": 0.00016,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/specials/history-happens-podcast/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Federal wildlife agency says eco-grief training done; now \u2018racial equity\u2019 work draws scrutiny",
+    "scores": {
+      "toxicity": 0.00042,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00009,
+      "insult": 0.00016,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/federal-wildlife-agency-says-eco-grief-training-do/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Sen. Tim Scott files paperwork for 2024 GOP presidential bid",
+    "scores": {
+      "toxicity": 0.00032,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00017,
+      "identity_attack": 0.00009,
       "insult": 0.00018,
-      "threat": 0.00020,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/sen-tim-scott-files-paperwork-2024-gop-presidentia/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Comer says the rising number of terrorism suspects at the border is a \u2018clear national security risk\u2019",
+    "scores": {
+      "toxicity": 0.00118,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00007,
+      "identity_attack": 0.00024,
+      "insult": 0.00020,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/comer-says-rising-number-of-terrorism-suspects-at-/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "House probe: More foreign deals suggest Biden was planning a well-heeled retirement, says Comer",
+    "scores": {
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00009,
+      "insult": 0.00018,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/house-probe-digs-more-foreign-deals-suggest-joe-bi/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Biden approves plan to let Ukrainians train on U.S.-made F-16s and other fighters",
+    "scores": {
+      "toxicity": 0.00184,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00018,
+      "identity_attack": 0.00052,
+      "insult": 0.00022,
+      "threat": 0.00029,
+      "sexual_explicit": 0.00005,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/biden-approves-plan-let-ukrainians-train-us-made-f/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Nebraska passes 12-week abortion limit, bans transgender surgeries for minors",
+    "scores": {
+      "toxicity": 0.46467,
+      "severe_toxicity": 0.00019,
+      "obscene": 0.00081,
+      "identity_attack": 0.43521,
+      "insult": 0.01991,
+      "threat": 0.00318,
+      "sexual_explicit": 0.00165,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/nebraska-passes-12-week-abortion-limit-bans-transg/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "How To Entirely Empty Your Bowels Every Morning - Top Surgeon Explains How",
+    "scores": {
+      "toxicity": 0.00990,
+      "severe_toxicity": 0.00010,
+      "obscene": 0.00060,
+      "identity_attack": 0.00054,
+      "insult": 0.00066,
+      "threat": 0.00229,
+      "sexual_explicit": 0.00037,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "http://gundrymd.com/cmd.php?ad=972729"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Biden, McCarthy restart debt negotiations after snafu over spending cuts",
+    "scores": {
+      "toxicity": 0.01037,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00219,
+      "identity_attack": 0.00015,
+      "insult": 0.00213,
+      "threat": 0.00057,
+      "sexual_explicit": 0.00111,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/biden-kevin-mccarthy-restart-debt-negotiations-aft/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "\u2018Impasse\u2019: House GOP walk out of debt limit talks with White House citing no progress",
+    "scores": {
+      "toxicity": 0.00087,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00023,
+      "identity_attack": 0.00035,
+      "insult": 0.00034,
+      "threat": 0.00007,
       "sexual_explicit": 0.00004,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://washingtontimes.com/news/2023/mar/13/us-south-korean-drills-kick-reviving-north-korean-/"
+    "url": "https://washingtontimes.com/news/2023/may/19/impasse-debt-talks-pause-amid-failure-make-progres/"
   },
   {
     "newspaper": "The Washington Times",
     "language": "en",
-    "text": "White House calls Pence \u2018homophobic\u2019 over joke about Buttigieg\u2019s maternity leave",
+    "text": "Let the impeachments begin",
     "scores": {
-      "toxicity": 0.09526,
-      "severe_toxicity": 0.00025,
-      "obscene": 0.00155,
-      "identity_attack": 0.01067,
-      "insult": 0.03742,
-      "threat": 0.00029,
-      "sexual_explicit": 0.00311,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/white-house-calls-pence-homophobic-over-joke-about/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Trump heads to Iowa, DeSantis to headline major N.H. event in early primary start",
-    "scores": {
-      "toxicity": 0.00055,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00009,
-      "identity_attack": 0.00009,
-      "insult": 0.00022,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/donald-trump-heads-to-iowa-ron-desantis-to-headlin/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Biden\u2019s border \u2018parole\u2019 program in peril as congressional GOP plans vote to overturn",
-    "scores": {
-      "toxicity": 0.00054,
+      "toxicity": 0.00069,
       "severe_toxicity": 0.00002,
       "obscene": 0.00011,
-      "identity_attack": 0.00009,
-      "insult": 0.00022,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/congressional-gop-plans-vote-overturn-bidens-borde/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Biden defends \u2018safe\u2019 banking system amid biggest collapses since 2008",
-    "scores": {
-      "toxicity": 0.00037,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00012,
-      "identity_attack": 0.00010,
-      "insult": 0.00015,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/joe-biden-says-banking-system-safe-after-silicon-v/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "WATCH: Biden proposes a major tax increase. \u2018Top of the Times\u2019 with Haris Alic",
-    "scores": {
-      "toxicity": 0.00077,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00015,
-      "identity_attack": 0.00007,
-      "insult": 0.00031,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/top-times-biden-proposes-major-tax-increase/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Congress shows seismic shift on Wuhan lab likely causing the pandemic",
-    "scores": {
-      "toxicity": 0.00230,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00013,
-      "identity_attack": 0.00019,
-      "insult": 0.00046,
-      "threat": 0.00037,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/12/congress-shows-seismic-shift-wuhan-lab-likely-caus/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Priests could be allowed to marry, Pope Francis says",
-    "scores": {
-      "toxicity": 0.00250,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00017,
-      "identity_attack": 0.00091,
-      "insult": 0.00035,
-      "threat": 0.00012,
-      "sexual_explicit": 0.00011,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/pope-francis-priests-could-be-allowed-marry/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Oscar winner Michelle Yeoh takes dig at CNN\u2019s Don Lemon in acceptance speech",
-    "scores": {
-      "toxicity": 0.00079,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00019,
-      "identity_attack": 0.00008,
-      "insult": 0.00030,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/michelle-yeoh-takes-dig-cnns-don-lemon-oscars-acce/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Elon Musk calls for release of \u2018QAnon Shaman\u2019",
-    "scores": {
-      "toxicity": 0.00072,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00026,
-      "identity_attack": 0.00013,
-      "insult": 0.00038,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/10/elon-musk-calls-release-qanon-shaman-jacob-chansle/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "9th grader sues over Pledge of Allegiance confrontation",
-    "scores": {
-      "toxicity": 0.00736,
-      "severe_toxicity": 0.00005,
-      "obscene": 0.00109,
-      "identity_attack": 0.00013,
-      "insult": 0.00187,
-      "threat": 0.00011,
-      "sexual_explicit": 0.00083,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/10/9th-grader-sues-over-pledge-of-allegiance-confront/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "\u2018Everything\u2019 wins best picture, is everywhere at Oscars",
-    "scores": {
-      "toxicity": 0.00045,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00015,
-      "identity_attack": 0.00010,
+      "identity_attack": 0.00012,
       "insult": 0.00016,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00003,
-      "positive": 100.00000,
-      "neutral": 0.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/12/best-picture-oscar-winner-everything-everywhere-al/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Biden greenlights major Alaska oil drilling project as climate activists seethe",
-    "scores": {
-      "toxicity": 0.00062,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00015,
-      "identity_attack": 0.00014,
-      "insult": 0.00019,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/joe-biden-greenlights-major-alaska-oil-drilling-pr/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Vice President Harris snubs Elizabeth Warren\u2019s attempt to apologize",
-    "scores": {
-      "toxicity": 0.01390,
-      "severe_toxicity": 0.00013,
-      "obscene": 0.00382,
-      "identity_attack": 0.00032,
-      "insult": 0.00397,
-      "threat": 0.00037,
-      "sexual_explicit": 0.00107,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/kamala-harris-snubs-elizabeth-warrens-attempt-apol/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Fewer community college students transferring to four-year schools: Report",
-    "scores": {
-      "toxicity": 0.00049,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00020,
-      "identity_attack": 0.00012,
-      "insult": 0.00031,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/9/fewer-community-college-students-transferring-four/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Lay Catholics campaign to deny Communion for pro-abortion politicians",
-    "scores": {
-      "toxicity": 0.00839,
-      "severe_toxicity": 0.00008,
-      "obscene": 0.00042,
-      "identity_attack": 0.00401,
-      "insult": 0.00169,
-      "threat": 0.00029,
-      "sexual_explicit": 0.00021,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/8/lay-catholics-campaign-deny-communion-pro-abortion/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Schools say American kids are hungry and it\u2019s hard to focus",
-    "scores": {
-      "toxicity": 0.07269,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00023,
-      "identity_attack": 0.04749,
-      "insult": 0.00684,
-      "threat": 0.00029,
-      "sexual_explicit": 0.00008,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/11/schools-say-american-kids-are-hungry-and-its-hard-/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Biden admin guarantees Silicon Valley Bank deposits, shutters N.Y. bank in bid to head off crisis",
-    "scores": {
-      "toxicity": 0.00071,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00012,
-      "identity_attack": 0.00014,
-      "insult": 0.00024,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/12/silicon-valley-bank-collapse-rise-woke-financial-s/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Former CDC director says COVID-19 \u2018more likely\u2019 came from Chinese lab leak",
-    "scores": {
-      "toxicity": 0.00219,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00009,
-      "identity_attack": 0.00051,
-      "insult": 0.00053,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/8/no-smoking-gun-covid-19-lab-leak-theory-barrel-war/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Twitter Files journalists warn of social media\u2019s censorship web ensnaring Americans",
-    "scores": {
-      "toxicity": 0.00138,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00011,
-      "identity_attack": 0.00027,
-      "insult": 0.00030,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/9/twitter-files-journalists-warn-web-censorship-test/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "IRS audit finds 42,000 feds cheating on taxes",
-    "scores": {
-      "toxicity": 0.00125,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00011,
-      "identity_attack": 0.00010,
-      "insult": 0.00048,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/10/irs-audit-finds-42000-feds-cheating-on-taxes/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Choir song from jailed Capitol rioters reaches top of iTunes chart",
-    "scores": {
-      "toxicity": 0.00382,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00018,
-      "identity_attack": 0.00037,
-      "insult": 0.00085,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 100.00000,
-      "neutral": 0.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/choir-song-jailed-capitol-rioters-reaches-top-itun/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Pfizer buys Seagen for $43B, boosts access to cancer drugs",
-    "scores": {
-      "toxicity": 0.00090,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00018,
-      "identity_attack": 0.00012,
-      "insult": 0.00030,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 100.00000,
-      "neutral": 0.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/pfizer-buys-seagen-for-43b-boosts-access-to-cancer/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Goldman Sachs doesn\u2019t expect Fed to raise rates in March, citing bank chaos",
-    "scores": {
-      "toxicity": 0.00037,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00015,
-      "identity_attack": 0.00009,
-      "insult": 0.00021,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/goldman-sachs-doesnt-expect-fed-raise-rates-march-/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "New Pentagon budget targets ammo, weapons shortages after Ukraine",
-    "scores": {
-      "toxicity": 0.00086,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00016,
-      "identity_attack": 0.00024,
-      "insult": 0.00022,
-      "threat": 0.00009,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/new-pentagon-budget-targets-ammo-weapons-shortages/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Nepal to implement countrywide ban on solo hikes",
-    "scores": {
-      "toxicity": 0.00060,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00011,
-      "identity_attack": 0.00030,
-      "insult": 0.00017,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/nepal-implement-countrywide-ban-solo-hikes/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Danny Johnson re-sign with Commanders on two-year deal",
-    "scores": {
-      "toxicity": 0.00049,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00021,
-      "identity_attack": 0.00009,
-      "insult": 0.00029,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/13/danny-johnson-re-sign-commanders-two-year-deal/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "March Madness betting guide: Not just about brackets",
-    "scores": {
-      "toxicity": 0.00076,
-      "severe_toxicity": 0.00005,
-      "obscene": 0.00049,
-      "identity_attack": 0.00010,
-      "insult": 0.00053,
       "threat": 0.00010,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/let-impeachments-begin/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Retribution for Crossfire Hurricane is in order",
+    "scores": {
+      "toxicity": 0.00092,
+      "severe_toxicity": 0.00011,
+      "obscene": 0.00067,
+      "identity_attack": 0.00033,
+      "insult": 0.00075,
+      "threat": 0.00034,
       "sexual_explicit": 0.00007,
       "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://washingtontimes.com/news/2023/mar/13/march-madness-betting-guide-not-just-about-bracket/"
+    "url": "https://washingtontimes.com/news/2023/may/18/retribution-for-crossfire-hurricane-is-in-order/"
   },
   {
     "newspaper": "The Washington Times",
     "language": "en",
-    "text": "Commanders, Daron Payne reach four-year, $90 million deal",
+    "text": "Medal of Honor recipient missing 73 years to be buried Memorial Day",
     "scores": {
-      "toxicity": 0.00049,
+      "toxicity": 0.00044,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00029,
+      "identity_attack": 0.00016,
+      "insult": 0.00033,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/medal-of-honor-recipient-missing-73-years-to-be-bu/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Hot dog! Oscar Mayer rolls out Frankmobile",
+    "scores": {
+      "toxicity": 0.00300,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00083,
+      "identity_attack": 0.00019,
+      "insult": 0.00192,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00008,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/hot-dog-oscar-mayer-rolls-out-frankmobile-former-w/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "What is a woman? Tennessee has the answer, with Gov. Bill Lee signing bill defining sex in state law",
+    "scores": {
+      "toxicity": 0.03487,
+      "severe_toxicity": 0.00107,
+      "obscene": 0.00324,
+      "identity_attack": 0.00393,
+      "insult": 0.00246,
+      "threat": 0.00224,
+      "sexual_explicit": 0.05119,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/what-woman-tennessee-has-answer-gov-bill-lee-signi/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Brittney Griner set for first WNBA game since detainment in Russia",
+    "scores": {
+      "toxicity": 0.00048,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00028,
-      "identity_attack": 0.00008,
-      "insult": 0.00041,
+      "obscene": 0.00020,
+      "identity_attack": 0.00011,
+      "insult": 0.00024,
       "threat": 0.00004,
       "sexual_explicit": 0.00003,
       "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://washingtontimes.com/news/2023/mar/12/commanders-daron-payne-reach-four-year-90-million-/"
+    "url": "https://washingtontimes.com/news/2023/may/19/brittney-griner-set-for-first-wnba-game-since-deta/"
   },
   {
     "newspaper": "The Washington Times",
     "language": "en",
-    "text": "Alabama, Houston, Kansas, Purdue earn No. 1 seeds in NCAA Tournament",
+    "text": "Border Patrol agents shot at from Mexico while rescuing 4-year-old migrant",
     "scores": {
-      "toxicity": 0.00053,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00017,
-      "identity_attack": 0.00011,
-      "insult": 0.00021,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 100.00000,
+      "toxicity": 0.01829,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00040,
+      "identity_attack": 0.00398,
+      "insult": 0.00048,
+      "threat": 0.00293,
+      "sexual_explicit": 0.00026,
+      "positive": 0.00000,
       "neutral": 0.00000,
-      "negative": 0.00000
+      "negative": 100.00000
     },
-    "url": "https://washingtontimes.com/news/2023/mar/12/march-madness-alabama-houston-kansas-purdue-1-seed/"
+    "url": "https://washingtontimes.com/news/2023/may/19/border-patrol-agents-shot-mexico-while-rescuing-4-/"
   },
   {
     "newspaper": "The Washington Times",
     "language": "en",
-    "text": "GOP Sen. John Kennedy accuses Biden of \u2018demagoguing\u2019 Social Security funding",
+    "text": "Barr says Durham probe shouldn\u2019t be measured by prosecutions",
     "scores": {
-      "toxicity": 0.00105,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00010,
-      "identity_attack": 0.00010,
-      "insult": 0.00041,
-      "threat": 0.00002,
+      "toxicity": 0.00050,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00009,
+      "insult": 0.00019,
+      "threat": 0.00005,
       "sexual_explicit": 0.00002,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://washingtontimes.com/news/2023/mar/13/gop-sen-john-kennedy-accuses-biden-demagoguing-soc/"
+    "url": "https://washingtontimes.com/news/2023/may/19/bill-barr-says-durham-probe-shouldnt-be-measured-p/"
   },
   {
     "newspaper": "The Washington Times",
     "language": "en",
-    "text": "Home Depot founder knocks \u2018woke\u2019 Silicon Valley Bank going bust: Americans need to \u2018wake up\u2019",
+    "text": "\u2018Reason for God\u2019 author Timothy Keller dies after years of cancer battle",
     "scores": {
-      "toxicity": 0.00154,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00013,
-      "identity_attack": 0.00018,
-      "insult": 0.00035,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00003,
+      "toxicity": 0.00080,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00025,
+      "identity_attack": 0.00013,
+      "insult": 0.00016,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00006,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://washingtontimes.com/news/2023/mar/12/home-depot-founder-bernie-marcus-knocks-woke-silic/"
+    "url": "https://washingtontimes.com/news/2023/may/19/reason-for-god-author-timothy-keller-dies-after-ye/"
   },
   {
     "newspaper": "The Washington Times",
     "language": "en",
-    "text": "Rich Russians spared as Putin sends poor, ethnic minorities to front lines in Ukraine",
+    "text": "Did Facebook just censor Jesus? Bizarre \u2018hate speech\u2019 message sparks concern",
     "scores": {
-      "toxicity": 0.05139,
+      "toxicity": 0.00255,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00020,
-      "identity_attack": 0.02724,
-      "insult": 0.00624,
-      "threat": 0.00016,
+      "obscene": 0.00013,
+      "identity_attack": 0.00041,
+      "insult": 0.00055,
+      "threat": 0.00005,
       "sexual_explicit": 0.00005,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://washingtontimes.com/news/2023/mar/12/rich-russians-spared-vladimir-putin-sends-poor-eth/"
+    "url": "https://washingtontimes.com/news/2023/may/18/did-facebook-just-censor-jesus-bizarre-hate-speech/"
   },
   {
     "newspaper": "The Washington Times",
     "language": "en",
-    "text": "McCarthy vows to \u2018slowly roll out\u2019 Jan. 6 tapes to news outlets after blowback",
-    "scores": {
-      "toxicity": 0.00274,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00028,
-      "identity_attack": 0.00011,
-      "insult": 0.00047,
-      "threat": 0.00027,
-      "sexual_explicit": 0.00007,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/12/kevin-mccarthy-vows-slowly-roll-out-jan-6-tapes-ne/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "Sen. Cramer: DeSantis has a place among GOP candidates vying for 2024 presidential race nomination",
-    "scores": {
-      "toxicity": 0.00055,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00012,
-      "identity_attack": 0.00008,
-      "insult": 0.00026,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://washingtontimes.com/news/2023/mar/12/kevin-cramer-ron-desantis-has-earned-right-be-head/"
-  },
-  {
-    "newspaper": "The Washington Times",
-    "language": "en",
-    "text": "House Republicans step up pressure on State Department over funding for \u2018disinformation\u2019 index",
+    "text": "FTC accuses fertility tracking app with sharing data with China, Google",
     "scores": {
       "toxicity": 0.00051,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00020,
+      "identity_attack": 0.00012,
+      "insult": 0.00023,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00005,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/ftc-accuses-fertility-tracking-app-sharing-data-ch/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "FBI whistleblowers describe retaliation by bureau brass against rank and file who speak out",
+    "scores": {
+      "toxicity": 0.00114,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00012,
+      "insult": 0.00041,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/fbi-whistleblowers-describe-retaliation-bureau-bra/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "National Institutes of Health cuts off Wuhan Institute of Virology from taxpayer funding",
+    "scores": {
+      "toxicity": 0.00055,
       "severe_toxicity": 0.00002,
       "obscene": 0.00010,
       "identity_attack": 0.00009,
@@ -645,6 +447,870 @@
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://washingtontimes.com/news/2023/mar/11/house-republicans-step-pressure-state-department-o/"
+    "url": "https://washingtontimes.com/news/2023/may/17/national-institutes-health-cuts-wuhan-institute-vi/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Libraries struggle with shrinking budgets, bitter book battles, influx of homeless",
+    "scores": {
+      "toxicity": 0.00199,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00021,
+      "identity_attack": 0.00024,
+      "insult": 0.00054,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/17/libraries-struggle-shrinking-budgets-bitter-book-b/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Distracted: Biden\u2019s Quad summit no-show rattles U.S. allies in Pacific",
+    "scores": {
+      "toxicity": 0.00067,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00012,
+      "insult": 0.00026,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/17/distracted-joe-bidens-quad-summit-no-show-rattles-/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Texas militia member sentenced to nearly 5 years in prison for attacking police during Capitol riot",
+    "scores": {
+      "toxicity": 0.00139,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00022,
+      "identity_attack": 0.00015,
+      "insult": 0.00022,
+      "threat": 0.00013,
+      "sexual_explicit": 0.00005,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/texas-militia-member-sentenced-to-nearly-5-years-i/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "FBI broke rules in scouring foreign intelligence on Jan. 6 riot, racial justice protests, court says",
+    "scores": {
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00009,
+      "insult": 0.00020,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/fbi-broke-rules-scouring-foreign-intelligence-jan-/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "4th death, more vision loss cases linked to tainted eyedrops",
+    "scores": {
+      "toxicity": 0.00235,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00069,
+      "identity_attack": 0.00025,
+      "insult": 0.00039,
+      "threat": 0.00030,
+      "sexual_explicit": 0.00010,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/4th-death-more-vision-loss-cases-linked-to-tainted/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Jordan Neely, NYC subway rider choked to death, is mourned at Manhattan church",
+    "scores": {
+      "toxicity": 0.02842,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00030,
+      "identity_attack": 0.00093,
+      "insult": 0.00132,
+      "threat": 0.00081,
+      "sexual_explicit": 0.00010,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/jordan-neely-nyc-subway-rider-choked-death-mourned/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Earthquake in the South Pacific causes small tsunamis",
+    "scores": {
+      "toxicity": 0.00046,
+      "severe_toxicity": 0.00008,
+      "obscene": 0.00039,
+      "identity_attack": 0.00016,
+      "insult": 0.00018,
+      "threat": 0.00015,
+      "sexual_explicit": 0.00005,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/earthquake-south-pacific-causes-small-tsunamis/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Biden, G7 leaders visit Hiroshima site, offer prayer and warning to Russia",
+    "scores": {
+      "toxicity": 0.00061,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00014,
+      "insult": 0.00021,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/joe-biden-g-7-leaders-visit-hiroshima-site-offer-p/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Zelenskyy to attend G-7 summit Sunday as world leaders tighten sanctions against Russia over Ukraine",
+    "scores": {
+      "toxicity": 0.00035,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00017,
+      "identity_attack": 0.00014,
+      "insult": 0.00017,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/zelenskyy-to-attend-g-7-summit-sunday-as-world-lea/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "All-time NFL great running back, social activist Jim Brown dead at 87",
+    "scores": {
+      "toxicity": 0.00318,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00018,
+      "identity_attack": 0.00016,
+      "insult": 0.00072,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/all-time-nfl-great-running-back-social-activist-ji/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "NFL: No vote on Commanders sale at Minneapolis meetings",
+    "scores": {
+      "toxicity": 0.00057,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00008,
+      "insult": 0.00025,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/nfl-no-vote-commanders-sale-minneapolis-meetings/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "After 27 years, NASCAR returns to once-abandoned North Wilkesboro Speedway for All-Star race",
+    "scores": {
+      "toxicity": 0.00063,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00010,
+      "insult": 0.00030,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/after-27-years-nascar-returns-to-once-abandoned-no/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Connecting and competing: An insider's guide to Infrastructure in 2023",
+    "scores": {
+      "toxicity": 0.00027,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00019,
+      "identity_attack": 0.00010,
+      "insult": 0.00018,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/specials/infrastructure-2023/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Celebrating 70 Years: The United States & South Korea Alliance",
+    "scores": {
+      "toxicity": 0.00027,
+      "severe_toxicity": 0.00017,
+      "obscene": 0.00127,
+      "identity_attack": 0.00030,
+      "insult": 0.00118,
+      "threat": 0.00013,
+      "sexual_explicit": 0.00009,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/specials/celebrating-70-years-us-south-korea-alliance/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Energy & Environment: An exploration of American sources, security & sustainability",
+    "scores": {
+      "toxicity": 0.00030,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00020,
+      "identity_attack": 0.00011,
+      "insult": 0.00020,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/specials/energy-environment-2023/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "ESG Investments: Prudent or Perilously Political?",
+    "scores": {
+      "toxicity": 0.00087,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00010,
+      "insult": 0.00052,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/specials/esg-investments/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "In the absence of U.S. leadership, China is filling the void in Latin America",
+    "scores": {
+      "toxicity": 0.00212,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00007,
+      "identity_attack": 0.00066,
+      "insult": 0.00030,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/in-absence-of-us-leadership-china-is-filling-void-/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "May God bless our military",
+    "scores": {
+      "toxicity": 0.00062,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00010,
+      "identity_attack": 0.00017,
+      "insult": 0.00015,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/may-god-bless-our-military/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "CPAC Hungary to gather world conservatives in Budapest",
+    "scores": {
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00017,
+      "identity_attack": 0.00016,
+      "insult": 0.00019,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/cpac-hungary-gather-world-conservatives-budapest/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Ukraine\u2019s Kalinina dedicates win to homeland after beating a Russian to reach Rome final",
+    "scores": {
+      "toxicity": 0.00299,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00032,
+      "identity_attack": 0.00042,
+      "insult": 0.00027,
+      "threat": 0.00039,
+      "sexual_explicit": 0.00007,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/ukraines-anhelina-kalinina-dedicates-win-to-homela/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "COVID emergency orders are among `greatest intrusions on civil liberties,\u2019 Justice Gorsuch says",
+    "scores": {
+      "toxicity": 0.00088,
+      "severe_toxicity": 0.00001,
+      "obscene": 0.00011,
+      "identity_attack": 0.00010,
+      "insult": 0.00032,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/gorsuch-covid-emergency-orders-are-among-greatest-/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Biden to meet with Quad leaders in Japan, makes amends for snubbing allies",
+    "scores": {
+      "toxicity": 0.04116,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00383,
+      "identity_attack": 0.00073,
+      "insult": 0.02783,
+      "threat": 0.00066,
+      "sexual_explicit": 0.00060,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/joe-biden-now-to-meet-with-quad-leaders-in-japan-m/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Marsha Blackburn, Ted Cruz probe Bud Light\u2019s Dylan Mulvaney ad for targeting underage drinkers",
+    "scores": {
+      "toxicity": 0.00613,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00019,
+      "identity_attack": 0.00048,
+      "insult": 0.00152,
+      "threat": 0.00012,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/marsha-blackburn-ted-cruz-probe-bud-lights-dylan-m/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "G7 leaders unveil new Russia sanctions, prepare for Zelenskyy visit",
+    "scores": {
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00012,
+      "insult": 0.00017,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/g7-leaders-unveil-new-russia-sanctions-prepare-zel/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Colombian President Petro retracts tweet announcing missing children had been found",
+    "scores": {
+      "toxicity": 0.00136,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00027,
+      "insult": 0.00043,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/colombian-president-petro-retracts-tweet-announcin/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "AOC warns Democrats against banking on anti-Trump coalition delivering second term for Biden",
+    "scores": {
+      "toxicity": 0.00059,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00009,
+      "identity_attack": 0.00009,
+      "insult": 0.00024,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/19/alexandria-ocasio-cortez-dems-cant-bank-anti-trump/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Supreme Court Justice Gorsuch scolds Americans over handling of pandemic emergencies",
+    "scores": {
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00010,
+      "insult": 0.00021,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/neil-gorsuch-scolds-americans-over-handling-pandem/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Trump escalates attacks ahead of DeSantis\u2019 campaign launch",
+    "scores": {
+      "toxicity": 0.00113,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00012,
+      "insult": 0.00036,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/trump-escalates-attacks-ahead-desantis-campaign-la/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Building a \u2018superhuman\u2019: Focus on mind, body, soul drives evolution of America\u2019s warfighters",
+    "scores": {
+      "toxicity": 0.00140,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00012,
+      "identity_attack": 0.00017,
+      "insult": 0.00034,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00003,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/17/building-superhuman-focus-mind-body-soul-drives-ev/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Let the impeachments begin",
+    "scores": {
+      "toxicity": 0.00069,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00012,
+      "insult": 0.00016,
+      "threat": 0.00010,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.washingtontimes.com/news/2023/may/19/let-impeachments-begin/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Retribution for Crossfire Hurricane is in order",
+    "scores": {
+      "toxicity": 0.00092,
+      "severe_toxicity": 0.00011,
+      "obscene": 0.00067,
+      "identity_attack": 0.00033,
+      "insult": 0.00075,
+      "threat": 0.00034,
+      "sexual_explicit": 0.00007,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.washingtontimes.com/news/2023/may/18/retribution-for-crossfire-hurricane-is-in-order/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "LOVERRO: Commanders housecleaning needs to extend beyond Snyder",
+    "scores": {
+      "toxicity": 0.00070,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00010,
+      "insult": 0.00027,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.washingtontimes.com/news/2023/may/18/loverro-commanders-housecleaning-needs-extend-beyo/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Border Patrol agents shot at from Mexico while rescuing 4-year-old migrant",
+    "scores": {
+      "toxicity": 0.01829,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00040,
+      "identity_attack": 0.00398,
+      "insult": 0.00048,
+      "threat": 0.00293,
+      "sexual_explicit": 0.00026,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.washingtontimes.com/news/2023/may/19/border-patrol-agents-shot-mexico-while-rescuing-4-/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Americans tell Gallup they're fed up with federal income taxes",
+    "scores": {
+      "toxicity": 0.00093,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00011,
+      "insult": 0.00035,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.washingtontimes.com/news/2023/may/19/americans-tell-gallup-theyre-fed-federal-income-ta/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Inside The Beltway",
+    "scores": {
+      "toxicity": 0.00032,
+      "severe_toxicity": 0.00018,
+      "obscene": 0.00137,
+      "identity_attack": 0.00038,
+      "insult": 0.00110,
+      "threat": 0.00016,
+      "sexual_explicit": 0.00008,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/inside-the-beltway/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Inside The Ring",
+    "scores": {
+      "toxicity": 0.00033,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00027,
+      "identity_attack": 0.00011,
+      "insult": 0.00026,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/inside-the-ring/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Nuclear Option",
+    "scores": {
+      "toxicity": 0.00035,
+      "severe_toxicity": 0.00023,
+      "obscene": 0.00195,
+      "identity_attack": 0.00038,
+      "insult": 0.00143,
+      "threat": 0.00022,
+      "sexual_explicit": 0.00011,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/opinion/nuclear-option/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Can you pass a U.S. state capitals test?",
+    "scores": {
+      "toxicity": 0.00065,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00017,
+      "insult": 0.00018,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/quiz/2019/apr/11/can-you-pass-us-state-capitals-test/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Can you pass a world history test?",
+    "scores": {
+      "toxicity": 0.00058,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00025,
+      "identity_attack": 0.00011,
+      "insult": 0.00025,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/quiz/2018/jun/14/can-you-pass-world-history-test/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "How well do you know The Golden Girls' Betty White?",
+    "scores": {
+      "toxicity": 0.00356,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00044,
+      "identity_attack": 0.00149,
+      "insult": 0.00092,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00014,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/quiz/2017/oct/17/how-well-do-you-know-golden-girls-b/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Tom Basile",
+    "scores": {
+      "toxicity": 0.00049,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00052,
+      "identity_attack": 0.00012,
+      "insult": 0.00063,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/staff/tom-basile/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Charles Hurt",
+    "scores": {
+      "toxicity": 0.00281,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00038,
+      "identity_attack": 0.00012,
+      "insult": 0.00283,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/staff/charles-hurt/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Bud Light \u2014 sorry: \u2018Queer beer\u2019 tag here to stay",
+    "scores": {
+      "toxicity": 0.00303,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00027,
+      "identity_attack": 0.00048,
+      "insult": 0.00048,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00010,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/bud-light-sorry-queer-beer-tag-here-to-stay/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Durham confirms: FBI targeted Trump for witch hunt",
+    "scores": {
+      "toxicity": 0.00382,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00016,
+      "insult": 0.00105,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/16/john-durham-confirms-fbi-targeted-donald-trump-for/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Life after Tucker: Lachlan Murdoch says Fox does \u2018best thing for the company in long term\u2019",
+    "scores": {
+      "toxicity": 0.00040,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00008,
+      "insult": 0.00019,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/life-after-tucker-carlson-lachlan-murdoch-says-fox/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "CNN names Kaitlan Collins to fill prime-time vacancy in Chris Cuomo\u2019s old slot",
+    "scores": {
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00008,
+      "insult": 0.00023,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/17/cnn-names-kaitlan-collins-fill-prime-time-vacancy-/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "ABC News crew spends year in Uvalde, documents journey of survivors, families of shooting victims",
+    "scores": {
+      "toxicity": 0.00161,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00019,
+      "insult": 0.00021,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/news/2023/may/18/abc-news-crew-spends-year-uvalde-texas-documenting/"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "language": "en",
+    "text": "Sign up for delivery",
+    "scores": {
+      "toxicity": 0.00037,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00015,
+      "identity_attack": 0.00009,
+      "insult": 0.00018,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://washingtontimes.com/subscribe/?subscribe_signup_home"
   }
 ]
