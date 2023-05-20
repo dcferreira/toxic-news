@@ -11,5 +11,10 @@ services:
     environment:
       - MONGODB_URL=mongodb://mongo:27017
       - DATABASE_NAME=test_database
+      - DEBUG=1
     ports:
       - "5000:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 2G

@@ -2,336 +2,102 @@
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Ex-Wagner Prisoner Troop\u00a0Reveals Lies Fed to Him About Putin's Invasion",
+    "text": "Kasparov Predicts Collapse of Russian 'Empire'",
     "scores": {
-      "toxicity": 0.00891,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00025,
-      "identity_attack": 0.00022,
-      "insult": 0.00360,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/ex-wagner-prisoner-reveals-lies-putin-invasion-1789069"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Ukraine Gets Desperately Needed Artillery Boost in War With Russia",
-    "scores": {
-      "toxicity": 0.00732,
+      "toxicity": 0.00044,
       "severe_toxicity": 0.00010,
-      "obscene": 0.00040,
-      "identity_attack": 0.00162,
-      "insult": 0.00050,
-      "threat": 0.00093,
-      "sexual_explicit": 0.00008,
+      "obscene": 0.00055,
+      "identity_attack": 0.00030,
+      "insult": 0.00038,
+      "threat": 0.00015,
+      "sexual_explicit": 0.00007,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/ukraine-gets-desperately-needed-artillery-boost-war-russia-1789016"
+    "url": "https://www.newsweek.com/russia-kasparov-empire-collapse-1801180"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Putin 'Knows He's in the Corner' in Ukraine, Ex-NATO Spy Chief Says",
+    "text": "Kari Lake Confident as Trial to Overturn Election Ends",
     "scores": {
-      "toxicity": 0.00141,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00009,
-      "identity_attack": 0.00017,
-      "insult": 0.00043,
-      "threat": 0.00002,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/vladimir-putin-corner-ukraine-ex-nato-spy-chief-mikk-marran-estonia-1788814"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Putin's 12: The Russian Oligarchs Summoned to Kremlin",
-    "scores": {
-      "toxicity": 0.00068,
+      "toxicity": 0.00061,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00011,
-      "identity_attack": 0.00021,
-      "insult": 0.00025,
+      "obscene": 0.00012,
+      "identity_attack": 0.00012,
+      "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/putins-12-russian-oligarchs-summoned-kremlin-1788899"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Trump Supporters Plan Bank Run to Protest His Arrest",
-    "scores": {
-      "toxicity": 0.00114,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00010,
-      "identity_attack": 0.00015,
-      "insult": 0.00025,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/trump-supporters-plan-bank-run-protest-his-arrest-1789034"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Video Shows Fighters Use Remote-Controlled 'Kamikaze' Cars on Russian Tanks",
-    "scores": {
-      "toxicity": 0.00042,
-      "severe_toxicity": 0.00006,
-      "obscene": 0.00033,
-      "identity_attack": 0.00027,
-      "insult": 0.00030,
-      "threat": 0.00007,
-      "sexual_explicit": 0.00004,
       "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/video-shows-fighters-use-remote-controlled-kamikaze-cars-russian-tanks-1789039"
+    "url": "https://www.newsweek.com/kari-lake-confident-trial-overturn-election-ends-1801538"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Putin's Visit to Occupied Ukraine Shows All Is Not Well",
+    "text": "'Frustrating' Debt Ceiling Talks Take Another Turn",
     "scores": {
-      "toxicity": 0.00320,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00012,
-      "identity_attack": 0.00034,
-      "insult": 0.00075,
+      "toxicity": 0.00104,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00023,
+      "identity_attack": 0.00008,
+      "insult": 0.00043,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/frustrating-debt-ceiling-talks-take-another-turn-1801555"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Unlikely Alliances in Congress Struggle to Enact Stock Ban",
+    "scores": {
+      "toxicity": 0.00052,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00010,
+      "identity_attack": 0.00011,
+      "insult": 0.00022,
       "threat": 0.00003,
       "sexual_explicit": 0.00002,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/putin-visit-occupied-ukraine-crimea-mariupol-arrest-warrant-1788976"
+    "url": "https://www.newsweek.com/unlikely-alliances-congress-struggle-enact-stock-ban-1801524"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "How Russia's Su-35s Compare to U.S. F-16 Jets",
+    "text": "Supreme Court Decision That Could Help Trump in Criminal Case",
     "scores": {
-      "toxicity": 0.00053,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00016,
-      "identity_attack": 0.00025,
-      "insult": 0.00020,
-      "threat": 0.00006,
+      "toxicity": 0.00082,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00018,
+      "identity_attack": 0.00007,
+      "insult": 0.00030,
+      "threat": 0.00003,
       "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/russia-su35-comparison-f16-jets-ukraine-1788873"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "How Russians Reacted to Warrant for Putin's Arrest",
-    "scores": {
-      "toxicity": 0.00646,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00013,
-      "identity_attack": 0.00081,
-      "insult": 0.00117,
-      "threat": 0.00008,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
+      "positive": 100.00000,
       "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/how-russians-reacted-putin-icc-arrest-warrant-1788831"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Putin Heckled While Visiting Mariupol: 'It's All for Show'",
-    "scores": {
-      "toxicity": 0.00285,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00035,
-      "identity_attack": 0.00011,
-      "insult": 0.00066,
-      "threat": 0.00009,
-      "sexual_explicit": 0.00012,
-      "positive": 0.00000,
-      "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/putin-heckled-mariupol-visit-kremlin-arrest-warrant-1788891"
+    "url": "https://www.newsweek.com/supreme-court-decision-that-could-help-trump-criminal-case-1801519"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Trump Warns DeSantis He Could Be Next to Face 'False Accusations'",
+    "text": "Bud Light Distributor Issues Public Plea to Bring Back Angry Customers",
     "scores": {
-      "toxicity": 0.00131,
+      "toxicity": 0.00071,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00010,
+      "obscene": 0.00011,
       "identity_attack": 0.00014,
-      "insult": 0.00033,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/trump-warns-desantis-he-could-next-face-false-accusations-1789052"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Trump Supporters Plan Rally Despite Fears of Protest 'Trap'",
-    "scores": {
-      "toxicity": 0.00342,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00020,
-      "identity_attack": 0.00022,
-      "insult": 0.00048,
-      "threat": 0.00042,
-      "sexual_explicit": 0.00006,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/trump-supporters-plan-rally-despite-fears-protest-trap-1789003"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "MAGA Rages Against DeSantis Remarks on Possible Trump Arrest: 'Weasel'",
-    "scores": {
-      "toxicity": 0.02969,
-      "severe_toxicity": 0.00007,
-      "obscene": 0.00089,
-      "identity_attack": 0.00018,
-      "insult": 0.01252,
-      "threat": 0.00207,
-      "sexual_explicit": 0.00037,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/maga-rages-desantis-remarks-trump-arrest-1789031"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Donald Trump Receives Lifeline as Surprise Witness Called Up at Last Minute",
-    "scores": {
-      "toxicity": 0.00196,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00019,
-      "identity_attack": 0.00011,
-      "insult": 0.00068,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/donald-trump-surprise-witness-last-minute-robert-costello-1788826"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Donald Trump Demands Alvin Bragg Be Arrested Instead",
-    "scores": {
-      "toxicity": 0.00153,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00013,
-      "identity_attack": 0.00012,
-      "insult": 0.00038,
-      "threat": 0.00008,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/donald-trump-demands-alvin-bragg-arrested-instead-1788786"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Trump's Legal Team Files Flurry of Motions as Potential Indictment Looms",
-    "scores": {
-      "toxicity": 0.00086,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00011,
-      "identity_attack": 0.00009,
-      "insult": 0.00040,
-      "threat": 0.00002,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/trumps-legal-team-files-flurry-motions-potential-indictment-looms-1788981"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Donald Trump's NFT Prices Soar As Indictment Looms",
-    "scores": {
-      "toxicity": 0.00219,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00013,
-      "identity_attack": 0.00008,
-      "insult": 0.00091,
-      "threat": 0.00002,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/donald-trump-nft-prices-soar-indictment-manhattan-district-attorney-1788951"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Ron DeSantis Responds to Rumors About Trump Indictment",
-    "scores": {
-      "toxicity": 0.00159,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00010,
-      "identity_attack": 0.00012,
-      "insult": 0.00067,
-      "threat": 0.00002,
-      "sexual_explicit": 0.00001,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/ron-desantis-responds-rumors-about-trump-indictment-1788978"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Will U.S. Military Recruitment Struggles Cripple Response to Wars?",
-    "scores": {
-      "toxicity": 0.00060,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00011,
-      "identity_attack": 0.00013,
       "insult": 0.00021,
       "threat": 0.00004,
       "sexual_explicit": 0.00002,
@@ -339,1500 +105,1230 @@
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/will-us-military-recruitment-struggles-cripple-response-wars-1789001"
+    "url": "https://www.newsweek.com/bud-light-distributor-issues-public-plea-bring-back-angry-customers-1801500"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Warren Buffett Could be Asked to Save the Banks Once More\u00a0",
+    "text": "Go Woke, Go Broke? Millennials Say It's True",
     "scores": {
-      "toxicity": 0.00132,
+      "toxicity": 0.00747,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00014,
-      "identity_attack": 0.00017,
-      "insult": 0.00024,
-      "threat": 0.00009,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/warren-buffett-ready-save-us-economy-once-more-1788953"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Jerome Powell on the Horns of Dilemma of the Federal Reserve's Own Making",
-    "scores": {
-      "toxicity": 0.00065,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00015,
-      "identity_attack": 0.00007,
-      "insult": 0.00030,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/jerome-powell-horns-dilemma-federal-reserves-own-making-1788724"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "How the U.S. Invasion of Iraq Is Still Ruining the World 20 Years Later",
-    "scores": {
-      "toxicity": 0.00269,
-      "severe_toxicity": 0.00007,
-      "obscene": 0.00022,
-      "identity_attack": 0.00079,
-      "insult": 0.00019,
-      "threat": 0.00041,
-      "sexual_explicit": 0.00006,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/how-us-invasion-iraq-still-ruining-world-20-years-later-1788598"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Iraq Veterans: 20 Years On",
-    "scores": {
-      "toxicity": 0.00056,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00039,
-      "identity_attack": 0.00020,
-      "insult": 0.00043,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00005,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/iraq-war-veterans-20-years-anniversary-1788740"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "As Xi Summits With Putin, Is Biden Losing Ground to China?",
-    "scores": {
-      "toxicity": 0.00067,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00011,
-      "identity_attack": 0.00013,
-      "insult": 0.00024,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/xi-summits-putin-biden-losing-ground-china-1789062"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "China Says Putin Has 'Immunity' From War Crimes Prosecution",
-    "scores": {
-      "toxicity": 0.00394,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00012,
-      "identity_attack": 0.00032,
-      "insult": 0.00103,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/china-russia-vladimir-putin-icc-war-crimes-ukraine-1788911"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Putin Says Russia-China Relationship 'Without Limitations'",
-    "scores": {
-      "toxicity": 0.00059,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00018,
-      "identity_attack": 0.00014,
-      "insult": 0.00029,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/russia-china-vladimir-putin-xi-jinping-state-visit-1788810"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Did Putin Snub Xi? What to Know About Airport Greeting",
-    "scores": {
-      "toxicity": 0.00761,
-      "severe_toxicity": 0.00005,
-      "obscene": 0.00111,
-      "identity_attack": 0.00033,
-      "insult": 0.00164,
-      "threat": 0.00021,
-      "sexual_explicit": 0.00016,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/did-putin-snub-xi-what-know-about-airport-greeting-1789049"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "'I'm a Diabetic Nurse. The Price of Insulin Is Killing People'",
-    "scores": {
-      "toxicity": 0.76516,
-      "severe_toxicity": 0.00074,
-      "obscene": 0.00246,
-      "identity_attack": 0.00352,
-      "insult": 0.09482,
-      "threat": 0.27670,
-      "sexual_explicit": 0.00084,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/insulin-diabetes-nurse-health-care-1788325"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "'I Was Asked to Define Woke. My Humiliation Went Viral'",
-    "scores": {
-      "toxicity": 0.00060,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00022,
-      "identity_attack": 0.00015,
-      "insult": 0.00027,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/define-woke-bethany-mandel-conservative-book-1788538"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "'I Hated Myself as a Teen Girl. A Diagnosis Helped Me Understand Why'",
-    "scores": {
-      "toxicity": 0.03469,
-      "severe_toxicity": 0.00008,
-      "obscene": 0.00104,
-      "identity_attack": 0.00139,
-      "insult": 0.00522,
-      "threat": 0.00051,
-      "sexual_explicit": 0.00029,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/teen-girl-mental-health-depression-carrie-berk-1787445"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Suicide Rates Start Spiking in Spring, This is Why and How to Get Help",
-    "scores": {
-      "toxicity": 0.00091,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00020,
-      "identity_attack": 0.00019,
-      "insult": 0.00020,
+      "obscene": 0.00037,
+      "identity_attack": 0.00025,
+      "insult": 0.00266,
       "threat": 0.00008,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/suicide-holiday-spring-myth-mental-health-1764615"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Man Transforms Shed off Craigslist Into Tiny Home He Rents for $74 a Night",
-    "scores": {
-      "toxicity": 0.00146,
-      "severe_toxicity": 0.00014,
-      "obscene": 0.00058,
-      "identity_attack": 0.00041,
-      "insult": 0.00090,
-      "threat": 0.00023,
-      "sexual_explicit": 0.00020,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/man-transforms-craigslist-shed-rental-tiny-home-1788102"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "I Don't Want My Sister-in-Law To Get Her Share of $1.5M\u2014What Should I Do?",
-    "scores": {
-      "toxicity": 0.00095,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00012,
-      "identity_attack": 0.00015,
-      "insult": 0.00022,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/wsid-inheritance-sister-law-money-finances-family-death-1787012"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Brittany Mahomes Discusses Her 'Flaws' in Cryptic Post",
-    "scores": {
-      "toxicity": 0.00088,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00013,
-      "identity_attack": 0.00013,
-      "insult": 0.00035,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/brittany-mahomes-discusses-her-flaws-cryptic-post-1788920"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Marjorie Taylor Greene Slams Her Own Party as Potential Trump Arrest Looms",
-    "scores": {
-      "toxicity": 0.00940,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00048,
-      "identity_attack": 0.00017,
-      "insult": 0.00541,
-      "threat": 0.00008,
-      "sexual_explicit": 0.00005,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/marjorie-taylor-greene-slams-her-own-party-potential-trump-arrest-looms-1788879"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Rosie O'Donnell Shuts Down Claim Madonna Is 'Troubled'",
-    "scores": {
-      "toxicity": 0.04030,
-      "severe_toxicity": 0.00008,
-      "obscene": 0.00143,
-      "identity_attack": 0.00058,
-      "insult": 0.00928,
-      "threat": 0.00018,
-      "sexual_explicit": 0.00026,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/rosie-odonnell-shuts-down-claim-madonna-troubled-tiktok-1788917"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Prince William Accused of 'Performative PR' on Racism After Meghan Silence",
-    "scores": {
-      "toxicity": 0.01163,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00024,
-      "identity_attack": 0.00026,
-      "insult": 0.00352,
-      "threat": 0.00006,
       "sexual_explicit": 0.00009,
       "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/prince-william-accused-performative-pr-racism-meghan-markle-silence-1788846"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Donald Trump Indictment Will End 'Civilization,' Rudy Giuliani Says",
-    "scores": {
-      "toxicity": 0.00127,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00014,
-      "identity_attack": 0.00012,
-      "insult": 0.00030,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/donald-trump-indictment-end-civilization-rudy-giuliani-new-york-1788905"
+    "url": "https://www.newsweek.com/millennials-most-likely-support-go-woke-go-broke-poll-1801438"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "California's Unprecedented Snowfall Seen From Space: 'Absurd'",
-    "scores": {
-      "toxicity": 0.00227,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00022,
-      "identity_attack": 0.00013,
-      "insult": 0.00152,
-      "threat": 0.00002,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/california-flooding-snow-pictures-space-nasa-1788991"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Pictures of Vladimir Putin's Chin Spark Conspiracy Theories",
-    "scores": {
-      "toxicity": 0.00037,
-      "severe_toxicity": 0.00040,
-      "obscene": 0.00314,
-      "identity_attack": 0.00055,
-      "insult": 0.00264,
-      "threat": 0.00022,
-      "sexual_explicit": 0.00015,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/russia-ukraine-putin-fake-chin-double-conspiracy-1788946"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Biden Calls Out Marjorie Taylor Greene After First Veto",
-    "scores": {
-      "toxicity": 0.00044,
-      "severe_toxicity": 0.00072,
-      "obscene": 0.00572,
-      "identity_attack": 0.00116,
-      "insult": 0.00562,
-      "threat": 0.00050,
-      "sexual_explicit": 0.00024,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/biden-marjorie-taylor-greene-veto-twitter-1789027"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Murdaugh Family's Personal Items Set To Go Up for Auction: 'Negative Vibes'",
-    "scores": {
-      "toxicity": 0.00063,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00014,
-      "identity_attack": 0.00013,
-      "insult": 0.00028,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/alex-murdaugh-family-personal-items-auction-home-south-carolina-1788969"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Kellyanne Conway's Daughter, Husband Roast Trump Over Looming Indictment",
-    "scores": {
-      "toxicity": 0.06908,
-      "severe_toxicity": 0.00007,
-      "obscene": 0.00135,
-      "identity_attack": 0.00029,
-      "insult": 0.02341,
-      "threat": 0.00024,
-      "sexual_explicit": 0.00054,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/kellyanne-conway-daughter-husband-roast-donald-trump-over-looming-indictment-1788988"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "U.S. Shouldn't Enforce Putin's Arrest Warrant, John Bolton Says",
-    "scores": {
-      "toxicity": 0.00212,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00007,
-      "identity_attack": 0.00023,
-      "insult": 0.00043,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/vladimir-putin-arrest-warrant-icc-john-bolton-1788923"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Did Putin snub Xi? What to know about airport greeting",
-    "scores": {
-      "toxicity": 0.01599,
-      "severe_toxicity": 0.00007,
-      "obscene": 0.00266,
-      "identity_attack": 0.00027,
-      "insult": 0.00407,
-      "threat": 0.00058,
-      "sexual_explicit": 0.00060,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/did-putin-snub-xi-what-know-about-airport-greeting-1789049"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Video shows fighters use remote-controlled \"kamikaze\" cars on Russian tanks",
-    "scores": {
-      "toxicity": 0.00140,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00019,
-      "identity_attack": 0.00035,
-      "insult": 0.00018,
-      "threat": 0.00018,
-      "sexual_explicit": 0.00005,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/video-shows-fighters-use-remote-controlled-kamikaze-cars-russian-tanks-1789039"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Legal analyst pours cold water on Trump's 'most important' witness",
-    "scores": {
-      "toxicity": 0.00419,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00024,
-      "identity_attack": 0.00009,
-      "insult": 0.00251,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00004,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/legal-analyst-pours-cold-water-trumps-most-important-witness-1789046"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Trump supporters plan bank run to protest his arrest",
-    "scores": {
-      "toxicity": 0.00242,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00010,
-      "identity_attack": 0.00020,
-      "insult": 0.00040,
-      "threat": 0.00014,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/trump-supporters-plan-bank-run-protest-his-arrest-1789034"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Videos show California releasing water from reservoirs after massive storms",
-    "scores": {
-      "toxicity": 0.00053,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00014,
-      "identity_attack": 0.00013,
-      "insult": 0.00017,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/videos-show-california-releasing-water-reservoirs-after-massive-storms-1789024"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Ukraine gets desperately needed artillery boost in war with Russia",
-    "scores": {
-      "toxicity": 0.02604,
-      "severe_toxicity": 0.00018,
-      "obscene": 0.00062,
-      "identity_attack": 0.00140,
-      "insult": 0.00076,
-      "threat": 0.00960,
-      "sexual_explicit": 0.00025,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/ukraine-gets-desperately-needed-artillery-boost-war-russia-1789016"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "MAGA rages against DeSantis remarks on possible Trump arrest: 'Weasel'",
-    "scores": {
-      "toxicity": 0.02462,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00030,
-      "identity_attack": 0.00016,
-      "insult": 0.01429,
-      "threat": 0.00041,
-      "sexual_explicit": 0.00010,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/maga-rages-desantis-remarks-trump-arrest-1789031"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "See first baby shark of hundreds released in bid to save endangered species",
-    "scores": {
-      "toxicity": 0.00161,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00017,
-      "identity_attack": 0.00011,
-      "insult": 0.00041,
-      "threat": 0.00016,
-      "sexual_explicit": 0.00004,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/zebra-shark-baby-hundreds-released-bid-save-endangered-species-1789021"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Jury Unanimity Is Unnecessary for Death Penalty | Opinion",
-    "scores": {
-      "toxicity": 0.00250,
-      "severe_toxicity": 0.00011,
-      "obscene": 0.00048,
-      "identity_attack": 0.00058,
-      "insult": 0.00051,
-      "threat": 0.00041,
-      "sexual_explicit": 0.00006,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/jury-unanimity-unnecessary-death-penalty-opinion-1789029"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "States Shouldn't Kill People, Even With Jury Unanimity | Opinion",
-    "scores": {
-      "toxicity": 0.01921,
-      "severe_toxicity": 0.00020,
-      "obscene": 0.00083,
-      "identity_attack": 0.00308,
-      "insult": 0.00086,
-      "threat": 0.00244,
-      "sexual_explicit": 0.00014,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/states-shouldnt-kill-people-even-jury-unanimity-opinion-1789051"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Trump Is Way Ahead With Republican Voters of Color. Challengers: Take Note",
-    "scores": {
-      "toxicity": 0.00453,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00019,
-      "identity_attack": 0.00037,
-      "insult": 0.00120,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/trump-way-ahead-republican-voters-color-heres-why-opinion-1789037"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Mr. President: You Called Family Detention Inhumane. You Were Right",
-    "scores": {
-      "toxicity": 0.00703,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00027,
-      "identity_attack": 0.00018,
-      "insult": 0.00224,
-      "threat": 0.00007,
-      "sexual_explicit": 0.00005,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/mr-president-you-called-family-detention-inhumane-you-were-right-dont-flip-flop-opinion-1789043"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "I Teach James Baldwin\u2014Nervously, Now",
+    "text": "San Francisco Naming First Drag Laureate Sparks Huge Debate",
     "scores": {
       "toxicity": 0.00071,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00021,
-      "identity_attack": 0.00011,
-      "insult": 0.00041,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00003,
+      "severe_toxicity": 0.00238,
+      "obscene": 0.01851,
+      "identity_attack": 0.00308,
+      "insult": 0.01563,
+      "threat": 0.00089,
+      "sexual_explicit": 0.00064,
       "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/i-teach-james-baldwinnervously-now-opinion-1787811"
+    "url": "https://www.newsweek.com/san-francisco-drag-laureate-debate-london-breed-california-1801382"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "The Global War Over AI Already Started",
+    "text": "Six Easy Steps to Pollen Proof Your Bedroom, From a Sleep Expert",
     "scores": {
-      "toxicity": 0.00026,
-      "severe_toxicity": 0.00015,
-      "obscene": 0.00093,
-      "identity_attack": 0.00029,
-      "insult": 0.00067,
-      "threat": 0.00016,
-      "sexual_explicit": 0.00007,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/global-war-over-ai-already-started-opinion-1788079"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "The Iraq War Began 20 Years Ago, but Its Impact Will Last Decades To Come",
-    "scores": {
-      "toxicity": 0.00041,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00019,
-      "identity_attack": 0.00012,
-      "insult": 0.00018,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/iraq-war-began-20-years-ago-its-impact-will-last-decades-come-opinion-1788515"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "China Is Pushing the U.S. Out of the Middle East",
-    "scores": {
-      "toxicity": 0.02330,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00020,
-      "identity_attack": 0.01285,
-      "insult": 0.00114,
-      "threat": 0.00021,
-      "sexual_explicit": 0.00007,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/china-pushing-us-out-middle-east-opinion-1788627"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "China Is Preparing To Challenge the U.S. Over Taiwan",
-    "scores": {
-      "toxicity": 0.00061,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00011,
+      "toxicity": 0.00427,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00010,
       "identity_attack": 0.00028,
-      "insult": 0.00012,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/china-preparing-challenge-us-over-taiwan-opinion-1788349"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Protecting America's Medical Supplies is a Bipartisan Priority",
-    "scores": {
-      "toxicity": 0.00043,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00012,
-      "identity_attack": 0.00011,
-      "insult": 0.00017,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/protecting-americas-medical-supplies-bipartisan-national-security-priority-opinion-1788657"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Netanyahu Is Leading Israel to Civil War",
-    "scores": {
-      "toxicity": 0.00096,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00015,
-      "identity_attack": 0.00042,
-      "insult": 0.00019,
-      "threat": 0.00010,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/netanyahu-leading-israel-civil-war-opinion-1788502"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "You Have the Right to an Attorney, but How Long Until You Get One?",
-    "scores": {
-      "toxicity": 0.00060,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00012,
-      "identity_attack": 0.00008,
-      "insult": 0.00025,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/you-have-right-attorney-how-long-until-you-get-one-opinion-1788640"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Antonin Scalia: The Origins of a Supreme Court Originalist",
-    "scores": {
-      "toxicity": 0.00026,
-      "severe_toxicity": 0.00008,
-      "obscene": 0.00052,
-      "identity_attack": 0.00019,
-      "insult": 0.00057,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00005,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/antonin-scalia-origins-supreme-court-originalist-1789071"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "These Seven States Are Sleepwalking Into a Maternal Mortality Crisis",
-    "scores": {
-      "toxicity": 0.00808,
-      "severe_toxicity": 0.00006,
-      "obscene": 0.00029,
-      "identity_attack": 0.00074,
-      "insult": 0.00130,
-      "threat": 0.00044,
-      "sexual_explicit": 0.00036,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/seven-states-sleepwalking-maternal-mortality-crisis-medicaid-abortion-1788685"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Miami Beach Videos Show Spring Break Chaos Amid Shootings",
-    "scores": {
-      "toxicity": 0.00113,
-      "severe_toxicity": 0.00067,
-      "obscene": 0.00519,
-      "identity_attack": 0.00126,
-      "insult": 0.00270,
-      "threat": 0.00043,
-      "sexual_explicit": 0.00022,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/miami-beach-videos-show-spring-break-chaos-shootings-1788807"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "House Republicans are 'accessories' to Trump's crimes: Kirschner",
-    "scores": {
-      "toxicity": 0.17493,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00044,
-      "identity_attack": 0.00117,
-      "insult": 0.12105,
-      "threat": 0.00021,
-      "sexual_explicit": 0.00013,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/house-republicans-accessories-trump-crimes-1789006"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Trump supporters plan rally despite fears of protest \"trap\"",
-    "scores": {
-      "toxicity": 0.03785,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00105,
-      "identity_attack": 0.00034,
-      "insult": 0.02548,
-      "threat": 0.00021,
-      "sexual_explicit": 0.00022,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/trump-supporters-plan-rally-despite-fears-protest-trap-1789003"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Trump's legal team files flurry of motions as potential indictment looms",
-    "scores": {
-      "toxicity": 0.00222,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00012,
-      "identity_attack": 0.00009,
-      "insult": 0.00104,
-      "threat": 0.00002,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/trumps-legal-team-files-flurry-motions-potential-indictment-looms-1788981"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Ron DeSantis responds to rumors about Trump indictment",
-    "scores": {
-      "toxicity": 0.00186,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00011,
-      "identity_attack": 0.00011,
-      "insult": 0.00076,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/ron-desantis-responds-rumors-about-trump-indictment-1788978"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Full list of documents House GOP chairs want from Manhattan DA",
-    "scores": {
-      "toxicity": 0.00084,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00024,
-      "identity_attack": 0.00012,
-      "insult": 0.00040,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/full-list-documents-house-gop-chairs-want-manhattan-da-1788987"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Putin's visit to occupied Ukraine shows all is not well",
-    "scores": {
-      "toxicity": 0.00508,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00014,
-      "identity_attack": 0.00067,
-      "insult": 0.00124,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/putin-visit-occupied-ukraine-crimea-mariupol-arrest-warrant-1788976"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Ben & Jerry's faces boycott calls over founder's stance on Ukraine weapons",
-    "scores": {
-      "toxicity": 0.00163,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00011,
-      "identity_attack": 0.00011,
-      "insult": 0.00057,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/ben-jerrys-faces-boycott-calls-over-founders-stance-ukraine-weapons-1788962"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Russia gains ground in \"defendable key terrain\" south of Bakhmut: U.K.",
-    "scores": {
-      "toxicity": 0.00046,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00019,
-      "identity_attack": 0.00017,
-      "insult": 0.00019,
-      "threat": 0.00007,
-      "sexual_explicit": 0.00003,
-      "positive": 100.00000,
-      "neutral": 0.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/russia-gains-ground-defendable-key-terrain-south-bakhmut-1788971"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "China says Putin has \"immunity\" from war crimes prosecution",
-    "scores": {
-      "toxicity": 0.03203,
-      "severe_toxicity": 0.00001,
-      "obscene": 0.00009,
-      "identity_attack": 0.00057,
-      "insult": 0.01724,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/china-russia-vladimir-putin-icc-war-crimes-ukraine-1788911"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Putin's 12: Who are the Russian oligarchs summoned to the Kremlin?",
-    "scores": {
-      "toxicity": 0.00136,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00008,
-      "identity_attack": 0.00032,
-      "insult": 0.00037,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00001,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/putins-12-russian-oligarchs-summoned-kremlin-1788899"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Signature Bank taken over by Michigan-based Flagstar Bank after failure",
-    "scores": {
-      "toxicity": 0.00036,
-      "severe_toxicity": 0.00005,
-      "obscene": 0.00033,
-      "identity_attack": 0.00014,
-      "insult": 0.00041,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/failed-signature-bank-taken-over-michigan-based-flagstar-bank-1788782"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "SVB collapse rocks California housing market as house prices to bottom out",
-    "scores": {
-      "toxicity": 0.00044,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00013,
-      "identity_attack": 0.00012,
-      "insult": 0.00015,
-      "threat": 0.00005,
-      "sexual_explicit": 0.00003,
-      "positive": 100.00000,
-      "neutral": 0.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/svb-collapse-rocks-california-housing-market-house-prices-bottom-out-1788517"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Pips Bunce, Credit Suisse executive, attacked over \"gender fluid\" identity",
-    "scores": {
-      "toxicity": 0.00687,
-      "severe_toxicity": 0.00006,
-      "obscene": 0.00053,
-      "identity_attack": 0.00055,
-      "insult": 0.00090,
-      "threat": 0.00013,
-      "sexual_explicit": 0.00203,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/pips-bunce-credit-suisse-executive-gender-fluid-identity-bank-1788557"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Credit Suisse is \"tip of the iceberg\"",
-    "scores": {
-      "toxicity": 0.00782,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00032,
-      "identity_attack": 0.00012,
-      "insult": 0.00469,
-      "threat": 0.00004,
+      "insult": 0.00075,
+      "threat": 0.00019,
       "sexual_explicit": 0.00004,
       "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/credit-suisse-tip-iceberg-1788042"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Credit Suisse shares sink triggering fresh crisis fears",
-    "scores": {
-      "toxicity": 0.00080,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00013,
-      "identity_attack": 0.00014,
-      "insult": 0.00030,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/credit-suisse-shares-sink-fresh-crisis-fears-1787918"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "\"Beautiful\" new fish species with yellow head discovered",
-    "scores": {
-      "toxicity": 0.00093,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00024,
-      "identity_attack": 0.00025,
-      "insult": 0.00044,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00004,
-      "positive": 100.00000,
-      "neutral": 0.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/beautiful-new-fish-species-yellow-head-discovered-1788995"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Stunning animal X-rays show unique perspective of endangered wildlife",
-    "scores": {
-      "toxicity": 0.00149,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00024,
-      "identity_attack": 0.00015,
-      "insult": 0.00057,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00003,
-      "positive": 100.00000,
-      "neutral": 0.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/animal-xray-unique-perspective-endangered-wildlife-1788932"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Watch live as 200-ft. asteroid zooms past Earth at 17K mph in \"close\" flyby",
-    "scores": {
-      "toxicity": 0.00042,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00021,
-      "identity_attack": 0.00014,
-      "insult": 0.00016,
-      "threat": 0.00008,
-      "sexual_explicit": 0.00003,
-      "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/asteroid-200-foot-long-fly-past-earth-half-distance-moon-watch-live-1788914"
+    "url": "https://www.newsweek.com/six-steps-pollen-proof-your-bedroom-1801374"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Meet the new giant spider species described as \"rare and secretive\"",
+    "text": "Man Wields AR-15 Near School Bus Stop to Protest Gun Laws",
     "scores": {
-      "toxicity": 0.00190,
-      "severe_toxicity": 0.00004,
-      "obscene": 0.00063,
-      "identity_attack": 0.00016,
-      "insult": 0.00107,
-      "threat": 0.00007,
+      "toxicity": 0.00188,
+      "severe_toxicity": 0.00016,
+      "obscene": 0.00055,
+      "identity_attack": 0.00065,
+      "insult": 0.00046,
+      "threat": 0.00064,
+      "sexual_explicit": 0.00020,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/man-wields-ar-15-school-bus-stop-protest-gun-laws-1801386"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "The Battle to Fight Chlamydia in Koalas",
+    "scores": {
+      "toxicity": 0.00049,
+      "severe_toxicity": 0.00010,
+      "obscene": 0.00054,
+      "identity_attack": 0.00031,
+      "insult": 0.00045,
+      "threat": 0.00017,
       "sexual_explicit": 0.00006,
       "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/new-giant-spider-species-discovered-rare-secretive-1788861"
+    "url": "https://www.newsweek.com/chlamydia-koalas-australia-endangered-vaccine-1801400"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Drought-stricken California lake set to overspill after heavy rain",
+    "text": "Frontier Defends Throwing Woman off Plane After She Refuses To Sit by Dog",
     "scores": {
-      "toxicity": 0.00079,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00015,
-      "identity_attack": 0.00011,
+      "toxicity": 0.04759,
+      "severe_toxicity": 0.00037,
+      "obscene": 0.00112,
+      "identity_attack": 0.00556,
+      "insult": 0.00279,
+      "threat": 0.01418,
+      "sexual_explicit": 0.00268,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/frontier-defends-throwing-woman-off-plane-refuses-sit-dog-1800969"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Hysterical Moment Dog Pretends To Be Dead During Playfight: 'Paid Actor'",
+    "scores": {
+      "toxicity": 0.00686,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00024,
+      "identity_attack": 0.00032,
+      "insult": 0.00146,
+      "threat": 0.00028,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/hysterical-moment-dog-pretends-viral-tiktok-1801476"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Russia's Improved Combat Is Bad News for Ukraine: Report",
+    "scores": {
+      "toxicity": 0.00058,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00013,
+      "identity_attack": 0.00020,
       "insult": 0.00022,
-      "threat": 0.00005,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/russia-improved-combat-bad-news-ukraine-1801523"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Russia's Hold on Crimea at Risk After Weapons Delivery Sabotage",
+    "scores": {
+      "toxicity": 0.00163,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00040,
+      "insult": 0.00025,
+      "threat": 0.00013,
       "sexual_explicit": 0.00003,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/drought-stricken-california-lake-overspill-heavy-rain-1788868"
+    "url": "https://www.newsweek.com/russias-hold-crimea-risk-after-weapons-delivery-sabotage-1801544"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Is 'Six of Crows' happening? 'Shadow and Bone' cast on hopes for spinoff",
+    "text": "Russian Military Too Weak to Defend Kremlin: Ex-Russian Commander",
+    "scores": {
+      "toxicity": 0.01326,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00024,
+      "identity_attack": 0.00159,
+      "insult": 0.00567,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/russian-military-too-weak-defend-kremlin-ex-russian-commander-1801515"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Kaja Kallas, Europe's New 'Iron Lady'",
+    "scores": {
+      "toxicity": 0.00048,
+      "severe_toxicity": 0.00006,
+      "obscene": 0.00057,
+      "identity_attack": 0.00021,
+      "insult": 0.00076,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00010,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/kaja-kallas-europe-new-iron-lady-estonia-nato-ukraine-russia-1801163"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Prince Harry Ghostwriter's Poorly Timed Swipe at Royals",
+    "scores": {
+      "toxicity": 0.00487,
+      "severe_toxicity": 0.00033,
+      "obscene": 0.00579,
+      "identity_attack": 0.00077,
+      "insult": 0.00872,
+      "threat": 0.00032,
+      "sexual_explicit": 0.00037,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/prince-harry-ghostwriter-jr-moehringer-poorly-timed-swipe-royals-kate-middleton-1801203"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Candace Owens Lashes Out at Volodymyr Zelensky\u2014'Ultimate Criminal'",
+    "scores": {
+      "toxicity": 0.01082,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00043,
+      "identity_attack": 0.00021,
+      "insult": 0.00507,
+      "threat": 0.00024,
+      "sexual_explicit": 0.00007,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/candace-owens-volodymyr-zelensky-ultimate-criminal-twitter-1801412"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Harrison Ford, Calista Flockhart Puzzled Over Cannes Seats in Awkward Video",
+    "scores": {
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00015,
+      "obscene": 0.00098,
+      "identity_attack": 0.00030,
+      "insult": 0.00142,
+      "threat": 0.00008,
+      "sexual_explicit": 0.00006,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/harrison-ford-calista-flockhart-puzzled-cannes-seats-awkward-video-1801387"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Kellyanne Conway's Daughter Rips Conservatives Over Reproductive Rights",
+    "scores": {
+      "toxicity": 0.00146,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00011,
+      "insult": 0.00061,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00007,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/kellyanne-conway-daughter-claudia-conway-rips-conservatives-reproductive-rights-1801442"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "I Was Born a Man. Extreme Trans Activists Make My Life Harder",
+    "scores": {
+      "toxicity": 0.06305,
+      "severe_toxicity": 0.00021,
+      "obscene": 0.00087,
+      "identity_attack": 0.02569,
+      "insult": 0.00507,
+      "threat": 0.00176,
+      "sexual_explicit": 0.00083,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/trans-bathroom-activist-lgbtq-women-1800624"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "'I'm a Drag Queen Who Taught in Preschool\u2014I'm Not a Groomer'",
+    "scores": {
+      "toxicity": 0.04435,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00063,
+      "identity_attack": 0.00032,
+      "insult": 0.02534,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00014,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/im-drag-queen-anti-drag-bill-usa-tennessee-lgbtq-1799676"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "'I'm Making Thousands Using AI to Write Books'",
+    "scores": {
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00018,
+      "identity_attack": 0.00016,
+      "insult": 0.00014,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/ai-books-art-money-artificial-intelligence-1799923"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "'I Quit Coffee and My Anxiety Went Away'",
+    "scores": {
+      "toxicity": 0.00052,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00011,
+      "insult": 0.00023,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/quit-coffee-caffeine-addiction-adhd-chlsy-1799162"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "I Was Forced Out of College for 'Anti-Asian Hate'",
+    "scores": {
+      "toxicity": 0.07858,
+      "severe_toxicity": 0.00011,
+      "obscene": 0.00132,
+      "identity_attack": 0.03570,
+      "insult": 0.00460,
+      "threat": 0.00052,
+      "sexual_explicit": 0.00050,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/china-ccp-hate-college-free-speech-1800262"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Plane Passenger Putting Her 'Gross Bare Feet' on Tray Horrifies Internet",
+    "scores": {
+      "toxicity": 0.06834,
+      "severe_toxicity": 0.00015,
+      "obscene": 0.00493,
+      "identity_attack": 0.00115,
+      "insult": 0.01477,
+      "threat": 0.00107,
+      "sexual_explicit": 0.00644,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/plane-passenger-gross-bare-feet-tray-horrifies-internet-1801364"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Internet Disgusted as Woman Reveals Bacteria Found on Plane Headrest",
+    "scores": {
+      "toxicity": 0.15574,
+      "severe_toxicity": 0.00025,
+      "obscene": 0.00162,
+      "identity_attack": 0.01801,
+      "insult": 0.04420,
+      "threat": 0.00158,
+      "sexual_explicit": 0.00200,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/internet-disgusted-woman-reveals-bacteria-plane-headrest-1801143"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Fluffy Dog's Reaction to Airbnb Stay Delights Internet: 'Lightning Bolt'",
     "scores": {
       "toxicity": 0.00035,
       "severe_toxicity": 0.00003,
-      "obscene": 0.00017,
+      "obscene": 0.00015,
       "identity_attack": 0.00009,
+      "insult": 0.00024,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/dog-excited-pomeranian-airbnb-viral-tiktok-1800918"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Man Stumbles Upon Aircraft Hangar Full of Abandoned Casino Slot Machines",
+    "scores": {
+      "toxicity": 0.01249,
+      "severe_toxicity": 0.00014,
+      "obscene": 0.00107,
+      "identity_attack": 0.00080,
+      "insult": 0.00480,
+      "threat": 0.00103,
+      "sexual_explicit": 0.00045,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/aircraft-hangar-abandoned-slot-machines-belgium-reddit-1799992"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Dashcam Films Terrifying Moment 'Speeding' Car's Hood Flies Up on Highway",
+    "scores": {
+      "toxicity": 0.00040,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00023,
+      "identity_attack": 0.00014,
+      "insult": 0.00024,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/dashcam-films-terrifying-moment-speeding-car-hood-flies-highway-1799674"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Singapore: Asia\u2019s superstar city welcomes global business",
+    "scores": {
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00020,
+      "identity_attack": 0.00017,
+      "insult": 0.00022,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://pubads.g.doubleclick.net/gampad/clk?id=6298885607&iu=/43459271/newsweek/homepage"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Taiwan: Upholding the world\u2019s most important supply chains",
+    "scores": {
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00017,
+      "insult": 0.00021,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://pubads.g.doubleclick.net/gampad/clk?id=6298274098&iu=/43459271/newsweek/homepage"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Papua New Guinea: An economic transformation",
+    "scores": {
+      "toxicity": 0.00036,
+      "severe_toxicity": 0.00013,
+      "obscene": 0.00082,
+      "identity_attack": 0.00034,
+      "insult": 0.00057,
+      "threat": 0.00011,
+      "sexual_explicit": 0.00007,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://pubads.g.doubleclick.net/gampad/clk?id=6282439678&iu=/43459271/newsweek/homepage"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "The power and promise of 5G for manufacturers",
+    "scores": {
+      "toxicity": 0.00042,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00010,
+      "insult": 0.00021,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://pubads.g.doubleclick.net/gampad/clk?id=6264436256&iu=/43459271/newsweek/homepage"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "The GOP Presidential Primary Is Imminent! (Feat. Kurt Schlichter)",
+    "scores": {
+      "toxicity": 0.00043,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00009,
+      "insult": 0.00028,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/podcasts/the-josh-hammer-show"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "TV Writer's Strike",
+    "scores": {
+      "toxicity": 0.00121,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00061,
+      "identity_attack": 0.00013,
+      "insult": 0.00078,
+      "threat": 0.00012,
+      "sexual_explicit": 0.00007,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/podcasts/the-kristal-knight-show"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Which is Better: Democracy or Monarchy?",
+    "scores": {
+      "toxicity": 0.00040,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00016,
+      "identity_attack": 0.00010,
       "insult": 0.00019,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/podcasts/the-debate"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "All The New Cars Ever",
+    "scores": {
+      "toxicity": 0.00034,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00026,
+      "identity_attack": 0.00011,
+      "insult": 0.00024,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/podcasts/fast-women"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Americans Back DeSantis on Chinese Real Estate Ban",
+    "scores": {
+      "toxicity": 0.03389,
+      "severe_toxicity": 0.00009,
+      "obscene": 0.00085,
+      "identity_attack": 0.01159,
+      "insult": 0.00400,
+      "threat": 0.00134,
+      "sexual_explicit": 0.00018,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/ron-desantis-florida-chinese-property-ban-polling-1801410"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Dianne Feinstein Resignation Calls Grow After Brain Infection Revelation",
+    "scores": {
+      "toxicity": 0.00458,
+      "severe_toxicity": 0.00014,
+      "obscene": 0.00102,
+      "identity_attack": 0.00049,
+      "insult": 0.00137,
+      "threat": 0.00021,
+      "sexual_explicit": 0.00032,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/dianne-feinstein-resign-illness-brain-encephalitis-shingles-1801358"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Mike Pence Compares Trump to Biden Over Social Security, Medicare",
+    "scores": {
+      "toxicity": 0.00050,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00013,
+      "identity_attack": 0.00009,
+      "insult": 0.00022,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/mike-pence-compares-trump-biden-over-social-security-medicare-1801335"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Ukraine Prepares War Allies for Disappointment",
+    "scores": {
+      "toxicity": 0.01123,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00038,
+      "identity_attack": 0.00103,
+      "insult": 0.00230,
+      "threat": 0.00035,
+      "sexual_explicit": 0.00005,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/ukraine-prepares-war-allies-disappointment-1801312"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Supreme Court Avoids the Big Question Surrounding the Internet",
+    "scores": {
+      "toxicity": 0.00046,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00024,
+      "identity_attack": 0.00012,
+      "insult": 0.00025,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/supreme-court-avoids-big-question-surrounding-internet-1801303"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Deli Meat Recall as 15,000 Pounds Could Contain Undeclared Nut Allergen",
+    "scores": {
+      "toxicity": 0.00105,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00022,
+      "identity_attack": 0.00008,
+      "insult": 0.00044,
       "threat": 0.00003,
       "sexual_explicit": 0.00003,
       "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/six-crows-shadow-bone-standalone-series-freddy-carter-amita-suman-danielle-galligan-1788870"
+    "url": "https://www.newsweek.com/deli-meat-recall-15000-pounds-could-contain-undeclared-nut-allergen-1801562"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Meghan Markle's \"sweet\" royal tour moment caught on camera",
+    "text": "Ex-Trump White House Lawyer Predicts Bad News for Former President",
     "scores": {
-      "toxicity": 0.00151,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00037,
-      "identity_attack": 0.00012,
-      "insult": 0.00047,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00009,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/meghan-markle-sweet-royal-tour-moment-caught-camera-video-tiktok-1788784"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "\"Shadow and Bone\" boss teases \"Six of Crows\" spin-off and Season 3 villain",
-    "scores": {
-      "toxicity": 0.00087,
-      "severe_toxicity": 0.00007,
-      "obscene": 0.00038,
-      "identity_attack": 0.00029,
-      "insult": 0.00066,
-      "threat": 0.00006,
-      "sexual_explicit": 0.00006,
-      "positive": 100.00000,
-      "neutral": 0.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/shadow-bone-six-crows-spin-off-season-3-villain-plans-eric-heisserer-1787601"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "What Brian Cox of \"Succession\" said about Meghan Markle and the royals",
-    "scores": {
-      "toxicity": 0.00147,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00018,
-      "identity_attack": 0.00015,
-      "insult": 0.00049,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00006,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/succession-brian-cox-said-meghan-markle-prince-harry-logan-roy-1788112"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Charlie Sheen's daughter resurfaces interview about his drug addiction",
-    "scores": {
-      "toxicity": 0.01143,
-      "severe_toxicity": 0.00003,
+      "toxicity": 0.00480,
+      "severe_toxicity": 0.00004,
       "obscene": 0.00024,
-      "identity_attack": 0.00048,
-      "insult": 0.00238,
-      "threat": 0.00013,
-      "sexual_explicit": 0.00022,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/charlie-sheen-daughter-sami-sheen-interview-drug-addiction-1788558"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Shaquille O'Neal sparks concern with fans after hospital picture",
-    "scores": {
-      "toxicity": 0.00266,
-      "severe_toxicity": 0.00007,
-      "obscene": 0.00148,
-      "identity_attack": 0.00014,
-      "insult": 0.00083,
-      "threat": 0.00008,
-      "sexual_explicit": 0.00022,
-      "positive": 0.00000,
-      "neutral": 0.00000,
-      "negative": 100.00000
-    },
-    "url": "https://www.newsweek.com/shaquille-oneal-sparks-concern-after-hospital-picture-nba-1789011"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "Tobin Anderson's \"emotional\" speech goes viral after Cinderella run ends",
-    "scores": {
-      "toxicity": 0.00080,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00015,
-      "identity_attack": 0.00009,
-      "insult": 0.00026,
+      "identity_attack": 0.00045,
+      "insult": 0.00230,
       "threat": 0.00005,
       "sexual_explicit": 0.00004,
       "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
+      "neutral": 0.00000,
+      "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/tobin-anderson-emotional-speech-goes-viral-cinderella-run-ends-1788860"
+    "url": "https://www.newsweek.com/ex-trump-white-house-lawyer-predicts-bad-news-former-president-1801552"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Alijah Martin's showboating sparks anger: \"Pathetic and embarrassing\"",
+    "text": "How Bad Weather Made America's Debt Crisis Even Worse",
     "scores": {
-      "toxicity": 0.98692,
-      "severe_toxicity": 0.00019,
-      "obscene": 0.00217,
-      "identity_attack": 0.00120,
-      "insult": 0.97867,
-      "threat": 0.00045,
-      "sexual_explicit": 0.00038,
+      "toxicity": 0.00173,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00016,
+      "insult": 0.00042,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/alijah-martin-showboating-sparks-anger-pathetic-embarrassing-1788878"
+    "url": "https://www.newsweek.com/how-bad-weather-made-americas-debt-crisis-even-worse-1801526"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "What is March Mammal Madness and how are the fights decided?",
+    "text": "Donald Trump 'Very Exposed' Legally in This Probe, Bill Barr Warns",
     "scores": {
-      "toxicity": 0.00045,
-      "severe_toxicity": 0.00008,
-      "obscene": 0.00078,
-      "identity_attack": 0.00019,
-      "insult": 0.00057,
-      "threat": 0.00009,
-      "sexual_explicit": 0.00006,
-      "positive": 0.00000,
-      "neutral": 100.00000,
-      "negative": 0.00000
-    },
-    "url": "https://www.newsweek.com/what-march-mammal-madness-how-fights-decided-1788621"
-  },
-  {
-    "newspaper": "Newsweek",
-    "language": "en",
-    "text": "'Wheel of Fortune' posts cheeky comment after March Madness interrupts show",
-    "scores": {
-      "toxicity": 0.00509,
+      "toxicity": 0.00146,
       "severe_toxicity": 0.00001,
-      "obscene": 0.00017,
+      "obscene": 0.00013,
       "identity_attack": 0.00009,
-      "insult": 0.00262,
+      "insult": 0.00061,
       "threat": 0.00002,
       "sexual_explicit": 0.00002,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/wheel-fortune-posts-cheeky-comment-march-madness-interrupts-show-1788535"
+    "url": "https://www.newsweek.com/donald-trump-very-exposed-legally-this-probe-bill-barr-warns-1801517"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "How To Ensure Your Business Wins, No Matter What 2023 Throws at It",
+    "text": "Could Dianne Feinstein Be Expelled From the Senate? Don't Count On It",
+    "scores": {
+      "toxicity": 0.00377,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00037,
+      "identity_attack": 0.00016,
+      "insult": 0.00123,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00006,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/dianne-feinstein-expelled-senate-resign-health-1801468"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "No 'Timetable' for Training Ukraine to Use F-16s, Senior U.S. Official Says",
+    "scores": {
+      "toxicity": 0.00052,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00018,
+      "identity_attack": 0.00022,
+      "insult": 0.00021,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/no-timetable-training-ukraine-use-f-16s-senior-us-official-says-1801564"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Ukraine Needs to Cut Off This Russian Supply Line: Retired U.S. General",
+    "scores": {
+      "toxicity": 0.00920,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00024,
+      "identity_attack": 0.00274,
+      "insult": 0.00062,
+      "threat": 0.00052,
+      "sexual_explicit": 0.00007,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/ukraine-needs-cut-off-this-russian-supply-line-retired-us-general-1801556"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "How Ukraine Might Secure a Deal for F-16s in Weeks",
     "scores": {
       "toxicity": 0.00046,
-      "severe_toxicity": 0.00003,
-      "obscene": 0.00015,
-      "identity_attack": 0.00012,
-      "insult": 0.00014,
-      "threat": 0.00004,
-      "sexual_explicit": 0.00002,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00017,
+      "identity_attack": 0.00015,
+      "insult": 0.00018,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00003,
       "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/how-ensure-your-business-wins-no-matter-what-2023-throws-it-1788628"
+    "url": "https://www.newsweek.com/ukraine-deal-nato-fighter-jets-f-16s-war-russia-1801457"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Don't Get Lost in the Data: The Humanity of Business Development",
+    "text": "The French Businessman Behind Africa's Ambitious Russia-Ukraine Peace Plan",
     "scores": {
-      "toxicity": 0.00064,
+      "toxicity": 0.00043,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00018,
-      "identity_attack": 0.00012,
-      "insult": 0.00032,
-      "threat": 0.00004,
+      "obscene": 0.00014,
+      "identity_attack": 0.00013,
+      "insult": 0.00023,
+      "threat": 0.00002,
       "sexual_explicit": 0.00002,
       "positive": 0.00000,
       "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/dont-get-lost-data-humanity-business-development-1788624"
+    "url": "https://www.newsweek.com/russia-ukraine-peace-plan-africa-jean-yves-ollivier-1801510"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Hourly Workers Left the Service Industry \u2014 What's Next?",
+    "text": "Did U.S. Patriot System Down Jet in Russia? What We Know, What We Don't",
     "scores": {
-      "toxicity": 0.00038,
+      "toxicity": 0.00050,
       "severe_toxicity": 0.00002,
       "obscene": 0.00013,
-      "identity_attack": 0.00009,
-      "insult": 0.00017,
-      "threat": 0.00004,
+      "identity_attack": 0.00011,
+      "insult": 0.00020,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/did-us-patriot-missile-system-down-jet-russia-1801489"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Fact Check: Did Jada Pinkett Smith Blame 'White Supremacy' for Poor Cleopatra Ratings?",
+    "scores": {
+      "toxicity": 0.01431,
+      "severe_toxicity": 0.00034,
+      "obscene": 0.00065,
+      "identity_attack": 0.01442,
+      "insult": 0.00192,
+      "threat": 0.00036,
+      "sexual_explicit": 0.00021,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/jada-pinkett-smith-blame-white-supremacy-queen-cleopatra-fact-check-1801394"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Miller Lite's Response to Backlash Is Very Different to Bud Light's",
+    "scores": {
+      "toxicity": 0.00059,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00010,
+      "identity_attack": 0.00010,
+      "insult": 0.00024,
+      "threat": 0.00003,
       "sexual_explicit": 0.00002,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/hourly-workers-left-service-industry-whats-next-1788615"
+    "url": "https://www.newsweek.com/miller-lite-bud-light-backlash-response-branding-strategist-dylan-mulvaney-1801135"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Five Things Employers Can Do To Attract and Retain Top Talent",
+    "text": "Tomi Lahren Says 'Mass Layoffs' at Bud Light Expected Amid Controversy",
     "scores": {
-      "toxicity": 0.00038,
-      "severe_toxicity": 0.00002,
-      "obscene": 0.00012,
-      "identity_attack": 0.00008,
-      "insult": 0.00016,
-      "threat": 0.00003,
-      "sexual_explicit": 0.00002,
-      "positive": 100.00000,
-      "neutral": 0.00000,
+      "toxicity": 0.00062,
+      "severe_toxicity": 0.00010,
+      "obscene": 0.00106,
+      "identity_attack": 0.00024,
+      "insult": 0.00108,
+      "threat": 0.00010,
+      "sexual_explicit": 0.00008,
+      "positive": 0.00000,
+      "neutral": 100.00000,
       "negative": 0.00000
     },
-    "url": "https://www.newsweek.com/five-things-employers-can-do-attract-retain-top-talent-1788611"
+    "url": "https://www.newsweek.com/bud-light-mass-layoffs-dylan-mulvaney-tomi-lahren-twitter-1801104"
   },
   {
     "newspaper": "Newsweek",
     "language": "en",
-    "text": "Quiet Quitting, Rage Applying, Resenteeism: What Is a Disgruntled Employee",
+    "text": "'Jeopardy!' Writer Posts Pic of Staff on Strike After Ken Jennings Backlash",
     "scores": {
-      "toxicity": 0.01762,
+      "toxicity": 0.00231,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00020,
+      "identity_attack": 0.00020,
+      "insult": 0.00026,
+      "threat": 0.00035,
+      "sexual_explicit": 0.00005,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/jeopardy-writer-photo-staff-strike-ken-jennings-backlash-mayim-bialik-1800903"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Bud Light Boycott Is Working, Anheuser-Busch Ex-Executive Says",
+    "scores": {
+      "toxicity": 0.00043,
       "severe_toxicity": 0.00002,
-      "obscene": 0.00058,
-      "identity_attack": 0.00013,
-      "insult": 0.01092,
-      "threat": 0.00010,
+      "obscene": 0.00017,
+      "identity_attack": 0.00011,
+      "insult": 0.00024,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/bud-light-boycott-anheuser-busch-dylan-mulvaney-1800862"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Sun Ejection May Hit Earth's Magnetic Field, Causing Geomagnetic Storms",
+    "scores": {
+      "toxicity": 0.00211,
+      "severe_toxicity": 0.00012,
+      "obscene": 0.00040,
+      "identity_attack": 0.00065,
+      "insult": 0.00020,
+      "threat": 0.00084,
       "sexual_explicit": 0.00008,
       "positive": 0.00000,
       "neutral": 0.00000,
       "negative": 100.00000
     },
-    "url": "https://www.newsweek.com/quiet-quitting-rage-applying-resenteeism-what-disgruntled-employee-do-1788606"
+    "url": "https://www.newsweek.com/coronal-mass-ejection-sun-geomagnetic-storm-1801487"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Pulsating Auroras Spotted Tearing Themselves Apart in Night Sky",
+    "scores": {
+      "toxicity": 0.00566,
+      "severe_toxicity": 0.00012,
+      "obscene": 0.00106,
+      "identity_attack": 0.00061,
+      "insult": 0.00143,
+      "threat": 0.00082,
+      "sexual_explicit": 0.00011,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/strange-proton-aurora-seen-space-1801451"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Huge Fish Spotted 'Impersonating a Shark' Near California",
+    "scores": {
+      "toxicity": 0.00067,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00014,
+      "identity_attack": 0.00014,
+      "insult": 0.00027,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/huge-fish-spotted-impersonating-shark-near-california-1801439"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "The Common Dreams That Puzzle Us Most",
+    "scores": {
+      "toxicity": 0.00047,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00019,
+      "identity_attack": 0.00011,
+      "insult": 0.00024,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/common-dreams-puzzle-people-1801419"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Lakes Are Drying Up All Over the World",
+    "scores": {
+      "toxicity": 0.00106,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00014,
+      "identity_attack": 0.00018,
+      "insult": 0.00027,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/lakes-drying-worldwide-science-1801165"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Barstool Founder Says Company Is Not Next Bud Light Despite Stock Drop",
+    "scores": {
+      "toxicity": 0.00048,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00012,
+      "insult": 0.00024,
+      "threat": 0.00003,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/barstool-founder-says-penn-entertainment-not-bud-light-stock-drop-1799187"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Patrick Mahomes, Wife Brittany's Kentucky Derby Outfits Slammed\u2014'Barf'",
+    "scores": {
+      "toxicity": 0.00482,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00093,
+      "identity_attack": 0.00021,
+      "insult": 0.00426,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00012,
+      "positive": 0.00000,
+      "neutral": 0.00000,
+      "negative": 100.00000
+    },
+    "url": "https://www.newsweek.com/patrick-mahomes-wife-brittany-kentucky-derby-outfits-slammed-1799163"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Yankees Speak Out After Derek Jeter Announces Surprise Fourth Child",
+    "scores": {
+      "toxicity": 0.00092,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00015,
+      "identity_attack": 0.00010,
+      "insult": 0.00036,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00003,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/new-york-yankees-speak-derek-jeter-announces-fourth-child-1799137"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Dillon Brooks' Agent Has Something to Say About Rumors He's Leaving NBA",
+    "scores": {
+      "toxicity": 0.00069,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00011,
+      "identity_attack": 0.00012,
+      "insult": 0.00026,
+      "threat": 0.00002,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/dillon-brooks-agent-something-say-about-rumors-leaving-nba-1798448"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "NFL Fans Divided Over 'Wheel of Fortune' Answer",
+    "scores": {
+      "toxicity": 0.00042,
+      "severe_toxicity": 0.00005,
+      "obscene": 0.00035,
+      "identity_attack": 0.00015,
+      "insult": 0.00028,
+      "threat": 0.00005,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/nfl-fans-divided-over-wheel-fortune-kansas-city-chiefs-answer-1798359"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Why Girls' Empowerment Programs Are More Relevant and More Needed Than Ever",
+    "scores": {
+      "toxicity": 0.00472,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00031,
+      "identity_attack": 0.00051,
+      "insult": 0.00143,
+      "threat": 0.00007,
+      "sexual_explicit": 0.00019,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/why-girls-empowerment-programs-are-more-relevant-more-needed-ever-1801324"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "How Recruiters Can Ensure Their Job Postings Reach Diverse Candidates",
+    "scores": {
+      "toxicity": 0.00053,
+      "severe_toxicity": 0.00002,
+      "obscene": 0.00016,
+      "identity_attack": 0.00011,
+      "insult": 0.00023,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00002,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/how-recruiters-can-ensure-their-job-postings-reach-diverse-candidates-1800985"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "16 Decisive Ways to Humanize Your Business's Brand",
+    "scores": {
+      "toxicity": 0.00039,
+      "severe_toxicity": 0.00004,
+      "obscene": 0.00022,
+      "identity_attack": 0.00014,
+      "insult": 0.00020,
+      "threat": 0.00006,
+      "sexual_explicit": 0.00004,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/16-decisive-ways-humanize-your-businesss-brand-1800916"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Let's Prioritize Mental Health by Breaking Down Cannabis Barriers",
+    "scores": {
+      "toxicity": 0.00504,
+      "severe_toxicity": 0.00113,
+      "obscene": 0.00255,
+      "identity_attack": 0.00116,
+      "insult": 0.00408,
+      "threat": 0.00167,
+      "sexual_explicit": 0.00107,
+      "positive": 0.00000,
+      "neutral": 100.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/lets-prioritize-mental-health-breaking-down-cannabis-barriers-1800707"
+  },
+  {
+    "newspaper": "Newsweek",
+    "language": "en",
+    "text": "Leading Multigenerational Teams Through Digital Transformation: Tips for Embracing Change",
+    "scores": {
+      "toxicity": 0.00029,
+      "severe_toxicity": 0.00003,
+      "obscene": 0.00018,
+      "identity_attack": 0.00011,
+      "insult": 0.00017,
+      "threat": 0.00004,
+      "sexual_explicit": 0.00003,
+      "positive": 100.00000,
+      "neutral": 0.00000,
+      "negative": 0.00000
+    },
+    "url": "https://www.newsweek.com/leading-multigenerational-teams-through-digital-transformation-tips-embracing-change-1800704"
   }
 ]

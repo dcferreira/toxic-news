@@ -4,7 +4,7 @@ from typing import Literal
 from optimum.onnxruntime import ORTModelForSequenceClassification
 from optimum.pipelines import pipeline as opt_pipeline
 from pydantic import BaseModel, parse_obj_as
-from transformers import AutoTokenizer, pipeline
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
 
 
 class SentimentAnalysisResults(BaseModel):
@@ -65,17 +65,21 @@ def parse_results(
 
 
 class DetoxifyModel:
-    def __init__(self):
+    def __init__(self, local_files_only=True):
         model_name = "dcferreira/detoxify-optimized"
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = ORTModelForSequenceClassification.from_pretrained(model_name)
+        tokenizer = AutoTokenizer.from_pretrained(
+            model_name, local_files_only=local_files_only
+        )
+        model = ORTModelForSequenceClassification.from_pretrained(
+            model_name, local_files_only=local_files_only
+        )
         self.model = opt_pipeline(
             model=model,
             task="text-classification",
             function_to_apply="sigmoid",
             accelerator="ort",
             tokenizer=tokenizer,
-            return_all_scores=True,
+            top_k=None,
         )
 
     def predict(self, texts: list[str]) -> DetoxifyResults:
@@ -99,13 +103,21 @@ class DetoxifyModel:
 
 
 class SAModel:
-    def __init__(self):
+    def __init__(self, local_files_only=True):
         model_name = "cardiffnlp/twitter-xlm-roberta-base-sentiment"
+        tokenizer = AutoTokenizer.from_pretrained(
+            model_name, local_files_only=local_files_only
+        )
+        model = AutoModelForSequenceClassification.from_pretrained(
+            "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+            local_files_only=local_files_only,
+        )
+
         self.model = pipeline(
             "sentiment-analysis",
-            model=model_name,
-            tokenizer=model_name,
-            return_all_scores=True,
+            model=model,
+            tokenizer=tokenizer,
+            top_k=None,
         )
 
     def predict(self, texts: list[str]) -> SentimentAnalysisResults:

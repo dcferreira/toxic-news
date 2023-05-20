@@ -2,6 +2,7 @@ import os
 
 from dotenv import load_dotenv
 from fastapi import FastAPI
+from huggingface_hub import scan_cache_dir
 from loguru import logger
 from pydantic import HttpUrl
 from pymongo import MongoClient
@@ -20,6 +21,9 @@ client: MongoClient = MongoClient(
     server_api=ServerApi("1"),
 )
 db: Database = client[os.environ["DATABASE_NAME"]]
+
+if os.environ.get("DEBUG", False) == "1":
+    print(scan_cache_dir())
 
 
 @app.post("/fetch")
