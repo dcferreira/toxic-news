@@ -24,6 +24,18 @@ from toxic_news.queries import (
 )
 
 
+def _execution_stats(explanation: dict) -> dict:
+    """Return the execution stats of an aggregate ``explain`` response.
+
+    MongoDB 8 moved them: up to 7.x they live on the ``$cursor`` stage, at
+    ``stages[0]["$cursor"]["executionStats"]``, while from 8.0 there is no
+    ``stages`` array at all and they sit at the top level of the response.
+    """
+    if "stages" in explanation:
+        return explanation["stages"][0]["$cursor"]["executionStats"]
+    return explanation["executionStats"]
+
+
 @pytest.fixture(scope="session")
 def mongodb(mongo_proc):
     return get_database(mongo_proc.host, "main", port=mongo_proc.port)
@@ -126,9 +138,7 @@ def test_query_average_headline_scores_per_day_explain(mongodb, insert_headlines
         verbosity="executionStats",
     )
 
-    assert (
-        explanation["stages"][0]["$cursor"]["executionStats"]["totalDocsExamined"] == 1
-    )
+    assert _execution_stats(explanation)["totalDocsExamined"] == 1
 
 
 @pytest.fixture(scope="session")
@@ -160,7 +170,7 @@ def test_query_average_daily_explain(mongodb, insert_daily):
         verbosity="executionStats",
     )
 
-    assert explanation["executionStats"]["totalDocsExamined"] == 1
+    assert _execution_stats(explanation)["totalDocsExamined"] == 1
 
 
 def test_query_average_daily_all(mongodb, insert_daily):
