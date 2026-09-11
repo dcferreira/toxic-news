@@ -2,7 +2,7 @@ public/
 db/
 .requests_cache/
 notebooks/_*
-.hatch
+.venv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -79,8 +79,10 @@ target/
 profile_default/
 ipython_config.py
 
-# pyenv
-.python-version
+# pyenv/Pipenv create this local-only; here it is tracked on purpose, because
+# the pinned 2023 dependencies only build on CPython 3.10/3.11 and `uv sync`
+# must not pick a newer interpreter.
+# .python-version
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/

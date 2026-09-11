@@ -4,9 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "toxic-news"
-description = 'Evaluating toxicity of news'
+description = "Evaluating toxicity of news"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = "MIT"
 keywords = []
 authors = [
@@ -15,32 +15,30 @@ authors = [
 classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: Implementation :: CPython",
-    "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-    "lxml==4.9.2",
-    "optimum[onnxruntime]==1.8.6",
-    "requests==2.30.0",
-    "loguru==0.7.0",
-    "pydantic==1.10.7",
+    "aiohttp==3.8.4",
+    "fastapi==0.95.2",
     "Jinja2==3.1.2",
+    "loguru==0.7.0",
+    "lxml==4.9.2",
+    "nest-asyncio==1.5.6",
+    "optimum[onnxruntime]==1.8.6",
+    "protobuf==3.20.2",
+    "pydantic==1.10.7",
     "pymongo==4.3.3",
     "python-dotenv==1.0.0",
-    "fastapi==0.95.2",
-    "uvicorn==0.22.0",
-    "typer[all]==0.9.0",
-    "aiohttp==3.8.4",
-    "waybackpy==3.0.6",
-    "nest-asyncio==1.5.6",
     "pytailwindcss==0.1.4",
+    "requests==2.30.0",
     "tenacity==8.2.2",
-    "protobuf==3.20.2",
+    "typer[all]==0.9.0",
+    "uvicorn==0.22.0",
+    "waybackpy==3.0.6",
 ]
 dynamic = ["version"]
 
@@ -49,57 +47,140 @@ Documentation = "https://github.com/dcferreira/toxic-news#readme"
 Issues = "https://github.com/dcferreira/toxic-news/issues"
 Source = "https://github.com/dcferreira/toxic-news"
 
+[project.optional-dependencies]
+# Notebook playground (`poe explore`); kept out of the default dev install
+# because jupyterlab/seaborn are heavy and only the scratch notebook uses them.
+explore = [
+    "ipympl",
+    "jupyterlab",
+    "seaborn",
+]
+
+[dependency-groups]
+dev = [
+    "lxml-stubs",
+    "poethepoet",
+    "pre-commit",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov",
+    "pytest-mongo",
+    "pytest-snapshot",
+    "pytest-xdist",
+    "pytest-xprocess",
+    "ruff",
+    "ty",
+    "types-requests",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+# The 2023-era pins below are kept as-is, but they no longer resolve to a
+# working environment on their own: `optimum==1.8.6` reaches into
+# `transformers.utils` (which dropped `is_tf_available` in 4.5x) and into
+# `huggingface_hub` APIs removed in 1.0, and `typer==0.9.0` breaks against
+# click >=8.2. These constraints pin the transitives back to a combination that
+# actually imports.
+# REVIEW: these three pins are a compatibility crutch for the 2023-era pins in
+# `[project].dependencies` above (mainly `optimum==1.8.6` and `typer==0.9.0`).
+# They should be deleted the next time those two are upgraded — see the README's
+# "Dependency constraints" section. Keep this list empty when they go.
+constraint-dependencies = [
+    "click<8.2",
+    "huggingface_hub==0.14.1",
+    "transformers==4.29.2",
+]
+
+[tool.poe.tasks]
+# --- tests -------------------------------------------------------------------
+# Extra args are appended to the command (poe forwards them as free arguments).
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=toxic_news --cov=tests -m 'not integration and not slow'"
+no-cov = "pytest --no-cov -m 'not integration and not slow'"
+integration = "pytest --no-cov -m integration -n auto"
+slow = "pytest --no-cov -m slow -n 4"
+full = "pytest -n 4 --dist worksteal"
+
+# --- quality -----------------------------------------------------------------
+lint = { sequence = [{ cmd = "ruff check ." }, { cmd = "ruff format --check ." }] }
+format = { sequence = [{ cmd = "ruff check --fix ." }, { cmd = "ruff format ." }] }
+types = "ty check"
+
+# --- packaging / running -----------------------------------------------------
+build = "docker buildx build . -t toxic-news:local"
+serve-docker = "docker compose up"
+push = { sequence = [
+    { cmd = "docker tag toxic-news:local us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest" },
+    { cmd = "docker push us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest" },
+] }
+cli = "python toxic_news/main.py"
+update-styles = "tailwindcss -i toxic_news/templates/style.css -o public/style.css"
+
+# --- notebook ----------------------------------------------------------------
+explore = "jupyter lab --no-browser"
+
 [tool.hatch.version]
 path = "toxic_news/__about__.py"
 
-[tool.hatch.envs.default]
-dependencies = [
-    "pytest",
-    "pytest-cov",
-    "pytest-snapshot",
-    "pytest-xprocess",
-    "pytest-asyncio",
-    "pytest-xdist",
-    "pytest-mongo",
-    "black",
-    "isort",
-    "ruff",
-    "pre-commit",
-    "mypy",
-    "types-requests",
-    "lxml-stubs",
-    "types-tqdm",
-]
-[tool.hatch.envs.default.scripts]
-cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=toxic_news --cov=tests -m \"not integration and not slow\" {args}"
-no-cov = "cov --no-cov {args}"
-integration = "no-cov -m integration -n auto {args}"
-slow = "no-cov -m slow -n 4 {args}"
-full = "pytest -n 4 --dist worksteal {args}"
-lint = ["ruff .", "black . --check -q", "isort . --check -q"]
-format = ["black .", "isort ."]
-types = "mypy ."
-build = "docker buildx build . -t toxic-news:local"
-serve-docker = "docker compose up"
-push = [
-    "docker tag toxic-news:local us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest",
-    "docker push us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest"
-]
-cli = "python toxic_news/main.py {args}"
-update-styles = "tailwindcss -i toxic_news/templates/style.css -o public/style.css"
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+# `notebooks/Untitled.ipynb` is a scratch notebook (15 cells, includes a bare
+# `!pip install` and a half-written helper). Linting it would mean editing
+# throwaway code, so it sits outside the lint scope.
+extend-exclude = ["notebooks"]
 
-[tool.hatch.envs.explore]
-dependencies = [
-    "jupyterlab",
-    "seaborn",
-    "ipympl",
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    # Conflicts with `ruff format` — see
+    # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+    "COM812",
+    "ISC001",
+    # Mutually exclusive pydocstyle conventions: D211/D203 and D212/D213.
+    # We keep the D211/D212 halves (no blank line before the docstring, summary
+    # on the first line).
+    "D203",
+    "D213",
+    # Docstring (D) and annotation (ANN) *requirements* are deliberately off.
+    # They were tried at "ALL": they account for ~100 findings that are pure
+    # documentation churn, and the repo's existing docs read fine without being
+    # mandatory on every module, class and `__init__`. Re-enable to ratchet.
+    "ANN",
+    "D",
 ]
 
-[tool.hatch.envs.explore.scripts]
-run = "jupyter lab --no-browser"
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = [
+    "ARG001",   # pytest resolves fixtures by parameter name, so they cannot be
+                # renamed or dropped to silence the rule
+    "PLR2004",  # magic numbers in assertions
+    "S101",     # pytest asserts
+    "SLF001",   # white-box tests reach into the project's own private members
+]
 
-[[tool.hatch.envs.test.matrix]]
-python = ["39", "310", "311"]
+[tool.ruff.lint.isort]
+known-first-party = ["toxic_news"]
+
+[tool.ruff.lint.flake8-copyright]
+# The repo marks files with REUSE-style SPDX headers rather than the plain
+# `Copyright 2023 ...` form ruff looks for by default.
+notice-rgx = "(?i)SPDX-FileCopyrightText:\\s+\\d{4}"
+
+[tool.ruff.lint.pep8-naming]
+# pydantic v1 validators are classmethods in all but name; without this ruff
+# reads `def normalize_url(cls, v)` as an instance method and demands `self`.
+classmethod-decorators = ["pydantic.validator"]
+
+[tool.ruff.lint.flake8-bugbear]
+# `typer.Option(...)`/`typer.Argument(...)` as a default value is the documented
+# typer idiom, not the mutable-default bug B008 is looking for.
+extend-immutable-calls = ["typer.Argument", "typer.Option"]
+
+[tool.ty.environment]
+python-version = "3.10"
+
+[tool.ty.src]
+exclude = ["notebooks/**", "tests/snapshots/**"]
 
 [tool.coverage.run]
 branch = true
@@ -115,26 +196,11 @@ exclude_lines = [
     "if TYPE_CHECKING:",
 ]
 
-[tool.isort]
-profile = "black"
-skip = [".hatch"]
-
-[tool.mypy]
-check_untyped_defs = true
-plugins = ["pydantic.mypy"]
-
-[[tool.mypy.overrides]]
-module = [
-    "detoxify",
-    "nest_asyncio",
-]
-ignore_missing_imports = true
-
 [tool.pytest.ini_options]
 addopts = "--strict-markers --strict-config -ra"
 markers = [
     "slow: slow and heavy tests, not sure if these can run in the CI pipeline",
-    "integration: slow tests, shouldn't be run so often"
+    "integration: slow tests, shouldn't be run so often",
 ]
 
 [tool.pydantic-pycharm-plugin.parsable-types]

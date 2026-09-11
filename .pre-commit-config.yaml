@@ -1,29 +1,25 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
+    rev: v5.0.0
     hooks:
       - id: check-yaml
       - id: end-of-file-fixer
       - id: trailing-whitespace
-  - repo: https://github.com/pycqa/isort
-    rev: 5.11.2
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.7
     hooks:
-      - id: isort
-        name: isort (python)
-  - repo: https://github.com/psf/black
-    rev: 22.12.0
-    hooks:
-      - id: black
-  - repo: https://github.com/charliermarsh/ruff-pre-commit
-    # Ruff version.
-    rev: "v0.0.211"
-    hooks:
+      # Respect `exclude` and `extend-exclude` settings.
       - id: ruff
-        # Respect `exclude` and `extend-exclude` settings.
-        args: ["--force-exclude"]
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: 'v1.1.1'  # Use the sha / tag you want to point at
+        args: ["--fix", "--force-exclude"]
+      - id: ruff-format
+  - repo: local
     hooks:
-      - id: mypy
-        additional_dependencies: [types-requests, lxml-stubs, pydantic]
+      - id: ty
+        name: ty (type check)
+        entry: uv run ty check
+        language: system
+        types: [python]
+        # `ty check` type-checks the whole project, so per-file invocation
+        # would only waste time.
+        pass_filenames: false
 exclude: 'tests/snapshots/'

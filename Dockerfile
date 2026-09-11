@@ -1,29 +1,28 @@
-FROM python:3.10 AS builder
+FROM python:3.11-slim
 
-# install hatch
-RUN pip install --no-cache-dir --upgrade hatch
-COPY . /code
+COPY --from=ghcr.io/astral-sh/uv:0.8.14 /uv /uvx /bin/
 
-# build python package
+# Install the project environment straight into the system prefix, so no
+# separate venv has to be copied between build stages.
+ENV UV_COMPILE_BYTECODE=1 \
+    UV_LINK_MODE=copy \
+    UV_PROJECT_ENVIRONMENT=/usr/local
+
 WORKDIR /code
-RUN hatch build -t wheel
 
-FROM python:3.10 as main
+# Locked dependencies first: this layer only invalidates when the lock changes.
+COPY pyproject.toml uv.lock README.md LICENSE.txt ./
+RUN uv sync --frozen --no-dev --no-install-project
 
-# copy wheel package from stage 1
-COPY --from=builder /code/dist /code/dist
-RUN pip install --no-cache-dir --upgrade /code/dist/*
+COPY . .
+RUN uv sync --frozen --no-dev
 
-# force download of models
+# force download of models, so the container never fetches them at request time
 RUN python -c 'from optimum.onnxruntime import ORTModelForSequenceClassification;\
     model = ORTModelForSequenceClassification.from_pretrained("dcferreira/detoxify-optimized")'
 RUN python -c 'from transformers import pipeline;\
     model_path = "cardiffnlp/twitter-xlm-roberta-base-sentiment";\
     sentiment_task = pipeline("sentiment-analysis", model=model_path, tokenizer=model_path)'
 
-# copy the serving code and our database
-COPY app.py /code
-
 # run web server
-WORKDIR /code
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
