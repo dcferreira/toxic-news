@@ -1,7 +1,12 @@
+# SPDX-FileCopyrightText: 2023-present Daniel Ferreira <daniel.ferreira.1@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
+"""Tests for the newspaper fetchers, driven by recorded HTML fixtures."""
+
 import asyncio
 import json
-from datetime import datetime
-from typing import Union
+from datetime import datetime, timezone
 
 import aiohttp
 import pytest
@@ -12,7 +17,7 @@ from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher, cl
 from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import newspapers
 
-DATE = datetime(2023, 5, 20)
+DATE = datetime(2023, 5, 20, tzinfo=timezone.utc)
 
 
 def _clean_newspaper(n: Newspaper) -> str:
@@ -21,7 +26,7 @@ def _clean_newspaper(n: Newspaper) -> str:
 
 def make_mock_fetcher(monkeypatch, url, assets):
     # mock content to use the HTML in the assets
-    with open(assets / "html" / f"{clean_url(url)}.html", "r") as fd:
+    with (assets / "html" / f"{clean_url(url)}.html").open() as fd:
         monkeypatch.setattr(Fetcher, "content", fd.read())
 
     # set request time to a fixed value
@@ -33,7 +38,7 @@ def test_fetcher_save_load(tmp_path, monkeypatch, assets):
     fake_time = DATE
 
     fetcher = Fetcher(newspaper=newspaper, cache_dir=tmp_path)
-    with open(assets / "html" / f"{clean_url(newspaper.url)}.html", "rb") as fd:
+    with (assets / "html" / f"{clean_url(newspaper.url)}.html").open("rb") as fd:
         fetcher._content = fd.read()
     fetcher._request_time = fake_time
     fetcher.save()
@@ -65,7 +70,6 @@ def test_parse_live(assets, snapshot, newspaper):
     fetcher = Fetcher(newspaper)
     live_headlines = fetcher.fetch()
 
-    print(list(map(lambda x: x[0], live_headlines)))
     assert (
         newspaper.expected_headlines * 0.6
         <= len(live_headlines)
@@ -75,7 +79,7 @@ def test_parse_live(assets, snapshot, newspaper):
 
 def _remove_dates(
     headlines: list[Headline],
-) -> list[dict[str, Union[str, float, dict[str, float]]]]:
+) -> list[dict[str, str | float | dict[str, float]]]:
     return [
         {
             k: v
@@ -90,11 +94,11 @@ def _remove_dates(
 def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
     make_mock_fetcher(monkeypatch, newspaper.url, assets)
 
-    def mock_predict(self, texts):
-        return [Scores(**{k: 0.5 for k in Scores.__fields__}) for _ in texts]
+    def mock_predict(self, texts) -> list[Scores]:
+        return [Scores(**dict.fromkeys(Scores.__fields__, 0.5)) for _ in texts]
 
     # avoid initializing models
-    monkeypatch.setattr(AllModels, "__init__", lambda x: None)
+    monkeypatch.setattr(AllModels, "__init__", lambda _: None)
     monkeypatch.setattr(AllModels, "predict", mock_predict)
 
     fetcher = Fetcher(newspaper)
@@ -115,10 +119,12 @@ def test_classify(assets, snapshot, monkeypatch, newspaper):
 
     # force rounding scores to 5 decimal places
     class RoundingFloat(float):
-        __repr__ = staticmethod(lambda x: format(x, ".5f"))  # type: ignore
+        __repr__ = staticmethod(lambda x: format(x, ".5f"))
 
-    json.encoder.c_make_encoder = None  # type: ignore
-    json.encoder.float = RoundingFloat  # type: ignore
+    # typeshed doesn't declare these CPython implementation hooks, which
+    # `RoundingFloat` monkeypatches in.
+    json.encoder.c_make_encoder = None  # ty: ignore[unresolved-attribute]
+    json.encoder.float = RoundingFloat  # ty: ignore[unresolved-attribute]
 
     fetcher = Fetcher(newspaper)
     snapshot.snapshot_dir = assets / "../snapshots/test_classify"
@@ -135,7 +141,10 @@ async def test_wayback_integration():
     async with aiohttp.ClientSession() as session:
         fetchers = [
             WaybackFetcher(date=date, newspaper=newspaper, session=session)
-            for date in [datetime(2023, 1, 1), datetime(2023, 1, 2)]
+            for date in [
+                datetime(2023, 1, 1, tzinfo=timezone.utc),
+                datetime(2023, 1, 2, tzinfo=timezone.utc),
+            ]
         ]
         tasks = [asyncio.create_task(f.run_request_coroutine()) for f in fetchers]
         results = await asyncio.gather(*tasks)
@@ -144,7 +153,7 @@ async def test_wayback_integration():
         for r in results:
             assert r is not None
             assert isinstance(r, bytes)
-            assert len(r) > 0  # type: ignore
+            assert len(r) > 0
         for f in fetchers:
             assert isinstance(f._response, ClientResponse)
             assert f._response.status == 200
@@ -156,7 +165,10 @@ def test_wayback_sync():
     newspaper = newspapers[0]
     fetchers = [
         WaybackFetcher(date=date, newspaper=newspaper)
-        for date in [datetime(2023, 1, 1), datetime(2023, 1, 2)]
+        for date in [
+            datetime(2023, 1, 1, tzinfo=timezone.utc),
+            datetime(2023, 1, 2, tzinfo=timezone.utc),
+        ]
     ]
 
     for f in fetchers:

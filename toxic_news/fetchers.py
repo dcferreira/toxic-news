@@ -1,12 +1,17 @@
+# SPDX-FileCopyrightText: 2023-present Daniel Ferreira <daniel.ferreira.1@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
+"""Scrape newspaper front pages and classify the headlines they publish."""
+
 import asyncio
 import atexit
-import os
 import pickle
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Optional, cast
+from typing import cast
 
 import aiohttp
 import nest_asyncio
@@ -34,75 +39,84 @@ HEADERS = {
 
 
 class Headline(BaseModel):
+    """A scraped headline, with the model scores and the source it came from."""
+
     newspaper: str
     language: str
     text: str
     date: datetime
     scores: Scores
-    url: Optional[HttpUrl]
+    url: HttpUrl | None = None
 
 
 def validate_url(url: str) -> bool:
+    """Return whether `url` is a valid HTTP(S) URL."""
+
     class UrlModel(BaseModel):
         url: HttpUrl
 
     try:
-        UrlModel(url=url)  # type: ignore
-        return True
+        UrlModel(url=url)
     except ValidationError:
         return False
+    else:
+        return True
 
 
 class Fetcher:
+    """Fetch, cache and classify the headlines of one newspaper front page."""
+
     def __init__(
         self,
         newspaper: Newspaper,
-        cache_dir: Optional[Path] = None,
-        model: Optional[AllModels] = None,
-    ):
+        cache_dir: Path | None = None,
+        model: AllModels | None = None,
+    ) -> None:
+        """Set up a fetcher for `newspaper`, caching responses under `cache_dir`."""
         self.newspaper = newspaper
         self.cache_dir = cache_dir
 
-        self._model: Optional[AllModels] = model
-        self._response: Optional[ClientResponse] = None
-        self._content: Optional[bytes] = None
-        self._request_time: Optional[datetime] = None
+        self._model: AllModels | None = model
+        self._response: ClientResponse | None = None
+        self._content: bytes | None = None
+        self._request_time: datetime | None = None
 
     def _get_cache_filename(self, date: datetime) -> Path:
         if self.cache_dir is None:
-            raise RuntimeError("Cache path was not set!")
+            msg = "Cache path was not set!"
+            raise RuntimeError(msg)
         return (
             self.cache_dir
             / clean_url(self.newspaper.url)
             / f"{date.strftime('%Y%m%d')}.pickle"
         )
 
-    def save(self):
+    def save(self) -> None:
+        """Write the fetched response and its request time to the cache."""
         if self.cache_dir is None:
-            raise ValueError(
-                f"Trying to save a website without setting a cache path! {self=}"
-            )
+            msg = f"Trying to save a website without setting a cache path! {self=}"
+            raise ValueError(msg)
         if self._request_time is None:
-            raise RuntimeError(
-                f"Trying to save a website that wasn't yet fetched! {self=}"
-            )
+            msg = f"Trying to save a website that wasn't yet fetched! {self=}"
+            raise RuntimeError(msg)
         save_path = self._get_cache_filename(self._request_time)
-        os.makedirs(save_path.parent, exist_ok=True)
+        save_path.parent.mkdir(parents=True, exist_ok=True)
 
         logger.debug(f"Saving {self!r} to {save_path!r}")
-        with open(save_path, "wb+") as fd:
+        with save_path.open("wb+") as fd:
             pickle.dump(
                 {"content": self._content, "request_time": self._request_time}, fd
             )
 
     def load(self, date: datetime) -> bool:
+        """Load the cached response for `date`, reporting whether one was found."""
         if self.cache_dir is None:
             return False
         load_path = self._get_cache_filename(date)
         if load_path.exists():
             logger.debug(f"Loading {self.newspaper.url} from cache: {load_path}")
-            with open(load_path, "rb") as fd:
-                d = pickle.load(fd)
+            with load_path.open("rb") as fd:
+                d = pickle.load(fd)  # noqa: S301 (project's own local scrape cache)
                 self._content = d["content"]
                 self._request_time = d["request_time"]
             return True
@@ -110,6 +124,7 @@ class Fetcher:
 
     @property
     def model(self) -> AllModels:
+        """Return the classification model, creating it on first use."""
         if self._model is None:
             self._model = AllModels()
         return self._model
@@ -125,35 +140,40 @@ class Fetcher:
             content = await result.content.read()
             return result, content
 
-    def _request(self):
+    def _request(self) -> None:
         logger.debug(f"Fetching {self.newspaper.url!r}...")
         self._response, self._content = asyncio.run(self._request_coroutine())
-        self._request_time = datetime.utcnow()
+        self._request_time = datetime.now(timezone.utc)
         if self.cache_dir is not None:
             self.save()
         logger.debug(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
     @property
     def content(self) -> str:
+        """Return the page content, fetching it on first access."""
         if self._content is None:
             self._request()
-        return cast(bytes, self._content).decode()
+        return cast("bytes", self._content).decode()
 
     @property
     def request_time(self) -> datetime:
+        """Return when the page was fetched, fetching it on first access."""
         if self._request_time is None:
             self._request()
-        return cast(datetime, self._request_time)
+        return cast("datetime", self._request_time)
 
     def parse(self, content: str) -> list[tuple[str, str]]:
+        """Return the `(headline, url)` pairs found in `content`."""
         return self.newspaper.get_headlines(
             content=content, request_date=self.request_time
         )
 
     def fetch(self) -> list[tuple[str, str]]:
+        """Fetch the front page and return its `(headline, url)` pairs."""
         return self.parse(self.content)
 
     def classify(self) -> list[Headline]:
+        """Return the fetched headlines with their model scores."""
         content = self.fetch()
         if len(content) == 0:  # no content was found
             return []
@@ -165,37 +185,42 @@ class Fetcher:
                 text=t,
                 date=self.request_time,
                 scores=s,
-                url=cast(HttpUrl, u) if validate_url(u) else None,
+                url=cast("HttpUrl", u) if validate_url(u) else None,
             )
-            for s, (t, u) in zip(scores_list, content)
+            for s, (t, u) in zip(scores_list, content, strict=False)
         ]
 
 
 class WaybackFetcher(Fetcher):
+    """Fetch a front page from the Wayback Machine snapshot nearest `date`."""
+
     def __init__(
         self,
         date: datetime,
         newspaper: Newspaper,
-        session: Optional[ClientSession] = None,
-        **kwargs,
-    ):
+        session: ClientSession | None = None,
+        cache_dir: Path | None = None,
+        model: AllModels | None = None,
+    ) -> None:
+        """Fetch `newspaper` as archived by the Wayback Machine around `date`."""
         self.date = date
         self.availability_api = WaybackMachineAvailabilityAPI(newspaper.url)
-        self.wayback_url: Optional[str] = None
+        self.wayback_url: str | None = None
 
         self.session = session if session is not None else aiohttp.ClientSession()
         # close session when object ends
         atexit.register(self._close_session)
 
-        super().__init__(newspaper, **kwargs)
+        super().__init__(newspaper, cache_dir=cache_dir, model=model)
 
-    def _close_session(self):
+    def _close_session(self) -> None:
         asyncio.run(self.session.close())
 
     @retry(
         wait=wait_exponential(multiplier=1, min=10, max=100), stop=stop_after_attempt(8)
     )
     def get_wayback_url(self) -> str:
+        """Return the archived URL nearest the requested date, retrying on failure."""
         if self.wayback_url is None:
             archive = self.availability_api.near(
                 year=self.date.year,
@@ -210,7 +235,7 @@ class WaybackFetcher(Fetcher):
             # use the `id_` flag to get the original copy
             # see https://webapps.stackexchange.com/a/155393
             self.wayback_url = archive.archive_url.replace("/http", "id_/http")
-        return cast(str, self.wayback_url)
+        return self.wayback_url
 
     @retry(
         wait=wait_exponential(multiplier=1, min=10, max=100), stop=stop_after_attempt(8)
@@ -222,17 +247,22 @@ class WaybackFetcher(Fetcher):
         content = await result.content.read()
         return result, content
 
-    def _request(self):
+    def _request(self) -> None:
         logger.debug(f"Fetching {self.newspaper.url}...")
         self._response, self._content = asyncio.run(self._request_coroutine())
         if self.cache_dir is not None:
             self.save()
         logger.debug(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
-    async def run_request_coroutine(self, ignore_raise: bool = False) -> bytes:
+    async def run_request_coroutine(self, *, ignore_raise: bool = False) -> bytes:
+        """Fetch the archived page and return its content as bytes.
+
+        If `ignore_raise` is true, a failed fetch logs a warning and is treated as
+        empty content instead of propagating the retry error.
+        """
         try:
             self._response, self._content = await self._request_coroutine()
-        except RetryError as e:
+        except RetryError:
             if ignore_raise:
                 logger.warning(
                     f"Failed to fetch for {self.newspaper} @ "
@@ -241,26 +271,28 @@ class WaybackFetcher(Fetcher):
                 )
                 self._content = b""
             else:
-                raise e
+                raise
         if self.cache_dir is not None:
             self.save()
         if self._content is None:
-            raise RuntimeError(
+            msg = (
                 f"Something failed in the request to {self.newspaper.url}, "
                 f"the fetched content is empty!"
             )
+            raise RuntimeError(msg)
         return self._content
 
     async def get_async_content(self) -> bytes:
+        """Return the page content, fetching it if nothing is cached yet."""
         if self._content is None:
             await self.run_request_coroutine()
-        response = cast(ClientResponse, self._response)
-        result = await response.content.read()
-        return result
+        response = cast("ClientResponse", self._response)
+        return await response.content.read()
 
 
 def clean_url(url: str) -> str:
-    """Removes the slashes from a URL, to make sure it's safe to use as a filename."""
-    assert "http" in url
-    out = re.sub("(http|https)://", "", url).strip("/").replace("/", "__")
-    return out
+    """Strip the scheme and slashes from a URL so it is safe as a filename."""
+    if "http" not in url:
+        msg = f"Not a URL: {url!r}"
+        raise ValueError(msg)
+    return re.sub("(http|https)://", "", url).strip("/").replace("/", "__")

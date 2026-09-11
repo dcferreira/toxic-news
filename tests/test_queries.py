@@ -1,4 +1,10 @@
-from datetime import datetime
+# SPDX-FileCopyrightText: 2023-present Daniel Ferreira <daniel.ferreira.1@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
+"""Tests for the MongoDB aggregation queries in ``toxic_news.queries``."""
+
+from datetime import datetime, timezone
 
 import pytest
 
@@ -30,29 +36,29 @@ def insert_headlines(mongodb) -> list[Headline]:
             newspaper="BBC",
             language="en",
             text="this is a negative test headline on 2022-03-03",
-            date=datetime(2022, 3, 3),
-            scores=Scores(**{s: 0.0 for s in Scores.__fields__}),
+            date=datetime(2022, 3, 3, tzinfo=timezone.utc),
+            scores=Scores(**dict.fromkeys(Scores.__fields__, 0.0)),
         ),
         Headline(
             newspaper="BBC",
             language="en",
             text="this is a positive test headline on 2022-03-03",
-            date=datetime(2022, 3, 3),
-            scores=Scores(**{s: 1.0 for s in Scores.__fields__}),
+            date=datetime(2022, 3, 3, tzinfo=timezone.utc),
+            scores=Scores(**dict.fromkeys(Scores.__fields__, 1.0)),
         ),
         Headline(
             newspaper="Fox News",
             language="en",
             text="this is a test headline on 2022-03-03 for a different newspaper",
-            date=datetime(2022, 3, 3),
-            scores=Scores(**{s: 0.5 for s in Scores.__fields__}),
+            date=datetime(2022, 3, 3, tzinfo=timezone.utc),
+            scores=Scores(**dict.fromkeys(Scores.__fields__, 0.5)),
         ),
         Headline(
             newspaper="BBC",
             language="en",
             text="this is a test headline on 2022-03-05",
-            date=datetime(2022, 3, 5),
-            scores=Scores(**{s: 0.5 for s in Scores.__fields__}),
+            date=datetime(2022, 3, 5, tzinfo=timezone.utc),
+            scores=Scores(**dict.fromkeys(Scores.__fields__, 0.5)),
         ),
     ]
 
@@ -69,7 +75,9 @@ def test_insert_headlines(mongodb, insert_headlines):
 
 def test_query_average_headline_scores_per_day_all(mongodb, insert_headlines):
     results = query_average_headline_scores_per_day(
-        datetime(2022, 3, 3), datetime(2022, 3, 6), mongodb
+        datetime(2022, 3, 3, tzinfo=timezone.utc),
+        datetime(2022, 3, 6, tzinfo=timezone.utc),
+        mongodb,
     )
     assert len(results) == 3
     for row in results:
@@ -78,7 +86,9 @@ def test_query_average_headline_scores_per_day_all(mongodb, insert_headlines):
 
 def test_query_average_headline_scores_per_day_first_day(mongodb, insert_headlines):
     results = query_average_headline_scores_per_day(
-        datetime(2022, 3, 3), datetime(2022, 3, 5), mongodb
+        datetime(2022, 3, 3, tzinfo=timezone.utc),
+        datetime(2022, 3, 5, tzinfo=timezone.utc),
+        mongodb,
     )
     assert len(results) == 2
     for row in results:
@@ -87,7 +97,9 @@ def test_query_average_headline_scores_per_day_first_day(mongodb, insert_headlin
 
 def test_query_average_headline_scores_per_day_second_day(mongodb, insert_headlines):
     results = query_average_headline_scores_per_day(
-        datetime(2022, 3, 5), datetime(2022, 3, 6), mongodb
+        datetime(2022, 3, 5, tzinfo=timezone.utc),
+        datetime(2022, 3, 6, tzinfo=timezone.utc),
+        mongodb,
     )
     assert len(results) == 1
     for row in results:
@@ -96,14 +108,17 @@ def test_query_average_headline_scores_per_day_second_day(mongodb, insert_headli
 
 def test_query_average_headline_scores_per_day_no_day(mongodb, insert_headlines):
     results = query_average_headline_scores_per_day(
-        datetime(2022, 3, 10), datetime(2022, 3, 11), mongodb
+        datetime(2022, 3, 10, tzinfo=timezone.utc),
+        datetime(2022, 3, 11, tzinfo=timezone.utc),
+        mongodb,
     )
     assert len(results) == 0
 
 
 def test_query_average_headline_scores_per_day_explain(mongodb, insert_headlines):
     pipeline = _get_average_headline_scores_per_day_query(
-        datetime(2022, 3, 5), datetime(2022, 3, 6)
+        datetime(2022, 3, 5, tzinfo=timezone.utc),
+        datetime(2022, 3, 6, tzinfo=timezone.utc),
     )
 
     explanation = mongodb.command(
@@ -119,7 +134,9 @@ def test_query_average_headline_scores_per_day_explain(mongodb, insert_headlines
 @pytest.fixture(scope="session")
 def insert_daily(mongodb, insert_headlines) -> list[DailyRow]:
     rows = query_average_headline_scores_per_day(
-        datetime(2022, 3, 3), datetime(2022, 3, 10), db=mongodb
+        datetime(2022, 3, 3, tzinfo=timezone.utc),
+        datetime(2022, 3, 10, tzinfo=timezone.utc),
+        db=mongodb,
     )
 
     db_insert_daily(rows, db=mongodb)
@@ -134,7 +151,8 @@ def test_insert_daily(insert_daily, mongodb):
 
 def test_query_average_daily_explain(mongodb, insert_daily):
     pipeline = _get_average_daily_scores_query(
-        datetime(2022, 3, 5), datetime(2022, 3, 6)
+        datetime(2022, 3, 5, tzinfo=timezone.utc),
+        datetime(2022, 3, 6, tzinfo=timezone.utc),
     )
 
     explanation = mongodb.command(
@@ -147,7 +165,9 @@ def test_query_average_daily_explain(mongodb, insert_daily):
 
 def test_query_average_daily_all(mongodb, insert_daily):
     results = query_average_daily(
-        datetime(2022, 3, 3), datetime(2022, 3, 10), db=mongodb
+        datetime(2022, 3, 3, tzinfo=timezone.utc),
+        datetime(2022, 3, 10, tzinfo=timezone.utc),
+        db=mongodb,
     )
     assert len(results) == 2
     for row in results:

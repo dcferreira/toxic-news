@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2023-present Daniel Ferreira <daniel.ferreira.1@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
+"""Tests for ``toxic_news.models``, which folds raw model outputs into `Scores`."""
+
 from toxic_news.models import (
     DetoxifyResults,
     Scores,

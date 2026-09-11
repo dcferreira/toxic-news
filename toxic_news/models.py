@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2023-present Daniel Ferreira <daniel.ferreira.1@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
+"""Model wrappers: detoxify scoring plus Twitter sentiment analysis."""
+
 from enum import Enum
 from typing import Literal
 
@@ -8,12 +14,16 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipe
 
 
 class SentimentAnalysisResults(BaseModel):
+    """Sentiment probabilities per headline, one list per class."""
+
     positive: list[float]
     neutral: list[float]
     negative: list[float]
 
 
 class DetoxifyCategory(str, Enum):
+    """Toxicity categories the detoxify model can report."""
+
     toxicity = "toxicity"
     severe_toxicity = "severe_toxicity"
     obscene = "obscene"
@@ -24,6 +34,8 @@ class DetoxifyCategory(str, Enum):
 
 
 class DetoxifyResults(BaseModel):
+    """Toxicity scores per headline, one list per `DetoxifyCategory`."""
+
     toxicity: list[float]
     severe_toxicity: list[float]
     obscene: list[float]
@@ -34,6 +46,8 @@ class DetoxifyResults(BaseModel):
 
 
 class Scores(BaseModel):
+    """All scores stored for a single headline: detoxify plus sentiment."""
+
     # detoxify scores
     toxicity: float
     severe_toxicity: float
@@ -51,21 +65,36 @@ class Scores(BaseModel):
 def parse_results(
     detoxify_results: DetoxifyResults, sa_results: SentimentAnalysisResults
 ) -> list[Scores]:
+    """Transpose the two sets of per-text results into per-headline `Scores`.
+
+    Both models return parallel lists, one entry per input text, so the merged
+    dictionaries are zipped into one score record per headline. The dicts are
+    merged in class order, which puts the detoxify keys first.
+    """
     detoxify_scores_dict = detoxify_results.dict()
     sa_scores_dict = sa_results.dict()
     scores_dict = dict(detoxify_scores_dict, **sa_scores_dict)
 
     keys = scores_dict.keys()
-    vals = zip(*scores_dict.values())
+    vals = zip(*scores_dict.values(), strict=False)
 
     # create a list of dictionaries
-    scores_list = [dict(zip(keys, v)) for v in vals]
+    scores_list = [dict(zip(keys, v, strict=False)) for v in vals]
 
     return [Scores.parse_obj(s) for s in scores_list]
 
 
 class DetoxifyModel:
-    def __init__(self, local_files_only=True):
+    """Detoxify model, loading the ONNX-optimised variant from the Hub."""
+
+    def __init__(self, *, local_files_only: bool = True) -> None:
+        """Load the tokenizer and ONNX model into a sigmoid text-classifier.
+
+        Args:
+            local_files_only: refuse network access, using only files already
+                present in the HuggingFace cache.
+
+        """
         model_name = "dcferreira/detoxify-optimized"
         tokenizer = AutoTokenizer.from_pretrained(
             model_name, local_files_only=local_files_only
@@ -83,11 +112,19 @@ class DetoxifyModel:
         )
 
     def predict(self, texts: list[str]) -> DetoxifyResults:
+        """Score each text against every `DetoxifyCategory`.
+
+        Labels the model emits that aren't a known category are dropped, so
+        every returned list holds exactly one score per input text.
+        """
+
         class ModelOutput(BaseModel):
+            """One `label`/`score` pair as returned by the pipeline."""
+
             label: DetoxifyCategory
             score: float
 
-        label_set = set(k.value for k in DetoxifyCategory)
+        label_set = {k.value for k in DetoxifyCategory}
         preds = self.model(texts)
         preds_without_identity_classes = [
             list(filter(lambda x: x["label"] in label_set, p)) for p in preds
@@ -103,7 +140,16 @@ class DetoxifyModel:
 
 
 class SAModel:
-    def __init__(self, local_files_only=True):
+    """Sentiment-analysis model, wrapping the Twitter XLM-R classifier."""
+
+    def __init__(self, *, local_files_only: bool = True) -> None:
+        """Load the tokenizer and model used for sentiment classification.
+
+        Args:
+            local_files_only: refuse network access, using only files already
+                present in the HuggingFace cache.
+
+        """
         model_name = "cardiffnlp/twitter-xlm-roberta-base-sentiment"
         tokenizer = AutoTokenizer.from_pretrained(
             model_name, local_files_only=local_files_only
@@ -121,7 +167,16 @@ class SAModel:
         )
 
     def predict(self, texts: list[str]) -> SentimentAnalysisResults:
+        """Classify each text as positive, neutral or negative.
+
+        Winner takes all: the top-scoring class gets 100 and the others 0, so
+        averaging these over headlines yields class ratios rather than mean
+        probabilities.
+        """
+
         class ModelOutput(BaseModel):
+            """One sentiment `label`/`score` pair as returned by the pipeline."""
+
             label: Literal["positive", "neutral", "negative"]
             score: float
 
@@ -144,11 +199,15 @@ class SAModel:
 
 
 class AllModels:
-    def __init__(self):
+    """Both scoring models, combined into one per-headline `Scores`."""
+
+    def __init__(self) -> None:
+        """Load the detoxify and sentiment models."""
         self.detoxify_model = DetoxifyModel()
         self.sa_model = SAModel()
 
     def predict(self, texts: list[str]) -> list[Scores]:
+        """Score each text with both models and merge the results."""
         detoxify_results = self.detoxify_model.predict(texts)
         sa_results = self.sa_model.predict(texts)
 
