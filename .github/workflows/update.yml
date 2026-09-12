@@ -2,19 +2,32 @@ name: Update
 
 on:
   schedule:
-    # Scrape, score, aggregate and publish the day's front pages.
+    # Daily: scrape, score, aggregate and publish the day's front pages.
     - cron: "0 12 * * *"
+    # Weekly: refetch the days GitHub skipped, from the Wayback Machine.
+    - cron: "0 6 * * 1"
   workflow_dispatch:
+    inputs:
+      job:
+        description: Which job to run by hand
+        type: choice
+        options: ["update", "heal"]
+        default: "update"
 
 permissions:
   contents: write
 
 concurrency:
-  group: update
+  group: publish
   cancel-in-progress: false
 
 jobs:
   update:
+    # A schedule only ever fires on the default branch, and the manual trigger
+    # is pinned to it too, so a run can never publish from a side branch.
+    if: >-
+      github.ref == 'refs/heads/main'
+      && (github.event.schedule == '0 12 * * *' || inputs.job == 'update')
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
@@ -97,7 +110,9 @@ jobs:
   heal:
     # GitHub skips scheduled runs, so a day can go missing entirely. Once a
     # week, refetch the missing days from the Wayback Machine.
-    if: github.event.schedule != '0 12 * * *'
+    if: >-
+      github.ref == 'refs/heads/main'
+      && (github.event.schedule == '0 6 * * 1' || inputs.job == 'heal')
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
