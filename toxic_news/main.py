@@ -5,6 +5,7 @@
 """Typer commands for fetching, scoring and publishing the toxic-news data."""
 
 import asyncio
+import csv
 import datetime
 from asyncio import create_task
 from collections import Counter
@@ -27,6 +28,7 @@ from toxic_news.store import (
     daily_csv_path,
     date_fmt,
     get_date_range,
+    headlines_path,
     write_averages_csv,
     write_daily_csv,
     write_headlines,
@@ -352,6 +354,70 @@ def heal(  # noqa: PLR0913
 def warm_models() -> None:
     """Download both scoring models into the HuggingFace cache."""
     download_models()
+
+
+def _outlet_counts(data_dir: Path, day: datetime.date) -> Counter[str]:
+    """Return how many headlines the day's raw file holds per outlet."""
+    path = headlines_path(data_dir, day)
+    if not path.exists():
+        return Counter()
+    with path.open(newline="") as fd:
+        return Counter(row["newspaper"] for row in csv.DictReader(fd))
+
+
+@app.command()
+def summary(
+    data_dir: Path = Path("data"),
+    out_dir: Path = Path("public"),
+    # typer 0.9.0 cannot build a command from a PEP 604 union annotation
+    report: Optional[Path] = typer.Option(  # noqa: UP045
+        None,
+        help="Also append the report to this file, e.g. $GITHUB_STEP_SUMMARY.",
+    ),
+) -> None:
+    """Report what the latest run produced, outlet by outlet.
+
+    A run that scraped nothing still produces a readable table, which is the
+    difference between "the job failed" and "these outlets are blocked".
+    """
+    day = datetime.datetime.now(datetime.timezone.utc).date()
+    counts = _outlet_counts(data_dir, day)
+    total = sum(counts.values())
+    lines = [
+        f"## toxic-news run — {day.strftime(date_fmt)}",
+        "",
+        (
+            f"**{total} headlines from {len(counts)}/{len(newspapers)} outlets.** "
+            "An outlet with 0 either could not be fetched (paywall, bot block, "
+            "timeout) or its front page no longer matches its XPath."
+        ),
+        "",
+        "| outlet | headlines | expected | verdict |",
+        "| --- | ---: | ---: | --- |",
+    ]
+    for newspaper in newspapers:
+        found = counts.get(newspaper.name, 0)
+        expected = newspaper.expected_headlines
+        verdict = "ok"
+        if found == 0:
+            verdict = "none"
+        elif found < expected * SUSPECT_HEADLINE_RATIO:
+            verdict = "thin"
+        lines.append(f"| {newspaper.name} | {found} | {expected} | {verdict} |")
+    lines += [
+        "",
+        "### Output",
+        "",
+        f"- raw day file: `{headlines_path(data_dir, day)}`",
+        f"- published day file: `{daily_csv_path(out_dir, day)}`",
+        "",
+    ]
+    text = "\n".join(lines) + "\n"
+    typer.echo(text)
+    if report is not None:
+        report.parent.mkdir(parents=True, exist_ok=True)
+        with report.open("a") as fd:
+            fd.write(text)
 
 
 def render_pages(out_dir: Path) -> None:
