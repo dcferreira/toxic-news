@@ -24,5 +24,10 @@ RUN python -c 'from transformers import pipeline;\
     model_path = "cardiffnlp/twitter-xlm-roberta-base-sentiment";\
     sentiment_task = pipeline("sentiment-analysis", model=model_path, tokenizer=model_path)'
 
-# run web server
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
+# The pipeline runs as the host user rather than as root (see
+# `docker-compose.yml`), so the baked cache must be traversable and writable by
+# it — huggingface_hub still creates lock files inside the cache directory.
+RUN chmod a+x /root && chmod -R a+rwX /root/.cache
+
+# the pipeline is the image's job: one run scrapes, scores and publishes
+CMD ["python", "toxic_news/main.py", "update"]
