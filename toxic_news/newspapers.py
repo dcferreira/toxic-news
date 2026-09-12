@@ -18,7 +18,7 @@ from typing import Protocol, runtime_checkable
 
 import lxml.html
 from lxml.html import HtmlElement
-from pydantic import BaseModel, HttpUrl, validator
+from pydantic import AnyHttpUrl, BaseModel, validator
 
 HeadlinesFnOut = list[tuple[str, str]]
 
@@ -47,7 +47,7 @@ class Newspaper(BaseModel):
 
     name: str
     language: str
-    url: HttpUrl
+    url: AnyHttpUrl
     expected_headlines: int
     get_headlines_fn: HeadlinesFn
 
@@ -485,4 +485,4 @@ newspapers = [
         expected_headlines=98,
     ),
 ]
-newspapers_dict: dict[HttpUrl, Newspaper] = {n.url: n for n in newspapers}
+newspapers_dict: dict[AnyHttpUrl, Newspaper] = {n.url: n for n in newspapers}

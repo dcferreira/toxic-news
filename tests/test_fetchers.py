@@ -11,7 +11,6 @@ from datetime import datetime, timezone
 import aiohttp
 import pytest
 from aiohttp import ClientResponse
-from fastapi.encoders import jsonable_encoder
 
 from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher, clean_url
 from toxic_news.models import AllModels, Scores
@@ -83,10 +82,10 @@ def _remove_dates(
     return [
         {
             k: v
-            for k, v in headline.items()
+            for k, v in headline.dict().items()
             if k != "date"  # ignore date so it generalizes for the future
         }
-        for headline in jsonable_encoder(headlines)
+        for headline in headlines
     ]
 
 
@@ -110,6 +109,76 @@ def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
         ),
         f"{clean_url(newspaper.url)}.txt",
     )
+
+
+class _StubContent:
+    """The `read()`-able body of a stubbed `aiohttp` response."""
+
+    def __init__(self, content: bytes) -> None:
+        self._content = content
+
+    async def read(self) -> bytes:
+        """Return the stubbed body."""
+        return self._content
+
+
+class _StubResponse:
+    """The `status` and `content` a fetch reads off a response."""
+
+    def __init__(self, content: bytes) -> None:
+        self.status = 200
+        self.content = _StubContent(content)
+
+
+def _stub_session_get(content: bytes):
+    """Return a `ClientSession.get` stand-in serving `content`, with no network."""
+
+    async def get(_session, _url, **_kwargs):
+        return _StubResponse(content)
+
+    return get
+
+
+@pytest.mark.asyncio
+async def test_async_fetch_then_classify_and_cache_round_trip(
+    assets, tmp_path, monkeypatch
+):
+    """`fetch_with` records one front page; classify reads it and a cache keeps it."""
+    newspaper = newspapers[0]
+    html = (assets / "html" / f"{clean_url(newspaper.url)}.html").read_bytes()
+    monkeypatch.setattr(aiohttp.ClientSession, "get", _stub_session_get(html))
+
+    def mock_predict(self, texts) -> list[Scores]:
+        return [Scores(**dict.fromkeys(Scores.__fields__, 0.5)) for _ in texts]
+
+    # avoid initializing models
+    monkeypatch.setattr(AllModels, "__init__", lambda _: None)
+    monkeypatch.setattr(AllModels, "predict", mock_predict)
+
+    fetcher = Fetcher(newspaper=newspaper, cache_dir=tmp_path)
+    assert fetcher.fetched is False
+
+    async with aiohttp.ClientSession() as session:
+        await fetcher.fetch_with(session)
+
+    assert fetcher.fetched is True
+    assert fetcher.content == html.decode()
+
+    parsed = fetcher.parse(fetcher.content)
+    assert parsed, "the recorded front page should still yield headlines"
+    classified = fetcher.classify()
+    assert [headline.text for headline in classified] == [text for text, _ in parsed]
+    assert {headline.newspaper for headline in classified} == {newspaper.name}
+    assert {headline.date for headline in classified} == {fetcher.request_time}
+    assert {headline.scores.toxicity for headline in classified} == {0.5}
+
+    fetcher.save()
+    reloaded = Fetcher(newspaper=newspaper, cache_dir=tmp_path)
+    assert reloaded.fetched is False
+    assert reloaded.load(fetcher.request_time) is True
+    assert reloaded.fetched is True
+    assert reloaded.content == fetcher.content
+    assert reloaded.request_time == fetcher.request_time
 
 
 @pytest.mark.slow
