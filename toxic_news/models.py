@@ -198,6 +198,18 @@ class SAModel:
         return SentimentAnalysisResults.parse_obj(results)
 
 
+def download_models() -> None:
+    """Fetch both scoring models into the HuggingFace cache.
+
+    `DetoxifyModel` and `SAModel` load with `local_files_only=True`, so a run
+    needs the cache populated first. This is the one place allowed to reach the
+    network, and it goes through the same constructors the run uses, so the
+    cache it fills is exactly the one the run reads.
+    """
+    DetoxifyModel(local_files_only=False)
+    SAModel(local_files_only=False)
+
+
 class AllModels:
     """Both scoring models, combined into one per-headline `Scores`."""
 

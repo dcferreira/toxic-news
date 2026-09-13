@@ -129,16 +129,34 @@ class Fetcher:
             self._model = AllModels()
         return self._model
 
+    async def fetch_with(self, session: ClientSession) -> None:
+        """Fetch this front page over `session`, recording the response and time.
+
+        Sharing one session is what makes a whole day's scrape concurrent: the
+        outlet front pages are fetched side by side rather than one after the
+        other.
+        """
+        logger.debug(f"Fetching {self.newspaper.url!r}...")
+        if self.newspaper.url == "https://newsmax.com":
+            # newsmax requires http/2 when using our header,
+            # but aiohttp doesn't support http/2
+            result = await session.get(self.newspaper.url)
+        else:
+            result = await session.get(self.newspaper.url, headers=HEADERS)
+        self._response = result
+        self._content = await result.content.read()
+        self._request_time = datetime.now(timezone.utc)
+        logger.debug(f"{self.newspaper.url} fetched with code: {self._response.status}")
+
+    @property
+    def fetched(self) -> bool:
+        """Return whether this front page has been fetched or loaded from cache."""
+        return self._content is not None
+
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
         async with aiohttp.ClientSession() as session:
-            if self.newspaper.url == "https://newsmax.com":
-                # newsmax requires http/2 when using our header,
-                # but aiohttp doesn't support http/2
-                result = await session.get(self.newspaper.url)
-            else:
-                result = await session.get(self.newspaper.url, headers=HEADERS)
-            content = await result.content.read()
-            return result, content
+            await self.fetch_with(session)
+        return cast("ClientResponse", self._response), cast("bytes", self._content)
 
     def _request(self) -> None:
         logger.debug(f"Fetching {self.newspaper.url!r}...")

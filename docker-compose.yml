@@ -1,20 +1,44 @@
-version: "3.7"
-
+# The local end-to-end run of the pipeline: the real code against the recorded
+# front pages in `tests/assets/html`, served by the `mock` service below. This
+# is a development harness, not a deployment — nothing here touches the live
+# outlets, GitHub, or any cloud service.
 services:
-  mongo:
-    image: mongo
-    ports:
-      - "27017:27017"
+  mock:
+    image: python:3.11-slim
+    command: ["python", "/srv/mock_site.py", "--root", "/srv/html", "--port", "8000"]
+    # Without this the pipeline can start scraping before the mock is listening.
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - import urllib.request; urllib.request.urlopen("http://127.0.0.1:8000/bbc.com")
+      interval: 2s
+      timeout: 2s
+      retries: 15
+    volumes:
+      - ./tests/mock_site.py:/srv/mock_site.py:ro
+      - ./tests/assets/html:/srv/html:ro
 
-  backend:
-    image: toxic-news:local
+  pipeline:
+    build: .
+    depends_on:
+      mock:
+        condition: service_healthy
+    command:
+      - python
+      - toxic_news/main.py
+      - update
+      - --base-url
+      - http://mock:8000
     environment:
-      - MONGODB_URL=mongodb://mongo:27017
-      - DATABASE_NAME=test_database
-      - DEBUG=1
-    ports:
-      - "5000:8080"
-    deploy:
-      resources:
-        limits:
-          memory: 2G
+      # The models are baked into the image under /root at build time, so HOME
+      # stays pointed at them even though the process runs as the host user.
+      HOME: /root
+      HF_HOME: /root/.cache/huggingface
+    # Run as the host user, so the CSVs and pages written into the mounts below
+    # are owned by you rather than by root.
+    user: "${UID:-1000}:${GID:-1000}"
+    volumes:
+      - ./public:/code/public
+      - ./data:/code/data

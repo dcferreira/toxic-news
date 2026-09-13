@@ -23,7 +23,6 @@ classifiers = [
 ]
 dependencies = [
     "aiohttp==3.8.4",
-    "fastapi==0.95.2",
     "Jinja2==3.1.2",
     "loguru==0.7.0",
     "lxml==4.9.2",
@@ -31,13 +30,9 @@ dependencies = [
     "optimum[onnxruntime]==1.8.6",
     "protobuf==3.20.2",
     "pydantic==1.10.7",
-    "pymongo==4.3.3",
-    "python-dotenv==1.0.0",
     "pytailwindcss==0.1.4",
-    "requests==2.30.0",
     "tenacity==8.2.2",
     "typer[all]==0.9.0",
-    "uvicorn==0.22.0",
     "waybackpy==3.0.6",
 ]
 dynamic = ["version"]
@@ -64,13 +59,10 @@ dev = [
     "pytest",
     "pytest-asyncio",
     "pytest-cov",
-    "pytest-mongo",
     "pytest-snapshot",
     "pytest-xdist",
-    "pytest-xprocess",
     "ruff",
     "ty",
-    "types-requests",
 ]
 
 [tool.uv]
@@ -107,12 +99,10 @@ types = "ty check"
 
 # --- packaging / running -----------------------------------------------------
 build = "docker buildx build . -t toxic-news:local"
-serve-docker = "docker compose up"
-push = { sequence = [
-    { cmd = "docker tag toxic-news:local us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest" },
-    { cmd = "docker push us-central1-docker.pkg.dev/toxic-news/toxic-news/toxic-news:latest" },
-] }
-cli = "python toxic_news/main.py"
+e2e = "python -m tests.local_run"
+models = "python toxic_news/main.py warm-models"
+update = "python toxic_news/main.py update"
+heal = "python toxic_news/main.py heal"
 update-styles = "tailwindcss -i toxic_news/templates/style.css -o public/style.css"
 
 # --- notebook ----------------------------------------------------------------
