@@ -149,6 +149,16 @@ class Fetcher:
         logger.debug(f"{self.newspaper.url} fetched with code: {self._response.status}")
 
     @property
+    def status(self) -> int | None:
+        """Return the HTTP status the front page was served with, if it was fetched."""
+        return None if self._response is None else self._response.status
+
+    @property
+    def body(self) -> bytes | None:
+        """Return the raw bytes of the front page, if it was fetched."""
+        return self._content
+
+    @property
     def fetched(self) -> bool:
         """Return whether this front page has been fetched or loaded from cache."""
         return self._content is not None

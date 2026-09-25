@@ -80,8 +80,10 @@ jobs:
       - name: Populate the model cache
         run: uv run poe models
 
+      # Also writes the day's health report into the data branch, which the
+      # raw-data push below commits alongside the headlines.
       - name: Scrape, score and publish
-        run: uv run poe update
+        run: uv run poe update --raw-html-dir raw-html
 
       - name: Push the published site
         run: |
@@ -106,6 +108,28 @@ jobs:
             git commit -m "daily update $(date +%Y-%m-%d)"
             git push origin data
           fi
+
+      # Diagnostics come after the pushes, and can never fail the job: losing
+      # them is fine, losing the day's data is not.
+
+      # What every outlet actually served today, for debugging a broken
+      # extractor against the exact page it failed on.
+      - name: Keep the fetched front pages
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-html
+          path: raw-html/
+          retention-days: 14
+          if-no-files-found: ignore
+          # a re-run of the job uploads again under the same name
+          overwrite: true
+
+      - name: Report each outlet's health
+        if: always()
+        continue-on-error: true
+        run: uv run poe summary --report "$GITHUB_STEP_SUMMARY"
 
   heal:
     # GitHub skips scheduled runs, so a day can go missing entirely. Once a
