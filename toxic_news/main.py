@@ -5,12 +5,10 @@
 """Typer commands for fetching, scoring and publishing the toxic-news data."""
 
 import asyncio
-import csv
 import datetime
 from asyncio import create_task
-from collections import Counter
 from pathlib import Path
-from typing import Optional
+from typing import Annotated, NamedTuple, Optional
 
 import aiohttp
 import typer
@@ -21,6 +19,15 @@ from pydantic import AnyHttpUrl, HttpUrl, parse_obj_as
 from tqdm import tqdm
 
 from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher, clean_url
+from toxic_news.health import (
+    OutletHealth,
+    Verdict,
+    headline_count_is_ok,
+    outlet_health,
+    read_health,
+    reference_sizes,
+    write_health,
+)
 from toxic_news.models import AllModels, download_models
 from toxic_news.newspapers import newspapers, newspapers_dict
 from toxic_news.store import (
@@ -36,10 +43,9 @@ from toxic_news.store import (
 
 app = typer.Typer()
 
-# An outlet whose front page yields fewer than this fraction of its expected
-# headline count is logged as suspect. The run still publishes: broken scrapers
-# are expected, and get repaired separately from publishing.
-SUSPECT_HEADLINE_RATIO = 0.5
+# How long one outlet may take to answer before it is given up on. Without it,
+# aiohttp's default lets a single hung outlet hold the whole run for 5 minutes.
+FETCH_TIMEOUT_SECONDS = 60
 
 AVERAGE_WINDOWS = {
     7: "7.csv",
@@ -71,46 +77,114 @@ def newspapers_from(base_url: str | None) -> list[Newspaper]:
     ]
 
 
-async def _fetch_all(fetchers: list[Fetcher], session: ClientSession) -> None:
+class Scrape(NamedTuple):
+    """What one run scraped: the headlines, and how each outlet fared."""
+
+    headlines: list[Headline]
+    health: list[OutletHealth]
+    # the fetched front pages, by newspaper name
+    pages: dict[str, bytes]
+
+
+async def _fetch_all(
+    fetchers: list[Fetcher], session: ClientSession
+) -> list[str | None]:
+    """Fetch every front page, returning each one's fetch error, if any."""
     results = await asyncio.gather(
         *(fetcher.fetch_with(session) for fetcher in fetchers), return_exceptions=True
     )
+    errors: list[str | None] = []
     for fetcher, result in zip(fetchers, results, strict=True):
         if isinstance(result, BaseException):
             logger.warning(f"Could not fetch {fetcher.newspaper.name!r}: {result!r}")
-
-
-async def _scrape_newspapers(base_url: str | None) -> list[Headline]:
-    model = AllModels()
-    fetchers = [
-        Fetcher(newspaper=newspaper, model=model)
-        for newspaper in newspapers_from(base_url)
-    ]
-    async with aiohttp.ClientSession() as session:
-        await _fetch_all(fetchers, session)
-    headlines: list[Headline] = []
-    for fetcher in fetchers:
-        if fetcher.fetched:
-            headlines.extend(fetcher.classify())
-    return headlines
-
-
-def scrape_newspapers(base_url: str | None = None) -> list[Headline]:
-    """Scrape and score every tracked outlet's front page, concurrently."""
-    return asyncio.run(_scrape_newspapers(base_url))
-
-
-def report_headline_counts(headlines: list[Headline]) -> None:
-    """Log how many headlines each outlet yielded, warning about the short ones."""
-    counts = Counter(headline.newspaper for headline in headlines)
-    for newspaper in newspapers:
-        found = counts.get(newspaper.name, 0)
-        message = f"{newspaper.name}: {found}/{newspaper.expected_headlines} headlines"
-        if found < newspaper.expected_headlines * SUSPECT_HEADLINE_RATIO:
-            logger.warning(message)
+            errors.append(repr(result))
         else:
+            errors.append(None)
+    return errors
+
+
+def _classify(fetcher: Fetcher) -> tuple[list[Headline], int, str | None]:
+    """Return a fetched outlet's scored headlines, their count and any parse error.
+
+    A broken extractor is caught here, so that it breaks only its own outlet
+    rather than the whole run.
+    """
+    try:
+        found = len(fetcher.fetch())
+    except Exception as e:  # noqa: BLE001 (any extractor failure is the outlet's)
+        logger.warning(f"Could not parse {fetcher.newspaper.name!r}: {e!r}")
+        return [], 0, repr(e)
+    return fetcher.classify(), found, None
+
+
+async def _scrape_newspapers(
+    outlets: list[Newspaper], reference_bytes: dict[str, int]
+) -> Scrape:
+    model = AllModels()
+    fetchers = [Fetcher(newspaper=newspaper, model=model) for newspaper in outlets]
+    timeout = aiohttp.ClientTimeout(total=FETCH_TIMEOUT_SECONDS)
+    async with aiohttp.ClientSession(timeout=timeout) as session:
+        fetch_errors = await _fetch_all(fetchers, session)
+
+    scrape = Scrape(headlines=[], health=[], pages={})
+    for fetcher, fetch_error in zip(fetchers, fetch_errors, strict=True):
+        headlines, found, parse_error = [], 0, None
+        if fetch_error is None and fetcher.body is not None:
+            headlines, found, parse_error = _classify(fetcher)
+            scrape.pages[fetcher.newspaper.name] = fetcher.body
+        scrape.headlines.extend(headlines)
+        scrape.health.append(
+            outlet_health(
+                fetcher.newspaper,
+                status=fetcher.status,
+                fetch_error=fetch_error,
+                body=fetcher.body,
+                headlines=found,
+                parse_error=parse_error,
+                reference_bytes=reference_bytes.get(fetcher.newspaper.name),
+            )
+        )
+    return scrape
+
+
+def scrape_newspapers(
+    base_url: str | None = None,
+    *,
+    outlets: list[Newspaper] | None = None,
+    reference_bytes: dict[str, int] | None = None,
+) -> Scrape:
+    """Scrape and score every tracked outlet's front page, concurrently.
+
+    `outlets` defaults to every tracked outlet, fetched from `base_url` when
+    one is given; `reference_bytes` holds each outlet's last good page size.
+    """
+    if outlets is None:
+        outlets = newspapers_from(base_url)
+    return asyncio.run(_scrape_newspapers(outlets, reference_bytes or {}))
+
+
+def report_health(health: list[OutletHealth]) -> None:
+    """Log how each outlet fared, warning about the ones that did not scrape."""
+    for outlet in health:
+        message = (
+            f"{outlet.newspaper}: {outlet.headlines}/{outlet.expected} headlines "
+            f"(status {outlet.status}, {outlet.verdict})"
+        )
+        if outlet.verdict == Verdict.OK:
             logger.info(message)
-    logger.info(f"Scraped {len(headlines)} headlines from {len(counts)} outlets")
+        else:
+            logger.warning(message)
+    total = sum(outlet.headlines for outlet in health)
+    ok = sum(outlet.verdict == Verdict.OK for outlet in health)
+    logger.info(f"Scraped {total} headlines; {ok}/{len(health)} outlets ok")
+
+
+def save_pages(raw_html_dir: Path, pages: dict[str, bytes]) -> None:
+    """Write each fetched front page as `<outlet>.html`, named like the fixtures."""
+    raw_html_dir.mkdir(parents=True, exist_ok=True)
+    by_name = {newspaper.name: newspaper for newspaper in newspapers}
+    for name, body in pages.items():
+        (raw_html_dir / f"{clean_url(str(by_name[name].url))}.html").write_bytes(body)
 
 
 def rebuild_averages(out_dir: Path) -> None:
@@ -159,18 +233,6 @@ def _noon(day: datetime.date) -> datetime.datetime:
     )
 
 
-def _headline_count_is_ok(
-    found: int, newspaper: Newspaper, allowed_difference_headlines: float
-) -> bool:
-    """Return whether `found` headlines are within the tolerated band."""
-    expected = newspaper.expected_headlines
-    return (
-        expected * (1 - allowed_difference_headlines)
-        <= found
-        <= expected * (1 + allowed_difference_headlines)
-    )
-
-
 def _format_days(days: list[datetime.date]) -> str:
     return ", ".join(day.strftime(date_fmt) for day in days)
 
@@ -185,11 +247,26 @@ def update(
         help="Fetch every outlet from this origin instead of the live sites, "
         "e.g. http://mock:8000 to run against the local mock site.",
     ),
+    # a plain default, so that calling `update` from Python leaves it unset
+    raw_html_dir: Annotated[
+        Optional[Path],  # noqa: UP045
+        typer.Option(help="Also save every fetched front page here, as <outlet>.html."),
+    ] = None,
 ) -> None:
-    """Scrape and score today's front pages, then rebuild the published site."""
+    """Scrape and score today's front pages, then rebuild the published site.
+
+    The day's health report is written whatever happens, so a run that scraped
+    nothing still says why.
+    """
     today = datetime.datetime.now(datetime.timezone.utc).date()
-    headlines = scrape_newspapers(base_url=base_url)
-    report_headline_counts(headlines)
+    scrape = scrape_newspapers(
+        base_url=base_url, reference_bytes=reference_sizes(data_dir, today)
+    )
+    write_health(data_dir, today, scrape.health)
+    if raw_html_dir is not None:
+        save_pages(raw_html_dir, scrape.pages)
+    report_health(scrape.health)
+    headlines = scrape.headlines
     if not headlines:
         logger.warning("Nothing was scraped; leaving the published data untouched")
         return
@@ -259,8 +336,10 @@ def fetch_wayback(  # noqa: PLR0913
     )
 
     def looks_right(day_headlines: list[Headline]) -> bool:
-        return _headline_count_is_ok(
-            len(day_headlines), newspaper, allowed_difference_headlines
+        return headline_count_is_ok(
+            len(day_headlines),
+            newspaper.expected_headlines,
+            allowed_difference_headlines,
         )
 
     good = {
@@ -322,8 +401,10 @@ def heal(  # noqa: PLR0913
             )
         )
         for day, headlines in zip(missing, per_day, strict=True):
-            if _headline_count_is_ok(
-                len(headlines), newspaper, allowed_difference_headlines
+            if headline_count_is_ok(
+                len(headlines),
+                newspaper.expected_headlines,
+                allowed_difference_headlines,
             ):
                 by_day[day].extend(headlines)
             else:
@@ -356,15 +437,6 @@ def warm_models() -> None:
     download_models()
 
 
-def _outlet_counts(data_dir: Path, day: datetime.date) -> Counter[str]:
-    """Return how many headlines the day's raw file holds per outlet."""
-    path = headlines_path(data_dir, day)
-    if not path.exists():
-        return Counter()
-    with path.open(newline="") as fd:
-        return Counter(row["newspaper"] for row in csv.DictReader(fd))
-
-
 @app.command()
 def summary(
     data_dir: Path = Path("data"),
@@ -381,29 +453,34 @@ def summary(
     difference between "the job failed" and "these outlets are blocked".
     """
     day = datetime.datetime.now(datetime.timezone.utc).date()
-    counts = _outlet_counts(data_dir, day)
-    total = sum(counts.values())
+    health = read_health(data_dir, day)
+    if not health:
+        text = (
+            f"## toxic-news run — {day.strftime(date_fmt)}\n\n"
+            "**No health report for today:** the run failed before it scraped.\n"
+        )
+        _emit(text, report)
+        return
+    total = sum(outlet.headlines for outlet in health)
+    ok = sum(outlet.verdict == Verdict.OK for outlet in health)
     lines = [
         f"## toxic-news run — {day.strftime(date_fmt)}",
         "",
         (
-            f"**{total} headlines from {len(counts)}/{len(newspapers)} outlets.** "
-            "An outlet with 0 either could not be fetched (paywall, bot block, "
-            "timeout) or its front page no longer matches its XPath."
+            f"**{total} headlines; {ok}/{len(health)} outlets ok.** "
+            "`xpath`: the page was fetched but its extractor no longer matches "
+            "it. `other`: the outlet could not be fetched as a front page "
+            "(blocked, bot challenge, timeout)."
         ),
         "",
-        "| outlet | headlines | expected | verdict |",
-        "| --- | ---: | ---: | --- |",
+        "| outlet | status | headlines | expected | verdict |",
+        "| --- | ---: | ---: | ---: | --- |",
     ]
-    for newspaper in newspapers:
-        found = counts.get(newspaper.name, 0)
-        expected = newspaper.expected_headlines
-        verdict = "ok"
-        if found == 0:
-            verdict = "none"
-        elif found < expected * SUSPECT_HEADLINE_RATIO:
-            verdict = "thin"
-        lines.append(f"| {newspaper.name} | {found} | {expected} | {verdict} |")
+    lines += [
+        f"| {outlet.newspaper} | {outlet.status or '—'} | {outlet.headlines} "
+        f"| {outlet.expected} | {outlet.verdict} |"
+        for outlet in health
+    ]
     lines += [
         "",
         "### Output",
@@ -412,7 +489,11 @@ def summary(
         f"- published day file: `{daily_csv_path(out_dir, day)}`",
         "",
     ]
-    text = "\n".join(lines) + "\n"
+    _emit("\n".join(lines) + "\n", report)
+
+
+def _emit(text: str, report: Path | None) -> None:
+    """Print `text`, also appending it to `report` when one is given."""
     typer.echo(text)
     if report is not None:
         report.parent.mkdir(parents=True, exist_ok=True)

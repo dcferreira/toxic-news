@@ -12,15 +12,11 @@ a whole `update` run — scrape, aggregate, rebuild, render — happens locally.
 import csv
 import datetime
 from collections import Counter
-from collections.abc import Iterator
 from http.client import HTTPConnection
 from pathlib import Path
 from typing import NamedTuple
 from urllib.parse import urlsplit
 
-import pytest
-
-from tests.mock_site import serve
 from toxic_news.fetchers import clean_url
 from toxic_news.main import newspapers_from, update
 from toxic_news.models import AllModels, Scores
@@ -53,15 +49,6 @@ class Response(NamedTuple):
     content_type: str
     allow: str
     body: bytes
-
-
-@pytest.fixture(scope="module")
-def mock_site_url(assets) -> Iterator[str]:
-    """The origin of a mock site serving the recorded front pages."""
-    server, origin = serve(assets / "html")
-    yield origin
-    server.shutdown()
-    server.server_close()
 
 
 def _request(origin: str, path: str, method: str = "GET") -> Response:

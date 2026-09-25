@@ -102,6 +102,7 @@ build = "docker buildx build . -t toxic-news:local"
 e2e = "python -m tests.local_run"
 models = "python toxic_news/main.py warm-models"
 update = "python toxic_news/main.py update"
+summary = "python toxic_news/main.py summary"
 heal = "python toxic_news/main.py heal"
 update-styles = "tailwindcss -i toxic_news/templates/style.css -o public/style.css"
 
