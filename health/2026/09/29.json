@@ -5,7 +5,7 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 676722,
+    "body_bytes": 678297,
     "headlines": 0,
     "expected": 47,
     "verdict": "xpath"
@@ -16,8 +16,8 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 799744,
-    "headlines": 184,
+    "body_bytes": 794813,
+    "headlines": 183,
     "expected": 125,
     "verdict": "xpath"
   },
@@ -27,8 +27,8 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 382530,
-    "headlines": 42,
+    "body_bytes": 375579,
+    "headlines": 43,
     "expected": 50,
     "verdict": "ok"
   },
@@ -38,7 +38,7 @@
     "status": 403,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 5627,
+    "body_bytes": 5648,
     "headlines": 0,
     "expected": 73,
     "verdict": "other"
@@ -60,7 +60,7 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 1597352,
+    "body_bytes": 1666415,
     "headlines": 33,
     "expected": 38,
     "verdict": "ok"
@@ -82,7 +82,7 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 1352423,
+    "body_bytes": 1574987,
     "headlines": 8,
     "expected": 67,
     "verdict": "xpath"
@@ -93,7 +93,7 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 1347490,
+    "body_bytes": 1387256,
     "headlines": 0,
     "expected": 75,
     "verdict": "xpath"
@@ -126,7 +126,7 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 1268086,
+    "body_bytes": 1270087,
     "headlines": 0,
     "expected": 97,
     "verdict": "xpath"
@@ -137,7 +137,7 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 1338671,
+    "body_bytes": 1330002,
     "headlines": 0,
     "expected": 92,
     "verdict": "xpath"
@@ -148,7 +148,7 @@
     "status": 403,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 6516,
+    "body_bytes": 6518,
     "headlines": 0,
     "expected": 39,
     "verdict": "other"
@@ -170,7 +170,7 @@
     "status": 200,
     "fetch_error": null,
     "parse_error": null,
-    "body_bytes": 447492,
+    "body_bytes": 459891,
     "headlines": 9,
     "expected": 62,
     "verdict": "xpath"
