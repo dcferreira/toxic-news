@@ -1,0 +1,189 @@
+[
+  {
+    "newspaper": "BBC",
+    "url": "https://bbc.com",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 685513,
+    "headlines": 0,
+    "expected": 47,
+    "verdict": "xpath"
+  },
+  {
+    "newspaper": "Fox News",
+    "url": "https://foxnews.com",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 800645,
+    "headlines": 182,
+    "expected": 125,
+    "verdict": "xpath"
+  },
+  {
+    "newspaper": "Newsmax",
+    "url": "https://newsmax.com",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 393509,
+    "headlines": 43,
+    "expected": 50,
+    "verdict": "ok"
+  },
+  {
+    "newspaper": "The Washington Times",
+    "url": "https://washingtontimes.com",
+    "status": 403,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 5648,
+    "headlines": 0,
+    "expected": 73,
+    "verdict": "other"
+  },
+  {
+    "newspaper": "The New York Times",
+    "url": "https://www.nytimes.com",
+    "status": 403,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 774,
+    "headlines": 0,
+    "expected": 67,
+    "verdict": "other"
+  },
+  {
+    "newspaper": "New York Post",
+    "url": "https://nypost.com",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 1627460,
+    "headlines": 34,
+    "expected": 38,
+    "verdict": "ok"
+  },
+  {
+    "newspaper": "Associated Press",
+    "url": "https://apnews.com",
+    "status": 403,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 5572,
+    "headlines": 0,
+    "expected": 45,
+    "verdict": "other"
+  },
+  {
+    "newspaper": "NBC News",
+    "url": "https://www.nbcnews.com",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 1404250,
+    "headlines": 8,
+    "expected": 67,
+    "verdict": "xpath"
+  },
+  {
+    "newspaper": "Newsweek",
+    "url": "https://www.newsweek.com",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 1396375,
+    "headlines": 0,
+    "expected": 75,
+    "verdict": "xpath"
+  },
+  {
+    "newspaper": "One America News Network (OAN)",
+    "url": "https://www.oann.com",
+    "status": 403,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 5574,
+    "headlines": 0,
+    "expected": 28,
+    "verdict": "other"
+  },
+  {
+    "newspaper": "Reuters",
+    "url": "https://www.reuters.com",
+    "status": 401,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 771,
+    "headlines": 0,
+    "expected": 49,
+    "verdict": "other"
+  },
+  {
+    "newspaper": "The Epoch Times",
+    "url": "https://www.theepochtimes.com",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 1264757,
+    "headlines": 0,
+    "expected": 97,
+    "verdict": "xpath"
+  },
+  {
+    "newspaper": "The Guardian (US)",
+    "url": "https://www.theguardian.com/us",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 1392223,
+    "headlines": 0,
+    "expected": 92,
+    "verdict": "xpath"
+  },
+  {
+    "newspaper": "The Hill",
+    "url": "https://thehill.com",
+    "status": 403,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 6520,
+    "headlines": 0,
+    "expected": 39,
+    "verdict": "other"
+  },
+  {
+    "newspaper": "The Wall Street Journal",
+    "url": "https://www.wsj.com",
+    "status": 401,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 767,
+    "headlines": 0,
+    "expected": 66,
+    "verdict": "other"
+  },
+  {
+    "newspaper": "Washington Examiner",
+    "url": "https://www.washingtonexaminer.com",
+    "status": 200,
+    "fetch_error": null,
+    "parse_error": null,
+    "body_bytes": 471630,
+    "headlines": 9,
+    "expected": 62,
+    "verdict": "xpath"
+  },
+  {
+    "newspaper": "The Washington Post",
+    "url": "https://www.washingtonpost.com",
+    "status": null,
+    "fetch_error": "TimeoutError()",
+    "parse_error": null,
+    "body_bytes": null,
+    "headlines": 0,
+    "expected": 98,
+    "verdict": "other"
+  }
+]
