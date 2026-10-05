@@ -20,9 +20,11 @@ from tqdm import tqdm
 
 from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher, clean_url
 from toxic_news.health import (
+    MIN_PAGE_BYTES,
     OutletHealth,
     Verdict,
     headline_count_is_ok,
+    looks_like_challenge,
     outlet_health,
     read_health,
     reference_sizes,
@@ -248,13 +250,34 @@ async def _fetch_wayback(
             for ts in timestamps
         ]
         tasks = [
-            create_task(f.run_request_coroutine())
+            create_task(f.run_request_coroutine(ignore_raise=True))
             for f, ts in zip(fetchers, timestamps, strict=False)
             if not f.load(ts)  # check if there's cache before making a task
         ]
         await asyncio.gather(*tasks)
 
-        return [f.classify() for f in tqdm(fetchers)]
+        return [_archived_headlines(f) for f in tqdm(fetchers)]
+
+
+def _archived_headlines(fetcher: WaybackFetcher) -> list[Headline]:
+    """Return an archived front page's scored headlines, or none if it is not one.
+
+    A failed fetch, a bot challenge the Wayback Machine archived in place of
+    the page, or an extractor that raises costs only its own day.
+    """
+    name = fetcher.newspaper.name
+    day = fetcher.date.strftime(date_fmt)
+    body = fetcher.body
+    if not body:
+        return []  # the failed fetch was already logged
+    if looks_like_challenge(body) or len(body) < MIN_PAGE_BYTES:
+        logger.warning(f"Not a front page: {name} @ {day} ({len(body)} bytes)")
+        return []
+    try:
+        return fetcher.classify()
+    except Exception as e:  # noqa: BLE001 (one bad snapshot must not stop the heal)
+        logger.warning(f"Could not parse {name} @ {day}: {e!r}")
+        return []
 
 
 def _noon(day: datetime.date) -> datetime.datetime:

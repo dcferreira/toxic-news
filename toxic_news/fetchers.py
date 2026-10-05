@@ -275,7 +275,8 @@ class WaybackFetcher(Fetcher):
                 hour=self.date.hour,
                 minute=self.date.minute,
             )
-            self._request_time = archive.timestamp()
+            # waybackpy hands back a naive time, in UTC
+            self._request_time = archive.timestamp().replace(tzinfo=timezone.utc)
             time.sleep(1)  # blocking sleep, to not spam the API
 
             # use the `id_` flag to get the original copy
@@ -309,15 +310,17 @@ class WaybackFetcher(Fetcher):
         try:
             self._response, self._content = await self._request_coroutine()
         except RetryError:
-            if ignore_raise:
-                logger.warning(
-                    f"Failed to fetch for {self.newspaper} @ "
-                    f"{self.request_time.strftime('%Y/%m/%d')}. "
-                    f"Url used was {self.wayback_url=}"
-                )
-                self._content = b""
-            else:
+            if not ignore_raise:
                 raise
+            # the requested date, not `request_time`: reading that would fetch
+            # again, and a failed fetch has nothing to save to the cache
+            logger.warning(
+                f"Failed to fetch {self.newspaper.name} @ "
+                f"{self.date.strftime('%Y/%m/%d')}. "
+                f"Url used was {self.wayback_url=}"
+            )
+            self._content = b""
+            return self._content
         if self.cache_dir is not None:
             self.save()
         if self._content is None:
