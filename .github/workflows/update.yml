@@ -109,6 +109,26 @@ jobs:
             git push origin data
           fi
 
+      # A run that failed after writing the day's health report skips the
+      # pushes above, yet that report is what says why it failed: push it
+      # alone, without whatever else the failed run left half-written.
+      - name: Push the health report of a failed run
+        if: failure()
+        run: |
+          set -euo pipefail
+          if [ ! -d data/health ]; then
+            echo "The run failed before writing a health report"
+            exit 0
+          fi
+          cd data
+          git add health
+          if git diff --cached --quiet; then
+            echo "No new health report"
+          else
+            git commit -m "health report of a failed run $(date +%Y-%m-%d)"
+            git push origin data
+          fi
+
       # Diagnostics come after the pushes, and can never fail the job: losing
       # them is fine, losing the day's data is not.
 
