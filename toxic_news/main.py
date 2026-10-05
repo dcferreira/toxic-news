@@ -274,10 +274,12 @@ def _archived_headlines(fetcher: WaybackFetcher) -> list[Headline]:
         logger.warning(f"Not a front page: {name} @ {day} ({len(body)} bytes)")
         return []
     try:
-        return fetcher.classify()
+        fetcher.fetch()
     except Exception as e:  # noqa: BLE001 (one bad snapshot must not stop the heal)
         logger.warning(f"Could not parse {name} @ {day}: {e!r}")
         return []
+    # unlike a bad snapshot, a failing model would lose every day: let it raise
+    return fetcher.classify()
 
 
 def _noon(day: datetime.date) -> datetime.datetime:
@@ -323,6 +325,11 @@ def update(
     headlines = scrape.headlines
     if not headlines:
         logger.warning("Nothing was scraped; leaving the published data untouched")
+        if any(outlet.score_error is not None for outlet in scrape.health):
+            # the models are down, not the outlets: fail the job so it is seen,
+            # now that the health report saying so is written
+            logger.error("Nothing could be scored")
+            raise typer.Exit(code=1)
         return
 
     write_headlines(data_dir, today, headlines)
@@ -524,7 +531,8 @@ def summary(
             f"**{total} headlines; {ok}/{len(health)} outlets ok.** "
             "`xpath`: the page was fetched but its extractor no longer matches "
             "it. `other`: the outlet could not be fetched as a front page "
-            "(blocked, bot challenge, timeout)."
+            "(blocked, bot challenge, timeout), or its headlines could not be "
+            "scored."
         ),
         "",
         "| outlet | status | headlines | expected | verdict |",

@@ -16,6 +16,7 @@ from collections.abc import Iterator
 from pathlib import Path
 
 import pytest
+import typer
 
 import toxic_news.main
 from tests.fixtures import latest_fixture, slug_of
@@ -201,7 +202,8 @@ def test_a_model_that_fails_to_score_still_leaves_a_health_report(
     monkeypatch.setattr(AllModels, "predict", _failing_predict)
     data_dir = tmp_path / "data"
 
-    update(data_dir=data_dir, out_dir=tmp_path / "public", base_url=mock_site_url)
+    with pytest.raises(typer.Exit):
+        update(data_dir=data_dir, out_dir=tmp_path / "public", base_url=mock_site_url)
 
     health = read_health(data_dir, _today())
     assert len(health) == len(newspapers)
@@ -223,7 +225,8 @@ def test_a_model_that_fails_to_load_still_leaves_a_health_report(
     monkeypatch.setattr(AllModels, "__init__", _failing_init)
     data_dir = tmp_path / "data"
 
-    update(data_dir=data_dir, out_dir=tmp_path / "public", base_url=mock_site_url)
+    with pytest.raises(typer.Exit):
+        update(data_dir=data_dir, out_dir=tmp_path / "public", base_url=mock_site_url)
 
     health = read_health(data_dir, _today())
     assert len(health) == len(newspapers)
@@ -291,3 +294,16 @@ def test_a_parse_error_is_recorded_without_the_whole_page(mock_site_url: str) ->
     assert health.parse_error is not None
     assert health.parse_error.startswith("ValueError('xxx")
     assert len(health.parse_error) <= 500
+
+
+def test_update_fails_once_the_health_report_is_written_if_nothing_could_be_scored(
+    monkeypatch: pytest.MonkeyPatch, mock_site_url: str, tmp_path: Path
+) -> None:
+    monkeypatch.setattr(AllModels, "__init__", _failing_init)
+    data_dir = tmp_path / "data"
+
+    with pytest.raises(typer.Exit) as exit_info:
+        update(data_dir=data_dir, out_dir=tmp_path / "public", base_url=mock_site_url)
+
+    assert exit_info.value.exit_code == 1
+    assert len(read_health(data_dir, _today())) == len(newspapers)

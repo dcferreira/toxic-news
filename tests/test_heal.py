@@ -14,10 +14,10 @@ from pathlib import Path
 
 import aiohttp
 import pytest
-from tenacity import RetryError
+from tenacity import RetryError, wait_none
 
 from tests.fixtures import latest_fixture, slug_of
-from toxic_news.fetchers import WaybackFetcher
+from toxic_news.fetchers import Fetcher, WaybackFetcher
 from toxic_news.main import _fetch_wayback, _noon, heal
 from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import Newspaper, newspapers
@@ -214,3 +214,62 @@ def test_heal_fills_the_days_it_could_fetch(
 
     assert (out_dir / "daily" / "2026" / "09" / "06.csv").exists()
     assert not (out_dir / "daily" / "2026" / "09" / "05.csv").exists()
+
+
+def test_a_page_cached_with_a_naive_time_is_read_as_utc(
+    tmp_path: Path,
+) -> None:
+    cached = Fetcher(newspaper=FOX, cache_dir=tmp_path)
+    cached._content = b"<html></html>"
+    cached._request_time = datetime.datetime(2026, 9, 5, 12)  # noqa: DTZ001 (as old caches hold)
+    cached.save()
+
+    fetcher = Fetcher(newspaper=FOX, cache_dir=tmp_path)
+    assert fetcher.load(datetime.datetime(2026, 9, 5, tzinfo=datetime.timezone.utc))
+    assert fetcher.request_time.tzinfo == datetime.timezone.utc
+
+
+@pytest.mark.usefixtures("_wayback")
+def test_a_model_failure_in_heal_is_not_taken_for_a_bad_snapshot(
+    assets: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    page = _fox_page(assets)
+    monkeypatch.setattr(
+        aiohttp.ClientSession, "get", _serve({"20260905": page, "20260906": page})
+    )
+
+    def predict(_self: AllModels, _texts: list[str]) -> list[Scores]:
+        msg = "the model fell over"
+        raise RuntimeError(msg)
+
+    monkeypatch.setattr(AllModels, "predict", predict)
+
+    with pytest.raises(RuntimeError, match="the model fell over"):
+        asyncio.run(_fetch_wayback(FOX, [_noon(d) for d in DAYS], None))
+
+
+@pytest.mark.usefixtures("_wayback")
+def test_a_get_that_keeps_failing_is_retried_then_skipped(
+    assets: Path, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+) -> None:
+    # the real tenacity retry, without its waits
+    retrying = WaybackFetcher._request_coroutine.retry  # ty: ignore[unresolved-attribute]
+    monkeypatch.setattr(retrying, "wait", wait_none())
+    page = _fox_page(assets)
+    served = _serve({"20260906": page})
+    calls: list[str] = []
+
+    async def get(session: aiohttp.ClientSession, url: str, **kwargs: object):
+        calls.append(url)
+        if "/20260905" in url:
+            raise aiohttp.ClientConnectionError
+        return await served(session, url, **kwargs)
+
+    monkeypatch.setattr(aiohttp.ClientSession, "get", get)
+
+    per_day = asyncio.run(
+        _fetch_wayback(FOX, [_noon(d) for d in DAYS], tmp_path / "cache")
+    )
+
+    assert [len(headlines) for headlines in per_day] == [0, 125]
+    assert sum("/20260905" in url for url in calls) == 8

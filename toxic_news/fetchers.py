@@ -64,12 +64,14 @@ def validate_url(url: str) -> bool:
 
 
 def decode_page(body: bytes, charset: str | None) -> str:
-    """Return `body` as text, decoded as its declared `charset` or else UTF-8.
+    """Return `body` as text, decoded as UTF-8 or else its declared `charset`.
 
-    A page that is not valid in either has its bad bytes replaced, rather than
-    failing outright: a stray byte must not pass for a broken extractor.
+    UTF-8 goes first because it fails loudly on anything else, while a Latin-1
+    `charset` would decode a mislabelled UTF-8 page into mojibake. A page valid
+    in neither has its bad bytes replaced, rather than failing outright: a
+    stray byte must not pass for a broken extractor.
     """
-    for encoding in (charset, "utf-8"):
+    for encoding in ("utf-8", charset):
         if encoding is None:
             continue
         try:
@@ -135,7 +137,11 @@ class Fetcher:
             with load_path.open("rb") as fd:
                 d = pickle.load(fd)  # noqa: S301 (project's own local scrape cache)
                 self._content = d["content"]
-                self._request_time = d["request_time"]
+                request_time = d["request_time"]
+                # caches written before Wayback times were made aware hold naive UTC
+                if request_time.tzinfo is None:
+                    request_time = request_time.replace(tzinfo=timezone.utc)
+                self._request_time = request_time
             return True
         return False
 

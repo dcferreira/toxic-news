@@ -263,6 +263,8 @@ def test_wayback_sync():
         ("café".encode(), "utf-8", "café"),
         ("café".encode(), None, "café"),
         ("café".encode("latin-1"), "ISO-8859-1", "café"),
+        # mislabelled the other way: UTF-8 served as Latin-1 is still read right
+        ("café".encode(), "ISO-8859-1", "café"),
         # mislabelled: the bad byte is replaced rather than failing the page
         ("café".encode("latin-1"), "utf-8", "caf�"),
         ("café".encode("latin-1"), None, "caf�"),

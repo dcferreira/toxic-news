@@ -116,16 +116,17 @@ jobs:
         if: failure()
         run: |
           set -euo pipefail
-          if [ ! -d data/health ]; then
-            echo "The run failed before writing a health report"
-            exit 0
-          fi
           cd data
-          git add health
-          if git diff --cached --quiet; then
+          if [ -d health ]; then
+            git add health
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "health report of a failed run $(date +%Y-%m-%d)"
+          fi
+          # also when the raw-data push above committed but failed to push
+          if [ "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/data | cut -f1)" ]; then
             echo "No new health report"
           else
-            git commit -m "health report of a failed run $(date +%Y-%m-%d)"
             git push origin data
           fi
 
