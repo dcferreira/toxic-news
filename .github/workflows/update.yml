@@ -31,10 +31,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check out the published site
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: public
           path: public
@@ -64,13 +64,13 @@ jobs:
           fi
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v10.2.0
 
       - name: Install the project
         run: uv sync --frozen
 
       - name: Cache the scoring models
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/huggingface
           key: hf-models-dcferreira-detoxify-optimized-cardiffnlp-twitter-xlm-roberta-base-sentiment
@@ -117,7 +117,7 @@ jobs:
       - name: Keep the fetched front pages
         if: always()
         continue-on-error: true
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: raw-html
           path: raw-html/
@@ -140,10 +140,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check out the published site
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: public
           path: public
@@ -173,13 +173,13 @@ jobs:
           fi
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v10.2.0
 
       - name: Install the project
         run: uv sync --frozen
 
       - name: Cache the scoring models
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/huggingface
           key: hf-models-dcferreira-detoxify-optimized-cardiffnlp-twitter-xlm-roberta-base-sentiment

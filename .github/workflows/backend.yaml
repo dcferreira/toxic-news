@@ -1,6 +1,15 @@
 name: Backend CI
 
-on: push
+# Pushes to main, and every pull request: a PR branch would otherwise be built
+# twice, once for the push and once for the PR.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Pull requests run this too, so it gets no more than it needs to read the code.
+permissions:
+  contents: read
 
 jobs:
   run:
@@ -12,7 +21,7 @@ jobs:
         os: ["ubuntu-22.04"]
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Check for CRLF endings
         shell: bash
@@ -26,7 +35,7 @@ jobs:
           fi
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v10.2.0
         with:
           python-version: ${{ matrix.python-version }}
 
