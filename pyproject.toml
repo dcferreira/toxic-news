@@ -101,6 +101,9 @@ types = "ty check"
 # `poe selfheal-check bbc [--base REF] [--output report.md]`: the gate a fix of
 # one outlet has to pass; see `tests/selfheal_check.py`.
 selfheal-check = "python -m tests.selfheal_check"
+# `poe triage [--dry-run]`: open, refresh and close the one GitHub issue per
+# XPath-broken outlet, from the latest health reports; see `toxic_news/triage.py`.
+triage = "python -m toxic_news.triage"
 
 # --- packaging / running -----------------------------------------------------
 build = "docker buildx build . -t toxic-news:local"

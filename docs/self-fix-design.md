@@ -86,9 +86,14 @@ one hung outlet can hold up the run.
 Runs after every Update run that produced a health report; no LLM, no
 secrets, `issues: write`.
 
-- Keeps **one issue per outlet** in state `xpath`, labelled `selfheal` and
-  `selfheal:<outlet>`. It comments rather than re-filing, and closes the
-  issue once the outlet has been `ok` for two runs.
+- Keeps **one issue per failure**: an outlet in state `xpath` has one open
+  issue, labelled `selfheal` and `selfheal:<outlet>` (the outlet's fixture
+  slug, e.g. `selfheal:bbc.com`). Each run refreshes that issue's body rather
+  than re-filing, and the issue is closed once the outlet has been `ok` for
+  two runs. A closed issue is never reopened: an outlet that breaks again, or
+  whose issue was closed while it was still broken, is a new failure with a
+  new issue. The body ends in a `<!-- selfheal-failure -->` JSON block (outlet,
+  url, first and last day seen, headline counts) for the fix job to read.
 - Sends an outlet to the fix job when:
   - it was `xpath` in the last **two consecutive** runs (a one-day layout
     experiment is not worth a fix);
