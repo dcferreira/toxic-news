@@ -103,24 +103,44 @@ async def _fetch_all(
     return errors
 
 
-def _classify(fetcher: Fetcher) -> tuple[list[Headline], int, str | None]:
-    """Return a fetched outlet's scored headlines, their count and any parse error.
+class _Classified(NamedTuple):
+    headlines: list[Headline]
+    found: int
+    parse_error: str | None
+    score_error: str | None
 
-    A broken extractor is caught here, so that it breaks only its own outlet
-    rather than the whole run.
+
+def _classify(fetcher: Fetcher, model_error: str | None) -> _Classified:
+    """Return a fetched outlet's scored headlines, their count and any errors.
+
+    A broken extractor or a failing model is caught here, so that it breaks
+    only its own outlet rather than the whole run; `model_error` is why the
+    model could not be loaded at all, if it could not.
     """
     try:
         found = len(fetcher.fetch())
     except Exception as e:  # noqa: BLE001 (any extractor failure is the outlet's)
         logger.warning(f"Could not parse {fetcher.newspaper.name!r}: {e!r}")
-        return [], 0, repr(e)
-    return fetcher.classify(), found, None
+        return _Classified([], 0, repr(e), None)
+    if model_error is not None:
+        return _Classified([], found, None, model_error)
+    try:
+        headlines = fetcher.classify()
+    except Exception as e:  # noqa: BLE001 (a scoring failure is the outlet's too)
+        logger.error(f"Could not score {fetcher.newspaper.name!r}: {e!r}")
+        return _Classified([], found, None, repr(e))
+    return _Classified(headlines, found, None, None)
 
 
 async def _scrape_newspapers(
     outlets: list[Newspaper], reference_bytes: dict[str, int]
 ) -> Scrape:
-    model = AllModels()
+    model, model_error = None, None
+    try:
+        model = AllModels()
+    except Exception as e:  # noqa: BLE001 (the health report must still be written)
+        logger.error(f"Could not load the scoring models: {e!r}")
+        model_error = repr(e)
     fetchers = [Fetcher(newspaper=newspaper, model=model) for newspaper in outlets]
     timeout = aiohttp.ClientTimeout(total=FETCH_TIMEOUT_SECONDS)
     async with aiohttp.ClientSession(timeout=timeout) as session:
@@ -128,19 +148,20 @@ async def _scrape_newspapers(
 
     scrape = Scrape(headlines=[], health=[], pages={})
     for fetcher, fetch_error in zip(fetchers, fetch_errors, strict=True):
-        headlines, found, parse_error = [], 0, None
+        classified = _Classified([], 0, None, None)
         if fetch_error is None and fetcher.body is not None:
-            headlines, found, parse_error = _classify(fetcher)
+            classified = _classify(fetcher, model_error)
             scrape.pages[fetcher.newspaper.name] = fetcher.body
-        scrape.headlines.extend(headlines)
+        scrape.headlines.extend(classified.headlines)
         scrape.health.append(
             outlet_health(
                 fetcher.newspaper,
                 status=fetcher.status,
                 fetch_error=fetch_error,
                 body=fetcher.body,
-                headlines=found,
-                parse_error=parse_error,
+                headlines=classified.found,
+                parse_error=classified.parse_error,
+                score_error=classified.score_error,
                 reference_bytes=reference_bytes.get(fetcher.newspaper.name),
             )
         )

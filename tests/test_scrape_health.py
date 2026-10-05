@@ -188,3 +188,68 @@ def test_summary_says_so_when_the_day_has_no_health_report(tmp_path: Path) -> No
     text = report.read_text()
     assert "No health report" in text
     assert "| outlet |" not in text
+
+
+def _failing_predict(_self: AllModels, _texts: list[str]) -> list[Scores]:
+    msg = "the model fell over"
+    raise RuntimeError(msg)
+
+
+def test_a_model_that_fails_to_score_still_leaves_a_health_report(
+    monkeypatch: pytest.MonkeyPatch, mock_site_url: str, tmp_path: Path
+) -> None:
+    monkeypatch.setattr(AllModels, "predict", _failing_predict)
+    data_dir = tmp_path / "data"
+
+    update(data_dir=data_dir, out_dir=tmp_path / "public", base_url=mock_site_url)
+
+    health = read_health(data_dir, _today())
+    assert len(health) == len(newspapers)
+    for outlet in health:
+        assert outlet.score_error == "RuntimeError('the model fell over')"
+        assert outlet.parse_error is None
+        assert outlet.verdict == Verdict.OTHER
+    assert not (data_dir / "headlines").exists()
+
+
+def _failing_init(_self: AllModels) -> None:
+    msg = "no model in the cache"
+    raise OSError(msg)
+
+
+def test_a_model_that_fails_to_load_still_leaves_a_health_report(
+    monkeypatch: pytest.MonkeyPatch, mock_site_url: str, tmp_path: Path
+) -> None:
+    monkeypatch.setattr(AllModels, "__init__", _failing_init)
+    data_dir = tmp_path / "data"
+
+    update(data_dir=data_dir, out_dir=tmp_path / "public", base_url=mock_site_url)
+
+    health = read_health(data_dir, _today())
+    assert len(health) == len(newspapers)
+    for outlet in health:
+        assert outlet.score_error == "OSError('no model in the cache')"
+        assert outlet.headlines > 0
+        assert outlet.verdict == Verdict.OTHER
+
+
+def test_a_model_failing_on_one_outlet_spares_the_others(
+    monkeypatch: pytest.MonkeyPatch, mock_site_url: str
+) -> None:
+    good, other = newspapers_from(mock_site_url)[:2]
+
+    def predict(self: AllModels, texts: list[str]) -> list[Scores]:
+        if calls:
+            return _failing_predict(self, texts)
+        calls.append(texts)
+        return _score_half(self, texts)
+
+    calls: list[list[str]] = []
+    monkeypatch.setattr(AllModels, "predict", predict)
+
+    scrape = scrape_newspapers(outlets=[good, other])
+
+    assert {headline.newspaper for headline in scrape.headlines} == {good.name}
+    good_health, other_health = scrape.health
+    assert good_health.verdict == Verdict.OK
+    assert other_health.score_error == "RuntimeError('the model fell over')"

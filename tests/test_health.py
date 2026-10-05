@@ -40,6 +40,7 @@ def _health(  # noqa: PLR0913 (mirrors outlet_health's keyword-only inputs)
     body: bytes | None = PAGE,
     headlines: int = 45,
     parse_error: str | None = None,
+    score_error: str | None = None,
     reference_bytes: int | None = None,
 ) -> OutletHealth:
     return outlet_health(
@@ -49,6 +50,7 @@ def _health(  # noqa: PLR0913 (mirrors outlet_health's keyword-only inputs)
         body=body,
         headlines=headlines,
         parse_error=parse_error,
+        score_error=score_error,
         reference_bytes=reference_bytes,
     )
 
@@ -96,6 +98,38 @@ def test_a_bot_challenge_page_served_with_200_is_not_an_xpath_error(
     assert _health(body=body, headlines=0).verdict == Verdict.OTHER
 
 
+@pytest.mark.parametrize(
+    "snippet",
+    [
+        # Page config of real front pages, all fetched fine on 2026-10-04
+        # the Guardian
+        b'"manyNewsletterVisibleRecaptcha":false,"emailSignupRecaptcha":true',
+        # Newsweek
+        b'"RECAPTCHA_SITE_KEY_V3":"6LdT4i8tAAAAAP_DGG79HqjyadPgic0wYpmLXks0"',
+        b'"account-login-recaptcha":true',  # NBC News
+        b'var tds_captcha="";',  # Washington Examiner
+        b"<h2>Britain&#x27;s iconic youth adventure challenge</h2>",  # BBC
+        b"<p>A handful of members blocked consensus</p>",  # Epoch Times
+    ],
+)
+def test_captcha_words_on_a_real_front_page_are_not_a_bot_challenge(
+    snippet: bytes,
+) -> None:
+    body = b"<html><body>" + snippet + b"x" * 100_000 + b"</body></html>"
+    assert _health(body=body, headlines=0).verdict == Verdict.XPATH
+
+
+def test_a_page_whose_headlines_could_not_be_scored_is_not_ok() -> None:
+    health = _health(score_error="RuntimeError('model failed')")
+    assert health.score_error == "RuntimeError('model failed')"
+    assert health.verdict == Verdict.OTHER
+
+
+def test_a_broken_extractor_stays_an_xpath_error_even_if_scoring_failed() -> None:
+    health = _health(headlines=0, score_error="RuntimeError('model failed')")
+    assert health.verdict == Verdict.XPATH
+
+
 def test_a_page_much_smaller_than_the_last_good_one_is_not_an_xpath_error() -> None:
     health = _health(body=PAGE, headlines=0, reference_bytes=len(PAGE) * 4)
     assert health.verdict == Verdict.OTHER
@@ -131,6 +165,19 @@ def test_health_is_stored_as_one_json_file_per_day(tmp_path: Path) -> None:
     stored = json.loads(path.read_text())
     assert [outlet["verdict"] for outlet in stored] == ["ok", "other"]
     assert read_health(tmp_path, DAY) == report
+
+
+def test_a_report_written_before_score_errors_were_recorded_still_reads(
+    tmp_path: Path,
+) -> None:
+    stored = _health().dict()
+    del stored["score_error"]
+    path = health_path(tmp_path, DAY)
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps([stored]))
+
+    (outlet,) = read_health(tmp_path, DAY)
+    assert outlet.score_error is None
 
 
 def test_the_health_of_a_missing_day_is_empty(tmp_path: Path) -> None:
