@@ -1,0 +1,146 @@
+name: Self-fix runner spike
+
+# Proves the self-fix loop's tooling works on a runner, before any agent is
+# wired in (docs/self-fix-design.md, rollout step 2): an earlier Update run's
+# raw-html artifact downloads, omp installs, canary records a live page
+# headless, and canary screenshots a saved page with every XPath match
+# outlined. Done when the artifacts open and the outlined count equals lxml's.
+# Kept as a manual smoke test for omp and canary upgrades.
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Update run to take raw-html from (default the newest one)
+        default: ""
+      outlet:
+        description: Saved page to screenshot, by file stem
+        default: nypost.com
+      xpath:
+        description: XPath to outline on it
+        default: "//h2[contains(@class, 'story__headline')][a]"
+
+permissions:
+  contents: read
+  actions: read
+
+env:
+  CANARY_VERSION: "0.4.4"
+  OMP_VERSION: v18.6.1
+  OUTLET: ${{ inputs.outlet || 'nypost.com' }}
+  XPATH: ${{ inputs.xpath || '//h2[contains(@class, ''story__headline'')][a]' }}
+
+jobs:
+  spike:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Find the Update run to take raw-html from
+        id: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ inputs.run_id }}
+        run: |
+          set -euo pipefail
+          if [ -z "$RUN_ID" ]; then
+            RUN_ID=$(gh api "repos/$GITHUB_REPOSITORY/actions/artifacts?name=raw-html&per_page=1" \
+              --jq '.artifacts[0].workflow_run.id')
+          fi
+          echo "Using raw-html from run $RUN_ID"
+          echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Download that run's raw-html
+        uses: actions/download-artifact@v8
+        with:
+          name: raw-html
+          path: raw-html
+          run-id: ${{ steps.source.outputs.run_id }}
+          github-token: ${{ github.token }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.2.0
+
+      - name: Install the project
+        run: uv sync --frozen
+
+      - name: Prepare the saved page and count lxml's matches
+        run: >-
+          uv run python -m toxic_news.outline prepare "$OUTLET" "$XPATH"
+          --raw-html-dir raw-html --out-dir evidence
+
+      - name: Install omp
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/omp"
+          cd "$RUNNER_TEMP/omp"
+          gh release download "$OMP_VERSION" -R can1357/oh-my-pi \
+            -p omp-linux-x64 -p SHA256SUMS.txt
+          grep ' omp-linux-x64$' SHA256SUMS.txt | sha256sum -c -
+          chmod +x omp-linux-x64
+          mv omp-linux-x64 omp
+          echo "$RUNNER_TEMP/omp" >> "$GITHUB_PATH"
+
+      - name: Check omp runs
+        run: |
+          set -euo pipefail
+          omp --version
+          omp --help
+
+      - name: Install canary
+        run: |
+          set -euo pipefail
+          npm install -g "@usecanary/cli@$CANARY_VERSION"
+          canary install
+          canary --version
+
+      - name: Record the live page with canary
+        run: |
+          set -euo pipefail
+          id=$(canary session start --name "live $OUTLET" --headless)
+          # end the session even when the step fails, so its report is written
+          status=0
+          canary run evidence/live.js --session "$id" --step open --timeout 90 || status=$?
+          canary session end "$id"
+          [ "$status" -eq 0 ] || exit "$status"
+
+      - name: Screenshot the saved page with every match outlined
+        run: |
+          set -euo pipefail
+          id=$(canary session start --name "evidence $OUTLET" --headless)
+          # end the session even when the step fails, so its report is written
+          status=0
+          canary run evidence/outline.js --session "$id" --step outline --timeout 120 || status=$?
+          canary session end "$id"
+          [ "$status" -eq 0 ] || exit "$status"
+          cp ~/.canary/tmp/outline.json ~/.canary/tmp/"$OUTLET".png evidence/
+
+      - name: Check the outlined count equals lxml's
+        run: uv run python -m toxic_news.outline check evidence/lxml.json evidence/outline.json
+
+      - name: Keep the evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: evidence
+          retention-days: 3
+          path: evidence/
+          if-no-files-found: warn
+
+      - name: Keep the canary sessions
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: canary-sessions
+          retention-days: 3
+          # the browser profile is big and of no use as evidence
+          path: |
+            ~/.canary/sessions/
+            !~/.canary/sessions/*/profile/
+          if-no-files-found: warn
