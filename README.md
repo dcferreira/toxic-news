@@ -124,3 +124,21 @@ The runtime pins are from 2023 and no longer resolve to a working environment on
 their own, so `[tool.uv] constraint-dependencies` in `pyproject.toml` holds
 `transformers`, `huggingface_hub` and `click` at compatible versions. Don't
 remove them without upgrading `optimum` and `typer` at the same time.
+
+## Raising a pull request
+
+PRs are raised with the [pawl](https://github.com/dcferreira/agent-pawl) workflow
+in `.claude/workflows/raise-pr.yaml`. Commit the change (with jj, `jj commit`, so
+the change is `@-` and `@` is empty), then from a Claude Code session with the
+pawl plugin, run:
+
+```bash
+pawl run raise-pr pr_title="fix: flatten the nested Wayback retries" head_branch=my-branch
+```
+
+It checks that the title is a Conventional Commits subject (PRs are
+squash-merged, so the title becomes the commit on `main`), runs the same gates
+as Backend CI, pushes the branch, opens the PR, then loops a Claude review and
+a docs-staleness check, fixing and pushing until a round is clean and CI is
+green. It never merges. `pr_body` sets the description; left out, it is built
+from the commit messages.
