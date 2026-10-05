@@ -63,6 +63,7 @@ main ones are:
 | `poe models` | download the two scoring models into the Hugging Face cache (one-off) |
 | `poe heal` | refetch the days missing from `public/daily` from the Wayback Machine |
 | `poe e2e` | run the whole pipeline against the recorded front pages in `tests/assets/html` — no network, no live outlets |
+| `poe selfheal-check <outlet>` | check a fix of one outlet's extractor against its fixtures, its scope, lint and types, and print a Markdown report ([design](docs/self-fix-design.md)) |
 | `poe build` | build the pipeline container image |
 | `poe update-styles` | rebuild the Tailwind stylesheet |
 | `poe explore` | open the notebook environment (`uv sync --extra explore` first) |

@@ -43,6 +43,7 @@ class Fixture:
     slug: str
     date: date
     html_root: Path = field(default=HTML_ROOT, compare=False)
+    snapshot_root: Path = field(default=PARSE_SNAPSHOTS_ROOT, compare=False)
 
     @property
     def path(self) -> Path:
@@ -52,7 +53,7 @@ class Fixture:
     @property
     def snapshot_path(self) -> Path:
         """Return the headlines this page is recorded to parse to."""
-        return PARSE_SNAPSHOTS_ROOT / self.slug / f"{self.date.isoformat()}.txt"
+        return self.snapshot_root / self.slug / f"{self.date.isoformat()}.txt"
 
     @property
     def request_time(self) -> datetime:
@@ -80,10 +81,14 @@ def parse_fixture_date(stem: str) -> date | None:
         return None
 
 
-def fixtures_for(slug: str, html_root: Path = HTML_ROOT) -> list[Fixture]:
+def fixtures_for(
+    slug: str,
+    html_root: Path = HTML_ROOT,
+    snapshot_root: Path = PARSE_SNAPSHOTS_ROOT,
+) -> list[Fixture]:
     """Return every recorded page of the outlet `slug`, oldest first."""
     fixtures = [
-        Fixture(slug=slug, date=day, html_root=html_root)
+        Fixture(slug=slug, date=day, html_root=html_root, snapshot_root=snapshot_root)
         for path in (html_root / slug).glob("*.html")
         if (day := parse_fixture_date(path.stem)) is not None
     ]
