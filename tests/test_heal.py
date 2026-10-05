@@ -10,7 +10,9 @@ that names a snapshot, and the GET that fetches it.
 
 import asyncio
 import datetime
+import itertools
 import threading
+import time
 from pathlib import Path
 
 import aiohttp
@@ -331,6 +333,35 @@ def test_the_availability_lookup_runs_off_the_event_loop(
 
     assert threads
     assert threading.get_ident() not in threads
+
+
+@pytest.mark.usefixtures("_wayback")
+def test_availability_lookups_are_spaced_out_across_days(
+    assets: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    # concurrent days must not burst the availability API all at once
+    pause = 0.05
+    monkeypatch.setattr("toxic_news.fetchers.WAYBACK_API_PAUSE", pause)
+    calls: list[tuple[float, float]] = []
+
+    def near(_self: object, **kwargs: int) -> _Archive:
+        start = time.monotonic()
+        time.sleep(0.01)
+        calls.append((start, time.monotonic()))
+        return _near(**kwargs)
+
+    monkeypatch.setattr("waybackpy.WaybackMachineAvailabilityAPI.near", near)
+    monkeypatch.setattr(
+        aiohttp.ClientSession, "get", _serve({"20260905": _fox_page(assets)})
+    )
+    days = [_noon(datetime.date(2026, 9, d)) for d in range(1, 6)]
+
+    asyncio.run(_fetch_wayback(FOX, days, None))
+
+    calls.sort()
+    assert len(calls) == len(days)
+    for (_, prev_end), (next_start, _) in itertools.pairwise(calls):
+        assert next_start - prev_end >= pause * 0.9
 
 
 @pytest.mark.usefixtures("_wayback")

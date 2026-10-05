@@ -8,6 +8,7 @@ import asyncio
 import atexit
 import pickle
 import re
+import weakref
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import cast
@@ -38,6 +39,11 @@ HEADERS = {
 
 # seconds to pause after each Wayback availability lookup, to not spam the API
 WAYBACK_API_PAUSE = 1.0
+# one lookup (and its pause) at a time per event loop, however many days are
+# fetched concurrently; per loop since an asyncio.Lock can't span loops
+_wayback_api_locks: weakref.WeakKeyDictionary[
+    asyncio.AbstractEventLoop, asyncio.Lock
+] = weakref.WeakKeyDictionary()
 # seconds an archived page's GET may take before it counts as a failed attempt
 WAYBACK_GET_TIMEOUT = 60
 
@@ -300,8 +306,12 @@ class WaybackFetcher(Fetcher):
     )
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
         if self.wayback_url is None:
-            await asyncio.to_thread(self.get_wayback_url)
-            await asyncio.sleep(WAYBACK_API_PAUSE)  # to not spam the API
+            lock = _wayback_api_locks.setdefault(
+                asyncio.get_running_loop(), asyncio.Lock()
+            )
+            async with lock:
+                await asyncio.to_thread(self.get_wayback_url)
+                await asyncio.sleep(WAYBACK_API_PAUSE)  # to not spam the API
         url = cast("str", self.wayback_url)
         logger.debug(f"Fetching (async) {url!r}...")
         result = await self.session.get(
