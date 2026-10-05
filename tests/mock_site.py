@@ -6,8 +6,9 @@
 
 The pipeline fetches every outlet from a single origin when it is given a base
 URL — `https://bbc.com` is fetched from `<base_url>/bbc.com` — so this server
-only has to map one outlet slug back to its recorded page, `<root>/<slug>.html`.
-Nothing else is served, and no request ever reaches a real newspaper.
+only has to map one outlet slug back to its newest recorded page, the last of
+`<root>/<slug>/<YYYY-MM-DD>.html`. Nothing else is served, and no request ever
+reaches a real newspaper.
 
 It is deliberately stdlib-only and imports nothing from the project or its
 siblings, so this single file can be mounted (or copied into a container) on its
@@ -17,6 +18,7 @@ call `serve` to get the same server on a background thread.
 
 import argparse
 import logging
+import re
 import sys
 import threading
 from collections.abc import Callable, Mapping
@@ -58,8 +60,8 @@ class FixtureHandler(BaseHTTPRequestHandler):
     def do_GET(self) -> None:
         """Serve the front page the requested slug names."""
         slug = urlsplit(self.path).path.strip("/")
-        path = self._fixtures_root() / f"{slug}.html"
-        if not _is_fixture_name(slug) or not path.is_file():
+        path = _newest_page(self._fixtures_root(), slug)
+        if path is None:
             self._not_found(slug)
             return
         self._respond(HTTPStatus.OK, HTML_CONTENT_TYPE, path.read_bytes())
@@ -123,6 +125,22 @@ class FixtureHandler(BaseHTTPRequestHandler):
 def _is_fixture_name(slug: str) -> bool:
     """Return whether `slug` names a fixture, not a path or a hidden file."""
     return bool(slug) and "/" not in slug and not slug.startswith(".")
+
+
+#: A recorded page is named after the date it was recorded on.
+_DATED_PAGE = re.compile(r"\d{4}-\d{2}-\d{2}\.html")
+
+
+def _newest_page(root: Path, slug: str) -> Path | None:
+    """Return the outlet `slug`'s most recent recorded page, if it has any."""
+    if not _is_fixture_name(slug):
+        return None
+    pages = sorted(
+        p
+        for p in (root / slug).glob("*.html")
+        if _DATED_PAGE.fullmatch(p.name) and p.is_file()
+    )
+    return pages[-1] if pages else None
 
 
 def _make_server(root: Path, host: str, port: int) -> FixtureServer:

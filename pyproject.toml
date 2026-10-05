@@ -97,6 +97,11 @@ lint = { sequence = [{ cmd = "ruff check ." }, { cmd = "ruff format --check ." }
 format = { sequence = [{ cmd = "ruff check --fix ." }, { cmd = "ruff format ." }] }
 types = "ty check"
 
+# --- self-fix ----------------------------------------------------------------
+# `poe selfheal-check bbc [--base REF] [--output report.md]`: the gate a fix of
+# one outlet has to pass; see `tests/selfheal_check.py`.
+selfheal-check = "python -m tests.selfheal_check"
+
 # --- packaging / running -----------------------------------------------------
 build = "docker buildx build . -t toxic-news:local"
 e2e = "python -m tests.local_run"
