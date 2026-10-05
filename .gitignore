@@ -1,4 +1,6 @@
 public/
+# the self-fix job's inputs, see tests/selfheal_fix.py
+/selfheal/
 data/
 db/
 .requests_cache/

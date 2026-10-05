@@ -1,0 +1,299 @@
+name: Self-fix
+
+# The self-fix loop's fix job (docs/self-fix-design.md, rollout step 3): for
+# each outlet the day's health report calls `xpath`, or the one asked for, omp
+# on DeepSeek tries a new XPath against the page the Update run saved, and a
+# trusted checkout judges the patch with `poe selfheal-check`. For now every
+# run is a dry run: the patch and its report are kept as artifacts, and no PR
+# is opened (the PR job is rollout step 4).
+#
+# DeepSeek is only ever called off-peak: a run, and each outlet's session,
+# that could reach DeepSeek's peak hours is refused or deferred, and any
+# schedule given to this workflow has to fall off-peak too. There is no
+# override.
+#
+# Three jobs, so the DeepSeek key and the agent's code never share a job with
+# anything that matters:
+#   prepare  reads the run's pages and the data branch; no secrets
+#   fix      runs the agent; holds the key, and the token can only read
+#   check    gates the patch, then applies and judges it; no secrets
+
+on:
+  workflow_dispatch:
+    inputs:
+      outlet:
+        description: Outlet to fix (bbc.com, BBC or bbc); empty for every outlet the health report calls xpath
+        default: ""
+      run_id:
+        description: Update run to take raw-html from (default the newest one)
+        default: ""
+      dry_run:
+        description: Stop after the fix job (the only mode until the PR job exists)
+        type: boolean
+        default: true
+
+permissions: {}
+
+concurrency:
+  group: selfheal
+  cancel-in-progress: false
+
+env:
+  OMP_VERSION: v18.6.1
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: read
+    outputs:
+      outlets: ${{ steps.prepare.outputs.outlets }}
+    steps:
+      - name: Refuse anything but a dry run
+        if: ${{ !inputs.dry_run }}
+        run: |
+          echo "::error::Only dry runs exist yet: the PR job is rollout step 4."
+          exit 1
+
+      - name: Check out the code
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Find the Update run to take raw-html from
+        id: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ inputs.run_id }}
+        run: |
+          set -euo pipefail
+          if [ -z "$RUN_ID" ]; then
+            RUN_ID=$(gh api "repos/$GITHUB_REPOSITORY/actions/artifacts?name=raw-html&per_page=20" \
+              --jq '[.artifacts[] | select(.expired | not)][0].workflow_run.id // empty')
+          fi
+          if [ -z "$RUN_ID" ]; then
+            echo "::error::No Update run with an unexpired raw-html artifact"
+            exit 1
+          fi
+          # the day the run fetched its pages, which its health report is filed under
+          DAY=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$RUN_ID" --jq '.run_started_at[:10]')
+          echo "Using raw-html from run $RUN_ID, of $DAY"
+          echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
+          echo "day=$DAY" >> "$GITHUB_OUTPUT"
+
+      - name: Download that run's raw-html
+        uses: actions/download-artifact@v8
+        with:
+          name: raw-html
+          path: raw-html
+          run-id: ${{ steps.source.outputs.run_id }}
+          github-token: ${{ github.token }}
+
+      - name: Check out the data branch
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 "https://github.com/$GITHUB_REPOSITORY" data
+          git worktree add --detach data FETCH_HEAD
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.2.0
+        with:
+          # agent-written code runs in these jobs; a cache it could write
+          # would be restored by Update, which can push
+          enable-cache: false
+
+      - name: Install the project
+        run: uv sync --frozen
+
+      # DeepSeek runs only ever happen off-peak (rates double in its peak
+      # hours, see PEAK_HOURS_UTC in tests/selfheal_fix.py). This fails a run
+      # started too close to them; each fix leg checks again before omp starts
+      # and defers its outlet if its session could reach a peak.
+      - name: Refuse to start in DeepSeek's peak hours
+        run: uv run poe selfheal-fix off-peak --needs 20m
+
+      - name: Write each outlet's inputs
+        id: prepare
+        env:
+          DAY: ${{ steps.source.outputs.day }}
+          OUTLET: ${{ inputs.outlet }}
+        run: |
+          set -euo pipefail
+          uv run poe selfheal-fix prepare --raw-html-dir raw-html --data-dir data \
+            --date "$DAY" --out-dir selfheal ${OUTLET:+--outlet "$OUTLET"}
+          echo "outlets=$(cat selfheal/outlets.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Keep the inputs
+        uses: actions/upload-artifact@v7
+        with:
+          name: selfheal-inputs
+          retention-days: 14
+          path: selfheal/
+
+  fix:
+    needs: prepare
+    if: needs.prepare.outputs.outlets != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # the only job that can read DEEPSEEK_API_KEY
+    environment: selfheal
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        outlet: ${{ fromJSON(needs.prepare.outputs.outlets) }}
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Download the inputs
+        uses: actions/download-artifact@v8
+        with:
+          name: selfheal-inputs
+          path: selfheal
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.2.0
+        with:
+          # agent-written code runs in these jobs; a cache it could write
+          # would be restored by Update, which can push
+          enable-cache: false
+
+      - name: Install the project
+        run: uv sync --frozen
+
+      - name: Install omp
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/omp"
+          cd "$RUNNER_TEMP/omp"
+          gh release download "$OMP_VERSION" -R can1357/oh-my-pi \
+            -p omp-linux-x64 -p SHA256SUMS.txt
+          grep ' omp-linux-x64$' SHA256SUMS.txt | sha256sum -c -
+          chmod +x omp-linux-x64
+          mv omp-linux-x64 omp
+          echo "$RUNNER_TEMP/omp" >> "$GITHUB_PATH"
+
+      - name: Let the agent fix ${{ matrix.outlet }}
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OUTLET: ${{ matrix.outlet }}
+        run: uv run poe selfheal-fix agent "$OUTLET" --out-dir "$RUNNER_TEMP/fix"
+
+      - name: Keep the patch and the session
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: selfheal-fix-${{ matrix.outlet }}
+          retention-days: 14
+          path: ${{ runner.temp }}/fix/
+          if-no-files-found: warn
+
+  check:
+    needs: [prepare, fix]
+    if: >-
+      !cancelled()
+      && needs.prepare.result == 'success'
+      && needs.prepare.outputs.outlets != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        outlet: ${{ fromJSON(needs.prepare.outputs.outlets) }}
+    env:
+      OUTLET: ${{ matrix.outlet }}
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Download the inputs
+        uses: actions/download-artifact@v8
+        with:
+          name: selfheal-inputs
+          path: ${{ runner.temp }}/inputs
+
+      # Kept apart from the check's own report, so a file the agent left
+      # can never pass for it.
+      - name: Download the patch
+        uses: actions/download-artifact@v8
+        with:
+          name: selfheal-fix-${{ matrix.outlet }}
+          path: ${{ runner.temp }}/agent
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.2.0
+        with:
+          # agent-written code runs in these jobs; a cache it could write
+          # would be restored by Update, which can push
+          enable-cache: false
+
+      - name: Install the project
+        run: uv sync --frozen
+
+      - name: See whether the agent left a patch
+        id: patch
+        run: |
+          if [ -s "$RUNNER_TEMP/agent/patch.diff" ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "The agent left no patch."
+          fi
+
+      # Before any of the patch's code runs: it may only add today's page and
+      # snapshot and change the outlet's own entry in newspapers.py, so it
+      # cannot change the checker that judges it.
+      - name: Refuse a patch beyond ${{ matrix.outlet }}
+        if: steps.patch.outputs.found
+        run: >-
+          uv run poe selfheal-fix gate "$RUNNER_TEMP/inputs/$OUTLET/task.json"
+          "$RUNNER_TEMP/agent/patch.diff"
+
+      - name: Apply the patch
+        if: steps.patch.outputs.found
+        run: git apply "$RUNNER_TEMP/agent/patch.diff"
+
+      # From here on the patch's code runs, imported by the checker, so the
+      # verdict is advisory: a human reads the patch before anything merges.
+      - name: Judge the fix
+        if: steps.patch.outputs.found
+        run: |
+          mkdir -p "$RUNNER_TEMP/check"
+          uv run poe selfheal-check "$OUTLET" \
+            --page "$RUNNER_TEMP/inputs/$OUTLET/today.html" \
+            --output "$RUNNER_TEMP/check/report.md"
+
+      - name: Summarise the attempt
+        if: always()
+        run: |
+          {
+            echo "## $OUTLET"
+            echo
+            echo '```json'
+            # the agent wrote parts of it: keep it inside the code block
+            tr -d '`' < "$RUNNER_TEMP/agent/result.json" 2>/dev/null || echo "no result.json"
+            echo '```'
+            echo
+            cat "$RUNNER_TEMP/check/report.md" 2>/dev/null || echo "selfheal-check did not run."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep the report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: selfheal-check-${{ matrix.outlet }}
+          retention-days: 14
+          path: ${{ runner.temp }}/check/report.md
+          if-no-files-found: ignore
