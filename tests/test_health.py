@@ -19,7 +19,7 @@ from toxic_news.health import (
     reference_sizes,
     write_health,
 )
-from toxic_news.newspapers import Newspaper, get_xpath_fn
+from toxic_news.newspapers import Newspaper, get_xpath_fn, newspapers
 
 BBC = Newspaper(
     name="BBC",
@@ -200,3 +200,23 @@ def test_reference_sizes_only_look_back_a_bounded_number_of_days(
 ) -> None:
     write_health(tmp_path, DAY - 40 * ONE_DAY, [_health(body=b"a" * 100)])
     assert reference_sizes(tmp_path, DAY, lookback_days=30) == {}
+
+
+# Fox News's live counts in the health reports of 2026-09-29 to 2026-10-04,
+# all from real front pages, and the count of the recorded fixture
+@pytest.mark.parametrize("headlines", [125, 175, 178, 182, 183, 187])
+def test_fox_news_is_ok_at_the_counts_its_front_page_really_has(
+    headlines: int,
+) -> None:
+    fox = next(n for n in newspapers if n.name == "Fox News")
+    health = outlet_health(
+        fox,
+        status=200,
+        fetch_error=None,
+        body=PAGE,
+        headlines=headlines,
+        parse_error=None,
+        score_error=None,
+        reference_bytes=None,
+    )
+    assert health.verdict == Verdict.OK

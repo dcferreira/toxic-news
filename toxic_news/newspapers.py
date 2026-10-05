@@ -233,7 +233,8 @@ newspapers = [
                 href_xpath="a",
             ),
         ),
-        expected_headlines=125,
+        # 175-187 live in 2026-09/10, sat on 125's upper bound (175) and flapped
+        expected_headlines=180,
     ),
     Newspaper(
         name="Newsmax",
