@@ -5,12 +5,10 @@
 # left in the working copy as "review round N" and pushes it to the PR's
 # branch, under either VCS this repo (or any repo this workflow runs
 # against) might use. prepare-review.sh has already checked, at the start
-# of this round, that the working copy was clean and sat on the PR head,
-# and the reviewers_left_tree_clean step checked (with the same
-# check-clean.sh) that the round's reviewers left it clean too — so what
+# of this round, that the working copy was clean and sat on the PR head.
+# The reviewers are read-only (Read/Grep/Glob and gh only), so only
+# fix_issues can touch the tree between that check and this step — what
 # this commits is fix_issues' work, not a reviewer's cache or report files.
-# (A ci_failure round reaches here without re-running reviewers; nothing
-# but fix_issues touched the tree since the last clean check.)
 #
 # Fast-forward only: the PR branch's remote head is fetched first (under
 # both VCSes, so a push someone else made since this round started is seen

@@ -8,11 +8,9 @@
 # stderr and exits 1.
 #
 # fix-push.sh commits *everything* in the working copy as the round's fix,
-# so the tree must be clean both where a round starts (prepare-review.sh)
-# and right after the round's reviewers ran (the `reviewers_left_tree_clean`
-# step): ai_review_custom runs an arbitrary user-typed command in the
-# working copy, and any cache, report or reformatted file it leaves behind
-# would otherwise be pushed to the PR as part of "review round N".
+# so the tree must be clean where a round starts (prepare-review.sh). The
+# reviewers are read-only (Read/Grep/Glob and gh only), so only fix_issues
+# can touch the tree between that check and fix_push.
 set -eu
 
 vcs="${1:?check-clean.sh: vcs argument required}"

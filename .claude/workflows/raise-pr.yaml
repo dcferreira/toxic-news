@@ -85,10 +85,10 @@ start: preflight
 # round can pass through unchanged_route's `ask` at most once).
 # 4 rounds x 21 entries = 84, plus fetch_pr and headroom for a step
 # genuinely retried under its own attempts:/max_visits: before failing
-# outright — max_steps: 120 gives that headroom without being so loose it
+# outright — max_steps: 125 gives that headroom without being so loose it
 # stops meaning anything (the prior graph's 300 was sized for a ~23-entry
 # worst round x 10 rounds; this graph's worst round and round cap are both
-# smaller). The front end adds 3 entries.
+# smaller). The 125 is 120 plus the 3 front-end entries plus headroom.
 max_steps: 125
 
 args:

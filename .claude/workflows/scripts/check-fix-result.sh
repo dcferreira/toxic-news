@@ -70,7 +70,8 @@ fail=0
 reasons=""
 
 add_reason() {
-  reasons="${reasons}${reasons:+$(printf '\n')}$1"
+  reasons="${reasons}${reasons:+
+}$1"
 }
 
 if ! printf '%s' "$findings" | jq -e 'type == "array"' >/dev/null 2>&1; then
@@ -127,7 +128,7 @@ if [ "$ci_round" != "true" ]; then
   case "$vcs" in
     jj) changed=$(jj diff --name-only) ;;
     git)
-      changed=$(git status --porcelain | sed -E 's/^.. //; s/.* -> //')
+      changed=$(git -c core.quotePath=false status --porcelain -uall | sed -E 's/^.. //; s/.* -> //')
       ;;
     *)
       echo "check-fix-result.sh: unknown vcs '${vcs}' (expected jj or git)" >&2
