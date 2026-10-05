@@ -54,7 +54,12 @@ The `update` job records, per outlet:
 - the number of headlines extracted, against `expected_headlines`;
 - whether the extractor raised (parse errors are caught per outlet, so one
   broken outlet cannot crash the run);
+- whether scoring failed (a model that fails to load or to score is caught
+  too, and makes an outlet whose extractor worked `other`);
 - a verdict: `ok`, `xpath` or `other`.
+
+A page is decoded as its declared charset, then UTF-8, then UTF-8 with bad
+bytes replaced, so an encoding slip never passes for an extractor error.
 
 An outlet is **`xpath`** when all of these hold:
 
@@ -70,7 +75,8 @@ An outlet is **`xpath`** when all of these hold:
 
 A failure that is not `xpath` is `other`.
 
-The report is committed to the `data` branch as `health/YYYY/MM/DD.json`,
+The report is committed to the `data` branch as `health/YYYY/MM/DD.json`
+(alone, if the run failed after writing it),
 written to the step summary, and the raw HTML of every outlet is uploaded as
 an artifact with 14-day retention. An `aiohttp.ClientTimeout` bounds how long
 one hung outlet can hold up the run.
@@ -262,7 +268,9 @@ Each step has to prove itself before the next starts.
    5. separately, the `heal` job's naive/aware datetime `TypeError`.
 
    Done when a week of health reports exists and the saved pages of the
-   current candidates confirm the real-page heuristic.
+   current candidates confirm the real-page heuristic. (Checked on the pages
+   of 2026-09-29 to 10-04: all seven `xpath` outlets served their real front
+   page every day; the Guardian's ~90 "captcha" hits are reCAPTCHA settings.)
 1. **Triage only**: issues, no agent. Done after a week of correct classes,
    no duplicates, and issues closing on recovery.
 2. **Runner spike**: canary headless, the saved-HTML screenshot, installing
