@@ -63,6 +63,23 @@ def validate_url(url: str) -> bool:
         return True
 
 
+def decode_page(body: bytes, charset: str | None) -> str:
+    """Return `body` as text, decoded as its declared `charset` or else UTF-8.
+
+    A page that is not valid in either has its bad bytes replaced, rather than
+    failing outright: a stray byte must not pass for a broken extractor.
+    """
+    for encoding in (charset, "utf-8"):
+        if encoding is None:
+            continue
+        try:
+            return body.decode(encoding)
+        except (LookupError, UnicodeDecodeError):
+            continue
+    logger.warning("Page is not valid in its declared charset; replacing bad bytes")
+    return body.decode("utf-8", errors="replace")
+
+
 class Fetcher:
     """Fetch, cache and classify the headlines of one newspaper front page."""
 
@@ -181,7 +198,8 @@ class Fetcher:
         """Return the page content, fetching it on first access."""
         if self._content is None:
             self._request()
-        return cast("bytes", self._content).decode()
+        charset = None if self._response is None else self._response.charset
+        return decode_page(cast("bytes", self._content), charset)
 
     @property
     def request_time(self) -> datetime:

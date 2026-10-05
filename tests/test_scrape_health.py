@@ -253,3 +253,41 @@ def test_a_model_failing_on_one_outlet_spares_the_others(
     good_health, other_health = scrape.health
     assert good_health.verdict == Verdict.OK
     assert other_health.score_error == "RuntimeError('the model fell over')"
+
+
+def test_a_page_that_is_not_valid_utf8_is_still_parsed(tmp_path: Path) -> None:
+    site = tmp_path / "site"
+    bbc = next(n for n in newspapers if n.name == "BBC")
+    fixture = latest_fixture(slug_of(bbc))
+    # a stray Latin-1 byte, as a page mislabelled utf-8 would carry
+    page = fixture.path.read_bytes().replace(b"<body", b"<!-- caf\xe9 --><body", 1)
+    served = site / fixture.slug / fixture.path.name
+    served.parent.mkdir(parents=True)
+    served.write_bytes(page)
+    server, origin = serve(site)
+    try:
+        outlet = next(n for n in newspapers_from(origin) if n.name == bbc.name)
+        scrape = scrape_newspapers(outlets=[outlet])
+    finally:
+        server.shutdown()
+        server.server_close()
+
+    (health,) = scrape.health
+    assert health.parse_error is None
+    assert health.verdict == Verdict.OK
+
+
+def _raising_with_the_page(*_args: object, **_kwargs: object) -> list[tuple[str, str]]:
+    """An extractor whose error carries the whole page, as a decode error does."""
+    raise ValueError("x" * 100_000)
+
+
+def test_a_parse_error_is_recorded_without_the_whole_page(mock_site_url: str) -> None:
+    outlet = newspapers_from(mock_site_url)[0]
+    broken = outlet.copy(update={"get_headlines_fn": _raising_with_the_page})
+
+    (health,) = scrape_newspapers(outlets=[broken]).health
+
+    assert health.parse_error is not None
+    assert health.parse_error.startswith("ValueError('xxx")
+    assert len(health.parse_error) <= 500

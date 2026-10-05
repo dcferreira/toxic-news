@@ -97,10 +97,20 @@ async def _fetch_all(
     for fetcher, result in zip(fetchers, results, strict=True):
         if isinstance(result, BaseException):
             logger.warning(f"Could not fetch {fetcher.newspaper.name!r}: {result!r}")
-            errors.append(repr(result))
+            errors.append(_describe(result))
         else:
             errors.append(None)
     return errors
+
+
+# Errors are stored in the health report, and some carry a whole page in their
+# repr (a decode error holds the bytes it failed on): keep only their start.
+MAX_ERROR_CHARS = 500
+
+
+def _describe(error: BaseException) -> str:
+    """Return `error`'s repr, cut short enough to store in the health report."""
+    return repr(error)[:MAX_ERROR_CHARS]
 
 
 class _Classified(NamedTuple):
@@ -121,14 +131,14 @@ def _classify(fetcher: Fetcher, model_error: str | None) -> _Classified:
         found = len(fetcher.fetch())
     except Exception as e:  # noqa: BLE001 (any extractor failure is the outlet's)
         logger.warning(f"Could not parse {fetcher.newspaper.name!r}: {e!r}")
-        return _Classified([], 0, repr(e), None)
+        return _Classified([], 0, _describe(e), None)
     if model_error is not None:
         return _Classified([], found, None, model_error)
     try:
         headlines = fetcher.classify()
     except Exception as e:  # noqa: BLE001 (a scoring failure is the outlet's too)
         logger.error(f"Could not score {fetcher.newspaper.name!r}: {e!r}")
-        return _Classified([], found, None, repr(e))
+        return _Classified([], found, None, _describe(e))
     return _Classified(headlines, found, None, None)
 
 
@@ -140,7 +150,7 @@ async def _scrape_newspapers(
         model = AllModels()
     except Exception as e:  # noqa: BLE001 (the health report must still be written)
         logger.error(f"Could not load the scoring models: {e!r}")
-        model_error = repr(e)
+        model_error = _describe(e)
     fetchers = [Fetcher(newspaper=newspaper, model=model) for newspaper in outlets]
     timeout = aiohttp.ClientTimeout(total=FETCH_TIMEOUT_SECONDS)
     async with aiohttp.ClientSession(timeout=timeout) as session:

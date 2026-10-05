@@ -13,7 +13,13 @@ import pytest
 from aiohttp import ClientResponse
 
 from tests.fixtures import Fixture, all_fixtures, earliest_fixture, slug_of
-from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher
+from toxic_news.fetchers import (
+    Fetcher,
+    Headline,
+    Newspaper,
+    WaybackFetcher,
+    decode_page,
+)
 from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import newspapers
 
@@ -126,10 +132,11 @@ class _StubContent:
 
 
 class _StubResponse:
-    """The `status` and `content` a fetch reads off a response."""
+    """The `status`, `charset` and `content` a fetch reads off a response."""
 
     def __init__(self, content: bytes) -> None:
         self.status = 200
+        self.charset = None
         self.content = _StubContent(content)
 
 
@@ -248,3 +255,20 @@ def test_wayback_sync():
         assert f._response is not None
         assert f._response.status == 200
         assert isinstance(f.content, str)
+
+
+@pytest.mark.parametrize(
+    ("body", "charset", "text"),
+    [
+        ("café".encode(), "utf-8", "café"),
+        ("café".encode(), None, "café"),
+        ("café".encode("latin-1"), "ISO-8859-1", "café"),
+        # mislabelled: the bad byte is replaced rather than failing the page
+        ("café".encode("latin-1"), "utf-8", "caf�"),
+        ("café".encode("latin-1"), None, "caf�"),
+        # an unknown charset falls back to utf-8
+        ("café".encode(), "no-such-charset", "café"),
+    ],
+)
+def test_decode_page(body: bytes, charset: str | None, text: str) -> None:
+    assert decode_page(body, charset) == text
