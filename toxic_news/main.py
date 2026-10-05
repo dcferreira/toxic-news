@@ -20,9 +20,11 @@ from tqdm import tqdm
 
 from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher, clean_url
 from toxic_news.health import (
+    MIN_PAGE_BYTES,
     OutletHealth,
     Verdict,
     headline_count_is_ok,
+    looks_like_challenge,
     outlet_health,
     read_health,
     reference_sizes,
@@ -97,30 +99,60 @@ async def _fetch_all(
     for fetcher, result in zip(fetchers, results, strict=True):
         if isinstance(result, BaseException):
             logger.warning(f"Could not fetch {fetcher.newspaper.name!r}: {result!r}")
-            errors.append(repr(result))
+            errors.append(_describe(result))
         else:
             errors.append(None)
     return errors
 
 
-def _classify(fetcher: Fetcher) -> tuple[list[Headline], int, str | None]:
-    """Return a fetched outlet's scored headlines, their count and any parse error.
+# Errors are stored in the health report, and some carry a whole page in their
+# repr (a decode error holds the bytes it failed on): keep only their start.
+MAX_ERROR_CHARS = 500
 
-    A broken extractor is caught here, so that it breaks only its own outlet
-    rather than the whole run.
+
+def _describe(error: BaseException) -> str:
+    """Return `error`'s repr, cut short enough to store in the health report."""
+    return repr(error)[:MAX_ERROR_CHARS]
+
+
+class _Classified(NamedTuple):
+    headlines: list[Headline]
+    found: int
+    parse_error: str | None
+    score_error: str | None
+
+
+def _classify(fetcher: Fetcher, model_error: str | None) -> _Classified:
+    """Return a fetched outlet's scored headlines, their count and any errors.
+
+    A broken extractor or a failing model is caught here, so that it breaks
+    only its own outlet rather than the whole run; `model_error` is why the
+    model could not be loaded at all, if it could not.
     """
     try:
         found = len(fetcher.fetch())
     except Exception as e:  # noqa: BLE001 (any extractor failure is the outlet's)
         logger.warning(f"Could not parse {fetcher.newspaper.name!r}: {e!r}")
-        return [], 0, repr(e)
-    return fetcher.classify(), found, None
+        return _Classified([], 0, _describe(e), None)
+    if model_error is not None:
+        return _Classified([], found, None, model_error)
+    try:
+        headlines = fetcher.classify()
+    except Exception as e:  # noqa: BLE001 (a scoring failure is the outlet's too)
+        logger.error(f"Could not score {fetcher.newspaper.name!r}: {e!r}")
+        return _Classified([], found, None, _describe(e))
+    return _Classified(headlines, found, None, None)
 
 
 async def _scrape_newspapers(
     outlets: list[Newspaper], reference_bytes: dict[str, int]
 ) -> Scrape:
-    model = AllModels()
+    model, model_error = None, None
+    try:
+        model = AllModels()
+    except Exception as e:  # noqa: BLE001 (the health report must still be written)
+        logger.error(f"Could not load the scoring models: {e!r}")
+        model_error = _describe(e)
     fetchers = [Fetcher(newspaper=newspaper, model=model) for newspaper in outlets]
     timeout = aiohttp.ClientTimeout(total=FETCH_TIMEOUT_SECONDS)
     async with aiohttp.ClientSession(timeout=timeout) as session:
@@ -128,19 +160,20 @@ async def _scrape_newspapers(
 
     scrape = Scrape(headlines=[], health=[], pages={})
     for fetcher, fetch_error in zip(fetchers, fetch_errors, strict=True):
-        headlines, found, parse_error = [], 0, None
+        classified = _Classified([], 0, None, None)
         if fetch_error is None and fetcher.body is not None:
-            headlines, found, parse_error = _classify(fetcher)
+            classified = _classify(fetcher, model_error)
             scrape.pages[fetcher.newspaper.name] = fetcher.body
-        scrape.headlines.extend(headlines)
+        scrape.headlines.extend(classified.headlines)
         scrape.health.append(
             outlet_health(
                 fetcher.newspaper,
                 status=fetcher.status,
                 fetch_error=fetch_error,
                 body=fetcher.body,
-                headlines=found,
-                parse_error=parse_error,
+                headlines=classified.found,
+                parse_error=classified.parse_error,
+                score_error=classified.score_error,
                 reference_bytes=reference_bytes.get(fetcher.newspaper.name),
             )
         )
@@ -217,13 +250,36 @@ async def _fetch_wayback(
             for ts in timestamps
         ]
         tasks = [
-            create_task(f.run_request_coroutine())
+            create_task(f.run_request_coroutine(ignore_raise=True))
             for f, ts in zip(fetchers, timestamps, strict=False)
             if not f.load(ts)  # check if there's cache before making a task
         ]
         await asyncio.gather(*tasks)
 
-        return [f.classify() for f in tqdm(fetchers)]
+        return [_archived_headlines(f) for f in tqdm(fetchers)]
+
+
+def _archived_headlines(fetcher: WaybackFetcher) -> list[Headline]:
+    """Return an archived front page's scored headlines, or none if it is not one.
+
+    A failed fetch, a bot challenge the Wayback Machine archived in place of
+    the page, or an extractor that raises costs only its own day.
+    """
+    name = fetcher.newspaper.name
+    day = fetcher.date.strftime(date_fmt)
+    body = fetcher.body
+    if not body:
+        return []  # the failed fetch was already logged
+    if looks_like_challenge(body) or len(body) < MIN_PAGE_BYTES:
+        logger.warning(f"Not a front page: {name} @ {day} ({len(body)} bytes)")
+        return []
+    try:
+        fetcher.fetch()
+    except Exception as e:  # noqa: BLE001 (one bad snapshot must not stop the heal)
+        logger.warning(f"Could not parse {name} @ {day}: {e!r}")
+        return []
+    # unlike a bad snapshot, a failing model would lose every day: let it raise
+    return fetcher.classify()
 
 
 def _noon(day: datetime.date) -> datetime.datetime:
@@ -269,6 +325,11 @@ def update(
     headlines = scrape.headlines
     if not headlines:
         logger.warning("Nothing was scraped; leaving the published data untouched")
+        if any(outlet.score_error is not None for outlet in scrape.health):
+            # the models are down, not the outlets: fail the job so it is seen,
+            # now that the health report saying so is written
+            logger.error("Nothing could be scored")
+            raise typer.Exit(code=1)
         return
 
     write_headlines(data_dir, today, headlines)
@@ -470,7 +531,8 @@ def summary(
             f"**{total} headlines; {ok}/{len(health)} outlets ok.** "
             "`xpath`: the page was fetched but its extractor no longer matches "
             "it. `other`: the outlet could not be fetched as a front page "
-            "(blocked, bot challenge, timeout)."
+            "(blocked, bot challenge, timeout), or its headlines could not be "
+            "scored."
         ),
         "",
         "| outlet | status | headlines | expected | verdict |",

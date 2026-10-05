@@ -63,6 +63,25 @@ def validate_url(url: str) -> bool:
         return True
 
 
+def decode_page(body: bytes, charset: str | None) -> str:
+    """Return `body` as text, decoded as UTF-8 or else its declared `charset`.
+
+    UTF-8 goes first because it fails loudly on anything else, while a Latin-1
+    `charset` would decode a mislabelled UTF-8 page into mojibake. A page valid
+    in neither has its bad bytes replaced, rather than failing outright: a
+    stray byte must not pass for a broken extractor.
+    """
+    for encoding in ("utf-8", charset):
+        if encoding is None:
+            continue
+        try:
+            return body.decode(encoding)
+        except (LookupError, UnicodeDecodeError):
+            continue
+    logger.warning("Page is not valid in its declared charset; replacing bad bytes")
+    return body.decode("utf-8", errors="replace")
+
+
 class Fetcher:
     """Fetch, cache and classify the headlines of one newspaper front page."""
 
@@ -118,7 +137,11 @@ class Fetcher:
             with load_path.open("rb") as fd:
                 d = pickle.load(fd)  # noqa: S301 (project's own local scrape cache)
                 self._content = d["content"]
-                self._request_time = d["request_time"]
+                request_time = d["request_time"]
+                # caches written before Wayback times were made aware hold naive UTC
+                if request_time.tzinfo is None:
+                    request_time = request_time.replace(tzinfo=timezone.utc)
+                self._request_time = request_time
             return True
         return False
 
@@ -181,7 +204,8 @@ class Fetcher:
         """Return the page content, fetching it on first access."""
         if self._content is None:
             self._request()
-        return cast("bytes", self._content).decode()
+        charset = None if self._response is None else self._response.charset
+        return decode_page(cast("bytes", self._content), charset)
 
     @property
     def request_time(self) -> datetime:
@@ -257,7 +281,8 @@ class WaybackFetcher(Fetcher):
                 hour=self.date.hour,
                 minute=self.date.minute,
             )
-            self._request_time = archive.timestamp()
+            # waybackpy hands back a naive time, in UTC
+            self._request_time = archive.timestamp().replace(tzinfo=timezone.utc)
             time.sleep(1)  # blocking sleep, to not spam the API
 
             # use the `id_` flag to get the original copy
@@ -291,15 +316,17 @@ class WaybackFetcher(Fetcher):
         try:
             self._response, self._content = await self._request_coroutine()
         except RetryError:
-            if ignore_raise:
-                logger.warning(
-                    f"Failed to fetch for {self.newspaper} @ "
-                    f"{self.request_time.strftime('%Y/%m/%d')}. "
-                    f"Url used was {self.wayback_url=}"
-                )
-                self._content = b""
-            else:
+            if not ignore_raise:
                 raise
+            # the requested date, not `request_time`: reading that would fetch
+            # again, and a failed fetch has nothing to save to the cache
+            logger.warning(
+                f"Failed to fetch {self.newspaper.name} @ "
+                f"{self.date.strftime('%Y/%m/%d')}. "
+                f"Url used was {self.wayback_url=}"
+            )
+            self._content = b""
+            return self._content
         if self.cache_dir is not None:
             self.save()
         if self._content is None:

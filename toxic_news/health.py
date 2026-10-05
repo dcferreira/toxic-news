@@ -38,7 +38,7 @@ MIN_PAGE_BYTES = 20_000
 
 # Markers of the bot challenges outlets serve with a 200 status. They are kept
 # specific on purpose: a plain "captcha" appears on ordinary front pages, in
-# newsletter sign-up forms.
+# newsletter sign-up forms and reCAPTCHA settings (the Guardian's has ~90).
 CHALLENGE_MARKERS = (
     b"<title>just a moment",  # Cloudflare
     b"__cf_chl_",  # Cloudflare
@@ -66,6 +66,8 @@ class OutletHealth(BaseModel):
     status: int | None
     fetch_error: str | None
     parse_error: str | None
+    # absent from reports written before scoring failures were recorded
+    score_error: str | None = None
     body_bytes: int | None
     headlines: int
     expected: int
@@ -103,13 +105,15 @@ def _verdict(  # noqa: PLR0913 (every observation of the run bears on the verdic
     body: bytes | None,
     headlines: int,
     parse_error: str | None,
+    score_error: str | None,
     expected: int,
     reference_bytes: int | None,
 ) -> Verdict:
     if fetch_error is not None or body is None:
         return Verdict.OTHER
     if parse_error is None and headline_count_is_ok(headlines, expected):
-        return Verdict.OK
+        # the extractor works; a scoring failure is no XPath's to fix
+        return Verdict.OK if score_error is None else Verdict.OTHER
     if status != HTTP_OK or looks_like_challenge(body) or len(body) < MIN_PAGE_BYTES:
         return Verdict.OTHER
     if (
@@ -128,12 +132,15 @@ def outlet_health(  # noqa: PLR0913 (every observation of the run bears on the v
     body: bytes | None,
     headlines: int,
     parse_error: str | None,
+    score_error: str | None,
     reference_bytes: int | None,
 ) -> OutletHealth:
     """Return the health of `newspaper` given what fetching and parsing it gave.
 
     `reference_bytes` is the size of the outlet's last good page, if one is
     known; a page much smaller than it is not treated as the front page.
+    `score_error` is why the headlines found could not be scored, if they
+    could not.
     """
     return OutletHealth(
         newspaper=newspaper.name,
@@ -141,6 +148,7 @@ def outlet_health(  # noqa: PLR0913 (every observation of the run bears on the v
         status=status,
         fetch_error=fetch_error,
         parse_error=parse_error,
+        score_error=score_error,
         body_bytes=None if body is None else len(body),
         headlines=headlines,
         expected=newspaper.expected_headlines,
@@ -150,6 +158,7 @@ def outlet_health(  # noqa: PLR0913 (every observation of the run bears on the v
             body=body,
             headlines=headlines,
             parse_error=parse_error,
+            score_error=score_error,
             expected=newspaper.expected_headlines,
             reference_bytes=reference_bytes,
         ),
