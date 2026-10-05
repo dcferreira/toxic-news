@@ -1,0 +1,542 @@
+workflow: raise-pr
+description: >
+  Raise a toxic-news PR from the local head and see it through review and
+  CI: check the title is Conventional Commits (PRs are squash-merged, so it
+  becomes the commit on main), run the same gates Backend CI runs, push the
+  head branch and open the PR (or reuse the branch's open one), then run
+  the review loop ported from agent-pawl's own review-pr workflow — a
+  Claude reviewer and a docs-staleness check every round, findings fixed,
+  pushed and re-checked, delta-scoped after the first full pass — until a
+  round is clean AND CI is green on the head that round reviewed. Never
+  merges, approves or requests a reviewer: Daniel merges.
+start: preflight
+# The front end (preflight, run_gates, open_pr) runs once, in a straight
+# line, before fetch_pr. Everything from fetch_pr on is review-pr's graph
+# unchanged, and so is the reasoning below for its caps.
+# A full round (via prepare_review): prepare_review, fanout_review, its 2
+# branches (ai_review_claude, docs_review — both always run; there is no
+# reviewer picker any more), review_route, then one of:
+#   - `blocking` (-> fix_issues, record_dispositions, fix_push) — 8 entries
+#     to reach fix_push once (5 for prepare_review..review_route + 3).
+#   - `stalled` (-> the `stalled` terminal directly) — review_route's own
+#     entry is the last one of the round; no further steps.
+#   - `optional_only` (-> ask_optional, then either take_optional ->
+#     fix_issues -> record_dispositions -> fix_push [10 entries: 5 base + 1
+#     ask_optional + 4], or skip_optional -> wait_for_ci [8 entries: 5 base
+#     + 1 ask_optional + 1 skip_optional + 1 wait_for_ci]).
+#   - `clean` (-> wait_for_ci directly, shortest path: 6 entries).
+# prepare_review's max_visits (4) caps how many of those full rounds can
+# happen; a 5th entry is the reserved `exhausted` outcome, unrouted here so
+# it takes the engine's default (-> blocked, format-spec §B.4/§B.11).
+#
+# fix_push's `unchanged` outcome (fix_issues left the tree untouched — only
+# declines, no real fixes) does not re-enter review_route (retrying
+# reviewers on an unchanged tree is pointless). It goes to unchanged_route,
+# which resolves `stuck` (terminal — a genuine not-fixed/partially-fixed
+# item is still outstanding, or this round's declines were against a
+# failing CI check that will stay red regardless), `ask` (nothing left
+# unresolved on a review round, but held findings — the ledger's "held"
+# entries, rendered as ${optional_findings} — were never asked about
+# because this round never reached ask_optional), or `to_ci` (nothing left
+# unresolved AND nothing held, on to wait_for_ci, the same as `pushed`
+# would once CI is checked). check-fix-result.sh (fix_issues'
+# postcondition) guarantees a `fixed:`/`partially-fixed:` claim can never
+# reach unchanged_route on an unchanged tree, so "nothing left unresolved"
+# here always means "every item was declined" — see unchanged-route.sh.
+#
+# Both `to_ci` and `ask` can introduce a bounded extra cycle beyond the
+# round's base, and they can chain, since `ask` can itself lead back
+# through fix_issues to a second `unchanged` that then takes the
+# `to_ci`/`ci_failure` cycle:
+#   - `to_ci`: unchanged_route -> wait_for_ci -> ci_failure -> fix_issues ->
+#     record_dispositions -> fix_push, which either pushes (back to
+#     prepare_review, ending this round) or is `unchanged` again — and by
+#     then ci_round is true, so unchanged_route resolves `stuck`
+#     unconditionally.
+#   - `ask`: unchanged_route -> ask_optional -> skip_optional -> wait_for_ci
+#     (the held list emptied, same target as `to_ci`), or -> take_optional
+#     -> fix_issues -> record_dispositions -> fix_push, which either pushes
+#     (ending this round) or is `unchanged` again — and by then
+#     take_optional has emptied the held list, so this second
+#     unchanged_route entry can only resolve `stuck` or `to_ci` (never
+#     `ask` again).
+# The worst single round chains blocking -> fix_issues(1) unchanged ->
+# unchanged_route(1) `ask` -> take_optional -> fix_issues(2) unchanged ->
+# unchanged_route(2) `to_ci` -> wait_for_ci -> ci_failure -> fix_issues(3)
+# -> record_dispositions(3) -> fix_push(3) `pushed`: 5 (prepare_review ..
+# review_route) + 3x3 (fix_issues/record_dispositions/fix_push, entered up
+# to 3 times) + 3 (unchanged_route, same 3 times) + 1 (ask_optional) + 1
+# (take_optional) + 1 (wait_for_ci) + 1 (ci_failure) = 5 + 9 + 3 + 1 + 1 + 1
+# + 1 = 21 entries in one non-terminating round. (This mirrors the
+# reasoning the workflow used before this cut-down, at 8 fewer entries per
+# round from dropping reviewers_left_tree_clean, ai_review_codex and
+# ai_review_custom; we have not exhaustively enumerated every possible
+# interleaving beyond this one worst-case chain, so treat 21 as this
+# reasoning's upper bound, not a formally exhaustive one.)
+#
+# Visit caps: most steps are entered at most once per full round and keep
+# the default max_visits (10). fix_issues, record_dispositions, fix_push
+# and unchanged_route are the exception: the chained cycles above can enter
+# each of them up to 3 times in the same round, so they carry
+# max_visits: 12 (3 x prepare_review's 4-round cap) — otherwise they could
+# hit `exhausted` well before the documented 4-round cap. ask_optional/
+# take_optional/skip_optional stay at the default 10: each is reachable at
+# most once per round (take_optional always empties the held list, so a
+# round can pass through unchanged_route's `ask` at most once).
+# 4 rounds x 21 entries = 84, plus fetch_pr and headroom for a step
+# genuinely retried under its own attempts:/max_visits: before failing
+# outright — max_steps: 120 gives that headroom without being so loose it
+# stops meaning anything (the prior graph's 300 was sized for a ~23-entry
+# worst round x 10 rounds; this graph's worst round and round cap are both
+# smaller). The front end adds 3 entries.
+max_steps: 125
+
+args:
+  # The PR title: a Conventional Commits subject, at most 72 characters
+  # (check-title.sh).
+  pr_title: {type: string, required: true}
+  # The branch to push the local head to (`HEAD` under git, `@-` under jj)
+  # and open the PR from — the worker's slug, or `sc-<id>/<slug>`.
+  head_branch: {type: string, required: true}
+  # The PR body; empty builds it from the proposed commits' descriptions.
+  pr_body: {type: string, default: ""}
+  base: {type: string, default: main}
+  # A repo with no CI at all: without this, "no checks registered" is
+  # treated as not-yet-started and wait_for_ci polls until its timeout.
+  allow_no_ci: {type: boolean, default: false}
+
+state:
+  vcs: {type: string}
+  # Set by open_pr: the PR it opened, or the branch's already-open one.
+  pr_number: {type: string}
+  # owner/repo, resolved once by fetch-pr.sh from origin's remote URL (never
+  # from gh's cwd-based inference — a non-colocated jj workspace has no git
+  # repo for gh to infer from). Every other gh-using script takes this as an
+  # argument (via -R/GH_REPO) instead of guessing.
+  repo: {type: string}
+  pr_url: {type: string}
+  head_sha: {type: string}
+  base_branch: {type: string}
+  branch: {type: string}
+  title: {type: string}
+  # The full PR diff (gh pr diff), refreshed every round by prepare-review.sh.
+  # Always given to both reviewers as context, alongside delta_file below.
+  diff_file: {type: string}
+  # The PR head this workflow last actually reviewed (not just pushed to).
+  # "" until the first round completes; read by prepare-review.sh to decide
+  # review_pass (see below) and written back by it every round.
+  last_reviewed_head: {type: string, default: ""}
+  # This round's REVIEW-SCOPED diff: a small placeholder file (there is no
+  # delta yet — reviewers are told to review diff_file instead) on a "full"
+  # pass (last_reviewed_head was ""), or the local-VCS delta
+  # last_reviewed_head..head_sha on a "delta" pass. Always given to both
+  # reviewers as context alongside diff_file (which stays the full PR diff
+  # either way, for orientation) — see prepare-review.sh. Deliberately NOT
+  # equal to diff_file on a full pass: both are listed in each reviewer's
+  # context:, and inlining the ~100 KB PR diff twice per reviewer would be
+  # wasteful for no benefit.
+  delta_file: {type: string}
+  # "full" (review everything) or "delta" (review-route.sh enforces this
+  # deterministically too: only critical/major/medium findings on paths
+  # inside delta_file are routed; everything else is suppressed — except a
+  # "stale-docs" finding, or one carrying a *valid* `reraise_of` (an id in
+  # the prior ledger with status fixed/partially-fixed/declined/skipped),
+  # both of which bypass the file-in-delta check. Set by prepare-review.sh
+  # every round.
+  review_pass: {type: string, default: "full"}
+  findings_claude: {type: json, default: []}
+  findings_docs: {type: json, default: []}
+  findings: {type: json, default: []}
+  # The ledger's "held" entries (pre_existing findings of any severity, plus
+  # minor/nitpick findings), rendered by review-route.sh worst-severity
+  # first, carried here only so ask_optional's question: can show them —
+  # the ledger (ledger_file) is what's actually authoritative; take-optional.sh
+  # and skip-optional.sh update the SAME ledger entries by id, they don't
+  # maintain a separate merged list the way this key's predecessor did.
+  optional_findings: {type: json, default: []}
+  # the user's free-text instructions from ask_optional for this round (may
+  # be empty); prepare_review resets it to "" at the start of every round so
+  # a note only applies to the round it was given in. Picking the "address"
+  # option (rather than free text) writes the literal option label
+  # "address" here per design/format-spec.md §B.5 ("writes: is populated on
+  # every non-timeout path a declared key exists for, not only via the
+  # chosen: route") — take-optional.sh rewrites that one literal case back
+  # to "" so it never renders as a bogus fixer instruction.
+  fix_note: {type: string, default: ""}
+  # Path of the JSON file holding every finding any reviewer has ever
+  # raised, each with its disposition (open/held/fixed/partially-fixed/
+  # not-fixed/declined/skipped/suppressed — see review-route.sh), created
+  # holding [] by fetch-pr.sh. A file rather than a json state key because
+  # it grows every round, and a state key a deterministic step reads is
+  # rendered into its one `sh -c` argument and exported as PAWL_<KEY> — each
+  # capped at 128 KiB on Linux, so an unbounded list would eventually fail
+  # the step with E2BIG. Steps read it with jq --slurpfile or as a context:
+  # file.
+  ledger_file: {type: string}
+  # Path of the JSON file snapshotting exactly what fix_issues was last
+  # asked to fix, created holding [] by fetch-pr.sh and kept current by
+  # whichever step sets `findings` right before fix_issues (review-route.sh's
+  # blocking branch, take-optional.sh, ci-failures.sh). A file for the same
+  # reason ledger_file is one: check-fix-result.sh (fix_issues'
+  # postcondition) needs the input findings alongside the (possibly
+  # similarly large, up to ~64 KiB for CI) output findings, and a second
+  # copy of both on one `sh -c` argument could overflow the 128 KiB
+  # MAX_ARG_STRLEN cap.
+  fix_input_file: {type: string}
+  # Files fix_issues genuinely needed to touch that no input finding named
+  # (each {file, reason}) — check-fix-result.sh's scope check (E) treats
+  # these as allowed alongside every input finding's own `file`; anything
+  # else the working copy changed fails the postcondition. Defaults to [];
+  # a scoped fixer with nothing extra to explain leaves it empty.
+  extra_files: {type: json, default: []}
+  round: {type: integer, default: 0}
+  # true iff the round in flight was seeded by a failing CI check
+  # (ci_failure), false for a review round (prepare_review). Read by
+  # unchanged_route to tell a CI-originated decline (CI on this head will
+  # stay red regardless) from a review-originated one (safe to check CI),
+  # and by check-fix-result.sh to skip the scope check (E) on a CI round,
+  # whose findings' `file` is a synthetic "CI: <check>" label, not a path.
+  ci_round: {type: boolean, default: false}
+  # This workflow's convergence signal: review_route appends this round's
+  # fixable ("open") finding count every review round (never on a
+  # ci_failure-originated round — review_route doesn't run on those). See
+  # the `stalled` terminal and review-route.sh.
+  blocking_history: {type: json, default: []}
+
+steps:
+  # Title, head branch, clean working copy, and commits to propose — all
+  # checked before anything is pushed. See preflight.sh.
+  - id: preflight
+    kind: deterministic
+    run: scripts/preflight.sh ${pr_title} ${head_branch} ${base}
+    writes: [vcs]
+    postcondition: {all_set: [vcs]}
+    next: run_gates
+
+  # The checks Backend CI runs, locally, so a PR is never opened red.
+  - id: run_gates
+    kind: deterministic
+    run: scripts/run-gates.sh ${vcs}
+    postcondition: "true"
+    next: open_pr
+
+  - id: open_pr
+    kind: deterministic
+    run: scripts/open-pr.sh ${vcs} ${head_branch} ${base} ${pr_title} ${pr_body}
+    writes: [pr_number]
+    postcondition: {all_set: [pr_number]}
+    next: fetch_pr
+
+  - id: fetch_pr
+    kind: deterministic
+    run: scripts/fetch-pr.sh ${pr_number} ${run_id}
+    writes: [vcs, repo, ledger_file, fix_input_file, pr_url, head_sha, base_branch, branch, title]
+    postcondition: {all_set: [pr_url, head_sha, repo, ledger_file, fix_input_file]}
+    next: prepare_review
+
+  # Entry point of every FULL round (one that starts from a clean, PR-head
+  # checkout) — its max_visits is the cap on those (4): the 5th entry is
+  # the reserved `exhausted` outcome, unrouted here so it takes the
+  # engine's default (-> blocked). It is not the only cycle-breaker in the
+  # graph: fix_push's `unchanged` outcome can instead lead to a bounded
+  # CI-check side-cycle via unchanged_route without going through
+  # prepare_review (see fix_push and unchanged_route below) — that cycle is
+  # capped by its own steps' max_visits (12).
+  #
+  # Also writes ci_round = false: reaching prepare_review always starts a
+  # fresh review round (never a CI-originated one), which unchanged_route
+  # later needs to know. Also resets fix_note to "" — a user's optional-
+  # findings instructions apply only to the round ask_optional gave them in.
+  #
+  # Refuses to start a round unless the working copy is clean and its head
+  # is the PR's head, then fetches the PR diff into a file (a hard input: a
+  # gh failure or an empty diff fails the step rather than letting the
+  # reviewers see nothing and call the PR clean) and, from the second round
+  # on, a delta diff scoped to last_reviewed_head..head_sha (also a hard
+  # input — see prepare-review.sh's comment on review_pass/delta_file for
+  # why an empty delta fails loudly too, and how this keeps a fix-and-push
+  # cycle from ever re-triggering a full re-review).
+  - id: prepare_review
+    kind: deterministic
+    run: scripts/prepare-review.sh ${vcs} ${pr_number} ${repo} ${base_branch} ${last_reviewed_head}
+    writes: [head_sha, diff_file, delta_file, review_pass, ci_round, fix_note, last_reviewed_head]
+    postcondition: {all_set: [head_sha, diff_file, delta_file]}
+    max_visits: 4
+    next: fanout_review
+
+  - id: fanout_review
+    kind: parallel
+    branches: [ai_review_claude, docs_review]
+    outcomes:
+      success: review_route
+      failure: blocked
+
+  # The diff comes in as plain-file context: entries (${diff_file},
+  # ${delta_file}, written by prepare_review; a `!cmd` that fails degrades
+  # silently to empty output, a missing file fails the branch loudly
+  # instead), plus the findings ledger (${ledger_file}) and the shared
+  # rubric file both reviewers follow exactly.
+  - id: ai_review_claude
+    kind: agentic
+    description: |
+      Review this PR's diff (${diff_file}, the full PR) against
+      ${base_branch}. Follow review-rubric.md (in context) exactly for
+      scope and severity. review_pass is "${review_pass}": on "full", review
+      the whole diff; on "delta", review ONLY ${delta_file} (also in
+      context) — the lines that changed since this workflow's last reviewed
+      head — and in that case ONLY raise critical/major/medium findings
+      (no minor/nitpick; review-route.sh drops any that slip through, so
+      raising them wastes the round). The GitHub repo is ${repo}; pass
+      -R ${repo} to any `gh pr diff`/`gh pr view` call (the working copy has
+      no git repo for gh to infer it from). Cold (you did not write this
+      change) and read-only (analysis only, never edit files).
+
+      Return findings as a JSON array of {file, line, category, description,
+      fix, severity, pre_existing}, category one of: bug | missing-test |
+      other | performance | security | standards-violation |
+      type-annotation. pre_existing is required: true iff the issue is in
+      code this PR did not add or change (see review-rubric.md's scope
+      section for when to still report one).
+
+      ${ledger_file} (in context) is every finding raised so far with its
+      disposition. Do not re-raise an item that is fixed, declined, skipped,
+      held or suppressed. Exception: if you have concrete evidence a
+      `fixed` item is still broken, or a `declined`/`skipped` reason is
+      wrong, re-raise it with `reraise_of: <id>` and put the evidence in
+      `description`.
+    context:
+      - "${diff_file}"
+      - "${delta_file}"
+      - "${ledger_file}"
+      - "review-rubric.md"
+    subagent_args: {tools: [Read, "Bash(gh pr diff:*)", "Bash(gh pr view:*)"], model: opus}
+    writes: {findings_claude: {type: json}}
+    postcondition: "printf '%s' ${findings_claude} | jq -e 'type==\"array\"' >/dev/null"
+
+  # Always runs — a fix round can stale the docs as easily as the original
+  # change did.
+  - id: docs_review
+    kind: agentic
+    description: |
+      Check whether documentation that ALREADY EXISTS in this repo has been
+      made inaccurate by this PR's changes. review_pass is "${review_pass}":
+      on "full", check against the whole diff (${diff_file}); on "delta",
+      check ONLY ${delta_file} (also in context) — the lines that changed
+      since this workflow's last reviewed head — and in that case ONLY
+      raise critical/major/medium findings (no minor/nitpick;
+      review-route.sh drops any that slip through). Look through the
+      repo's docs — README, docs/, AGENTS.md/CLAUDE.md, design docs, skill
+      files, example NOTES — for statements that were true before this
+      change and are false or stale after it: renamed commands or flags,
+      changed behaviour, removed or moved files, altered defaults, status
+      claims the change invalidates. Do NOT flag missing documentation for
+      anything new the PR adds, and do not suggest new sections — only
+      existing text that is now wrong. Read-only, never edit files.
+
+      Follow review-rubric.md (in context) exactly for severity — including
+      its note that stale docs are rated on the same scale, with no floor
+      (a wording nit in a doc is still a nitpick, not "at least minor").
+      Return findings as a JSON array of {file, line, category: "stale-docs",
+      description, fix, severity, pre_existing}: file/line point at the
+      stale doc text, description quotes the stale claim and names the
+      change that invalidated it, fix is the minimal edit to make it true
+      again. pre_existing is required: true iff the doc text being
+      contradicted predates this PR AND the contradiction is itself
+      pre-existing (rare for stale-docs findings, since the PR is usually
+      what made it stale — see review-rubric.md's scope section). Return []
+      if nothing existing went stale. The GitHub repo is ${repo}; pass
+      -R ${repo} to any `gh pr diff`/`gh pr view` call (the working copy has
+      no git repo for gh to infer it from).
+
+      ${ledger_file} (in context) is every finding raised so far with its
+      disposition. Do not re-raise an item that is fixed, declined, skipped,
+      held or suppressed. Exception: if you have concrete evidence a
+      `fixed` item is still broken, or a `declined`/`skipped` reason is
+      wrong, re-raise it with `reraise_of: <id>` and put the evidence in
+      `description`.
+    context:
+      - "${diff_file}"
+      - "${delta_file}"
+      - "${ledger_file}"
+      - "review-rubric.md"
+    subagent_args: {tools: [Read, Grep, Glob, "Bash(gh pr diff:*)", "Bash(gh pr view:*)"], model: sonnet}
+    writes: {findings_docs: {type: json}}
+    postcondition: "printf '%s' ${findings_docs} | jq -e 'type==\"array\"' >/dev/null"
+
+  - id: review_route
+    kind: deterministic
+    run: scripts/review-route.sh ${findings_claude} ${findings_docs} ${ledger_file} ${fix_input_file} ${round} ${review_pass} ${delta_file} ${blocking_history}
+    writes: [findings, optional_findings, blocking_history]
+    outcomes:
+      blocking: fix_issues        # critical, major, or medium — plus missing/unrecognised severity (fail-safe)
+      optional_only: ask_optional # nothing fixable, but at least one held finding — ask before touching anything
+      clean: wait_for_ci          # nothing fixable and nothing held — clean is not done until CI is green on this head
+      stalled: stalled            # fixable count hasn't dropped over 3 rounds — a human needs to look
+
+  # Reached only when review_route found nothing fixable this round but did
+  # find held findings (minor/nitpick, or pre_existing of any severity) —
+  # asks whether to address them before moving on, since an optional-
+  # findings round would otherwise be silently dropped.
+  - id: ask_optional
+    kind: human
+    question: |
+      No blocking findings above minor severity on "${title}" (${pr_url}).
+      These held findings were raised so far (worst severity first):
+      ${optional_findings}
+
+      Address them now, or skip them for this PR? Free text (the "Other"
+      answer) can give instructions instead — e.g. which of them to fix, or
+      how — and will be passed to the fixer as this round's instructions.
+      "address" means one more delta-only, blocking-only check of the fix:
+      the round this triggers reviews only what changed to address these
+      items, and only for new critical/major/medium problems the fix itself
+      introduced — not a fresh full review of the whole PR.
+    options: [address, skip]
+    timeout: 24h
+    writes: [fix_note]
+    outcomes:
+      address: take_optional
+      skip: skip_optional
+      chosen: take_optional        # free-text instructions land in fix_note
+      timeout: blocked
+
+  - id: take_optional
+    kind: deterministic
+    run: scripts/take-optional.sh ${fix_input_file} ${optional_findings} ${fix_note}
+    writes: [findings, optional_findings, fix_note]
+    postcondition: "printf '%s' ${findings} | jq -e 'type==\"array\"' >/dev/null"
+    next: fix_issues
+
+  # The user chose not to address the held findings: mark each one
+  # "skipped" in the ledger (by id — see skip-optional.sh) and move on to
+  # CI without ever dispatching fix_issues.
+  - id: skip_optional
+    kind: deterministic
+    run: scripts/skip-optional.sh ${ledger_file} ${optional_findings}
+    writes: [optional_findings]
+    postcondition: "jq -e 'type==\"array\"' ${ledger_file} >/dev/null"
+    next: wait_for_ci
+
+  - id: fix_issues
+    kind: agentic
+    description: |
+      Fix this round's findings. They are (a JSON array of
+      {id, file, line, category, description, fix} items — review
+      findings, held findings being addressed, or failing CI checks with
+      their log tails):
+
+      ${findings}
+
+      Instructions from the user for this round (may be empty): ${fix_note}
+      The user's instructions override the findings' suggested fixes and
+      which items to address.
+
+      Fix ONLY the listed items, with the minimal diff. No repo-wide
+      sweeps, no new rules/conventions, no refactors, no rewording or
+      reflowing of text an item did not name. If a fix genuinely needs a
+      file none of the items name, list it in `extra_files` as
+      {file, reason} — anything else the working copy ends up changed that
+      isn't a listed item's `file` or named in `extra_files` fails this
+      step and you'll be asked to redo it (attempts: 3). Always return
+      extra_files, as [] when you touched only the listed items' files.
+
+      Treat each suggested fix as a reviewer's suggestion, not a
+      requirement: make the simplest correct fix, or leave an item unfixed
+      (and say why) if it is wrong. Run the repo's own verify command (or
+      its test suite) as your feedback loop, and iterate until it passes or
+      further local iteration clearly won't help. Never commit or push —
+      the next step does that.
+
+      Return EVERY item you were given, each with its `id` UNCHANGED, in
+      your findings — none may be dropped, even if you address none of
+      them (an empty [] is only valid if you were given no items at all).
+      Each item gets an added verify_status, whose value must start with
+      one of these four prefixes:
+        - `fixed:` — you made a change to the tree and verified it. Only
+          valid if the working copy actually changed. If an item needed no
+          change (it was already resolved), report it as
+          `wont-fix: already resolved` instead — never `fixed:` with
+          nothing to show for it.
+        - `partially-fixed:` — you made part of the change (the tree
+          changed); say what's left.
+        - `not-fixed:` — you tried and couldn't; it will be raised again
+          next round, and that's intended.
+        - `wont-fix: <reason>` — you're declining this finding: it's wrong,
+          not applicable, already resolved, or out of scope for this repo.
+          The reason is mandatory and travels with the finding so reviewers
+          don't re-raise it without cause.
+      This is independently checked, not taken on your word: the working
+      copy's actual diff is inspected — every changed path must belong to a
+      listed item or `extra_files`, and any `fixed:`/`partially-fixed:`
+      claim alongside no uncommitted changes at all is rejected — you will
+      be asked to correct it and resubmit.
+    subagent_args: {tools: [Read, Edit, Write, Bash]}
+    writes: {findings: {type: json}, extra_files: {type: json}}
+    postcondition: scripts/check-fix-result.sh ${vcs} ${findings} ${fix_input_file} ${ci_round} ${extra_files}
+    soft: true                     # the agent's own claim, not independently re-verified for *quality* — only checked for consistency (check-fix-result.sh)
+    attempts: 3
+    max_visits: 12                 # entered up to 3 times in a round via the ask/to_ci cycles (see top)
+    next: record_dispositions
+
+  # Updates each finding's ledger entry (matched by id) from fix_issues'
+  # verify_status — see record-dispositions.sh.
+  - id: record_dispositions
+    kind: deterministic
+    run: scripts/record-dispositions.sh ${ledger_file} ${findings}
+    postcondition: "jq -e 'type==\"array\"' ${ledger_file} >/dev/null"
+    max_visits: 12                 # entered up to 3 times in a round via the ask/to_ci cycles (see top)
+    next: fix_push
+
+  - id: fix_push
+    kind: deterministic
+    run: scripts/fix-push.sh ${vcs} ${branch} ${round}
+    emits: pairs                   # a bare integer — safe under the whitespace-split grammar
+    writes: [round]
+    postcondition: scripts/verify-pushed.sh ${vcs} ${branch} ${repo}
+    max_visits: 12                 # entered up to 3 times in a round via the ask/to_ci cycles (see top)
+    outcomes:
+      pushed: prepare_review       # re-review the new head; CI runs meanwhile
+      # The fixer changed nothing in the tree. That's expected when this
+      # round's only non-fixes were declines (wont-fix — check-fix-result.sh
+      # rejects a fixed:/partially-fixed: claim on an unchanged tree, so
+      # that's the only way to get here), since declining doesn't touch the
+      # tree — but retrying is pointless when nothing actually changed, so
+      # this no longer loops back to review_route: unchanged_route decides
+      # whether anything is left worth another round (`stuck`), whether held
+      # findings still need asking about (`ask`), or this was a review
+      # round with nothing left unresolved and nothing held, safe to send on
+      # to CI (`to_ci`).
+      unchanged: unchanged_route
+
+  - id: unchanged_route
+    kind: deterministic
+    run: scripts/unchanged-route.sh ${findings} ${ci_round} ${optional_findings}
+    max_visits: 12                 # entered up to 3 times in a round via the ask/to_ci cycles (see top)
+    outcomes:
+      to_ci: wait_for_ci
+      ask: ask_optional             # held findings never asked about this round
+      stuck: stuck
+
+  - id: wait_for_ci
+    kind: wait
+    poll: scripts/poll-ci.sh ${pr_number} ${head_sha} ${allow_no_ci} ${repo}
+    every: 30s
+    timeout: 2h
+    outcomes:
+      SUCCESS: done
+      FAILURE: ci_failure
+      timeout: blocked
+
+  - id: ci_failure
+    kind: deterministic
+    run: scripts/ci-failures.sh ${pr_number} ${head_sha} ${repo} ${fix_input_file} ${ledger_file} ${round}
+    # fix_note is reset to "": ask_optional's answer (e.g. "skip", or free
+    # text) was about the held findings, not these CI failures.
+    writes: [findings, ci_round, fix_note]
+    next: fix_issues
+
+terminal:
+  done: {status: ok, message: "Clean per ai_review_claude + docs_review, CI green on ${head_sha} — ${pr_url} is ready for Daniel to merge. Full disposition ledger: ${ledger_file}"}
+  blocked: {status: blocked, message: "Paused: ${blocked_reason}"}
+  stuck: {status: blocked, message: "The fixer changed nothing on ${head_sha} — findings were left unfixed or declined failing CI checks. A human needs to look. Ledger: ${ledger_file}"}
+  stalled: {status: blocked, message: "No progress: blocking findings did not drop over the last 3 rounds on ${head_sha} — a human needs to look. Ledger: ${ledger_file}"}
