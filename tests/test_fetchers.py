@@ -12,33 +12,37 @@ import aiohttp
 import pytest
 from aiohttp import ClientResponse
 
-from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher, clean_url
+from tests.fixtures import Fixture, all_fixtures, earliest_fixture, slug_of
+from toxic_news.fetchers import Fetcher, Headline, Newspaper, WaybackFetcher
 from toxic_news.models import AllModels, Scores
 from toxic_news.newspapers import newspapers
 
 DATE = datetime(2023, 5, 20, tzinfo=timezone.utc)
 
+#: Every newspaper, keyed by the slug its fixtures are filed under.
+_by_slug = {slug_of(n): n for n in newspapers}
+
 
 def _clean_newspaper(n: Newspaper) -> str:
-    return clean_url(n.url)
+    return slug_of(n)
 
 
-def make_mock_fetcher(monkeypatch, url, assets):
-    # mock content to use the HTML in the assets
-    with (assets / "html" / f"{clean_url(url)}.html").open() as fd:
-        monkeypatch.setattr(Fetcher, "content", fd.read())
-
-    # set request time to a fixed value
-    monkeypatch.setattr(Fetcher, "request_time", DATE)
+def _fixture_id(fixture: Fixture) -> str:
+    return f"{fixture.slug}@{fixture.date.isoformat()}"
 
 
-def test_fetcher_save_load(tmp_path, monkeypatch, assets):
+def make_mock_fetcher(monkeypatch, fixture: Fixture):
+    """Serve `fixture` as the fetched page, requested at its own date."""
+    monkeypatch.setattr(Fetcher, "content", fixture.path.read_text())
+    monkeypatch.setattr(Fetcher, "request_time", fixture.request_time)
+
+
+def test_fetcher_save_load(tmp_path):
     newspaper = newspapers[0]
     fake_time = DATE
 
     fetcher = Fetcher(newspaper=newspaper, cache_dir=tmp_path)
-    with (assets / "html" / f"{clean_url(newspaper.url)}.html").open("rb") as fd:
-        fetcher._content = fd.read()
+    fetcher._content = earliest_fixture(slug_of(newspaper)).path.read_bytes()
     fetcher._request_time = fake_time
     fetcher.save()
 
@@ -49,16 +53,15 @@ def test_fetcher_save_load(tmp_path, monkeypatch, assets):
     assert fetcher2._content == fetcher._content
 
 
-@pytest.mark.parametrize("newspaper", newspapers, ids=_clean_newspaper)
-def test_parse(assets, snapshot, monkeypatch, newspaper):
-    make_mock_fetcher(monkeypatch, newspaper.url, assets)
+@pytest.mark.parametrize("fixture", all_fixtures(), ids=_fixture_id)
+def test_parse(snapshot, monkeypatch, fixture):
+    """Every fixture parses, at its own date, to the headlines recorded for it."""
+    make_mock_fetcher(monkeypatch, fixture)
 
-    fetcher = Fetcher(newspaper)
-    snapshot.snapshot_dir = assets / "../snapshots/test_parse"
+    fetcher = Fetcher(_by_slug[fixture.slug])
+    snapshot.snapshot_dir = fixture.snapshot_path.parent
     content = fetcher.fetch()
-    snapshot.assert_match(
-        json.dumps(content, indent=2), f"{clean_url(newspaper.url)}.txt"
-    )
+    snapshot.assert_match(json.dumps(content, indent=2), fixture.snapshot_path.name)
 
 
 @pytest.mark.integration
@@ -91,7 +94,7 @@ def _remove_dates(
 
 @pytest.mark.parametrize("newspaper", newspapers, ids=_clean_newspaper)
 def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
-    make_mock_fetcher(monkeypatch, newspaper.url, assets)
+    make_mock_fetcher(monkeypatch, earliest_fixture(slug_of(newspaper)))
 
     def mock_predict(self, texts) -> list[Scores]:
         return [Scores(**dict.fromkeys(Scores.__fields__, 0.5)) for _ in texts]
@@ -107,7 +110,7 @@ def test_mock_classify(assets, snapshot, monkeypatch, newspaper):
             _remove_dates(headlines=fetcher.classify()),
             indent=2,
         ),
-        f"{clean_url(newspaper.url)}.txt",
+        f"{slug_of(newspaper)}.txt",
     )
 
 
@@ -140,12 +143,10 @@ def _stub_session_get(content: bytes):
 
 
 @pytest.mark.asyncio
-async def test_async_fetch_then_classify_and_cache_round_trip(
-    assets, tmp_path, monkeypatch
-):
+async def test_async_fetch_then_classify_and_cache_round_trip(tmp_path, monkeypatch):
     """`fetch_with` records one front page; classify reads it and a cache keeps it."""
     newspaper = newspapers[0]
-    html = (assets / "html" / f"{clean_url(newspaper.url)}.html").read_bytes()
+    html = earliest_fixture(slug_of(newspaper)).path.read_bytes()
     monkeypatch.setattr(aiohttp.ClientSession, "get", _stub_session_get(html))
 
     def mock_predict(self, texts) -> list[Scores]:
@@ -184,7 +185,7 @@ async def test_async_fetch_then_classify_and_cache_round_trip(
 @pytest.mark.slow
 @pytest.mark.parametrize("newspaper", newspapers, ids=_clean_newspaper)
 def test_classify(assets, snapshot, monkeypatch, newspaper):
-    make_mock_fetcher(monkeypatch, newspaper.url, assets)
+    make_mock_fetcher(monkeypatch, earliest_fixture(slug_of(newspaper)))
 
     # force rounding scores to 5 decimal places
     class RoundingFloat(float):
@@ -199,7 +200,7 @@ def test_classify(assets, snapshot, monkeypatch, newspaper):
     snapshot.snapshot_dir = assets / "../snapshots/test_classify"
     snapshot.assert_match(
         json.dumps(_remove_dates(fetcher.classify()), indent=2),
-        f"{clean_url(newspaper.url)}.txt",
+        f"{slug_of(newspaper)}.txt",
     )
 
 

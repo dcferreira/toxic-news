@@ -17,6 +17,8 @@ from pathlib import Path
 from typing import NamedTuple
 from urllib.parse import urlsplit
 
+from tests.fixtures import latest_fixture
+from tests.mock_site import serve
 from toxic_news.fetchers import clean_url
 from toxic_news.main import newspapers_from, update
 from toxic_news.models import AllModels, Scores
@@ -86,9 +88,9 @@ def _score_half(_self: AllModels, texts: list[str]) -> list[Scores]:
     return [Scores(**dict.fromkeys(Scores.__fields__, 0.5)) for _ in texts]
 
 
-def test_mock_site_serves_the_recorded_front_pages(assets, mock_site_url):
+def test_mock_site_serves_the_recorded_front_pages(mock_site_url):
     """The mock returns a fixture byte for byte, and refuses anything else."""
-    recorded = (assets / "html" / "bbc.com.html").read_bytes()
+    recorded = latest_fixture("bbc.com").path.read_bytes()
 
     served = _request(mock_site_url, "/bbc.com")
 
@@ -107,6 +109,22 @@ def test_mock_site_serves_the_recorded_front_pages(assets, mock_site_url):
     refused = _request(mock_site_url, "/bbc.com", method="POST")
     assert refused.status == 405
     assert refused.allow == "GET, HEAD"
+
+
+def test_mock_site_serves_an_outlets_newest_fixture(tmp_path):
+    """Of an outlet's dated fixtures, the mock serves the most recent one."""
+    outlet = tmp_path / "bbc.com"
+    outlet.mkdir()
+    (outlet / "2023-05-20.html").write_bytes(b"old")
+    (outlet / "2026-09-20.html").write_bytes(b"new")
+    (outlet / "notes.html").write_bytes(b"not a fixture")
+
+    server, origin = serve(tmp_path)
+    try:
+        assert _request(origin, "/bbc.com").body == b"new"
+    finally:
+        server.shutdown()
+        server.server_close()
 
 
 def test_update_offline_scrapes_fixtures_and_publishes_the_day(

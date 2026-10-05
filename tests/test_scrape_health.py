@@ -18,8 +18,8 @@ from pathlib import Path
 import pytest
 
 import toxic_news.main
+from tests.fixtures import latest_fixture, slug_of
 from tests.mock_site import serve
-from toxic_news.fetchers import clean_url
 from toxic_news.health import Verdict, read_health
 from toxic_news.main import newspapers_from, scrape_newspapers, summary, update
 from toxic_news.models import AllModels, Scores
@@ -81,7 +81,7 @@ def _today() -> datetime.date:
 
 
 def test_update_records_the_health_of_every_outlet(
-    assets: Path, mock_site_url: str, tmp_path: Path
+    mock_site_url: str, tmp_path: Path
 ) -> None:
     data_dir = tmp_path / "data"
     update(data_dir=data_dir, out_dir=tmp_path / "public", base_url=mock_site_url)
@@ -89,7 +89,7 @@ def test_update_records_the_health_of_every_outlet(
     health = read_health(data_dir, _today())
     assert [outlet.newspaper for outlet in health] == [n.name for n in newspapers]
     for outlet, newspaper in zip(health, newspapers, strict=True):
-        fixture = assets / "html" / f"{clean_url(str(newspaper.url))}.html"
+        fixture = latest_fixture(slug_of(newspaper)).path
         assert outlet.status == 200
         assert outlet.fetch_error is None
         assert outlet.body_bytes == fixture.stat().st_size
@@ -112,7 +112,7 @@ def test_update_records_health_even_when_nothing_was_scraped(
 
 
 def test_update_saves_every_fetched_page_when_asked(
-    assets: Path, mock_site_url: str, tmp_path: Path
+    mock_site_url: str, tmp_path: Path
 ) -> None:
     raw_html_dir = tmp_path / "raw-html"
     update(
@@ -123,9 +123,9 @@ def test_update_saves_every_fetched_page_when_asked(
     )
 
     for newspaper in newspapers:
-        name = f"{clean_url(str(newspaper.url))}.html"
-        recorded = (assets / "html" / name).read_bytes()
-        assert (raw_html_dir / name).read_bytes() == recorded
+        slug = slug_of(newspaper)
+        recorded = latest_fixture(slug).path.read_bytes()
+        assert (raw_html_dir / f"{slug}.html").read_bytes() == recorded
 
 
 def _raising(*_args: object, **_kwargs: object) -> list[tuple[str, str]]:
