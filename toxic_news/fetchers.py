@@ -8,7 +8,7 @@ import asyncio
 import atexit
 import pickle
 import re
-import time
+import weakref
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import cast
@@ -36,6 +36,16 @@ user_agent = (
 HEADERS = {
     "User-Agent": user_agent,
 }
+
+# seconds to pause after each Wayback availability lookup, to not spam the API
+WAYBACK_API_PAUSE = 1.0
+# one lookup (and its pause) at a time per event loop, however many days are
+# fetched concurrently; per loop since an asyncio.Lock can't span loops
+_wayback_api_locks: weakref.WeakKeyDictionary[
+    asyncio.AbstractEventLoop, asyncio.Lock
+] = weakref.WeakKeyDictionary()
+# seconds an archived page's GET may take before it counts as a failed attempt
+WAYBACK_GET_TIMEOUT = 60
 
 
 class Headline(BaseModel):
@@ -268,11 +278,13 @@ class WaybackFetcher(Fetcher):
     def _close_session(self) -> None:
         asyncio.run(self.session.close())
 
-    @retry(
-        wait=wait_exponential(multiplier=1, min=10, max=100), stop=stop_after_attempt(8)
-    )
     def get_wayback_url(self) -> str:
-        """Return the archived URL nearest the requested date, retrying on failure."""
+        """Return the archived URL nearest the requested date.
+
+        A blocking call into waybackpy, with no retry of its own: the async path
+        runs it in a thread inside `_request_coroutine`, whose retry covers both
+        the lookup and the GET.
+        """
         if self.wayback_url is None:
             archive = self.availability_api.near(
                 year=self.date.year,
@@ -283,7 +295,6 @@ class WaybackFetcher(Fetcher):
             )
             # waybackpy hands back a naive time, in UTC
             self._request_time = archive.timestamp().replace(tzinfo=timezone.utc)
-            time.sleep(1)  # blocking sleep, to not spam the API
 
             # use the `id_` flag to get the original copy
             # see https://webapps.stackexchange.com/a/155393
@@ -294,9 +305,20 @@ class WaybackFetcher(Fetcher):
         wait=wait_exponential(multiplier=1, min=10, max=100), stop=stop_after_attempt(8)
     )
     async def _request_coroutine(self) -> tuple[ClientResponse, bytes]:
-        url = self.get_wayback_url()
+        if self.wayback_url is None:
+            lock = _wayback_api_locks.setdefault(
+                asyncio.get_running_loop(), asyncio.Lock()
+            )
+            async with lock:
+                await asyncio.to_thread(self.get_wayback_url)
+                await asyncio.sleep(WAYBACK_API_PAUSE)  # to not spam the API
+        url = cast("str", self.wayback_url)
         logger.debug(f"Fetching (async) {url!r}...")
-        result = await self.session.get(url, headers=HEADERS)
+        result = await self.session.get(
+            url,
+            headers=HEADERS,
+            timeout=aiohttp.ClientTimeout(total=WAYBACK_GET_TIMEOUT),
+        )
         content = await result.content.read()
         return result, content
 

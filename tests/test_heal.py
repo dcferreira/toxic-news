@@ -10,6 +10,9 @@ that names a snapshot, and the GET that fetches it.
 
 import asyncio
 import datetime
+import itertools
+import threading
+import time
 from pathlib import Path
 
 import aiohttp
@@ -99,7 +102,15 @@ def _wayback(monkeypatch: pytest.MonkeyPatch) -> None:
         lambda _self, **kwargs: _near(**kwargs),
     )
     # nothing to wait for between availability calls
-    monkeypatch.setattr("toxic_news.fetchers.time.sleep", lambda _s: None)
+    monkeypatch.setattr("toxic_news.fetchers.WAYBACK_API_PAUSE", 0)
+
+
+def _no_retry_waits(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Keep every tenacity retry on the Wayback path, without its waits."""
+    for fn in (WaybackFetcher._request_coroutine, WaybackFetcher.get_wayback_url):
+        retrying = getattr(fn, "retry", None)
+        if retrying is not None:
+            monkeypatch.setattr(retrying, "wait", wait_none())
 
 
 @pytest.mark.usefixtures("_wayback")
@@ -273,3 +284,102 @@ def test_a_get_that_keeps_failing_is_retried_then_skipped(
 
     assert [len(headlines) for headlines in per_day] == [0, 125]
     assert sum("/20260905" in url for url in calls) == 8
+
+
+@pytest.mark.usefixtures("_wayback")
+def test_an_availability_lookup_that_keeps_failing_is_tried_once_per_attempt(
+    assets: Path, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+) -> None:
+    # one retry layer: 8 lookups for a dead day, not 8 per GET attempt
+    _no_retry_waits(monkeypatch)
+    lookups: list[int] = []
+
+    def near(_self: object, **kwargs: int) -> _Archive:
+        lookups.append(kwargs["day"])
+        if kwargs["day"] == DAYS[0].day:
+            raise ConnectionError
+        return _near(**kwargs)
+
+    monkeypatch.setattr("waybackpy.WaybackMachineAvailabilityAPI.near", near)
+    monkeypatch.setattr(
+        aiohttp.ClientSession, "get", _serve({"20260906": _fox_page(assets)})
+    )
+
+    per_day = asyncio.run(
+        _fetch_wayback(FOX, [_noon(d) for d in DAYS], tmp_path / "cache")
+    )
+
+    assert [len(headlines) for headlines in per_day] == [0, 125]
+    assert lookups.count(DAYS[0].day) == 8
+
+
+@pytest.mark.usefixtures("_wayback")
+def test_the_availability_lookup_runs_off_the_event_loop(
+    assets: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    # waybackpy blocks, so on the loop it would stall every other outlet's fetch
+    threads: list[int] = []
+
+    def near(_self: object, **kwargs: int) -> _Archive:
+        threads.append(threading.get_ident())
+        return _near(**kwargs)
+
+    monkeypatch.setattr("waybackpy.WaybackMachineAvailabilityAPI.near", near)
+    monkeypatch.setattr(
+        aiohttp.ClientSession, "get", _serve({"20260905": _fox_page(assets)})
+    )
+
+    asyncio.run(_fetch_wayback(FOX, [_noon(DAYS[0])], None))
+
+    assert threads
+    assert threading.get_ident() not in threads
+
+
+@pytest.mark.usefixtures("_wayback")
+def test_availability_lookups_are_spaced_out_across_days(
+    assets: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    # concurrent days must not burst the availability API all at once
+    pause = 0.05
+    monkeypatch.setattr("toxic_news.fetchers.WAYBACK_API_PAUSE", pause)
+    calls: list[tuple[float, float]] = []
+
+    def near(_self: object, **kwargs: int) -> _Archive:
+        start = time.monotonic()
+        time.sleep(0.01)
+        calls.append((start, time.monotonic()))
+        return _near(**kwargs)
+
+    monkeypatch.setattr("waybackpy.WaybackMachineAvailabilityAPI.near", near)
+    monkeypatch.setattr(
+        aiohttp.ClientSession, "get", _serve({"20260905": _fox_page(assets)})
+    )
+    days = [_noon(datetime.date(2026, 9, d)) for d in range(1, 6)]
+
+    asyncio.run(_fetch_wayback(FOX, days, None))
+
+    calls.sort()
+    assert len(calls) == len(days)
+    for (_, prev_end), (next_start, _) in itertools.pairwise(calls):
+        assert next_start - prev_end >= pause * 0.9
+
+
+@pytest.mark.usefixtures("_wayback")
+def test_the_archived_page_is_fetched_with_a_timeout(
+    assets: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    served = _serve({"20260905": _fox_page(assets)})
+    timeouts: list[object] = []
+
+    async def get(session: aiohttp.ClientSession, url: str, **kwargs: object):
+        timeouts.append(kwargs.get("timeout"))
+        return await served(session, url, **kwargs)
+
+    monkeypatch.setattr(aiohttp.ClientSession, "get", get)
+
+    asyncio.run(_fetch_wayback(FOX, [_noon(DAYS[0])], None))
+
+    assert timeouts
+    assert all(
+        isinstance(t, aiohttp.ClientTimeout) and t.total is not None for t in timeouts
+    )
