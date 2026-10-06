@@ -23,6 +23,7 @@ from tests.selfheal_fix import (
     gate,
     history,
     last_good_headlines,
+    main,
     off_peak_left,
     omp_command,
     patched_newspapers,
@@ -298,6 +299,15 @@ def test_the_gate_passes_a_fix_of_the_outlet(tmp_path):
     assert gate(_task(), _diff(repo), _base(repo)) == []
 
 
+def test_the_gate_passes_a_page_with_trailing_whitespace(tmp_path):
+    """Saved pages are what the site served, whitespace errors and all."""
+    repo = _repo(tmp_path)
+    _fix_bbc(repo)
+    page = repo / "tests/assets/html/bbc.com/2026-10-05.html"
+    page.write_text("<html>  \n\t<p>today</p>\t\n</html>\r\n")
+    assert gate(_task(), _diff(repo), _base(repo)) == []
+
+
 def test_the_gate_reads_the_fix_without_importing_it(tmp_path):
     repo = _repo(tmp_path)
     _fix_bbc(repo)
@@ -569,9 +579,18 @@ def test_the_agent_result_is_read_or_defaults_to_giving_up(tmp_path, written, st
         "new_xpath",
         "from_date",
         "explanation",
+        "excluded",
     }
     if written is None:
         assert "no result.json" in str(result["explanation"])
+
+
+def test_what_the_agent_left_out_is_kept_and_cut_short(tmp_path):
+    path = tmp_path / "result.json"
+    path.write_text(
+        json.dumps({"status": "fixed", "explanation": "x", "excluded": "y" * 5000})
+    )
+    assert len(str(read_result(path)["excluded"])) == 1000
 
 
 def test_a_long_explanation_is_cut_short(tmp_path):
@@ -635,6 +654,51 @@ def test_run_agent_turns_the_session_into_a_patch_and_a_result(tmp_path):
     assert result["omp_exit_code"] == 0
     assert json.loads((out / "result.json").read_text()) == result
     assert (out / "session.jsonl").read_text().startswith('{"type": "message_end"')
+
+
+def test_the_patch_keeps_the_fetched_page_byte_for_byte(tmp_path):
+    """CRLF endings and non-UTF-8 bytes survive into the patch, so the page
+    it adds is the one the run fetched: selfheal-check holds it to that."""
+    repo = _repo(tmp_path)
+    inputs = repo / "selfheal" / "bbc.com"
+    inputs.mkdir(parents=True)
+    fetched = b"<html>\r\n<p>caf\xe9 au lait</p>\r\n</html>\r\n"
+    (inputs / "today.html").write_bytes(fetched)
+    (inputs / "task.json").write_text(json.dumps(_task()))
+    page = repo / "tests/assets/html/bbc.com/2026-10-05.html"
+    out = tmp_path / "out"
+
+    def fake_run(cmd: list[str], cwd: Path) -> tuple[int, str]:
+        if cmd[0] == "omp":
+            _fix_bbc(cwd)
+            page.write_bytes(fetched)  # the agent leaves the page as placed
+        return 0, ""
+
+    run_agent(
+        "bbc.com",
+        root=repo,
+        inputs=inputs,
+        out_dir=out,
+        omp="omp",
+        model="m",
+        max_time="1m",
+        run=fake_run,
+        redact_secrets=["not-in-the-page"],
+        now=OFF_PEAK,
+    )
+
+    fresh = tmp_path / "fresh"
+    fresh.mkdir()
+    git = shutil.which("git")
+    assert git is not None
+    subprocess.run(  # noqa: S603
+        [git, "apply", "--include=tests/assets/*", str(out / "patch.diff")],
+        cwd=fresh,
+        check=True,
+        capture_output=True,
+    )
+    assert (fresh / "tests/assets/html/bbc.com/2026-10-05.html").read_bytes() == fetched
+    assert main(["gate", str(inputs / "task.json"), str(out / "patch.diff")]) == 0
 
 
 def test_run_agent_records_a_failed_session(tmp_path):

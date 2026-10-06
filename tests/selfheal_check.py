@@ -122,6 +122,43 @@ NAVIGATION_TEXT = frozenset(
     }
 )
 
+#: The most headlines that can be promos for the outlet itself (newsletters,
+#: apps, accounts, subscriptions) rather than stories, as a share of them all.
+#: They link to the outlet and read like sentences, so nothing else catches
+#: them; the first BBC dry run passed with 9 in 49.
+MAX_UTILITY_SHARE = 0.05
+
+#: Path segments of pages that sign readers up or in, rather than tell a story.
+UTILITY_PATH_SEGMENTS = frozenset(
+    {
+        "account",
+        "accounts",
+        "log-in",
+        "login",
+        "myaccount",
+        "newsletter",
+        "newsletters",
+        "register",
+        "registration",
+        "session",
+        "sign-in",
+        "signin",
+        "subscribe",
+        "subscription",
+        "subscriptions",
+    }
+)
+
+#: Subdomains that serve the same kind of page.
+UTILITY_HOSTS = ("account.", "accounts.", "login.", "session.", "subscribe.")
+
+#: How a call to action starts, as against a headline.
+CALLS_TO_ACTION = re.compile(
+    r"(sign (up|in)|log in|subscribe|download (the|our)|register (for|now)|"
+    r"get the|stream the|join us|follow us|install)\b",
+    re.IGNORECASE,
+)
+
 Headlines = Sequence[tuple[str, str]]
 
 #: Runs a command, returning its exit code and combined output.
@@ -244,6 +281,19 @@ def _looks_like_navigation(text: str) -> bool:
     return len(words) <= 1 or " ".join(words).lower() in NAVIGATION_TEXT
 
 
+def is_utility(text: str, link: str) -> bool:
+    """Return whether a headline is a promo: a newsletter, app, account or
+    subscription link, or a call to action, rather than a story."""
+    parts = urlsplit(link)
+    host = (parts.hostname or "").removeprefix("www.")
+    segments = {s.lower() for s in parts.path.split("/")}
+    return (
+        bool(segments & UTILITY_PATH_SEGMENTS)
+        or host.startswith(UTILITY_HOSTS)
+        or CALLS_TO_ACTION.match(text.strip()) is not None
+    )
+
+
 def check_headlines(headlines: Headlines, url: str) -> CheckResult:
     """Check the headlines look like real stories from the outlet at `url`."""
     name = "Headlines look real"
@@ -270,13 +320,21 @@ def check_headlines(headlines: Headlines, url: str) -> CheckResult:
         shown = ", ".join(repr(t) for t in navigation[:5])
         problems.append(f"{len(navigation)} look like navigation text: {shown}")
 
+    promos = [t for t, link in headlines if is_utility(t, link)]
+    if len(promos) / len(texts) > MAX_UTILITY_SHARE:
+        shown = ", ".join(repr(t) for t in promos[:10])
+        problems.append(
+            f"{len(promos)} look like promos, not stories "
+            f"(at most {MAX_UTILITY_SHARE:.0%}): {shown}"
+        )
+
     if problems:
         return CheckResult(name, passed=False, detail="; ".join(problems))
     return CheckResult(
         name,
         passed=True,
         detail=f"{unique:.0%} unique, {on_site:.0%} link to {site}, "
-        f"{len(navigation)} navigation-like",
+        f"{len(navigation)} navigation-like, {len(promos)} promo-like",
     )
 
 

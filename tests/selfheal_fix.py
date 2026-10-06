@@ -202,21 +202,45 @@ def write_inputs(
 # --- gate ---------------------------------------------------------------------
 
 
-def _git_apply(args: list[str], patch: str, cwd: Path) -> tuple[int, str]:
-    """Run `git apply` on `patch` in `cwd`, returning its exit code and output."""
+#: Patches are read and written as bytes and held as text decoded like this,
+#: which gives back the same bytes: a saved page keeps its CRLF endings and
+#: any bytes that are not UTF-8, so the page the fix adds is the page fetched.
+_PATCH_ENCODING = "utf-8"
+_PATCH_ERRORS = "surrogateescape"
+
+
+def read_patch(path: Path) -> str:
+    """Return the patch at `path`, byte for byte."""
+    return path.read_bytes().decode(_PATCH_ENCODING, _PATCH_ERRORS)
+
+
+def write_patch(path: Path, patch: str) -> None:
+    """Write `patch` to `path`, byte for byte."""
+    path.write_bytes(patch.encode(_PATCH_ENCODING, _PATCH_ERRORS))
+
+
+def _git_apply(args: list[str], patch: str, cwd: Path) -> tuple[int, str, str]:
+    """Run `git apply` on `patch` in `cwd`; return its exit code, stdout, stderr.
+
+    Its warnings (say, the trailing whitespace a saved page is full of) go to
+    stderr, apart from what it reports.
+    """
     git = shutil.which("git")
     if git is None:
         msg = "git is needed to read the patch"
         raise SystemExit(msg)
     done = subprocess.run(  # noqa: S603 (git apply, reading the patch from stdin)
         [git, "apply", *args, "-"],
-        input=patch,
+        input=patch.encode(_PATCH_ENCODING, _PATCH_ERRORS),
         cwd=cwd,
         capture_output=True,
-        text=True,
         check=False,
     )
-    return done.returncode, done.stdout + done.stderr
+    return (
+        done.returncode,
+        done.stdout.decode(_PATCH_ENCODING, _PATCH_ERRORS),
+        done.stderr.decode(_PATCH_ENCODING, "replace"),
+    )
 
 
 def patched_newspapers(patch: str, base_source: str) -> str:
@@ -228,9 +252,9 @@ def patched_newspapers(patch: str, base_source: str) -> str:
         path = Path(tmp) / NEWSPAPERS_PY
         path.parent.mkdir(parents=True)
         path.write_text(base_source)
-        code, output = _git_apply([f"--include={NEWSPAPERS_PY}"], patch, Path(tmp))
+        code, _, errors = _git_apply([f"--include={NEWSPAPERS_PY}"], patch, Path(tmp))
         if code != 0:
-            raise ValueError(output.strip())
+            raise ValueError(errors.strip())
         return path.read_text()
 
 
@@ -242,9 +266,9 @@ _CREATE = "create mode 100644 "
 def _touched(patch: str) -> tuple[list[Change], list[str]]:
     """Return what `patch` changes, as git would apply it, and what it may not."""
     with tempfile.TemporaryDirectory() as tmp:
-        code, output = _git_apply(["--numstat", "--summary"], patch, Path(tmp))
+        code, output, errors = _git_apply(["--numstat", "--summary"], patch, Path(tmp))
     if code != 0:
-        return [], [f"the patch does not parse: {output.strip()}"]
+        return [], [f"the patch does not parse: {errors.strip()}"]
     created, problems, paths = set(), [], []
     for line in output.splitlines():
         if line.startswith(" "):
@@ -450,6 +474,9 @@ MAX_EXPLANATION_CHARS = 1000
 
 _RESULT_FIELDS = ("old_xpath", "new_xpath", "from_date")
 
+#: What it says it left out of the headlines, and why, kept for the reviewer.
+_EXCLUDED = "excluded"
+
 
 def read_result(path: Path) -> dict[str, str | None]:
     """Return the agent's account of its fix, or a `gave_up` if it left none.
@@ -470,6 +497,7 @@ def read_result(path: Path) -> dict[str, str | None]:
             "status": "gave_up",
             **dict.fromkeys(_RESULT_FIELDS),
             "explanation": f"The agent left {reason}.",
+            _EXCLUDED: None,
         }
     result: dict[str, str | None] = {"status": written["status"]}
     for key in _RESULT_FIELDS:
@@ -477,23 +505,28 @@ def read_result(path: Path) -> dict[str, str | None]:
         result[key] = None if value is None else str(value)
     explanation = str(written.get("explanation") or "")
     result["explanation"] = explanation[:MAX_EXPLANATION_CHARS]
+    excluded = written.get(_EXCLUDED)
+    result[_EXCLUDED] = (
+        None if excluded is None else str(excluded)[:MAX_EXPLANATION_CHARS]
+    )
     return result
 
 
-def _git_in(root: Path, *args: str) -> str:
+def _git_in(root: Path, *args: str) -> bytes:
     git = shutil.which("git")
     if git is None:
         msg = "git is needed to collect the patch"
         raise SystemExit(msg)
     return subprocess.run(  # noqa: S603 (git, on the fix job's own checkout)
-        [git, *args], cwd=root, capture_output=True, text=True, check=True
+        [git, *args], cwd=root, capture_output=True, check=True
     ).stdout
 
 
 def collect_patch(root: Path) -> str:
     """Return every change in the working tree of `root`, new files included."""
     _git_in(root, "add", "--intent-to-add", "--all")
-    return _git_in(root, "diff", "--binary", "--no-renames", "HEAD")
+    patch = _git_in(root, "diff", "--binary", "--no-renames", "HEAD")
+    return patch.decode(_PATCH_ENCODING, _PATCH_ERRORS)
 
 
 def redact(text: str, secrets: Sequence[str]) -> str:
@@ -607,8 +640,9 @@ def run_agent(  # noqa: PLR0913 (each is an input of the session)
             "status": "deferred",
             **dict.fromkeys(_RESULT_FIELDS),
             "explanation": f"Not started: {problem}.",
+            _EXCLUDED: None,
         }
-        (out_dir / "patch.diff").write_text("")
+        write_patch(out_dir / "patch.diff", "")
         (out_dir / "result.json").write_text(json.dumps(result, indent=2) + "\n")
         return result
 
@@ -624,7 +658,7 @@ def run_agent(  # noqa: PLR0913 (each is an input of the session)
     snapshot_code, _ = run(snapshot, root)
 
     (out_dir / "session.jsonl").write_text(redact(events, redact_secrets))
-    (out_dir / "patch.diff").write_text(redact(collect_patch(root), redact_secrets))
+    write_patch(out_dir / "patch.diff", redact(collect_patch(root), redact_secrets))
     agent_result = read_result(inputs / "result.json")
     result = {
         "outlet": slug,
@@ -685,7 +719,7 @@ def _agent(args: argparse.Namespace) -> int:
 
 def _gate(args: argparse.Namespace) -> int:
     task = json.loads(args.task.read_text())
-    problems = gate(task, args.patch.read_text(), Path(NEWSPAPERS_PY).read_text())
+    problems = gate(task, read_patch(args.patch), Path(NEWSPAPERS_PY).read_text())
     for problem in problems:
         sys.stdout.write(f"refused: {problem}\n")
     if not problems:
