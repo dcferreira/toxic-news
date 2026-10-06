@@ -1,0 +1,757 @@
+# SPDX-FileCopyrightText: 2023-present Daniel Ferreira <daniel.ferreira.1@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
+"""`poe selfheal-fix`: the fix job of the self-fix loop, one outlet at a time.
+
+The `Self-fix` workflow runs it in three steps, each in its own job:
+
+`prepare`
+    writes, for every outlet the day's health report calls `xpath` (or the one
+    asked for), the agent's inputs under `<out-dir>/<slug>/`: `today.html`,
+    the page the Update run fetched; `task.json`, what is broken and since
+    when; `last_good.json`, what a real headline on the site looks like.
+`agent`
+    adds today's page as a fixture, runs omp on the fixed prompt in
+    `tests/selfheal_prompt.md`, then writes `patch.diff`, `result.json` and
+    the session's events to `--out-dir`. It holds the DeepSeek key and nothing
+    else; the agent works offline on the saved page.
+`gate`
+    is the first thing a trusted checkout does with a patch, before any of its
+    code runs: it refuses a patch touching anything but the outlet's entry in
+    `newspapers.py` and its new page and snapshot. Only then is the patch
+    applied and judged by `poe selfheal-check`.
+
+`off-peak`
+    fails unless DeepSeek stays off-peak for `--needs` more; `agent` does the
+    same check before omp starts, and defers its outlet if it fails.
+
+`snapshot` (re)writes the parse snapshot of an outlet's newest page; the agent
+runs it after each edit, and `agent` once more at the end.
+"""
+
+import argparse
+import ast
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+from collections.abc import Callable, Iterator, Sequence
+from dataclasses import dataclass
+from datetime import date, datetime, time, timedelta, timezone
+from pathlib import Path
+from string import Template
+from typing import Any
+
+from tests.fixtures import (
+    HTML_ROOT,
+    Fixture,
+    latest_fixture,
+    slug_of,
+)
+from tests.selfheal_check import (
+    HTML_DIR,
+    NEWSPAPERS_PY,
+    SNAPSHOT_DIR,
+    Change,
+    _entry,
+    _layout,
+    _parse,
+    check_scope,
+    resolve_outlet,
+)
+from toxic_news.health import Verdict, read_health
+from toxic_news.newspapers import Newspaper, newspapers
+from toxic_news.store import headlines_path, read_headlines
+
+_ROOT = HTML_ROOT.parents[2]
+
+#: How far back to look for the day an outlet broke.
+LOOKBACK_DAYS = 60
+
+
+# --- prepare ------------------------------------------------------------------
+
+
+def broken_outlets(data_dir: Path, today: date) -> list[Newspaper]:
+    """Return the outlets `today`'s health report calls XPath errors."""
+    broken = {
+        o.newspaper for o in read_health(data_dir, today) if o.verdict == Verdict.XPATH
+    }
+    return [n for n in newspapers if n.name in broken]
+
+
+@dataclass(frozen=True)
+class History:
+    """When an outlet broke: its first bad day, and the good day before it."""
+
+    first_bad: date
+    last_good: date | None
+
+
+def history(
+    data_dir: Path,
+    newspaper: Newspaper,
+    today: date,
+    lookback_days: int = LOOKBACK_DAYS,
+) -> History:
+    """Return when `newspaper`, broken on `today`, broke.
+
+    Walks the health reports back from `today` to the last `ok` day; the first
+    bad day is the earliest `xpath` one after it. Days without a report, or on
+    which the fetch itself failed, neither end the streak nor start it.
+    """
+    first_bad = today
+    for back in range(lookback_days + 1):
+        day = today - timedelta(days=back)
+        verdicts = [
+            o.verdict
+            for o in read_health(data_dir, day)
+            if o.newspaper == newspaper.name
+        ]
+        if Verdict.OK in verdicts:
+            return History(first_bad=first_bad, last_good=day)
+        if Verdict.XPATH in verdicts:
+            first_bad = day
+    return History(first_bad=first_bad, last_good=None)
+
+
+def last_good_headlines(
+    data_dir: Path, newspaper: Newspaper, last_good: date | None
+) -> dict[str, Any]:
+    """Return the headlines of `newspaper`'s last good day.
+
+    They come from the `data` branch; an outlet broken since before it began
+    falls back to the snapshot of its newest recorded page.
+    """
+    if last_good is not None:
+        rows = [
+            h
+            for h in read_headlines(data_dir, last_good)
+            if h.newspaper == newspaper.name
+        ]
+        if rows:
+            path = headlines_path(Path(), last_good).as_posix()
+            return {
+                "date": last_good.isoformat(),
+                "source": f"data branch, {path}",
+                "headlines": [{"text": h.text, "url": str(h.url)} for h in rows],
+            }
+    fixture = latest_fixture(slug_of(newspaper))
+    snapshot = json.loads(fixture.snapshot_path.read_text())
+    return {
+        "date": fixture.date.isoformat(),
+        "source": fixture.snapshot_path.relative_to(_ROOT).as_posix(),
+        "headlines": [{"text": text, "url": url} for text, url in snapshot],
+    }
+
+
+def extractor_source(newspaper: Newspaper, source: str) -> str:
+    """Return the source of `newspaper`'s `Newspaper(...)` entry in `source`."""
+    entry = _entry(ast.parse(source), slug_of(newspaper))
+    if entry is None:
+        msg = f"No entry for {newspaper.name} in {NEWSPAPERS_PY}"
+        raise SystemExit(msg)
+    return ast.get_source_segment(source, entry) or ""
+
+
+def write_inputs(
+    newspaper: Newspaper,
+    *,
+    raw_html_dir: Path,
+    data_dir: Path,
+    today: date,
+    out_dir: Path,
+) -> Path:
+    """Write the agent's inputs for `newspaper` to `<out_dir>/<slug>/`."""
+    slug = slug_of(newspaper)
+    page = raw_html_dir / f"{slug}.html"
+    if not page.is_file():
+        msg = f"The Update run saved no page for {newspaper.name}: no {page}"
+        raise SystemExit(msg)
+    found = history(data_dir, newspaper, today)
+    health = [o for o in read_health(data_dir, today) if o.newspaper == newspaper.name]
+    task = {
+        "outlet": newspaper.name,
+        "slug": slug,
+        "url": str(newspaper.url),
+        "today": today.isoformat(),
+        "expected_headlines": newspaper.expected_headlines,
+        "headlines_today": health[0].headlines if health else None,
+        "first_bad": found.first_bad.isoformat(),
+        "last_good": None if found.last_good is None else found.last_good.isoformat(),
+        "from_date": datetime.combine(
+            found.first_bad, time(tzinfo=timezone.utc)
+        ).isoformat(),
+        "fixture": str(HTML_DIR / slug / f"{today.isoformat()}.html"),
+        "snapshot": str(SNAPSHOT_DIR / slug / f"{today.isoformat()}.txt"),
+        "extractor": extractor_source(newspaper, (_ROOT / NEWSPAPERS_PY).read_text()),
+    }
+    inputs = out_dir / slug
+    inputs.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(page, inputs / "today.html")
+    (inputs / "task.json").write_text(json.dumps(task, indent=2) + "\n")
+    good = last_good_headlines(data_dir, newspaper, found.last_good)
+    (inputs / "last_good.json").write_text(json.dumps(good, indent=2) + "\n")
+    return inputs
+
+
+# --- gate ---------------------------------------------------------------------
+
+
+def _git_apply(args: list[str], patch: str, cwd: Path) -> tuple[int, str]:
+    """Run `git apply` on `patch` in `cwd`, returning its exit code and output."""
+    git = shutil.which("git")
+    if git is None:
+        msg = "git is needed to read the patch"
+        raise SystemExit(msg)
+    done = subprocess.run(  # noqa: S603 (git apply, reading the patch from stdin)
+        [git, "apply", *args, "-"],
+        input=patch,
+        cwd=cwd,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    return done.returncode, done.stdout + done.stderr
+
+
+def patched_newspapers(patch: str, base_source: str) -> str:
+    """Return `newspapers.py` with `patch` applied, without importing any of it.
+
+    Raises `ValueError` if the patch does not apply to `base_source`.
+    """
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / NEWSPAPERS_PY
+        path.parent.mkdir(parents=True)
+        path.write_text(base_source)
+        code, output = _git_apply([f"--include={NEWSPAPERS_PY}"], patch, Path(tmp))
+        if code != 0:
+            raise ValueError(output.strip())
+        return path.read_text()
+
+
+#: The only summary line `git apply --summary` may print for a fix: a new,
+#: plain file. Renames, copies, deletions and mode changes are all refused.
+_CREATE = "create mode 100644 "
+
+
+def _touched(patch: str) -> tuple[list[Change], list[str]]:
+    """Return what `patch` changes, as git would apply it, and what it may not."""
+    with tempfile.TemporaryDirectory() as tmp:
+        code, output = _git_apply(["--numstat", "--summary"], patch, Path(tmp))
+    if code != 0:
+        return [], [f"the patch does not parse: {output.strip()}"]
+    created, problems, paths = set(), [], []
+    for line in output.splitlines():
+        if line.startswith(" "):
+            summary = line.strip()
+            if summary.startswith(_CREATE):
+                created.add(summary.removeprefix(_CREATE))
+            else:
+                problems.append(f"`{summary}` is not allowed")
+        elif line:
+            path = line.split("\t", 2)[-1]
+            if path.startswith('"') or "=>" in path:
+                problems.append(f"`{path}` is not allowed")
+            else:
+                paths.append(path)
+    changes = [Change(p, "A" if p in created else "M") for p in paths]
+    return changes, problems
+
+
+def _from_dates(source: str, slug: str) -> list[str]:
+    """Return the `from_date` of every `DatedXpath` in `slug`'s own code."""
+    layout = _layout(ast.parse(source), slug)
+    own = [layout.entry, *layout.helpers] if layout.entry is not None else []
+    return [
+        ast.unparse(keyword.value)
+        for node in own
+        for call in ast.walk(node)
+        if isinstance(call, ast.Call)
+        and isinstance(call.func, ast.Name)
+        and call.func.id == "DatedXpath"
+        for keyword in call.keywords
+        if keyword.arg == "from_date"
+    ]
+
+
+def _expected_from_date(task: dict[str, Any]) -> str:
+    day = datetime.fromisoformat(task["from_date"])
+    return f"datetime({day.year}, {day.month}, {day.day}, tzinfo=timezone.utc)"
+
+
+def gate(task: dict[str, Any], patch: str, base_source: str) -> list[str]:
+    """Return why `patch` may not be applied as the fix `task` asked for.
+
+    What the patch touches is read by git itself, the way it would apply it.
+    It has to add exactly the task's page and snapshot, keep to
+    `selfheal-check`'s scope rule, and add one `DatedXpath` from the task's
+    `from_date`. `newspapers.py` is only read as text: none of the patch's
+    code runs here. Empty means it may be applied.
+    """
+    if not patch.strip():
+        return ["the patch is empty"]
+    slug = task["slug"]
+    changes, problems = _touched(patch)
+    if not changes:
+        return problems or ["the patch changes nothing"]
+    wanted = {Change(task["fixture"], "A"), Change(task["snapshot"], "A")}
+    problems += [
+        f"{c.path} ({c.status}) is not today's page or snapshot"
+        for c in changes
+        if c not in wanted and c.path != NEWSPAPERS_PY
+    ]
+    problems += [f"{c.path} is not added" for c in sorted(wanted - set(changes))]
+    try:
+        new_source = patched_newspapers(patch, base_source)
+    except ValueError as e:
+        return [*problems, f"the patch does not apply to {NEWSPAPERS_PY}: {e}"]
+    scope = check_scope(slug, changes, base_source, new_source)
+    if not scope.passed:
+        problems.append(scope.detail)
+    elif (
+        added := sorted(
+            # `None` dates the old XPath, when the fix makes the entry dated
+            set(_from_dates(new_source, slug))
+            - set(_from_dates(base_source, slug))
+            - {"None"}
+        )
+    ) != [expected := _expected_from_date(task)]:
+        problems.append(
+            f"the fix adds DatedXpath from_date {', '.join(added) or 'none'}, "
+            f"expected {expected}"
+        )
+    return problems
+
+
+# --- snapshot -----------------------------------------------------------------
+
+
+def write_snapshot(newspaper: Newspaper) -> Fixture:
+    """Write the parse snapshot of `newspaper`'s newest page, as `test_parse` would."""
+    fixture = latest_fixture(slug_of(newspaper))
+    fixture.snapshot_path.parent.mkdir(parents=True, exist_ok=True)
+    fixture.snapshot_path.write_text(json.dumps(_parse(newspaper, fixture), indent=2))
+    return fixture
+
+
+# --- agent --------------------------------------------------------------------
+
+#: The fixed prompt the agent works from, filled in with its task.
+PROMPT = Path(__file__).with_name("selfheal_prompt.md")
+
+#: The tools the agent gets: no web search, no subagents, no browser.
+TOOLS = "read,edit,bash"
+
+#: Runs a command in a directory, returning its exit code and standard output.
+DirRunner = Callable[[list[str], Path], tuple[int, str]]
+
+
+def _run_in(cmd: list[str], cwd: Path) -> tuple[int, str]:
+    done = subprocess.run(  # noqa: S603 (omp and this module, as the fix job runs them)
+        cmd,
+        cwd=cwd,
+        stdin=subprocess.DEVNULL,
+        stdout=subprocess.PIPE,
+        text=True,
+        check=False,
+    )
+    return done.returncode, done.stdout
+
+
+def omp_command(omp: str, model: str, max_time: str, prompt: str) -> list[str]:
+    """Return the omp command line that runs one fix session on `prompt`.
+
+    It prints the session's events as JSON lines, keeps no session on disk,
+    and loads no skills, rules or extensions, so the prompt is all it is told.
+    """
+    return [
+        omp,
+        "-p",
+        "--mode",
+        "json",
+        "--model",
+        model,
+        "--tools",
+        TOOLS,
+        "--max-time",
+        max_time,
+        "--no-session",
+        "--no-title",
+        "--no-skills",
+        "--no-rules",
+        "--no-extensions",
+        "--no-lsp",
+        "--auto-approve",
+        prompt,
+    ]
+
+
+def build_prompt(task: dict[str, object], inputs: Path) -> str:
+    """Fill the fixed prompt in with `task`, whose inputs are under `inputs`."""
+    from_date = datetime.fromisoformat(str(task["from_date"]))
+    return Template(PROMPT.read_text()).substitute(
+        outlet=task["outlet"],
+        url=task["url"],
+        slug=task["slug"],
+        first_bad=task["first_bad"],
+        expected=task["expected_headlines"],
+        fixture=task["fixture"],
+        snapshot=task["snapshot"],
+        inputs=inputs.as_posix(),
+        from_date=task["from_date"],
+        from_date_args=f"{from_date.year}, {from_date.month}, {from_date.day}",
+    )
+
+
+def summarise_session(events: str) -> dict[str, object]:
+    """Return the turns, tokens and cost of a session from omp's JSON events."""
+    turns = input_tokens = cache_read = output_tokens = 0
+    cost = 0.0
+    stop_reason = error = None
+    for line in events.splitlines():
+        try:
+            event = json.loads(line)
+        except ValueError:
+            continue
+        if not isinstance(event, dict):
+            continue
+        if event.get("type") == "turn_end":
+            turns += 1
+        message = event.get("message")
+        if event.get("type") != "message_end" or not isinstance(message, dict):
+            continue
+        if message.get("role") != "assistant":
+            continue
+        usage = message.get("usage") or {}
+        input_tokens += usage.get("input", 0)
+        cache_read += usage.get("cacheRead", 0)
+        output_tokens += usage.get("output", 0)
+        cost += (usage.get("cost") or {}).get("total", 0.0)
+        stop_reason = message.get("stopReason")
+        error = message.get("errorMessage")
+    return {
+        "turns": turns,
+        "input_tokens": input_tokens,
+        "cache_read_tokens": cache_read,
+        "output_tokens": output_tokens,
+        "cost_usd": round(cost, 6),
+        "stop_reason": stop_reason,
+        "error": error,
+    }
+
+
+#: The longest explanation kept from the agent; it is asked for five sentences.
+MAX_EXPLANATION_CHARS = 1000
+
+_RESULT_FIELDS = ("old_xpath", "new_xpath", "from_date")
+
+
+def read_result(path: Path) -> dict[str, str | None]:
+    """Return the agent's account of its fix, or a `gave_up` if it left none.
+
+    Only its status and XPaths are used; the headlines the fix finds are
+    always recomputed from the patch.
+    """
+    try:
+        written = json.loads(path.read_text())
+    except (OSError, ValueError):
+        written = None
+    if not isinstance(written, dict) or written.get("status") not in {
+        "fixed",
+        "gave_up",
+    }:
+        reason = "no result.json" if written is None else "an invalid result.json"
+        return {
+            "status": "gave_up",
+            **dict.fromkeys(_RESULT_FIELDS),
+            "explanation": f"The agent left {reason}.",
+        }
+    result: dict[str, str | None] = {"status": written["status"]}
+    for key in _RESULT_FIELDS:
+        value = written.get(key)
+        result[key] = None if value is None else str(value)
+    explanation = str(written.get("explanation") or "")
+    result["explanation"] = explanation[:MAX_EXPLANATION_CHARS]
+    return result
+
+
+def _git_in(root: Path, *args: str) -> str:
+    git = shutil.which("git")
+    if git is None:
+        msg = "git is needed to collect the patch"
+        raise SystemExit(msg)
+    return subprocess.run(  # noqa: S603 (git, on the fix job's own checkout)
+        [git, *args], cwd=root, capture_output=True, text=True, check=True
+    ).stdout
+
+
+def collect_patch(root: Path) -> str:
+    """Return every change in the working tree of `root`, new files included."""
+    _git_in(root, "add", "--intent-to-add", "--all")
+    return _git_in(root, "diff", "--binary", "--no-renames", "HEAD")
+
+
+def redact(text: str, secrets: Sequence[str]) -> str:
+    """Return `text` with every one of `secrets` in it masked."""
+    for secret in secrets:
+        if len(secret) >= MIN_SECRET_CHARS:
+            text = text.replace(secret, "***")
+    return text
+
+
+#: Shorter "secrets" are not masked: they would mask ordinary text.
+MIN_SECRET_CHARS = 8
+
+
+# --- DeepSeek's off-peak hours ------------------------------------------------
+
+#: DeepSeek's peak hours, in UTC, Monday to Friday: a request then costs twice
+#: the off-peak rate. Every other hour is off-peak, weekends included, as
+#: https://api-docs.deepseek.com/quick_start/pricing says (checked 2026-10-06).
+#: Chinese public holidays are off-peak all day too; this treats them as
+#: ordinary weekdays, which is only ever stricter.
+PEAK_HOURS_UTC = ((time(1), time(4)), (time(6), time(10)))
+PEAK_WEEKDAYS = range(5)
+
+
+def _peaks(now: datetime) -> Iterator[tuple[datetime, datetime]]:
+    """Yield the peak windows from the start of `now`'s day on, in order."""
+    day = now.date()
+    while True:
+        if day.weekday() in PEAK_WEEKDAYS:
+            for start, end in PEAK_HOURS_UTC:
+                yield (
+                    datetime.combine(day, start, tzinfo=timezone.utc),
+                    datetime.combine(day, end, tzinfo=timezone.utc),
+                )
+        day += timedelta(days=1)
+
+
+def off_peak_left(now: datetime) -> timedelta | None:
+    """Return how long DeepSeek stays off-peak after `now`; `None` in peak hours."""
+    if now.utcoffset() is None:
+        msg = f"{now} has no timezone; give a UTC time"
+        raise ValueError(msg)
+    for start, end in _peaks(now.astimezone(timezone.utc)):
+        if now < start:
+            return start - now
+        if now < end:
+            return None
+    msg = "unreachable: there is always a next peak"
+    raise AssertionError(msg)
+
+
+_DURATION = re.compile(r"(\d+)([smh]?)")
+
+
+def duration(text: str) -> timedelta:
+    """Return how long omp's `--max-time` reads `text` as: `600`, `45s`, `15m`..."""
+    match = _DURATION.fullmatch(text.strip())
+    if match is None:
+        msg = f"{text!r} is not a duration like 600, 45s, 15m or 1h"
+        raise ValueError(msg)
+    unit = {"": "seconds", "s": "seconds", "m": "minutes", "h": "hours"}[match[2]]
+    return timedelta(**{unit: int(match[1])})
+
+
+def peak_problem(now: datetime, needed: timedelta) -> str | None:
+    """Return why a run of length `needed` may not start at `now`, if it may not."""
+    left = off_peak_left(now)
+    if left is None:
+        return f"{now:%a %H:%M} UTC is in DeepSeek's peak hours; run off-peak"
+    if left < needed:
+        return (
+            f"DeepSeek's off-peak hours end in {left}, before a run of {needed} "
+            "could finish; run after the peak"
+        )
+    return None
+
+
+def _utcnow() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def run_agent(  # noqa: PLR0913 (each is an input of the session)
+    slug: str,
+    *,
+    root: Path,
+    inputs: Path,
+    out_dir: Path,
+    omp: str,
+    model: str,
+    max_time: str,
+    run: DirRunner = _run_in,
+    redact_secrets: Sequence[str] = (),
+    now: datetime | None = None,
+) -> dict[str, Any]:
+    """Run one fix session of `slug` in the checkout `root`, and collect it.
+
+    Writes `patch.diff`, `result.json` and `session.jsonl` to `out_dir`, and
+    returns the result. The agent can read its environment, so anything it
+    leaves is kept with `redact_secrets` masked: artifacts of a public
+    repository are public.
+
+    A session that could reach DeepSeek's peak hours, given `max_time`, is not
+    started: the result is `deferred`, and the patch empty.
+    """
+    out_dir.mkdir(parents=True, exist_ok=True)
+    problem = peak_problem(now or _utcnow(), duration(max_time))
+    if problem is not None:
+        result = {
+            "outlet": slug,
+            "status": "deferred",
+            **dict.fromkeys(_RESULT_FIELDS),
+            "explanation": f"Not started: {problem}.",
+        }
+        (out_dir / "patch.diff").write_text("")
+        (out_dir / "result.json").write_text(json.dumps(result, indent=2) + "\n")
+        return result
+
+    task = json.loads((inputs / "task.json").read_text())
+    fixture = root / task["fixture"]
+    fixture.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(inputs / "today.html", fixture)
+
+    prompt = build_prompt(task, inputs.relative_to(root))
+    code, events = run(omp_command(omp, model, max_time, prompt), root)
+    # whatever the agent left, the snapshot is the one the extractor gives
+    snapshot = [sys.executable, "-m", "tests.selfheal_fix", "snapshot", slug]
+    snapshot_code, _ = run(snapshot, root)
+
+    (out_dir / "session.jsonl").write_text(redact(events, redact_secrets))
+    (out_dir / "patch.diff").write_text(redact(collect_patch(root), redact_secrets))
+    agent_result = read_result(inputs / "result.json")
+    result = {
+        "outlet": slug,
+        **{
+            k: None if v is None else redact(v, redact_secrets)
+            for k, v in agent_result.items()
+        },
+        "omp_exit_code": code,
+        "snapshot_exit_code": snapshot_code,
+        "session": summarise_session(events),
+    }
+    (out_dir / "result.json").write_text(json.dumps(result, indent=2) + "\n")
+    return result
+
+
+# --- command line -------------------------------------------------------------
+
+
+def _prepare(args: argparse.Namespace) -> int:
+    today = args.date
+    outlets = (
+        [resolve_outlet(args.outlet)]
+        if args.outlet
+        else broken_outlets(args.data_dir, today)
+    )
+    slugs = []
+    for newspaper in outlets:
+        write_inputs(
+            newspaper,
+            raw_html_dir=args.raw_html_dir,
+            data_dir=args.data_dir,
+            today=today,
+            out_dir=args.out_dir,
+        )
+        slugs.append(slug_of(newspaper))
+    args.out_dir.mkdir(parents=True, exist_ok=True)
+    (args.out_dir / "outlets.json").write_text(json.dumps(slugs) + "\n")
+    sys.stdout.write(json.dumps(slugs) + "\n")
+    return 0
+
+
+def _agent(args: argparse.Namespace) -> int:
+    slug = slug_of(resolve_outlet(args.outlet))
+    root = Path.cwd().resolve()
+    result = run_agent(
+        slug,
+        root=root,
+        inputs=(root / args.inputs / slug).resolve(),
+        out_dir=args.out_dir,
+        omp=args.omp,
+        model=args.model,
+        max_time=args.max_time,
+        redact_secrets=[os.environ.get("DEEPSEEK_API_KEY", "")],
+    )
+    sys.stdout.write(json.dumps(result, indent=2) + "\n")
+    return 0
+
+
+def _gate(args: argparse.Namespace) -> int:
+    task = json.loads(args.task.read_text())
+    problems = gate(task, args.patch.read_text(), Path(NEWSPAPERS_PY).read_text())
+    for problem in problems:
+        sys.stdout.write(f"refused: {problem}\n")
+    if not problems:
+        sys.stdout.write(f"{args.patch} stays within {task['slug']}\n")
+    return 1 if problems else 0
+
+
+def _off_peak(args: argparse.Namespace) -> int:
+    problem = peak_problem(_utcnow(), duration(args.needs))
+    if problem is not None:
+        sys.stdout.write(f"refused: {problem}\n")
+        return 1
+    sys.stdout.write(f"off-peak for {off_peak_left(_utcnow())}\n")
+    return 0
+
+
+def _snapshot(args: argparse.Namespace) -> int:
+    fixture = write_snapshot(resolve_outlet(args.outlet))
+    sys.stdout.write(f"wrote {fixture.snapshot_path.relative_to(_ROOT)}\n")
+    return 0
+
+
+def main(argv: Sequence[str] | None = None) -> int:
+    """Run one step of the fix job; see the module docstring."""
+    parser = argparse.ArgumentParser(prog="poe selfheal-fix", description=__doc__)
+    steps = parser.add_subparsers(dest="step", required=True)
+
+    prepare = steps.add_parser("prepare", help="write the agent's inputs")
+    prepare.add_argument("--raw-html-dir", type=Path, required=True)
+    prepare.add_argument("--data-dir", type=Path, required=True)
+    prepare.add_argument("--date", type=date.fromisoformat, required=True)
+    prepare.add_argument("--out-dir", type=Path, required=True)
+    prepare.add_argument(
+        "--outlet", help="fix this outlet, whatever the health report says"
+    )
+    prepare.set_defaults(func=_prepare)
+
+    agent = steps.add_parser("agent", help="run one fix session")
+    agent.add_argument("outlet")
+    agent.add_argument(
+        "--inputs", type=Path, default=Path("selfheal"), help="what prepare wrote"
+    )
+    agent.add_argument("--out-dir", type=Path, required=True)
+    agent.add_argument("--omp", default="omp")
+    agent.add_argument("--model", default="deepseek/deepseek-flash")
+    agent.add_argument("--max-time", default="15m")
+    agent.set_defaults(func=_agent)
+
+    check = steps.add_parser("gate", help="refuse a patch beyond the task")
+    check.add_argument("task", type=Path, help="the task.json prepare wrote")
+    check.add_argument("patch", type=Path)
+    check.set_defaults(func=_gate)
+
+    off_peak = steps.add_parser(
+        "off-peak", help="fail unless DeepSeek stays off-peak long enough"
+    )
+    off_peak.add_argument("--needs", default="0", help="how long, e.g. 15m")
+    off_peak.set_defaults(func=_off_peak)
+
+    snapshot = steps.add_parser("snapshot", help="write the newest page's snapshot")
+    snapshot.add_argument("outlet")
+    snapshot.set_defaults(func=_snapshot)
+
+    args = parser.parse_args(argv)
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

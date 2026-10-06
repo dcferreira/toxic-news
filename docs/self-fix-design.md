@@ -241,7 +241,11 @@ plan).
     cap;
   - `dry_run` — stop after the fix job: patch and evidence as artifacts, no
     PR, no attempt recorded.
-- Runs land around 15:30–18:00 UTC, which is DeepSeek off-peak.
+- DeepSeek is only ever called off-peak. Its peak hours are 01:00–04:00 and
+  06:00–10:00 UTC on weekdays (rates double then; weekends and Chinese public
+  holidays are off-peak all day, though the guard treats holidays as weekdays). A run started too close to them is refused, and a fix session that
+  could reach one is deferred. Update's 12:00 UTC run leaves about 13 hours of
+  off-peak for the fix job to follow it, which a test holds it to.
 
 ## Safety
 
@@ -250,6 +254,18 @@ injection is a hygiene concern rather than a design driver. The controls that
 cost nothing stay: the job running the agent holds no GitHub write access and
 only a dedicated, low-balance DeepSeek key; it works offline on saved HTML;
 its output is a patch that deterministic code checks; merging is human.
+
+What the agent writes is code, and it does run: the agent has `bash`, and
+`selfheal-check` imports the patched `newspapers.py`. So the check job first
+runs `poe selfheal-fix gate`, which reads the patch with `git apply --summary`
+and refuses anything beyond the outlet's entry and today's page and snapshot,
+before any of it runs. The checker's verdict is still advisory: a patch's code
+could make it lie. Artifacts are public, so the fix job masks the DeepSeek
+key in everything it keeps. One gap is accepted for now: code in the fix and
+check jobs could tamper with a later JavaScript action, use its runtime token
+to write an Actions cache entry on `main`, and so reach Update, which restores
+caches and can push. The selfheal jobs write no caches of their own; revisit
+this before step 4 chains the loop to every Update run.
 
 ## Cost
 

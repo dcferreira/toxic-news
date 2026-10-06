@@ -104,6 +104,9 @@ selfheal-check = "python -m tests.selfheal_check"
 # `poe triage [--dry-run]`: open, refresh and close the one GitHub issue per
 # XPath-broken outlet, from the latest health reports; see `toxic_news/triage.py`.
 triage = "python -m toxic_news.triage"
+# `poe selfheal-fix prepare|agent|gate|snapshot ...`: the steps of the fix job
+# in `.github/workflows/selfheal.yml`; see `tests/selfheal_fix.py`.
+selfheal-fix = "python -m tests.selfheal_fix"
 
 # --- packaging / running -----------------------------------------------------
 build = "docker buildx build . -t toxic-news:local"
