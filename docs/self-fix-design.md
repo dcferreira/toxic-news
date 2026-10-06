@@ -139,7 +139,8 @@ It iterates against `poe selfheal-check <outlet>`, which passes when:
 
 1. on today's fixture, the count is within 0.6–1.4× of `expected_headlines`;
 2. headlines are non-empty, unique, at most 300 characters, not navigation
-   text, and link to the outlet's domain;
+   text, at most 5% promos (newsletter, app, account or subscription links,
+   calls to action), and link to the outlet's domain;
 3. every existing fixture still reproduces its existing snapshot exactly, so
    historical and Wayback parsing are unchanged;
 4. the diff stays within that outlet (see below);
@@ -147,7 +148,8 @@ It iterates against `poe selfheal-check <outlet>`, which passes when:
 6. lint and type checks pass.
 
 Output: `patch.diff` and `result.json` (`fixed` or `gave_up`, old and new
-XPath, `from_date`, an explanation of at most five sentences). The agent's
+XPath, `from_date`, an explanation of at most five sentences, an `excluded`
+note on what looks like a headline but was left out). The agent's
 own account of the headlines is not used anywhere.
 
 ## PR job

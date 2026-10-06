@@ -321,7 +321,7 @@ def check_headlines(headlines: Headlines, url: str) -> CheckResult:
         problems.append(f"{len(navigation)} look like navigation text: {shown}")
 
     promos = [t for t, link in headlines if is_utility(t, link)]
-    if len(promos) / len(texts) > MAX_UTILITY_SHARE:
+    if len(promos) > max(1, MAX_UTILITY_SHARE * len(texts)):
         shown = ", ".join(repr(t) for t in promos[:10])
         problems.append(
             f"{len(promos)} look like promos, not stories "

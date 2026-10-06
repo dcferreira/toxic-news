@@ -217,6 +217,14 @@ def test_a_stray_promo_is_tolerated():
     assert result.passed, result.detail
 
 
+def test_a_stray_promo_is_tolerated_on_a_short_page():
+    result = check_headlines(
+        [*_headlines(16), ("Sign up for our newsletter", "https://a.com/newsletters")],
+        url="https://a.com",
+    )
+    assert result.passed, result.detail
+
+
 @pytest.mark.parametrize("fixture", all_fixtures(), ids=lambda f: f.slug)
 def test_no_recorded_snapshot_reads_as_promos(fixture):
     """Every outlet's own recorded headlines stay under the promo share."""
