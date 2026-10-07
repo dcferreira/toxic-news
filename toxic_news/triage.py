@@ -340,6 +340,25 @@ class GitHub:
                 return issues
             page += 1
 
+    def _pages(self, path: str) -> list[dict[str, Any]]:
+        """Return every item of a paginated list, `path` given with its query."""
+        found: list[dict[str, Any]] = []
+        page = 1
+        while True:
+            items = self._request("GET", f"{path}&per_page={PAGE_SIZE}&page={page}")
+            found += items
+            if len(items) < PAGE_SIZE:
+                return found
+            page += 1
+
+    def labelled(self, label: str) -> list[dict[str, Any]]:
+        """Return the issues and pull requests carrying `label`, in any state."""
+        return self._pages(f"/issues?state=all&labels={quote(label, safe='')}")
+
+    def comments(self, number: int) -> list[dict[str, Any]]:
+        """Return the comments of an issue, oldest first."""
+        return self._pages(f"/issues/{number}/comments?")
+
     def ensure_label(self, name: str) -> None:
         """Create the label `name` unless it exists."""
         if name in self._labels:
