@@ -1,11 +1,14 @@
 name: Backend CI
 
 # Pushes to main, and every pull request: a PR branch would otherwise be built
-# twice, once for the push and once for the PR.
+# twice, once for the push and once for the PR. A PR the self-fix loop opens
+# starts no workflow, being opened with GITHUB_TOKEN, so marking it ready for
+# review is what runs this on it.
 on:
   push:
     branches: [main]
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
 
 # Pull requests run this too, so it gets no more than it needs to read the code.
 permissions:
