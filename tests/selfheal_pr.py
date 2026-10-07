@@ -129,7 +129,7 @@ class Evidence:
 
     @property
     def passed(self) -> bool:
-        """Return whether the check passed and the screenshot shows every match."""
+        """Return the check's verdict; the outline and pixels are not consulted."""
         return bool(self.check and self.check.get("passed") is True)
 
 
@@ -198,7 +198,7 @@ def _counts(evidence: Evidence) -> list[str]:
 
 def _screenshot(evidence: Evidence, screenshot_url: str | None) -> list[str]:
     outline, pixels = evidence.outline, evidence.pixels
-    if screenshot_url is None or outline is None:
+    if outline is None:
         return [
             (
                 "No screenshot: the fix's extractor is not a plain XPath, or the "
@@ -221,6 +221,8 @@ def _screenshot(evidence: Evidence, screenshot_url: str | None) -> list[str]:
             f"; only {found} of the outlines were found in the screenshot's "
             "pixels, so some matches may be cut off or covered."
         )
+    if screenshot_url is None:
+        return [line]
     return [
         line,
         "",

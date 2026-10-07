@@ -195,7 +195,7 @@ patch's code: main's own code reads the evidence as data.
    passing patch within scope, `none` when no session ran (deferred to dodge
    DeepSeek's peak), else gave up, refused, failed or no patch.
 2. For `pr`: apply the patch in a separate worktree, commit it to
-   `selfheal/<outlet>-<date>` and push. The checkout the job's code runs from
+   `selfheal/<outlet>-<date>-<run id>-<run attempt>` and push. The checkout the job's code runs from
    never holds the patch.
 3. Push the screenshot to the orphan `selfheal-evidence` branch and embed it
    through `raw.githubusercontent.com`, pinned to that commit. It never goes

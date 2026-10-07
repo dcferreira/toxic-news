@@ -593,6 +593,10 @@ jobs:
           uv run python -m tests.selfheal_pr body --evidence "$EVIDENCE" \
             --run-url "$RUN_URL" ${ISSUE:+--issue "$ISSUE"} \
             ${SCREENSHOT:+--screenshot-url "$SCREENSHOT"} --output body.md
+          # Triage makes the labels with the issue; a forced outlet may have none.
+          for label in selfheal "selfheal:$OUTLET"; do
+            gh label create "$label" --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
+          done
           url=$(gh pr create --repo "$GITHUB_REPOSITORY" --draft --base main \
             --head "$BRANCH" --title "$TITLE" --body-file body.md \
             --label selfheal --label "selfheal:$OUTLET")

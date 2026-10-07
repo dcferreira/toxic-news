@@ -187,6 +187,13 @@ def test_the_body_without_a_screenshot_says_why():
     assert "![" not in body
 
 
+def test_the_body_without_a_screenshot_url_still_reports_the_outline():
+    body = _body(_evidence(), screenshot_url=None)
+    assert "The browser matched" in body
+    assert "No screenshot" not in body
+    assert "![" not in body
+
+
 def test_the_body_fits_githubs_limit():
     long = [[f"Story {i} " + "x" * 280, f"https://bbc.com/{i}"] for i in range(400)]
     check = {"passed": True, "results": [], "headlines": long}
