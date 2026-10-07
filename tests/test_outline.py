@@ -8,15 +8,18 @@ import json
 from pathlib import Path
 
 import pytest
+from PIL import Image, ImageDraw
 from typer.testing import CliRunner
 
 from toxic_news.outline import (
     CSP_META,
+    Box,
     app,
     canary_script,
     count_matches,
     find_page,
     live_script,
+    outlines_found,
     prepare_page,
 )
 
@@ -130,3 +133,55 @@ def test_check_command_compares_the_counts(
     outlined_file.write_text(json.dumps(browser))
     result = CliRunner().invoke(app, ["check", str(lxml_file), str(outlined_file)])
     assert result.exit_code == exit_code, result.output
+
+
+# --- the outlines, in the pixels -----------------------------------------------
+
+PINK = (0xE4, 0x00, 0x7C)
+
+
+def _screenshot(tmp_path: Path, drawn: list[Box], border: int = 3) -> Path:
+    image = Image.new("RGB", (400, 300), "white")
+    draw = ImageDraw.Draw(image)
+    for left, top, width, height in drawn:
+        draw.rectangle(
+            (left, top, left + width - 1, top + height - 1), outline=PINK, width=border
+        )
+    path = tmp_path / "shot.png"
+    image.save(path)
+    return path
+
+
+def test_outlines_found_counts_only_boxes_drawn_in_the_pixels(tmp_path: Path) -> None:
+    drawn: list[Box] = [(10, 10, 100, 30), (10, 60, 100, 30)]
+    shot = _screenshot(tmp_path, drawn)
+    # the third box lies past the bottom of the screenshot, as a clipped
+    # full-page capture leaves it; the fourth was never painted
+    boxes = [*drawn, (10, 290, 100, 30), (200, 10, 100, 30)]
+    assert outlines_found(shot, boxes, scale=1) == [True, True, False, False]
+
+
+def test_an_outline_cut_by_the_left_edge_still_counts(tmp_path: Path) -> None:
+    # matches at x=0 get their outline 4px to the left, off the page
+    shot = _screenshot(tmp_path, [(-4, 10, 100, 30)])
+    assert outlines_found(shot, [(-4, 10, 100, 30)], scale=1) == [True]
+
+
+def test_boxes_are_scaled_by_the_device_pixel_ratio(tmp_path: Path) -> None:
+    shot = _screenshot(tmp_path, [(20, 20, 200, 60)], border=6)
+    assert outlines_found(shot, [(10, 10, 100, 30)], scale=2) == [True]
+
+
+def test_verify_command_writes_what_it_found(tmp_path: Path) -> None:
+    shot = _screenshot(tmp_path, [(10, 10, 100, 30)])
+    outlined = tmp_path / "outline.json"
+    boxes = [[10, 10, 100, 30], [200, 10, 100, 30]]
+    outlined.write_text(
+        json.dumps(
+            {"matches": 2, "outlined": 2, "hidden": 0, "scale": 1, "boxes": boxes}
+        )
+    )
+    out = tmp_path / "pixels.json"
+    result = CliRunner().invoke(app, ["verify", str(shot), str(outlined), str(out)])
+    assert result.exit_code == 1, result.output
+    assert json.loads(out.read_text()) == {"found": 1, "missing": [2]}

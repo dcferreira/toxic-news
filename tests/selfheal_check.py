@@ -196,6 +196,19 @@ class Report:
         """Return whether every check passed."""
         return all(r.passed for r in self.results)
 
+    def json(self) -> dict[str, object]:
+        """Return the report as data, for the PR job to render."""
+        return {
+            "outlet": self.newspaper.name,
+            "date": self.fixture.date.isoformat(),
+            "passed": self.passed,
+            "results": [
+                {"name": r.name, "passed": r.passed, "detail": r.detail}
+                for r in self.results
+            ],
+            "headlines": [list(h) for h in self.headlines],
+        }
+
     def markdown(self) -> str:
         """Render the report as Markdown, for a job summary or a PR body."""
         verdict = "PASS" if self.passed else "FAIL"
@@ -801,6 +814,11 @@ def main(argv: Sequence[str] | None = None) -> int:
         "counts as a change out of scope",
     )
     parser.add_argument(
+        "--json",
+        type=Path,
+        help="also write the report here as JSON; outside the checkout too",
+    )
+    parser.add_argument(
         "--page",
         type=Path,
         help="the front page the run fetched; the new fixture has to be it",
@@ -823,6 +841,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     sys.stdout.write(markdown)
     if args.output is not None:
         args.output.write_text(markdown)
+    if args.json is not None:
+        args.json.write_text(json.dumps(report.json(), indent=2) + "\n")
     return 0 if report.passed else 1
 
 

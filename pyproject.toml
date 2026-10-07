@@ -54,6 +54,7 @@ explore = [
 [dependency-groups]
 dev = [
     "lxml-stubs",
+    "pillow",
     "poethepoet",
     "pre-commit",
     "pytest",

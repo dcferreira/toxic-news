@@ -59,8 +59,10 @@ def count_matches(content: str, xpath: str) -> int:
 def canary_script(page_url: str, xpath: str, screenshot: str, result: str) -> str:
     """Build the canary step that outlines every match and screenshots the page.
 
-    It writes `{"matches": ..., "outlined": ..., "hidden": ...}` to `result` in
-    canary's tmp dir; a hidden match has an empty box, so nothing to outline.
+    It writes `{"matches": ..., "outlined": ..., "hidden": ..., "scale": ...,
+    "boxes": ...}` to `result` in canary's tmp dir; a hidden match has an empty
+    box, so nothing to outline. `boxes` are the outlines drawn, as `[left, top,
+    width, height]` in CSS pixels; `scale` is the device pixel ratio.
     """
     return f"""\
 const page = await browser.getPage("evidence");
@@ -75,6 +77,7 @@ const counts = await page.evaluate(([xpath, style]) => {{
     xpath, document, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
   let outlined = 0;
   let hidden = 0;
+  const boxes = [];
   for (let i = 0; i < found.snapshotLength; i++) {{
     let node = found.snapshotItem(i);
     if (node.nodeType !== Node.ELEMENT_NODE) node = node.parentElement;
@@ -84,22 +87,85 @@ const counts = await page.evaluate(([xpath, style]) => {{
       continue;
     }}
     // a box over the match, not a style on it, so no ancestor clips it
+    const at = [rect.left + window.scrollX - 4, rect.top + window.scrollY - 4,
+      rect.width + 8, rect.height + 8];
     const box = document.createElement("div");
     box.style.cssText = "position:absolute;pointer-events:none;"
       + "z-index:2147483647;box-sizing:border-box;border:" + style + ";"
-      + "left:" + (rect.left + window.scrollX - 4) + "px;"
-      + "top:" + (rect.top + window.scrollY - 4) + "px;"
-      + "width:" + (rect.width + 8) + "px;height:" + (rect.height + 8) + "px";
+      + "left:" + at[0] + "px;top:" + at[1] + "px;"
+      + "width:" + at[2] + "px;height:" + at[3] + "px";
+    boxes.push(at);
     document.documentElement.appendChild(box);
     outlined++;
   }}
-  return {{ matches: found.snapshotLength, outlined, hidden }};
+  return {{ matches: found.snapshotLength, outlined, hidden,
+    scale: window.devicePixelRatio, boxes }};
 }}, [{json.dumps(xpath)}, {json.dumps(OUTLINE_STYLE)}]);
 const shot = await saveScreenshot(
   await page.screenshot({{ fullPage: true }}), {json.dumps(screenshot)});
 await writeFile({json.dumps(result)}, JSON.stringify(counts));
 console.log(JSON.stringify({{ ...counts, screenshot: shot }}));
 """
+
+
+#: The outline's colour, as the screenshot has it, and how far off it may be.
+OUTLINE_RGB = (0xE4, 0x00, 0x7C)
+OUTLINE_WIDTH = 3
+_TOLERANCE = 40
+#: Points sampled along each edge of an outline.
+_SAMPLES = 20
+#: An outline counts as drawn when this many of its edges are: a match at the
+#: page's edge has its outline cut there.
+_EDGES_NEEDED = 3
+
+Box = tuple[float, float, float, float]
+
+
+def _spread(start: float, end: float) -> list[float]:
+    return [start + (end - start) * i / _SAMPLES for i in range(_SAMPLES + 1)]
+
+
+def outlines_found(screenshot: Path, boxes: list[Box], scale: float) -> list[bool]:
+    """Return, for each box, whether its outline is in the screenshot's pixels.
+
+    A count of outlines drawn can pass while the screenshot shows none of them:
+    a full-page capture is cut off at a maximum height, for one.
+    """
+    # a dev dependency: only the self-fix loop's PR job needs it
+    from PIL import Image  # noqa: PLC0415
+
+    with Image.open(screenshot) as image:
+        rgb = image.convert("RGB")
+    width, height = rgb.size
+
+    def pink(x: float, y: float) -> bool:
+        if not (0 <= x < width and 0 <= y < height):
+            return False
+        pixel = rgb.getpixel((int(x), int(y)))
+        if not isinstance(pixel, tuple):
+            return False
+        return all(
+            abs(c - o) <= _TOLERANCE for c, o in zip(pixel, OUTLINE_RGB, strict=False)
+        )
+
+    def drawn(points: list[tuple[float, float]]) -> bool:
+        return sum(pink(x, y) for x, y in points) * 2 >= len(points)
+
+    found = []
+    for left, top, box_width, box_height in boxes:
+        x0, y0 = left * scale, top * scale
+        x1, y1 = (left + box_width) * scale, (top + box_height) * scale
+        border = OUTLINE_WIDTH * scale
+        mid = border / 2
+        xs, ys = _spread(x0 + border, x1 - border), _spread(y0 + border, y1 - border)
+        edges = [
+            [(x, y0 + mid) for x in xs],
+            [(x, y1 - mid) for x in xs],
+            [(x0 + mid, y) for y in ys],
+            [(x1 - mid, y) for y in ys],
+        ]
+        found.append(sum(drawn(edge) for edge in edges) >= _EDGES_NEEDED)
+    return found
 
 
 def live_script(url: str) -> str:
@@ -168,6 +234,27 @@ def check(
     if lxml_matches != browser["matches"]:
         raise typer.Exit(code=1)
     if browser["outlined"] + browser["hidden"] != browser["matches"]:
+        raise typer.Exit(code=1)
+
+
+@app.command()
+def verify(
+    screenshot: Annotated[Path, typer.Argument(help="The screenshot canary took.")],
+    outlined_result: Annotated[Path, typer.Argument(help="The canary step's JSON.")],
+    output: Annotated[Path, typer.Argument(help="Where to write what was found.")],
+) -> None:
+    """Fail unless every outline drawn is in the screenshot's pixels.
+
+    Writes `{"found": n, "missing": [...]}`, the missing ones numbered from 1 in
+    the order they were drawn.
+    """
+    browser = json.loads(outlined_result.read_text())
+    boxes = [(left, top, w, h) for left, top, w, h in browser["boxes"]]
+    found = outlines_found(screenshot, boxes, browser["scale"])
+    missing = [i for i, ok in enumerate(found, start=1) if not ok]
+    output.write_text(json.dumps({"found": sum(found), "missing": missing}))
+    typer.echo(f"{sum(found)} of {len(found)} outlines are in the screenshot")
+    if missing:
         raise typer.Exit(code=1)
 
 

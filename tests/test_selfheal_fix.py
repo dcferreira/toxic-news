@@ -892,7 +892,9 @@ def test_an_outlet_gets_at_most_one_attempt_a_week(tmp_path, days_ago, waits):
     last = TODAY - timedelta(days=days_ago)
     chosen, skipped = _select(tmp_path, {"BBC": Record(last_attempt=last)})
     assert chosen == ([] if waits else [BBC])
-    assert skipped == ([f"BBC: attempted on {last}; at most one a week"] if waits else [])
+    assert skipped == (
+        [f"BBC: attempted on {last}; at most one a week"] if waits else []
+    )
 
 
 def test_an_outlet_with_an_open_selfheal_pr_waits_even_when_forced(tmp_path):
@@ -967,10 +969,12 @@ def test_prepare_with_a_repository_writes_inputs_only_for_the_outlets_chosen(
     raw.mkdir()
     for slug in ("bbc.com", "foxnews.com"):
         (raw / f"{slug}.html").write_text("<html></html>")
+    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    monkeypatch.delenv("GH_TOKEN", raising=False)
     github = FakeGitHub([{"number": 30, "state": "open", "pull_request": {}}], {})
     monkeypatch.setattr(
         "tests.selfheal_fix.GitHub",
-        lambda repo, token: github if repo == "o/r" else None,
+        lambda repo, token: github if (repo, token) == ("o/r", None) else None,
     )
     # only BBC's label has the open PR
     monkeypatch.setattr(

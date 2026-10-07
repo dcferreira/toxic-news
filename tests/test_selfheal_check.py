@@ -684,3 +684,16 @@ def test_changes_since_lists_edits_and_untracked_files(tmp_path, monkeypatch):
         Change("new.txt", "A"),
     ]
     assert source_at("HEAD", "edited.txt") == "a"
+
+
+def test_main_also_writes_the_report_as_json(monkeypatch, tmp_path):
+    _no_git(monkeypatch, passed=False)
+    out = tmp_path / "check.json"
+    assert main(["bbc.com", "--skip-quality", "--json", str(out)]) == 1
+    assert json.loads(out.read_text()) == {
+        "outlet": "BBC",
+        "date": "2023-05-20",
+        "passed": False,
+        "results": [{"name": "x", "passed": False, "detail": ""}],
+        "headlines": [],
+    }

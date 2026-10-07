@@ -5045,6 +5045,7 @@ explore = [
 [package.dev-dependencies]
 dev = [
     { name = "lxml-stubs" },
+    { name = "pillow" },
     { name = "poethepoet" },
     { name = "pre-commit" },
     { name = "pytest" },
@@ -5079,6 +5080,7 @@ provides-extras = ["explore"]
 [package.metadata.requires-dev]
 dev = [
     { name = "lxml-stubs" },
+    { name = "pillow" },
     { name = "poethepoet" },
     { name = "pre-commit" },
     { name = "pytest" },
