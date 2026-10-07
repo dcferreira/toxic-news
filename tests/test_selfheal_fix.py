@@ -4,6 +4,7 @@
 
 """Tests for `poe selfheal-fix`, the fix job of the self-fix loop."""
 
+import ast
 import json
 import re
 import shutil
@@ -169,7 +170,7 @@ def test_last_good_headlines_fall_back_to_the_newest_fixture(tmp_path):
     fixture = latest_fixture("bbc.com")
     found = last_good_headlines(tmp_path, BBC, None)
     assert found["date"] == fixture.date.isoformat()
-    assert found["source"] == "tests/snapshots/test_parse/bbc.com/2023-05-20.txt"
+    assert found["source"] == f"tests/snapshots/test_parse/bbc.com/{fixture.date}.txt"
     snapshot = json.loads(fixture.snapshot_path.read_text())
     assert found["headlines"][0] == {"text": snapshot[0][0], "url": snapshot[0][1]}
 
@@ -228,10 +229,10 @@ NEWSPAPERS = Path(NEWSPAPERS_PY)
 
 
 def _repo(tmp_path: Path) -> Path:
-    """Return a git repository holding this checkout's `newspapers.py`."""
+    """Return a git repository holding `newspapers_source()`."""
     repo = tmp_path / "repo"
     (repo / NEWSPAPERS).parent.mkdir(parents=True)
-    shutil.copyfile(_ROOT / NEWSPAPERS, repo / NEWSPAPERS)
+    (repo / NEWSPAPERS).write_text(newspapers_source())
     existing = repo / "tests/assets/html/bbc.com/2023-05-20.html"
     existing.parent.mkdir(parents=True)
     existing.write_text("<html>old</html>\n")
@@ -258,6 +259,34 @@ def _diff(repo: Path) -> str:
 BBC_OLD_EXTRACTOR = """get_xpath_fn(
             "//h3[@class='media__title' and a]", href_xpath="a"
         ),"""
+
+
+def newspapers_source() -> str:
+    """Return this checkout's `newspapers.py`, with BBC's extractor its 2023 one.
+
+    These tests edit BBC's entry as a fix would. The loop itself fixes broken
+    outlets, BBC among them, so they pin the extractor they start from rather
+    than take whatever main holds now.
+    """
+    source = (_ROOT / NEWSPAPERS).read_bytes()
+    for node in ast.walk(ast.parse(source)):
+        if isinstance(node, ast.Call) and any(
+            k.arg == "name"
+            and isinstance(k.value, ast.Constant)
+            and k.value.value == "BBC"
+            for k in node.keywords
+        ):
+            (fn,) = [k.value for k in node.keywords if k.arg == "get_headlines_fn"]
+            lines = source.splitlines(keepends=True)
+            start = sum(map(len, lines[: fn.lineno - 1])) + fn.col_offset
+            assert fn.end_lineno is not None
+            assert fn.end_col_offset is not None
+            end = sum(map(len, lines[: fn.end_lineno - 1])) + fn.end_col_offset
+            old = BBC_OLD_EXTRACTOR.removesuffix(",").encode()
+            return (source[:start] + old + source[end:]).decode()
+    msg = "newspapers.py has no BBC entry"
+    raise AssertionError(msg)
+
 
 #: Not a real fix: these tests only need some edit to BBC's entry.
 STUB_XPATH = "//h2[@data-test='stub-only']"
@@ -660,7 +689,7 @@ def test_run_agent_turns_the_session_into_a_patch_and_a_result(tmp_path):
     assert (out / "session.jsonl").read_text().startswith('{"type": "message_end"')
 
 
-def test_the_patch_keeps_the_fetched_page_byte_for_byte(tmp_path):
+def test_the_patch_keeps_the_fetched_page_byte_for_byte(tmp_path, monkeypatch):
     """CRLF endings and non-UTF-8 bytes survive into the patch, so the page
     it adds is the one the run fetched: selfheal-check holds it to that."""
     repo = _repo(tmp_path)
@@ -702,6 +731,10 @@ def test_the_patch_keeps_the_fetched_page_byte_for_byte(tmp_path):
         capture_output=True,
     )
     assert (fresh / "tests/assets/html/bbc.com/2026-10-05.html").read_bytes() == fetched
+    # the gate reads the unpatched newspapers.py from its working directory
+    (fresh / NEWSPAPERS).parent.mkdir()
+    (fresh / NEWSPAPERS).write_text(newspapers_source())
+    monkeypatch.chdir(fresh)
     assert main(["gate", str(inputs / "task.json"), str(out / "patch.diff")]) == 0
 
 

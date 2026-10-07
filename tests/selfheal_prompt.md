@@ -51,8 +51,10 @@ All of it is offline; do not fetch anything from the network.
 
    It passes when today's headline count is within 0.6-1.4x of
    $expected, the headlines look like real stories linking to the outlet,
-   every older page still parses exactly as before, and the change stays
-   inside this outlet. Repeat from 1 until it passes.
+   every older page still parses exactly as before, the change stays
+   inside this outlet, and lint, types and the test suite pass. Repeat from 1
+   until it passes. If a test fails only because it leans on this outlet's
+   old markup, you may not edit it: give up, naming the test.
 5. Read every headline in the snapshot yourself before you finish. The check
    only catches the obvious: passing it is necessary, not sufficient. The
    count range is a sanity check, not a target. If leaving the promos out
