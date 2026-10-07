@@ -212,7 +212,7 @@ jobs:
     needs: prepare
     if: needs.prepare.outputs.outlets != '[]'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     # the only job that can read DEEPSEEK_API_KEY
     environment: selfheal
     permissions:
@@ -394,11 +394,10 @@ jobs:
         if: ${{ !cancelled() && steps.patch.outputs.found }}
         run: |
           .github/selfheal-sandbox.sh get out/check.json "$EVIDENCE/check.json"
-          .github/selfheal-sandbox.sh get repo/toxic_news/newspapers.py \
-            "$RUNNER_TEMP/patched-newspapers.py"
 
       # The screenshot is made by this trusted checkout, from the XPath the
-      # patch wrote, read as text. The saved page loads with scripts, frames,
+      # patch wrote, read as text from the runner's own patched copy, which
+      # the sandbox cannot reach. The saved page loads with scripts, frames,
       # media and requests off (toxic_news/outline.py); its CSS, images and
       # fonts still come from the outlet's servers.
       - name: Find the XPath to outline
@@ -407,7 +406,7 @@ jobs:
         run: |
           set -euo pipefail
           if xpath=$(uv run python -m tests.selfheal_pr xpath "$INPUTS/task.json" \
-              "$RUNNER_TEMP/patched-newspapers.py"); then
+              "$RUNNER_TEMP/patched/toxic_news/newspapers.py"); then
             mkdir -p "$RUNNER_TEMP/page"
             cp "$INPUTS/today.html" "$RUNNER_TEMP/page/$OUTLET.html"
             uv run python -m toxic_news.outline prepare "$OUTLET" "$xpath" \
@@ -539,7 +538,7 @@ jobs:
       - name: Push the fix to its branch
         if: steps.outcome.outputs.outcome == 'pr'
         env:
-          BRANCH: ${{ steps.outcome.outputs.branch }}
+          BRANCH: ${{ steps.outcome.outputs.branch }}-${{ github.run_id }}-${{ github.run_attempt }}
           TITLE: ${{ steps.outcome.outputs.title }}
         run: |
           set -euo pipefail
@@ -585,7 +584,7 @@ jobs:
         id: open
         if: steps.outcome.outputs.outcome == 'pr'
         env:
-          BRANCH: ${{ steps.outcome.outputs.branch }}
+          BRANCH: ${{ steps.outcome.outputs.branch }}-${{ github.run_id }}-${{ github.run_attempt }}
           TITLE: ${{ steps.outcome.outputs.title }}
           ISSUE: ${{ steps.outcome.outputs.issue }}
           SCREENSHOT: ${{ steps.screenshot.outputs.url }}
