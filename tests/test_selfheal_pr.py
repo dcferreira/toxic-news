@@ -348,7 +348,6 @@ def test_an_automatic_run_needs_the_switch_and_main():
 
 
 def test_a_rerun_of_the_pr_job_can_push_its_screenshot_again():
-    """A rerun pushes the same screenshot: a fresh path, and no empty commit."""
+    """A rerun pushes the same screenshot: a path of its own."""
     (step,) = [s for s in _steps("pr") if s.get("id") == "screenshot"]
     assert 'path="$OUTLET/$day-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT.png"' in step["run"]
-    assert 'if ! git -C "$RUNNER_TEMP/shots" diff --cached --quiet; then' in step["run"]

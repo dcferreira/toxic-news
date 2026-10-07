@@ -575,16 +575,14 @@ jobs:
             git -C "$RUNNER_TEMP/shots" switch --orphan selfheal-evidence
           fi
           day=$(jq -r .today "$EVIDENCE/task.json")
-          # a rerun of this job pushes the same screenshot again: a path of its
-          # own, and nothing to commit when an earlier attempt already did
+          # a rerun of this job pushes the same screenshot again: it gets a
+          # path of its own
           path="$OUTLET/$day-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT.png"
           mkdir -p "$RUNNER_TEMP/shots/$OUTLET"
           cp "$EVIDENCE/screenshot.png" "$RUNNER_TEMP/shots/$path"
           git -C "$RUNNER_TEMP/shots" add "$path"
-          if ! git -C "$RUNNER_TEMP/shots" diff --cached --quiet; then
-            git -C "$RUNNER_TEMP/shots" commit -m "evidence: $OUTLET on $day"
-            git -C "$RUNNER_TEMP/shots" push "$remote" HEAD:refs/heads/selfheal-evidence
-          fi
+          git -C "$RUNNER_TEMP/shots" commit -m "evidence: $OUTLET on $day"
+          git -C "$RUNNER_TEMP/shots" push "$remote" HEAD:refs/heads/selfheal-evidence
           sha=$(git -C "$RUNNER_TEMP/shots" rev-parse HEAD)
           echo "url=https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$sha/$path" >> "$GITHUB_OUTPUT"
 
