@@ -17,6 +17,9 @@ here reads files as data. Its inputs, all under one `--evidence` directory:
 `xpath`
     prints the headline XPath the patch dates from the task's `from_date`,
     read from the patched `newspapers.py` as text, for the screenshot.
+`outcome`
+    gates the patch again and prints what came of the attempt: `pr`, `none`
+    (no session ran), or how it failed.
 `body`
     writes the PR's body.
 `comment`
@@ -35,7 +38,7 @@ from pathlib import Path
 from typing import Any
 
 from tests.selfheal_check import NEWSPAPERS_PY, _cell, _layout
-from tests.selfheal_fix import _expected_from_date, attempt_marker
+from tests.selfheal_fix import _expected_from_date, attempt_marker, gate
 
 #: GitHub refuses a PR body longer than this many characters.
 MAX_BODY = 65_536
@@ -326,6 +329,29 @@ def render_body(
     return body
 
 
+# --- what came of it ------------------------------------------------------------
+
+
+def outcome(evidence: Evidence, gate_problems: Sequence[str]) -> str:
+    """Return what came of an attempt: `pr` to open one, `none` if it never ran.
+
+    Anything else is one of `OUTCOMES`, recorded on the issue. `gate_problems`
+    is what the PR job's own `gate` found in the patch.
+    """
+    status = evidence.result.get("status")
+    if status in (None, "deferred"):
+        return "none"
+    if status == "gave_up":
+        return "gave_up"
+    if not evidence.patch.strip():
+        return "no_patch"
+    if gate_problems:
+        return "refused"
+    if not evidence.passed:
+        return "failed"
+    return "pr"
+
+
 # --- the issue comment ----------------------------------------------------------
 
 #: What became of an attempt that ran, for the comment on the outlet's issue.
@@ -398,6 +424,19 @@ def _comment(args: argparse.Namespace) -> int:
     return 0
 
 
+def _outcome(args: argparse.Namespace) -> int:
+    evidence = Evidence.read(args.evidence)
+    problems = (
+        gate(evidence.task, evidence.patch, Path(NEWSPAPERS_PY).read_text())
+        if evidence.patch.strip()
+        else []
+    )
+    for problem in problems:
+        sys.stdout.write(f"refused: {problem}\n")
+    sys.stdout.write(outcome(evidence, problems) + "\n")
+    return 0
+
+
 def _names(args: argparse.Namespace) -> int:
     task = json.loads(args.task.read_text())
     sys.stdout.write(f"title={title(task)}\nbranch={branch(task)}\n")
@@ -417,6 +456,10 @@ def main(argv: Sequence[str] | None = None) -> int:
     names = steps.add_parser("names", help="print the PR's title and branch")
     names.add_argument("task", type=Path)
     names.set_defaults(func=_names)
+
+    found = steps.add_parser("outcome", help="print what came of the attempt")
+    found.add_argument("--evidence", type=Path, required=True)
+    found.set_defaults(func=_outcome)
 
     body = steps.add_parser("body", help="write the PR's body")
     body.add_argument("--evidence", type=Path, required=True)

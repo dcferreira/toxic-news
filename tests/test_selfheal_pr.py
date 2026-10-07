@@ -5,10 +5,12 @@
 """Tests for `poe selfheal-pr`, what the self-fix loop's PR job writes."""
 
 import json
+import re
 from datetime import date
 from typing import Any
 
 import pytest
+import yaml
 
 from tests.selfheal_check import NEWSPAPERS_PY
 from tests.selfheal_fix import _ROOT, attempt_marker
@@ -19,6 +21,7 @@ from tests.selfheal_pr import (
     file_diffs,
     fixed_xpath,
     main,
+    outcome,
     render_body,
     render_comment,
     title,
@@ -236,3 +239,102 @@ def test_file_diffs_splits_a_patch_by_path():
     parts = file_diffs(PATCH)
     assert list(parts) == [NEWSPAPERS_PY, "tests/assets/html/bbc.com/2026-10-05.html"]
     assert parts[NEWSPAPERS_PY].endswith("+new ```` fence\n")
+
+
+# --- what came of the attempt -------------------------------------------------
+
+
+@pytest.mark.parametrize(
+    ("changes", "problems", "wanted"),
+    [
+        ({}, [], "pr"),
+        ({"result": {}}, [], "none"),
+        ({"result": {"status": "deferred"}}, [], "none"),
+        ({"result": {"status": "gave_up"}}, [], "gave_up"),
+        ({"patch": ""}, [], "no_patch"),
+        ({}, ["scope"], "refused"),
+        ({"check": None}, [], "failed"),
+        ({"check": {"passed": False, "results": [], "headlines": []}}, [], "failed"),
+    ],
+)
+def test_the_outcome_opens_a_pr_only_for_a_passing_patch_within_scope(
+    changes: dict[str, Any], problems: list[str], wanted: str
+):
+    assert outcome(_evidence(**changes), problems) == wanted
+
+
+def test_the_outcome_command_gates_the_patch_itself(tmp_path, capsys):
+    evidence = _evidence()
+    (tmp_path / "task.json").write_text(json.dumps(evidence.task))
+    (tmp_path / "last_good.json").write_text(json.dumps(evidence.last_good))
+    (tmp_path / "result.json").write_text(json.dumps(evidence.result))
+    (tmp_path / "check.json").write_text(json.dumps(evidence.check))
+    # passes selfheal-check, but reaches beyond BBC
+    (tmp_path / "patch.diff").write_text(PATCH.replace("bbc.com", "foxnews.com"))
+    assert main(["outcome", "--evidence", str(tmp_path)]) == 0
+    assert capsys.readouterr().out.splitlines()[-1] == "refused"
+
+
+# --- the workflow's own guarantees ----------------------------------------------
+
+WORKFLOW = yaml.safe_load((_ROOT / ".github/workflows/selfheal.yml").read_text())
+JOBS: dict[str, Any] = WORKFLOW["jobs"]
+
+
+def _steps(job: str) -> list[dict[str, Any]]:
+    return JOBS[job]["steps"]
+
+
+def test_only_the_pr_job_can_write():
+    assert WORKFLOW["permissions"] == {}
+    for name, job in JOBS.items():
+        writes = {k for k, v in job.get("permissions", {}).items() if v == "write"}
+        wanted = {"contents", "pull-requests", "issues"} if name == "pr" else set()
+        assert writes == wanted, name
+
+
+def test_only_the_fix_job_holds_the_deepseek_key():
+    for name, job in JOBS.items():
+        assert ("DEEPSEEK_API_KEY" in yaml.safe_dump(job)) == (name == "fix"), name
+    assert JOBS["fix"]["environment"] == "selfheal"
+
+
+def test_the_agent_and_the_checker_only_run_in_the_sandbox():
+    """Both run the patch's code: the agent has bash, the checker imports it."""
+    ran = []
+    for name, job in JOBS.items():
+        for step in job["steps"]:
+            run = step.get("run", "")
+            if "poe selfheal-fix agent" in run or "poe selfheal-check" in run:
+                assert run.startswith(".github/selfheal-sandbox.sh run"), step["name"]
+                ran.append(name)
+    assert ran == ["fix", "check"]
+
+
+def test_no_job_with_write_access_or_trusted_code_holds_the_patch_in_its_checkout():
+    """`check` and `pr` run their own Python after the patch is applied."""
+    for job in ("check", "pr"):
+        for step in _steps(job):
+            for line in step.get("run", "").splitlines():
+                if " apply" in line and "git" in line:
+                    assert re.search(r'git -C "\$RUNNER_TEMP/\w+" apply', line), line
+
+
+def test_no_job_writes_or_restores_a_cache():
+    """A cache entry on main would reach Update, which can push."""
+    for name, job in JOBS.items():
+        for step in job["steps"]:
+            uses = step.get("uses", "")
+            assert not uses.startswith("actions/cache"), name
+            if uses.startswith("astral-sh/setup-uv"):
+                assert step["with"]["enable-cache"] is False, name
+
+
+def test_an_automatic_run_needs_the_switch_and_main():
+    condition = JOBS["prepare"]["if"]
+    assert "vars.SELFHEAL_AUTO" in condition
+    assert "github.event.workflow_run.head_branch == 'main'" in condition
+    assert WORKFLOW[True]["workflow_run"] == {
+        "workflows": ["Update"],
+        "types": ["completed"],
+    }

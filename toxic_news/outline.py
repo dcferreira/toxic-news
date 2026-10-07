@@ -28,9 +28,15 @@ from toxic_news.newspapers import Newspaper, newspapers
 
 app = typer.Typer()
 
-# blocks every script, inline or not, while keeping <script> elements in the
-# DOM, so the browser's tree matches the one lxml parsed
-CSP_META = '<meta http-equiv="Content-Security-Policy" content="script-src \'none\'">'
+# Blocks every script, inline or not, while keeping <script> elements in the
+# DOM, so the browser's tree matches the one lxml parsed. Frames, media,
+# plugins and requests are off too: the page only loads what it is drawn with,
+# its CSS, images and fonts, which still come from the outlet's servers.
+CSP_META = (
+    '<meta http-equiv="Content-Security-Policy" content="script-src \'none\'; '
+    "frame-src 'none'; media-src 'none'; object-src 'none'; "
+    "connect-src 'none'; worker-src 'none'\">"
+)
 OUTLINE_STYLE = "3px solid #e4007c"
 _HEAD = re.compile(r"<head\b[^>]*>", re.IGNORECASE)
 

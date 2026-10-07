@@ -1,34 +1,52 @@
 name: Self-fix
 
-# The self-fix loop's fix job (docs/self-fix-design.md, rollout step 3): for
-# each outlet the day's health report calls `xpath`, or the one asked for, omp
-# on DeepSeek tries a new XPath against the page the Update run saved, and a
-# trusted checkout judges the patch with `poe selfheal-check`. For now every
-# run is a dry run: the patch and its report are kept as artifacts, and no PR
-# is opened (the PR job is rollout step 4).
+# The self-fix loop (docs/self-fix-design.md): for each outlet the day's
+# health report calls `xpath`, or the one asked for, omp on DeepSeek tries a
+# new XPath against the page the Update run saved, a check job judges the
+# patch with `poe selfheal-check` and screenshots the page with every new match
+# outlined, and a PR job opens a draft PR with that evidence. Nothing merges on
+# its own.
+#
+# It follows every Update run on main, once the repository variable
+# SELFHEAL_AUTO says so: `dry-run` stops after the check job, `on` opens PRs;
+# anything else (unset included) leaves it to be run by hand. An outlet gets a
+# session only when no selfheal PR of it is open, it was `xpath` in the last
+# two runs, and it had no attempt in the last week; a run by hand naming an
+# outlet skips the last two rules. Only a dry run may come from another branch.
 #
 # DeepSeek is only ever called off-peak: a run, and each outlet's session,
 # that could reach DeepSeek's peak hours is refused or deferred, and any
 # schedule given to this workflow has to fall off-peak too. There is no
-# override.
+# override. Update's daily run starts at 12:00 UTC, often hours late, which
+# leaves at least four hours of off-peak (tests/test_selfheal_fix.py holds it
+# to that); an automatic run that would still reach a peak waits for the next
+# Update.
 #
-# Three jobs, so the DeepSeek key and the agent's code never share a job with
-# anything that matters:
-#   prepare  reads the run's pages and the data branch; no secrets
+# Four jobs, so the DeepSeek key, the agent's code and write access never
+# share a job:
+#   prepare  reads the run's pages, the data branch and the selfheal issues
 #   fix      runs the agent; holds the key, and the token can only read
-#   check    gates the patch, then applies and judges it; no secrets
+#   check    gates the patch, judges it and screenshots it; no secrets
+#   pr       opens the PR, or records a failed attempt; runs none of the
+#            patch's code
+# The agent's code, in fix and check, runs as an unprivileged user that can
+# reach neither the job's token nor the actions that get it
+# (.github/selfheal-sandbox.sh).
 
 on:
+  workflow_run:
+    workflows: [Update]
+    types: [completed]
   workflow_dispatch:
     inputs:
       outlet:
-        description: Outlet to fix (bbc.com, BBC or bbc); empty for every outlet the health report calls xpath
+        description: Outlet to fix (bbc.com, BBC or bbc), skipping the two-run rule and the weekly cap; empty for every outlet the health report calls xpath
         default: ""
       run_id:
         description: Update run to take raw-html from (default the newest one)
         default: ""
       dry_run:
-        description: Stop after the fix job (the only mode until the PR job exists)
+        description: Stop after the check job, opening no PR and recording no attempt
         type: boolean
         default: true
 
@@ -40,22 +58,48 @@ concurrency:
 
 env:
   OMP_VERSION: v18.6.1
+  CANARY_VERSION: "0.4.4"
 
 jobs:
   prepare:
+    # an automatic run only follows Update on main, once SELFHEAL_AUTO is set
+    if: >-
+      github.event_name == 'workflow_dispatch'
+      || (contains(fromJSON('["on", "dry-run"]'), vars.SELFHEAL_AUTO)
+          && github.event.workflow_run.head_branch == 'main'
+          && contains(fromJSON('["schedule", "workflow_dispatch"]'),
+                      github.event.workflow_run.event))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
       contents: read
       actions: read
+      issues: read
+      pull-requests: read
     outputs:
-      outlets: ${{ steps.prepare.outputs.outlets }}
+      outlets: ${{ steps.prepare.outputs.outlets || '[]' }}
+      dry_run: ${{ steps.mode.outputs.dry_run }}
     steps:
-      - name: Refuse anything but a dry run
-        if: ${{ !inputs.dry_run }}
+      - name: Decide whether this run may open PRs
+        id: mode
+        env:
+          EVENT: ${{ github.event_name }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          AUTO: ${{ vars.SELFHEAL_AUTO }}
+          REF: ${{ github.ref }}
         run: |
-          echo "::error::Only dry runs exist yet: the PR job is rollout step 4."
-          exit 1
+          set -euo pipefail
+          if [ "$EVENT" = workflow_run ]; then
+            dry_run=$([ "$AUTO" = on ] && echo false || echo true)
+          else
+            dry_run=$DRY_RUN
+          fi
+          if [ "$dry_run" != true ] && [ "$REF" != refs/heads/main ]; then
+            echo "::error::Only a dry run may come from a branch other than main."
+            exit 1
+          fi
+          echo "dry_run=$dry_run" >> "$GITHUB_OUTPUT"
+          echo "Dry run: $dry_run"
 
       - name: Check out the code
         uses: actions/checkout@v7
@@ -66,16 +110,22 @@ jobs:
         id: source
         env:
           GH_TOKEN: ${{ github.token }}
-          RUN_ID: ${{ inputs.run_id }}
+          RUN_ID: ${{ inputs.run_id || github.event.workflow_run.id }}
         run: |
           set -euo pipefail
           if [ -z "$RUN_ID" ]; then
             RUN_ID=$(gh api "repos/$GITHUB_REPOSITORY/actions/artifacts?name=raw-html&per_page=20" \
               --jq '[.artifacts[] | select(.expired | not)][0].workflow_run.id // empty')
           fi
-          if [ -z "$RUN_ID" ]; then
-            echo "::error::No Update run with an unexpired raw-html artifact"
-            exit 1
+          saved=0
+          if [ -n "$RUN_ID" ]; then
+            saved=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$RUN_ID/artifacts?name=raw-html" \
+              --jq '[.artifacts[] | select(.expired | not)] | length')
+          fi
+          if [ "$saved" = 0 ]; then
+            # the weekly heal, or a run that failed before it saved its pages
+            echo "::notice::No raw-html to fix against${RUN_ID:+ in run $RUN_ID}; nothing to do."
+            exit 0
           fi
           # the day the run fetched its pages, which its health report is filed under
           DAY=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$RUN_ID" --jq '.run_started_at[:10]')
@@ -84,6 +134,7 @@ jobs:
           echo "day=$DAY" >> "$GITHUB_OUTPUT"
 
       - name: Download that run's raw-html
+        if: steps.source.outputs.run_id
         uses: actions/download-artifact@v8
         with:
           name: raw-html
@@ -92,40 +143,65 @@ jobs:
           github-token: ${{ github.token }}
 
       - name: Check out the data branch
+        if: steps.source.outputs.run_id
         run: |
           set -euo pipefail
           git fetch --depth=1 "https://github.com/$GITHUB_REPOSITORY" data
           git worktree add --detach data FETCH_HEAD
 
       - name: Install uv
+        if: steps.source.outputs.run_id
         uses: astral-sh/setup-uv@v10.2.0
         with:
-          # agent-written code runs in these jobs; a cache it could write
-          # would be restored by Update, which can push
+          # no cache in this workflow: it would be one Update could restore
           enable-cache: false
 
       - name: Install the project
+        if: steps.source.outputs.run_id
         run: uv sync --frozen
 
       # DeepSeek runs only ever happen off-peak (rates double in its peak
       # hours, see PEAK_HOURS_UTC in tests/selfheal_fix.py). This fails a run
-      # started too close to them; each fix leg checks again before omp starts
-      # and defers its outlet if its session could reach a peak.
+      # by hand started too close to them, and has an automatic one wait for
+      # the next Update; each fix leg checks again before omp starts and
+      # defers its outlet if its session could reach a peak.
       - name: Refuse to start in DeepSeek's peak hours
-        run: uv run poe selfheal-fix off-peak --needs 20m
+        id: off_peak
+        if: steps.source.outputs.run_id
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if uv run poe selfheal-fix off-peak --needs 20m; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          elif [ "$EVENT" = workflow_run ]; then
+            echo "::notice::Too close to DeepSeek's peak hours; the next Update run tries again."
+          else
+            exit 1
+          fi
 
       - name: Write each outlet's inputs
         id: prepare
+        if: steps.off_peak.outputs.go
         env:
           DAY: ${{ steps.source.outputs.day }}
           OUTLET: ${{ inputs.outlet }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           uv run poe selfheal-fix prepare --raw-html-dir raw-html --data-dir data \
-            --date "$DAY" --out-dir selfheal ${OUTLET:+--outlet "$OUTLET"}
+            --date "$DAY" --out-dir selfheal --repo "$GITHUB_REPOSITORY" \
+            ${OUTLET:+--outlet "$OUTLET"}
           echo "outlets=$(cat selfheal/outlets.json)" >> "$GITHUB_OUTPUT"
+          {
+            echo "### Outlets"
+            echo
+            echo "Fixing: \`$(cat selfheal/outlets.json)\`"
+            echo
+            jq -r '.[] | "- waits: \(.)"' selfheal/waiting.json
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Keep the inputs
+        if: steps.prepare.outputs.outlets
         uses: actions/upload-artifact@v7
         with:
           name: selfheal-inputs
@@ -161,12 +237,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v10.2.0
         with:
-          # agent-written code runs in these jobs; a cache it could write
-          # would be restored by Update, which can push
           enable-cache: false
-
-      - name: Install the project
-        run: uv sync --frozen
 
       - name: Install omp
         env:
@@ -178,15 +249,27 @@ jobs:
           gh release download "$OMP_VERSION" -R can1357/oh-my-pi \
             -p omp-linux-x64 -p SHA256SUMS.txt
           grep ' omp-linux-x64$' SHA256SUMS.txt | sha256sum -c -
-          chmod +x omp-linux-x64
-          mv omp-linux-x64 omp
-          echo "$RUNNER_TEMP/omp" >> "$GITHUB_PATH"
+          sudo install -m 755 omp-linux-x64 /usr/local/bin/omp
+
+      - name: Set up the sandbox
+        run: .github/selfheal-sandbox.sh setup "$GITHUB_WORKSPACE"
 
       - name: Let the agent fix ${{ matrix.outlet }}
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           OUTLET: ${{ matrix.outlet }}
-        run: uv run poe selfheal-fix agent "$OUTLET" --out-dir "$RUNNER_TEMP/fix"
+          PRESERVE_ENV: DEEPSEEK_API_KEY,OUTLET
+        run: >-
+          .github/selfheal-sandbox.sh run
+          'uv run poe selfheal-fix agent "$OUTLET" --out-dir /srv/selfheal/out'
+
+      - name: Take the patch and the session out of the sandbox
+        if: always()
+        run: |
+          mkdir -p "$RUNNER_TEMP/fix"
+          for name in patch.diff result.json session.jsonl; do
+            .github/selfheal-sandbox.sh get "out/$name" "$RUNNER_TEMP/fix/$name"
+          done
 
       - name: Keep the patch and the session
         if: always()
@@ -204,7 +287,7 @@ jobs:
       && needs.prepare.result == 'success'
       && needs.prepare.outputs.outlets != '[]'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: read
     strategy:
@@ -213,7 +296,13 @@ jobs:
         outlet: ${{ fromJSON(needs.prepare.outputs.outlets) }}
     env:
       OUTLET: ${{ matrix.outlet }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
+      - name: Name the directories
+        run: |
+          echo "INPUTS=$RUNNER_TEMP/inputs/$OUTLET" >> "$GITHUB_ENV"
+          echo "EVIDENCE=$RUNNER_TEMP/evidence" >> "$GITHUB_ENV"
+
       - name: Check out the code
         uses: actions/checkout@v7
         with:
@@ -236,12 +325,20 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v10.2.0
         with:
-          # agent-written code runs in these jobs; a cache it could write
-          # would be restored by Update, which can push
           enable-cache: false
 
       - name: Install the project
         run: uv sync --frozen
+
+      - name: Gather the evidence so far
+        run: |
+          mkdir -p "$EVIDENCE"
+          cp "$INPUTS/task.json" "$INPUTS/last_good.json" "$EVIDENCE/"
+          for name in result.json patch.diff; do
+            if [ -f "$RUNNER_TEMP/agent/$name" ]; then
+              cp "$RUNNER_TEMP/agent/$name" "$EVIDENCE/"
+            fi
+          done
 
       - name: See whether the agent left a patch
         id: patch
@@ -258,22 +355,101 @@ jobs:
       - name: Refuse a patch beyond ${{ matrix.outlet }}
         if: steps.patch.outputs.found
         run: >-
-          uv run poe selfheal-fix gate "$RUNNER_TEMP/inputs/$OUTLET/task.json"
+          uv run poe selfheal-fix gate "$INPUTS/task.json"
           "$RUNNER_TEMP/agent/patch.diff"
 
-      - name: Apply the patch
+      # before the sandbox takes away the write access global installs use
+      - name: Install canary
         if: steps.patch.outputs.found
-        run: git apply "$RUNNER_TEMP/agent/patch.diff"
+        run: |
+          set -euo pipefail
+          npm install -g "@usecanary/cli@$CANARY_VERSION"
+          canary install
+
+      # The patch is applied to a copy: this checkout stays the trusted one
+      # the screenshot below is made with.
+      - name: Apply the patch to a copy, and hand that to the sandbox
+        if: steps.patch.outputs.found
+        run: |
+          set -euo pipefail
+          cp -a "$GITHUB_WORKSPACE" "$RUNNER_TEMP/patched"
+          git -C "$RUNNER_TEMP/patched" apply "$RUNNER_TEMP/agent/patch.diff"
+          .github/selfheal-sandbox.sh setup "$RUNNER_TEMP/patched"
+          sudo cp -r "$RUNNER_TEMP/inputs" /srv/selfheal/inputs
+          sudo chmod -R a+rX /srv/selfheal/inputs
 
       # From here on the patch's code runs, imported by the checker, so the
       # verdict is advisory: a human reads the patch before anything merges.
       - name: Judge the fix
         if: steps.patch.outputs.found
+        env:
+          PRESERVE_ENV: OUTLET
+        run: >-
+          .github/selfheal-sandbox.sh run
+          'uv run poe selfheal-check "$OUTLET"
+          --page "/srv/selfheal/inputs/$OUTLET/today.html"
+          --output /srv/selfheal/out/report.md --json /srv/selfheal/out/check.json'
+
+      - name: Take the verdict out of the sandbox
+        if: ${{ !cancelled() && steps.patch.outputs.found }}
         run: |
-          mkdir -p "$RUNNER_TEMP/check"
-          uv run poe selfheal-check "$OUTLET" \
-            --page "$RUNNER_TEMP/inputs/$OUTLET/today.html" \
-            --output "$RUNNER_TEMP/check/report.md"
+          .github/selfheal-sandbox.sh get out/check.json "$EVIDENCE/check.json"
+          .github/selfheal-sandbox.sh get repo/toxic_news/newspapers.py \
+            "$RUNNER_TEMP/patched-newspapers.py"
+
+      # The screenshot is made by this trusted checkout, from the XPath the
+      # patch wrote, read as text. The saved page loads with scripts, frames,
+      # media and requests off (toxic_news/outline.py); its CSS, images and
+      # fonts still come from the outlet's servers.
+      - name: Find the XPath to outline
+        id: xpath
+        if: ${{ !cancelled() && steps.patch.outputs.found }}
+        run: |
+          set -euo pipefail
+          if xpath=$(uv run python -m tests.selfheal_pr xpath "$INPUTS/task.json" \
+              "$RUNNER_TEMP/patched-newspapers.py"); then
+            mkdir -p "$RUNNER_TEMP/page"
+            cp "$INPUTS/today.html" "$RUNNER_TEMP/page/$OUTLET.html"
+            uv run python -m toxic_news.outline prepare "$OUTLET" "$xpath" \
+              --raw-html-dir "$RUNNER_TEMP/page" --out-dir "$RUNNER_TEMP/shot"
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "The fix's extractor is not a plain XPath: no screenshot."
+          fi
+
+      - name: Screenshot the saved page with every match outlined
+        if: ${{ !cancelled() && steps.xpath.outputs.found }}
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          id=$(canary session start --name "evidence $OUTLET" --headless)
+          status=0
+          canary run "$RUNNER_TEMP/shot/outline.js" --session "$id" --step outline \
+            --timeout 120 || status=$?
+          canary session end "$id"
+          [ "$status" -eq 0 ] || exit "$status"
+          cp ~/.canary/tmp/outline.json "$EVIDENCE/outline.json"
+          cp ~/.canary/tmp/"$OUTLET".png "$EVIDENCE/screenshot.png"
+
+      # Counts can agree while the picture shows nothing: also look for every
+      # outline in the pixels.
+      - name: Check the screenshot shows what lxml matched
+        if: ${{ !cancelled() && steps.xpath.outputs.found }}
+        continue-on-error: true
+        run: |
+          uv run python -m toxic_news.outline check "$RUNNER_TEMP/shot/lxml.json" \
+            "$EVIDENCE/outline.json"
+          uv run python -m toxic_news.outline verify "$EVIDENCE/screenshot.png" \
+            "$EVIDENCE/outline.json" "$EVIDENCE/pixels.json"
+
+      - name: Keep the evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: selfheal-evidence-${{ matrix.outlet }}
+          retention-days: 14
+          path: ${{ runner.temp }}/evidence/
+          if-no-files-found: warn
 
       - name: Summarise the attempt
         if: always()
@@ -283,17 +459,164 @@ jobs:
             echo
             echo '```json'
             # the agent wrote parts of it: keep it inside the code block
-            tr -d '`' < "$RUNNER_TEMP/agent/result.json" 2>/dev/null || echo "no result.json"
+            tr -d '`' < "$EVIDENCE/result.json" 2>/dev/null || echo "no result.json"
             echo '```'
             echo
-            cat "$RUNNER_TEMP/check/report.md" 2>/dev/null || echo "selfheal-check did not run."
+            if [ -f "$EVIDENCE/check.json" ]; then
+              echo "### The PR this would open"
+              echo
+              echo "(its screenshot is in the selfheal-evidence-$OUTLET artifact)"
+              echo
+              uv run python -m tests.selfheal_pr body --evidence "$EVIDENCE" \
+                --run-url "$RUN_URL" --output /dev/stdout
+            else
+              echo "selfheal-check did not run."
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Keep the report
-        if: always()
-        uses: actions/upload-artifact@v7
+  pr:
+    needs: [prepare, check]
+    if: >-
+      !cancelled()
+      && needs.prepare.result == 'success'
+      && needs.prepare.outputs.outlets != '[]'
+      && needs.prepare.outputs.dry_run == 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    strategy:
+      fail-fast: false
+      # one at a time: each pushes to the selfheal-evidence branch
+      max-parallel: 1
+      matrix:
+        outlet: ${{ fromJSON(needs.prepare.outputs.outlets) }}
+    env:
+      OUTLET: ${{ matrix.outlet }}
+      GH_TOKEN: ${{ github.token }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - name: Name the directories
+        run: echo "EVIDENCE=$RUNNER_TEMP/evidence" >> "$GITHUB_ENV"
+
+      - name: Check out main
+        uses: actions/checkout@v7
         with:
-          name: selfheal-check-${{ matrix.outlet }}
-          retention-days: 14
-          path: ${{ runner.temp }}/check/report.md
-          if-no-files-found: ignore
+          ref: main
+          persist-credentials: false
+
+      - name: Download the evidence
+        uses: actions/download-artifact@v8
+        with:
+          name: selfheal-evidence-${{ matrix.outlet }}
+          path: ${{ runner.temp }}/evidence
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.2.0
+        with:
+          enable-cache: false
+
+      - name: Install the project
+        run: uv sync --frozen
+
+      # The patch is gated again here, by main's own code; none of the
+      # patch's code runs in this job.
+      - name: Decide what came of the attempt
+        id: outcome
+        run: |
+          set -euo pipefail
+          uv run python -m tests.selfheal_pr outcome --evidence "$EVIDENCE" | tee outcome.txt
+          echo "outcome=$(tail -n 1 outcome.txt)" >> "$GITHUB_OUTPUT"
+          uv run python -m tests.selfheal_pr names "$EVIDENCE/task.json" >> "$GITHUB_OUTPUT"
+          issue=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --label "selfheal:$OUTLET" --json number --jq '.[0].number // empty')
+          echo "issue=$issue" >> "$GITHUB_OUTPUT"
+
+      # In a worktree of its own: this checkout, whose code the steps below
+      # run, never holds the patch.
+      - name: Push the fix to its branch
+        if: steps.outcome.outputs.outcome == 'pr'
+        env:
+          BRANCH: ${{ steps.outcome.outputs.branch }}
+          TITLE: ${{ steps.outcome.outputs.title }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git worktree add -b "$BRANCH" "$RUNNER_TEMP/branch" HEAD
+          git -C "$RUNNER_TEMP/branch" apply --index "$EVIDENCE/patch.diff"
+          git -C "$RUNNER_TEMP/branch" commit -m "$TITLE"
+          git -C "$RUNNER_TEMP/branch" push \
+            "https://x-access-token:$GH_TOKEN@github.com/$GITHUB_REPOSITORY.git" \
+            "HEAD:refs/heads/$BRANCH"
+
+      # The screenshot never goes on the PR branch: it lives on an orphan
+      # branch, pinned by commit in the PR body.
+      - name: Push the screenshot to the selfheal-evidence branch
+        id: screenshot
+        if: steps.outcome.outputs.outcome == 'pr'
+        run: |
+          set -euo pipefail
+          if [ ! -f "$EVIDENCE/screenshot.png" ]; then
+            echo "No screenshot to push."
+            exit 0
+          fi
+          remote="https://x-access-token:$GH_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          if git ls-remote --exit-code --heads "$remote" selfheal-evidence > /dev/null; then
+            git fetch --depth=1 "$remote" selfheal-evidence
+            git worktree add --detach "$RUNNER_TEMP/shots" FETCH_HEAD
+          else
+            git worktree add --detach "$RUNNER_TEMP/shots"
+            git -C "$RUNNER_TEMP/shots" switch --orphan selfheal-evidence
+          fi
+          day=$(jq -r .today "$EVIDENCE/task.json")
+          path="$OUTLET/$day-$GITHUB_RUN_ID.png"
+          mkdir -p "$RUNNER_TEMP/shots/$OUTLET"
+          cp "$EVIDENCE/screenshot.png" "$RUNNER_TEMP/shots/$path"
+          git -C "$RUNNER_TEMP/shots" add "$path"
+          git -C "$RUNNER_TEMP/shots" commit -m "evidence: $OUTLET on $day"
+          git -C "$RUNNER_TEMP/shots" push "$remote" HEAD:refs/heads/selfheal-evidence
+          sha=$(git -C "$RUNNER_TEMP/shots" rev-parse HEAD)
+          echo "url=https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$sha/$path" >> "$GITHUB_OUTPUT"
+
+      - name: Open the draft PR
+        id: open
+        if: steps.outcome.outputs.outcome == 'pr'
+        env:
+          BRANCH: ${{ steps.outcome.outputs.branch }}
+          TITLE: ${{ steps.outcome.outputs.title }}
+          ISSUE: ${{ steps.outcome.outputs.issue }}
+          SCREENSHOT: ${{ steps.screenshot.outputs.url }}
+        run: |
+          set -euo pipefail
+          uv run python -m tests.selfheal_pr body --evidence "$EVIDENCE" \
+            --run-url "$RUN_URL" ${ISSUE:+--issue "$ISSUE"} \
+            ${SCREENSHOT:+--screenshot-url "$SCREENSHOT"} --output body.md
+          url=$(gh pr create --repo "$GITHUB_REPOSITORY" --draft --base main \
+            --head "$BRANCH" --title "$TITLE" --body-file body.md \
+            --label selfheal --label "selfheal:$OUTLET")
+          echo "Opened $url" >> "$GITHUB_STEP_SUMMARY"
+          echo "number=${url##*/}" >> "$GITHUB_OUTPUT"
+
+      # The marker in the comment holds the outlet back for a week.
+      - name: Record the attempt on the outlet's issue
+        if: >-
+          !cancelled()
+          && steps.outcome.outputs.outcome != 'none'
+          && steps.outcome.outputs.issue != ''
+        env:
+          OUTCOME: ${{ steps.outcome.outputs.outcome }}
+          ISSUE: ${{ steps.outcome.outputs.issue }}
+          PR: ${{ steps.open.outputs.number }}
+        run: |
+          set -euo pipefail
+          if [ "$OUTCOME" = pr ] && [ -z "$PR" ]; then
+            echo "::error::The PR was not opened."
+            exit 1
+          fi
+          uv run python -m tests.selfheal_pr comment --evidence "$EVIDENCE" \
+            --outcome "$OUTCOME" --run-url "$RUN_URL" ${PR:+--pr "$PR"} \
+            --output comment.md
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file comment.md
