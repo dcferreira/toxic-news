@@ -212,8 +212,19 @@ newspapers = [
         name="BBC",
         language="en",
         url="https://bbc.com",
-        get_headlines_fn=get_xpath_fn(
-            "//h3[@class='media__title' and a]", href_xpath="a"
+        get_headlines_fn=get_dated_xpath_fn(
+            DatedXpath(
+                from_date=None,
+                headline_xpath="//h3[@class='media__title' and a]",
+                href_xpath="a",
+            ),
+            DatedXpath(
+                from_date=datetime(2026, 9, 29, tzinfo=timezone.utc),
+                headline_xpath="//h2[@data-testid='card-headline' and "
+                "not(ancestor::*[@data-testid='chester-card']) and "
+                "not(ancestor::*[contains(@data-testid, 'customCard')])]",
+                href_xpath="ancestor::a",
+            ),
         ),
         expected_headlines=47,
     ),
