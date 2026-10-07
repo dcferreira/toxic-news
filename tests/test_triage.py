@@ -361,6 +361,7 @@ class FakeGitHub(BaseHTTPRequestHandler):
 
     issues: ClassVar[list[dict[str, Any]]] = []
     labels: ClassVar[set[str]] = set()
+    comments: ClassVar[dict[int, list[dict[str, Any]]]] = {}
     requests: ClassVar[list[tuple[str, str, Any]]] = []
 
     def _send(self, status: int, payload: object = None) -> None:
@@ -388,9 +389,16 @@ class FakeGitHub(BaseHTTPRequestHandler):
             items = [
                 i
                 for i in self.issues
-                if i["state"] == query["state"][0]
+                if query["state"][0] in ("all", i["state"])
                 and query["labels"][0] in [lb["name"] for lb in i["labels"]]
             ]
+            self._send(200, items[(page - 1) * per_page : page * per_page])
+        elif url.path.endswith("/comments"):
+            query = parse_qs(url.query)
+            page = int(query["page"][0])
+            per_page = int(query["per_page"][0])
+            number = int(url.path.split("/")[-2])
+            items = self.comments.get(number, [])
             self._send(200, items[(page - 1) * per_page : page * per_page])
         elif url.path.startswith("/repos/o/r/labels/"):
             name = unquote(url.path.removeprefix("/repos/o/r/labels/"))
@@ -439,6 +447,7 @@ class FakeGitHub(BaseHTTPRequestHandler):
 def github() -> Iterator[GitHub]:
     FakeGitHub.issues = []
     FakeGitHub.labels = {"selfheal"}
+    FakeGitHub.comments = {}
     FakeGitHub.requests = []
     server = HTTPServer(("127.0.0.1", 0), FakeGitHub)
     thread = threading.Thread(target=server.serve_forever, daemon=True)
@@ -483,6 +492,34 @@ def test_open_issues_reads_every_page(github: GitHub) -> None:
     FakeGitHub.issues = [_api_issue(n, ["selfheal"]) for n in range(1, 151)]
 
     assert len(github.open_issues()) == 150
+
+
+def test_labelled_reads_every_page_in_any_state(github: GitHub) -> None:
+    FakeGitHub.issues = [
+        _api_issue(n, ["selfheal", "selfheal:bbc.com"], state=state)
+        for n, state in enumerate(["open", "closed"] * 75, start=1)
+    ] + [_api_issue(151, ["selfheal", "selfheal:cnn.com"])]
+
+    found = github.labelled("selfheal:bbc.com")
+
+    assert [item["number"] for item in found] == list(range(1, 151))
+    paths = [path for method, path, _ in FakeGitHub.requests if method == "GET"]
+    assert paths == [
+        f"/repos/o/r/issues?state=all&labels=selfheal%3Abbc.com&per_page=100&page={p}"
+        for p in (1, 2)
+    ]
+
+
+def test_comments_reads_every_page(github: GitHub) -> None:
+    FakeGitHub.comments = {7: [{"body": f"c{n}"} for n in range(200)]}
+
+    found = github.comments(7)
+
+    assert [c["body"] for c in found] == [f"c{n}" for n in range(200)]
+    paths = [path for method, path, _ in FakeGitHub.requests if method == "GET"]
+    assert paths == [
+        f"/repos/o/r/issues/7/comments?&per_page=100&page={p}" for p in (1, 2, 3)
+    ]
 
 
 def test_a_missing_label_is_created_once(github: GitHub) -> None:

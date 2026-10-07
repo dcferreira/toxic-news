@@ -44,7 +44,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from string import Template
-from typing import Any
+from typing import Any, Protocol
 
 from tests.fixtures import (
     HTML_ROOT,
@@ -66,6 +66,7 @@ from tests.selfheal_check import (
 from toxic_news.health import Verdict, read_health
 from toxic_news.newspapers import Newspaper, newspapers
 from toxic_news.store import headlines_path, read_headlines
+from toxic_news.triage import GitHub, label_of
 
 _ROOT = HTML_ROOT.parents[2]
 
@@ -82,6 +83,106 @@ def broken_outlets(data_dir: Path, today: date) -> list[Newspaper]:
         o.newspaper for o in read_health(data_dir, today) if o.verdict == Verdict.XPATH
     }
     return [n for n in newspapers if n.name in broken]
+
+
+#: An outlet gets at most one fix session in this long, whatever came of it.
+ATTEMPT_EVERY = timedelta(days=7)
+#: Who posts the attempt markers; anyone can comment on a public repository.
+BOT_LOGIN = "github-actions[bot]"
+_ATTEMPT = re.compile(r"<!-- selfheal-attempt (\d{4}-\d{2}-\d{2}) -->")
+
+
+def attempt_marker(day: date) -> str:
+    """Return the hidden marker an issue comment records an attempt on `day` with."""
+    return f"<!-- selfheal-attempt {day.isoformat()} -->"
+
+
+@dataclass(frozen=True)
+class Record:
+    """What GitHub knows of an outlet's fixes: its last attempt and open PR."""
+
+    last_attempt: date | None = None
+    open_pr: int | None = None
+
+
+class Labelled(Protocol):
+    """The GitHub calls `record_of` needs."""
+
+    def labelled(self, label: str) -> list[dict[str, Any]]:
+        """Return the issues and pull requests carrying `label`, in any state."""
+        ...
+
+    def comments(self, number: int) -> list[dict[str, Any]]:
+        """Return the comments of an issue."""
+        ...
+
+
+def record_of(github: Labelled, newspaper: Newspaper) -> Record:
+    """Read `newspaper`'s last attempt and open selfheal PR off its label."""
+    items = github.labelled(label_of(str(newspaper.url)))
+    open_prs = [
+        i["number"] for i in items if "pull_request" in i and i["state"] == "open"
+    ]
+    attempts = [
+        date.fromisoformat(day)
+        for item in items
+        if "pull_request" not in item
+        for comment in github.comments(item["number"])
+        if comment["user"]["login"] == BOT_LOGIN
+        for day in _ATTEMPT.findall(comment["body"] or "")
+    ]
+    return Record(
+        last_attempt=max(attempts, default=None),
+        open_pr=min(open_prs, default=None),
+    )
+
+
+def _report_before(data_dir: Path, today: date) -> date | None:
+    """Return the day of the newest health report before `today`, if any."""
+    days = [
+        date(int(path.parts[-3]), int(path.parts[-2]), int(path.stem))
+        for path in (data_dir / "health").glob("*/*/*.json")
+    ]
+    return max((d for d in days if d < today), default=None)
+
+
+def select(
+    outlets: Sequence[Newspaper],
+    *,
+    data_dir: Path,
+    today: date,
+    records: Callable[[Newspaper], Record],
+    forced: bool,
+) -> tuple[list[Newspaper], list[str]]:
+    """Return which of the broken `outlets` get a session, and why the rest wait.
+
+    An outlet waits while a selfheal PR of it is open. Unless `forced`, it also
+    waits until it was `xpath` in the run before today's too, and for a week
+    after its last attempt, whatever came of it.
+    """
+    before = _report_before(data_dir, today)
+    broken_before = (
+        set() if before is None else {n.name for n in broken_outlets(data_dir, before)}
+    )
+    chosen, skipped = [], []
+    for newspaper in outlets:
+        record = records(newspaper)
+        last = record.last_attempt
+        if record.open_pr is not None:
+            skipped.append(
+                f"{newspaper.name}: selfheal PR #{record.open_pr} is still open"
+            )
+        elif forced:
+            chosen.append(newspaper)
+        elif newspaper.name not in broken_before:
+            skipped.append(
+                f"{newspaper.name}: broken in one run only; waiting for a second"
+            )
+        elif last is not None and today - last < ATTEMPT_EVERY:
+            skipped.append(f"{newspaper.name}: attempted on {last}; at most one a week")
+        else:
+            chosen.append(newspaper)
+    return chosen, skipped
 
 
 @dataclass(frozen=True)
@@ -679,11 +780,25 @@ def run_agent(  # noqa: PLR0913 (each is an input of the session)
 
 def _prepare(args: argparse.Namespace) -> int:
     today = args.date
+    forced = bool(args.outlet)
     outlets = (
         [resolve_outlet(args.outlet)]
-        if args.outlet
+        if forced
         else broken_outlets(args.data_dir, today)
     )
+    waiting: list[str] = []
+    if args.repo:
+        token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+        github = GitHub(args.repo, token=token)
+        outlets, waiting = select(
+            outlets,
+            data_dir=args.data_dir,
+            today=today,
+            records=lambda newspaper: record_of(github, newspaper),
+            forced=forced,
+        )
+    for reason in waiting:
+        sys.stdout.write(f"waits: {reason}\n")
     slugs = []
     for newspaper in outlets:
         write_inputs(
@@ -696,6 +811,7 @@ def _prepare(args: argparse.Namespace) -> int:
         slugs.append(slug_of(newspaper))
     args.out_dir.mkdir(parents=True, exist_ok=True)
     (args.out_dir / "outlets.json").write_text(json.dumps(slugs) + "\n")
+    (args.out_dir / "waiting.json").write_text(json.dumps(waiting) + "\n")
     sys.stdout.write(json.dumps(slugs) + "\n")
     return 0
 
@@ -753,7 +869,14 @@ def main(argv: Sequence[str] | None = None) -> int:
     prepare.add_argument("--date", type=date.fromisoformat, required=True)
     prepare.add_argument("--out-dir", type=Path, required=True)
     prepare.add_argument(
-        "--outlet", help="fix this outlet, whatever the health report says"
+        "--outlet",
+        help="fix this outlet, whatever the health report, the two-run rule "
+        "and the weekly cap say",
+    )
+    prepare.add_argument(
+        "--repo",
+        help="owner/name: hold back outlets by their selfheal issues and PRs "
+        "there (token from GITHUB_TOKEN or GH_TOKEN)",
     )
     prepare.set_defaults(func=_prepare)
 

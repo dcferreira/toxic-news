@@ -54,6 +54,7 @@ explore = [
 [dependency-groups]
 dev = [
     "lxml-stubs",
+    "pillow",
     "poethepoet",
     "pre-commit",
     "pytest",
@@ -107,6 +108,9 @@ triage = "python -m toxic_news.triage"
 # `poe selfheal-fix prepare|agent|gate|snapshot ...`: the steps of the fix job
 # in `.github/workflows/selfheal.yml`; see `tests/selfheal_fix.py`.
 selfheal-fix = "python -m tests.selfheal_fix"
+# `poe selfheal-pr xpath|names|outcome|body|comment ...`: what the PR job in
+# `.github/workflows/selfheal.yml` writes; see `tests/selfheal_pr.py`.
+selfheal-pr = "python -m tests.selfheal_pr"
 
 # --- packaging / running -----------------------------------------------------
 build = "docker buildx build . -t toxic-news:local"

@@ -17,6 +17,8 @@ from tests.fixtures import latest_fixture
 from tests.selfheal_check import NEWSPAPERS_PY
 from tests.selfheal_fix import (
     _ROOT,
+    Record,
+    attempt_marker,
     broken_outlets,
     build_prompt,
     duration,
@@ -28,7 +30,9 @@ from tests.selfheal_fix import (
     omp_command,
     patched_newspapers,
     read_result,
+    record_of,
     run_agent,
+    select,
     summarise_session,
     write_inputs,
 )
@@ -849,3 +853,138 @@ def test_the_fix_job_is_never_scheduled_in_peak_hours():
         minute, hour = (int(field) for field in cron.split()[:2])
         for day in range(5, 12):
             assert off_peak_left(_utc(day, hour, minute)) is not None, (cron, day)
+
+
+# --- which outlets get a session: the caps ------------------------------------
+
+
+def _select(tmp_path, records=None, *, forced=False, outlets=(BBC,)):
+    found = records or {}
+    return select(
+        list(outlets),
+        data_dir=tmp_path,
+        today=TODAY,
+        records=lambda n: found.get(n.name, Record()),
+        forced=forced,
+    )
+
+
+def test_an_outlet_broken_in_the_last_two_runs_gets_a_session(tmp_path):
+    # the run before today's may be days back: GitHub skips scheduled runs
+    _days(tmp_path, {TODAY - timedelta(days=3): {"BBC": XPATH}, TODAY: {"BBC": XPATH}})
+    assert _select(tmp_path) == ([BBC], [])
+
+
+@pytest.mark.parametrize("before", [OK, OTHER, None])
+def test_an_outlet_broken_only_in_todays_run_waits(tmp_path, before):
+    days = {TODAY: {"BBC": XPATH}}
+    if before is not None:
+        days[TODAY - timedelta(days=1)] = {"BBC": before}
+    _days(tmp_path, days)
+    chosen, skipped = _select(tmp_path)
+    assert chosen == []
+    assert skipped == ["BBC: broken in one run only; waiting for a second"]
+
+
+@pytest.mark.parametrize(("days_ago", "waits"), [(0, True), (6, True), (7, False)])
+def test_an_outlet_gets_at_most_one_attempt_a_week(tmp_path, days_ago, waits):
+    _days(tmp_path, {TODAY - timedelta(days=1): {"BBC": XPATH}, TODAY: {"BBC": XPATH}})
+    last = TODAY - timedelta(days=days_ago)
+    chosen, skipped = _select(tmp_path, {"BBC": Record(last_attempt=last)})
+    assert chosen == ([] if waits else [BBC])
+    assert skipped == (
+        [f"BBC: attempted on {last}; at most one a week"] if waits else []
+    )
+
+
+def test_an_outlet_with_an_open_selfheal_pr_waits_even_when_forced(tmp_path):
+    chosen, skipped = _select(tmp_path, {"BBC": Record(open_pr=21)}, forced=True)
+    assert chosen == []
+    assert skipped == ["BBC: selfheal PR #21 is still open"]
+
+
+def test_a_forced_outlet_skips_the_two_run_rule_and_the_weekly_cap(tmp_path):
+    _days(tmp_path, {TODAY: {"BBC": XPATH}})
+    records = {"BBC": Record(last_attempt=TODAY)}
+    assert _select(tmp_path, records, forced=True) == ([BBC], [])
+
+
+class FakeGitHub:
+    def __init__(self, items, comments):
+        self.items = items
+        self.comments_of = comments
+        self.asked: list[str] = []
+
+    def labelled(self, label):
+        self.asked.append(label)
+        return self.items
+
+    def comments(self, number):
+        return self.comments_of.get(number, [])
+
+
+def _comment(body, login="github-actions[bot]"):
+    return {"body": body, "user": {"login": login}}
+
+
+def test_the_record_takes_the_latest_bot_attempt_across_open_and_closed_issues():
+    github = FakeGitHub(
+        [
+            {"number": 3, "state": "closed"},
+            {"number": 14, "state": "open"},
+            {"number": 20, "state": "closed", "pull_request": {}},
+        ],
+        {
+            3: [_comment(f"x {attempt_marker(date(2026, 9, 30))}")],
+            14: [
+                _comment(f"{attempt_marker(date(2026, 10, 1))} y"),
+                # anyone can comment on a public repository
+                _comment(attempt_marker(TODAY), login="someone"),
+                _comment("no marker"),
+            ],
+        },
+    )
+    assert record_of(github, BBC) == Record(last_attempt=date(2026, 10, 1))
+    assert github.asked == ["selfheal:bbc.com"]
+
+
+def test_the_record_finds_an_open_selfheal_pr():
+    github = FakeGitHub(
+        [
+            {"number": 14, "state": "open"},
+            {"number": 22, "state": "closed", "pull_request": {}},
+            {"number": 23, "state": "open", "pull_request": {}},
+        ],
+        {},
+    )
+    assert record_of(github, BBC) == Record(open_pr=23)
+
+
+def test_prepare_with_a_repository_writes_inputs_only_for_the_outlets_chosen(
+    tmp_path, monkeypatch
+):
+    data, raw, out = tmp_path / "data", tmp_path / "raw", tmp_path / "out"
+    both = {"BBC": XPATH, "Fox News": XPATH}
+    _days(data, {TODAY - timedelta(days=1): both, TODAY: both})
+    raw.mkdir()
+    for slug in ("bbc.com", "foxnews.com"):
+        (raw / f"{slug}.html").write_text("<html></html>")
+    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    monkeypatch.delenv("GH_TOKEN", raising=False)
+    github = FakeGitHub([{"number": 30, "state": "open", "pull_request": {}}], {})
+    monkeypatch.setattr(
+        "tests.selfheal_fix.GitHub",
+        lambda repo, token: github if (repo, token) == ("o/r", None) else None,
+    )
+    # only BBC's label has the open PR
+    monkeypatch.setattr(
+        github, "labelled", lambda label: github.items if "bbc" in label else []
+    )
+    args = ["prepare", "--raw-html-dir", str(raw), "--data-dir", str(data)]
+    args += ["--date", TODAY.isoformat(), "--out-dir", str(out), "--repo", "o/r"]
+    assert main(args) == 0
+    assert json.loads((out / "outlets.json").read_text()) == ["foxnews.com"]
+    assert json.loads((out / "waiting.json").read_text()) == [
+        "BBC: selfheal PR #30 is still open"
+    ]
+    assert not (out / "bbc.com").exists()
