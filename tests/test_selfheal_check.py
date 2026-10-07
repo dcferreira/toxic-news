@@ -13,8 +13,9 @@ from pathlib import Path
 import pytest
 
 from tests import selfheal_check
-from tests.fixtures import Fixture
+from tests.fixtures import Fixture, all_fixtures
 from tests.selfheal_check import (
+    MAX_UTILITY_SHARE,
     NEWSPAPERS_PY,
     Change,
     changes_since,
@@ -25,6 +26,7 @@ from tests.selfheal_check import (
     check_new_page,
     check_quality,
     check_scope,
+    is_utility,
     main,
     resolve_outlet,
     run_checks,
@@ -155,6 +157,82 @@ def test_navigation_text_fails():
 
 def test_no_headlines_at_all_fails():
     assert not check_headlines([], url="https://a.com").passed
+
+
+#: Promos the first BBC dry run's XPath picked up alongside its stories.
+BBC_PROMOS = [
+    ("The best of the BBC, delivered to you", "https://www.bbc.com/newsletters?x=1"),
+    ("US Politics Unspun", "http://www.bbc.com/newsletters?USElectionUnspun"),
+    ("Sign up to World of Business", "http://www.bbc.com/newsletters?WorldOfBusiness"),
+    ("Get The Essential List", "http://www.bbc.com/newsletters?TheEssentialList"),
+    ("Stream the best of British TV", "https://www.britbox.com/?utm_source=bbc.com"),
+    ("Download the BBC app", "https://www.bbc.com/pages/download-the-bbc-app"),
+    ("Register for a BBC account", "https://session.bbc.com/session?userOrigin=x"),
+]
+
+
+@pytest.mark.parametrize(
+    ("text", "link"),
+    [
+        *BBC_PROMOS,
+        ("Subscribe for $1 a week", "https://a.com/offers/digital"),
+        ("Log in to your account", "https://a.com/x"),
+        ("Our morning briefing", "https://a.com/account/newsletters"),
+        ("Breaking news alerts", "https://login.a.com/start"),
+    ],
+)
+def test_utility_links_are_recognised(text, link):
+    assert is_utility(text, link)
+
+
+@pytest.mark.parametrize(
+    ("text", "link"),
+    [
+        ("Watch: At the scene of student protests in Lille", "https://a.com/videos/1"),
+        ("Apple's app store faces EU fine", "https://a.com/news/apple-app-store-fine"),
+        ("Registered voters surge ahead of midterms", "https://a.com/news/voters"),
+        ("Streaming wars: who is winning?", "https://a.com/business/streaming"),
+        ("Download speeds lag in rural areas", "https://a.com/tech/broadband"),
+        ("How to Sleep Better, according to science", "https://a.com/health/sleep"),
+    ],
+)
+def test_stories_are_not_utility_links(text, link):
+    assert not is_utility(text, link)
+
+
+def test_promos_among_the_headlines_fail():
+    """The first BBC dry run passed with 9 promos in 49; this rule catches it."""
+    stories = _headlines(40, domain="bbc.com")
+    result = check_headlines([*stories, *BBC_PROMOS], url="https://bbc.com")
+    assert not result.passed
+    assert "promos" in result.detail
+    assert "Download the BBC app" in result.detail
+
+
+def test_a_stray_promo_is_tolerated():
+    result = check_headlines(
+        [*_headlines(30), ("Sign up for our newsletter", "https://a.com/newsletters")],
+        url="https://a.com",
+    )
+    assert result.passed, result.detail
+
+
+def test_a_stray_promo_is_tolerated_on_a_short_page():
+    result = check_headlines(
+        [*_headlines(16), ("Sign up for our newsletter", "https://a.com/newsletters")],
+        url="https://a.com",
+    )
+    assert result.passed, result.detail
+
+
+@pytest.mark.parametrize("fixture", all_fixtures(), ids=lambda f: f.slug)
+def test_no_recorded_snapshot_reads_as_promos(fixture):
+    """Every outlet's own recorded headlines stay under the promo share."""
+    headlines = json.loads(fixture.snapshot_path.read_text())
+    if not headlines:
+        pytest.skip("an outlet broken on its recorded day")
+    promos = [h for h in headlines if is_utility(*h)]
+    assert len(promos) / len(headlines) <= MAX_UTILITY_SHARE, promos
 
 
 # --- rule 3: every fixture still reproduces its snapshot ----------------------

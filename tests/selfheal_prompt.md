@@ -24,7 +24,16 @@ All of it is offline; do not fetch anything from the network.
 1. Find, in `$inputs/today.html`, the elements that hold the front page's
    story headlines, each with a link to its story. Read the page's markup;
    prefer stable attributes (`data-testid`, semantic tags, class names that
-   describe the content) over positions and generated class names.
+   describe the content) over positions and generated class names. Track
+   the same kind of headline the outlet's extractor tracked before it broke:
+   its main story headlines, as in the older snapshots and `last_good.json`,
+   not every link to a story (compact or bare list links that sit under or
+   beside them are left out, as before), so the outlet's numbers stay
+   comparable over time.
+   A promo is never a headline, even when it looks like one: newsletter
+   sign-ups, app downloads, account or registration links, subscriptions,
+   links to the outlet's other services, and anything phrased as a call to
+   action ("Sign up", "Download", "Register", "Get the", "Stream").
 2. In $outlet's `Newspaper(...)` entry, add a `DatedXpath` for the new markup
    with `from_date=datetime($from_date_args, tzinfo=timezone.utc)`, keeping
    every existing XPath as it is so older pages still parse the old way. If
@@ -44,6 +53,12 @@ All of it is offline; do not fetch anything from the network.
    $expected, the headlines look like real stories linking to the outlet,
    every older page still parses exactly as before, and the change stays
    inside this outlet. Repeat from 1 until it passes.
+5. Read every headline in the snapshot yourself before you finish. The check
+   only catches the obvious: passing it is necessary, not sufficient. The
+   count range is a sanity check, not a target. If leaving the promos out
+   takes the count below the range, look for main story headlines you have
+   missed rather than keep a promo; never fill the count with promos,
+   navigation or duplicates.
 
 ## Rules
 
@@ -69,7 +84,8 @@ Write `$inputs/result.json`, and nothing else after it:
   "old_xpath": "the XPath that stopped matching",
   "new_xpath": "the XPath you added, or null",
   "from_date": "$from_date",
-  "explanation": "At most five sentences: what changed on the site, what the new XPath selects, and anything a reviewer should check."
+  "explanation": "At most five sentences: what changed on the site, what the new XPath selects, and anything a reviewer should check.",
+  "excluded": "What on the page looks like a headline but your XPath leaves out, and why, in a sentence or two."
 }
 ```
 
