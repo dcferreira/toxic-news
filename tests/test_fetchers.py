@@ -12,7 +12,13 @@ import aiohttp
 import pytest
 from aiohttp import ClientResponse
 
-from tests.fixtures import Fixture, all_fixtures, earliest_fixture, slug_of
+from tests.fixtures import (
+    Fixture,
+    all_fixtures,
+    earliest_fixture,
+    latest_fixture,
+    slug_of,
+)
 from toxic_news.fetchers import (
     Fetcher,
     Headline,
@@ -153,7 +159,8 @@ def _stub_session_get(content: bytes):
 async def test_async_fetch_then_classify_and_cache_round_trip(tmp_path, monkeypatch):
     """`fetch_with` records one front page; classify reads it and a cache keeps it."""
     newspaper = newspapers[0]
-    html = earliest_fixture(slug_of(newspaper)).path.read_bytes()
+    # the newest page, as a fetch is dated now and parsed with today's extractor
+    html = latest_fixture(slug_of(newspaper)).path.read_bytes()
     monkeypatch.setattr(aiohttp.ClientSession, "get", _stub_session_get(html))
 
     def mock_predict(self, texts) -> list[Scores]:

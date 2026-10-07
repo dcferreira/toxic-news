@@ -26,12 +26,14 @@ from tests.selfheal_check import (
     check_new_page,
     check_quality,
     check_scope,
+    check_tests,
     is_utility,
     main,
     resolve_outlet,
     run_checks,
     source_at,
 )
+from tests.test_selfheal_fix import newspapers_source
 from toxic_news.newspapers import Newspaper, get_xpath_fn
 
 SOURCE = """\
@@ -534,6 +536,31 @@ def test_quality_fails_naming_the_failing_command():
     assert "E501" in result.detail
 
 
+def test_the_suite_runs_without_the_network_and_model_tests():
+    ran: list[list[str]] = []
+    result = check_tests(lambda cmd: ran.append(cmd) or (0, "412 passed in 15s\n"))
+    assert result.passed
+    assert result.detail == "412 passed in 15s"
+    ((*_, marker, expression),) = ran
+    assert (marker, expression) == ("-m", "not integration and not slow")
+
+
+def test_the_suite_fails_naming_the_failing_tests():
+    output = (
+        "....F\nFAILED tests/test_fetchers.py::test_round_trip - assert []\n"
+        "1 failed, 411 passed in 15s\n"
+    )
+    result = check_tests(lambda _cmd: (1, output))
+    assert not result.passed
+    assert result.detail == "FAILED tests/test_fetchers.py::test_round_trip - assert []"
+
+
+def test_the_suite_fails_on_an_error_with_no_failed_test():
+    result = check_tests(lambda _cmd: (4, "ERROR: file or directory not found\n"))
+    assert not result.passed
+    assert "not found" in result.detail
+
+
 # --- the whole check ----------------------------------------------------------
 
 
@@ -556,8 +583,20 @@ BBC_FIX = (
 )
 
 
-def _bbc_fix(tmp_path: Path) -> dict:
+#: BBC as of 2023: its recorded page is the only one these tests copy, so
+#: they parse it with the extractor it was recorded under, not today's.
+OLD_BBC = resolve_outlet("bbc.com").copy(
+    update={
+        "get_headlines_fn": get_xpath_fn(
+            "//h3[@class='media__title' and a]", href_xpath="a"
+        )
+    }
+)
+
+
+def _bbc_fix(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> dict:
     """A fix of BBC, with today's page a copy of its recorded one."""
+    monkeypatch.setattr(selfheal_check, "newspapers", [OLD_BBC])
     html, snapshots = tmp_path / "html", tmp_path / "snapshots"
     recorded = Fixture("bbc.com", date(2023, 5, 20))
     today = Fixture("bbc.com", date(2026, 10, 5), html, snapshots)
@@ -566,7 +605,7 @@ def _bbc_fix(tmp_path: Path) -> dict:
         fixture.snapshot_path.parent.mkdir(parents=True, exist_ok=True)
         fixture.path.write_bytes(recorded.path.read_bytes())
         fixture.snapshot_path.write_bytes(recorded.snapshot_path.read_bytes())
-    source = (Path(__file__).parents[1] / NEWSPAPERS_PY).read_text()
+    source = newspapers_source()
     new = _edit(
         source,
         "get_headlines_fn=get_xpath_fn(\n"
@@ -584,8 +623,8 @@ def _bbc_fix(tmp_path: Path) -> dict:
     }
 
 
-def test_a_fix_in_scope_passes_every_check(tmp_path):
-    report = run_checks(resolve_outlet("bbc.com"), **_bbc_fix(tmp_path))
+def test_a_fix_in_scope_passes_every_check(tmp_path, monkeypatch):
+    report = run_checks(OLD_BBC, **_bbc_fix(tmp_path, monkeypatch))
     assert report.passed, report.markdown()
     markdown = report.markdown()
     assert "BBC" in markdown
@@ -617,8 +656,8 @@ def test_an_untouched_outlet_fails_for_want_of_a_fix():
         ("[click](https://evil.example)", "](https"),
     ],
 )
-def test_the_report_neutralises_scraped_text(tmp_path, text, unwanted):
-    report = run_checks(resolve_outlet("bbc.com"), **_bbc_fix(tmp_path))
+def test_the_report_neutralises_scraped_text(tmp_path, monkeypatch, text, unwanted):
+    report = run_checks(OLD_BBC, **_bbc_fix(tmp_path, monkeypatch))
     report.headlines = [(text, "https://bbc.com/1")]
     (row,) = [
         line for line in report.markdown().splitlines() if line.startswith("| 1 |")

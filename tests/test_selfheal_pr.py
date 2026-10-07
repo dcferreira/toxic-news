@@ -26,7 +26,7 @@ from tests.selfheal_pr import (
     render_comment,
     title,
 )
-from tests.test_selfheal_fix import _task
+from tests.test_selfheal_fix import _task, newspapers_source
 
 BBC_ENTRY = """get_headlines_fn=get_xpath_fn(
             "//h3[@class='media__title' and a]", href_xpath="a"
@@ -47,7 +47,7 @@ FIXED_ENTRY = f"""get_headlines_fn=get_dated_xpath_fn(
 
 
 def _source(entry: str = FIXED_ENTRY) -> str:
-    source = (_ROOT / NEWSPAPERS_PY).read_text()
+    source = newspapers_source()
     assert BBC_ENTRY in source
     return source.replace(BBC_ENTRY, entry, 1)
 

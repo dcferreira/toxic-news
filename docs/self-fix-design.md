@@ -152,7 +152,9 @@ It iterates against `poe selfheal-check <outlet>`, which passes when:
    historical and Wayback parsing are unchanged;
 4. the diff stays within that outlet (see below);
 5. `expected_headlines` is unchanged;
-6. lint and type checks pass.
+6. lint and type checks pass;
+7. the test suite passes (less the network and model tests). The agent can't
+   edit a test, so a fix that breaks one fails until a person fixes the test.
 
 Output: `patch.diff` and `result.json` (`fixed` or `gave_up`, old and new
 XPath, `from_date`, an explanation of at most five sentences, an `excluded`
@@ -234,7 +236,7 @@ XPath change:  - //h3[@class='media__title' and a]
                + //h2[@data-testid='card-headline']
 Why: <the agent's explanation>
 
-Checks: today's fixture · old fixtures unchanged · scope · lint · types
+Checks: today's fixture · old fixtures unchanged · scope · lint · types · tests
 Evidence: patch, check report, screenshot, agent session (artifacts)
 Session: deepseek-flash · 23 turns · $0.04
 ```

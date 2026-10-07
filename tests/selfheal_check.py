@@ -21,7 +21,9 @@ the working tree, that:
    its `Newspaper(...)` entry, the helpers nothing else uses, no suppression
    comments, and its own new pages and snapshots;
 5. its `expected_headlines` is unchanged;
-6. lint and type checks pass.
+6. lint and type checks pass;
+7. the test suite passes, less what needs the network or the models: a test
+   can lean on the outlet the fix changes, which none of the above would see.
 
 This runs the working tree's code, fix included, so the run that decides
 whether a fix is merged has to come from a trusted checkout of the checker.
@@ -702,6 +704,27 @@ def check_quality(run: Runner = _run) -> CheckResult:
     return CheckResult("Lint and types", passed=True, detail="ruff and ty pass")
 
 
+# --- rule 7 -------------------------------------------------------------------
+
+#: The suite `poe test` runs, less what needs the network or the models.
+TEST_COMMAND = (
+    sys.executable,
+    *("-m", "pytest", "-q", "-p", "no:cacheprovider"),
+    *("-m", "not integration and not slow"),
+)
+
+
+def check_tests(run: Runner = _run) -> CheckResult:
+    """Check the test suite passes with the fix in place."""
+    code, output = run(list(TEST_COMMAND))
+    lines = output.strip().splitlines()
+    if code != 0:
+        failed = [line for line in lines if line.startswith("FAILED ")]
+        detail = "; ".join(failed[:5]) or " ".join(lines[-3:])
+        return CheckResult("Test suite", passed=False, detail=detail)
+    return CheckResult("Test suite", passed=True, detail=lines[-1] if lines else "")
+
+
 # --- the whole check ----------------------------------------------------------
 
 
@@ -736,7 +759,7 @@ def run_checks(  # noqa: PLR0913 (each is an input the gate is run against)
     html_root: Path = HTML_ROOT,
     snapshot_root: Path = PARSE_SNAPSHOTS_ROOT,
 ) -> Report:
-    """Run every check on a fix of `newspaper`; `quality=None` skips lint and types.
+    """Run every check on a fix of `newspaper`; `quality=None` skips 6 and 7.
 
     The headline checks run on the page the fix adds, or on the outlet's newest
     page when it adds none.
@@ -766,7 +789,7 @@ def run_checks(  # noqa: PLR0913 (each is an input the gate is run against)
         check_expected_unchanged(slug, base_source, new_source),
     ]
     if quality is not None:
-        results.append(check_quality(quality))
+        results += [check_quality(quality), check_tests(quality)]
     for result in results[1:3]:
         result.name = f"{result.name} ({today.date.isoformat()})"
     return Report(newspaper, today, results, headlines)
@@ -824,7 +847,9 @@ def main(argv: Sequence[str] | None = None) -> int:
         help="the front page the run fetched; the new fixture has to be it",
     )
     parser.add_argument(
-        "--skip-quality", action="store_true", help="skip lint and type checks"
+        "--skip-quality",
+        action="store_true",
+        help="skip lint, type checks and the test suite",
     )
     args = parser.parse_args(argv)
 
