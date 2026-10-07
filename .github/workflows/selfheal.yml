@@ -22,6 +22,10 @@ name: Self-fix
 # to that); an automatic run that would still reach a peak waits for the next
 # Update.
 #
+# Opening PRs needs the repository setting "Allow GitHub Actions to create and
+# approve pull requests" (Settings > Actions > General); without it the pr job
+# pushes its branch, then fails to open the PR and records no attempt.
+#
 # Four jobs, so the DeepSeek key, the agent's code and write access never
 # share a job:
 #   prepare  reads the run's pages, the data branch and the selfheal issues
@@ -571,7 +575,9 @@ jobs:
             git -C "$RUNNER_TEMP/shots" switch --orphan selfheal-evidence
           fi
           day=$(jq -r .today "$EVIDENCE/task.json")
-          path="$OUTLET/$day-$GITHUB_RUN_ID.png"
+          # a rerun of this job pushes the same screenshot again: it gets a
+          # path of its own
+          path="$OUTLET/$day-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT.png"
           mkdir -p "$RUNNER_TEMP/shots/$OUTLET"
           cp "$EVIDENCE/screenshot.png" "$RUNNER_TEMP/shots/$path"
           git -C "$RUNNER_TEMP/shots" add "$path"

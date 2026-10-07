@@ -187,6 +187,11 @@ to write with.
 4. Keep everything as the `selfheal-evidence-<outlet>` artifact, and write the
    PR body it would open into the run's summary.
 
+`pr` needs the repository setting "Allow GitHub Actions to create and approve
+pull requests" (Settings > Actions > General, or `can_approve_pull_request_reviews`
+in the API): without it, `GITHUB_TOKEN` cannot open a PR, and the job fails
+after pushing its branch, recording no attempt.
+
 `pr`, per outlet and one at a time, with `contents`, `pull-requests` and
 `issues: write`, only when the run is not a dry run. It runs none of the
 patch's code: main's own code reads the evidence as data.
@@ -351,7 +356,8 @@ Each step has to prove itself before the next starts.
 3. **Fix job, dry run**: Daniel creates the `selfheal` environment and key,
    then dispatches every current `xpath` outlet with `dry_run`. Done when the
    patches are judged and the prompt is tuned.
-4. **PR job**: by hand first (a dispatch with `dry_run` off), then chained
+4. **PR job**: once Actions may create pull requests (see PR job), by hand
+   first (a dispatch with `dry_run` off), then chained
    to Update: `SELFHEAL_AUTO=dry-run`, then `on`. Done after two weeks of
    real PRs.
 5. **Optional**: backfill an outlet's broken days from the Wayback Machine
