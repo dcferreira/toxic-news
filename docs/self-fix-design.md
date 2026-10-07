@@ -31,15 +31,17 @@ Update workflow (existing)
   scrape → score → publish
   + health.json per day (committed to `data`)
   + raw HTML of every outlet (artifact, 14 days)
+  triage  ── no LLM ──  classify outlets, keep one issue per failure
         │ workflow_run
         ▼
-Selfheal workflow (new)
-  triage  ── no LLM ──  classify outlets, manage issues, pick outlets to fix
-  fix     ── LLM ─────  one job per outlet: record the page, agent writes a patch
-  pr      ── no LLM ──  verify the patch, build the evidence, open a draft PR
+Self-fix workflow
+  prepare ── no LLM ──  pick the outlets to fix, write each one's inputs
+  fix     ── LLM ─────  one job per outlet: the agent writes a patch
+  check   ── no LLM ──  gate and judge the patch, screenshot the page
+  pr      ── no LLM ──  open a draft PR with the evidence, or record the attempt
         │
         ▼
-Daniel reviews the PR, approves CI, merges
+Daniel reviews the PR, marks it ready (which runs CI), merges
 ```
 
 The LLM does exactly one thing: write a patch for one outlet. Deciding
@@ -94,16 +96,21 @@ secrets, `issues: write`.
   whose issue was closed while it was still broken, is a new failure with a
   new issue. The body ends in a `<!-- selfheal-failure -->` JSON block (outlet,
   url, first and last day seen, headline counts) for the fix job to read.
-- Sends an outlet to the fix job when:
+- The Self-fix workflow's `prepare` job sends an outlet to the fix job when:
   - it was `xpath` in the last **two consecutive** runs (a one-day layout
     experiment is not worth a fix);
   - no selfheal PR for it is open;
   - it had **no attempt in the last 7 days** — whatever the outcome, merged
     fixes included. A site that changes daily loses data between fixes rather
     than generating a PR a day.
+
+  A run by hand naming an outlet skips the first and last rule, never the
+  open PR one.
 - Attempts are recorded as a hidden marker in an issue comment,
-  `<!-- selfheal-attempt YYYY-MM-DD -->`; triage reads the latest one across
-  open and closed issues for that outlet. No other state is kept.
+  `<!-- selfheal-attempt YYYY-MM-DD -->`; `prepare` reads the latest one
+  across open and closed issues for that outlet, counting only the bot's own
+  comments (anyone can comment on a public repository). No other state is
+  kept.
 
 ## Fix job
 
@@ -154,29 +161,49 @@ own account of the headlines is not used anywhere.
 
 ## PR job
 
-One per outlet, after its fix job. No LLM, no DeepSeek key; `contents`,
-`pull-requests` and `issues: write`.
+The patch's code runs only in the `check` job, never where there is anything
+to write with.
 
-1. Apply the patch to a fresh checkout of `main`; reject it if it doesn't
-   apply.
-2. Check scope by line range: parse `newspapers.py` with `ast`, and require
-   every hunk to fall inside this outlet's `Newspaper(...)` call or its own
-   helper function. The only other files allowed are this outlet's new
-   fixture and snapshots.
-3. Re-run `poe selfheal-check <outlet>`. This run is the authoritative one.
-4. Re-extract the headlines itself and build the evidence.
-5. Screenshot: canary loads the saved `today.html` (with a `<base href>` so
-   CSS resolves, JavaScript off so the DOM is what lxml parsed), evaluates the
-   new XPath with `document.evaluate`, outlines every match and takes a
-   full-page screenshot. Both sides implement XPath 1.0, so the outlined count
-   should match the table.
-6. Push the screenshot to the orphan `selfheal-evidence` branch and embed it
-   through `raw.githubusercontent.com`. It never goes on the PR branch.
-7. Open a draft PR from `selfheal/<outlet>-<date>`, labelled `selfheal` and
-   `selfheal:<outlet>`, closing the outlet's issue; post the attempt marker.
+`check`, per outlet, with `contents: read` and no secrets:
 
-If the agent gave up, there is no PR: the job comments on the issue with the
-agent's explanation, the counts and the evidence, plus the attempt marker.
+1. Gate the patch (`poe selfheal-fix gate`): the patch is read with
+   `git apply --numstat --summary` and `newspapers.py` parsed with `ast`; it
+   may only change this outlet's `Newspaper(...)` call or its own helpers and
+   add today's page and snapshot, with one `DatedXpath` from the task's
+   `from_date`. Nothing of the patch runs before this passes.
+2. Apply it to a copy of the checkout and run `poe selfheal-check --json` on
+   that copy, as the sandbox user (see Safety). Its verdict and headlines are
+   evidence for the reviewer, not proof: the patch's code could make them lie.
+3. Screenshot, from the untouched checkout: the XPath to outline is read from
+   the patched `newspapers.py` as text (`poe selfheal-pr xpath`), never
+   imported; canary loads the saved `today.html` with a `<base href>` so CSS
+   resolves and a CSP that turns off scripts, frames, media and requests, so
+   the DOM is the one lxml parsed. It evaluates the XPath with
+   `document.evaluate`, outlines every match and takes a full-page
+   screenshot. Both sides implement XPath 1.0, so the outlined count must
+   match lxml's; then every outline is also looked for in the pixels, since a
+   full-page capture can cut outlines off while the counts still agree. A fix
+   whose extractor is not a plain XPath gets no screenshot.
+4. Keep everything as the `selfheal-evidence-<outlet>` artifact, and write the
+   PR body it would open into the run's summary.
+
+`pr`, per outlet and one at a time, with `contents`, `pull-requests` and
+`issues: write`, only when the run is not a dry run. It runs none of the
+patch's code: main's own code reads the evidence as data.
+
+1. Gate the patch again, and decide what came of the attempt: `pr` for a
+   passing patch within scope, `none` when no session ran (deferred to dodge
+   DeepSeek's peak), else gave up, refused, failed or no patch.
+2. For `pr`: apply the patch in a separate worktree, commit it to
+   `selfheal/<outlet>-<date>` and push. The checkout the job's code runs from
+   never holds the patch.
+3. Push the screenshot to the orphan `selfheal-evidence` branch and embed it
+   through `raw.githubusercontent.com`, pinned to that commit. It never goes
+   on the PR branch.
+4. Open a draft PR, labelled `selfheal` and `selfheal:<outlet>`, closing the
+   outlet's open issue.
+5. Comment on the outlet's issue, with the attempt marker: the PR, or how the
+   attempt failed, quoting the agent's explanation and the checks.
 
 ### What the PR shows
 
@@ -203,19 +230,23 @@ XPath change:  - //h3[@class='media__title' and a]
 Why: <the agent's explanation>
 
 Checks: today's fixture · old fixtures unchanged · scope · lint · types
-Evidence: canary report · trace · HAR · saved HTML (artifacts)
+Evidence: patch, check report, screenshot, agent session (artifacts)
 Session: deepseek-flash · 23 turns · $0.04
 ```
 
-Every number and headline in it is computed by the PR job. The session cost
+Every number and headline in it is computed by the workflow, not taken from
+the agent: today's count with the old extractor is the health report's, the
+last good day's comes from the `data` branch, and the new extractor's comes
+from `selfheal-check`. Scraped and agent-written text is escaped so it cannot
+mention anyone, link, or embed HTML; the diff sits in a fence it cannot
+close. The session cost
 comes from omp, which accounts for DeepSeek's cache and matches the wallet.
 
 ### CI on selfheal PRs
 
-Pushes made with `GITHUB_TOKEN` trigger no workflows, but a PR opened with it
-starts its `pull_request` workflows in an approval-required state. So
-`backend.yaml` gains a `pull_request` trigger, and approving the CI run
-becomes part of the review.
+A PR opened with `GITHUB_TOKEN` starts no workflow, so the checks a PR would
+get are the ones above. `backend.yaml` also runs on `ready_for_review`: a
+person marking the draft ready runs CI on it.
 
 ## Storage
 
@@ -223,30 +254,35 @@ becomes part of the review.
 |---|---|---|
 | Health report | `data` branch, `health/YYYY/MM/DD.json` | forever |
 | Raw HTML of every outlet | Actions artifact | 14 days |
-| canary report, trace, HAR, video | Actions artifact | 90 days |
+| Patch, agent session, evidence (check report, screenshot, counts) | Actions artifact | 14 days |
 | PR screenshot | `selfheal-evidence` branch | forever |
 | New fixture | the PR itself | forever |
 
-A day of raw HTML is about 18 MB (3 MB zipped); canary sessions happen at
-most a few times a week. This stays well inside Actions' limits (90-day
-maximum retention on public repos, 500 MB of artifact storage on the Free
-plan).
+A day of raw HTML is about 18 MB (3 MB zipped). canary's own session
+(trace, video, about 115 MB) is not kept: the page is a saved one, so the
+screenshot is all it adds. This stays well inside Actions' limits (500 MB of
+artifact storage on the Free plan).
 
 ## Wiring
 
 - `update.yml` keeps publishing exactly as today, plus the health report.
-- `selfheal.yml` is a separate workflow on `workflow_run` of Update, so a
-  broken self-heal can never block publishing. It never writes to `data` or
-  `public`, so it runs in its own `selfheal` concurrency group. It also takes
-  `workflow_dispatch` with:
+- `selfheal.yml` is a separate workflow on `workflow_run` of Update on
+  main, so a broken self-heal can never block publishing. It never writes to
+  `data` or `public`, so it runs in its own `selfheal` concurrency group. The
+  repository variable `SELFHEAL_AUTO` decides what an automatic run does:
+  `dry-run` stops after `check`, `on` opens PRs, anything else (unset
+  included) skips it. A run of Update that saved no pages (the weekly heal)
+  has nothing to fix. It also takes `workflow_dispatch` with:
   - `outlet` — force one outlet, bypassing the two-run rule and the weekly
     cap;
-  - `dry_run` — stop after the fix job: patch and evidence as artifacts, no
-    PR, no attempt recorded.
+  - `dry_run` (default true) — stop after `check`: patch and evidence as
+    artifacts, no PR, no attempt recorded. Only a dry run may come from a
+    branch other than main.
 - DeepSeek is only ever called off-peak. Its peak hours are 01:00–04:00 and
   06:00–10:00 UTC on weekdays (rates double then; weekends and Chinese public
-  holidays are off-peak all day, though the guard treats holidays as weekdays). A run started too close to them is refused, and a fix session that
-  could reach one is deferred. Update's 12:00 UTC run leaves about 13 hours of
+  holidays are off-peak all day, though the guard treats holidays as weekdays). A run by hand started too close to them is refused, an automatic one
+  waits for the next Update, and a fix session that could reach one is
+  deferred. Update's 12:00 UTC run leaves about 13 hours of
   off-peak for the fix job to follow it, which a test holds it to.
 
 ## Safety
@@ -263,11 +299,24 @@ runs `poe selfheal-fix gate`, which reads the patch with `git apply --summary`
 and refuses anything beyond the outlet's entry and today's page and snapshot,
 before any of it runs. The checker's verdict is still advisory: a patch's code
 could make it lie. Artifacts are public, so the fix job masks the DeepSeek
-key in everything it keeps. One gap is accepted for now: code in the fix and
-check jobs could tamper with a later JavaScript action, use its runtime token
-to write an Actions cache entry on `main`, and so reach Update, which restores
-caches and can push. The selfheal jobs write no caches of their own; revisit
-this before step 4 chains the loop to every Update run.
+key in everything it keeps.
+
+The agent and the checker run as `selfheal`, a user made for the job with
+no sudo, no docker, no access to the runner's home, and nothing of the
+runner's to write (`.github/selfheal-sandbox.sh`, which checks this on every
+run). Run as the runner's own user, that code could rewrite a JavaScript
+action a later step runs, which is handed the job's `ACTIONS_RUNTIME_TOKEN`,
+and so write an Actions cache entry on `main` that Update, which restores
+caches and can push, would pick up. As `selfheal` it reaches neither the
+actions nor the token, and its outputs are copied out file by file as it
+reads them, so a symlink it leaves leaks nothing. No job of the workflow
+writes or restores a cache, and `tests/test_selfheal_pr.py` holds the jobs
+to these rules: write access only in `pr`, the key only in `fix`, the
+agent and the checker only through the sandbox, no checkout running trusted
+code with the patch in it.
+
+The screenshot still loads the outlet's CSS, images and fonts from its
+servers, as a browser would; everything else a page could load is off.
 
 ## Cost
 
@@ -302,7 +351,8 @@ Each step has to prove itself before the next starts.
 3. **Fix job, dry run**: Daniel creates the `selfheal` environment and key,
    then dispatches every current `xpath` outlet with `dry_run`. Done when the
    patches are judged and the prompt is tuned.
-4. **PR job**: by hand first, then chained to Update. Done after two weeks of
+4. **PR job**: by hand first (a dispatch with `dry_run` off), then chained
+   to Update: `SELFHEAL_AUTO=dry-run`, then `on`. Done after two weeks of
    real PRs.
 5. **Optional**: backfill an outlet's broken days from the Wayback Machine
    after its fix merges (`heal` only refetches days with no data at all), and
