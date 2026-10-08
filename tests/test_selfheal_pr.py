@@ -227,6 +227,18 @@ def test_a_comment_on_an_attempt_without_a_pr_quotes_the_agent(outcome):
     assert "<!-- selfheal-attempt 2026-10-05 -->" in comment
 
 
+def test_an_infrastructure_comment_says_what_failed_and_holds_nothing_back():
+    evidence = _evidence(
+        result={"status": "infra_error", "explanation": "402 Insufficient Balance"}
+    )
+    comment = render_comment(evidence, outcome="infra_error", run_url="https://run")
+    assert "402 Insufficient Balance" in comment
+    assert "not counted" in comment
+    assert "in a week" not in comment
+    assert "selfheal-attempt" not in comment
+    assert comment.rstrip().endswith("<!-- selfheal-infra-error 2026-10-05 -->")
+
+
 # --- reading the evidence -----------------------------------------------------
 
 
@@ -258,6 +270,9 @@ def test_file_diffs_splits_a_patch_by_path():
         ({"result": {}}, [], "none"),
         ({"result": {"status": "deferred"}}, [], "none"),
         ({"result": {"status": "gave_up"}}, [], "gave_up"),
+        ({"result": {"status": "infra_error"}}, [], "infra_error"),
+        # whatever it left behind, an infrastructure failure judges nothing
+        ({"result": {"status": "infra_error"}}, ["scope"], "infra_error"),
         ({"patch": ""}, [], "no_patch"),
         ({}, ["scope"], "refused"),
         ({"check": None}, [], "failed"),
@@ -351,3 +366,15 @@ def test_a_rerun_of_the_pr_job_can_push_its_screenshot_again():
     """A rerun pushes the same screenshot: a path of its own."""
     (step,) = [s for s in _steps("pr") if s.get("id") == "screenshot"]
     assert 'path="$OUTLET/$day-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT.png"' in step["run"]
+
+
+def test_the_pr_job_fails_on_an_infrastructure_failure_after_reporting_it():
+    steps = _steps("pr")
+    names = [s.get("name", "") for s in steps]
+    failing = [s for s in steps if "infrastructure" in s.get("name", "").lower()]
+    assert len(failing) == 1
+    assert names.index(failing[0]["name"]) > names.index(
+        "Record the attempt on the outlet's issue"
+    )
+    assert "infra_error" in failing[0]["if"]
+    assert "exit 1" in failing[0]["run"]

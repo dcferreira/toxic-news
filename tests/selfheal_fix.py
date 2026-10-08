@@ -22,6 +22,12 @@ The `Self-fix` workflow runs it in three steps, each in its own job:
     `newspapers.py` and its new page and snapshot. Only then is the patch
     applied and judged by `poe selfheal-check`.
 
+`agent` also tells the harness failing from the agent giving up. A session
+that left no result after a provider error (DeepSeek's `402 Insufficient
+Balance`, say) or a failing exit is `infra_error`, not `gave_up`, with an
+empty patch, and the command exits 1; so is one the balance endpoint says
+DeepSeek will refuse, which is asked before omp starts.
+
 `off-peak`
     fails unless DeepSeek stays off-peak for `--needs` more; `agent` does the
     same check before omp starts, and defers its outlet if it fails.
@@ -39,6 +45,8 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import urllib.error
+import urllib.request
 from collections.abc import Callable, Iterator, Sequence
 from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta, timezone
@@ -95,6 +103,15 @@ _ATTEMPT = re.compile(r"<!-- selfheal-attempt (\d{4}-\d{2}-\d{2}) -->")
 def attempt_marker(day: date) -> str:
     """Return the hidden marker an issue comment records an attempt on `day` with."""
     return f"<!-- selfheal-attempt {day.isoformat()} -->"
+
+
+def infra_marker(day: date) -> str:
+    """Return the hidden marker an issue comment records an infrastructure failure with.
+
+    Unlike `attempt_marker`, it holds nothing back: a failure of DeepSeek or
+    the harness says nothing about the outlet, so the next run tries it again.
+    """
+    return f"<!-- selfheal-infra-error {day.isoformat()} -->"
 
 
 @dataclass(frozen=True)
@@ -579,21 +596,29 @@ _RESULT_FIELDS = ("old_xpath", "new_xpath", "from_date")
 _EXCLUDED = "excluded"
 
 
+def _written_result(path: Path) -> dict[str, Any] | None:
+    """Return what the agent wrote at `path`, or None if it left no usable result."""
+    try:
+        written = json.loads(path.read_text())
+    except (OSError, ValueError):
+        return None
+    if not isinstance(written, dict) or written.get("status") not in {
+        "fixed",
+        "gave_up",
+    }:
+        return None
+    return written
+
+
 def read_result(path: Path) -> dict[str, str | None]:
     """Return the agent's account of its fix, or a `gave_up` if it left none.
 
     Only its status and XPaths are used; the headlines the fix finds are
     always recomputed from the patch.
     """
-    try:
-        written = json.loads(path.read_text())
-    except (OSError, ValueError):
-        written = None
-    if not isinstance(written, dict) or written.get("status") not in {
-        "fixed",
-        "gave_up",
-    }:
-        reason = "no result.json" if written is None else "an invalid result.json"
+    written = _written_result(path)
+    if written is None:
+        reason = "no result.json" if not path.exists() else "an invalid result.json"
         return {
             "status": "gave_up",
             **dict.fromkeys(_RESULT_FIELDS),
@@ -611,6 +636,109 @@ def read_result(path: Path) -> dict[str, str | None]:
         None if excluded is None else str(excluded)[:MAX_EXPLANATION_CHARS]
     )
     return result
+
+
+# --- infrastructure failures ----------------------------------------------------
+
+#: The status of a session that failed for want of DeepSeek or the harness, as
+#: opposed to `gave_up`, the agent's own verdict on the outlet.
+INFRA_ERROR = "infra_error"
+
+#: DeepSeek's balance endpoint; asking is no model call.
+BALANCE_URL = "https://api.deepseek.com/user/balance"
+#: The longest provider error kept; the rest is noise.
+MAX_ERROR_CHARS = 200
+_REQUEST_ID = re.compile(r"\s*\(request_id: [^)]*\)")
+
+HTTP_PAYMENT_REQUIRED = 402
+HTTP_UNAUTHORIZED = 401
+
+#: Asks the balance endpoint with an API key; returns the HTTP status and body.
+BalanceFetcher = Callable[[str], tuple[int, str]]
+
+
+def _fetch_balance(key: str) -> tuple[int, str]:
+    request = urllib.request.Request(
+        BALANCE_URL, headers={"Authorization": f"Bearer {key}"}
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=15) as reply:  # noqa: S310 (a fixed https URL)
+            return reply.status, reply.read().decode(errors="replace")
+    except urllib.error.HTTPError as e:
+        return e.code, e.read().decode(errors="replace")
+
+
+def balance_problem(key: str, fetch: BalanceFetcher = _fetch_balance) -> str | None:
+    """Return why DeepSeek will refuse `key`'s calls, or None if it may work.
+
+    Only a clear no counts: DeepSeek saying the balance is not available, or
+    refusing the key. Any other answer, or none, leaves the session to try.
+    """
+    if not key:
+        return None
+    try:
+        status, body = fetch(key)
+    except OSError:
+        return None
+    refused = {
+        HTTP_PAYMENT_REQUIRED: "DeepSeek API: 402 Insufficient Balance",
+        HTTP_UNAUTHORIZED: "DeepSeek API: 401, the API key was refused",
+    }
+    if status in refused:
+        return refused[status]
+    try:
+        available = json.loads(body).get("is_available")
+    except (ValueError, AttributeError):
+        return None
+    return (
+        "DeepSeek API: the account has no balance available"
+        if available is False
+        else None
+    )
+
+
+#: A session with more turns than this really ran, so it is no infra failure.
+MAX_INFRA_TURNS = 1
+#: A provider error that is DeepSeek's or the network's fault, never the agent's:
+#: it is infrastructure after any number of turns.
+_PROVIDER_FAULT = re.compile(
+    r"\b(?:401|402|403|429|5\d\d)\b|insufficient balance|rate.?limit", re.IGNORECASE
+)
+
+
+def infra_problem(session: dict[str, object], code: int) -> str | None:
+    """Return what went wrong when a session that left no result failed to run.
+
+    `session` is `summarise_session`'s summary and `code` omp's exit code. A
+    provider error or a failing exit says the harness broke, but only while the
+    agent had not really run: once it has taken turns, a timeout or an overflow
+    is the agent failing, which stays a give-up, unless the provider error is
+    a fault of DeepSeek's (a 402, 5xx, auth or rate limit).
+    The error is cut to its first line,
+    with DeepSeek's request id dropped, and is redacted by the caller.
+    """
+    turns = session.get("turns")
+    error = session.get("error")
+    provider_fault = bool(_PROVIDER_FAULT.search(str(error or "")))
+    if isinstance(turns, int) and turns > MAX_INFRA_TURNS and not provider_fault:
+        return None
+    if error or session.get("stop_reason") == "error":
+        first = _REQUEST_ID.sub("", str(error or "")).strip().splitlines()
+        text = first[0][:MAX_ERROR_CHARS] if first else "the session ended in an error"
+        return f"The agent session failed: {text}"
+    if code != 0:
+        return f"omp exited with code {code} before the agent left a result"
+    return None
+
+
+def _infra_result(slug: str, problem: str) -> dict[str, Any]:
+    return {
+        "outlet": slug,
+        "status": INFRA_ERROR,
+        **dict.fromkeys(_RESULT_FIELDS),
+        "explanation": problem,
+        _EXCLUDED: None,
+    }
 
 
 def _git_in(root: Path, *args: str) -> bytes:
@@ -722,6 +850,7 @@ def run_agent(  # noqa: PLR0913 (each is an input of the session)
     run: DirRunner = _run_in,
     redact_secrets: Sequence[str] = (),
     now: datetime | None = None,
+    balance: Callable[[], str | None] = lambda: None,
 ) -> dict[str, Any]:
     """Run one fix session of `slug` in the checkout `root`, and collect it.
 
@@ -732,6 +861,11 @@ def run_agent(  # noqa: PLR0913 (each is an input of the session)
 
     A session that could reach DeepSeek's peak hours, given `max_time`, is not
     started: the result is `deferred`, and the patch empty.
+
+    One that fails for want of DeepSeek or the harness, not the agent's own
+    verdict, is `infra_error` with an empty patch: `balance` is asked before
+    omp starts and returns why DeepSeek will refuse, or None; and a session
+    that left no result after a provider error or a failing exit is one too.
     """
     out_dir.mkdir(parents=True, exist_ok=True)
     problem = peak_problem(now or _utcnow(), duration(max_time))
@@ -747,6 +881,12 @@ def run_agent(  # noqa: PLR0913 (each is an input of the session)
         (out_dir / "result.json").write_text(json.dumps(result, indent=2) + "\n")
         return result
 
+    if (problem := balance()) is not None:
+        result = _infra_result(slug, f"Not started: {redact(problem, redact_secrets)}")
+        write_patch(out_dir / "patch.diff", "")
+        (out_dir / "result.json").write_text(json.dumps(result, indent=2) + "\n")
+        return result
+
     task = json.loads((inputs / "task.json").read_text())
     fixture = root / task["fixture"]
     fixture.parent.mkdir(parents=True, exist_ok=True)
@@ -754,11 +894,26 @@ def run_agent(  # noqa: PLR0913 (each is an input of the session)
 
     prompt = build_prompt(task, inputs.relative_to(root))
     code, events = run(omp_command(omp, model, max_time, prompt), root)
+    (out_dir / "session.jsonl").write_text(redact(events, redact_secrets))
+    session = summarise_session(events)
+    problem = (
+        None
+        if _written_result(inputs / "result.json")
+        else infra_problem(session, code)
+    )
+    if problem is not None:
+        result = {
+            **_infra_result(slug, redact(problem, redact_secrets)),
+            "omp_exit_code": code,
+            "session": session,
+        }
+        write_patch(out_dir / "patch.diff", "")
+        (out_dir / "result.json").write_text(json.dumps(result, indent=2) + "\n")
+        return result
     # whatever the agent left, the snapshot is the one the extractor gives
     snapshot = [sys.executable, "-m", "tests.selfheal_fix", "snapshot", slug]
     snapshot_code, _ = run(snapshot, root)
 
-    (out_dir / "session.jsonl").write_text(redact(events, redact_secrets))
     write_patch(out_dir / "patch.diff", redact(collect_patch(root), redact_secrets))
     agent_result = read_result(inputs / "result.json")
     result = {
@@ -769,7 +924,7 @@ def run_agent(  # noqa: PLR0913 (each is an input of the session)
         },
         "omp_exit_code": code,
         "snapshot_exit_code": snapshot_code,
-        "session": summarise_session(events),
+        "session": session,
     }
     (out_dir / "result.json").write_text(json.dumps(result, indent=2) + "\n")
     return result
@@ -819,6 +974,7 @@ def _prepare(args: argparse.Namespace) -> int:
 def _agent(args: argparse.Namespace) -> int:
     slug = slug_of(resolve_outlet(args.outlet))
     root = Path.cwd().resolve()
+    key = os.environ.get("DEEPSEEK_API_KEY", "")
     result = run_agent(
         slug,
         root=root,
@@ -827,9 +983,16 @@ def _agent(args: argparse.Namespace) -> int:
         omp=args.omp,
         model=args.model,
         max_time=args.max_time,
-        redact_secrets=[os.environ.get("DEEPSEEK_API_KEY", "")],
+        redact_secrets=[key],
+        balance=lambda: balance_problem(key),
     )
     sys.stdout.write(json.dumps(result, indent=2) + "\n")
+    if result["status"] == INFRA_ERROR:
+        # a failed run, not an outlet the agent gave up on
+        sys.stdout.write(
+            f"::error::Self-fix infrastructure failure: {result['explanation']}\n"
+        )
+        return 1
     return 0
 
 

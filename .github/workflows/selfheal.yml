@@ -7,6 +7,11 @@ name: Self-fix
 # outlined, and a PR job opens a draft PR with that evidence. Nothing merges on
 # its own.
 #
+# A session that fails for want of DeepSeek or the harness (an exhausted
+# balance, say) is a failed run, not the agent giving up: the fix leg and the
+# pr job go red, the issue gets a comment saying what failed, and the outlet is
+# not held back for a week.
+#
 # It follows every Update run on main, once the repository variable
 # SELFHEAL_AUTO says so: `dry-run` stops after the check job, `on` opens PRs;
 # anything else (unset included) leaves it to be run by hand. An outlet gets a
@@ -609,7 +614,9 @@ jobs:
           echo "Opened $url" >> "$GITHUB_STEP_SUMMARY"
           echo "number=${url##*/}" >> "$GITHUB_OUTPUT"
 
-      # The marker in the comment holds the outlet back for a week.
+      # The marker in the comment holds the outlet back for a week, unless
+      # DeepSeek or the harness failed (`infra_error`): that comment has a
+      # marker of its own, which holds nothing back.
       - name: Record the attempt on the outlet's issue
         if: >-
           !cancelled()
@@ -629,3 +636,17 @@ jobs:
             --outcome "$OUTCOME" --run-url "$RUN_URL" ${PR:+--pr "$PR"} \
             --output comment.md
           gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file comment.md
+
+      # DeepSeek or the harness failed (a 402 Insufficient Balance, say), so
+      # nothing was tried: that is a failed run, whatever the issue says.
+      - name: Fail the run on an infrastructure failure
+        if: ${{ !cancelled() && steps.outcome.outputs.outcome == 'infra_error' }}
+        run: |
+          reason=$(jq -r '.explanation // "unknown"' "$EVIDENCE/result.json" | head -n 1)
+          echo "::error::Self-fix of $OUTLET failed on infrastructure, not on the outlet: $reason"
+          {
+            echo "### $OUTLET: infrastructure failure"
+            echo
+            echo "No fix was tried, and no attempt is counted: ${reason//[\`]/}"
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1

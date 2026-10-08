@@ -38,7 +38,12 @@ from pathlib import Path
 from typing import Any
 
 from tests.selfheal_check import NEWSPAPERS_PY, _cell, _layout
-from tests.selfheal_fix import _expected_from_date, attempt_marker, gate
+from tests.selfheal_fix import (
+    _expected_from_date,
+    attempt_marker,
+    gate,
+    infra_marker,
+)
 
 #: GitHub refuses a PR body longer than this many characters.
 MAX_BODY = 65_536
@@ -341,10 +346,15 @@ def outcome(evidence: Evidence, gate_problems: Sequence[str]) -> str:
     is what the PR job's own `gate` found in the patch.
     """
     status = evidence.result.get("status")
-    if status in (None, "deferred"):
-        return "none"
-    if status == "gave_up":
-        return "gave_up"
+    # no patch is looked at: none was made, or whatever it holds judges nothing
+    early = {
+        None: "none",
+        "deferred": "none",
+        "gave_up": "gave_up",
+        "infra_error": "infra_error",
+    }
+    if status in early:
+        return early[status]
     if not evidence.patch.strip():
         return "no_patch"
     if gate_problems:
@@ -363,6 +373,7 @@ OUTCOMES = {
     "refused": "left a patch that reaches beyond the outlet, so it was refused",
     "failed": "left a fix that fails `selfheal-check`",
     "no_patch": "left no patch",
+    "infra_error": "could not run the agent",
 }
 
 
@@ -374,6 +385,20 @@ def render_comment(
     It carries the attempt marker, which holds the outlet back for a week.
     """
     day = date.fromisoformat(evidence.task["today"])
+    if outcome == "infra_error":
+        lines = [
+            (
+                f"The [self-fix loop]({run_url}) could not try to fix this on "
+                f"{day}: its agent failed to run, which says nothing about the "
+                "outlet. This is not counted as an attempt, so the next run "
+                "tries again."
+            ),
+            "",
+            "What went wrong:",
+            "",
+            _quote(evidence.result.get("explanation")),
+        ]
+        return "\n".join([*lines, "", infra_marker(day)]) + "\n"
     if outcome == "pr":
         head = f"The [self-fix loop]({run_url}) opened #{pr} to fix this."
         lines = [head]
