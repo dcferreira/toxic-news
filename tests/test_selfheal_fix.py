@@ -796,6 +796,14 @@ def test_a_timed_out_session_that_ran_several_turns_is_a_give_up(tmp_path):
     assert result["status"] == "gave_up"
 
 
+def test_a_provider_fault_after_several_turns_is_still_infrastructure(tmp_path):
+    turn = _assistant(0.01) + "\n" + json.dumps({"type": "turn_end"}) + "\n"
+    events = turn * 4 + _assistant(0.0, stop="error", errorMessage=PAID_UP) + "\n"
+    result, _ = _run_failing(tmp_path, 1, events)
+    assert result["status"] == "infra_error"
+    assert "402 Insufficient Balance" in result["explanation"]
+
+
 def test_an_agent_that_gave_up_stays_a_give_up_whatever_the_exit_code(tmp_path):
     repo, inputs = _session_inputs(tmp_path)
 

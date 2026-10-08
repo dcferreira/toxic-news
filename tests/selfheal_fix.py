@@ -699,6 +699,11 @@ def balance_problem(key: str, fetch: BalanceFetcher = _fetch_balance) -> str | N
 
 #: A session with more turns than this really ran, so it is no infra failure.
 MAX_INFRA_TURNS = 1
+#: A provider error that is DeepSeek's or the network's fault, never the agent's:
+#: it is infrastructure after any number of turns.
+_PROVIDER_FAULT = re.compile(
+    r"\b(?:401|402|403|429|5\d\d)\b|insufficient balance|rate.?limit", re.IGNORECASE
+)
 
 
 def infra_problem(session: dict[str, object], code: int) -> str | None:
@@ -707,13 +712,16 @@ def infra_problem(session: dict[str, object], code: int) -> str | None:
     `session` is `summarise_session`'s summary and `code` omp's exit code. A
     provider error or a failing exit says the harness broke, but only while the
     agent had not really run: once it has taken turns, a timeout or an overflow
-    is the agent failing, which stays a give-up. The error is cut to its first
-    line, with DeepSeek's request id dropped, and is redacted by the caller.
+    is the agent failing, which stays a give-up, unless the provider error is
+    a fault of DeepSeek's (a 402, 5xx, auth or rate limit).
+    The error is cut to its first line,
+    with DeepSeek's request id dropped, and is redacted by the caller.
     """
     turns = session.get("turns")
-    if isinstance(turns, int) and turns > MAX_INFRA_TURNS:
-        return None
     error = session.get("error")
+    provider_fault = bool(_PROVIDER_FAULT.search(str(error or "")))
+    if isinstance(turns, int) and turns > MAX_INFRA_TURNS and not provider_fault:
+        return None
     if error or session.get("stop_reason") == "error":
         first = _REQUEST_ID.sub("", str(error or "")).strip().splitlines()
         text = first[0][:MAX_ERROR_CHARS] if first else "the session ended in an error"
