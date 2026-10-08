@@ -20,6 +20,7 @@ from tests.selfheal_fix import (
     _ROOT,
     Record,
     attempt_marker,
+    balance_problem,
     broken_outlets,
     build_prompt,
     duration,
@@ -738,16 +739,66 @@ def test_the_patch_keeps_the_fetched_page_byte_for_byte(tmp_path, monkeypatch):
     assert main(["gate", str(inputs / "task.json"), str(out / "patch.diff")]) == 0
 
 
-def test_run_agent_records_a_failed_session(tmp_path):
-    repo = _repo(tmp_path)
-    inputs = repo / "selfheal" / "bbc.com"
-    inputs.mkdir(parents=True)
-    (inputs / "today.html").write_text("<html>today</html>\n")
-    (inputs / "task.json").write_text(json.dumps(_task()))
+def _session_inputs(tmp_path: Path) -> tuple[Path, Path]:
+    return _agent_inputs(tmp_path)
+
+
+def _run_failing(tmp_path, code, events, *, balance=None):
+    repo, inputs = _session_inputs(tmp_path)
+    out = tmp_path / "out"
+
+    def fake_run(cmd: list[str], cwd: Path) -> tuple[int, str]:
+        return (code, events) if cmd[0] == "omp" else (0, "")
+
+    extra = {} if balance is None else {"balance": balance}
+    result = run_agent(
+        "bbc.com",
+        root=repo,
+        inputs=inputs,
+        out_dir=out,
+        omp="omp",
+        model="m",
+        max_time="1m",
+        run=fake_run,
+        now=OFF_PEAK,
+        **extra,
+    )
+    return result, out
+
+
+PAID_UP = (
+    "402 Insufficient Balance (request_id: b6db14bd-da53)\n"
+    "Insufficient Balance (request_id: b6db14bd-da53) (type=unknown_error)"
+)
+
+
+def test_a_provider_error_with_no_result_is_an_infrastructure_failure(tmp_path):
+    events = _assistant(0.0, stop="error", errorMessage=PAID_UP) + "\n"
+    result, out = _run_failing(tmp_path, 1, events)
+    assert result["status"] == "infra_error"
+    assert "402 Insufficient Balance" in result["explanation"]
+    assert "request_id" not in result["explanation"]
+    assert result["omp_exit_code"] == 1
+    # the page it copied in is no fix: nothing for the checker to judge
+    assert (out / "patch.diff").read_text() == ""
+    assert json.loads((out / "result.json").read_text()) == result
+
+
+def test_a_nonzero_exit_with_no_result_is_an_infrastructure_failure(tmp_path):
+    result, _ = _run_failing(tmp_path, 124, "")
+    assert result["status"] == "infra_error"
+    assert "exited with code 124" in result["explanation"]
+
+
+def test_an_agent_that_gave_up_stays_a_give_up_whatever_the_exit_code(tmp_path):
+    repo, inputs = _session_inputs(tmp_path)
 
     def fake_run(cmd: list[str], cwd: Path) -> tuple[int, str]:
         if cmd[0] == "omp":
-            return 1, _assistant(0.0, stop="error", errorMessage="boom") + "\n"
+            (cwd / "selfheal/bbc.com/result.json").write_text(
+                json.dumps({"status": "gave_up", "explanation": "no headlines"})
+            )
+            return 1, _assistant(0.0, stop="error", errorMessage="late") + "\n"
         return 0, ""
 
     result = run_agent(
@@ -762,8 +813,112 @@ def test_run_agent_records_a_failed_session(tmp_path):
         now=OFF_PEAK,
     )
     assert result["status"] == "gave_up"
-    assert result["omp_exit_code"] == 1
-    assert result["session"]["error"] == "boom"
+    assert result["explanation"] == "no headlines"
+
+
+def test_a_clean_exit_with_no_result_is_the_agent_giving_up(tmp_path):
+    result, _ = _run_failing(tmp_path, 0, _assistant(0.01, stop="stop") + "\n")
+    assert result["status"] == "gave_up"
+
+
+def test_the_provider_error_is_redacted_and_bounded(tmp_path):
+    long = f"boom {SECRET} " + "x" * 5000
+    events = _assistant(0.0, stop="error", errorMessage=long) + "\n"
+    repo, inputs = _session_inputs(tmp_path)
+    result = run_agent(
+        "bbc.com",
+        root=repo,
+        inputs=inputs,
+        out_dir=tmp_path / "out",
+        omp="omp",
+        model="m",
+        max_time="1m",
+        run=lambda cmd, _cwd: (1, events) if cmd[0] == "omp" else (0, ""),
+        redact_secrets=[SECRET],
+        now=OFF_PEAK,
+    )
+    assert SECRET not in result["explanation"]
+    assert len(result["explanation"]) < 400
+
+
+def test_a_dead_balance_stops_the_session_before_omp_starts(tmp_path):
+    repo, inputs = _agent_inputs(tmp_path)
+    out = tmp_path / "out"
+
+    def fake_run(cmd: list[str], cwd: Path) -> tuple[int, str]:
+        pytest.fail(f"nothing should run, but {cmd[0]} did")
+
+    result = run_agent(
+        "bbc.com",
+        root=repo,
+        inputs=inputs,
+        out_dir=out,
+        omp="omp",
+        model="m",
+        max_time="1m",
+        run=fake_run,
+        now=OFF_PEAK,
+        balance=lambda: "DeepSeek reports no balance left",
+    )
+    assert result["status"] == "infra_error"
+    assert "DeepSeek reports no balance left" in result["explanation"]
+    assert (out / "patch.diff").read_text() == ""
+    assert not (repo / "tests/assets/html/bbc.com/2026-10-05.html").exists()
+
+
+def _reply(status: int, body: object):
+    return lambda _key: (status, body if isinstance(body, str) else json.dumps(body))
+
+
+@pytest.mark.parametrize(
+    ("fetch", "stops"),
+    [
+        (_reply(200, {"is_available": True, "balance_infos": []}), False),
+        (_reply(200, {"is_available": False, "balance_infos": []}), True),
+        (_reply(402, "Insufficient Balance"), True),
+        (_reply(401, "Authentication Fails"), True),
+        # not knowing is no reason to stop a run that may well work
+        (_reply(500, "oops"), False),
+        (_reply(200, "not json"), False),
+        (_reply(200, {"something": "else"}), False),
+    ],
+)
+def test_the_balance_check_stops_only_on_a_clear_no(fetch, stops):
+    assert (balance_problem("k", fetch) is not None) is stops
+
+
+def test_the_balance_check_survives_the_network_failing():
+    def down(key: str) -> tuple[int, str]:
+        message = "unreachable"
+        raise OSError(message)
+
+    assert balance_problem("k", down) is None
+
+
+def test_the_balance_check_without_a_key_says_nothing():
+    assert balance_problem("", _reply(401, "no")) is None
+
+
+def test_the_agent_command_fails_on_an_infrastructure_failure(monkeypatch, tmp_path):
+    monkeypatch.setattr(
+        "tests.selfheal_fix.run_agent",
+        lambda *_a, **_k: {"status": "infra_error", "explanation": "x"},
+    )
+    args = ["agent", "bbc.com", "--out-dir", str(tmp_path)]
+    assert main(args) == 1
+    monkeypatch.setattr(
+        "tests.selfheal_fix.run_agent",
+        lambda *_a, **_k: {"status": "gave_up", "explanation": "x"},
+    )
+    assert main(args) == 0
+
+
+def test_an_infrastructure_comment_is_no_attempt_for_the_weekly_cap():
+    marker = "<!-- selfheal-infra-error 2026-10-05 -->"
+    github = FakeGitHub(
+        [{"number": 14, "state": "open"}], {14: [_comment(f"x {marker}")]}
+    )
+    assert record_of(github, BBC) == Record()
 
 
 # --- DeepSeek's off-peak hours ------------------------------------------------

@@ -110,7 +110,8 @@ secrets, `issues: write`.
   `<!-- selfheal-attempt YYYY-MM-DD -->`; `prepare` reads the latest one
   across open and closed issues for that outlet, counting only the bot's own
   comments (anyone can comment on a public repository). No other state is
-  kept.
+  kept. A failure of DeepSeek or the harness is no attempt: it is recorded
+  with `<!-- selfheal-infra-error YYYY-MM-DD -->`, which `prepare` ignores.
 
 ## Fix job
 
@@ -156,10 +157,17 @@ It iterates against `poe selfheal-check <outlet>`, which passes when:
 7. the test suite passes (less the network and model tests). The agent can't
    edit a test, so a fix that breaks one fails until a person fixes the test.
 
-Output: `patch.diff` and `result.json` (`fixed` or `gave_up`, old and new
+Output: `patch.diff` and `result.json` (`fixed`, `gave_up` or `infra_error`, old and new
 XPath, `from_date`, an explanation of at most five sentences, an `excluded`
 note on what looks like a headline but was left out). The agent's
 own account of the headlines is not used anywhere.
+
+`infra_error` is not the agent's verdict: DeepSeek or the harness failed. It
+is a session that left no `result.json` after a provider error (such as
+`402 Insufficient Balance`) or a failing omp exit, or that DeepSeek's balance
+endpoint says it will refuse (asked before omp starts; only a clear no stops a
+run). Its patch is empty, so nothing is judged, and `agent` exits 1: the fix
+leg is red, with an error annotation naming what failed.
 
 ## PR job
 
@@ -200,7 +208,8 @@ patch's code: main's own code reads the evidence as data.
 
 1. Gate the patch again, and decide what came of the attempt: `pr` for a
    passing patch within scope, `none` when no session ran (deferred to dodge
-   DeepSeek's peak), else gave up, refused, failed or no patch.
+   DeepSeek's peak), `infra_error` when DeepSeek or the harness failed, else
+   gave up, refused, failed or no patch.
 2. For `pr`: apply the patch in a separate worktree, commit it to
    `selfheal/<outlet>-<date>-<run id>-<run attempt>` and push. The checkout the job's code runs from
    never holds the patch.
@@ -210,7 +219,10 @@ patch's code: main's own code reads the evidence as data.
 4. Open a draft PR, labelled `selfheal` and `selfheal:<outlet>`, closing the
    outlet's open issue.
 5. Comment on the outlet's issue, with the attempt marker: the PR, or how the
-   attempt failed, quoting the agent's explanation and the checks.
+   attempt failed, quoting the agent's explanation and the checks. For an
+   `infra_error` the comment says what failed, carries the infra-error marker
+   instead, and the job then fails, so the run is red and the outlet is tried
+   again by the next run.
 
 ### What the PR shows
 
