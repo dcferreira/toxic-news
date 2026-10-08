@@ -1,0 +1,174 @@
+[
+  [
+    "US death row inmate Christa Pike 'angry and confused' after failed execution, her lawyer says",
+    "https://www.bbc.com/news/live/c39wzrxxldyvt"
+  ],
+  [
+    "France halts use of stun grenades after boy's hand blown off in student protests",
+    "https://bbc.com/news/articles/cqzjx7z2r4gko"
+  ],
+  [
+    "Why has France suspended the use of stun grenades on protesters?",
+    "https://bbc.com/news/articles/cqe8r9811n9jo"
+  ],
+  [
+    "National memorial under way in Tel Aviv as Israelis mark three years since 7 October attacks",
+    "https://www.bbc.com/news/live/cq2e9kyzer2nt"
+  ],
+  [
+    "Chemistry Nobel awarded for solving mystery of life's asymmetry",
+    "https://bbc.com/news/articles/c6ly038jg0d4o"
+  ],
+  [
+    "Two icons, a glorious farewell and a potentially bitter ending",
+    "https://bbc.com/sport/football/articles/cw5ynm4e0d68o"
+  ],
+  [
+    "Canada suspends plans to expand assisted dying to people with mental illness",
+    "https://bbc.com/news/articles/cqd09g0gj50ko"
+  ],
+  [
+    "The Social Reckoning puts Facebook on trial but won't change anyone's mind \u2605\u2605\u2606\u2606\u2606",
+    "https://bbc.com/culture/article/20261006-the-social-reckoning-review"
+  ],
+  [
+    "A four-hour horse ride to stay with Mongolia\u2019s reindeer herders",
+    "https://bbc.com/travel/article/20260924-a-four-hour-horseback-ride-to-stay-with-mongolias-reindeer-herders"
+  ],
+  [
+    "California pair charged with abusing at least 14 surrogate-born children",
+    "https://bbc.com/news/articles/crx23dvnp8vxo"
+  ],
+  [
+    "Trump to speak to Putin about plague lab worker's death in Russia",
+    "https://bbc.com/news/articles/cqgm0vrl3xp7o"
+  ],
+  [
+    "What is pneumonic plague and how does it spread?",
+    "https://bbc.com/news/articles/cxdd8035jzn3o"
+  ],
+  [
+    "Rainmakers: The drones used to seed clouds",
+    "https://bbc.com/news/articles/c64g71j4lgyjo"
+  ],
+  [
+    "Jaguar unveils new electric car after 'woke' ridicule",
+    "https://bbc.com/news/articles/c6je50ydld31o"
+  ],
+  [
+    "Oscar-winning actress Eva Marie Saint dies aged 102",
+    "https://bbc.com/news/articles/cqze43ky1xgdo"
+  ],
+  [
+    "'Grateful, proud and at peace' - emotional Messi plays final Argentina game",
+    "https://www.bbc.com/sport/football/live/cxdd8721zm4qt"
+  ],
+  [
+    "Senior figures worried about Man City being in next season's Champions League",
+    "https://bbc.com/sport/football/articles/c9p8gxgm71zzo"
+  ],
+  [
+    "What the Paramount and Warner Bros deal means for you",
+    "https://bbc.com/news/videos/cq70p4llze5jo"
+  ],
+  [
+    "What we know about Christa Pike's 'unprecedented' recovery after failed execution",
+    "https://bbc.com/news/videos/c5398nwe9lzlo"
+  ],
+  [
+    "Watch: Why family who lived at site of 7 October attack want to return",
+    "https://bbc.com/news/videos/ck87zxr0d021o"
+  ],
+  [
+    "Riot police clash with school protesters and use tear gas in France",
+    "https://bbc.com/news/videos/cwm26078pkepo"
+  ],
+  [
+    "A separatist party just won power in Quebec - what does that mean?",
+    "https://bbc.com/news/videos/cjr4yl39pg4ro"
+  ],
+  [
+    "At the scene of student protests in Lille",
+    "https://bbc.com/news/videos/cwzd650e2jqdo"
+  ],
+  [
+    "'We are terrified but we want to get an education', say Yemeni schoolgirls",
+    "https://bbc.com/news/videos/cqde873zjr1zo"
+  ],
+  [
+    "How Russia responded to US after plague researcher death",
+    "https://bbc.com/news/videos/c8e36y796enno"
+  ],
+  [
+    "'Rock 'n' roll swagger': 10 images capturing the chaos of '90s Brit culture",
+    "https://bbc.com/culture/article/20261005-10-iconic-images-capturing-the-chaotic-energy-of-90s-brit-culture"
+  ],
+  [
+    "Marilyn Monroe's intimate final photos taken weeks before her death",
+    "https://bbc.com/culture/article/20260529-the-story-of-marilyn-monroes-intimate-last-photos"
+  ],
+  [
+    "The eerie abandoned vehicles in Chernobyl's 'dead zone'",
+    "https://bbc.com/future/article/20260424-the-eerie-abandoned-vehicles-in-chernobyls-dead-zone"
+  ],
+  [
+    "These artworks are by women - men got the credit",
+    "https://bbc.com/culture/article/20260325-the-artworks-by-women-where-men-got-the-credit"
+  ],
+  [
+    "The penguins thriving in an active volcano",
+    "https://bbc.com/future/article/20261006-gentoo-penguins-are-flourishing-inside-an-active-antarctic-volcano"
+  ],
+  [
+    "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+    "https://bbc.com/news/articles/c8kgezxn54qko"
+  ],
+  [
+    "Children killed while they slept as Russian missile kills 19 in block of flats",
+    "https://bbc.com/news/articles/ckr5ym098vdeo"
+  ],
+  [
+    "Japan beer giants raided over alleged price-fixing cartel",
+    "https://bbc.com/news/articles/cm5yn3592xk9o"
+  ],
+  [
+    "Asos confirms hackers sent 'unauthorised' notification to app users",
+    "https://bbc.com/news/articles/cj62ylzpr6d3o"
+  ],
+  [
+    "Ex-Spurs player Vega set to run for Fifa president",
+    "https://bbc.com/sport/football/articles/c607397pjv37o"
+  ],
+  [
+    "Why a global outbreak of plague is unlikely",
+    "https://bbc.com/future/article/20261007-could-we-have-a-global-outbreak-of-pneumonic-plague-today"
+  ],
+  [
+    "Blue Planet III ventures into darkest depths of ocean",
+    "https://bbc.com/news/articles/c5pvgzvlepr1o"
+  ],
+  [
+    "The US coast where people speak a language found nowhere else on Earth",
+    "https://bbc.com/travel/article/20261001-the-american-coast-that-refused-to-let-african-culture-die"
+  ],
+  [
+    "The stunning Austrian castle once ruled by robber barons",
+    "https://bbc.com/reel/video/p0pdnqr2/watch"
+  ],
+  [
+    "Four things Jane Austen adaptations get wrong - according to experts",
+    "https://bbc.com/culture/article/20260922-four-things-jane-austen-adaptations-get-wrong"
+  ],
+  [
+    "Yoga bears to resting owl face: 10 of the funniest animal photos of 2026",
+    "https://bbc.com/future/article/20261002-10-of-the-funniest-animal-photos-of-2026"
+  ],
+  [
+    "Learning the ancient art of survival in the Scottish Highlands",
+    "https://bbc.com/reel/video/p0p6mkhl/watch"
+  ],
+  [
+    "Why travellers are obsessed with foreign supermarkets",
+    "https://bbc.com/travel/article/20260811-the-supermarket-is-becoming-a-tourist-attraction"
+  ]
+]
