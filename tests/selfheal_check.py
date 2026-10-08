@@ -714,15 +714,21 @@ TEST_COMMAND = (
 )
 
 
+#: pytest's closing line, e.g. "415 passed, 36 deselected in 15.22s".
+_PYTEST_SUMMARY = re.compile(r"^=*\s*\d+ \w+.* in [\d.]+s\b")
+
+
 def check_tests(run: Runner = _run) -> CheckResult:
     """Check the test suite passes with the fix in place."""
     code, output = run(list(TEST_COMMAND))
     lines = output.strip().splitlines()
+    # the output ends in whatever stderr held, not always pytest's summary
+    summary = next((ln for ln in reversed(lines) if _PYTEST_SUMMARY.match(ln)), None)
     if code != 0:
         failed = [line for line in lines if line.startswith("FAILED ")]
-        detail = "; ".join(failed[:5]) or " ".join(lines[-3:])
+        detail = "; ".join(failed[:5]) or summary or " ".join(lines[-3:])
         return CheckResult("Test suite", passed=False, detail=detail)
-    return CheckResult("Test suite", passed=True, detail=lines[-1] if lines else "")
+    return CheckResult("Test suite", passed=True, detail=summary or "passes")
 
 
 # --- the whole check ----------------------------------------------------------

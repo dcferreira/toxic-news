@@ -545,6 +545,16 @@ def test_the_suite_runs_without_the_network_and_model_tests():
     assert (marker, expression) == ("-m", "not integration and not slow")
 
 
+def test_the_suite_reports_pytests_summary_whatever_follows_it():
+    """On the runner, a terminal warning lands after pytest's own output."""
+    output = (
+        "....\n415 passed, 36 deselected in 15.22s\nusing dumb terminal settings.\n"
+    )
+    result = check_tests(lambda _cmd: (0, output))
+    assert result.passed
+    assert result.detail == "415 passed, 36 deselected in 15.22s"
+
+
 def test_the_suite_fails_naming_the_failing_tests():
     output = (
         "....F\nFAILED tests/test_fetchers.py::test_round_trip - assert []\n"
