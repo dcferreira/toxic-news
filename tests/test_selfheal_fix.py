@@ -790,6 +790,12 @@ def test_a_nonzero_exit_with_no_result_is_an_infrastructure_failure(tmp_path):
     assert "exited with code 124" in result["explanation"]
 
 
+def test_a_timed_out_session_that_ran_several_turns_is_a_give_up(tmp_path):
+    turn = _assistant(0.01) + "\n" + json.dumps({"type": "turn_end"}) + "\n"
+    result, _ = _run_failing(tmp_path, 124, turn * 3)
+    assert result["status"] == "gave_up"
+
+
 def test_an_agent_that_gave_up_stays_a_give_up_whatever_the_exit_code(tmp_path):
     repo, inputs = _session_inputs(tmp_path)
 

@@ -697,14 +697,22 @@ def balance_problem(key: str, fetch: BalanceFetcher = _fetch_balance) -> str | N
     )
 
 
+#: A session with more turns than this really ran, so it is no infra failure.
+MAX_INFRA_TURNS = 1
+
+
 def infra_problem(session: dict[str, object], code: int) -> str | None:
     """Return what went wrong when a session that left no result failed to run.
 
     `session` is `summarise_session`'s summary and `code` omp's exit code. A
-    provider error or a failing exit says the harness broke; a clean exit with
-    no result is the agent giving up. The error is cut to its first line, with
-    DeepSeek's request id dropped, and is redacted by the caller.
+    provider error or a failing exit says the harness broke, but only while the
+    agent had not really run: once it has taken turns, a timeout or an overflow
+    is the agent failing, which stays a give-up. The error is cut to its first
+    line, with DeepSeek's request id dropped, and is redacted by the caller.
     """
+    turns = session.get("turns")
+    if isinstance(turns, int) and turns > MAX_INFRA_TURNS:
+        return None
     error = session.get("error")
     if error or session.get("stop_reason") == "error":
         first = _REQUEST_ID.sub("", str(error or "")).strip().splitlines()
