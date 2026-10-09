@@ -1,0 +1,522 @@
+[
+  [
+    "US Announces Sanctions on International Criminal Court",
+    "https://www.theepochtimes.com/us/us-announces-sanctions-on-international-criminal-court-6101659"
+  ],
+  [
+    "Judge Denies Bid by Nicol\u00e1s Maduro\u2019s Wife Cilia Flores for Home Confinement",
+    "https://www.theepochtimes.com/us/judge-denies-bid-by-nicolas-maduros-wife-cilia-flores-for-home-confinement-6101507"
+  ],
+  [
+    "Chicago Bears Icon Mike Ditka Dies at 86",
+    "https://www.theepochtimes.com/sports/chicago-bears-icon-mike-ditka-dies-at-86-post-6101702"
+  ],
+  [
+    "NFL Coach Mike Ditka to Kneeling Players: \u2018If You Can\u2019t Respect This Country, Get Out\u2019",
+    "https://www.theepochtimes.com/bright/nfl-coach-mike-ditka-to-kneeling-players-if-you-cant-respect-this-country-get-out-3503313"
+  ],
+  [
+    "Russian Official Says Quarantine Complete After Siberian Plague Lab Death",
+    "https://www.theepochtimes.com/world/russian-official-says-quarantine-complete-after-siberian-plague-lab-death-6101655"
+  ],
+  [
+    "China to Cooperate With Russia Amid Suspected Plague Case; Experts Warn of Lack of Transparency",
+    "https://www.theepochtimes.com/china/china-to-cooperate-with-russia-amid-suspected-plague-case-experts-warn-of-lack-of-transparency-6101017"
+  ],
+  [
+    "Is America Winning the AI Race? We Asked 10 Experts.",
+    "https://www.theepochtimes.com/article/is-america-winning-the-ai-race-we-asked-10-experts-6096782"
+  ],
+  [
+    "Trump\u2019s Border Czar on Record Arrests, Attacks on ICE, and What Comes Next",
+    "https://www.theepochtimes.com/article/trumps-border-czar-on-record-arrests-attacks-on-ice-and-what-comes-next-6096036"
+  ],
+  [
+    "Amish Families Weigh Their Futures as Vaccine Fight Continues in New York",
+    "https://www.theepochtimes.com/article/amish-families-weigh-their-future-as-vaccine-fight-continues-in-new-york-6094118"
+  ],
+  [
+    "Debate Over Islam Divides a Texas County",
+    "https://www.theepochtimes.com/article/debate-over-islam-divides-a-texas-county-6090656"
+  ],
+  [
+    "Top Supreme Court Cases to Watch for 2026\u20132027 Term",
+    "https://www.theepochtimes.com/us/top-supreme-court-cases-to-watch-for-2026-2027-term-6097011"
+  ],
+  [
+    "The New Wave of Young Christian Influencers",
+    "https://www.theepochtimes.com/article/the-new-wave-of-young-christian-influencers-6090690"
+  ],
+  [
+    "How Big Hospitals Face Allegations of Stifling Competition\u2014and How Federal Regulators Respond",
+    "https://www.theepochtimes.com/article/how-big-hospitals-squelch-competition-and-how-the-federal-government-stops-them-6083004"
+  ],
+  [
+    "She Thought She Found Love. She Was Trapped in a $500,000 Scam.",
+    "https://www.theepochtimes.com/article/she-thought-she-found-love-she-was-trapped-in-a-500000-scam-6086741"
+  ],
+  [
+    "They Carry the Torch for Treasures of the Renaissance. We Met Florence\u2019s Antiquarians.",
+    "https://www.theepochtimes.com/article/they-carry-the-torch-for-treasures-of-the-renaissance-we-met-florences-antiquarians-6095636"
+  ],
+  [
+    "Does AI Detection Software Work? We Tested 3 Popular Tools.",
+    "https://www.theepochtimes.com/article/does-ai-detection-software-work-we-tested-3-popular-tools-6086867"
+  ],
+  [
+    "A Chinese Battery Plant Moved Into This Illinois Town on State Money. Its Residents Can\u2019t Vote It Out.",
+    "https://www.theepochtimes.com/article/a-chinese-battery-plant-moved-into-this-illinois-town-on-state-money-its-residents-cant-vote-it-out-6078010"
+  ],
+  [
+    "More Hospitals Are Being Bought by Private Equity. Here\u2019s How It\u2019s Changing Healthcare.",
+    "https://www.theepochtimes.com/article/more-hospitals-are-being-bought-by-private-equity-heres-how-its-changing-healthcare-6090801"
+  ],
+  [
+    "This Gun Collector Was Jailed on Weapons Charges. The President Granted His Plea for Freedom.",
+    "https://www.theepochtimes.com/article/this-gun-collector-was-jailed-on-weapons-charges-the-president-granted-his-plea-for-freedom-6092583"
+  ],
+  [
+    "Feral Hogs Are Taking Over America; Hunters Have a Solution",
+    "https://www.theepochtimes.com/article/feral-hogs-are-taking-over-america-hunters-have-a-solution-6086389"
+  ],
+  [
+    "South American Nations Embrace Free Markets, but Can It Hold?",
+    "https://www.theepochtimes.com/article/south-american-nations-embrace-free-markets-but-can-it-hold-6085759"
+  ],
+  [
+    "On the Streets of Ceuta, Tensions Rising Amid Migrant Crisis",
+    "https://www.theepochtimes.com/article/on-the-streets-of-ceuta-tensions-rising-amid-migrant-crisis-6092607"
+  ],
+  [
+    "American Express Hit With $350 Million Fine for Anti-Money Laundering Lapses",
+    "https://www.theepochtimes.com/business/american-express-hit-with-350-million-fine-for-anti-money-laundering-lapses-6101666"
+  ],
+  [
+    "Trump Forms Committee to Probe Federal Reserve\u2019s Lisa Cook",
+    "https://www.theepochtimes.com/us/trump-forms-committee-to-probe-federal-reserves-lisa-cook-6101657"
+  ],
+  [
+    "Americans Lost $18.2 Billion in Mostly Chinese-Run Scam Operations: Report",
+    "https://www.theepochtimes.com/us/americans-lost-18-2-billion-in-mostly-chinese-run-scam-operations-report-6101475"
+  ],
+  [
+    "Why People Avoid Grappling With Deep Suffering",
+    "https://www.theepochtimes.com/opinion/why-people-avoid-grappling-with-deep-suffering-6101700"
+  ],
+  [
+    "What Do We Want Our Money to Keep Alive?",
+    "https://www.theepochtimes.com/opinion/what-do-we-want-our-money-to-keep-alive-6099570"
+  ],
+  [
+    "Dating Is Not in a Recession, It Just Needs Direction",
+    "https://www.theepochtimes.com/opinion/dating-is-not-in-a-recession-it-just-needs-direction-6101345"
+  ],
+  [
+    "Don\u2019t Let Short-Term Gas Prices Overshadow Manufacturing Renaissance and Real GDP Increases",
+    "https://www.theepochtimes.com/opinion/dont-let-short-term-gas-prices-overshadow-manufacturing-renaissance-and-real-gdp-increases-6097558"
+  ],
+  [
+    "Trump Didn\u2019t Politicize the Smithsonian. He\u2019s Responding to Those Who Did.",
+    "https://www.theepochtimes.com/opinion/trump-didnt-politicize-the-smithsonian-hes-responding-to-those-who-did-6100701"
+  ],
+  [
+    "Crisis, Civil Resilience, and the Undercurrents Behind Flydubai",
+    "https://www.theepochtimes.com/opinion/crisis-civil-resilience-and-the-undercurrents-behind-flydubai-6100714"
+  ],
+  [
+    "US Offers Up to $10 Million for Information on Chinese Man Accused of Stealing COVID-19 Research",
+    "https://www.theepochtimes.com/china/us-offers-up-to-10-million-for-information-on-chinese-man-accused-of-stealing-covid-19-research-6101204"
+  ],
+  [
+    "US Seeks $290 Million From California Importer Over China Tariff-Evasion Scheme",
+    "https://www.theepochtimes.com/us/us-seeks-290-million-from-california-importer-over-china-tariff-evasion-scheme-6101457"
+  ],
+  [
+    "Illegal Online Gambling Operators in Philippines Could Be Fronts for China\u2019s Espionage, Analyst Warns",
+    "https://www.theepochtimes.com/world/illegal-online-gambling-operators-in-philippines-could-be-fronts-for-chinas-espionage-analyst-warns-6101297"
+  ],
+  [
+    "Labor Watchdog Cites CCP Threat in Visa Investigations Involving 9 US Universities",
+    "https://www.theepochtimes.com/china/labor-watchdog-cites-ccp-threat-in-visa-investigations-involving-9-us-universities-6101340"
+  ],
+  [
+    "US and 14 Partners Launch Industrial Overcapacity Initiative Amid China Concerns",
+    "https://www.theepochtimes.com/world/us-and-14-partners-launch-industrial-overcapacity-initiative-amid-china-concerns-6101375"
+  ],
+  [
+    "Taiwan to Raise Defense Spending to 5 Percent of GDP by 2030, President Says",
+    "https://www.theepochtimes.com/china/taiwan-to-raise-defense-spending-to-5-percent-of-gdp-by-2030-president-says-6101383"
+  ],
+  [
+    "New Jersey Pulls More Improper Voter Registrations, Adds Daily Audits at Motor Vehicle Agency",
+    "https://www.theepochtimes.com/us/new-jersey-pulls-more-improper-voter-registrations-adds-daily-audits-at-motor-vehicle-agency-6101130"
+  ],
+  [
+    "Virginia County Sues to Block Construction of Trump\u2019s Memorial Arch",
+    "https://www.theepochtimes.com/us/virginia-county-sues-to-block-construction-of-trumps-memorial-arch-6101572"
+  ],
+  [
+    "Long-Deployed USS Lincoln Returns to Home Port in San Diego",
+    "https://www.theepochtimes.com/us/long-deployed-uss-lincoln-returns-to-home-port-in-san-diego-6099087"
+  ],
+  [
+    "Refinery Outages Pushing Up Gas Prices More Than Cost of Crude Oil, Fed Says",
+    "https://www.theepochtimes.com/business/refinery-outages-pushing-up-gas-prices-more-than-cost-of-crude-oil-fed-says-6101589"
+  ],
+  [
+    "Oil Up 4 Percent on Hormuz Attacks and US Storm Threat",
+    "https://www.theepochtimes.com/business/oil-up-4-percent-on-hormuz-attacks-and-us-storm-threat-6101151"
+  ],
+  [
+    "LIVE NOW: Vance Speaks at Midterm Rally in Lima, Ohio",
+    "https://www.theepochtimes.com/us/live-now-vance-speaks-at-midterm-rally-in-lima-ohio-6101606"
+  ],
+  [
+    "Trump Hosts Columbus Day Celebration at White House",
+    "https://www.theepochtimes.com/us/live-now-trump-hosts-columbus-day-celebration-at-white-house-6101601"
+  ],
+  [
+    "China-Based Hacker Likely Used AI to Hit South Korean Banks: CrowdStrike Report",
+    "https://www.theepochtimes.com/world/china-based-hacker-likely-used-ai-to-hit-south-korean-banks-crowdstrike-report-6101574"
+  ],
+  [
+    "The Science Around Full-Fat Dairy",
+    "https://www.theepochtimes.com/health/the-science-around-full-fat-dairy-6101251"
+  ],
+  [
+    "Seed Oils: High Omega-6, Its 2-Fold Concern, and the Incomplete Science",
+    "https://www.theepochtimes.com/health/seed-oils-high-omega-6-its-two-fold-concern-and-the-incomplete-science-5831617"
+  ],
+  [
+    "Stiff After Sitting? Try This 10-minute Hip and Core Routine",
+    "https://www.theepochtimes.com/health/stiff-after-sitting-try-this-10-minute-hip-and-core-routine-6097722"
+  ],
+  [
+    "The Will to Recover: 3 Ways to Support the Body\u2019s Healing",
+    "https://www.theepochtimes.com/health/the-will-to-recover-3-ways-to-support-the-bodys-healing-6065643"
+  ],
+  [
+    "Why a Low-Carb Diet Raises LDL for Some People and Not Others",
+    "https://www.theepochtimes.com/health/why-a-low-carb-diet-raises-ldl-for-some-people-and-not-others-6087178"
+  ],
+  [
+    "More Parents Are Distracted by Phones. Here\u2019s How Kids Are Affected.",
+    "https://www.theepochtimes.com/health/more-parents-are-distracted-by-phones-heres-how-kids-are-affected-6050857"
+  ],
+  [
+    "Kitchen Medicines to Strengthen Your Cold-Season Defenses",
+    "https://www.theepochtimes.com/health/from-garlic-to-sleep-building-your-cold-season-defenses-6094890"
+  ],
+  [
+    "\u2018Look up and Not Down\u2019: Remembering Edward Everett Hale",
+    "https://www.theepochtimes.com/bright/look-up-and-not-down-remembering-edward-everett-hale-6101145"
+  ],
+  [
+    "Asset Location: What Assets Should Go in Which Accounts?",
+    "https://www.theepochtimes.com/bright/asset-location-what-assets-should-go-in-which-accounts-6095755"
+  ],
+  [
+    "Pre-Medical Procedure \u2018Good Faith Estimate\u2019 Strategy",
+    "https://www.theepochtimes.com/bright/pre-medical-procedure-good-faith-estimate-strategy-6092762"
+  ],
+  [
+    "Tune in Today: \u2018Be Happy,\u2019 The Heartbreak Behind Chopin\u2019s Nocturne",
+    "https://www.theepochtimes.com/bright/tune-in-today-be-happy-the-heartbreak-behind-chopins-nocturne-6101245"
+  ],
+  [
+    "The Sparkling Return of Hidden Imperial Jewels",
+    "https://www.theepochtimes.com/bright/the-sparkling-return-of-hidden-imperial-jewels-6095951"
+  ],
+  [
+    "California Casino Bust",
+    "https://www.theepochtimes.com/podcasts/article/our-reporter-joined-police-on-an-underground-gambling-den-bust-in-california-beige-luciano-adams-6100127"
+  ],
+  [
+    "The Last of the Black Robes",
+    "https://www.theepochtimes.com/opinion/the-last-of-the-black-robes-6099518"
+  ],
+  [
+    "How Leftist Ideology Is Taking Over Community Boards in Canada",
+    "https://www.theepochtimes.com/opinion/how-leftist-ideology-is-taking-over-community-boards-in-canada-6100185"
+  ],
+  [
+    "The Not-So-Natural History of Jasper National Park: 2 Centuries of Elk, Wolves, and Wildfires",
+    "https://www.theepochtimes.com/opinion/the-not-so-natural-history-of-jasper-national-park-2-centuries-of-elk-wolves-and-wildfires-6098860"
+  ],
+  [
+    "The First City to Price Fix Your Groceries",
+    "https://www.theepochtimes.com/opinion/the-first-city-to-price-fix-your-groceries-6101356"
+  ],
+  [
+    "Time to End Lynch-Law Justice for College Boys",
+    "https://www.theepochtimes.com/opinion/time-to-end-lynch-law-justice-for-college-boys-6101302"
+  ],
+  [
+    "Latin America\u2019s Many Trumps",
+    "https://www.theepochtimes.com/opinion/latin-americas-many-trumps-6101296"
+  ],
+  [
+    "No, the FlyDubai Hijacking Was Not a \u2018False Flag\u2019",
+    "https://www.theepochtimes.com/opinion/no-the-flydubai-hijacking-was-not-a-false-flag-6101288"
+  ],
+  [
+    "The Anti-Trump Media and \u2018Economic Pessimism\u2019",
+    "https://www.theepochtimes.com/opinion/the-anti-trump-media-and-economic-pessimism-6101285"
+  ],
+  [
+    "Trillionaires",
+    "https://www.theepochtimes.com/opinion/trillionaires-6101268"
+  ],
+  [
+    "\u2018Winter of the Crow\u2019: Dangerous Polaroids",
+    "https://www.theepochtimes.com/bright/winter-of-the-crow-dangerous-polaroids-6100139"
+  ],
+  [
+    "Musical Talents of the Founding Fathers",
+    "https://www.theepochtimes.com/article/musical-talents-of-the-founding-fathers-6094893"
+  ],
+  [
+    "DeSantis Declares Emergency in 25 Florida Counties Ahead of Possible Hurricane",
+    "https://www.theepochtimes.com/us/desantis-declares-emergency-in-25-florida-counties-ahead-of-possible-hurricane-6100661"
+  ],
+  [
+    "DOJ Takes 'Largest Denaturalization' Action",
+    "https://www.theepochtimes.com/us/doj-to-strip-citizenship-from-40-alleged-criminals-6099994"
+  ],
+  [
+    "Russia Responds After Reports of 2nd Laboratory Worker Death",
+    "https://www.theepochtimes.com/world/russia-responds-after-reports-of-2nd-laboratory-worker-death-6100622"
+  ],
+  [
+    "Whipped Feta With Roasted Vegetables",
+    "https://www.theepochtimes.com/recipes/whipped-feta-with-roasted-vegetables-6101051"
+  ],
+  [
+    "Here\u2019s Why There\u2019s Great Indian Food at Truck Stops Across California",
+    "https://www.theepochtimes.com/bright/heres-why-theres-great-indian-food-at-truck-stops-across-california-6101068"
+  ],
+  [
+    "Grilled Chicken Burrito Bowls With a Zesty Green Sauce Worth Making",
+    "https://www.theepochtimes.com/recipes/burrito-bowls-6099373"
+  ],
+  [
+    "Why Are Wine Bottles So Heavy?",
+    "https://www.theepochtimes.com/bright/bottle-sizes-6099999"
+  ],
+  [
+    "Why Parboil Your Breakfast Potatoes?",
+    "https://www.theepochtimes.com/recipes/crispy-potatoes-the-perfect-breakfast-side-dish-6099945"
+  ],
+  [
+    "EXCLUSIVE: AG Blanche on DOJ Strategy to Combat Voter Fraud, Birth Tourism, and Chinese Espionage",
+    "https://www.theepochtimes.com/podcasts/epochtv/exclusive-ag-blanche-on-doj-strategy-to-combat-voter-fraud-birth-tourism-and-chinese-espionage-6100189"
+  ],
+  [
+    "China\u2019s Rare Earth Control Is Fading\u2014How We'll Know When It\u2019s Over",
+    "https://www.theepochtimes.com/podcasts/article/chinas-rare-earth-control-is-fading-how-well-know-when-its-over-6099459"
+  ],
+  [
+    "\ud83c\udfa7 Trump\u2019s Border Czar on Record Arrests, Attacks on ICE, and What Comes Next",
+    "https://www.theepochtimes.com/podcasts/article/trumps-border-czar-on-record-arrests-attacks-on-ice-and-what-comes-next-2-post-6101538"
+  ],
+  [
+    "Cutting Back on Ultra-Processed Foods Eased Depression in a Small Trial",
+    "https://www.theepochtimes.com/health/cutting-back-on-ultra-processed-foods-eased-depression-in-a-small-trial-6097273"
+  ],
+  [
+    "The \u2018Always Finish Your Antibiotics\u2019 Rule May Be Outdated",
+    "https://www.theepochtimes.com/health/the-always-finish-your-antibiotics-rule-may-be-outdated-6077991"
+  ],
+  [
+    "Yogurt and Cheese Linked to Lower Risk of Knee Osteoarthritis",
+    "https://www.theepochtimes.com/health/yogurt-and-cheese-linked-to-lower-risk-of-knee-osteoarthritis-6095862"
+  ],
+  [
+    "What Your Face May Reveal About Lung Health, According to TCM",
+    "https://www.theepochtimes.com/health/what-your-face-may-reveal-about-lung-health-according-to-tcm-6065069"
+  ],
+  [
+    "Squats: 6 Common Mistakes and How to Do Them Properly",
+    "https://www.theepochtimes.com/health/squats-6-common-mistakes-and-how-to-do-them-properly-6084399"
+  ],
+  [
+    "7 Reasons to Keep a Personal Journal",
+    "https://www.theepochtimes.com/health/7-reasons-to-keep-a-personal-journal-6096296"
+  ],
+  [
+    "What to Know About One of the Most Common Knee Surgeries",
+    "https://www.theepochtimes.com/health/arthroscopic-knee-surgery-one-of-the-most-common-orthopedic-procedures-heres-what-to-know-6097754"
+  ],
+  [
+    "FBI Says Ghana Raid Led to 130-Plus Arrests, Detentions in Scam Center Crackdown",
+    "https://www.theepochtimes.com/us/fbi-says-ghana-raid-led-to-130-plus-arrests-detentions-in-scam-center-crackdown-6101627"
+  ],
+  [
+    "Cook Political Report Tilts 18 House Races Toward Democrats Weeks from Election",
+    "https://www.theepochtimes.com/us/cook-political-report-tilts-18-house-races-toward-democrats-weeks-from-election-6101653"
+  ],
+  [
+    "DeSantis Holds Briefing on Hurricane Isaias Preparedness",
+    "https://www.theepochtimes.com/science/replay-desantis-holds-briefing-on-hurricane-isaias-preparedness-6101604"
+  ],
+  [
+    "South Korea to Recall Ukraine Envoy Over North Korean Prisoner-of-War Transfer Disclosure",
+    "https://www.theepochtimes.com/world/south-korea-to-recall-ukraine-envoy-over-north-korean-prisoner-of-war-transfer-disclosure-6101583"
+  ],
+  [
+    "Nobel Peace Prize Awarded to International Jurist Navi Pillay",
+    "https://www.theepochtimes.com/world/nobel-peace-prize-awarded-to-international-jurist-navi-pillay-6101535"
+  ],
+  [
+    "US Issues Security Alert to Citizens in Middle East After Houthis Attack Saudi Arabia",
+    "https://www.theepochtimes.com/world/us-issues-security-alert-to-citizens-in-middle-east-after-houthis-attack-saudi-arabia-6101495"
+  ],
+  [
+    "30-Year Fixed-Rate Mortgage Rate Hits 7.4 percent",
+    "https://www.theepochtimes.com/business/30-year-fixed-rate-mortgage-rate-hits-7-4-percent-6101570"
+  ],
+  [
+    "California Sheds Gen Z Residents as South Carolina, Texas Gain, Report Says",
+    "https://www.theepochtimes.com/us/california-sheds-gen-z-residents-as-south-carolina-texas-gain-report-says-6101300"
+  ],
+  [
+    "Strong Foreign Demand for US Debt Sends 30-Year Treasury Yield Lower",
+    "https://www.theepochtimes.com/business/strong-foreign-demand-for-us-debt-sends-30-year-treasury-yield-lower-6101236"
+  ],
+  [
+    "Sean Payton Takes Back Playcalling Duties After Broncos Offense Sputters Out of the Gate",
+    "https://www.theepochtimes.com/sports/sean-payton-takes-back-playcalling-duties-after-broncos-offense-sputters-out-of-the-gate-6101512"
+  ],
+  [
+    "Drake Maye, Tet McMillan Highlight NFL Players of the Week",
+    "https://www.theepochtimes.com/sports/drake-maye-tet-mcmillan-highlight-nfl-players-of-the-week-6101460"
+  ],
+  [
+    "Trump to Award Fireballer Roger Clemens Presidential Medal of Freedom",
+    "https://www.theepochtimes.com/us/trump-to-award-fireballer-roger-clemens-presidential-medal-of-freedom-6101095"
+  ],
+  [
+    "Cause of Death Revealed for \u2018Saved by the Bell\u2019 Star Dennis Haskins",
+    "https://www.theepochtimes.com/entertainment/cause-of-death-revealed-for-saved-by-the-bell-star-dennis-haskins-6100776"
+  ],
+  [
+    "Eva Marie Saint, Star of \u2018North by Northwest\u2019 and \u2018On the Waterfront,\u2019 Dies at 102",
+    "https://www.theepochtimes.com/entertainment/eva-marie-saint-star-of-north-by-northwest-and-on-the-waterfront-dies-at-102-post-6100435"
+  ],
+  [
+    "Actress Debra Messing Breaks With Democrats, Backs Trump-Endorsed Republican in New York",
+    "https://www.theepochtimes.com/entertainment/actress-debra-messing-breaks-with-democrats-backs-trump-endorsed-republican-in-new-york-6100271"
+  ],
+  [
+    "\u2018Your Attention Please\u2019: Anger Against Social Media Finally Boils Over",
+    "https://www.theepochtimes.com/bright/your-attention-please-anger-against-social-media-finally-boils-over-6100188"
+  ],
+  [
+    "What Every Child Should Know: Treasures From an Old-Time Teacher",
+    "https://www.theepochtimes.com/bright/what-every-child-should-know-treasures-from-an-old-time-teacher-6099481"
+  ],
+  [
+    "What Happened to the \u2018Village\u2019 That Used to Raise Our Children?",
+    "https://www.theepochtimes.com/world/what-happened-to-the-village-that-used-to-raise-our-children-6096589"
+  ],
+  [
+    "Homeschool Parents: When Days Get Hard, Remember This",
+    "https://www.theepochtimes.com/bright/homeschool-parents-when-days-get-hard-remember-this-6094608"
+  ],
+  [
+    "Fathers, Your Daughters Need You",
+    "https://www.theepochtimes.com/bright/fathers-your-daughters-need-you-6097294"
+  ],
+  [
+    "The Comic Books That Introduce Kids to the Classics",
+    "https://www.theepochtimes.com/bright/the-comic-books-that-introduce-kids-to-the-classics-6094605"
+  ],
+  [
+    "How Fables and Fairy Tales Shape Children\u2019s Character",
+    "https://www.theepochtimes.com/bright/how-fables-and-fairy-tales-shape-childrens-character-6082435"
+  ],
+  [
+    "Are GLP-1s Really Miracle Drugs?",
+    "https://www.theepochtimes.com/health/could-glp-1-drugs-treat-everything-from-arthritis-to-cancer-6077222"
+  ],
+  [
+    "10 Herbs You Need If You Want to Grow Your Own Home Pharmacy",
+    "https://www.theepochtimes.com/health/10-herbs-you-need-to-grow-your-own-home-pharmacy-6081097"
+  ],
+  [
+    "The Healing Effects of Rain",
+    "https://www.theepochtimes.com/health/why-your-brain-loves-the-rain-6080334"
+  ],
+  [
+    "What Your Complexion May Be Telling You About Your Health",
+    "https://www.theepochtimes.com/health/what-your-complexion-may-be-telling-you-about-your-health-6068672"
+  ],
+  [
+    "Is Parkinson\u2019s Disease a Man-Made Epidemic?",
+    "https://www.theepochtimes.com/health/is-parkinsons-disease-a-man-made-epidemic-6042648"
+  ],
+  [
+    "Why Menopause May Be a Turning Point for Alzheimer\u2019s Risk",
+    "https://www.theepochtimes.com/health/why-menopause-may-be-a-turning-point-for-alzheimers-risk-6087334"
+  ],
+  [
+    "5 Little-Known Facts About Prunes",
+    "https://www.theepochtimes.com/health/5-little-known-facts-about-prunes-6095887"
+  ],
+  [
+    "Your Metabolism Doesn\u2019t Break Down at 40. Here\u2019s What Really Drives Weight Gain.",
+    "https://www.theepochtimes.com/health/your-metabolism-doesnt-breakdown-at-40-heres-what-really-drives-weight-gain-6095115"
+  ],
+  [
+    "The Benefits of Eating Spicy Foods",
+    "https://www.theepochtimes.com/health/the-benefits-of-eating-spices-an-east-meets-west-perspective-6076991"
+  ],
+  [
+    "Easy Chilaquiles Bring Big Flavor to the Breakfast Table",
+    "https://www.theepochtimes.com/recipes/easy-chilaquiles-bring-big-flavor-to-the-breakfast-table-6099937"
+  ],
+  [
+    "A Leftover Tortilla Soup",
+    "https://www.theepochtimes.com/recipes/a-leftover-tortilla-soup-6096601"
+  ],
+  [
+    "The Louisiana Classic: Red Beans and Rice",
+    "https://www.theepochtimes.com/recipes/red-beans-and-rice-6099386"
+  ],
+  [
+    "How to Compare Loan Estimates and Catch What Lenders Hope You Won\u2019t Notice",
+    "https://www.theepochtimes.com/bright/how-to-compare-loan-estimates-and-catch-what-lenders-hope-you-wont-notice-6101080"
+  ],
+  [
+    "Are Plaster or Drywall Walls Better?",
+    "https://www.theepochtimes.com/bright/are-plaster-or-drywall-walls-better-6101070"
+  ],
+  [
+    "Should You Repair or Replace Your Heating System Before Winter?",
+    "https://www.theepochtimes.com/bright/should-you-repair-or-replace-your-heating-system-before-winter-6101066"
+  ],
+  [
+    "In Search of Gods and Mastery: Why One Artist Left Home for the \u2018Big Apple\u2019",
+    "https://www.theepochtimes.com/world/in-search-of-gods-and-mastery-why-one-artist-left-home-for-the-big-apple-6094849"
+  ],
+  [
+    "\u2018Hear Their Story\u2019: Quick-Thinking Police Officer Takes Her Time to Save Suicidal Man on Bridge",
+    "https://www.theepochtimes.com/bright/hear-their-story-quick-thinking-police-officer-takes-her-time-to-save-suicidal-man-on-bridge-6097620"
+  ],
+  [
+    "Inside Australia\u2019s Largest Drug Rehab Centre Where Residents Pray, Pay Rent and Get Off Welfare",
+    "https://www.theepochtimes.com/world/inside-australias-largest-drug-rehab-centre-where-residents-pray-pay-rent-and-get-off-welfare-6081837"
+  ],
+  [
+    "Day Trips Are Becoming One of Travel\u2019s Fastest-Growing Trends",
+    "https://www.theepochtimes.com/bright/day-trips-are-becoming-one-of-travels-fastest-growing-trends-6100510"
+  ],
+  [
+    "Picnic Like a Pro in Europe",
+    "https://www.theepochtimes.com/bright/picnic-like-a-pro-in-europe-6100504"
+  ],
+  [
+    "Adelaide\u2019s Next Act: Why This South Australia Capital Is Worth a Visit",
+    "https://www.theepochtimes.com/bright/adelaides-next-act-why-this-south-australia-capital-is-worth-a-visit-6100486"
+  ]
+]
