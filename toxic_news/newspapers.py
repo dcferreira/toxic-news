@@ -424,11 +424,21 @@ newspapers = [
         name="The Epoch Times",
         language="en",
         url="https://www.theepochtimes.com",
-        get_headlines_fn=get_xpath_fn(
-            "//a/*[contains(@class,'title')"
-            "  and not(ancestor::*[contains(@class, 'live_video')"
-            "  or contains(@class, 'games')])]",
-            href_xpath="parent::a",
+        get_headlines_fn=get_dated_xpath_fn(
+            DatedXpath(
+                from_date=None,
+                headline_xpath="//a/*[contains(@class,'title')"
+                "  and not(ancestor::*[contains(@class, 'live_video')"
+                "  or contains(@class, 'games')])]",
+                href_xpath="parent::a",
+            ),
+            DatedXpath(
+                from_date=datetime(2026, 9, 29, tzinfo=timezone.utc),
+                headline_xpath="//a[@data-testid='section-card-title'"
+                "  and not(starts-with(@href, '/epochtv/')"
+                "  or starts-with(@href, '/epochfun/'))]",
+                href_xpath=".",
+            ),
         ),
         expected_headlines=97,
     ),
