@@ -436,8 +436,20 @@ newspapers = [
         name="The Guardian (US)",
         language="en",
         url="https://www.theguardian.com/us",
-        get_headlines_fn=get_xpath_fn(
-            "//a[contains(@class, 'js-headline-text')]", href_xpath="."
+        get_headlines_fn=get_dated_xpath_fn(
+            DatedXpath(
+                from_date=None,
+                headline_xpath="//a[contains(@class, 'js-headline-text')]",
+                href_xpath=".",
+            ),
+            DatedXpath(
+                from_date=datetime(2026, 9, 29, tzinfo=timezone.utc),
+                headline_xpath="//main//h3[contains(@class, 'card-headline')"
+                "  and not(ancestor::*[@data-component='newsletters'"
+                "  or @data-component='take-part'])]"
+                "//span[contains(@class, 'headline-text')]",
+                href_xpath="ancestor::div[.//a[@aria-label]][1]//a[@aria-label][1]",
+            ),
         ),
         expected_headlines=92,
     ),
