@@ -1,0 +1,246 @@
+[
+  [
+    "Pete Hegseth\u2019s Critics Fell Into an ISIS Execution Trap",
+    "https://www.newsweek.com/pete-hegseth-isis-fort-hood-exection-death-penalty-12546930"
+  ],
+  [
+    "Chicago Bears Super Bowl Legend Mike Ditka Died at 86",
+    "https://www.newsweek.com/sports/nfl/chicago-bears-super-bowl-legend-mike-ditka-died-at-86-12548175"
+  ],
+  [
+    "Navi Pillay, Leader of Gaza Genocide Inquiry, Wins Nobel Peace Prize",
+    "https://www.newsweek.com/nobel-peace-prize-2026-winner-trump-award-12541915"
+  ],
+  [
+    "Americans\u2019 Economic Fears Surge Ahead of Midterm Elections",
+    "https://www.newsweek.com/americans-economic-fears-surge-ahead-midterm-elections-12545471"
+  ],
+  [
+    "Russia\u2019s Biolab Accusations Have Come Home",
+    "https://www.newsweek.com/russia-biolab-accusations-come-home-12546166"
+  ],
+  [
+    "Mullin Calls Out Mamdani, Says No Pause On ICE Operations After NYC Shooting",
+    "https://www.newsweek.com/one-hospitalized-in-bronx-shooting-involving-federal-agents-nypd-says-12544160"
+  ],
+  [
+    "Putin Ally Threatens To Take US Prisoners After Russian War Blogger Arrested",
+    "https://www.newsweek.com/putin-ally-threatens-take-us-prisoners-russian-war-blogger-arrested-12547938"
+  ],
+  [
+    "Hurricane Isaias Live Path Tracker, Updates as Storm Nears US Landfall",
+    "https://www.newsweek.com/hurricane-isaias-live-path-tracker-updates-where-storm-us-landfall-12545078"
+  ],
+  [
+    "Tina Peters, Seizing Ballots and \u2018Civil War\u2019 Claims Assessed",
+    "https://www.newsweek.com/tina-peters-seizing-ballots-and-civil-war-claims-assessed-12546478"
+  ],
+  [
+    "Mamdani Set the Israel Purity Test, But His Students Flunked Him | Opinion",
+    "https://www.newsweek.com/mamdani-israel-purity-test-october-7-gaza-palestine-12543053"
+  ],
+  [
+    "The Battle of Hormuz Is Won. Now Comes the Insurgency Phase",
+    "https://www.newsweek.com/battle-hormuz-won-now-insurgency-phase-12545451"
+  ],
+  [
+    "Money Is No Longer the Mother\u2019s Milk of Politics. Something has Replaced it",
+    "https://www.newsweek.com/money-no-longer-mothers-milk-of-midterm-politics-something-replaced-it-12541229"
+  ],
+  [
+    "Trump Blamed Islam for France\u2019s School Riots. The Shocking Videos Show Why",
+    "https://www.newsweek.com/trump-france-school-protests-islam-videos-media-12543447"
+  ],
+  [
+    "The Last Public Execution in US As Fort Hood Shooter\u2019s To Be Livestreamed",
+    "https://www.newsweek.com/the-last-public-execution-in-us-as-fort-hood-shooters-to-be-livestreamed-12545467"
+  ],
+  [
+    "Judge Threatens to Seize Phones of ICE Agents Involved in Midway Blitz",
+    "https://www.newsweek.com/judge-threatens-seize-phones-ice-agents-operation-midway-blitz-12547538"
+  ],
+  [
+    "Triumphal Arch Branded \u2018Trump\u2019s Latest Vanity Project\u2019 in New Lawsuit",
+    "https://www.newsweek.com/250ft-triumphal-arch-branded-trumps-latest-vanity-project-in-new-lawsuit-12547228"
+  ],
+  [
+    "Chief US Archbishop Slams Hegseth\u2019s \u2018Barbaric\u2019 Livestreaming of Execution",
+    "https://www.newsweek.com/us-archbishop-slams-hegseth-barbaric-livestreaming-execution-fort-hood-12547492"
+  ],
+  [
+    "Who Is Oscar Belgal? Man Shot by ICE in NYC Had Criminal History",
+    "https://www.newsweek.com/who-is-oscar-belgal-what-we-know-about-man-shot-by-ice-in-nyc-dhs-12544816"
+  ],
+  [
+    "Ashley Hinson\u2019s Trump Strategy Might Be Working in Iowa",
+    "https://www.newsweek.com/ashley-hinsons-trump-strategy-might-be-working-in-iowa-12547892"
+  ],
+  [
+    "Elise Stefanik\u2019s Seat at Risk for GOP After Trump\u2019s 20-Point Margin in 2024",
+    "https://www.newsweek.com/elise-stefaniks-seat-at-risk-for-gop-after-trumps-20-point-margin-in-2024-12547994"
+  ],
+  [
+    "What Maine Senate Race Polls Show as Obama Gives Jackson Late Boost",
+    "https://www.newsweek.com/what-maine-senate-race-polls-show-as-obama-gives-jackson-late-boost-12547315"
+  ],
+  [
+    "Michigan Senate Debate Takeaways: Rogers, El-Sayed Clash in Fiery Showdown",
+    "https://www.newsweek.com/mike-rogers-abdul-el-sayed-first-debate-michigan-12543810"
+  ],
+  [
+    "Forecast Moves 18 Races Towards Democrats Weeks Before Elections",
+    "https://www.newsweek.com/donald-trump-warning-sign-midterm-elections-18-races-shift-democrats-cook-political-report-12546449"
+  ],
+  [
+    "Democrat Chances of Winning House, Senate Hit New High\u2014Nate Silver Forecast",
+    "https://www.newsweek.com/democrat-chances-of-winning-house-senate-hit-new-high-nate-silver-forecast-12545290"
+  ],
+  [
+    "DHS Policy That Made It Harder For Immigrants To Get Visas Blocked By Judge",
+    "https://www.newsweek.com/dhs-policy-that-made-it-harder-for-immigrants-to-get-visas-blocked-by-judge-12545028"
+  ],
+  [
+    "Warren Buffett\u2019s Red Warning Siren Has Rarely Been Louder",
+    "https://www.newsweek.com/warren-buffett-red-warning-siren-has-rarely-been-louder-12548135"
+  ],
+  [
+    "Mortgages Hit 3-Year High: How Payments Have Risen Under Trump",
+    "https://www.newsweek.com/mortgages-hit-3-year-high-how-payments-have-risen-under-trump-12545610"
+  ],
+  [
+    "Trio of Workers Fired by OpenAI: Read Their Warning Letter in Full",
+    "https://www.newsweek.com/trio-workers-fired-openai-read-warning-letter-full-12545081"
+  ],
+  [
+    "Millions to Lose SNAP Benefits: How It Could Impact the Job Market",
+    "https://www.newsweek.com/millions-to-lose-snap-benefits-how-it-could-impact-the-job-market-12543743"
+  ],
+  [
+    "Common Condition Linked to Higher Risk of Cognitive Decline Later in Life",
+    "https://www.newsweek.com/people-adhd-more-likely-get-dementia-study-12529606"
+  ],
+  [
+    "Scientists May Have Found How Aggressive Prostate Cancer Resists Treatment",
+    "https://www.newsweek.com/scientists-aggressive-prostate-cancer-resists-treatment-12533944"
+  ],
+  [
+    "Some Seizure Medications Could Be Quietly Weakening Birth Control",
+    "https://www.newsweek.com/some-seizure-medications-could-be-quietly-weakening-birth-control-12540218"
+  ],
+  [
+    "Strange Sensation Woke Me at 3AM\u2014Now I\u2019m Waiting for a Heart Transplant",
+    "https://www.newsweek.com/strange-sensation-woke-me-3am-waiting-heart-transplant-12528489"
+  ],
+  [
+    "Woman, 23, Has Life Planned\u2014Then Meets Kindergartener, Changes Everything",
+    "https://www.newsweek.com/woman-23-life-planned-meets-kindergartener-changes-everything-12535637"
+  ],
+  [
+    "Boys Will Be Boys. But Why Must Girls Put Up With It for Life?",
+    "https://www.newsweek.com/boy-girls-bad-behavior-for-life-parents-12542267"
+  ],
+  [
+    "After My Husband Died, I Was Confused About My Sex Drive. Then I Discovered \u2018Widow\u2019s Fire\u2019",
+    "https://www.newsweek.com/after-husband-died-high-sex-drive-widows-fire-12537407"
+  ],
+  [
+    "How Many After-Schools Are Too Many After-Schools?",
+    "https://www.newsweek.com/good-life-how-many-afterschool-activities-too-many-kids-12531683"
+  ],
+  [
+    "Sophie Cunningham Fires Back at \u2018Hate Piece\u2019 Suggesting Fever Should Part Ways",
+    "https://www.newsweek.com/sports/sophie-cunningham-fires-back-at-hate-piece-suggesting-fever-should-part-ways-12548243"
+  ],
+  [
+    "LeBron James Sends Clear Message After Sixers Debut",
+    "https://www.newsweek.com/sports/nba/lebron-james-sends-clear-message-after-sixers-debut-12547236"
+  ],
+  [
+    "Dak Prescott Rips Cowboys Stadium Worker After Viral Postgame Exchange",
+    "https://www.newsweek.com/sports/nfl/dak-prescott-rips-cowboys-stadium-worker-after-viral-postgame-exchange-12546351"
+  ],
+  [
+    "Map Shows 40 States Backing NFL\u2019s Supreme Court Prediction Market Fight",
+    "https://www.newsweek.com/map-40-states-backing-nfl-supreme-court-prediction-market-fight-12545587"
+  ],
+  [
+    "The Spirit of Fang Fang Lives On in America",
+    "https://www.newsweek.com/the-spirit-of-fang-fang-lives-on-in-america-12540341"
+  ],
+  [
+    "Americans Are Rushing To Claim Luxembourg Citizenship",
+    "https://www.newsweek.com/americans-are-rushing-claim-luxembourg-citizenship-12546865"
+  ],
+  [
+    "NATO Launching Nuclear Drills After Putin\u2019s Baltic Sea Nuke Warning",
+    "https://www.newsweek.com/nato-launching-nuclear-drills-after-putins-baltic-sea-nuke-warning-12545699"
+  ],
+  [
+    "South Africa Withdraws Migrant Policy After Violent Riots",
+    "https://www.newsweek.com/south-africa-withdraws-migrant-policy-violent-riots-protests-12546142"
+  ],
+  [
+    "Ukraine Strikes Second Data Center of Russia\u2019s \u2018Google\u2019 In Two Days",
+    "https://www.newsweek.com/ukraine-strikes-second-data-center-of-russias-google-in-two-days-12546205"
+  ],
+  [
+    "How AI Upended Politics and Left Lawmakers Scrambling To Pick a Side",
+    "https://www.newsweek.com/ai-politics/how-ai-upended-politics-and-left-lawmakers-scrambling-to-pick-a-side-12501075"
+  ],
+  [
+    "The Data Center Election",
+    "https://www.newsweek.com/ai-politics/the-data-center-election-12501378"
+  ],
+  [
+    "Beijing Looms Large Over American AI Politics",
+    "https://www.newsweek.com/ai-politics/beijing-china-us-government-ai-politics-artificial-intelligence-12501825"
+  ],
+  [
+    "Rules on Political AI Calls Explained as FCC Considers Change",
+    "https://www.newsweek.com/rules-political-ai-calls-explained-fcc-considers-change-12539311"
+  ],
+  [
+    "Green Card Update: Map Shows Nations Most Exposed to Trump Admin Visa Block",
+    "https://www.newsweek.com/green-card-update-map-shows-nations-most-exposed-to-trump-admin-visa-12548131"
+  ],
+  [
+    "10 Years at Newsweek: How We Rebuilt an Icon\u2014And What Comes Next",
+    "https://www.newsweek.com/10-years-at-newsweek-how-we-rebuilt-an-icon-what-comes-next-12544611"
+  ],
+  [
+    "US Polling \u2018Nostradamus\u2019 Predicts Which Senate Seats Democrats Will Flip",
+    "https://www.newsweek.com/us-polling-nostradamus-predicts-which-senate-seats-democrats-will-flip-12546332"
+  ],
+  [
+    "Christa Pike Update: Everything Attorneys Have Said Since Botched Execution",
+    "https://www.newsweek.com/christa-pike-update-everything-attorneys-said-since-botched-execution-12546419"
+  ],
+  [
+    "Trump\u2019s Approval Rating in US Farming States After Diesel Tax Cut",
+    "https://www.newsweek.com/map-shows-trumps-approval-rating-in-us-farming-states-after-diesel-tax-cut-12544932"
+  ],
+  [
+    "Exclusive: Turkey\u2019s Erdogan Says Russia-Ukraine War Risks Spreading to NATO",
+    "https://www.newsweek.com/exclusive-turkeys-erdogan-says-russia-ukraine-war-risks-spreading-to-nato-12470547"
+  ],
+  [
+    "Super Intelligence, Super Small Print",
+    "https://www.newsweek.com/super-intelligence-super-small-print-12527741"
+  ],
+  [
+    "Key Questions About Tech Families Should Ask Nursing Homes",
+    "https://www.newsweek.com/pro-health-care-patient-care/key-questions-about-tech-families-should-ask-nursing-homes-12530250"
+  ],
+  [
+    "How Hamas Won the War Despite Losing Everything",
+    "https://www.newsweek.com/how-hamas-won-war-despite-losing-everything-12526543"
+  ],
+  [
+    "\u2018The Diplomat\u2019 Is the \u2018West Wing\u2019 Escape We Need From Breaking News",
+    "https://www.newsweek.com/entertainment/the-diplomat-is-the-west-wing-escape-we-need-12526475"
+  ],
+  [
+    "Why \u2018Fruit Fly\u2019 Author Josh Silver Wants Publishers to Just Say Gay",
+    "https://www.newsweek.com/entertainment/fruit-fly-author-josh-silver-wants-publishers-to-just-say-gay-12527729"
+  ]
+]

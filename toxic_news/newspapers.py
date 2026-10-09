@@ -374,6 +374,18 @@ newspapers = [
                 "| //div[@class='title' or @class='info']/a",
                 href_xpath=".",
             ),
+            DatedXpath(
+                # the site replaced its article cards with ContentTile tiles,
+                # whose story titles are the anchors wrapping the tile heading,
+                # tagged with the module's analytics action.
+                from_date=datetime(2026, 9, 29, tzinfo=timezone.utc),
+                headline_xpath="//a[h2][starts-with(@data-gtm-action, "
+                "'Main_Stage_Link_') or starts-with(@data-gtm-action, "
+                "'Top_Story_Hero_Title_') or starts-with(@data-gtm-action, "
+                "'Section_Main_Category_') or starts-with(@data-gtm-action, "
+                "'Section_Popular_Title_')]",
+                href_xpath=".",
+            ),
         ),
         expected_headlines=75,
     ),
