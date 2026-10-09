@@ -328,6 +328,20 @@ newspapers = [
         url="https://www.nbcnews.com",
         get_headlines_fn=get_dated_xpath_fn(
             DatedXpath(
+                from_date=datetime(2026, 9, 29, tzinfo=timezone.utc),
+                headline_xpath="//*[self::h2 or self::h3]"
+                "  [contains(@class, 'multistoryline__headline')"
+                "  or contains(@class, 'storyline__headline')]"
+                "  /a[not(contains(@href, '/games/'))]"
+                # the "Latest News" rail: its teasers sit in a separate list
+                " | //section[contains(@class, 'teaseList')]"
+                "  [.//h2[contains(@class, 'package-title-top-border__title')]"
+                "  [normalize-space()='LATEST NEWS']]"
+                "  //li[not(contains(@class, 'isItemAd'))]"
+                "  //*[self::h2 or self::h3][contains(@class, 'teaseTitle')]/a",
+                href_xpath=".",
+            ),
+            DatedXpath(
                 from_date=datetime(2022, 4, 20, tzinfo=timezone.utc),
                 headline_xpath="//div[@class='tease-card__info']"
                 "  //*[self::h2 or self::h3]/a"

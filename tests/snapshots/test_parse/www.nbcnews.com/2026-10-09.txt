@@ -1,0 +1,230 @@
+[
+  [
+    "Food pantries overwhelmed by Trump cuts",
+    "https://www.nbcnews.com/news/us-news/west-virginia-hunger-trump-cuts-food-stamps-gas-prices-iran-rcna601637"
+  ],
+  [
+    "Hunger in a land of plenty: Major food banks face \u2018heartbreaking\u2019 need, NBC News survey finds",
+    "https://www.nbcnews.com/news/us-news/overwhelmed-food-banks-heartbreaking-choices-trump-rising-hunger-rcna601639"
+  ],
+  [
+    "Mike Ditka, legendary Chicago Bears coach, dies at 86",
+    "https://www.nbcnews.com/sports/nfl/mike-ditka-legendary-chicago-bears-coach-dies-86-rcna602517"
+  ],
+  [
+    "Sparks fly as Abdul El-Sayed and Mike Rogers face off in first Michigan Senate debate",
+    "https://www.nbcnews.com/politics/2026-election/sparks-fly-abdul-el-sayed-mike-rogers-first-michigan-senate-debate-rcna599866"
+  ],
+  [
+    "Centrist think tank warns 2028 Democrats against swinging too far left on immigration",
+    "https://www.nbcnews.com/politics/2028-election/centrist-third-way-2028-democrats-sleft-immigration-rcna601939"
+  ],
+  [
+    "With all eyes on Texas Senate race, James Talarico has vanished from the campaign trail",
+    "https://www.nbcnews.com/politics/2026-election/james-talarico-flu-texas-senate-rcna602277"
+  ],
+  [
+    "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
+    "https://www.nbcnews.com/business/economy/trump-probe-fed-gov-lisa-cook-rcna602500"
+  ],
+  [
+    "Gulf Coast braces for Isaias as it strengthens to Category 3 hurricane with 120 mph winds",
+    "https://www.nbcnews.com/weather/hurricanes/live-blog/live-updates-hurricane-isaias-rcna602422"
+  ],
+  [
+    "Navi Pillay, who led U.N. panel that found Israel committed genocide in Gaza, wins Nobel Peace Prize",
+    "https://www.nbcnews.com/world/europe/nobel-peace-prize-favorites-include-yulia-navalnaya-donald-trump-downp-rcna602462"
+  ],
+  [
+    "DHS officials defend their actions in shooting of NYC immigrant amid outcry",
+    "https://www.nbcnews.com/news/us-news/dhs-officials-defend-actions-shooting-nyc-immigrant-outcry-rcna602490"
+  ],
+  [
+    "Russia\u2019s secrecy after a mysterious plague lab death raises global alarm",
+    "https://www.nbcnews.com/world/russia/russias-plague-lab-worker-death-everyone-freaked-rcna602318"
+  ],
+  [
+    "In new Elon Musk documentary, his lieutenants are the most damning voices",
+    "https://www.nbcnews.com/tech/elon-musk/elon-musk-documentary-lieutenants-are-damning-voices-rcna601834"
+  ],
+  [
+    "A matter of life and death",
+    "https://www.nbcnews.com/news/us-news/christa-pike-tennessee-botched-execution-unprecedented-legal-fight-rcna602081"
+  ],
+  [
+    "Ruff night?",
+    "https://www.nbcnews.com/health/health-news/secret-good-sleep-dog-bed-tracker-research-rcna601679"
+  ],
+  [
+    "Higher power",
+    "https://www.nbcnews.com/sports/mlb/chicago-white-sox-mlb-world-series-alds-alcs-playoffs-rcna600991"
+  ],
+  [
+    "Elon Musk\u2019s growing SpaceX empire sends AT&T, Verizon and T-Mobile shares plunging",
+    "https://www.nbcnews.com/business/corporations/elon-musk-spacex-verizon-tmobile-att-rcna602525"
+  ],
+  [
+    "\u2018Pretty Little Liars\u2019 actor Keegan Allen posts video with bloody face saying he was mugged in West Hollywood",
+    "https://www.nbcnews.com/pop-culture/pop-culture-news/pretty-little-liars-actor-keegan-allen-posts-video-bloody-face-saying-rcna602509"
+  ],
+  [
+    "Margaret Hamilton, who led a software team for NASA\u2019s Apollo program, dies at 90",
+    "https://www.nbcnews.com/news/obituaries/margaret-hamilton-led-software-team-nasas-apollo-program-dies-90-rcna602499"
+  ],
+  [
+    "Trump\u2019s moves to boost diesel supplies have not yet lowered prices",
+    "https://www.nbcnews.com/business/consumer/trumps-moves-boost-diesel-supplies-not-yet-lowered-prices-rcna602495"
+  ],
+  [
+    "Live updates: Trump and Vance hit the campaign trail",
+    "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-vance-2026-midterm-elections-congress-live-updates-rcna602380"
+  ],
+  [
+    "Christa Pike is walking with help and eating after failed execution attempt, her attorneys say",
+    "https://www.nbcnews.com/news/us-news/christa-pike-walking-help-eating-failed-execution-attempt-attorneys-rcna602471"
+  ],
+  [
+    "Jared Kushner and Steve Witkoff to discuss \u2018new\u2019 peace plan with Ukrainian delegation, sources say",
+    "https://www.nbcnews.com/world/ukraine/russia-war-kushner-witkoff-discuss-new-peace-plan-rcna602463"
+  ],
+  [
+    "Hurricane live coverage: Isaias becomes Category 3 storm as it gains strength and nears the Gulf Coast",
+    "https://www.nbcnews.com/weather/hurricanes/live-blog/live-updates-hurricane-isaias-rcna602422"
+  ],
+  [
+    "Prince Harry reveals he fell into depression before stepping down as a royal",
+    "https://www.nbcnews.com/world/united-kingdom/prince-harry-interview-duke-discusses-grief-princess-diana-royal-famil-rcna602469"
+  ],
+  [
+    "The Super Bowl hopefuls making major changes only a month into the season",
+    "https://www.nbcnews.com/sports/nfl/nfl-denver-broncos-sean-payton-houston-texans-demeco-ryans-rcna602364"
+  ],
+  [
+    "Houthi strikes on Riyadh airport killed 3 Saudi nationals, officials say",
+    "https://www.nbcnews.com/world/saudi-arabia/houthi-strikes-riyadh-airport-killed-saudi-arabia-nationals-rcna602467"
+  ],
+  [
+    "Malaysia closes schools in several states due to haze from Indonesia forest fires",
+    "https://www.nbcnews.com/world/asia/malaysia-closes-schools-several-states-due-haze-indonesia-forest-fires-rcna602465"
+  ],
+  [
+    "South Korea and Japan are buffeted by hacks as AI lowers bar for cybercriminals",
+    "https://www.nbcnews.com/world/asia/south-korea-japan-are-buffeted-hacks-ai-lowers-bar-cybercriminals-rcna602464"
+  ],
+  [
+    "After surviving a botched lethal injection, Christa Pike faces unprecedented legal battle",
+    "https://www.nbcnews.com/news/us-news/christa-pike-tennessee-botched-execution-unprecedented-legal-fight-rcna602081"
+  ],
+  [
+    "USS Lincoln docks in San Diego Bay following scrutinized 322-day deployment",
+    "https://www.nbcnews.com/news/us-news/uss-abraham-lincoln-deployment-ends-aircraft-carrier-returns-san-diego-rcna602345"
+  ],
+  [
+    "Diddy is punished following NBC News report on his VIP life in prison, contraband phone use",
+    "https://www.nbcnews.com/news/us-news/diddy-punished-nbc-news-report-vip-life-prison-contraband-cellphone-us-rcna602261"
+  ],
+  [
+    "Epstein survivor supports push to remove Leslie Wexner\u2019s name from OSU campus",
+    "https://www.nbcnews.com/news/us-news/epstein-survivor-annie-farmer-supports-drive-remove-les-wexners-name-o-rcna602341"
+  ],
+  [
+    "Brad Raffensperger gears up to oversee his final election in Georgia",
+    "https://www.nbcnews.com/politics/2026-election/brad-raffensperger-final-election-georgia-secretary-state-trump-rcna599292"
+  ],
+  [
+    "Trump urges Minnesotans to \u2018fight back\u2019 against Somali immigrants",
+    "https://www.nbcnews.com/politics/immigration/president-donald-trump-urges-minnesotans-fight-back-somali-immigrants-rcna602431"
+  ],
+  [
+    "Pentagon says there will be a livestream of firing squad\u2019s execution of the Fort Hood shooter",
+    "https://www.nbcnews.com/politics/trump-administration/pete-hegseth-says-public-can-watch-firing-squads-execution-fort-hood-s-rcna602395"
+  ],
+  [
+    "Arizona candidate says she was raped and thinks it may have been politically motivated",
+    "https://www.nbcnews.com/news/us-news/arizona-congressional-candidate-says-was-raped-thinks-may-politically-rcna602167"
+  ],
+  [
+    "Justice Department seeks criminal charge for former Trump aide Cassidy Hutchinson",
+    "https://www.nbcnews.com/politics/justice-department/justice-department-seeks-criminal-charge-former-trump-aide-cassidy-hut-rcna602175"
+  ],
+  [
+    "Bucky Irving and rookie QB Jalon Daniels help Bucs beat sloppy Cowboys 24-16",
+    "https://www.nbcnews.com/sports/nfl/bucky-irving-jalon-daniels-bucs-beat-cowboys-nfl-rcna602437"
+  ],
+  [
+    "MLB proposes shortening regular season to 154 games, expanding Division Series to best-of-7",
+    "https://www.nbcnews.com/sports/mlb/mlb-proposes-shortening-regular-season-rcna602361"
+  ],
+  [
+    "Knicks are pausing all contract extension talks, including with Karl-Anthony Towns",
+    "https://www.nbcsports.com/nba/news/knicks-announce-they-are-pausing-all-contract-extension-talks-including-with-karl-anthony-towns?cid=nbcnews"
+  ],
+  [
+    "Key storylines for Premier League\u2019s Week 6 return",
+    "https://www.nbcsports.com/soccer/news/the-premier-league-is-back-key-storylines-for-week-6-as-huge-clubs-get-litmus-tests?cid=nbcnews"
+  ],
+  [
+    "Jos\u00e9 Ram\u00edrez homers as Guardians force a decisive Game 5 in ALDS",
+    "https://www.nbcsports.com/mlb/news/jose-ramirez-homers-as-the-guardians-beat-the-white-sox-9-5-to-force-a-decisive-game-5-in-alds?cid=nbcnews"
+  ],
+  [
+    "Is TrumpRx really saving Americans money on prescription drugs?",
+    "https://podcasts.apple.com/us/podcast/fact-checking-trumps-drug-price-claims-could-putin/id1820996352?i=1000793934136"
+  ],
+  [
+    "\u2018Too young to vote, old enough to be tear gassed\u2019: French protesters\u2019 anger swells",
+    "https://www.nbcnews.com/world/europe/tear-gassed-french-students-anger-police-tactics-rcna602334"
+  ],
+  [
+    "Inflation and tariffs push U.S. holiday spending projections to a record $1.7 trillion",
+    "https://www.nbcnews.com/business/consumer/holiday-season-spending-sentiment-rcna601167"
+  ],
+  [
+    "Starbucks says it\u2019s focused on turnaround after report it explored Chipotle merger",
+    "https://www.nbcnews.com/business/consumer/starbucks-responds-chipotle-merger-report-rcna602388"
+  ],
+  [
+    "Is going to an office really better for your health than remote work? What the research shows",
+    "https://www.nbcnews.com/health/mind-body/remote-work-vs-return-office-better-health-rcna597081"
+  ],
+  [
+    "MAHA fractures deepen as some RFK Jr. followers turn into harsh critics",
+    "https://www.nbcnews.com/health/health-news/trump-rfk-jr-maha-promises-scorecard-pesticides-food-safety-rcna601905"
+  ],
+  [
+    "What to know about pneumonic plague after woman in Russia dies from mysterious illness",
+    "https://www.nbcnews.com/health/health-news/plague-suspected-russia-lab-pneumonic-siberia-symptoms-treatment-rcna601589"
+  ],
+  [
+    "Experimental vaccine shows promise against deadly brain cancer in some patients",
+    "https://www.nbcnews.com/health/cancer/brain-tumor-vaccine-experimental-shot-shows-promise-glioblastoma-patie-rcna601650"
+  ],
+  [
+    "Still Serving: Inside the most bombed McDonald\u2019s in the world",
+    "https://www.nbcnews.com/digital-docs"
+  ],
+  [
+    "Rebuilding after the Los Angeles fires",
+    "https://www.nbcnews.com/health/cancer/brain-tumor-vaccine-experimental-shot-shows-promise-glioblastoma-patie-rcna601650"
+  ],
+  [
+    "Drive to Decision Day: Voters sound off on the economy, war and Washington",
+    "https://www.nbcnews.com/video/drive-to-decision-day-voters-sound-off-on-the-economy-war-and-washington-270683717962"
+  ],
+  [
+    "Serve 'Dirty Bird' Wings With Finger-Lickin'-Good Alabama White Sauce",
+    "https://www.nbcnews.com/recipes/dirty-bird-wings-alabama-white-sauce-t302280"
+  ],
+  [
+    "These Cheesy, Bacon-Filled Pizza Bites Are The Bomb",
+    "https://www.nbcnews.com/recipes/bacon-cheese-pizza-bombs-t302281"
+  ],
+  [
+    "Try This Cozy Fall Riff on a French 75",
+    "https://www.nbcnews.com/recipes/spiced-pear-french-75-t302259"
+  ],
+  [
+    "This Blood Orange-Pomegranate Margarita Is Festive for Fall",
+    "https://www.nbcnews.com/recipes/blood-orange-pomegranate-margarita-t302258"
+  ]
+]
