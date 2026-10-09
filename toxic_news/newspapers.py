@@ -479,11 +479,22 @@ newspapers = [
         name="Washington Examiner",
         language="en",
         url="https://www.washingtonexaminer.com",
-        get_headlines_fn=get_xpath_fn(
-            "//*["
-            "  (self::div or self::h1 or self::h2 or self::h4 or self::h5 or self::h6)"
-            "  and contains(@class, 'title')]/a",
-            href_xpath=".",
+        get_headlines_fn=get_dated_xpath_fn(
+            DatedXpath(
+                from_date=None,
+                headline_xpath="//*["
+                "  (self::div or self::h1 or self::h2 or self::h4"
+                "  or self::h5 or self::h6)"
+                "  and contains(@class, 'title')]/a",
+                href_xpath=".",
+            ),
+            DatedXpath(
+                from_date=datetime(2026, 9, 29, tzinfo=timezone.utc),
+                headline_xpath="//h3[contains(@class, 'entry-title')"
+                "  and not(ancestor::div[contains(@class, 'cat-post')])"
+                "  and not(ancestor::*[contains(@class, 'd-md-none')])]/a",
+                href_xpath=".",
+            ),
         ),
         expected_headlines=62,
     ),
