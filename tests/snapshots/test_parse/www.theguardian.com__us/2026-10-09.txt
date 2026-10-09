@@ -1,0 +1,482 @@
+[
+  [
+    "\u2018Medieval\u2019 and \u2018disturbing\u2019: US plan to livestream execution elicits global condemnation",
+    "https://www.theguardian.com/us-news/2026/oct/09/live-stream-execution-fort-hood-shooter"
+  ],
+  [
+    "Hurricane Isaias: airports close in Alabama and Florida as category 3 storm nears Gulf coast",
+    "https://www.theguardian.com/world/live/2026/oct/09/hurricane-isaias-path-landfall-florida-category-3-storm-latest-updates"
+  ],
+  [
+    "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
+    "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
+  ],
+  [
+    "US imposes new sanctions on international criminal court",
+    "https://www.theguardian.com/us-news/2026/oct/09/sanctions-icc-trump"
+  ],
+  [
+    "Trump establishes committee to investigate Fed governor Lisa Cook",
+    "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor"
+  ],
+  [
+    "Homeland security secretary claims Mamdani\u2019s comments after New York ICE shooting \u2018incite hostility\u2019",
+    "https://www.theguardian.com/us-news/live/2026/oct/09/pentagon-fort-hood-livestream-firing-squad-execution-reaction-backlash-pete-hegseth-donald-trump-mussolini-latest-news-updates"
+  ],
+  [
+    "DeSantis calls off execution after botched Christa Pike injections",
+    "https://www.theguardian.com/us-news/2026/oct/09/desantis-halts-florida-execution"
+  ],
+  [
+    "Andrew Mountbatten-Windsor granted $400,000 for end of Royal Lodge lease",
+    "https://www.theguardian.com/uk-news/2026/oct/09/andrew-mountbatten-windsor-granted-302000-for-end-of-royal-lodge-lease"
+  ],
+  [
+    "Mike Ditka, legendary Chicago Bears head coach, dies aged 86",
+    "https://www.theguardian.com/sport/2026/oct/09/mike-ditka-dies-86-chicago-bears"
+  ],
+  [
+    "What will Democrats do if they win Congress? Here are their priorities",
+    "https://www.theguardian.com/us-news/2026/oct/09/democrats-control-house-senate-priorities"
+  ],
+  [
+    "Democratic Senate candidate responds to anti-trans attacks pushed by Republicans",
+    "https://www.theguardian.com/us-news/2026/oct/09/democratic-senate-candidate-reponse-anti-trans-attacks"
+  ],
+  [
+    "A national verdict on Trump 2.0 is coming. Nine midterm voters share where they stand",
+    "https://www.theguardian.com/us-news/ng-interactive/2026/oct/09/midterm-voters-biggest-issues-trump"
+  ],
+  [
+    "Key takeaways from Senate debates in Michigan, Georgia and Maine",
+    "https://www.theguardian.com/us-news/2026/oct/09/us-midterms-michigan-georgia-maine-senate-debate-key-takeaways"
+  ],
+  [
+    "\u2018Barbaric\u2019: firing squad livestream ordered by Pete Hegseth",
+    "https://www.theguardian.com/news/video/2026/oct/09/barbaric-firing-squad-livestream-ordered-by-pete-hegseth-the-latest"
+  ],
+  [
+    "\u2018This is not an anti-tech town\u2019: backlash to datacenter in city once home to IBM",
+    "https://www.theguardian.com/us-news/2026/oct/09/datacenter-backlash-ibm-east-fishkill-new-york"
+  ],
+  [
+    "\u2018People are feeling the real impacts\u2019: influencers are targeting private equity with satire and rage",
+    "https://www.theguardian.com/us-news/2026/oct/09/anti-private-equity-comedy-influencers"
+  ],
+  [
+    "What happens to your pets when you die?",
+    "https://www.theguardian.com/wellness/ng-interactive/2026/oct/09/what-happens-to-your-pets-when-you-die"
+  ],
+  [
+    "Other Mommy review \u2013 Jessica Chastain\u2019s demonic double horror isn\u2019t nightmarish enough",
+    "https://www.theguardian.com/film/2026/oct/09/other-mommy-movie-review"
+  ],
+  [
+    "\u2018It could have been any one of us\u2019: Black college students march for Nolan Wells",
+    "https://www.theguardian.com/us-news/2026/oct/09/hbcu-black-students-nolan-wells"
+  ],
+  [
+    "After the strongest storm in a generation, Hawai\u2019i residents take recovery into their own hands",
+    "https://www.theguardian.com/us-news/2026/oct/09/kauai-north-shore-community-recovery-hurricane-lowell"
+  ],
+  [
+    "Stark warning \u2013 does new footage in Avengers: Endgame reveal the truth about Doctor Doom?",
+    "https://www.theguardian.com/film/2026/oct/09/stark-warning-does-new-footage-in-avengers-endgame-reveal-the-truth-about-doctor-doom"
+  ],
+  [
+    "11 questions to ask yourself before going no contact with a family member",
+    "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/oct/09/11-questions-to-ask-before-cutting-contact-family"
+  ],
+  [
+    "\u2018I\u2019ve hit my midlife sexpot era!\u2019 Romola Garai on marital misery, cheating \u2026 and sex scenes in cars",
+    "https://www.theguardian.com/tv-and-radio/2026/oct/09/ive-hit-my-midlife-sexpot-era-romola-garai-on-marital-misery-cheating-and-sex-scenes-in-cars"
+  ],
+  [
+    "\u2018Sometimes she publishes notes she\u2019s scribbled on her hand\u2019: \u00c9douard Louis on 10 reasons to love Anne Carson",
+    "https://www.theguardian.com/books/2026/oct/09/sometimes-she-publishes-notes-shes-scribbled-on-her-hand-edouard-louis-on-10-reasons-to-love-anne-carson"
+  ],
+  [
+    "Privileged and proud: how nepo babies took fashion month by storm",
+    "https://www.theguardian.com/fashion/2026/oct/09/nepo-babies-fashion-month-paris-celebrity"
+  ],
+  [
+    "How do human beings explain taking part in genocide? NAZA provides a chilling look",
+    "https://www.theguardian.com/global/commentisfree/2026/oct/09/naza-mass-killing-gaza-israel"
+  ],
+  [
+    "Christa Pike\u2019s botched execution is a reminder of the horror of the death penalty",
+    "https://www.theguardian.com/commentisfree/2026/oct/09/christa-pike-death-penalty"
+  ],
+  [
+    "Stop talking about the US \u2018Jewish vote\u2019. It\u2019s not that simple",
+    "https://www.theguardian.com/commentisfree/2026/oct/09/jewish-vote-israel"
+  ],
+  [
+    "\u2018Nobody is listening to us\u2019: on the school protest frontline, I heard why France\u2019s students feel disowned",
+    "https://www.theguardian.com/commentisfree/2026/oct/09/school-protest-france-students-political-class"
+  ],
+  [
+    "Pete Hegseth has taken US democracy to a horrific new low",
+    "https://www.theguardian.com/commentisfree/2026/oct/09/nidal-hasan-execution-pete-hegseth-us-military-tv-democracy"
+  ],
+  [
+    "AI and the climate crisis pose existential risks. The law offers a way to reduce them",
+    "https://www.theguardian.com/commentisfree/2026/oct/09/ai-climate-change-liability-lawsuits"
+  ],
+  [
+    "You have a higher chance of getting cancer at a younger age than your parents. So what went wrong?",
+    "https://www.theguardian.com/commentisfree/2026/oct/09/rise-cancer-young-people-mystery-early-onset"
+  ],
+  [
+    "Mark Zuckerberg is leading us a merry dance",
+    "https://www.theguardian.com/lifeandstyle/picture/2026/oct/09/mark-zuckerberg-is-leading-us-a-merry-dance-the-stephen-collins-cartoon"
+  ],
+  [
+    "Mike Ditka, fiery NFL legend who led the Chicago Bears to Super Bowl title, dies aged 86",
+    "https://www.theguardian.com/sport/gallery/2026/oct/09/mike-ditka-a-life-in-pictures"
+  ],
+  [
+    "Maresca maintains almost total control as he follows Manchester City owners\u2019 line",
+    "https://www.theguardian.com/football/2026/oct/09/maresca-maintains-almost-total-control-as-he-follows-manchester-city-owners-line"
+  ],
+  [
+    "Irving runs riot as Buccaneers stun Cowboys for first win of season",
+    "https://www.theguardian.com/sport/2026/oct/08/bucky-irving-tampa-bay-buccaneers-dallas-cowboys-nfl"
+  ],
+  [
+    "Wolff tells critics to \u2018watch Teletubbies or Mickey Mouse not F1\u2019 as he defends Mercedes\u2019 strategy",
+    "https://www.theguardian.com/sport/2026/oct/09/f1-wolff-tells-critics-watch-teletubbies-or-mickey-mouse-defends-mercedes-strategy"
+  ],
+  [
+    "Premier League: 10 things to look out for this weekend",
+    "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend"
+  ],
+  [
+    "USMNT's Zavier Gozo: \u2018You have to be uncomfortable to get to the highest levels\u2019",
+    "https://www.theguardian.com/football/2026/oct/09/zavier-gozo-crystal-palace-usmnt-interview"
+  ],
+  [
+    "James shines in pre-season debut for revamped 76ers",
+    "https://www.theguardian.com/sport/2026/oct/08/lebron-james-philadelphia-76ers-debut-brooklyn-nets-preseason"
+  ],
+  [
+    "Aces' Wilson stands alone with record fifth WNBA MVP award",
+    "https://www.theguardian.com/sport/2026/oct/08/aja-wilson-record-fifth-wnba-mvp-award-las-vegas-aces"
+  ],
+  [
+    "With no Pulisic and good results, have the USMNT moved on from their savior complex?",
+    "https://www.theguardian.com/football/2026/oct/08/usmnt-christian-pulisic-youth-movement-mauricio-pochettino"
+  ],
+  [
+    "China agrees to \u2018halve\u2019 hybrid car exports to EU in landmark deal",
+    "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal"
+  ],
+  [
+    "Severe turbulence injures at least eight and forces emergency landing in Miami",
+    "https://www.theguardian.com/us-news/2026/oct/09/avianca-flight-turbulence-injuries-miami"
+  ],
+  [
+    "OpenAI projected to bring in $20bn less in revenue than expected",
+    "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap"
+  ],
+  [
+    "Cop31 host urges wealthy countries to spend \u2018much more\u2019 on climate than defence",
+    "https://www.theguardian.com/environment/2026/oct/09/cop31-host-wealthy-countries-climate-crisis-spending-defence-nato"
+  ],
+  [
+    "New spate of stabbings, overdoses and fires at Australian immigration detention centres run by ICE-linked US prison firm",
+    "https://www.theguardian.com/australia-news/2026/oct/09/australia-immigration-detention-centres-overdoses-fires-prison-ice-ntwnfb"
+  ],
+  [
+    "Astronomers detect mysterious burst of energy from a galaxy far, far away",
+    "https://www.theguardian.com/science/2026/oct/09/astronomy-fast-radio-bursts-frb-radio-waves"
+  ],
+  [
+    "Thieves make off with \u20ac5m haul from prestigious Italian winery",
+    "https://www.theguardian.com/world/2026/oct/09/thieves-make-off-with-haul-from-prestigious-italian-winery-marchesi-antinori"
+  ],
+  [
+    "Israel promotes film that mimics NAZA documentary",
+    "https://www.theguardian.com/world/2026/oct/08/israel-promotes-film-that-mimics-naza-documentary"
+  ],
+  [
+    "Thousands turn out to welcome weary USS Lincoln sailors after grueling deployment",
+    "https://www.theguardian.com/us-news/2026/oct/08/uss-abraham-lincoln-return-san-diego"
+  ],
+  [
+    "Animals crossing: the simple solution to stop roadkill in the Amazon",
+    "https://www.theguardian.com/environment/2026/oct/09/animals-crossing-simple-solution-roadkill-amazon-brazil-alternatives"
+  ],
+  [
+    "How a plant selfie in Colombian jungle led to \u2018jaw dropping\u2019 giant waterlily find",
+    "https://www.theguardian.com/environment/2026/oct/09/plant-selfie-jaw-dropping-giant-waterlily-discovery-colombia"
+  ],
+  [
+    "A friendly seal, a furious goldcrest and \u2018the swanfather\u2019",
+    "https://www.theguardian.com/environment/gallery/2026/oct/09/week-in-wildlife-a-friendly-seal-a-furious-goldcrest-and-the-swanfather"
+  ],
+  [
+    "How California is bracing for a winter of floods, fires and extreme storms all at once",
+    "https://www.theguardian.com/environment/2026/oct/08/how-california-is-bracing-for-a-winter-of-floods-fires-and-extreme-storms-all-at-once"
+  ],
+  [
+    "ICE agent shoots man in New York City with five-year-old reportedly in car",
+    "https://www.theguardian.com/us-news/2026/oct/08/nyc-shooting-federal-agent"
+  ],
+  [
+    "The Democrats taking the fight to Republican strongholds",
+    "https://www.theguardian.com/us-news/2026/oct/08/midterms-democrats-republican-strongholds"
+  ],
+  [
+    "Curtis Flowers, US man wrongfully imprisoned for 22 years, dies aged 56",
+    "https://www.theguardian.com/us-news/2026/oct/08/curtis-flowers-wrongful-conviction-mississippi-dead"
+  ],
+  [
+    "A teen tried to navigate Canadian mountains with Claude. His trek ended in an emergency rescue",
+    "https://www.theguardian.com/world/2026/oct/08/teen-hike-claude-ai-directions-rescue-canada-mountain"
+  ],
+  [
+    "Two Latvians arrested at RAF base in Cambridgeshire released on bail",
+    "https://www.theguardian.com/uk-news/2026/oct/09/two-latvians-arrested-at-raf-molesworth-base-in-cambridgeshire-released-on-bail"
+  ],
+  [
+    "Three Saudis killed in Riyadh airport attack claimed by Houthis",
+    "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack"
+  ],
+  [
+    "Pro-Kremlin Russian military blogger Mikhail Zvinchuk arrested in Montenegro",
+    "https://www.theguardian.com/world/2026/oct/09/russian-military-blogger-mikhail-zvinchuk-rybar-arrested-montenegro"
+  ],
+  [
+    "India\u2019s \u2018Cockroach\u2019 party accuses government of mass detention of members ahead of weekend protest",
+    "https://www.theguardian.com/world/2026/oct/09/india-dehli-cockroach-party-weekend-demonstration-mass-detention"
+  ],
+  [
+    "Tenzing review \u2013 reconstruction of first summit of Everest puts Sherpa at the centre of the story",
+    "https://www.theguardian.com/film/2026/oct/09/tenzing-review-genden-phuntsok-tom-hiddleston-apple-willem-dafoe-v"
+  ],
+  [
+    "\u2018Old-timey fascism was kept secret. Now you don\u2019t have to hide it\u2019: Martin McDonagh, John Malkovich and Sam Rockwell on Wild Horse Nine",
+    "https://www.theguardian.com/film/2026/oct/09/martin-mcdonagh-john-malkovich-sam-rockwell-interview-wild-horse-nine"
+  ],
+  [
+    "The new Darth Vader: how tech execs became the film villains of our age",
+    "https://www.theguardian.com/film/2026/oct/09/the-new-darth-vader-how-tech-execs-became-the-film-villains-of-our-age"
+  ],
+  [
+    "\u2018I\u2019m lovingly making fun of everyone I\u2019ve ever met\u2019: on the set of Leo Reich\u2019s gen Z sitcom",
+    "https://www.theguardian.com/tv-and-radio/2026/oct/09/leo-reich-comedy-interview-it-gets-worse-channel-4"
+  ],
+  [
+    "\u2018Me and the lads would not survive a day in here\u2019: inside TV\u2019s utterly stunning, Bafta-winning prison drama",
+    "https://www.theguardian.com/tv-and-radio/2026/oct/09/time-series-three-jimmy-mcgovern-young-offender-institutions-bbc-one"
+  ],
+  [
+    "Animals review \u2013 Ben Affleck\u2019s dull thriller is lacking in bark and bite",
+    "https://www.theguardian.com/film/2026/oct/08/animals-movie-review-ben-affleck"
+  ],
+  [
+    "Gromit finally gets a voice \u2026 and it\u2019s Martin Freeman",
+    "https://www.theguardian.com/film/2026/oct/09/gromit-autobiography-martin-freeman-voice"
+  ],
+  [
+    "Branford Marsalis Quartet and Dianne Reeves: Dedicated to You review \u2013 eloquent Coltrane tribute",
+    "https://www.theguardian.com/music/2026/oct/09/branford-marsalis-quartet-and-dianne-reeves-dedicated-to-you-review"
+  ],
+  [
+    "Jess Williamson: A Mile South of Heaven review \u2013 alt-country singer\u2019s love-hate affair with LA",
+    "https://www.theguardian.com/music/2026/oct/09/jess-williamson-a-mile-south-of-heaven-review"
+  ],
+  [
+    "Shostakovich Symphony No 8 album review \u2013 composer\u2019s cry of despair in a remarkable and resonant new recording",
+    "https://www.theguardian.com/music/2026/oct/09/shostakovich-symphony-no-8-album-review"
+  ],
+  [
+    "Mao\u2019s Last Dancer Li Cunxin on his long-awaited follow-up: \u2018I don\u2019t think my publisher expected it to take 14 years!\u2019",
+    "https://www.theguardian.com/books/2026/oct/10/chinese-ballet-maos-last-dancer-li-cunxin-memoir-follow-up-14-years"
+  ],
+  [
+    "AK Blakemore: \u2018The Goldfinch by Donna Tartt was extremely silly and bad\u2019",
+    "https://www.theguardian.com/books/2026/oct/09/ak-blakemore-the-goldfinch-by-donna-tartt-was-extremely-silly-and-bad"
+  ],
+  [
+    "The best recent science fiction, fantasy and horror",
+    "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup"
+  ],
+  [
+    "Margaret Atwood and other writers on Nobel winner Anne Carson",
+    "https://www.theguardian.com/books/2026/oct/08/appreciation-of-anne-carson-nobel-prize-in-literature-2026"
+  ],
+  [
+    "End Of Abyss review \u2013 a creepy dollhouse take on Resident Evil and The Thing",
+    "https://www.theguardian.com/games/2026/oct/09/end-of-abyss-review-playstation-5-xbox-pc"
+  ],
+  [
+    "What the \u00a3350 Grand Theft Auto \u2018collector\u2019s box\u2019 says about the escalating cost of gaming",
+    "https://www.theguardian.com/games/2026/oct/07/what-the-350-grand-theft-auto-collectors-box-says-about-the-escalating-cost-of-gaming"
+  ],
+  [
+    "Silver Pines review \u2013 a stylish, neo-noir detective drama",
+    "https://www.theguardian.com/games/2026/oct/06/silver-pines-review-neo-noir-detective-drama-wych-elm-games-team-17"
+  ],
+  [
+    "Gears of War: E-Day review \u2013 an alien invasion shouldn\u2019t be this boring",
+    "https://www.theguardian.com/games/2026/sep/30/gears-of-war-e-day-review-xbox-pc"
+  ],
+  [
+    "Jimmy Kimmel on Trump\u2019s government: \u2018There\u2019s just so much lying and stealing\u2019",
+    "https://www.theguardian.com/culture/2026/oct/09/jimmy-kimmel-trump-government-lying-stealing"
+  ],
+  [
+    "\u2018It gave me a superpower \u2013 question everything\u2019: \u200bas punk turns 50, bands explain how they rage against the machine",
+    "https://www.theguardian.com/music/2026/oct/09/global-bands-on-how-punk-fires-up-their-lives"
+  ],
+  [
+    "Lost generation: the AI threat to Britain\u2019s next great directors",
+    "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie"
+  ],
+  [
+    "End of the World and Hard-Boiled Wonderland review \u2013 Murakami\u2019s marvel brilliantly brought to life",
+    "https://www.theguardian.com/stage/2026/oct/09/end-of-the-world-and-hard-boiled-wonderland-review-haruki-murakami-barbican-theatre-london"
+  ],
+  [
+    "Anthony Vaccarello\u2019s decade at Saint Laurent comes to an end \u2013 in pictures",
+    "https://www.theguardian.com/fashion/gallery/2026/oct/09/anthony-vaccarello-saint-laurent-in-pictures"
+  ],
+  [
+    "I hitchhiked from Sydney to Perth, and found comfort in the company of strangers",
+    "https://www.theguardian.com/travel/ng-interactive/2026/oct/10/hitchhiker-sydney-perth-company-of-strangers-free-travel"
+  ],
+  [
+    "I\u2019m a personal trainer. This compact dumbbell set is the best addition to my home gym",
+    "https://www.theguardian.com/thefilter-us/2026/oct/08/im-a-personal-trainer-this-compact-dumbbell-set-is-the-best-addition-to-my-home-gym"
+  ],
+  [
+    "My favorite cozy cardigan from Amazon (yes, Amazon!) is like a warm hug \u2013 and now 39% off",
+    "https://www.theguardian.com/thefilter-us/2026/oct/07/prettygarden-cardigan-amazon-prime-day-sale"
+  ],
+  [
+    "Sore feet? 7 comfy shoes that don\u2019t compromise on style (now on sale)",
+    "https://www.theguardian.com/thefilter-us/2026/oct/07/shoes-footwear-sales"
+  ],
+  [
+    "It\u2019s the perfect cast iron pan. Now Field Company\u2019s skillet is 20% off",
+    "https://www.theguardian.com/thefilter-us/2026/oct/07/prime-day-deal-field-company-cast-iron"
+  ],
+  [
+    "It\u2019s the Filter\u2019s first birthday! 25 things readers loved most this year \u2026 and if we still recommend them",
+    "https://www.theguardian.com/thefilter-us/2026/oct/03/its-the-filters-first-birthday-25-things-readers-loved-most-this-year-and-if-we-still-recommend-them"
+  ],
+  [
+    "\u2018The perfect food storage finally exists\u2019: I tried the new Anydeli plastic-free containers",
+    "https://www.theguardian.com/thefilter-us/2026/apr/29/anyday-anydeli-container-review"
+  ],
+  [
+    "'Unbelievably soft': Get cozy with our favorite PJs, slippers and more \u2013 perfect for fall",
+    "https://www.theguardian.com/thefilter-us/cozy-earth-review"
+  ],
+  [
+    "Our writer's favorite compression socks are on sale for just $12 during Prime Day",
+    "https://www.theguardian.com/thefilter-us/2026/jul/30/best-compression-socks"
+  ],
+  [
+    "'Like a luxury bathrobe': I tried the best bath towels that make every day a spa day",
+    "https://www.theguardian.com/thefilter-us/2025/oct/01/best-best-bath-towels-us"
+  ],
+  [
+    "\u2018We live in grief-phobic societies\u2019: experts on how to get more comfortable with death",
+    "https://www.theguardian.com/wellness/ng-interactive/2026/oct/06/how-to-get-comfortable-with-death"
+  ],
+  [
+    "They\u2019re delicious, popular and versatile \u2013 but how healthy are berries?",
+    "https://www.theguardian.com/wellness/2026/oct/02/how-healthy-are-berries-smoothies-bowls"
+  ],
+  [
+    "\u2018I will see you in the parking lot after this\u2019: when book clubs get dramatic",
+    "https://www.theguardian.com/wellness/ng-interactive/2026/oct/01/when-book-clubs-get-dramatic"
+  ],
+  [
+    "Does GLP-1 use result in significant hair loss?",
+    "https://www.theguardian.com/wellness/2026/sep/27/glp-1s-hair-loss"
+  ],
+  [
+    "The dreadful decline of hosting at home: \u2018I feel shame any time a friend comes over\u2019",
+    "https://www.theguardian.com/lifeandstyle/2026/oct/08/dreadful-decline-hosting-home-shame-friendship"
+  ],
+  [
+    "My friends are spouting conspiracy theories \u2013 what should I say?",
+    "https://www.theguardian.com/lifeandstyle/2026/oct/04/friends-spouting-conspiracy-theories"
+  ],
+  [
+    "\u2018My mistress has complete control over me and makes me so happy\u2019",
+    "https://www.theguardian.com/lifeandstyle/2026/oct/04/this-is-how-we-do-it-my-mistress-has-complete-control-submissive-dominatrix"
+  ],
+  [
+    "SOS meals \u2013 the food to cook for friends that shows you care",
+    "https://www.theguardian.com/food/2026/oct/07/from-dinner-out-to-home-cooked-meals-food-shows-love-however-you-serve-it"
+  ],
+  [
+    "My relationship with food was broken. Then I killed my own dinner",
+    "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/oct/03/food-diet-weight-hunting"
+  ],
+  [
+    "Feeling wired? The truth about \u2018nervous system resets\u2019",
+    "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/oct/02/feeling-wired-the-truth-about-nervous-system-resets"
+  ],
+  [
+    "The incredible science of memory manipulation",
+    "https://www.theguardian.com/science/video/2026/oct/02/scientists-could-one-day-remove-your-bad-memories-heres-how"
+  ],
+  [
+    "Is it true that \u2026 double-dipping food is unhygienic?",
+    "https://www.theguardian.com/lifeandstyle/2026/sep/28/is-it-true-that-double-dipping-food-is-unhygienic"
+  ],
+  [
+    "The fashion industry wants women to wear bras again - but is underwire the answer?",
+    "https://www.theguardian.com/fashion/2026/oct/08/underwire-bra-fashion"
+  ],
+  [
+    "\u2018My dog\u2019s built her own fashion community\u2019: how canine companions stole the fashion week spotlight",
+    "https://www.theguardian.com/fashion/2026/oct/08/picture-pawfect-how-dogs-took-over-the-catwalk-and-stole-the-fashion-week-spotlight"
+  ],
+  [
+    "Jess Cartner-Morley on fashion: how to wear a leather jacket so it doesn\u2019t wear you",
+    "https://www.theguardian.com/fashion/2026/oct/07/jess-cartner-morley-on-fashion-how-to-wear-a-leather-jacket"
+  ],
+  [
+    "Adidas accuses Australian label White Fox of \u2018trading off its reputation\u2019 with use of four-stripe branding",
+    "https://www.theguardian.com/business/2026/oct/09/adidas-white-fox-fashion-australia-trading-branding-sydney-ntwnfb"
+  ],
+  [
+    "I became the world\u2019s oldest crowd surfer at 99",
+    "https://www.theguardian.com/lifeandstyle/2026/oct/09/experience-worlds-oldest-crowd-surfer-age-99"
+  ],
+  [
+    "\u2018A candlelit spa, followed by an ice-cold plunge and a nightcap\u2019: readers\u2019 favourite European wellbeing breaks",
+    "https://www.theguardian.com/travel/2026/oct/09/readers-favourite-wellbeing-holidays-europe"
+  ],
+  [
+    "Soil in need of some TLC? Then it\u2019s time to make room for legumes",
+    "https://www.theguardian.com/lifeandstyle/2026/oct/09/soil-legumes-vetch-field-beans-forage-peas"
+  ],
+  [
+    "Monkeys as service animals? The \u2018bizarre\u2019, tortured history of humans and primates",
+    "https://www.theguardian.com/lifeandstyle/2026/oct/08/ape-sht-zine-carrie-mclaren-monkeys-humans"
+  ],
+  [
+    "His mother died. Then he was arrested",
+    "https://www.theguardian.com/news/ng-interactive/2026/oct/08/a-death-a-plagiarism-scandal-and-a-quest-for-revenge-the-bizarre-tale-of-otto-z"
+  ],
+  [
+    "\u2018Chaos and cruelty\u2019: the kids trapped in Trump\u2019s immigration enforcement campaign",
+    "https://www.theguardian.com/us-news/2026/oct/08/children-trump-immigration-enforcement-campaign"
+  ],
+  [
+    "An AI boom is sending San Francisco rents through the roof: \u2018Nowhere left for people to go\u2019",
+    "https://www.theguardian.com/us-news/ng-interactive/2026/oct/08/san-francisco-housing-ai-boom"
+  ],
+  [
+    "The week around the world in 20 pictures",
+    "https://www.theguardian.com/artanddesign/gallery/2026/oct/09/the-week-around-the-world-in-20-pictures"
+  ]
+]
