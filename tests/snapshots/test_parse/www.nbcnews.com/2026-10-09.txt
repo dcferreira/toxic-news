@@ -60,16 +60,64 @@
     "https://www.nbcnews.com/sports/mlb/chicago-white-sox-mlb-world-series-alds-alcs-playoffs-rcna600991"
   ],
   [
-    "USS Lincoln docks in San Diego Bay following scrutinized 322-day deployment",
-    "https://www.nbcnews.com/news/us-news/uss-abraham-lincoln-deployment-ends-aircraft-carrier-returns-san-diego-rcna602345"
+    "Elon Musk\u2019s growing SpaceX empire sends AT&T, Verizon and T-Mobile shares plunging",
+    "https://www.nbcnews.com/business/corporations/elon-musk-spacex-verizon-tmobile-att-rcna602525"
   ],
   [
     "\u2018Pretty Little Liars\u2019 actor Keegan Allen posts video with bloody face saying he was mugged in West Hollywood",
     "https://www.nbcnews.com/pop-culture/pop-culture-news/pretty-little-liars-actor-keegan-allen-posts-video-bloody-face-saying-rcna602509"
   ],
   [
+    "Margaret Hamilton, who led a software team for NASA\u2019s Apollo program, dies at 90",
+    "https://www.nbcnews.com/news/obituaries/margaret-hamilton-led-software-team-nasas-apollo-program-dies-90-rcna602499"
+  ],
+  [
+    "Trump\u2019s moves to boost diesel supplies have not yet lowered prices",
+    "https://www.nbcnews.com/business/consumer/trumps-moves-boost-diesel-supplies-not-yet-lowered-prices-rcna602495"
+  ],
+  [
+    "Live updates: Trump and Vance hit the campaign trail",
+    "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-vance-2026-midterm-elections-congress-live-updates-rcna602380"
+  ],
+  [
     "Christa Pike is walking with help and eating after failed execution attempt, her attorneys say",
     "https://www.nbcnews.com/news/us-news/christa-pike-walking-help-eating-failed-execution-attempt-attorneys-rcna602471"
+  ],
+  [
+    "Jared Kushner and Steve Witkoff to discuss \u2018new\u2019 peace plan with Ukrainian delegation, sources say",
+    "https://www.nbcnews.com/world/ukraine/russia-war-kushner-witkoff-discuss-new-peace-plan-rcna602463"
+  ],
+  [
+    "Hurricane live coverage: Isaias becomes Category 3 storm as it gains strength and nears the Gulf Coast",
+    "https://www.nbcnews.com/weather/hurricanes/live-blog/live-updates-hurricane-isaias-rcna602422"
+  ],
+  [
+    "Prince Harry reveals he fell into depression before stepping down as a royal",
+    "https://www.nbcnews.com/world/united-kingdom/prince-harry-interview-duke-discusses-grief-princess-diana-royal-famil-rcna602469"
+  ],
+  [
+    "The Super Bowl hopefuls making major changes only a month into the season",
+    "https://www.nbcnews.com/sports/nfl/nfl-denver-broncos-sean-payton-houston-texans-demeco-ryans-rcna602364"
+  ],
+  [
+    "Houthi strikes on Riyadh airport killed 3 Saudi nationals, officials say",
+    "https://www.nbcnews.com/world/saudi-arabia/houthi-strikes-riyadh-airport-killed-saudi-arabia-nationals-rcna602467"
+  ],
+  [
+    "Malaysia closes schools in several states due to haze from Indonesia forest fires",
+    "https://www.nbcnews.com/world/asia/malaysia-closes-schools-several-states-due-haze-indonesia-forest-fires-rcna602465"
+  ],
+  [
+    "South Korea and Japan are buffeted by hacks as AI lowers bar for cybercriminals",
+    "https://www.nbcnews.com/world/asia/south-korea-japan-are-buffeted-hacks-ai-lowers-bar-cybercriminals-rcna602464"
+  ],
+  [
+    "After surviving a botched lethal injection, Christa Pike faces unprecedented legal battle",
+    "https://www.nbcnews.com/news/us-news/christa-pike-tennessee-botched-execution-unprecedented-legal-fight-rcna602081"
+  ],
+  [
+    "USS Lincoln docks in San Diego Bay following scrutinized 322-day deployment",
+    "https://www.nbcnews.com/news/us-news/uss-abraham-lincoln-deployment-ends-aircraft-carrier-returns-san-diego-rcna602345"
   ],
   [
     "Diddy is punished following NBC News report on his VIP life in prison, contraband phone use",
@@ -100,10 +148,6 @@
     "https://www.nbcnews.com/politics/justice-department/justice-department-seeks-criminal-charge-former-trump-aide-cassidy-hut-rcna602175"
   ],
   [
-    "The Super Bowl hopefuls making major changes only a month into the season",
-    "https://www.nbcnews.com/sports/nfl/nfl-denver-broncos-sean-payton-houston-texans-demeco-ryans-rcna602364"
-  ],
-  [
     "Bucky Irving and rookie QB Jalon Daniels help Bucs beat sloppy Cowboys 24-16",
     "https://www.nbcnews.com/sports/nfl/bucky-irving-jalon-daniels-bucs-beat-cowboys-nfl-rcna602437"
   ],
@@ -128,24 +172,8 @@
     "https://podcasts.apple.com/us/podcast/fact-checking-trumps-drug-price-claims-could-putin/id1820996352?i=1000793934136"
   ],
   [
-    "Jared Kushner and Steve Witkoff to discuss \u2018new\u2019 peace plan with Ukrainian delegation, sources say",
-    "https://www.nbcnews.com/world/ukraine/russia-war-kushner-witkoff-discuss-new-peace-plan-rcna602463"
-  ],
-  [
     "\u2018Too young to vote, old enough to be tear gassed\u2019: French protesters\u2019 anger swells",
     "https://www.nbcnews.com/world/europe/tear-gassed-french-students-anger-police-tactics-rcna602334"
-  ],
-  [
-    "Houthi strikes on Riyadh airport killed 3 Saudi nationals, officials say",
-    "https://www.nbcnews.com/world/saudi-arabia/houthi-strikes-riyadh-airport-killed-saudi-arabia-nationals-rcna602467"
-  ],
-  [
-    "Prince Harry reveals he fell into depression before stepping down as a royal",
-    "https://www.nbcnews.com/world/united-kingdom/prince-harry-interview-duke-discusses-grief-princess-diana-royal-famil-rcna602469"
-  ],
-  [
-    "Trump\u2019s moves to boost diesel supplies have not yet lowered prices",
-    "https://www.nbcnews.com/business/consumer/trumps-moves-boost-diesel-supplies-not-yet-lowered-prices-rcna602495"
   ],
   [
     "Inflation and tariffs push U.S. holiday spending projections to a record $1.7 trillion",
@@ -154,10 +182,6 @@
   [
     "Starbucks says it\u2019s focused on turnaround after report it explored Chipotle merger",
     "https://www.nbcnews.com/business/consumer/starbucks-responds-chipotle-merger-report-rcna602388"
-  ],
-  [
-    "Margaret Hamilton, who led a software team for NASA\u2019s Apollo program, dies at 90",
-    "https://www.nbcnews.com/news/obituaries/margaret-hamilton-led-software-team-nasas-apollo-program-dies-90-rcna602499"
   ],
   [
     "Is going to an office really better for your health than remote work? What the research shows",

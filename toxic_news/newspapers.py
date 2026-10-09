@@ -332,7 +332,13 @@ newspapers = [
                 headline_xpath="//*[self::h2 or self::h3]"
                 "  [contains(@class, 'multistoryline__headline')"
                 "  or contains(@class, 'storyline__headline')]"
-                "  /a[not(contains(@href, '/games/'))]",
+                "  /a[not(contains(@href, '/games/'))]"
+                # the "Latest News" rail: its teasers sit in a separate list
+                " | //section[contains(@class, 'teaseList')]"
+                "  [.//h2[contains(@class, 'package-title-top-border__title')]"
+                "  [normalize-space()='LATEST NEWS']]"
+                "  //li[not(contains(@class, 'isItemAd'))]"
+                "  //*[self::h2 or self::h3][contains(@class, 'teaseTitle')]/a",
                 href_xpath=".",
             ),
             DatedXpath(
