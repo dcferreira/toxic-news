@@ -1,0 +1,406 @@
+[
+  [
+    "Is AI Built on Theft? Almost 100 Lawsuits Say So.",
+    "https://www.theepochtimes.com/article/is-ai-built-on-theft-almost-100-lawsuits-say-so-6100784"
+  ],
+  [
+    "The Top 37 Races to Watch This Midterm",
+    "https://www.theepochtimes.com/article/the-top-37-races-to-watch-this-midterm-6080510"
+  ],
+  [
+    "\u2018Synchronous Tightening\u2019: Key Takeaways From Kevin Warsh\u2019s IMF Talk",
+    "https://www.theepochtimes.com/business/synchronous-tightening-key-takeaways-from-kevin-warshs-imf-talk-6104240"
+  ],
+  [
+    "Tesla Debuts Flying Car",
+    "https://www.theepochtimes.com/us/tesla-debuts-flying-car-6104850"
+  ],
+  [
+    "US Considering Use of \u2018Mother of All Bombs\u2019 Against Iran",
+    "https://www.theepochtimes.com/world/us-considering-use-of-mother-of-all-bombs-against-iran-6104823"
+  ],
+  [
+    "Trump Says Ukraine War Won\u2019t Be Settled Unless Zelenskyy Leaves Office",
+    "https://www.theepochtimes.com/world/trump-says-ukraine-war-wont-be-settled-unless-zelenskyy-leaves-office-6104791"
+  ],
+  [
+    "Journal Retracts COVID-19 Vaccine Paper Based on Faked Content",
+    "https://www.theepochtimes.com/health/journal-retracts-covid-19-vaccine-paper-based-on-faked-content-6104381"
+  ],
+  [
+    "RFK Jr. Announces New Clinic for People Injured by Vaccines",
+    "https://www.theepochtimes.com/us/rfk-jr-announces-new-clinic-for-people-injured-by-vaccines-6101171"
+  ],
+  [
+    "US Law Wasn\u2019t Built for How China\u2019s Spies Operate in America",
+    "https://www.theepochtimes.com/article/us-law-wasnt-built-for-how-chinas-spies-operate-in-america-6084183"
+  ],
+  [
+    "\u2018Back to the Basics:\u2019 AG Blanche Outlines Top DOJ Priorities",
+    "https://www.theepochtimes.com/article/back-to-the-basics-ag-blanche-outlines-top-doj-priorities-6099671"
+  ],
+  [
+    "Columbus Statues Became Targets Across America. Italian Americans Are Fighting Back.",
+    "https://www.theepochtimes.com/article/columbus-statues-became-targets-across-america-italian-americans-are-fighting-back-6100781"
+  ],
+  [
+    "We Went Into a Narco-Tunnel With the Elite \u2018Tunnel Rats\u2019",
+    "https://www.theepochtimes.com/article/we-went-into-a-narco-tunnel-with-the-elite-tunnel-rats-6092946"
+  ],
+  [
+    "The Wheels Have Gone Round and Round for 100 Years",
+    "https://www.theepochtimes.com/article/the-wheels-have-gone-round-and-round-for-100-years-6093273"
+  ],
+  [
+    "Is America Winning the AI Race? We Asked 10 Experts.",
+    "https://www.theepochtimes.com/article/is-america-winning-the-ai-race-we-asked-10-experts-6096782"
+  ],
+  [
+    "Trump\u2019s Border Czar on Record Arrests, Attacks on ICE, and What Comes Next",
+    "https://www.theepochtimes.com/article/trumps-border-czar-on-record-arrests-attacks-on-ice-and-what-comes-next-6096036"
+  ],
+  [
+    "Amish Families Weigh Their Futures as Vaccine Fight Continues in New York",
+    "https://www.theepochtimes.com/article/amish-families-weigh-their-future-as-vaccine-fight-continues-in-new-york-6094118"
+  ],
+  [
+    "Debate Over Islam Divides a Texas County",
+    "https://www.theepochtimes.com/article/debate-over-islam-divides-a-texas-county-6090656"
+  ],
+  [
+    "Top Supreme Court Cases to Watch for 2026\u20132027 Term",
+    "https://www.theepochtimes.com/us/top-supreme-court-cases-to-watch-for-2026-2027-term-6097011"
+  ],
+  [
+    "The New Wave of Young Christian Influencers",
+    "https://www.theepochtimes.com/article/the-new-wave-of-young-christian-influencers-6090690"
+  ],
+  [
+    "How Big Hospitals Face Allegations of Stifling Competition\u2014and How Federal Regulators Respond",
+    "https://www.theepochtimes.com/article/how-big-hospitals-squelch-competition-and-how-the-federal-government-stops-them-6083004"
+  ],
+  [
+    "She Thought She Found Love. She Was Trapped in a $500,000 Scam.",
+    "https://www.theepochtimes.com/article/she-thought-she-found-love-she-was-trapped-in-a-500000-scam-6086741"
+  ],
+  [
+    "They Carry the Torch for Treasures of the Renaissance. We Met Florence\u2019s Antiquarians.",
+    "https://www.theepochtimes.com/article/they-carry-the-torch-for-treasures-of-the-renaissance-we-met-florences-antiquarians-6095636"
+  ],
+  [
+    "Does AI Detection Software Work? We Tested 3 Popular Tools.",
+    "https://www.theepochtimes.com/article/does-ai-detection-software-work-we-tested-3-popular-tools-6086867"
+  ],
+  [
+    "Judge Dismisses Federal Government\u2019s Lawsuit Against New York City\u2019s Sanctuary Laws",
+    "https://www.theepochtimes.com/us/judge-dismisses-federal-governments-lawsuit-against-new-york-citys-sanctuary-laws-6104764"
+  ],
+  [
+    "Groups Sue DHS, Alleging Effort to Compile Voter Data is Illegal",
+    "https://www.theepochtimes.com/us/groups-sue-dhs-alleging-effort-to-compile-voter-data-is-illegal-6104759"
+  ],
+  [
+    "Vance Calls on Americans to Take Pledge to Fight Fraud",
+    "https://www.theepochtimes.com/us/vance-calls-on-americans-to-take-pledge-to-fight-fraud-6104747"
+  ],
+  [
+    "DOJ Announces Tax Fraud Surge Involving 76 Defendants, More Than $490 Million in Intended Losses",
+    "https://www.theepochtimes.com/us/doj-announces-tax-fraud-surge-involving-76-defendants-over-490-million-in-intended-losses-6103910"
+  ],
+  [
+    "The Deep Connection Between Darwinism and Abortion",
+    "https://www.theepochtimes.com/opinion/the-deep-connection-between-darwinism-and-abortion-6102921"
+  ],
+  [
+    "The Anti-Quagmire: Activated Mecca Pact a Win for America",
+    "https://www.theepochtimes.com/opinion/the-anti-quagmire-activated-mecca-pact-a-win-for-america-6101155"
+  ],
+  [
+    "We Are Not Victims of the Oil Industry",
+    "https://www.theepochtimes.com/opinion/we-are-not-victims-of-the-oil-industry-6102637"
+  ],
+  [
+    "What Lessons Can We Learn From Wendell Berry?",
+    "https://www.theepochtimes.com/opinion/what-lessons-can-we-learn-from-wendell-berry-6104410"
+  ],
+  [
+    "The Lie Behind the Gaza Genocide Accusations",
+    "https://www.theepochtimes.com/opinion/the-lie-behind-the-gaza-genocide-accusations-6104364"
+  ],
+  [
+    "Your Corporate Culture Is Broken. If You Want Answers, Look in the Mirror.",
+    "https://www.theepochtimes.com/opinion/your-corporate-culture-is-broken-if-you-want-answers-look-in-the-mirror-6103213"
+  ],
+  [
+    "Trump Says US in Talks With China, Russia on Denuclearization",
+    "https://www.theepochtimes.com/world/trump-says-us-in-talks-with-china-russia-on-denuclearization-6104652"
+  ],
+  [
+    "China\u2019s Social Security Crackdown Adds to Financial Strains on Workers and Businesses",
+    "https://www.theepochtimes.com/china/chinas-social-security-crackdown-adds-to-financial-strains-on-workers-and-businesses-6104737"
+  ],
+  [
+    "China\u2019s Mitten Crab Farmers Hit by Falling Prices, Rising Costs",
+    "https://www.theepochtimes.com/china/chinas-mitten-crab-farmers-hit-by-falling-prices-rising-costs-6104751"
+  ],
+  [
+    "Suspected Chinese Hackers Exploit BeyondTrust Flaw, Google Warns",
+    "https://www.theepochtimes.com/china/suspected-chinese-hackers-exploit-beyondtrust-flaw-google-warns-6104717"
+  ],
+  [
+    "China Clears Apple\u2019s AI Rollout With Alibaba\u2019s Models Built In",
+    "https://www.theepochtimes.com/business/china-clears-apples-ai-rollout-with-alibabas-models-built-in-6104620"
+  ],
+  [
+    "Australia Moves Towards 70 Percent Tariffs on Chinese Windows and Doors",
+    "https://www.theepochtimes.com/world/australia-moves-towards-70-percent-tariffs-on-chinese-windows-and-doors-6104575"
+  ],
+  [
+    "Court Upholds Kansas Ban on Prefilled Ballot Applications",
+    "https://www.theepochtimes.com/us/court-upholds-kansas-ban-on-prefilled-ballot-applications-6104765"
+  ],
+  [
+    "Court Says FCC Lacked Authority to Create Universal Service Fund Administrator",
+    "https://www.theepochtimes.com/us/court-says-fcc-lacked-authority-to-create-universal-service-fund-administrator-6104783"
+  ],
+  [
+    "Supreme Court Keeps Cheap Political Ad Rates for Parties Through Midterms",
+    "https://www.theepochtimes.com/us/supreme-court-keeps-cheap-political-ad-rates-for-parties-through-midterms-6103903"
+  ],
+  [
+    "Day in Photos: Protest in Bangkok, Australian\u2013Indonesian Military Training, and Flooding in Istanbul",
+    "https://www.theepochtimes.com/article/day-in-photos-protest-in-bangkok-australian-indonesian-military-training-and-flooding-in-istanbul-6104463"
+  ],
+  [
+    "Day in Photos: Missile Fire in Kyiv, Vietnam Honors Soldiers, and Germany\u2019s Apple Cabinet Tradition",
+    "https://www.theepochtimes.com/article/day-in-photos-missile-fire-in-kyiv-vietnam-honors-soldiers-and-germanys-apple-cabinet-tradition-6103904"
+  ],
+  [
+    "Alaska US Senate Candidates Face Off in Statewide Debate",
+    "https://www.theepochtimes.com/us/live-now-alaska-us-senate-candidates-face-off-in-statewide-debate-6103652"
+  ],
+  [
+    "Elon Musk Agrees to Settle 2 Lawsuits Over $1 Million Giveaways in 2024 Election",
+    "https://www.theepochtimes.com/us/elon-musk-agrees-to-settle-2-lawsuits-over-1-million-giveaways-in-2024-election-6104604"
+  ],
+  [
+    "3 Children, Teacher Killed in Oregon Elementary School Shooting",
+    "https://www.theepochtimes.com/us/3-children-teacher-killed-in-oregon-elementary-school-shooting-police-say-6104586"
+  ],
+  [
+    "Why Older Adults Need More Daylight\u2013And How to Get It",
+    "https://www.theepochtimes.com/health/why-older-adults-need-more-daylight-and-how-to-get-it-6086414"
+  ],
+  [
+    "Why Sleeping in Total Darkness Is a Big Deal",
+    "https://www.theepochtimes.com/health/why-sleeping-in-total-darkness-is-a-big-deal-5863657"
+  ],
+  [
+    "Everyday Items Hiding Germs You May Be Overlooking",
+    "https://www.theepochtimes.com/health/everyday-items-hiding-germs-you-may-be-overlooking-6048537"
+  ],
+  [
+    "Nail Detachment, Hair Loss More Common Among GLP-1 Users: Study",
+    "https://www.theepochtimes.com/health/nail-detachment-hair-loss-more-common-among-glp-1-users-study-6099550"
+  ],
+  [
+    "5 Ways to Counter the Effects of Prolonged Sitting",
+    "https://www.theepochtimes.com/health/sitting-all-day-simple-ways-to-ease-back-stiffness-and-keep-moving-6057589"
+  ],
+  [
+    "Diet in the First 1,000 Days Shapes Lifelong Health",
+    "https://www.theepochtimes.com/health/diet-in-the-first-1000-days-shapes-lifelong-health-6092790"
+  ],
+  [
+    "How Do Common Sweeteners Affect the Gut Microbiome? Here\u2019s What Researchers Found",
+    "https://www.theepochtimes.com/health/sweeteners-effects-on-gut-bacteria-may-depend-on-what-comes-with-it-6069384"
+  ],
+  [
+    "The Relaxing Effect of Cannabis May Be Placebo, Study Finds",
+    "https://www.theepochtimes.com/health/the-relaxing-effect-of-cannabis-may-just-be-placebo-study-finds-6095508"
+  ],
+  [
+    "The Zeitgeist Got You Down and Ailing? Regain Your Health With These Chicken Soup Classics",
+    "https://www.theepochtimes.com/bright/the-zeitgeist-got-you-down-and-ailing-regain-your-health-with-these-chicken-soup-classics-6103865"
+  ],
+  [
+    "Return to The Broadmoor",
+    "https://www.theepochtimes.com/article/return-to-the-broadmoor-6100611"
+  ],
+  [
+    "Holiday Travel 2026: The Top Trends and Destinations for Christmas and Thanksgiving",
+    "https://www.theepochtimes.com/bright/holiday-travel-2026-the-top-trends-and-destinations-for-christmas-and-thanksgiving-6104156"
+  ],
+  [
+    "Shen Yun 2026 Technique Showcase to Premiere on Gan Jing World on Oct. 24",
+    "https://www.theepochtimes.com/bright/shen-yun-2026-technique-showcase-to-premiere-on-gan-jing-world-on-oct-24-post-6104626"
+  ],
+  [
+    "\u2018American Hagwon\u2019: Exam Pressure and Family Fate",
+    "https://www.theepochtimes.com/bright/american-hagwon-exam-pressure-and-family-fate-6103615"
+  ],
+  [
+    "\ud83c\udfa7 Healthcare Decoded: Getting Better Care Inside a Broken System | Matthew Little",
+    "https://www.theepochtimes.com/podcasts/article/healthcare-decoded-getting-better-care-inside-a-broken-system-matthew-little-6103700"
+  ],
+  [
+    "Modern-Day Compelled Speech at Universities",
+    "https://www.theepochtimes.com/opinion/modern-day-compelled-speech-at-universities-6102775"
+  ],
+  [
+    "Michael Zwaagstra: More Bureaucracy Is Not the Way to Hold Ontario Schools Accountable",
+    "https://www.theepochtimes.com/opinion/michael-zwaagstra-more-bureaucracy-is-not-the-way-to-hold-ontario-schools-accountable-6103968"
+  ],
+  [
+    "The Quest for Sanity",
+    "https://www.theepochtimes.com/opinion/the-quest-for-sanity-6104377"
+  ],
+  [
+    "Is Your Orange County School District Vulnerable to a Takeover?",
+    "https://www.theepochtimes.com/opinion/is-your-orange-county-school-district-vulnerable-to-a-takeover-6100736"
+  ],
+  [
+    "$2 Trillion\u2014and No Excuse",
+    "https://www.theepochtimes.com/opinion/2-trillion-and-no-excuse-6104371"
+  ],
+  [
+    "Rethink the Supply Chain",
+    "https://www.theepochtimes.com/opinion/rethink-the-supply-chain-6104335"
+  ],
+  [
+    "The \u2018Childish\u2019 Lies of Medicare for All",
+    "https://www.theepochtimes.com/opinion/the-childish-lies-of-medicare-for-all-6104328"
+  ],
+  [
+    "What Voters See in the Parties",
+    "https://www.theepochtimes.com/opinion/what-voters-see-in-the-parties-6104321"
+  ],
+  [
+    "Weapons of Mass Division",
+    "https://www.theepochtimes.com/opinion/weapons-of-mass-division-6103137"
+  ],
+  [
+    "Artist Pieter Bruegel the Elder\u2019s Timeless 6 Seasons",
+    "https://www.theepochtimes.com/bright/artist-pieter-bruegel-the-elders-timeless-6-seasons-6096221"
+  ],
+  [
+    "William Boeing: From Lumber to Lift-Off",
+    "https://www.theepochtimes.com/bright/william-boeing-from-lumber-to-lift-off-6103409"
+  ],
+  [
+    "Nourish Bowls",
+    "https://www.theepochtimes.com/recipes/nourish-bowls-6104134"
+  ],
+  [
+    "\u2018Have You Eaten Yet?\u2019: Actor Ming-Na Wen Honors Her Roots With New Cookbook",
+    "https://www.theepochtimes.com/bright/ming-na-wen-answers-the-question-have-you-eaten-yet-with-family-recipes-6102903"
+  ],
+  [
+    "You Won\u2019t Believe the Secret Ingredient in These Egg Rolls",
+    "https://www.theepochtimes.com/recipes/you-wont-believe-the-secret-ingredient-in-these-egg-rolls-6102894"
+  ],
+  [
+    "Love Apple Pie? Skip the Crust and Make a Cobbler.",
+    "https://www.theepochtimes.com/recipes/apple-cobbler-6102342"
+  ],
+  [
+    "Is a Wine Trip to Australia or New Zealand Worth the Journey?",
+    "https://www.theepochtimes.com/bright/wine-south-6102934"
+  ],
+  [
+    "How a Vague Provision of Human Trafficking Law Is Threatening Religious Communities | John Lauro",
+    "https://www.theepochtimes.com/podcasts/epochtv/how-a-vague-provision-of-human-trafficking-law-is-threatening-religious-communities-john-lauro-6103258"
+  ],
+  [
+    "China\u2019s Banks Built the Boom. Now, They\u2019re Hiding the Bust.",
+    "https://www.theepochtimes.com/podcasts/article/chinas-banks-built-the-boom-now-theyre-hiding-the-bust-6102837"
+  ],
+  [
+    "\ud83c\udfa7 US Law Wasn\u2019t Built for How China\u2019s Spies Operate in America",
+    "https://www.theepochtimes.com/podcasts/article/-us-law-wasnt-built-for-how-chinas-spies-operate-in-america-6104758"
+  ],
+  [
+    "This Saturated Fat Slows Heart Disease",
+    "https://www.theepochtimes.com/health/this-saturated-fat-slows-heart-disease-6104542"
+  ],
+  [
+    "2 Squat Variations to Rebuild Strength After Knee Replacement",
+    "https://www.theepochtimes.com/health/afraid-to-move-after-knee-replacement-how-to-rebuild-strength-and-confidence-6095913"
+  ],
+  [
+    "Don\u2019t Wait to Forgive",
+    "https://www.theepochtimes.com/health/dont-wait-to-forgive-6096299"
+  ],
+  [
+    "How Exercise Changes Your Brain, From Minutes to Years",
+    "https://www.theepochtimes.com/health/how-exercise-changes-your-brain-from-minutes-to-years-6053237"
+  ],
+  [
+    "The Age of Your Organ Predicts Risk of Diseases Decades Before Symptoms Appear",
+    "https://www.theepochtimes.com/health/the-age-of-your-organ-predicts-risk-of-diseases-decades-before-symptoms-appear-6051428"
+  ],
+  [
+    "What to Know About the New Test That Detects 50 Types of Cancer",
+    "https://www.theepochtimes.com/health/what-to-know-about-the-new-test-that-detects-50-types-of-cancer-6100780"
+  ],
+  [
+    "Push-Ups: 9 Common Mistakes and How to Do Them Properly",
+    "https://www.theepochtimes.com/health/push-ups-9-common-mistakes-that-make-them-less-effective-6084099"
+  ],
+  [
+    "Toys for Kids That Encourage Fun and Play Beyond the Screen",
+    "https://www.theepochtimes.com/epochbuy/toys-for-kids-that-encourage-fun-and-play-beyond-the-screen-6102821"
+  ],
+  [
+    "Suggestions on How to Read Difficult Texts",
+    "https://www.theepochtimes.com/bright/suggestions-on-how-to-read-difficult-texts-6101191"
+  ],
+  [
+    "\u2018Your Attention Please\u2019: Anger Against Social Media Finally Boils Over",
+    "https://www.theepochtimes.com/bright/your-attention-please-anger-against-social-media-finally-boils-over-6100188"
+  ],
+  [
+    "What Every Child Should Know: Treasures From an Old-Time Teacher",
+    "https://www.theepochtimes.com/bright/what-every-child-should-know-treasures-from-an-old-time-teacher-6099481"
+  ],
+  [
+    "What Happened to the \u2018Village\u2019 That Used to Raise Our Children?",
+    "https://www.theepochtimes.com/world/what-happened-to-the-village-that-used-to-raise-our-children-6096589"
+  ],
+  [
+    "Homeschool Parents: When Days Get Hard, Remember This",
+    "https://www.theepochtimes.com/bright/homeschool-parents-when-days-get-hard-remember-this-6094608"
+  ],
+  [
+    "Fathers, Your Daughters Need You",
+    "https://www.theepochtimes.com/bright/fathers-your-daughters-need-you-6097294"
+  ],
+  [
+    "Kidney Cancer: One of the 10 Most Common Cancers\u2014Here are the Symptoms",
+    "https://www.theepochtimes.com/health/kidney-cancer-one-of-the-10-most-common-cancers-here-are-the-symptoms-6101293"
+  ],
+  [
+    "Passionflower: A Nerve-Calming Herb for Sleep, Anxiety, and Pain",
+    "https://www.theepochtimes.com/health/passionflowers-calming-effects-on-sleep-anxiety-and-pain-6098890"
+  ],
+  [
+    "The Science Around Full-Fat Dairy",
+    "https://www.theepochtimes.com/health/the-science-around-full-fat-dairy-6101251"
+  ],
+  [
+    "Stiff After Sitting? Try This 10-minute Hip and Core Routine.",
+    "https://www.theepochtimes.com/health/stiff-after-sitting-try-this-10-minute-hip-and-core-routine-6097722"
+  ],
+  [
+    "Cutting Back on Ultra-Processed Foods Eased Depression in a Small Trial",
+    "https://www.theepochtimes.com/health/cutting-back-on-ultra-processed-foods-eased-depression-in-a-small-trial-6097273"
+  ],
+  [
+    "The Will to Recover: 3 Ways to Support the Body\u2019s Healing",
+    "https://www.theepochtimes.com/health/the-will-to-recover-3-ways-to-support-the-bodys-healing-6065643"
+  ],
+  [
+    "The \u2018Always Finish Your Antibiotics\u2019 Rule May Be Outdated",
+    "https://www.theepochtimes.com/health/the-always-finish-your-antibiotics-rule-may-be-outdated-6077991"
+  ]
+]
