@@ -325,8 +325,7 @@ def render_body(
             f"Opened by the [self-fix loop]({run_url}) ({_session(evidence.result)}). "
             "Every count above comes from the workflow, not the agent; the checks "
             "ran the patch's code as an unprivileged user, so they are evidence for "
-            "a person, not proof. Nothing here merges on its own. CI does not start "
-            "on a PR the loop opens: marking it ready for review runs it."
+            "a person, not proof. Nothing here merges on its own."
         ),
     ]
     body = "\n".join(lines) + "\n"

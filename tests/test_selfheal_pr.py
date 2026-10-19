@@ -161,6 +161,11 @@ def test_the_body_closes_the_issue_and_shows_the_counts():
     assert "deepseek-flash · 23 turns · $0.041" in body
 
 
+def test_the_body_does_not_ask_for_ready_for_review():
+    """The PR opens ready, and its CI starts on its own."""
+    assert "ready for review" not in _body()
+
+
 def test_the_body_shows_only_the_newspapers_change_in_a_fence_it_cannot_close():
     body = _body()
     assert "+new ```` fence\n`````" in body
@@ -378,3 +383,26 @@ def test_the_pr_job_fails_on_an_infrastructure_failure_after_reporting_it():
     )
     assert "infra_error" in failing[0]["if"]
     assert "exit 1" in failing[0]["run"]
+
+
+def test_the_pr_opens_ready_and_starts_ci():
+    """A PR opened with GITHUB_TOKEN would hold its CI for approval."""
+    (token,) = [s for s in _steps("pr") if s.get("id") == "app-token"]
+    assert token["uses"].startswith("actions/create-github-app-token@")
+    assert token["with"] == {
+        "client-id": "${{ secrets.SELFHEAL_APP_CLIENT_ID }}",
+        "private-key": "${{ secrets.SELFHEAL_APP_PRIVATE_KEY }}",
+        "permission-pull-requests": "write",
+    }
+    (opened,) = [s for s in _steps("pr") if s.get("id") == "open"]
+    app_token = "${{ steps.app-token.outputs.token }}"  # noqa: S105 (an expression)
+    assert opened["env"]["APP_TOKEN"] == app_token
+    assert 'GH_TOKEN="$APP_TOKEN" gh pr create' in opened["run"]
+    assert opened["run"].count("$APP_TOKEN") == 1
+    assert "--draft" not in opened["run"]
+
+
+def test_only_the_pr_job_holds_the_app_key():
+    for name, job in JOBS.items():
+        holds = "SELFHEAL_APP_PRIVATE_KEY" in yaml.safe_dump(job)
+        assert holds == (name == "pr"), name

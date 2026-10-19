@@ -2,7 +2,7 @@
 
 When an outlet's front page changes and its XPath stops matching, CI should
 notice, have an agent repair that one outlet's extractor offline, and open a
-draft PR that shows the fix working. A human always merges.
+PR that shows the fix working. A human always merges.
 
 Status: design agreed (2026-09-25); groundwork in progress.
 
@@ -38,10 +38,10 @@ Self-fix workflow
   prepare ── no LLM ──  pick the outlets to fix, write each one's inputs
   fix     ── LLM ─────  one job per outlet: the agent writes a patch
   check   ── no LLM ──  gate and judge the patch, screenshot the page
-  pr      ── no LLM ──  open a draft PR with the evidence, or record the attempt
+  pr      ── no LLM ──  open a PR with the evidence, or record the attempt
         │
         ▼
-Daniel reviews the PR, marks it ready (which runs CI), merges
+CI runs on the PR; Daniel reviews it and merges
 ```
 
 The LLM does exactly one thing: write a patch for one outlet. Deciding
@@ -197,10 +197,13 @@ to write with.
 4. Keep everything as the `selfheal-evidence-<outlet>` artifact, and write the
    PR body it would open into the run's summary.
 
-`pr` needs the repository setting "Allow GitHub Actions to create and approve
-pull requests" (Settings > Actions > General, or `can_approve_pull_request_reviews`
-in the API): without it, `GITHUB_TOKEN` cannot open a PR, and the job fails
-after pushing its branch, recording no attempt.
+`pr` opens the PR as the self-fix GitHub App, which has to be installed on
+the repository, with its `SELFHEAL_APP_CLIENT_ID` and
+`SELFHEAL_APP_PRIVATE_KEY` in the repository's secrets: without them the job
+fails after pushing its branch, recording no attempt. The app has only
+`Pull requests: Read and write` (and the mandatory `Metadata: Read`), no
+webhook, and is installed on this repository alone; its token is asked for
+with `pull-requests: write` alone, and only opens the PR.
 
 `pr`, per outlet and one at a time, with `contents`, `pull-requests` and
 `issues: write`, only when the run is not a dry run. It runs none of the
@@ -216,7 +219,7 @@ patch's code: main's own code reads the evidence as data.
 3. Push the screenshot to the orphan `selfheal-evidence` branch and embed it
    through `raw.githubusercontent.com`, pinned to that commit. It never goes
    on the PR branch.
-4. Open a draft PR, labelled `selfheal` and `selfheal:<outlet>`, closing the
+4. Open a PR, labelled `selfheal` and `selfheal:<outlet>`, closing the
    outlet's open issue.
 5. Comment on the outlet's issue, with the attempt marker: the PR, or how the
    attempt failed, quoting the agent's explanation and the checks. For an
@@ -263,9 +266,10 @@ comes from omp, which accounts for DeepSeek's cache and matches the wallet.
 
 ### CI on selfheal PRs
 
-A PR opened with `GITHUB_TOKEN` starts no workflow, so the checks a PR would
-get are the ones above. `backend.yaml` also runs on `ready_for_review`: a
-person marking the draft ready runs CI on it.
+A PR opened with `GITHUB_TOKEN` gets its `pull_request` runs held until a
+person approves them. The self-fix app opens the PR instead, so
+`backend.yaml` runs on it straight away, as on any PR: what is left for a
+person is to read the PR and merge it.
 
 ## Storage
 
@@ -370,7 +374,7 @@ Each step has to prove itself before the next starts.
 3. **Fix job, dry run**: Daniel creates the `selfheal` environment and key,
    then dispatches every current `xpath` outlet with `dry_run`. Done when the
    patches are judged and the prompt is tuned.
-4. **PR job**: once Actions may create pull requests (see PR job), by hand
+4. **PR job**: once the self-fix app is installed with its secrets (see PR job), by hand
    first (a dispatch with `dry_run` off), then chained
    to Update: `SELFHEAL_AUTO=dry-run`, then `on`. Done after two weeks of
    real PRs.
