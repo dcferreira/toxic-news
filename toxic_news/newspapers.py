@@ -465,6 +465,19 @@ newspapers = [
                 "  or starts-with(@href, '/epochfun/'))]",
                 href_xpath=".",
             ),
+            DatedXpath(
+                # the front page now marks up its section indexes and its
+                # "most read" rails as section-card-title cards too: compact
+                # lists of links beside and below the story cards.
+                from_date=datetime(2026, 10, 15, tzinfo=timezone.utc),
+                headline_xpath="//a[@data-testid='section-card-title'"
+                "  and not(starts-with(@href, '/epochtv/')"
+                "  or starts-with(@href, '/epochfun/'))"
+                "  and not(ancestor::*[@data-testid='section/grid-group'"
+                "  or @data-testid='posts-block-desktop'"
+                "  or @data-testid='posts-block-mobile'])]",
+                href_xpath=".",
+            ),
         ),
         expected_headlines=97,
     ),
