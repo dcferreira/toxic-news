@@ -197,11 +197,13 @@ to write with.
 4. Keep everything as the `selfheal-evidence-<outlet>` artifact, and write the
    PR body it would open into the run's summary.
 
-`pr` opens the PR as the releases GitHub App, which has to be installed on
-the repository, with its `RELEASE_APP_CLIENT_ID` and `RELEASE_APP_PRIVATE_KEY`
-in the repository's secrets: without them the job fails after pushing its
-branch, recording no attempt. The app's token is asked for with
-`pull-requests: write` alone, and only opens the PR.
+`pr` opens the PR as the self-fix GitHub App, which has to be installed on
+the repository, with its `SELFHEAL_APP_CLIENT_ID` and
+`SELFHEAL_APP_PRIVATE_KEY` in the repository's secrets: without them the job
+fails after pushing its branch, recording no attempt. The app has only
+`Pull requests: Read and write` (and the mandatory `Metadata: Read`), no
+webhook, and is installed on this repository alone; its token is asked for
+with `pull-requests: write` alone, and only opens the PR.
 
 `pr`, per outlet and one at a time, with `contents`, `pull-requests` and
 `issues: write`, only when the run is not a dry run. It runs none of the
@@ -265,7 +267,7 @@ comes from omp, which accounts for DeepSeek's cache and matches the wallet.
 ### CI on selfheal PRs
 
 A PR opened with `GITHUB_TOKEN` gets its `pull_request` runs held until a
-person approves them. The releases app opens the PR instead, so
+person approves them. The self-fix app opens the PR instead, so
 `backend.yaml` runs on it straight away, as on any PR: what is left for a
 person is to read the PR and merge it.
 
@@ -372,7 +374,7 @@ Each step has to prove itself before the next starts.
 3. **Fix job, dry run**: Daniel creates the `selfheal` environment and key,
    then dispatches every current `xpath` outlet with `dry_run`. Done when the
    patches are judged and the prompt is tuned.
-4. **PR job**: once the releases app is installed with its secrets (see PR job), by hand
+4. **PR job**: once the self-fix app is installed with its secrets (see PR job), by hand
    first (a dispatch with `dry_run` off), then chained
    to Update: `SELFHEAL_AUTO=dry-run`, then `on`. Done after two weeks of
    real PRs.

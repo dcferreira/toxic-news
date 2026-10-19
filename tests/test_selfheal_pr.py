@@ -390,8 +390,8 @@ def test_the_pr_opens_ready_and_starts_ci():
     (token,) = [s for s in _steps("pr") if s.get("id") == "app-token"]
     assert token["uses"].startswith("actions/create-github-app-token@")
     assert token["with"] == {
-        "client-id": "${{ secrets.RELEASE_APP_CLIENT_ID }}",
-        "private-key": "${{ secrets.RELEASE_APP_PRIVATE_KEY }}",
+        "client-id": "${{ secrets.SELFHEAL_APP_CLIENT_ID }}",
+        "private-key": "${{ secrets.SELFHEAL_APP_PRIVATE_KEY }}",
         "permission-pull-requests": "write",
     }
     (opened,) = [s for s in _steps("pr") if s.get("id") == "open"]
@@ -404,5 +404,5 @@ def test_the_pr_opens_ready_and_starts_ci():
 
 def test_only_the_pr_job_holds_the_app_key():
     for name, job in JOBS.items():
-        holds = "RELEASE_APP_PRIVATE_KEY" in yaml.safe_dump(job)
+        holds = "SELFHEAL_APP_PRIVATE_KEY" in yaml.safe_dump(job)
         assert holds == (name == "pr"), name

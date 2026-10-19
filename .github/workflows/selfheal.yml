@@ -27,10 +27,11 @@ name: Self-fix
 # to that); an automatic run that would still reach a peak waits for the next
 # Update.
 #
-# The PR is opened by the releases GitHub App, so its CI starts unapproved:
+# The PR is opened by the self-fix GitHub App, so its CI starts unapproved:
 # the app has to be installed on this repository, with the
-# RELEASE_APP_CLIENT_ID and RELEASE_APP_PRIVATE_KEY secrets. Without them the
-# pr job pushes its branch, then fails to open the PR and records no attempt.
+# SELFHEAL_APP_CLIENT_ID and SELFHEAL_APP_PRIVATE_KEY secrets. Without them
+# the pr job pushes its branch, then fails to open the PR and records no
+# attempt.
 #
 # Four jobs, so the DeepSeek key, the agent's code and write access never
 # share a job:
@@ -593,16 +594,16 @@ jobs:
           echo "url=https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$sha/$path" >> "$GITHUB_OUTPUT"
 
       # A PR opened with GITHUB_TOKEN holds its CI runs for approval; one
-      # opened by the releases app starts them, as any PR does. Its token can
+      # opened by the self-fix app starts them, as any PR does. Its token can
       # only write pull requests, and only opens the PR: the push, the labels
       # and the issue comment stay on GITHUB_TOKEN.
-      - name: Get a token from the releases app
+      - name: Get a token from the self-fix app
         id: app-token
         if: steps.outcome.outputs.outcome == 'pr'
         uses: actions/create-github-app-token@v3
         with:
-          client-id: ${{ secrets.RELEASE_APP_CLIENT_ID }}
-          private-key: ${{ secrets.RELEASE_APP_PRIVATE_KEY }}
+          client-id: ${{ secrets.SELFHEAL_APP_CLIENT_ID }}
+          private-key: ${{ secrets.SELFHEAL_APP_PRIVATE_KEY }}
           permission-pull-requests: write
 
       - name: Open the PR
