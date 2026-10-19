@@ -625,9 +625,9 @@ jobs:
           done
           url=$(GH_TOKEN="$APP_TOKEN" gh pr create --repo "$GITHUB_REPOSITORY" \
             --base main --head "$BRANCH" --title "$TITLE" --body-file body.md)
-          gh pr edit "$url" --add-label selfheal --add-label "selfheal:$OUTLET"
           echo "Opened $url" >> "$GITHUB_STEP_SUMMARY"
           echo "number=${url##*/}" >> "$GITHUB_OUTPUT"
+          gh pr edit "$url" --add-label selfheal --add-label "selfheal:$OUTLET"
 
       # The marker in the comment holds the outlet back for a week, unless
       # DeepSeek or the harness failed (`infra_error`): that comment has a

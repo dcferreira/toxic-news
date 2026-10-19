@@ -372,7 +372,7 @@ Each step has to prove itself before the next starts.
 3. **Fix job, dry run**: Daniel creates the `selfheal` environment and key,
    then dispatches every current `xpath` outlet with `dry_run`. Done when the
    patches are judged and the prompt is tuned.
-4. **PR job**: once Actions may create pull requests (see PR job), by hand
+4. **PR job**: once the releases app is installed with its secrets (see PR job), by hand
    first (a dispatch with `dry_run` off), then chained
    to Update: `SELFHEAL_AUTO=dry-run`, then `on`. Done after two weeks of
    real PRs.
