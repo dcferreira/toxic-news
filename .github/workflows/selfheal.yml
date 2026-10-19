@@ -4,8 +4,8 @@ name: Self-fix
 # health report calls `xpath`, or the one asked for, omp on DeepSeek tries a
 # new XPath against the page the Update run saved, a check job judges the
 # patch with `poe selfheal-check` and screenshots the page with every new match
-# outlined, and a PR job opens a draft PR with that evidence. Nothing merges on
-# its own.
+# outlined, and a PR job opens a PR with that evidence, whose CI starts on its
+# own. Nothing merges on its own.
 #
 # A session that fails for want of DeepSeek or the harness (an exhausted
 # balance, say) is a failed run, not the agent giving up: the fix leg and the
@@ -27,9 +27,10 @@ name: Self-fix
 # to that); an automatic run that would still reach a peak waits for the next
 # Update.
 #
-# Opening PRs needs the repository setting "Allow GitHub Actions to create and
-# approve pull requests" (Settings > Actions > General); without it the pr job
-# pushes its branch, then fails to open the PR and records no attempt.
+# The PR is opened by the releases GitHub App, so its CI starts unapproved:
+# the app has to be installed on this repository, with the
+# RELEASE_APP_CLIENT_ID and RELEASE_APP_PRIVATE_KEY secrets. Without them the
+# pr job pushes its branch, then fails to open the PR and records no attempt.
 #
 # Four jobs, so the DeepSeek key, the agent's code and write access never
 # share a job:
@@ -591,7 +592,20 @@ jobs:
           sha=$(git -C "$RUNNER_TEMP/shots" rev-parse HEAD)
           echo "url=https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$sha/$path" >> "$GITHUB_OUTPUT"
 
-      - name: Open the draft PR
+      # A PR opened with GITHUB_TOKEN holds its CI runs for approval; one
+      # opened by the releases app starts them, as any PR does. Its token can
+      # only write pull requests, and only opens the PR: the push, the labels
+      # and the issue comment stay on GITHUB_TOKEN.
+      - name: Get a token from the releases app
+        id: app-token
+        if: steps.outcome.outputs.outcome == 'pr'
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.RELEASE_APP_CLIENT_ID }}
+          private-key: ${{ secrets.RELEASE_APP_PRIVATE_KEY }}
+          permission-pull-requests: write
+
+      - name: Open the PR
         id: open
         if: steps.outcome.outputs.outcome == 'pr'
         env:
@@ -599,6 +613,7 @@ jobs:
           TITLE: ${{ steps.outcome.outputs.title }}
           ISSUE: ${{ steps.outcome.outputs.issue }}
           SCREENSHOT: ${{ steps.screenshot.outputs.url }}
+          APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           set -euo pipefail
           uv run python -m tests.selfheal_pr body --evidence "$EVIDENCE" \
@@ -608,9 +623,9 @@ jobs:
           for label in selfheal "selfheal:$OUTLET"; do
             gh label create "$label" --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
           done
-          url=$(gh pr create --repo "$GITHUB_REPOSITORY" --draft --base main \
-            --head "$BRANCH" --title "$TITLE" --body-file body.md \
-            --label selfheal --label "selfheal:$OUTLET")
+          url=$(GH_TOKEN="$APP_TOKEN" gh pr create --repo "$GITHUB_REPOSITORY" \
+            --base main --head "$BRANCH" --title "$TITLE" --body-file body.md)
+          gh pr edit "$url" --add-label selfheal --add-label "selfheal:$OUTLET"
           echo "Opened $url" >> "$GITHUB_STEP_SUMMARY"
           echo "number=${url##*/}" >> "$GITHUB_OUTPUT"
 
