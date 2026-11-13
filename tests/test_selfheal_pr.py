@@ -295,9 +295,11 @@ def test_file_diffs_splits_a_patch_by_path():
         ({"result": {"status": "infra_error"}}, ["scope"], "infra_error"),
         ({"patch": ""}, [], "no_patch"),
         ({}, ["scope"], "refused"),
-        # selfheal-check ran on the patch's code and left no verdict: the fix's
+        # selfheal-check ran on the patch's code and left no verdict: the fix's fault
         ({"check": None}, [], "failed"),
         ({"check": None, "judge": "failure"}, [], "failed"),
+        # the job timed out while the patch's code ran: the fix hung
+        ({"check": None, "judge": "started"}, [], "failed"),
         # the check job broke before selfheal-check ran: nothing was judged
         ({"check": None, "judge": "skipped"}, [], "check_error"),
         ({"check": None, "judge": None}, [], "check_error"),
@@ -434,10 +436,13 @@ def test_the_check_job_records_whether_selfheal_check_ran():
     steps = _steps("check")
     (judge,) = [s for s in steps if s.get("id") == "judge"]
     assert "poe selfheal-check" in judge["run"]
-    (record,) = [s for s in steps if "judge.json" in s.get("run", "")]
-    assert "steps.judge.outcome" in yaml.safe_dump(record)
+    (started,) = [s for s in steps if "outcome started" in s.get("run", "")]
+    assert "judge.json" in started["run"]
+    (record,) = [s for s in steps if "steps.judge.outcome" in yaml.safe_dump(s)]
+    assert "judge.json" in record["run"]
     assert "!cancelled()" in record["if"]
     names = [s.get("name") for s in steps]
+    assert names.index(started["name"]) < names.index(judge["name"])
     assert names.index(judge["name"]) < names.index(record["name"])
     assert names.index(record["name"]) < names.index("Keep the evidence")
 

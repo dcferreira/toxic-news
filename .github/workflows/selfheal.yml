@@ -391,6 +391,12 @@ jobs:
           sudo cp -r "$RUNNER_TEMP/inputs" /srv/selfheal/inputs
           sudo chmod -R a+rX /srv/selfheal/inputs
 
+      # The record step overwrites it; it stays `started` only if the job times
+      # out while the judge runs the patch's code, which the pr job calls failed
+      - name: Mark the judge as started
+        if: steps.patch.outputs.found
+        run: jq -n --arg outcome started '{$outcome}' > "$EVIDENCE/judge.json"
+
       # From here on the patch's code runs, imported by the checker, so the
       # verdict is advisory: a human reads the patch before anything merges.
       - name: Judge the fix

@@ -12,8 +12,9 @@ here reads files as data. Its inputs, all under one `--evidence` directory:
 - `check.json`: `poe selfheal-check --json` on the patched checkout, run as an
   unprivileged user; the patch's code ran there, so it is evidence, not proof;
 - `judge.json`: `{"outcome": ...}`, the check job's step that runs
-  selfheal-check (`success`, `failure`, or `skipped` when an earlier step
-  broke), so a check job that broke before it is not read as a failed fix;
+  selfheal-check (`success`, `failure`, `skipped` when an earlier step
+  broke, or `started` when the job timed out while it ran), so a check job
+  that broke before it is not read as a failed fix;
 - `outline.json`, `pixels.json`: the screenshot's counts, and how many of its
   outlines were found in the pixels.
 
@@ -366,7 +367,8 @@ def outcome(evidence: Evidence, gate_problems: Sequence[str]) -> str:
         return "refused"
     # selfheal-check never ran: the check job broke on its own setup (say, a
     # runner image Playwright has no browser for), which judges nothing
-    if evidence.check is None and evidence.judge not in ("success", "failure"):
+    # (`started` is a judge the job's timeout cut short: the patch's code hung)
+    if evidence.check is None and evidence.judge in (None, "skipped"):
         return "check_error"
     if not evidence.passed:
         return "failed"
