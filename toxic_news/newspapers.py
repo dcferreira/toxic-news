@@ -207,15 +207,18 @@ def nytimes_fn(content: str, base_url: str, request_date: datetime) -> Headlines
         ),
         DatedXpath(
             from_date=datetime(2022, 3, 16, tzinfo=timezone.utc),
+            # Only linked ones: late-2023 pages put unlinked summaries in the
+            # same `h3`, which used to crash the extractor.
             headline_xpath="//section[contains(@class, 'story-wrapper')]//"
-            "h3[contains(@class, 'indicate-hover')]",
+            "h3[contains(@class, 'indicate-hover') and ancestor::a]",
             href_xpath="ancestor::a",
         ),
-        # On 2023-12-14 (between 15:00 and 16:10 UTC, going by the Wayback
-        # Machine) the headlines became `p.indicate-hover` inside the story
-        # links, no longer always under a `story-wrapper` section.
+        # On 2023-12-14, between 15:00 and 16:10 UTC going by the Wayback
+        # Machine, the headlines became `p.indicate-hover` inside the story
+        # links, no longer always under a `story-wrapper` section. Dated to
+        # the hour, so that day's noon page still gets the older XPath.
         DatedXpath(
-            from_date=datetime(2023, 12, 14, tzinfo=timezone.utc),
+            from_date=datetime(2023, 12, 14, 16, tzinfo=timezone.utc),
             headline_xpath="//a//p[contains(concat(' ', @class, ' '), "
             "' indicate-hover ') and normalize-space()]",
             href_xpath="ancestor::a",
