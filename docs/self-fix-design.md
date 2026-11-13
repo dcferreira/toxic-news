@@ -211,8 +211,10 @@ patch's code: main's own code reads the evidence as data.
 
 1. Gate the patch again, and decide what came of the attempt: `pr` for a
    passing patch within scope, `none` when no session ran (deferred to dodge
-   DeepSeek's peak), `infra_error` when DeepSeek or the harness failed, else
-   gave up, refused, failed or no patch.
+   DeepSeek's peak), `infra_error` when DeepSeek or the harness failed,
+   `check_error` when the check job broke before `selfheal-check` ran (its
+   `judge.json` says how that step ended), else gave up, refused, failed or
+   no patch.
 2. For `pr`: apply the patch in a separate worktree, commit it to
    `selfheal/<outlet>-<date>-<run id>-<run attempt>` and push. The checkout the job's code runs from
    never holds the patch.
@@ -223,7 +225,7 @@ patch's code: main's own code reads the evidence as data.
    outlet's open issue.
 5. Comment on the outlet's issue, with the attempt marker: the PR, or how the
    attempt failed, quoting the agent's explanation and the checks. For an
-   `infra_error` the comment says what failed, carries the infra-error marker
+   `infra_error` or a `check_error` the comment says what failed, carries the infra-error marker
    instead, and the job then fails, so the run is red and the outlet is tried
    again by the next run.
 

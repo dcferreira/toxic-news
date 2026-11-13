@@ -132,6 +132,7 @@ def _evidence(**overrides: Any) -> Evidence:
         },
         "outline": {"matches": 44, "outlined": 44, "hidden": 0},
         "pixels": {"found": 44},
+        "judge": "success",
     }
     return Evidence(**{**fields, **overrides})
 
@@ -244,6 +245,17 @@ def test_an_infrastructure_comment_says_what_failed_and_holds_nothing_back():
     assert comment.rstrip().endswith("<!-- selfheal-infra-error 2026-10-05 -->")
 
 
+def test_a_comment_on_a_fix_never_judged_blames_the_check_and_holds_nothing_back():
+    evidence = _evidence(check=None, judge="skipped")
+    comment = render_comment(evidence, outcome="check_error", run_url="https://run")
+    assert "could not judge" in comment
+    assert "not counted" in comment
+    assert "fails `selfheal-check`" not in comment
+    assert "in a week" not in comment
+    assert "selfheal-attempt" not in comment
+    assert comment.rstrip().endswith("<!-- selfheal-infra-error 2026-10-05 -->")
+
+
 # --- reading the evidence -----------------------------------------------------
 
 
@@ -254,9 +266,12 @@ def test_evidence_is_read_from_its_directory_missing_parts_and_all(tmp_path):
     (tmp_path / "patch.diff").write_bytes(b"diff \xff\r\n")
     evidence = Evidence.read(tmp_path)
     assert evidence.check is None
+    assert evidence.judge is None
     assert evidence.result == {}
     assert not evidence.passed
     assert evidence.patch == "diff �\r\n"
+    (tmp_path / "judge.json").write_text(json.dumps({"outcome": "skipped"}))
+    assert Evidence.read(tmp_path).judge == "skipped"
 
 
 def test_file_diffs_splits_a_patch_by_path():
@@ -280,7 +295,14 @@ def test_file_diffs_splits_a_patch_by_path():
         ({"result": {"status": "infra_error"}}, ["scope"], "infra_error"),
         ({"patch": ""}, [], "no_patch"),
         ({}, ["scope"], "refused"),
+        # selfheal-check ran on the patch's code and left no verdict: the fix's fault
         ({"check": None}, [], "failed"),
+        ({"check": None, "judge": "failure"}, [], "failed"),
+        # the job timed out while the patch's code ran: the fix hung
+        ({"check": None, "judge": "started"}, [], "failed"),
+        # the check job broke before selfheal-check ran: nothing was judged
+        ({"check": None, "judge": "skipped"}, [], "check_error"),
+        ({"check": None, "judge": None}, [], "check_error"),
         ({"check": {"passed": False, "results": [], "headlines": []}}, [], "failed"),
     ],
 )
@@ -382,6 +404,7 @@ def test_the_pr_job_fails_on_an_infrastructure_failure_after_reporting_it():
         "Record the attempt on the outlet's issue"
     )
     assert "infra_error" in failing[0]["if"]
+    assert "check_error" in failing[0]["if"]
     assert "exit 1" in failing[0]["run"]
 
 
@@ -406,3 +429,30 @@ def test_only_the_pr_job_holds_the_app_key():
     for name, job in JOBS.items():
         holds = "SELFHEAL_APP_PRIVATE_KEY" in yaml.safe_dump(job)
         assert holds == (name == "pr"), name
+
+
+def test_the_check_job_records_whether_selfheal_check_ran():
+    """Without it, a check job broken before the judge reads as a failed fix."""
+    steps = _steps("check")
+    (judge,) = [s for s in steps if s.get("id") == "judge"]
+    assert "poe selfheal-check" in judge["run"]
+    (started,) = [s for s in steps if "outcome started" in s.get("run", "")]
+    assert "judge.json" in started["run"]
+    (record,) = [s for s in steps if "steps.judge.outcome" in yaml.safe_dump(s)]
+    assert "judge.json" in record["run"]
+    assert "!cancelled()" in record["if"]
+    names = [s.get("name") for s in steps]
+    assert names.index(started["name"]) < names.index(judge["name"])
+    assert names.index(judge["name"]) < names.index(record["name"])
+    assert names.index(record["name"]) < names.index("Keep the evidence")
+
+
+def test_every_job_installing_canary_runs_on_an_image_playwright_supports():
+    """`ubuntu-latest` moved to 26.04, where Playwright has no Chromium."""
+    found = []
+    for path in sorted((_ROOT / ".github/workflows").glob("*.y*ml")):
+        for name, job in yaml.safe_load(path.read_text())["jobs"].items():
+            if any("canary install" in s.get("run", "") for s in job["steps"]):
+                found.append(name)
+                assert job["runs-on"] == "ubuntu-24.04", (path.name, name)
+    assert sorted(found) == ["check", "spike"]

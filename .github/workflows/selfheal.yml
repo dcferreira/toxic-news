@@ -297,7 +297,9 @@ jobs:
       !cancelled()
       && needs.prepare.result == 'success'
       && needs.prepare.outputs.outlets != '[]'
-    runs-on: ubuntu-latest
+    # not ubuntu-latest: that is 26.04 now, which Playwright, under canary,
+    # has no Chromium for
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     permissions:
       contents: read
@@ -389,9 +391,16 @@ jobs:
           sudo cp -r "$RUNNER_TEMP/inputs" /srv/selfheal/inputs
           sudo chmod -R a+rX /srv/selfheal/inputs
 
+      # The record step overwrites it; it stays `started` only if the job times
+      # out while the judge runs the patch's code, which the pr job calls failed
+      - name: Mark the judge as started
+        if: steps.patch.outputs.found
+        run: jq -n --arg outcome started '{$outcome}' > "$EVIDENCE/judge.json"
+
       # From here on the patch's code runs, imported by the checker, so the
       # verdict is advisory: a human reads the patch before anything merges.
       - name: Judge the fix
+        id: judge
         if: steps.patch.outputs.found
         env:
           PRESERVE_ENV: OUTLET
@@ -405,6 +414,14 @@ jobs:
         if: ${{ !cancelled() && steps.patch.outputs.found }}
         run: |
           .github/selfheal-sandbox.sh get out/check.json "$EVIDENCE/check.json"
+
+      # `skipped` if a step before it broke (canary's install, say): the pr job
+      # then calls it a check that never ran, not a fix that failed
+      - name: Record whether selfheal-check ran
+        if: ${{ !cancelled() && steps.patch.outputs.found }}
+        env:
+          JUDGE: ${{ steps.judge.outcome }}
+        run: jq -n --arg outcome "$JUDGE" '{$outcome}' > "$EVIDENCE/judge.json"
 
       # The screenshot is made by this trusted checkout, from the XPath the
       # patch wrote, read as text from the runner's own patched copy, which
@@ -631,8 +648,9 @@ jobs:
           gh pr edit "$url" --add-label selfheal --add-label "selfheal:$OUTLET"
 
       # The marker in the comment holds the outlet back for a week, unless
-      # DeepSeek or the harness failed (`infra_error`): that comment has a
-      # marker of its own, which holds nothing back.
+      # DeepSeek or the harness failed (`infra_error`) or the check job broke
+      # before judging (`check_error`): that comment has a marker of its own,
+      # which holds nothing back.
       - name: Record the attempt on the outlet's issue
         if: >-
           !cancelled()
@@ -654,15 +672,24 @@ jobs:
           gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file comment.md
 
       # DeepSeek or the harness failed (a 402 Insufficient Balance, say), so
-      # nothing was tried: that is a failed run, whatever the issue says.
+      # nothing was tried, or the check job broke before judging the fix: that
+      # is a failed run, whatever the issue says.
       - name: Fail the run on an infrastructure failure
-        if: ${{ !cancelled() && steps.outcome.outputs.outcome == 'infra_error' }}
+        if: >-
+          !cancelled()
+          && contains(fromJSON('["infra_error", "check_error"]'), steps.outcome.outputs.outcome)
+        env:
+          OUTCOME: ${{ steps.outcome.outputs.outcome }}
         run: |
-          reason=$(jq -r '.explanation // "unknown"' "$EVIDENCE/result.json" | head -n 1)
+          if [ "$OUTCOME" = check_error ]; then
+            reason="the check job failed before selfheal-check ran"
+          else
+            reason=$(jq -r '.explanation // "unknown"' "$EVIDENCE/result.json" | head -n 1)
+          fi
           echo "::error::Self-fix of $OUTLET failed on infrastructure, not on the outlet: $reason"
           {
             echo "### $OUTLET: infrastructure failure"
             echo
-            echo "No fix was tried, and no attempt is counted: ${reason//[\`]/}"
+            echo "No fix was judged, and no attempt is counted: ${reason//[\`]/}"
           } >> "$GITHUB_STEP_SUMMARY"
           exit 1

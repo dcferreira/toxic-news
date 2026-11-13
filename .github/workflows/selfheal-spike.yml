@@ -32,7 +32,8 @@ env:
 
 jobs:
   spike:
-    runs-on: ubuntu-latest
+    # not ubuntu-latest: that is 26.04 now, which Playwright has no Chromium for
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Check out the code
