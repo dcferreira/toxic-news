@@ -1,0 +1,170 @@
+[
+  [
+    "Washington Urges Israel to Scale Down Its War in Gaza",
+    "https://www.nytimes.com/2023/12/14/us/politics/israel-gaza-hamas-us.html"
+  ],
+  [
+    "Images and videos captured by satellite show Gazan cemeteries razed by Israeli forces.",
+    "https://www.nytimes.com/2023/12/14/world/middleeast/gaza-cemeteries-damage-israel.html"
+  ],
+  [
+    "A U.N. official said desperate and hungry Gazans are intercepting aid trucks as the situation grows more dire.",
+    "https://www.nytimes.com/live/2023/12/14/world/israel-hamas-war-gaza-news"
+  ],
+  [
+    "E.U. Leaders Agree to Open Membership Negotiations with Ukraine",
+    "https://www.nytimes.com/2023/12/14/world/europe/eu-ukraine-hungary-aid.html"
+  ],
+  [
+    "In his annual news conference, a confident Vladimir Putin suggested he had a winning hand in Ukraine.",
+    "https://www.nytimes.com/2023/12/14/world/europe/putin-news-conference-russia-ukraine.html"
+  ],
+  [
+    "Vladimir Putin suggested Western support for Ukraine was waning. Here are other takeaways from his conference.",
+    "https://www.nytimes.com/2023/12/14/world/europe/putin-speech-russia.html"
+  ],
+  [
+    "A German intelligence official, accused of selling secrets to Russia, is on trial under stringent security conditions.",
+    "https://www.nytimes.com/2023/12/14/world/europe/germany-spy-trial-russia.html"
+  ],
+  [
+    "The Fall of Penn\u2019s President Brings Campus Free Speech to a Crossroads",
+    "https://www.nytimes.com/2023/12/14/us/college-campus-free-speech-antisemitism.html"
+  ],
+  [
+    "Hanukkah\u2019s Lesson of Light",
+    "https://www.nytimes.com/2023/12/14/us/israel-gaza-war-hanukkah-menorah-holiday-antisemitism.html"
+  ],
+  [
+    "Unconventional Trial Judge Could Remove Trump From His N.Y. Empire",
+    "https://www.nytimes.com/2023/12/14/nyregion/trump-fraud-trial-judge.html"
+  ],
+  [
+    "The Supreme Court is now entangled in the election interference case against former President Trump.",
+    "https://www.nytimes.com/2023/12/14/briefing/supreme-court-trump-trial.html"
+  ],
+  [
+    "House Passes Defense Bill, Clearing It for Biden",
+    "https://www.nytimes.com/2023/12/14/us/politics/defense-bill-congress.html"
+  ],
+  [
+    "Congress ordered the release of U.F.O. records, but stopped short of directing more aggressive disclosure steps.",
+    "https://www.nytimes.com/2023/12/14/us/politics/congress-ufos-defense-pentagon.html"
+  ],
+  [
+    "My Jewish Charlie Brown Christmas",
+    "https://www.nytimes.com/2023/12/14/arts/television/a-charlie-brown-christmas.html"
+  ],
+  [
+    "Why Aren\u2019t More Women Offered Relief for IUD Pain?",
+    "https://www.nytimes.com/2023/12/14/well/live/iud-insertion-pain-relief.html"
+  ],
+  [
+    "Trump Has Delayed Justice His Whole Life. Not This Time.",
+    "https://www.nytimes.com/2023/12/14/opinion/supreme-court-trump-delay.html"
+  ],
+  [
+    "This Is How Long Covid Picks Apart Your Mind and Breaks Your Heart",
+    "https://www.nytimes.com/interactive/2023/12/14/opinion/my-life-with-long-covid.html"
+  ],
+  [
+    "Liz Cheney Is Very Worried",
+    "https://www.nytimes.com/2023/12/14/opinion/trump-liz-cheney-memoir.html"
+  ],
+  [
+    "To Support Ukraine, Persuade the Elephant",
+    "https://www.nytimes.com/2023/12/14/opinion/america-ukraine-russia-support.html"
+  ],
+  [
+    "Probably the Best Movie I\u2019ve Ever Seen About Book Publishing",
+    "https://www.nytimes.com/2023/12/14/opinion/american-fiction-identity.html"
+  ],
+  [
+    "The Real Reason Ron DeSantis\u2019s Campaign Is Rotting",
+    "https://www.nytimes.com/2023/12/14/opinion/ron-desantis-2024-trump.html"
+  ],
+  [
+    "America\u2019s Thirst for Authoritarianism",
+    "https://www.nytimes.com/2023/12/13/opinion/trump-authoritarian.html"
+  ],
+  [
+    "How Ireland Woke Up to Its Far-Right Problem",
+    "https://www.nytimes.com/2023/12/14/opinion/ireland-far-right.html"
+  ],
+  [
+    "Social Media Is a Mess. Government Meddling Would Only Make It Worse.",
+    "https://www.nytimes.com/2023/12/14/opinion/supreme-court-social-media.html"
+  ],
+  [
+    "Attention! There\u2019s Life Beyond the Digital.",
+    "https://www.nytimes.com/2023/12/14/opinion/attention-digital-life.html"
+  ],
+  [
+    "\u2018The Entire System Sets You Up to Fail, and Then Blames You for Failing\u2019",
+    "https://www.nytimes.com/2023/12/13/opinion/addiction-policy-treatment-opioid.html"
+  ],
+  [
+    "American Students Outperformed the Rest of the World During the Pandemic",
+    "https://www.nytimes.com/2023/12/13/opinion/learning-loss-test-results-covid.html"
+  ],
+  [
+    "Black Students Are Being Trained to Think They Can\u2019t Handle Discomfort",
+    "https://www.nytimes.com/2023/12/13/opinion/universities-antisemitism-racism-harvard.html"
+  ],
+  [
+    "What Worries Me About the Gaza War After My Trip to Arab States",
+    "https://www.nytimes.com/2023/12/12/opinion/israel-gaza-saudi-arabia.html"
+  ],
+  [
+    "\u2018Couples Therapy,\u2019 but for Politics",
+    "https://www.nytimes.com/2023/12/13/opinion/paid-family-leave-bipartisan.html"
+  ],
+  [
+    "Confront the Evidence of Sexual Violence on Oct. 7. The Horrors of This War Are Not Either/Or.",
+    "https://www.nytimes.com/2023/12/13/opinion/hamas-violence-women-israel.html"
+  ],
+  [
+    "The Upshot",
+    "https://www.nytimes.com/2023/12/14/upshot/pedestrian-deaths-cars-night.html"
+  ],
+  [
+    "Here\u2019s why anti-Trump Republicans can\u2019t get on the same page.",
+    "https://www.nytimes.com/2023/12/14/podcasts/run-up-anti-trump-republicans.html"
+  ],
+  [
+    "A British Boy, Missing for 6 Years, Turns Up in France",
+    "https://www.nytimes.com/2023/12/14/world/europe/british-boy-alex-batty-missing-found-france.html"
+  ],
+  [
+    "Andre Braugher Died of Lung Cancer, His Publicist Says",
+    "https://www.nytimes.com/2023/12/14/arts/television/andre-braugher-cause-of-death-lung-cancer.html"
+  ],
+  [
+    "Mistrust Looms Over PGA Tour as Deadline for Saudi Deal Nears",
+    "https://www.nytimes.com/2023/12/14/business/pga-tour-liv-golf-saudi-board.html"
+  ],
+  [
+    "Sorry for the Delay. The Train Has to Steer Clear of a Bull.",
+    "https://www.nytimes.com/2023/12/14/nyregion/bull-on-tracks-nj-transit.html"
+  ],
+  [
+    "Fashion in the City Where the Heat Is On",
+    "https://www.nytimes.com/2023/12/14/style/miami-art-basel-beach-fashion.html"
+  ],
+  [
+    "\u2018Wonka\u2019: Willy When He Was Young and Oh So Sweet",
+    "https://www.nytimes.com/2023/12/14/movies/wonka-review-timothee-chalamet.html"
+  ],
+  [
+    "\u2018The Crown\u2019 Season 6, Part 2: Getting Back to Granny",
+    "https://www.nytimes.com/2023/12/14/arts/television/the-crown-review-season-6.html"
+  ],
+  [
+    "Caribbean Splurge: A Sailboat of Your Own (Well, Sort of)",
+    "https://www.nytimes.com/2023/12/12/travel/caribbean-sailboat-charters.html"
+  ],
+  [
+    "An N.F.L. Agent Looks the Part and Steals the Show",
+    "https://www.nytimes.com/2023/12/12/style/tommy-devito-agent-sean-stellato.html"
+  ]
+]
