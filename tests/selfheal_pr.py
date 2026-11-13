@@ -11,6 +11,9 @@ here reads files as data. Its inputs, all under one `--evidence` directory:
 - `result.json`, `patch.diff`: what the fix session left;
 - `check.json`: `poe selfheal-check --json` on the patched checkout, run as an
   unprivileged user; the patch's code ran there, so it is evidence, not proof;
+- `judge.json`: `{"outcome": ...}`, the check job's step that runs
+  selfheal-check (`success`, `failure`, or `skipped` when an earlier step
+  broke), so a check job that broke before it is not read as a failed fix;
 - `outline.json`, `pixels.json`: the screenshot's counts, and how many of its
   outlines were found in the pixels.
 
@@ -107,6 +110,8 @@ class Evidence:
     check: dict[str, Any] | None
     outline: dict[str, Any] | None
     pixels: dict[str, Any] | None
+    #: how the check job's step running selfheal-check ended, if it said
+    judge: str | None = None
 
     @classmethod
     def read(cls, directory: Path) -> "Evidence":
@@ -130,6 +135,7 @@ class Evidence:
             check=load("check.json"),
             outline=load("outline.json"),
             pixels=load("pixels.json"),
+            judge=(load("judge.json") or {}).get("outcome"),
         )
 
     @property
@@ -358,6 +364,10 @@ def outcome(evidence: Evidence, gate_problems: Sequence[str]) -> str:
         return "no_patch"
     if gate_problems:
         return "refused"
+    # selfheal-check never ran: the check job broke on its own setup (say, a
+    # runner image Playwright has no browser for), which judges nothing
+    if evidence.check is None and evidence.judge not in ("success", "failure"):
+        return "check_error"
     if not evidence.passed:
         return "failed"
     return "pr"
@@ -373,6 +383,7 @@ OUTCOMES = {
     "failed": "left a fix that fails `selfheal-check`",
     "no_patch": "left no patch",
     "infra_error": "could not run the agent",
+    "check_error": "could not judge the fix",
 }
 
 
@@ -396,6 +407,16 @@ def render_comment(
             "What went wrong:",
             "",
             _quote(evidence.result.get("explanation")),
+        ]
+        return "\n".join([*lines, "", infra_marker(day)]) + "\n"
+    if outcome == "check_error":
+        lines = [
+            (
+                f"The [self-fix loop]({run_url}) could not judge the fix it made "
+                f"for this on {day}: its check job failed before `selfheal-check` "
+                "ran (see the run), which says nothing about the fix. This is "
+                "not counted as an attempt, so the next run tries again."
+            ),
         ]
         return "\n".join([*lines, "", infra_marker(day)]) + "\n"
     if outcome == "pr":
