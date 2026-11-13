@@ -1,0 +1,98 @@
+[
+  [
+    "Silicon Valley Start-Ups Face a Future Without Jensen Huang\u2019s Money",
+    "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html"
+  ],
+  [
+    "The Fall of Jensen Huang",
+    "https://www.nytimes.com/interactive/2026/11/13/technology/nvidia-jensen-huang.html"
+  ],
+  [
+    "Wall Street Has Lost a Consummate Dealmaker",
+    "https://www.nytimes.com/2026/11/13/business/jensen-huang-nvidia-wall-street.html"
+  ],
+  [
+    "Microsoft\u2019s Global Outage and Fixes: What We Know",
+    "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html"
+  ],
+  [
+    "Trump Signals New Strategy on Iran: A Waiting Game",
+    "https://www.nytimes.com/2026/11/13/us/politics/trump-iran-strategy.html"
+  ],
+  [
+    "Why Silicon Valley\u2019s Knives Came Out for Anthropic",
+    "https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html"
+  ],
+  [
+    "Wall Street Braces for Anthropic\u2019s Aggressive Spending",
+    "https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html"
+  ],
+  [
+    "In \u2018Promise Me, America,\u2019 Joe Biden Finds No Faults of His Own",
+    "https://www.nytimes.com/2026/11/13/books/review/promise-me-america-joe-biden.html"
+  ],
+  [
+    "Even Scott Colom\u2019s Backers Were Skeptical. Here\u2019s How He Won in Mississippi.",
+    "https://www.nytimes.com/2026/11/13/us/politics/scott-colom-mississippi-democrat-defied-odds.html"
+  ],
+  [
+    "A Restaurant Hosted Ramaswamy After His Attack Ad. It\u2019s Paying a Price.",
+    "https://www.nytimes.com/2026/11/13/us/medina-ohio-boycott-restaurant-ramaswamy.html"
+  ],
+  [
+    "Why New England\u2019s Republican Governors Withstood the Blue Wave",
+    "https://www.nytimes.com/2026/11/12/us/scott-vermont-ayotte-nh-governor-republican.html"
+  ],
+  [
+    "5 Muscles to Strengthen as You Age",
+    "https://www.nytimes.com/2026/11/13/well/move/important-muscles-longevity-advice.html"
+  ],
+  [
+    "The Boss, the Bribe and the Newspaper That Couldn\u2019t Be Bought",
+    "https://www.nytimes.com/2026/11/13/nyregion/boss-tweed-new-york-times-nyc-history.html"
+  ],
+  [
+    "Caught Between Killers: Ebola on One Side, Islamic State on the Other",
+    "https://www.nytimes.com/2026/11/13/world/africa/ebola-congo-isis.html"
+  ],
+  [
+    "The Rise and Fall of LIV Golf: How a $5 Billion Illusion Met Reality",
+    "https://www.nytimes.com/athletic/7774064/2026/11/13/liv-golf-what-happened-shut-down-bankruptcy/"
+  ],
+  [
+    "Jensen Huang Is Gone. Good.",
+    "https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia.html"
+  ],
+  [
+    "Hasan Piker Has Joined the Party",
+    "https://www.nytimes.com/2026/11/13/opinion/ezra-klein-podcast-hasan-piker.html"
+  ],
+  [
+    "The Swingiest State Has Gone Very Red",
+    "https://www.nytimes.com/2026/11/13/opinion/florida-republicans-democrats.html"
+  ],
+  [
+    "We Just Witnessed an Electoral Regicide",
+    "https://www.nytimes.com/2026/11/13/opinion/midterms-election-government.html"
+  ],
+  [
+    "After the Fall",
+    "https://www.nytimes.com/2026/11/13/briefing/jensen-huang.html"
+  ],
+  [
+    "Sister June Carpenter, the Oldest Shaker, Has Died",
+    "https://www.nytimes.com/2026/11/13/us/june-carpenter-dead.html"
+  ],
+  [
+    "Border Crossings to the U.S. Have Plummeted. Stephen Miller Isn\u2019t Satisfied.",
+    "https://www.nytimes.com/2026/11/13/world/americas/stephen-miller-mexico-immigration.html"
+  ],
+  [
+    "Eisenkot Accuses Netanyahu of Fueling \u2018Racist\u2019 Hostility Against Arabs",
+    "https://www.nytimes.com/2026/11/13/world/middleeast/eisenkot-netanyahu-racism-arabs.html"
+  ],
+  [
+    "Fewer Fed Meetings Raise Stakes of Warsh\u2019s Communications",
+    "https://www.nytimes.com/2026/11/13/business/federal-reserve-meetings-warsh.html"
+  ]
+]
