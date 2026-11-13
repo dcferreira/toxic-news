@@ -180,6 +180,15 @@ def get_dated_xpath_fn(*xpaths: DatedXpath) -> HeadlinesFn:
 
 def nytimes_fn(content: str, base_url: str, request_date: datetime) -> HeadlinesFnOut:
     """Return the NYT front-page headlines, minus the games and puzzles promos."""
+    # Where the front page links its games promos; new games keep appearing,
+    # so these go by link rather than by name.
+    games_paths = (
+        "/games/",
+        "/puzzles/",
+        "/crosswords",
+        "/spotlight/connections-companion",
+        "/athletic/connections-sports-edition",
+    )
     ignore_list = {
         "Spelling Bee",
         "The Crossword",
@@ -198,13 +207,30 @@ def nytimes_fn(content: str, base_url: str, request_date: datetime) -> Headlines
         ),
         DatedXpath(
             from_date=datetime(2022, 3, 16, tzinfo=timezone.utc),
+            # Only linked ones: late-2023 pages put unlinked summaries in the
+            # same `h3`, which used to crash the extractor.
             headline_xpath="//section[contains(@class, 'story-wrapper')]//"
-            "h3[contains(@class, 'indicate-hover')]",
+            "h3[contains(@class, 'indicate-hover') and ancestor::a]",
+            href_xpath="ancestor::a",
+        ),
+        # On 2023-12-14, between 15:00 and 16:10 UTC going by the Wayback
+        # Machine, the headlines became `p.indicate-hover` inside the story
+        # links, no longer always under a `story-wrapper` section. Dated to
+        # the hour, so that day's noon page still gets the older XPath.
+        DatedXpath(
+            from_date=datetime(2023, 12, 14, 16, tzinfo=timezone.utc),
+            headline_xpath="//a//p[contains(concat(' ', @class, ' '), "
+            "' indicate-hover ') and normalize-space()]",
             href_xpath="ancestor::a",
         ),
     )
     headlines = f(content, base_url=base_url, request_date=request_date)
-    return [x for x in headlines if x[0] not in ignore_list]
+    return [
+        x
+        for x in headlines
+        if x[0] not in ignore_list
+        and not urllib.parse.urlsplit(x[1]).path.startswith(games_paths)
+    ]
 
 
 newspapers = [
@@ -282,7 +308,10 @@ newspapers = [
         language="en",
         url="https://www.nytimes.com/",
         get_headlines_fn=nytimes_fn,
-        expected_headlines=67,
+        # The page since the 2023-12-14 redesign carries 24-46 stories (Wayback
+        # samples from 2024 to 2026, and the page the Update run got on
+        # 2026-11-13); the 2023 layout carried about 67.
+        expected_headlines=33,
     ),
     Newspaper(
         name="New York Post",

@@ -1,0 +1,210 @@
+[
+  [
+    "Israel\u2019s War Cabinet Reflects the National Consensus, for Now",
+    "https://www.nytimes.com/2023/12/14/world/middleeast/israel-war-cabinet-gaza-netanyahu.html"
+  ],
+  [
+    "A top adviser to President Biden is set to arrive in Israel.",
+    "https://www.nytimes.com/live/2023/12/14/world/israel-hamas-war-gaza-news"
+  ],
+  [
+    "For Benjamin Netanyahu, a disagreement with President Biden over Gaza offers both risk and reward.",
+    "https://www.nytimes.com/2023/12/13/world/middleeast/netanyahu-biden-israel-hamas-war.html"
+  ],
+  [
+    "Migrant children work as roofers, the House votes on the President Biden impeachment inquiry and more.",
+    "https://www.nytimes.com/2023/12/14/podcasts/child-labor-biden-impeachment.html"
+  ],
+  [
+    "In Annual News Conference, Putin Says His War Aims Have Not Changed",
+    "https://www.nytimes.com/2023/12/14/world/europe/putin-speech-russia.html"
+  ],
+  [
+    "Is the U.S. Federal Reserve Pulling Off a Soft Landing?",
+    "https://www.nytimes.com/2023/12/14/business/economy/jerome-powell-soft-landing.html"
+  ],
+  [
+    "The markets are rallying ahead of anticipated Fed rate cuts. But don\u2019t get swept away yet, our columnist writes.",
+    "https://www.nytimes.com/2023/12/14/business/economy/markets-federal-reserve-stocks-bonds.html"
+  ],
+  [
+    "House Approves Biden Impeachment Inquiry as G.O.P. Hunts for an Offense",
+    "https://www.nytimes.com/2023/12/13/us/politics/biden-impeachment-inquiry-house-vote.html"
+  ],
+  [
+    "The Senate overwhelmingly passed an $886 billion defense bill, defying the demands of hard-right Republicans.",
+    "https://www.nytimes.com/2023/12/13/us/senate-defense-bill.html"
+  ],
+  [
+    "Got time for milk? An overwhelmed House, somehow, does.",
+    "https://www.nytimes.com/2023/12/13/us/politics/house-congress-milk.html"
+  ],
+  [
+    "Losing Hair, Gaining Followers",
+    "https://www.nytimes.com/2023/12/13/style/hair-loss-tiktok.html"
+  ],
+  [
+    "Who Gets the Water in California? Whoever Gets There First.",
+    "https://www.nytimes.com/interactive/2023/12/14/climate/california-water-crisis-drought.html"
+  ],
+  [
+    "Unconventional Trial Judge Could Remove Trump From His N.Y. Empire",
+    "https://www.nytimes.com/2023/12/14/nyregion/trump-fraud-trial-judge.html"
+  ],
+  [
+    "A judge paused Donald Trump\u2019s federal election case as an appeals court reviewed his claims of presidential immunity.",
+    "https://www.nytimes.com/2023/12/13/us/politics/trump-immunity-decision-election-case.html"
+  ],
+  [
+    "Rudy Giuliani \u201cjust messed me up,\u201d a Georgia election worker testified to a jury.",
+    "https://www.nytimes.com/2023/12/13/us/politics/rudy-giuliani-ruby-freeman.html"
+  ],
+  [
+    "Children Risk Their Lives Building America\u2019s Roofs",
+    "https://www.nytimes.com/interactive/2023/12/14/us/roofing-children-immigrants.html"
+  ],
+  [
+    "Behind the Birth of an Anti-Vaccine Story",
+    "https://www.nytimes.com/2023/12/13/technology/covid-anti-vaccine.html"
+  ],
+  [
+    "The Failed Promise of Police Body Cameras",
+    "https://www.nytimes.com/2023/12/13/magazine/police-body-cameras-miguel-richards.html"
+  ],
+  [
+    "Police-worn body cameras have not lived up to expectations, a Times investigation found.",
+    "https://www.nytimes.com/2023/12/14/briefing/police-body-cameras.html"
+  ],
+  [
+    "The Supreme Court Can Stop Trump\u2019s Delay Game",
+    "https://www.nytimes.com/2023/12/14/opinion/supreme-court-trump-delay.html"
+  ],
+  [
+    "1,374 Days: My Life With Long Covid",
+    "https://www.nytimes.com/interactive/2023/12/14/opinion/my-life-with-long-covid.html"
+  ],
+  [
+    "America\u2019s Thirst for Authoritarianism",
+    "https://www.nytimes.com/2023/12/13/opinion/trump-authoritarian.html"
+  ],
+  [
+    "Liz Cheney\u2019s Checkered History",
+    "https://www.nytimes.com/2023/12/14/opinion/trump-liz-cheney-memoir.html"
+  ],
+  [
+    "The Truth in \u2018American Fiction\u2019",
+    "https://www.nytimes.com/2023/12/14/opinion/american-fiction-identity.html"
+  ],
+  [
+    "Ireland Thought It Was Immune to the Far Right. It Was Wrong.",
+    "https://www.nytimes.com/2023/12/14/opinion/ireland-far-right.html"
+  ],
+  [
+    "Social Media Is a Mess. Government Meddling Would Only Make It Worse.",
+    "https://www.nytimes.com/2023/12/14/opinion/supreme-court-social-media.html"
+  ],
+  [
+    "Black Students Are Being Trained to Think They Can\u2019t Handle Discomfort",
+    "https://www.nytimes.com/2023/12/13/opinion/universities-antisemitism-racism-harvard.html"
+  ],
+  [
+    "\u2018The Entire System Sets You Up to Fail, and Then Blames You for Failing\u2019",
+    "https://www.nytimes.com/2023/12/13/opinion/addiction-policy-treatment-opioid.html"
+  ],
+  [
+    "What Worries Me About the Gaza War After My Trip to Arab States",
+    "https://www.nytimes.com/2023/12/12/opinion/israel-gaza-saudi-arabia.html"
+  ],
+  [
+    "\u2018Couples Therapy,\u2019 but for Politics",
+    "https://www.nytimes.com/2023/12/13/opinion/paid-family-leave-bipartisan.html"
+  ],
+  [
+    "Confront the Evidence of Sexual Violence on Oct. 7. The Horrors of This War Are Not Either/Or.",
+    "https://www.nytimes.com/2023/12/13/opinion/hamas-violence-women-israel.html"
+  ],
+  [
+    "Europe May Be Headed for Something Unthinkable",
+    "https://www.nytimes.com/2023/12/13/opinion/european-union-far-right.html"
+  ],
+  [
+    "American Students Outperformed the Rest of the World During the Pandemic",
+    "https://www.nytimes.com/2023/12/13/opinion/learning-loss-test-results-covid.html"
+  ],
+  [
+    "How to Hold an Anticapitalist Art Auction",
+    "https://www.nytimes.com/2023/12/13/opinion/penny-pinch-art-capitalism.html"
+  ],
+  [
+    "Trump \u2018Could Tip an Already Fragile World Order Into Chaos\u2019",
+    "https://www.nytimes.com/2023/12/13/opinion/trump-russia-china-iran.html"
+  ],
+  [
+    "Listen to the full episode",
+    "https://www.nytimes.com/2023/12/14/podcasts/run-up-anti-trump-republicans.html"
+  ],
+  [
+    "Listen to the full episode",
+    "https://www.nytimes.com/2023/12/14/podcasts/the-daily/texas-abortion-ban.html"
+  ],
+  [
+    "Inside the Border Talks That Could Decide the Fate of Ukraine Aid",
+    "https://www.nytimes.com/2023/12/13/us/politics/congress-biden-border-ukraine.html"
+  ],
+  [
+    "Retail Theft Suspects Argue That Discount Prices Apply in Court, Too",
+    "https://www.nytimes.com/2023/12/13/us/kohls-theft-colorado-prison.html"
+  ],
+  [
+    "Andre Braugher Let You Hear Him Think",
+    "https://www.nytimes.com/2023/12/13/arts/television/andre-braugher-appraisal.html"
+  ],
+  [
+    "Oprah Winfrey Says She Is on Weight Loss Drug and \u2018Done With the Shaming\u2019",
+    "https://www.nytimes.com/2023/12/13/well/oprah-winfrey-weight-loss-medication.html"
+  ],
+  [
+    "Pro-China YouTube Network Used A.I. to Malign U.S., Report Finds",
+    "https://www.nytimes.com/2023/12/14/business/media/pro-china-youtube-disinformation.html"
+  ],
+  [
+    "U.S. Education Dept. Is Investigating Six More Colleges Over Campus Discrimination",
+    "https://www.nytimes.com/2023/12/13/us/politics/education-department-campus-discrimination.html"
+  ],
+  [
+    "Scientists Pinpoint Cause of Severe Morning Sickness",
+    "https://www.nytimes.com/2023/12/13/health/morning-sickness-hyperemesis-gravidarum.html"
+  ],
+  [
+    "Morning Person? You Might Have Neanderthal Genes to Thank.",
+    "https://www.nytimes.com/2023/12/14/science/neanderthal-sleep-morning-people.html"
+  ],
+  [
+    "Australian Court Tosses Conviction of Mother Accused of Killing 4 of Her Children",
+    "https://www.nytimes.com/2023/12/13/world/australia/australia-folbigg-conviction-overturned.html"
+  ],
+  [
+    "Greta Gerwig to Head Cannes Film Festival Jury",
+    "https://www.nytimes.com/2023/12/14/movies/greta-gerwig-cannes-jury.html"
+  ],
+  [
+    "How to Design a Girl Group",
+    "https://www.nytimes.com/2023/12/06/style/humberto-leon-girl-group.html"
+  ],
+  [
+    "Bringing a Classic Cuban Record to Life",
+    "https://www.nytimes.com/2023/12/13/theater/buena-vista-social-club-review.html"
+  ],
+  [
+    "Tammy Nguyen, Maximalist at Play",
+    "https://www.nytimes.com/2023/12/13/arts/design/tammy-nyugen-paintings-ica-boston.html"
+  ],
+  [
+    "A \u2018Gilded Age\u2019 Star Cuts Her Own Path",
+    "https://www.nytimes.com/2023/12/13/arts/television/louisa-jacobson-gilded-age.html"
+  ],
+  [
+    "Kevin Hart and Chris Rock Team Up",
+    "https://www.nytimes.com/2023/12/12/movies/kevin-hart-chris-rock-headliners-only-review.html"
+  ]
+]
